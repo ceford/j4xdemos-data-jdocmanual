@@ -1,4 +1,4 @@
-<!-- Help4.x:Start_Here -->
+<!-- Filename: Help4.x:Start_Here / Display title: Start Here -->
 
 Joomla!  4.x
 
