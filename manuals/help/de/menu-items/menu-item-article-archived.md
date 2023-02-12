@@ -1,29 +1,29 @@
-<!-- Display title: Menu Item: Article Archived -->
+<!-- Filename: Help4.x:Menu_Item:_Article_Archived / Display title: Menüeintrag: Archivierte Beiträge -->
 
 ## Beschreibung
 
-Zeigt eine angepasste Liste nach Datum oder Titel geordneter BeitrÃ¤ge.
+Zeigt eine angepasste Liste nach Datum oder Titel geordneter Beiträge.
 
-Archivierte BeitrÃ¤ge sind nicht mehr verÃ¶ffentlicht, bleiben aber auf
-der Website gespeichert. BeitrÃ¤ge werden Ã¼ber
-[BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles/de "Help4.x:Articles/de")
-archiviert. Hinweis: BeitrÃ¤ge der Kategorie 'Unkategorisiert' werden
-nicht im MenÃ¼eintrag archivierter BeitrÃ¤ge gezeigt.
+Archivierte Beiträge sind nicht mehr veröffentlicht, bleiben aber auf
+der Website gespeichert. Beiträge werden über
+[Beiträge](https://docs.joomla.org/Help4.x:Articles/de "Help4.x:Articles/de")
+archiviert. Hinweis: Beiträge der Kategorie 'Unkategorisiert' werden
+nicht im Menüeintrag archivierter Beiträge gezeigt.
 
 ## Wie darauf zugreifen
 
-**MenÃ¼s **→** \[Name des MenÃ¼s\]**
+**Menüs **→** \[Name des Menüs\]**
 
-Einen MenÃ¼eintrag hinzufÃ¼gen:
+Einen Menüeintrag hinzufügen:
 
 1.  auf den Button **Neu** der Werkzeugleiste klicken.
-2.  bei 'MenÃ¼eintragstyp' auf den Button **AuswÃ¤hlen** klicken.
-3.  **BeitrÃ¤ge** wÃ¤hlen.
-4.  **Archivierte BeitrÃ¤ge** wÃ¤hlen.
+2.  bei 'Menüeintragstyp' auf den Button **Auswählen** klicken.
+3.  **Beiträge** wählen.
+4.  **Archivierte Beiträge** wählen.
 
-Einen MenÃ¼eintrag bearbeiten:
+Einen Menüeintrag bearbeiten:
 
-- einen **Titel** aus der Liste wÃ¤hlen.
+- einen **Titel** aus der Liste wählen.
 
 ## Bildschirmfoto
 
@@ -36,8 +36,8 @@ alt="Help-4x-Menus-Item-Articles-Article-Archived-screen-de.png" />
 
 ## Formular Felder
 
-- **Titel**. Der Titel, der fÃ¼r den MenÃ¼eintrag gezeigt wird.
-- **Alias**. Der interne Name des MenÃ¼eintrags. Das Feld kann
+- **Titel**. Der Titel, der für den Menüeintrag gezeigt wird.
+- **Alias**. Der interne Name des Menüeintrags. Das Feld kann
   leergelassen werden und Joomla wird den Standardwert Titel in
   Kleinbuchstaben und Bindestrichen statt Leerzeichen eintragen. [Mehr
   erfahren.](https://docs.joomla.org/Alias/de "Alias/de")
@@ -46,23 +46,22 @@ alt="Help-4x-Menus-Item-Articles-Article-Archived-screen-de.png" />
 
 **Linke Seite**
 
-- **MenÃ¼eintragstyp**. Der MenÃ¼eintragstyp wird beim Erstellen des
-  MenÃ¼eintrages gewÃ¤hlt. Das kann einer der Core-MenÃ¼eintragstypen
-  oder ein MenÃ¼eintragstyp einer installierten Erweiterung sein.
-- **Kategorie**. Eine oder mehrere Kategorien auswÃ¤hlen.
-- **Link**. Vom System erstellter Link fÃ¼r den MenÃ¼eintrag. Das Feld
-  kann nicht verÃ¤ndert werden, es dient ausschlieÃŸlich der
-  Information.
-- **Zielfenster**. Aus der Dropdown-Liste wÃ¤hlen.
-- **Template-Stil**. Aus der Dropdown-Liste wÃ¤hlen.
+- **Menüeintragstyp**. Der Menüeintragstyp wird beim Erstellen des
+  Menüeintrages gewählt. Das kann einer der Core-Menüeintragstypen oder
+  ein Menüeintragstyp einer installierten Erweiterung sein.
+- **Kategorie**. Eine oder mehrere Kategorien auswählen.
+- **Link**. Vom System erstellter Link für den Menüeintrag. Das Feld
+  kann nicht verändert werden, es dient ausschließlich der Information.
+- **Zielfenster**. Aus der Dropdown-Liste wählen.
+- **Template-Stil**. Aus der Dropdown-Liste wählen.
 
 **Rechte Seite**
 
-- **MenÃ¼**. Zeigt, in welchem MenÃ¼ der Link erscheinen wird.
+- **Menü**. Zeigt, in welchem Menü der Link erscheinen wird.
 
 ### Archiv
 
-Die Auswahl "Global" Ã¼bernimmt Einstellungen aus [BeitrÃ¤ge:
+Die Auswahl "Global" übernimmt Einstellungen aus [Beiträge:
 Optionen](https://docs.joomla.org/Help4.x:Articles:_Options/de "Help4.x:Articles: Options/de").
 
 <img
@@ -73,18 +72,14 @@ data-file-width="2880" data-file-height="1089" width="600" height="227"
 alt="Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-de.png" />
 
 - **Beitragssortierung**.
-  - Ã„ltesten zuerst: Die Sortierung beginnt mit dem Ã¤ltesten und endet
+  - Ältesten zuerst: Die Sortierung beginnt mit dem ältesten und endet
     mit dem neuesten Beitrag.
   - Neuesten zuerst: Die Sortierung beginnt mit dem neuesten und endet
-    mit dem Ã¤ltesten Beitrag.
-  - Titel von A bis Z: BeitrÃ¤ge nach Titel alphabetisch sortiert
-    zeigen.
-  - Titel von Z bis A: BeitrÃ¤ge nach Titel alphabetisch sortiert
-    zeigen.
-  - Autor von A bis Z: BeitrÃ¤ge nach Autor alphabetisch sortiert
-    zeigen.
-  - Autor von Z bis A: BeitrÃ¤ge nach Autor alphabetisch sortiert
-    zeigen.
+    mit dem ältesten Beitrag.
+  - Titel von A bis Z: Beiträge nach Titel alphabetisch sortiert zeigen.
+  - Titel von Z bis A: Beiträge nach Titel alphabetisch sortiert zeigen.
+  - Autor von A bis Z: Beiträge nach Autor alphabetisch sortiert zeigen.
+  - Autor von Z bis A: Beiträge nach Autor alphabetisch sortiert zeigen.
   - Meisten Zugriffe: Die Sortierung beginnt mit dem Beitrag mit den
     meisten Zugriffen und endet mit dem Beitrag mit den wenigsten
     Zugriffen.
@@ -92,22 +87,21 @@ alt="Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-de.png" />
     wenigsten Zugriffen und endet mit dem Beitrag mit den meisten
     Zugriffen.
   - Reihenfolge: Die Sortierung entspricht der Spalte 'Reihenfolge' in
-    [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles/de#ordering "Help4.x:Articles/de").
-- **Sortierdatum**. Sortierdatum, wenn BeitrÃ¤ge nach Datum sortiert
+    [Beiträge](https://docs.joomla.org/Help4.x:Articles/de#ordering "Help4.x:Articles/de").
+- **Sortierdatum**. Sortierdatum, wenn Beiträge nach Datum sortiert
   sind.
   - Erstellt: Das Erstellungsdatum des Beitrages verwenden.
   - Bearbeitet: Das Bearbeitungsdatum des Beitrages verwenden.
-  - VerÃ¶ffentlicht: Das VerÃ¶ffentlichungsdatum des Beitrages
-    verwenden.
-- **\# BeitrÃ¤ge**. Die Anzahl der BeitrÃ¤ge, die in der Liste gezeigt
+  - Veröffentlicht: Das Veröffentlichungsdatum des Beitrages verwenden.
+- **\# Beiträge**. Die Anzahl der Beiträge, die in der Liste gezeigt
   werden.
-- **Filterfeld**. Besucher kÃ¶nnen im Frontend BeitrÃ¤ge filtern.
-- **Max. LÃ¤nge des Einleitungstexts**. Die maximale Zahl an Buchstaben
-  eingeben. Der Einleitungstext wird auf diese Anzahl verkÃ¼rzt.
+- **Filterfeld**. Besucher können im Frontend Beiträge filtern.
+- **Max. Länge des Einleitungstexts**. Die maximale Zahl an Buchstaben
+  eingeben. Der Einleitungstext wird auf diese Anzahl verkürzt.
 
 ### Optionen
 
-Die Optionen legen fest, wie BeitrÃ¤ge im Frontend gezeigt werden.
+Die Optionen legen fest, wie Beiträge im Frontend gezeigt werden.
 
 <img
 src="https://docs.joomla.org/images/thumb/3/33/Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-de.png/600px-Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-de.png"
@@ -122,17 +116,17 @@ alt="Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-de.png" />
   - Anzeigen: Der Beitrag wird inklusive Einleitungstext gezeigt.
   - Verbergen: Der Beitrag wird ohne Einleitungstext gezeigt.
 - **Position der Beitragsinfo**.
-  - Beitragseinstellungen verwenden: Die Einstellung aus [BeitrÃ¤ge:
+  - Beitragseinstellungen verwenden: Die Einstellung aus [Beiträge:
     Bearbeiten](https://docs.joomla.org/Help4.x:Articles:_Edit/de "Help4.x:Articles: Edit/de")
-    verwenden.Damit sind unterschiedliche Einstellungen fÃ¼r BeitrÃ¤ge
-    im Layout mÃ¶glich.
-  - DarÃ¼ber: Der Block mit den Beitragsinformationen steht oberhalb des
+    verwenden.Damit sind unterschiedliche Einstellungen für Beiträge im
+    Layout möglich.
+  - Darüber: Der Block mit den Beitragsinformationen steht oberhalb des
     Beitrags.
   - Darunter: Der Block mit den Beitragsinformationen steht unterhalb
     des Beitrags.
   - Aufteilen: Die Beitragsinformationen werden in einen Block oberhalb
     und einen Block unterhalb des Beitrags aufgeteilt.
-- **Beitragsinfotitel**. Zeigt 'Details' Ã¼ber dem Block der
+- **Beitragsinfotitel**. Zeigt 'Details' über dem Block der
   Beitragsinformation an.
 
 **Kategorie**
@@ -140,13 +134,13 @@ alt="Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-de.png" />
 - **Kategorie**. Den Kategorietitel des Beitrags zeigen.
 - **Kategorie verlinken**. Den Kategorietitel als Link zeigen.Hinweis:
   Im Tab 'Kategorie' kann mit [Layout
-  auswÃ¤hlen](https://docs.joomla.org/Help4.x:Articles:_Options/de#choosealayout "Help4.x:Articles: Options/de")
+  auswählen](https://docs.joomla.org/Help4.x:Articles:_Options/de#choosealayout "Help4.x:Articles: Options/de")
   'Blog' oder 'Liste' festgelegt werden.
-- **Ãœbergeordnete Kategorie**. Den Titel der Ã¼bergeordneten Kategorie
+- **Übergeordnete Kategorie**. Den Titel der übergeordneten Kategorie
   des Beitrages zeigen.
-- **Ãœbergeordnete Kategorie verlinken**. Den Kategorietitel als Link
+- **Übergeordnete Kategorie verlinken**. Den Kategorietitel als Link
   zeigen.Hinweis: Im Tab 'Kategorie' kann mit [Layout
-  auswÃ¤hlen](https://docs.joomla.org/Help4.x:Articles:_Options/de#choosealayout "Help4.x:Articles: Options/de")
+  auswählen](https://docs.joomla.org/Help4.x:Articles:_Options/de#choosealayout "Help4.x:Articles: Options/de")
   'Blog' oder 'Liste' festgelegt werden.
 - **Titel verlinken**. Den Titel als Link zeigen.
 
@@ -164,28 +158,28 @@ alt="Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-de.png" />
 
 - **Erstellungsdatum**. Das Erstellungsdatum des Beitrages zeigen.
 - **Bearbeitungsdatum**. Das Bearbeitungsdatum des Beitrages zeigen.
-- **VerÃ¶ffentlichungsdatum**. Das VerÃ¶ffentlichungsdatum des Beitrages
+- **Veröffentlichungsdatum**. Das Veröffentlichungsdatum des Beitrages
   zeigen.
 
 **Optionen**
 
-- **Seitennavigation**. Zeigt die Navigationslinks 'ZurÃ¼ck' oder
+- **Seitennavigation**. Zeigt die Navigationslinks 'Zurück' oder
   'Weiter', wenn der Beitrag gezeigt wird.
 - **Zugriffe**. Zeigt, wie oft der Beitrag von Benutzern aufgerufen
   wurde.
 
 ### Allgemeine Optionen
 
-Siehe [MenÃ¼s: Neuer
+Siehe [Menüs: Neuer
 Eintrag](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de "Help4.x:Menu Item: New Item/de")
-fÃ¼r Hilfe zu Feldern, die bei allen MenÃ¼eintragstypen gleich sind:
+für Hilfe zu Feldern, die bei allen Menüeintragstypen gleich sind:
 
 - [Rechte
   Seite](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de#rightpanel "Help4.x:Menu Item: New Item/de")
 - [Linktyp](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de#linktype "Help4.x:Menu Item: New Item/de")
 - [Seitenanzeige](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de#pagedisplay "Help4.x:Menu Item: New Item/de")
 - [Metadaten](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de#metadata "Help4.x:Menu Item: New Item/de")
-- [VerknÃ¼pfungen](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de#associations "Help4.x:Menu Item: New Item/de")
+- [Verknüpfungen](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de#associations "Help4.x:Menu Item: New Item/de")
 - [Modulzuweisung](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de#moduleassignment "Help4.x:Menu Item: New Item/de")
 
 ## Werkzeugleiste
@@ -193,23 +187,23 @@ fÃ¼r Hilfe zu Feldern, die bei allen MenÃ¼eintragstypen gleich sind:
 Das [Bildschirmfoto](#screenshot) zeigt die Werkzeugleiste im oberen
 Bereich.
 
-- **Speichern**. Speichert den MenÃ¼eintrag und bleibt auf der aktuellen
+- **Speichern**. Speichert den Menüeintrag und bleibt auf der aktuellen
   Seite.
-- **Speichern & SchlieÃŸen**. Speichert den MenÃ¼eintrag und schlieÃŸt
-  die aktuelle Seite.
-  - **Speichern & Neu**. Speichert den MenÃ¼eintrag und hÃ¤lt die Seite
+- **Speichern & Schließen**. Speichert den Menüeintrag und schließt die
+  aktuelle Seite.
+  - **Speichern & Neu**. Speichert den Menüeintrag und hält die Seite
     offen, damit ein neuer Eintrag erstellt werden kann.
-- **Abbrechen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck.
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
-- Archivierte BeitrÃ¤ge ermÃ¶glichen den Zugriff auf alte oder
-  abgelaufene BeitrÃ¤ge, ohne sie von der Site zu entfernen.
-- Um alte BeitrÃ¤ge in einem Kategorieblog oder -liste zu sehen eine
-  Kategorie erstellen und die BeitrÃ¤ge dorthin verschieben statt den
-  VerÃ¶ffentlichungsstatus der BeitrÃ¤ge auf 'Archiviert' zu Ã¤ndern.
+- Archivierte Beiträge ermöglichen den Zugriff auf alte oder abgelaufene
+  Beiträge, ohne sie von der Site zu entfernen.
+- Um alte Beiträge in einem Kategorieblog oder -liste zu sehen eine
+  Kategorie erstellen und die Beiträge dorthin verschieben statt den
+  Veröffentlichungsstatus der Beiträge auf 'Archiviert' zu ändern.
 
 ## Verwandte Informationen
 
@@ -217,18 +211,18 @@ Bereich.
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.
 
-|                                                                                                                                                                              |                                                                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Verwandte Hilfeseiten                                                                                                                                                        | Beschreibung                                                                                                                                                                                                       |
-| [BeitrÃ¤ge: Optionen](https://docs.joomla.org/Help4.x:Articles:_Options/de "Help4.x:Articles: Options/de")                                                                   | Festlegen globaler Standardwerte fÃ¼r MenÃ¼eintrÃ¤ge, die BeitrÃ¤ge anzeigen. Diese Werte werden verwendet, wenn in einem MenÃ¼eintrag 'Global' als Option ausgewÃ¤hlt wird.                                       |
-| [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles/de "Help4.x:Articles/de")                                                                                               | Die Beitragsliste wird verwendet, um BeitrÃ¤ge zu finden, zu markieren, hinzuzufÃ¼gen und zu bearbeiten.                                                                                                           |
-| [BeitrÃ¤ge: Bearbeiten](https://docs.joomla.org/Help4.x:Articles:_Edit/de "Help4.x:Articles: Edit/de")                                                                       | Hier werden BeitrÃ¤ge hinzugefÃ¼gt und bearbeitet. AuÃŸerdem lÃ¤sst sich die Kategorie fÃ¼r einen Beitrag auswÃ¤hlen und festlegen, ob er verÃ¶ffentlicht wird und auf der Startseite erscheint.                   |
-| [BeitrÃ¤ge: HauptbeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Featured/de "Help4.x:Articles: Featured/de")                                                           | Dient zur Steuerung, welche 'HauptbeitrÃ¤ge' in welcher Reihenfolge auf der Startseite angezeigt werden.                                                                                                           |
-| [BeitrÃ¤ge: Kategorien](https://docs.joomla.org/Help4.x:Articles:_Categories/de "Help4.x:Articles: Categories/de")                                                           | Die Liste der Beitragskategorien wird verwendet, um Kategorien fÃ¼r BeitrÃ¤ge zu finden, hinzuzufÃ¼gen und zu bearbeiten.                                                                                          |
-| <span class="mw-selflink selflink">MenÃ¼: Archivierte BeitrÃ¤ge</span>                                                                                                       | Zeigt eine angepasste Liste nach Datum oder Titel geordneter BeitrÃ¤ge. Archivierte BeitrÃ¤ge sind nicht mehr verÃ¶ffentlicht, bleiben aber auf der Website gespeichert.                                           |
-| [MenÃ¼: Kategorieblog](https://docs.joomla.org/Help4.x:Menu_Item:_Category_Blog/de "Help4.x:Menu Item: Category Blog/de")                                                    | Zeigt BeitrÃ¤ge einer Kategorie im Blog-Layout. Steuert fÃ¼hrende und einleitende BeitrÃ¤ge sowie zusÃ¤tzliche Links zu BeitrÃ¤gen.                                                                                |
-| [MenÃ¼: Kategorieliste](https://docs.joomla.org/Help4.x:Menu_Item:_Category_List/de "Help4.x:Menu Item: Category List/de")                                                   | Zeigt eine Liste von BeitrÃ¤gen einer Kategorie in einem Listenlayout an.                                                                                                                                          |
-| [MenÃ¼: Beitrag erstellen](https://docs.joomla.org/Help4.x:Menu_Item:_Create_Article/de "Help4.x:Menu Item: Create Article/de")                                              | ErmÃ¶glicht es Benutzern, einen Beitrag zu verfassen. Normalerweise steht dies nur angemeldeten Benutzern im Frontend der Website zur VerfÃ¼gung. Benutzer mÃ¼ssen die Berechtigung haben, BeitrÃ¤ge zu erstellen. |
-| [MenÃ¼: HauptbeitrÃ¤ge](https://docs.joomla.org/Help4.x:Menu_Item:_Featured_Articles/de "Help4.x:Menu Item: Featured Articles/de")                                           | Dient zur Anzeige der als 'HauptbeitrÃ¤ge' markierten BeitrÃ¤ge. Die BeitrÃ¤ge werden in einem Blog-Layout angezeigt.                                                                                              |
-| [MenÃ¼: Alle Kategorien in einer Beitragskategorie auflisten](https://docs.joomla.org/Help4.x:Menu_Item:_List_All_Categories/de "Help4.x:Menu Item: List All Categories/de") | Dient zur Anzeige einer hierarchischen Liste von Kategorien. Je nach den gewÃ¤hlten Optionen fÃ¼r dieses Format kann man auf den Namen einer Kategorie klicken, um die BeitrÃ¤ge in dieser Kategorie anzuzeigen.   |
-| [MenÃ¼: Einzelner Beitrag](https://docs.joomla.org/Help4.x:Menu_Item:_Single_Article/de "Help4.x:Menu Item: Single Article/de")                                              | Dient zur Anzeige eines einzelnen Beitrags.                                                                                                                                                                        |
+|                                                                                                                                                                             |                                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Verwandte Hilfeseiten                                                                                                                                                       | Beschreibung                                                                                                                                                                                                   |
+| [Beiträge: Optionen](https://docs.joomla.org/Help4.x:Articles:_Options/de "Help4.x:Articles: Options/de")                                                                   | Festlegen globaler Standardwerte für Menüeinträge, die Beiträge anzeigen. Diese Werte werden verwendet, wenn in einem Menüeintrag 'Global' als Option ausgewählt wird.                                         |
+| [Beiträge](https://docs.joomla.org/Help4.x:Articles/de "Help4.x:Articles/de")                                                                                               | Die Beitragsliste wird verwendet, um Beiträge zu finden, zu markieren, hinzuzufügen und zu bearbeiten.                                                                                                         |
+| [Beiträge: Bearbeiten](https://docs.joomla.org/Help4.x:Articles:_Edit/de "Help4.x:Articles: Edit/de")                                                                       | Hier werden Beiträge hinzugefügt und bearbeitet. Außerdem lässt sich die Kategorie für einen Beitrag auswählen und festlegen, ob er veröffentlicht wird und auf der Startseite erscheint.                      |
+| [Beiträge: Hauptbeiträge](https://docs.joomla.org/Help4.x:Articles:_Featured/de "Help4.x:Articles: Featured/de")                                                            | Dient zur Steuerung, welche 'Hauptbeiträge' in welcher Reihenfolge auf der Startseite angezeigt werden.                                                                                                        |
+| [Beiträge: Kategorien](https://docs.joomla.org/Help4.x:Articles:_Categories/de "Help4.x:Articles: Categories/de")                                                           | Die Liste der Beitragskategorien wird verwendet, um Kategorien für Beiträge zu finden, hinzuzufügen und zu bearbeiten.                                                                                         |
+| <span class="mw-selflink selflink">Menü: Archivierte Beiträge</span>                                                                                                        | Zeigt eine angepasste Liste nach Datum oder Titel geordneter Beiträge. Archivierte Beiträge sind nicht mehr veröffentlicht, bleiben aber auf der Website gespeichert.                                          |
+| [Menü: Kategorieblog](https://docs.joomla.org/Help4.x:Menu_Item:_Category_Blog/de "Help4.x:Menu Item: Category Blog/de")                                                    | Zeigt Beiträge einer Kategorie im Blog-Layout. Steuert führende und einleitende Beiträge sowie zusätzliche Links zu Beiträgen.                                                                                 |
+| [Menü: Kategorieliste](https://docs.joomla.org/Help4.x:Menu_Item:_Category_List/de "Help4.x:Menu Item: Category List/de")                                                   | Zeigt eine Liste von Beiträgen einer Kategorie in einem Listenlayout an.                                                                                                                                       |
+| [Menü: Beitrag erstellen](https://docs.joomla.org/Help4.x:Menu_Item:_Create_Article/de "Help4.x:Menu Item: Create Article/de")                                              | Ermöglicht es Benutzern, einen Beitrag zu verfassen. Normalerweise steht dies nur angemeldeten Benutzern im Frontend der Website zur Verfügung. Benutzer müssen die Berechtigung haben, Beiträge zu erstellen. |
+| [Menü: Hauptbeiträge](https://docs.joomla.org/Help4.x:Menu_Item:_Featured_Articles/de "Help4.x:Menu Item: Featured Articles/de")                                            | Dient zur Anzeige der als 'Hauptbeiträge' markierten Beiträge. Die Beiträge werden in einem Blog-Layout angezeigt.                                                                                             |
+| [Menü: Alle Kategorien in einer Beitragskategorie auflisten](https://docs.joomla.org/Help4.x:Menu_Item:_List_All_Categories/de "Help4.x:Menu Item: List All Categories/de") | Dient zur Anzeige einer hierarchischen Liste von Kategorien. Je nach den gewählten Optionen für dieses Format kann man auf den Namen einer Kategorie klicken, um die Beiträge in dieser Kategorie anzuzeigen.  |
+| [Menü: Einzelner Beitrag](https://docs.joomla.org/Help4.x:Menu_Item:_Single_Article/de "Help4.x:Menu Item: Single Article/de")                                              | Dient zur Anzeige eines einzelnen Beitrags.                                                                                                                                                                    |

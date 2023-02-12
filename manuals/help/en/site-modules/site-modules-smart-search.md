@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Smart_Search -->
+<!-- Filename: Help4.x:Site_Modules:_Smart_Search / Display title: Site Modules: Smart Search -->
 
 ## Description
 

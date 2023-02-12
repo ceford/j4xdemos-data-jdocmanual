@@ -1,4 +1,4 @@
-<!-- Help4.x:Private_Messages:_Write -->
+<!-- Filename: Help4.x:Private_Messages:_Write / Display title: Private Messages: Write -->
 
 ## Description
 

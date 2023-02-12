@@ -1,23 +1,23 @@
-<!-- Display title: Templates: Customise -->
+<!-- Filename: Help4.x:Templates:_Customise / Display title: Templates: Anpassen -->
 
 ## Beschreibung
 
 Hier kann der Quellcode eines Templates bearbeitet werden. Von diesem
 Bildschirm aus werden die Masterdateien und Stylesheets des Templates
-geÃ¤ndert und angepasst.
+geändert und angepasst.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ die Option **System **→** Templates **→** Site
-  Templates** wÃ¤hlen oder ...
-- im Administrator-MenÃ¼ die Option
-  **System **→** Templates **→** Administrator Templates** wÃ¤hlen. Dann
+- Im Administrator-Menü die Option **System **→** Templates **→** Site
+  Templates** wählen oder ...
+- im Administrator-Menü die Option
+  **System **→** Templates **→** Administrator Templates** wählen. Dann
   ...
-  - aus der Spalte **Templates** einen Template-Namen auswÃ¤hlen.
+  - aus der Spalte **Templates** einen Template-Namen auswählen.
 
 ## Bildschirmfoto
 
-Die Seiten fÃ¼r die Administrator- und Site-Templates verwenden dasselbe
+Die Seiten für die Administrator- und Site-Templates verwenden dasselbe
 Layout. Hier ist die Seite mit dem Site-Template abgebildet.
 
 <img
@@ -31,28 +31,28 @@ alt="Help-4x-Extensions-Template-Manager-Templates-Edit-screen-de.png" />
 
 ### Editor
 
-- Eine Datei zur Bearbeitung auswÃ¤hlen. Der Bearbeitungsbereich zeigt
+- Eine Datei zur Bearbeitung auswählen. Der Bearbeitungsbereich zeigt
   die Text-Syntax bei bestimmten Dateitypen farblich hervorgehobenen an.
 
 ### Overrides erstellen
 
-- Ein Element auswÃ¤hlen, das Ã¼bersteuert werden soll. Das erfolgt
-  sofort und ohne RÃ¼ckfrage zur BestÃ¤tigung. Die Ãœberschreibung wird
-  an der entsprechenden Position eingefÃ¼gt. Falls ein Override fÃ¼r
+- Ein Element auswählen, das übersteuert werden soll. Das erfolgt sofort
+  und ohne Rückfrage zur Bestätigung. Die Überschreibung wird an der
+  entsprechenden Position eingefügt. Falls ein Override für
   mod_whosonline vorgenommen werden soll, erscheint beispielsweise
   folgende Nachricht:
 
 ### Aktualisierte Dateien
 
 Wenn es seit der Erstellung der Overrides keine Aktualisierungen an dem
-Template gegeben hat, enthÃ¤lt dieser Bereich eine einfache Meldung:
+Template gegeben hat, enthält dieser Bereich eine einfache Meldung:
 
-- **Hinweis:** Die Ã¼berschriebenen Dateien sind auf dem neuesten Stand.
+- **Hinweis:** Die überschriebenen Dateien sind auf dem neuesten Stand.
   Durch die letzten Erweiterungs- und Joomla-Aktualisierungen wurde
-  nichts geÃ¤ndert.
+  nichts geändert.
 
 Wenn es Aktualisierungen gegeben hat, zeigt eine Tabelle eine Liste der
-Overrides an, die Ã¼berprÃ¼ft werden mÃ¼ssen.
+Overrides an, die überprüft werden müssen.
 
 ### Template-Beschreibung
 
@@ -60,30 +60,30 @@ Overrides an, die Ã¼berprÃ¼ft werden mÃ¼ssen.
 
 ## Werkzeugleiste
 
-**Hinweis:** Die SchaltflÃ¤chen der Symbolleiste Ã¤ndern sich, wenn eine
-Datei zur Bearbeitung ausgewÃ¤hlt wird.
+**Hinweis:** Die Schaltflächen der Symbolleiste ändern sich, wenn eine
+Datei zur Bearbeitung ausgewählt wird.
 
-### Keine Datei ausgewÃ¤hlt
+### Keine Datei ausgewählt
 
 Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Template kopieren**. Das aktuelle Template unter neuem Namen
-  kopieren. Diese Option dient dazu, eine vollstÃ¤ndig neue Kopie des
+  kopieren. Diese Option dient dazu, eine vollständig neue Kopie des
   Templates zu erstellen. Es erscheint eine Abfrage zur Eingabe eines
-  neuen Template-Namens. Sie bietet auch die MÃ¶glichkeit zum
-  SchlieÃŸen, ohne ein neues Template zu erstellen. Um das neue Template
-  zu entfernen: Geht man Ã¼ber Erweiterungen -\> Verwalten, markiert Sie
-  das KontrollkÃ¤stchen Template und wÃ¤hlt in der Symbolleiste
+  neuen Template-Namens. Sie bietet auch die Möglichkeit zum Schließen,
+  ohne ein neues Template zu erstellen. Um das neue Template zu
+  entfernen: Geht man über Erweiterungen -\> Verwalten, markiert Sie das
+  Kontrollkästchen Template und wählt in der Symbolleiste
   Deinstallieren.
 
 <!-- -->
 
-- **Template-Vorschau**. Diese Option Ã¶ffnet die Standardansicht der
+- **Template-Vorschau**. Diese Option öffnet die Standardansicht der
   Website mit diesem Template.
-- **Verzeichnisse verwalten**. Diese Option ermÃ¶glicht das Anlegen
-  eines neuen Verzeichnisses innerhalb der Template-Hierarchie. Es
-  erscheint ein Popup-Fenster:
+- **Verzeichnisse verwalten**. Diese Option ermöglicht das Anlegen eines
+  neuen Verzeichnisses innerhalb der Template-Hierarchie. Es erscheint
+  ein Popup-Fenster:
 
 <img
 src="https://docs.joomla.org/images/thumb/b/be/Help-4x-Extensions-Template-Manager-Templates-Edit-new-folder-dialog-de.png/500px-Help-4x-Extensions-Template-Manager-Templates-Edit-new-folder-dialog-de.png"
@@ -92,7 +92,7 @@ srcset="https://docs.joomla.org/images/thumb/b/be/Help-4x-Extensions-Template-Ma
 data-file-width="1189" data-file-height="697" width="500" height="293"
 alt="Help-4x-Extensions-Template-Manager-Templates-Edit-new-folder-dialog-de.png" />
 
-- **Neue Datei** AuswÃ¤hlen um eine Datei neu zu erstellen oder vom
+- **Neue Datei** Auswählen um eine Datei neu zu erstellen oder vom
   lokalen Computer in die Joomla! Template-Hierarchie hochzuladen. Es
   erscheint ein Popup-Fenster:
 
@@ -111,34 +111,34 @@ alt="Help-4x-Extensions-Template-Manager-Templates-Edit-upload-file-dialog-de.pn
 
 <!-- -->
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
-### Datei ausgewÃ¤hlt
+### Datei ausgewählt
 
 - **Speichern**. Speichert den Eintrag und bleibt auf der aktuellen
   Seite.
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **Datei umbenennen.** Eine Datei zur Bearbeitung auswÃ¤hlen. DrÃ¼cken
-  der SchaltflÃ¤che â€žDatei umbenennenâ€œ, um zur Eingabe eines neuen
-  Namens zu gelangen.
+- **Datei umbenennen.** Eine Datei zur Bearbeitung auswählen. Drücken
+  der Schaltfläche „Datei umbenennen“, um zur Eingabe eines neuen Namens
+  zu gelangen.
 
 <!-- -->
 
-- **Datei lÃ¶schen.** Es erscheint eine Aufforderung zum BestÃ¤tigen
-  oder Abbrechen.
+- **Datei löschen.** Es erscheint eine Aufforderung zum Bestätigen oder
+  Abbrechen.
 
 <!-- -->
 
@@ -147,18 +147,18 @@ alt="Help-4x-Extensions-Template-Manager-Templates-Edit-upload-file-dialog-de.pn
 
 <!-- -->
 
-- **Datei schlieÃŸen.** SchlieÃŸt die geÃ¶ffnete Datei und kehrt zum
-  Reiter â€žEditorâ€œ zurÃ¼ck.
+- **Datei schließen.** Schließt die geöffnete Datei und kehrt zum Reiter
+  „Editor“ zurück.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
 - Bevor die HTML- und CSS-Dateien des Templates bearbeitet werden, ist
   es sinnvoll, ein Backup der betreffenden Datei, zu erstellen. Diese
-  Dateien kÃ¶nnen auch auÃŸerhalb von Joomla! mit einem beliebigen HTML-
+  Dateien können auch außerhalb von Joomla! mit einem beliebigen HTML-
   oder CSS-Editor bearbeitet werden.
 
 ## Verwandte Informationen

@@ -1,4 +1,4 @@
-<!-- Help4.x:Privacy:_Extension_Capabilities -->
+<!-- Filename: Help4.x:Privacy:_Extension_Capabilities / Display title: Privacy: Extension Capabilities -->
 
 ## Description
 

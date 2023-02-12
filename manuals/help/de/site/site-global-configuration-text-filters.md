@@ -1,4 +1,4 @@
-<!-- Display title: Site Global Configuration Text Filters -->
+<!-- Filename: Help4.x:Site_Global_Configuration_Text_Filters / Display title: Konfiguration: Textfilter -->
 
  **←** 
 [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#textfilters "Help4.x:Site Global Configuration/de")

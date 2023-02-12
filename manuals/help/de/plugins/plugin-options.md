@@ -1,15 +1,15 @@
-<!-- Display title: Plugin: Options -->
+<!-- Filename: Help4.x:Plugin:_Options / Display title: Plugin: Optionen -->
 
 ## Beschreibung
 
-Die Konfiguration der Plugin-Optionen stellt die globalen Parameter fÃ¼r
+Die Konfiguration der Plugin-Optionen stellt die globalen Parameter für
 alle Plugins ein.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ die Option
-  **System **→** Verwalten **→** Plugins** wÃ¤hlen. Dann...
-  - die SchaltflÃ¤che **Optionen** in der Symbolleiste anklicken.
+- Im Administrator-Menü die Option
+  **System **→** Verwalten **→** Plugins** wählen. Dann...
+  - die Schaltfläche **Optionen** in der Symbolleiste anklicken.
 
 ## Bildschirmfoto
 
@@ -24,37 +24,37 @@ alt="Help-4x-Components-Plugins-Options-de.png" />
 
 ### Berechtigungen
 
-Um Berechtigungen dieser Erweiterung zu Ã¤ndern:
+Um Berechtigungen dieser Erweiterung zu ändern:
 
 - Die **Gruppe** durch Anklicken des Namens auf der linken Seite
-  auswÃ¤hlen.
-- Die gewÃ¼nschte **Aktion** aussuchen. MÃ¶gliche Aktionen sind:
-  - **ACL & Optionen konfigurieren**. ErmÃ¶glicht Benutzern das
+  auswählen.
+- Die gewünschte **Aktion** aussuchen. Mögliche Aktionen sind:
+  - **ACL & Optionen konfigurieren**. Ermöglicht Benutzern das
     Bearbeiten der Optionen und Berechtigungen (ACL) dieser Erweiterung.
-  - **Nur Optionen konfigurieren**. ErmÃ¶glicht Benutzern die Optionen,
-    auÃŸer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
-  - **Administrationszugriff.** Benutzer kÃ¶nnen auf die
-    Administrator-OberflÃ¤che dieser Erweiterung zugreifen.
-  - **Erstellen:** ErmÃ¶glicht Benutzern das Erstellen von Inhalten
+  - **Nur Optionen konfigurieren**. Ermöglicht Benutzern die Optionen,
+    außer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
+  - **Administrationszugriff.** Benutzer können auf die
+    Administrator-Oberfläche dieser Erweiterung zugreifen.
+  - **Erstellen:** Ermöglicht Benutzern das Erstellen von Inhalten
     dieser Erweiterung.
-  - **LÃ¶schen:** ErmÃ¶glicht Benutzern das LÃ¶schen von Inhalten dieser
+  - **Löschen:** Ermöglicht Benutzern das Löschen von Inhalten dieser
     Erweiterung.
-  - **Bearbeiten:** Benutzer kÃ¶nnen den Inhalt dieser Erweiterung
+  - **Bearbeiten:** Benutzer können den Inhalt dieser Erweiterung
     bearbeiten.
   - **Status bearbeiten**. Der Benutzer kann den Status der
-    VerÃ¶ffentlichung und die zugehÃ¶rigen Informationen zum Inhalt
-    dieser Erweiterung Ã¤ndern.
-  - **Eigene Inhalte bearbeiten:** ErmÃ¶glicht Benutzern das Bearbeiten
+    Veröffentlichung und die zugehörigen Informationen zum Inhalt dieser
+    Erweiterung ändern.
+  - **Eigene Inhalte bearbeiten:** Ermöglicht Benutzern das Bearbeiten
     von selbst erstellten Inhalten in dieser Erweiterung.
-- Die gewÃ¼nschte Berechtigungen der gewÃ¤hlten Aktion aussuchen.
-  MÃ¶gliche Einstellungen sind:
-  - ***Vererbt:*** Vererbt fÃ¼r Benutzer dieser Gruppe von den globalen
+- Die gewünschte Berechtigungen der gewählten Aktion aussuchen. Mögliche
+  Einstellungen sind:
+  - ***Vererbt:*** Vererbt für Benutzer dieser Gruppe von den globalen
     Konfigurationseinstellungen dieser Erweiterung.
-  - ***Erlaubt:*** Erlaubt fÃ¼r Benutzer dieser Gruppe. Wenn diese
-    Aktion auf einer der hÃ¶heren Ebenen verweigert wird, ist die
-    Berechtigung â€žErlaubtâ€œ hier nicht wirksam. Eine
-    Verweigert-Einstellung kann nicht auÃŸer Kraft gesetzt werden.
-  - ***Verweigert***. Verweigert fÃ¼r Benutzer dieser Gruppe.
+  - ***Erlaubt:*** Erlaubt für Benutzer dieser Gruppe. Wenn diese Aktion
+    auf einer der höheren Ebenen verweigert wird, ist die Berechtigung
+    „Erlaubt“ hier nicht wirksam. Eine Verweigert-Einstellung kann nicht
+    außer Kraft gesetzt werden.
+  - ***Verweigert***. Verweigert für Benutzer dieser Gruppe.
 - Auf **Speichern** in der **Werkzeugleiste** oben klicken. Danach
   aktualisiert sich die Anzeige, erst dann werden die errechneten
   Einstellungen angezeigt.
@@ -69,15 +69,15 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.

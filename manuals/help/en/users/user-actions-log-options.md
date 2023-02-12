@@ -1,4 +1,4 @@
-<!-- Help4.x:User_Actions_Log:_Options -->
+<!-- Filename: Help4.x:User_Actions_Log:_Options / Display title: User Actions Log: Options -->
 
 ## Description
 

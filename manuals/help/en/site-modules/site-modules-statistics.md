@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Statistics -->
+<!-- Filename: Help4.x:Site_Modules:_Statistics / Display title: Site Modules: Statistics -->
 
 ## Description
 

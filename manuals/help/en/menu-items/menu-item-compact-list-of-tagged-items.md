@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Compact_List_of_Tagged_Items -->
+<!-- Filename: Help4.x:Menu_Item:_Compact_List_of_Tagged_Items / Display title: Menu Item: Compact List of Tagged Items -->
 
 ## Description
 

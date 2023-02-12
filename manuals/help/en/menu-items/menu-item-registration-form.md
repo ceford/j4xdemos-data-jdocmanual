@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Registration_Form -->
+<!-- Filename: Help4.x:Menu_Item:_Registration_Form / Display title: Menu Item: Registration Form -->
 
 ## Description
 

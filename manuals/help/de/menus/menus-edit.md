@@ -1,17 +1,17 @@
-<!-- Display title: Menus: Edit -->
+<!-- Filename: Help4.x:Menus:_Edit / Display title: Menüs: Bearbeiten -->
 
 ## Beschreibung
 
-Man kann auf dieser Seite MenÃ¼s HinzufÃ¼gen oder Bearbeiten.
+Man kann auf dieser Seite Menüs Hinzufügen oder Bearbeiten.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **MenÃ¼s **→** Verwalten** auswÃ¤hlen, dann ...
-  - die SchaltflÃ¤che **â€ž+ Neuâ€œ** in der Werkzeugleiste wÃ¤hlen, um
-    ein neues MenÃ¼ zu erstellen  
+- Im Administrator-Menü **Menüs **→** Verwalten** auswählen, dann ...
+  - die Schaltfläche **„+ Neu“** in der Werkzeugleiste wählen, um ein
+    neues Menü zu erstellen  
     oder ...
-  - einen MenÃ¼-**Titel** in der Spalte Titel auswÃ¤hlen, um ein
-    vorhandenes MenÃ¼ zu bearbeiten.
+  - einen Menü-**Titel** in der Spalte Titel auswählen, um ein
+    vorhandenes Menü zu bearbeiten.
 
 ## Bildschirmfoto
 
@@ -24,42 +24,40 @@ alt="Help-4x-menus-menu-manager-add-menu-de.png" />
 
 ## Formular Felder
 
-- **Titel.** Der Titel des MenÃ¼s wird in der Administrator-MenÃ¼leiste
+- **Titel.** Der Titel des Menüs wird in der Administrator-Menüleiste
   und -Listen angezeigt.
 
-### MenÃ¼details
+### Menüdetails
 
-- **MenÃ¼typ.** Der Systemname des MenÃ¼s.
-- **Beschreibung.** Eine Beschreibung Ã¼ber den Anwendungszweck des
-  MenÃ¼s.
+- **Menütyp.** Der Systemname des Menüs.
+- **Beschreibung.** Eine Beschreibung über den Anwendungszweck des
+  Menüs.
 
-### MenÃ¼berechtigungen
+### Menüberechtigungen
 
-Hier kÃ¶nnen Berechtigungen fÃ¼r ein MenÃ¼ festgelegt werden, sodass nur
-bestimmte Gruppen das MenÃ¼ Ã¤ndern kÃ¶nnen. Die verfÃ¼gbaren Aktionen
-sind:
+Hier können Berechtigungen für ein Menü festgelegt werden, sodass nur
+bestimmte Gruppen das Menü ändern können. Die verfügbaren Aktionen sind:
 
 - **Administrationszugriff**
 - **Erstellen**
-- **LÃ¶schen**
+- **Löschen**
 - **Bearbeiten**
 - **Status bearbeiten**
 
-Folgende Einstellungen sind jeweils verfÃ¼gbar:
+Folgende Einstellungen sind jeweils verfügbar:
 
 - **Vererbt** bedeutet, dass die Berechtigungen aus der globalen
-  Konfiguration, der Ã¼bergeordneten Gruppe und der Kategorie verwendet
+  Konfiguration, der übergeordneten Gruppe und der Kategorie verwendet
   werden.
 - **Erlaubt** bedeutet, dass die Gruppe, die bearbeitet wird, diese
-  Aktion fÃ¼r dieses Element ausfÃ¼hren kann (wenn dies jedoch in
-  Konflikt mit der globalen Konfiguration, der Ã¼bergeordneten Gruppe
-  oder Kategorie steht, hat es keine Auswirkungen; ein Konflikt wird
-  durch Nicht erlaubt (vererbt) unter â€žErrechnete Einstellungenâ€œ
-  angezeigt).
-- **Verboten** bedeutet, dass die bearbeitete Gruppe, unabhÃ¤ngig von
-  den Einstellungen der globalen Konfiguration, der Ã¼bergeordneten
-  Gruppe oder der Kategorie, diese Aktion fÃ¼r dieses Element nicht
-  durchfÃ¼hren kann.
+  Aktion für dieses Element ausführen kann (wenn dies jedoch in Konflikt
+  mit der globalen Konfiguration, der übergeordneten Gruppe oder
+  Kategorie steht, hat es keine Auswirkungen; ein Konflikt wird durch
+  Nicht erlaubt (vererbt) unter „Errechnete Einstellungen“ angezeigt).
+- **Verboten** bedeutet, dass die bearbeitete Gruppe, unabhängig von den
+  Einstellungen der globalen Konfiguration, der übergeordneten Gruppe
+  oder der Kategorie, diese Aktion für dieses Element nicht durchführen
+  kann.
 
 ## Werkzeugleiste
 
@@ -71,36 +69,36 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **Speichern & Neu**. Speichert den Eintrag und hÃ¤lt die Seite offen,
+- **Speichern & Neu**. Speichert den Eintrag und hält die Seite offen,
   damit ein neuer Eintrag erstellt werden kann.
 
 <!-- -->
 
-- **Abbrechen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck.
+- **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
-- Falls vergessen wurde, ein Modul fÃ¼r dieses MenÃ¼ zu erstellen,
-  Ã¶ffnet man den
+- Falls vergessen wurde, ein Modul für dieses Menü zu erstellen, öffnet
+  man den
   [Modulmanager](https://docs.joomla.org/Help4.x:Modules/de "Help4.x:Modules/de"),
-  indem man zu **Dashboard â†’ Site â†’ Module** geht. Klickt auf
-  **Neu** und dann auf **Navigation â€“ MenÃ¼**. Einen Titel eingeben
-  und das MenÃ¼ bei den Parametern des Modules auswÃ¤hlen.
-- Es ist nÃ¼tzlich, dem neuen MenÃ¼ einen anschaulichen Titel zu geben,
-  da es im "Backend-MenÃ¼" angezeigt wird. Es empfiehlt sich auch, das
-  Feld *Beschreibung* mit Informationen Ã¼ber das MenÃ¼ auszufÃ¼llen.
-  Auf diese Weise wird das Modul des MenÃ¼s im Modul-Manager bezeichnet.
-- Wenn ein neues MenÃ¼ angelegt wird, sollten im Feld *Eindeutiger Name*
+  indem man zu **Dashboard → Site → Module** geht. Klickt auf **Neu**
+  und dann auf **Navigation – Menü**. Einen Titel eingeben und das Menü
+  bei den Parametern des Modules auswählen.
+- Es ist nützlich, dem neuen Menü einen anschaulichen Titel zu geben, da
+  es im "Backend-Menü" angezeigt wird. Es empfiehlt sich auch, das Feld
+  *Beschreibung* mit Informationen über das Menü auszufüllen. Auf diese
+  Weise wird das Modul des Menüs im Modul-Manager bezeichnet.
+- Wenn ein neues Menü angelegt wird, sollten im Feld *Eindeutiger Name*
   nur alphanumerische Zeichen ohne Leerzeichen verwendet werden. Es
   empfiehlt sich, nur die Zeichen a-z, 0-9 und den Unterstrich (\_) zu
   verwenden.

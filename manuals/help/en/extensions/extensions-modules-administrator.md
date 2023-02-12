@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions_Modules_Administrator -->
+<!-- Filename: Help4.x:Extensions_Modules_Administrator / Display title: Extensions Modules Administrator -->
 
 ## Description
 

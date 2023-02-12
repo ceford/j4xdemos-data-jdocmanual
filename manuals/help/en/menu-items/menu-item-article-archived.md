@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Article_Archived -->
+<!-- Filename: Help4.x:Menu_Item:_Article_Archived / Display title: Menu Item: Article Archived -->
 
 ## Description
 

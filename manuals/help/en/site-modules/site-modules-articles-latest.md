@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Articles_-_Latest -->
+<!-- Filename: Help4.x:Site_Modules:_Articles_-_Latest / Display title: Site Modules: Articles - Latest -->
 
 ## Description
 

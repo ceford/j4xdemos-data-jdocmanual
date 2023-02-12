@@ -1,33 +1,31 @@
-<!-- Display title: Menu Item: New Item -->
+<!-- Filename: Help4.x:Menu_Item:_New_Item / Display title: Menüs: Neuer Eintrag -->
 
 ## Beschreibung
 
-MenÃ¼eintrÃ¤ge sind die zentrale Struktur einer Joomla-Website. Jeder
-MenÃ¼eintrag ist ein Link zu einer Webseite. Der MenÃ¼eintragstyp
-bestimmt den anzuzeigenden Seitentyp, wenn dieser vom Benutzer
-ausgewÃ¤hlt wird.
+Menüeinträge sind die zentrale Struktur einer Joomla-Website. Jeder
+Menüeintrag ist ein Link zu einer Webseite. Der Menüeintragstyp bestimmt
+den anzuzeigenden Seitentyp, wenn dieser vom Benutzer ausgewählt wird.
 
-Auf dieser Seite wÃ¤hlt man den MenÃ¼eintragstyp fÃ¼r den MenÃ¼eintrag
-und ergÃ¤nzt Informationen zum MenÃ¼eintrag. Einige dieser Felder sind
-fÃ¼r alle MenÃ¼eintragstypen gleich und in dieser Hilfeseite
-dokumentiert.
+Auf dieser Seite wählt man den Menüeintragstyp für den Menüeintrag und
+ergänzt Informationen zum Menüeintrag. Einige dieser Felder sind für
+alle Menüeintragstypen gleich und in dieser Hilfeseite dokumentiert.
 
-ErgÃ¤nzend zu den gemeinsamen Feldern benÃ¶tigen unterschiedliche
-MenÃ¼eintragstypen eigene Felder. Sie sind in den Hilfeseiten des
-MenÃ¼eintragstyps dokumentiert.
+Ergänzend zu den gemeinsamen Feldern benötigen unterschiedliche
+Menüeintragstypen eigene Felder. Sie sind in den Hilfeseiten des
+Menüeintragstyps dokumentiert.
 
 ## Wie darauf zugreifen
 
-Einen MenÃ¼eintrag hinzufÃ¼gen:
+Einen Menüeintrag hinzufügen:
 
-- **MenÃ¼s **→** \[Name des MenÃ¼s\]**
+- **Menüs **→** \[Name des Menüs\]**
   1.  auf den Button **Neu** der Werkzeugleiste klicken.
-  2.  bei 'MenÃ¼eintragstyp' auf den Button **AuswÃ¤hlen** klicken.
+  2.  bei 'Menüeintragstyp' auf den Button **Auswählen** klicken.
 
-Einen MenÃ¼eintrag bearbeiten:
+Einen Menüeintrag bearbeiten:
 
-- **MenÃ¼s **→** \[Name des MenÃ¼s\]**
-  - einen **Titel** aus der Liste wÃ¤hlen.
+- **Menüs **→** \[Name des Menüs\]**
+  - einen **Titel** aus der Liste wählen.
 
 ## Bildschirmfoto
 
@@ -40,8 +38,8 @@ alt="Help-4x-Menus-New-Item-screen-de.png" />
 
 ## Formular Felder
 
-- **Titel**. Der Titel, der fÃ¼r den MenÃ¼eintrag gezeigt wird.
-- **Alias**. Der interne Name des MenÃ¼eintrags. Normalerweise kann
+- **Titel**. Der Titel, der für den Menüeintrag gezeigt wird.
+- **Alias**. Der interne Name des Menüeintrags. Normalerweise kann
   dieses Feld leergelassen werden und Joomla wird den Standardwert
   'Titel' in Kleinbuchstaben und mit Bindestrichen anstelle von
   Leerzeichen eintragen. [Mehr
@@ -51,50 +49,48 @@ alt="Help-4x-Menus-New-Item-screen-de.png" />
 
 **Linke Seite**
 
-- **MenÃ¼eintragstyp**. Der MenÃ¼eintragstyp wird beim Erstellen des
-  MenÃ¼eintrages gewÃ¤hlt.
-- **Link**. Vom System erstellter Link fÃ¼r den MenÃ¼eintrag. Das Feld
-  kann nicht verÃ¤ndert werden, es dient ausschlieÃŸlich der
-  Information.
-- **Zielfenster**. Aus der Dropdown-Liste wÃ¤hlen.
-- **Template-Stil**. Aus der Dropdown-Liste wÃ¤hlen.
+- **Menüeintragstyp**. Der Menüeintragstyp wird beim Erstellen des
+  Menüeintrages gewählt.
+- **Link**. Vom System erstellter Link für den Menüeintrag. Das Feld
+  kann nicht verändert werden, es dient ausschließlich der Information.
+- **Zielfenster**. Aus der Dropdown-Liste wählen.
+- **Template-Stil**. Aus der Dropdown-Liste wählen.
 
 **Rechte Seite**
 
-- **MenÃ¼**. Zeigt, in welchem MenÃ¼ der Link erscheinen wird.
-- **Ãœbergeordneter Eintrag**. Der Ã¼bergeordnete Eintrag des
-  MenÃ¼eintrags. Bestimmt, ob ein MenÃ¼eintrag zur obersten Ebene
-  gehÃ¶rt oder ein UntermenÃ¼eintrag ist. 'Oberste MenÃ¼ebene' (der
-  Standardwert) wÃ¤hlen, wenn es sich um einen Eintrag oberster Ebene
-  handelt. Andernfalls den Ã¼bergeordneten MenÃ¼eintrag wÃ¤hlen.
-- **Reihenfolge**. Die Position des MenÃ¼eintrages im MenÃ¼. Als
-  Standard wird ein MenÃ¼eintrag am Ende des MenÃ¼s eingefÃ¼gt. Bei
-  ausgewÃ¤hltem MenÃ¼eintrag wird der MenÃ¼eintrag unterhalb eingefÃ¼gt.
-  Hinweis: Die Reihenfolge kann auch in [MenÃ¼s:
-  EintrÃ¤ge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Special:MyLanguage/Help4.x:Menus: Items/de")
-  verÃ¤ndert werden.
-- **Status**. Der VerÃ¶ffentlichungs-Status des MenÃ¼eintrags.
-- **VerÃ¶ffentlichung starten**. Datum und Uhrzeit, um die
-  VerÃ¶ffentlichung zu starten. Dieses Feld verwenden, um einen
-  MenÃ¼eintrag vor der Zeit zu erstellen und ihn spÃ¤ter automatisch zu
-  verÃ¶ffentlichen.
-- **VerÃ¶ffentlichung beenden**. Datum und Uhrzeit, um die
-  VerÃ¶ffentlichung zu beenden. Dieses Feld verwenden, um einem
-  MenÃ¼eintrag automatisch den Status 'Versteckt' zuzuweisen (zum
+- **Menü**. Zeigt, in welchem Menü der Link erscheinen wird.
+- **Übergeordneter Eintrag**. Der übergeordnete Eintrag des
+  Menüeintrags. Bestimmt, ob ein Menüeintrag zur obersten Ebene gehört
+  oder ein Untermenüeintrag ist. 'Oberste Menüebene' (der Standardwert)
+  wählen, wenn es sich um einen Eintrag oberster Ebene handelt.
+  Andernfalls den übergeordneten Menüeintrag wählen.
+- **Reihenfolge**. Die Position des Menüeintrages im Menü. Als Standard
+  wird ein Menüeintrag am Ende des Menüs eingefügt. Bei ausgewähltem
+  Menüeintrag wird der Menüeintrag unterhalb eingefügt. Hinweis: Die
+  Reihenfolge kann auch in [Menüs:
+  Einträge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Special:MyLanguage/Help4.x:Menus: Items/de")
+  verändert werden.
+- **Status**. Der Veröffentlichungs-Status des Menüeintrags.
+- **Veröffentlichung starten**. Datum und Uhrzeit, um die
+  Veröffentlichung zu starten. Dieses Feld verwenden, um einen
+  Menüeintrag vor der Zeit zu erstellen und ihn später automatisch zu
+  veröffentlichen.
+- **Veröffentlichung beenden**. Datum und Uhrzeit, um die
+  Veröffentlichung zu beenden. Dieses Feld verwenden, um einem
+  Menüeintrag automatisch den Status 'Versteckt' zuzuweisen (zum
   Beispiel, wenn der Inhalt nicht mehr aktuell ist).
-- **Standardseite**. Wenn 'Ja', ist dieser MenÃ¼eintrag die
-  Standardseite der Website. Ein MenÃ¼eintrag muss als Standardseite
-  festgelegt sein. Die Standardseite kann auf zwei Arten festgelegt
-  werden:
-  1.  In [MenÃ¼s:
-      EintrÃ¤ge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Special:MyLanguage/Help4.x:Menus: Items/de")
-      in der Spalte 'Startseite' des gewÃ¼nschten MenÃ¼eintrags klicken.
-  2.  Den MenÃ¼eintrag fÃ¼r die neue Standardseite Ã¶ffnen und die
-      Einstellung Standardseite auf 'Ja' Ã¤ndern.
-- **Zugriffsebene**. Die [Zugriffsebene fÃ¼r die
+- **Standardseite**. Wenn 'Ja', ist dieser Menüeintrag die Standardseite
+  der Website. Ein Menüeintrag muss als Standardseite festgelegt sein.
+  Die Standardseite kann auf zwei Arten festgelegt werden:
+  1.  In [Menüs:
+      Einträge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Special:MyLanguage/Help4.x:Menus: Items/de")
+      in der Spalte 'Startseite' des gewünschten Menüeintrags klicken.
+  2.  Den Menüeintrag für die neue Standardseite öffnen und die
+      Einstellung Standardseite auf 'Ja' ändern.
+- **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
-  des MenÃ¼eintrags.
-- **Sprache**. Die Sprache des MenÃ¼eintrags.
+  des Menüeintrags.
+- **Sprache**. Die Sprache des Menüeintrags.
 - **Notiz**. Die Notiz wird meist vom Site-Administrator verwendet. Sie
   wird nicht im Frontend der Seite angezeigt.
 
@@ -107,23 +103,23 @@ srcset="https://docs.joomla.org/images/thumb/7/7a/Help-4x-Menus-New-Item-link-ty
 data-file-width="2880" data-file-height="1340" width="600" height="279"
 alt="Help-4x-Menus-New-Item-link-type-subscreen-de.png" />
 
-- **Titel Attribut fÃ¼r MenÃ¼link**. Eine optionale, benutzerdefinierte
-  Beschreibung fÃ¼r das Titel-Attribut fÃ¼r diesen MenÃ¼link (HTML Title
+- **Titel Attribut für Menülink**. Eine optionale, benutzerdefinierte
+  Beschreibung für das Titel-Attribut für diesen Menülink (HTML Title
   Attribut).
-- **CSS-Klasse fÃ¼r Link**. Ein optionaler, benutzerdefinierter Stil,
-  der auf den MenÃ¼-Hyperlink angewendet wird.
+- **CSS-Klasse für Link**. Ein optionaler, benutzerdefinierter Stil, der
+  auf den Menü-Hyperlink angewendet wird.
 - **Icon-Klasse zum Link**. Wenn eine Icon-Klasse eingegeben wird, hat
   sie Vorrang vor dem Link-Bild.
 - **Bild zum Link**. Ein optionales Bild, das zusammen mit dem
-  MenÃ¼-Hyperlink verwendet werden kann.
-- **Bild Klasse**. Eine optionale, benutzerdefinierte CSS-Klasse fÃ¼r
-  das Bildelement.
-- **MenÃ¼titel anzeigen**. Wenn ein optionales Bild eingefÃ¼gt wird,
-  ergÃ¤nzt er den MenÃ¼titel neben dem Bild. Die Standardeinstellung ist
+  Menü-Hyperlink verwendet werden kann.
+- **Bild Klasse**. Eine optionale, benutzerdefinierte CSS-Klasse für das
+  Bildelement.
+- **Menütitel anzeigen**. Wenn ein optionales Bild eingefügt wird,
+  ergänzt er den Menütitel neben dem Bild. Die Standardeinstellung ist
   'Ja'.
-- **Im MenÃ¼ anzeigen**. Bei 'Nein' wird der MenÃ¼eintrag und alle
-  UntermenÃ¼eintrÃ¤ge von der Anzeige im MenÃ¼ ausgeschlossen.Hinweis:
-  Alle UntermenÃ¼eintrÃ¤ge werden ebenfalls ausgeblendet.
+- **Im Menü anzeigen**. Bei 'Nein' wird der Menüeintrag und alle
+  Untermenüeinträge von der Anzeige im Menü ausgeschlossen.Hinweis: Alle
+  Untermenüeinträge werden ebenfalls ausgeblendet.
 
 ### Seitenanzeige
 
@@ -134,17 +130,17 @@ srcset="https://docs.joomla.org/images/thumb/0/06/Help-4x-Menus-New-Item-page-di
 data-file-width="2880" data-file-height="970" width="600" height="202"
 alt="Help-4x-Menus-New-Item-page-display-subscreen-de.png" />
 
-Hinweis: Die Auswahl "**Global**" Ã¼bernimmt Einstellungen aus [MenÃ¼s:
+Hinweis: Die Auswahl "**Global**" übernimmt Einstellungen aus [Menüs:
 Optionen](https://docs.joomla.org/Help4.x:Menus:_Options/de "Special:MyLanguage/Help4.x:Menus: Options/de").
 
 - **Seitentitel im Browser**. Alternativer Text, der in der Kopfzeile
   des Browsers gezeigt wird. Ist kein Text angegeben, wird der Titel des
-  MenÃ¼eintrags gezeigt.
-- **SeitenÃ¼berschrift anzeigen**. Zeigt den Titel des MenÃ¼eintrags.
-  Die SeitenÃ¼berschrift wird innerhalb des HTML-Tags 'H1' gezeigt.
-- **SeitenÃ¼berschrift**. Alternativer Text fÃ¼r die SeitenÃ¼berschrift.
+  Menüeintrags gezeigt.
+- **Seitenüberschrift anzeigen**. Zeigt den Titel des Menüeintrags. Die
+  Seitenüberschrift wird innerhalb des HTML-Tags 'H1' gezeigt.
+- **Seitenüberschrift**. Alternativer Text für die Seitenüberschrift.
 - **CSS-Klasse Seite**. Optionale CSS-Klasse, die zu Elementen auf
-  dieser Seite hinzugefÃ¼gt werden kann. Dies ermÃ¶glicht ein
+  dieser Seite hinzugefügt werden kann. Dies ermöglicht ein
   Seitenbezogenes CSS-Design.
 
 ### Metadaten
@@ -158,12 +154,12 @@ alt="Help-4x-Menus-New-Item-metadata-subscreen-de.png" />
 
 - **Meta-Beschreibung**. Ein Absatz zur Beschreibung der Seite. [Mehr
   erfahren.](https://docs.joomla.org/Using_The_Meta_Description/de "Special:MyLanguage/Using The Meta Description/de")
-- **Robots**. Anweisungen fÃ¼r Web-'Robots', die diese Seite
-  durchsuchen. 'Globale Einstellung' in
+- **Robots**. Anweisungen für Web-'Robots', die diese Seite durchsuchen.
+  'Globale Einstellung' in
   [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#robots "Special:MyLanguage/Help4.x:Site Global Configuration/de")
   einstellen.
 
-### VerknÃ¼pfungen
+### Verknüpfungen
 
 <img
 src="https://docs.joomla.org/images/thumb/4/4a/Help-4x-Menus-New-Item-associations-subscreen-de.png/600px-Help-4x-Menus-New-Item-associations-subscreen-de.png"
@@ -184,7 +180,7 @@ srcset="https://docs.joomla.org/images/thumb/5/56/Help-4x-Menus-New-Item-module-
 data-file-width="2880" data-file-height="1340" width="600" height="279"
 alt="Help-4x-Menus-New-Item-module-assignment-subscreen-de.png" />
 
-- **Unzugeordnete Module**. Zeigt Module, die diesem MenÃ¼eintrag nicht
+- **Unzugeordnete Module**. Zeigt Module, die diesem Menüeintrag nicht
   zugeordnet sind.
 - **Versteckte Module**. Zeigt versteckte Module.
 
@@ -193,38 +189,38 @@ alt="Help-4x-Menus-New-Item-module-assignment-subscreen-de.png" />
 Das [Bildschirmfoto](#screenshot) zeigt die Werkzeugleiste im oberen
 Bereich.
 
-- **Speichern**. Speichert den MenÃ¼eintrag und bleibt auf der aktuellen
+- **Speichern**. Speichert den Menüeintrag und bleibt auf der aktuellen
   Seite.
-- **Speichern & SchlieÃŸen**. Speichert den MenÃ¼eintrag und schlieÃŸt
-  die aktuelle Seite.
-  - **Speichern & Neu**. Speichert den MenÃ¼eintrag und hÃ¤lt die Seite
+- **Speichern & Schließen**. Speichert den Menüeintrag und schließt die
+  aktuelle Seite.
+  - **Speichern & Neu**. Speichert den Menüeintrag und hält die Seite
     offen, damit ein neuer Eintrag erstellt werden kann.
-- **Abbrechen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck.
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück.
+- **Hilfe**. Öffnet die Hilfeseite.
 
-Gespeicherte MenÃ¼eintrÃ¤ge haben zusÃ¤tzliche Buttons:
+Gespeicherte Menüeinträge haben zusätzliche Buttons:
 
-- Dropdown 'Speichern & SchlieÃŸen':
-  - **Als Kopie speichern**. Speichert Ã„nderungen in einer Kopie des
-    aktuellen MenÃ¼eintrags. Der aktuelle MenÃ¼eintrags wird davon nicht
+- Dropdown 'Speichern & Schließen':
+  - **Als Kopie speichern**. Speichert Änderungen in einer Kopie des
+    aktuellen Menüeintrags. Der aktuelle Menüeintrags wird davon nicht
     beeinflusst.
-- **SprachverknÃ¼pfungen**. Den Beitrag mit seiner festgelegten Sprache
+- **Sprachverknüpfungen**. Den Beitrag mit seiner festgelegten Sprache
   parallel in einer weiteren Sprache bearbeiten. [Nur bei mehrsprachigen
   Seiten](https://docs.joomla.org/Help4.x:Multilingual_Associations/de "Special:MyLanguage/Help4.x:Multilingual Associations/de").
-- **SchlieÃŸen** statt 'Abbrechen' mit denselben Funktionen.
+- **Schließen** statt 'Abbrechen' mit denselben Funktionen.
 
 ## Tipps
 
-- HinzufÃ¼gen eines MenÃ¼eintrages [Archivierte
-  BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Menu_Item:_Article_Archived/de "Special:MyLanguage/Help4.x:Menu Item: Article Archived/de").
-- Joomla bietet 38 verschiedene MenÃ¼eintragstypen. Installierte
-  Erweiterungen von Drittanbietern kÃ¶nnen weitere MenÃ¼eintragstypen
-  einfÃ¼gen.
+- Hinzufügen eines Menüeintrages [Archivierte
+  Beiträge](https://docs.joomla.org/Help4.x:Menu_Item:_Article_Archived/de "Special:MyLanguage/Help4.x:Menu Item: Article Archived/de").
+- Joomla bietet 38 verschiedene Menüeintragstypen. Installierte
+  Erweiterungen von Drittanbietern können weitere Menüeintragstypen
+  einfügen.
 
 ## Verwandte Informationen
 
-- Tutorial: [Wie fÃ¼ge ich ein neues MenÃ¼
+- Tutorial: [Wie füge ich ein neues Menü
   hinzu?](https://docs.joomla.org/J4.x:Adding_a_New_Menu/de "Special:MyLanguage/J4.x:Adding a New Menu/de")
 - Dieses
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Special:MyLanguage/Portal:Joomla 4/de")

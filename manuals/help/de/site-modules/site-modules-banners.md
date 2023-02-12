@@ -1,4 +1,4 @@
-<!-- Display title: Site Modules: Banners -->
+<!-- Filename: Help4.x:Site_Modules:_Banners / Display title: Site Modul: Banner -->
 
 ## Beschreibung
 
@@ -160,7 +160,7 @@ alt="Help-4x-modules-manager-admin-module-site-advanced-options-en.png" />
 - **Header Tag.** The HTML tag to use for the modules header or title.
   This can be an h1, h2, h3, h4, h5, h6 or a p tag. Note that you must
   use a module style (chrome) of html5 or add your custom module styles
-  in \<mytemplate\>/html/modules.php.
+  in /html/modules.php.
 - **Header Class.** Here you can add optional CSS classes to add to the
   modules header or title element.
 

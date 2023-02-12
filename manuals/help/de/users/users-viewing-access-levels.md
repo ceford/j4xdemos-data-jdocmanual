@@ -1,4 +1,4 @@
-<!-- Display title: Users: Viewing Access Levels -->
+<!-- Filename: Help4.x:Users:_Viewing_Access_Levels / Display title: Benutzer: Zugriffsebenen anzeigen -->
 
 ## Beschreibung
 
@@ -6,7 +6,7 @@ Dieser Bildschirm zeigt eine Liste von Benutzer-Zugriffsebenen an.
 
 ## Wie darauf zugreifen
 
-Aus dem Administrator-MenÃ¼ **Benutzer **→** Zugriffsebenen** wÃ¤hlen.
+Aus dem Administrator-Menü **Benutzer **→** Zugriffsebenen** wählen.
 
 ## Bildschirmfoto
 
@@ -17,48 +17,47 @@ srcset="https://docs.joomla.org/images/thumb/4/42/Help-4x-users-user-manager-vie
 data-file-width="1357" data-file-height="583" width="800" height="344"
 alt="Help-4x-users-user-manager-viewing-access-levels-de.png" />
 
-## Spalten-Ãœberschriften
+## Spalten-Überschriften
 
 In der Tabelle der Zugriffsebenen der Joomla!-Site sind unterschiedliche
-Spalten. Hier wird ihre Bedeutung erklÃ¤rt und was in den Spalten
+Spalten. Hier wird ihre Bedeutung erklärt und was in den Spalten
 angezeigt wird.
 
-- **Checkbox**. Dieses KÃ¤stchen markieren, um einen oder mehrere
-  EintrÃ¤ge auszuwÃ¤hlen. Um alle EintrÃ¤ge auszuwÃ¤hlen, das KÃ¤stchen
-  im Spaltenkopf markieren. Nachdem ein oder mehrere KÃ¤stchen markiert
-  sind, auf eine SchaltflÃ¤che in der Werkzeugleiste klicken, um eine
-  Aktion fÃ¼r den ausgewÃ¤hlten Eintrag oder die ausgewÃ¤hlten EintrÃ¤ge
-  durchzufÃ¼hren. Viele Aktionen, wie z.B. VerÃ¶ffentlichen und
-  Verstecken, kÃ¶nnen mit mehreren EintrÃ¤gen arbeiten. Andere, wie z.B.
+- **Checkbox**. Dieses Kästchen markieren, um einen oder mehrere
+  Einträge auszuwählen. Um alle Einträge auszuwählen, das Kästchen im
+  Spaltenkopf markieren. Nachdem ein oder mehrere Kästchen markiert
+  sind, auf eine Schaltfläche in der Werkzeugleiste klicken, um eine
+  Aktion für den ausgewählten Eintrag oder die ausgewählten Einträge
+  durchzuführen. Viele Aktionen, wie z.B. Veröffentlichen und
+  Verstecken, können mit mehreren Einträgen arbeiten. Andere, wie z.B.
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
-  Wenn mehrere EintrÃ¤ge markiert sind und Sie auf â€žBearbeitenâ€œ
-  drÃ¼cken, wird der erste der markierten EintrÃ¤ge zur Bearbeitung
-  geÃ¶ffnet.
+  Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
+  wird der erste der markierten Einträge zur Bearbeitung geöffnet.
 
 <!-- -->
 
-- **Reihenfolge:** (standard). Wie die EintrÃ¤ge in der Spalte der
+- **Reihenfolge:** (standard). Wie die Einträge in der Spalte der
   Tabelle sortiert werden. Die Werte sind die gleichen wie die der
-  SpaltenkÃ¶pfe.
+  Spaltenköpfe.
 - **Ebenenname.** Der Name der Zugriffsebene.
 - **Benutzergruppen mit Zugriff.** Die Gruppen mit Anzeige-Zugriff.
 
 <!-- -->
 
-- **ID**. Einmalig vergebene Identifikations-Nummer fÃ¼r den Eintrag.
-  Sie wird von Joomla automatisch vergeben und dient zur internen
-  Identifikation des Eintrages. Man kann die Nummer nicht Ã¤ndern. Beim
+- **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
+  wird von Joomla automatisch vergeben und dient zur internen
+  Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
   Neu-Erstellen eines Eintrags zeigt das Feld "0" an, bis man speichert,
   dabei wird dann die neue ID vergeben.
 
 ## Listen-Filter
 
 Der Screenshot am Anfang der Seite zeigt die Filterleiste im oberen
-Bereich. Die SchaltflÃ¤chen sind:
+Bereich. Die Schaltflächen sind:
 
 - **Suche.** Einen Teil des Namens der Zugriffsebene eingeben und das
-  Symbol â€žSuchenâ€œ drÃ¼cken, um nach den passenden Titeln zu suchen.
-  DrÃ¼cken Sie *ZurÃ¼cksetzen*, um das Suchfeld zu lÃ¶schen und die
+  Symbol „Suchen“ drücken, um nach den passenden Titeln zu suchen.
+  Drücken Sie *Zurücksetzen*, um das Suchfeld zu löschen und die
   komplette Ebenen-Liste wieder herzustellen.
 
 ## Werkzeugleiste
@@ -66,33 +65,33 @@ Bereich. Die SchaltflÃ¤chen sind:
 Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
-- **Neu**: Ã–ffnet das Bearbeitungs-Formular, um access level zu
+- **Neu**: Öffnet das Bearbeitungs-Formular, um access level zu
   erstellen.
 
 <!-- -->
 
-- **Bearbeiten:** Ã–ffnet das Bearbeitungs-Formular fÃ¼r das
-  ausgewÃ¤hlte access level. Falls mehr als ein access level ausgewÃ¤hlt
-  wurde (wo anwendbar), wird nur das erste access level geÃ¶ffnet. Das
+- **Bearbeiten:** Öffnet das Bearbeitungs-Formular für das ausgewählte
+  access level. Falls mehr als ein access level ausgewählt wurde (wo
+  anwendbar), wird nur das erste access level geöffnet. Das
   Bearbeitungs-Formular kann auch durch Klicken auf den access
-  level-Namen geÃ¶ffnet werden.
+  level-Namen geöffnet werden.
 
 <!-- -->
 
-- **LÃ¶schen:** LÃ¶scht markierte access levels. Funktioniert mit einem
-  oder mehreren ausgewÃ¤hlten access levels. **Anmerkung:** Eine
-  momentan verwendete Zugriffsebene kann nicht gelÃ¶scht werden. Wenn
-  versucht wird, eine momentan verwendete Zugriffsebene zu lÃ¶schen,
-  wird eine Nachricht mit Hinweis auf die Verwendung angezeigt.
+- **Löschen:** Löscht markierte access levels. Funktioniert mit einem
+  oder mehreren ausgewählten access levels. **Anmerkung:** Eine momentan
+  verwendete Zugriffsebene kann nicht gelöscht werden. Wenn versucht
+  wird, eine momentan verwendete Zugriffsebene zu löschen, wird eine
+  Nachricht mit Hinweis auf die Verwendung angezeigt.
 
 <!-- -->
 
-- **Optionen.** Ã–ffnet das Optionen-Fenster, in dem Einstellungen, wie
-  die Standard-Parameter, bearbeitet werden kÃ¶nnen.
+- **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
+  die Standard-Parameter, bearbeitet werden können.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 

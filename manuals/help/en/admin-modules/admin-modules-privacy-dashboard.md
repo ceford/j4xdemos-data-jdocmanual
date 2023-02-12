@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_Privacy_Dashboard -->
+<!-- Filename: Help4.x:Admin_Modules:_Privacy_Dashboard / Display title: Admin Modules: Privacy Dashboard -->
 
 ## Description
 

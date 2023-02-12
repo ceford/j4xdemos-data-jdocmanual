@@ -1,14 +1,14 @@
-<!-- Display title: Information: Warnings -->
+<!-- Filename: Help4.x:Information:_Warnings / Display title: Information: Warnungen -->
 
 ## Beschreibung
 
-Die Seite zeigt Warnungen installierter Erweiterungen. Das kÃ¶nnen
-Konflikte in der Installation oder AbhÃ¤ngigkeitsfehler sein.
+Die Seite zeigt Warnungen installierter Erweiterungen. Das können
+Konflikte in der Installation oder Abhängigkeitsfehler sein.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **System **→** Informationen **→** Warnungen**
-  auswÃ¤hlen.
+- Im Administrator-Menü **System **→** Informationen **→** Warnungen**
+  auswählen.
 
 ## Bildschirmfoto
 
@@ -23,28 +23,28 @@ alt="Help4x-Extensions-Extension-Manager-Warnings-screen-en.png" />
 Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
-- **Optionen.** Ã–ffnet das Optionen-Fenster, in dem Einstellungen, wie
-  die Standard-Parameter, bearbeitet werden kÃ¶nnen.
+- **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
+  die Standard-Parameter, bearbeitet werden können.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Verwandte Informationen
 
-- **Installieren.** Link fÃ¼hrt zu [Erweiterungen:
+- **Installieren.** Link führt zu [Erweiterungen:
   Installieren](https://docs.joomla.org/Help4.x:Extensions:_Install/de "Help4.x:Extensions: Install/de").
-- **Update.** Link fÃ¼hrt zu [Erweiterungen:
+- **Update.** Link führt zu [Erweiterungen:
   Aktualisieren](https://docs.joomla.org/Help4.x:Extensions:_Update/en "Help4.x:Extensions: Update/en").
-- **Verwalten.** Link fÃ¼hrt zu [Erweiterungen:
+- **Verwalten.** Link führt zu [Erweiterungen:
   Verwalten](https://docs.joomla.org/Help4.x:Extensions:_Manage/en "Help4.x:Extensions: Manage/en").
-- **ÃœberprÃ¼fen.** Link fÃ¼hrt zu [Erweiterungen:
-  ÃœberprÃ¼fen](https://docs.joomla.org/Help4.x:Extensions:_Discover/de "Help4.x:Extensions: Discover/de").
-- **Datenbank.** Link fÃ¼hrt zu [Information:
+- **Überprüfen.** Link führt zu [Erweiterungen:
+  Überprüfen](https://docs.joomla.org/Help4.x:Extensions:_Discover/de "Help4.x:Extensions: Discover/de").
+- **Datenbank.** Link führt zu [Information:
   Datenbank](https://docs.joomla.org/Help4.x:Information:_Database/de "Help4.x:Information: Database/de").
-- **Warnungen.** Link fÃ¼hrt zu
+- **Warnungen.** Link führt zu
   <span class="mw-selflink selflink">Information: Warnungen</span>.
-- **Sprachen installieren.** Link fÃ¼hrt zu [Erweiterungen: Sprachen
+- **Sprachen installieren.** Link führt zu [Erweiterungen: Sprachen
   installieren](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Languages/de "Help4.x:Extensions Extension Manager Languages/de").
-- **Website aktualisieren.** Link fÃ¼hrt zu [Erweiterungen:
+- **Website aktualisieren.** Link führt zu [Erweiterungen:
   Update-Sites](https://docs.joomla.org/Help4.x:Extensions:_Update_Sites/de "Help4.x:Extensions: Update Sites/de").

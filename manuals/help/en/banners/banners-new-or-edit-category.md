@@ -1,4 +1,4 @@
-<!-- Help4.x:Banners:_New_or_Edit_Category -->
+<!-- Filename: Help4.x:Banners:_New_or_Edit_Category / Display title: Banners: New or Edit Category -->
 
 ## Description
 

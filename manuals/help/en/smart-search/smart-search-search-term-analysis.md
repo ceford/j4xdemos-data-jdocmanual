@@ -1,4 +1,4 @@
-<!-- Help4.x:Smart_Search:_Search_Term_Analysis -->
+<!-- Filename: Help4.x:Smart_Search:_Search_Term_Analysis / Display title: Smart Search: Search Term Analysis -->
 
 ## Description
 

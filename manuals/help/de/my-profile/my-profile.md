@@ -1,16 +1,16 @@
-<!-- Display title: My Profile -->
+<!-- Filename: Help4.x:My_Profile / Display title: Mein Profil -->
 
 ## Beschreibung
 
-Die Seite **Mein Profil** ist fÃ¼r Benutzer mit Administrator-Zugriff
-auf eine Joomla!-Installation zugÃ¤nglich und ermÃ¶glicht es einem
-Benutzer, private Daten zu bearbeiten. Dazu gehÃ¶ren **Name**,
-**Passwort** und **E-Mail**, sowie persÃ¶nliche Einstellungen:
-Administrator-Template, Spracheinstellungen, Editor und Zeitzone.
+Die Seite **Mein Profil** ist für Benutzer mit Administrator-Zugriff auf
+eine Joomla!-Installation zugänglich und ermöglicht es einem Benutzer,
+private Daten zu bearbeiten. Dazu gehören **Name**, **Passwort** und
+**E-Mail**, sowie persönliche Einstellungen: Administrator-Template,
+Spracheinstellungen, Editor und Zeitzone.
 
 ## Wie darauf zugreifen
 
-- Oben rechts auf das **BenutzermenÃ¼**  **→**  **Konto bearbeiten**
+- Oben rechts auf das **Benutzermenü**  **→**  **Konto bearbeiten**
   klicken
 
 <img
@@ -37,17 +37,16 @@ alt="Help-4x-my-profile-screenshot-de.png" />
 
 <!-- -->
 
-- **Benutzername.** Der Benutzername, der wÃ¤hrend der Anmeldung
+- **Benutzername.** Der Benutzername, der während der Anmeldung
   eingegeben wird.
 
 <!-- -->
 
-- **Passwort.** Das Passwort, das wÃ¤hrend der Anmeldung eingegeben
-  wird.
+- **Passwort.** Das Passwort, das während der Anmeldung eingegeben wird.
 
 <!-- -->
 
-- **Passwort bestÃ¤tigen.** Dasselbe Passwort noch einmal eingeben (um
+- **Passwort bestätigen.** Dasselbe Passwort noch einmal eingeben (um
   sicher zu gehen, dass es korrekt eingegeben wurde).
 
 <!-- -->
@@ -66,12 +65,12 @@ alt="Help-4x-my-profile-screenshot-de.png" />
 <!-- -->
 
 - **Letzter Passwort-Reset.** Datum und Uhrzeit der letzten
-  PasswortrÃ¼cksetzung.
+  Passwortrücksetzung.
 
 <!-- -->
 
-- **Anzahl Passwort-Resets.** Die Anzahl der PasswortzurÃ¼cksetzungen
-  seit dem Datum der letzten PasswortzurÃ¼cksetzung.
+- **Anzahl Passwort-Resets.** Die Anzahl der Passwortzurücksetzungen
+  seit dem Datum der letzten Passwortzurücksetzung.
 
 <!-- -->
 
@@ -85,9 +84,9 @@ alt="Help-4x-my-profile-screenshot-de.png" />
 
 <!-- -->
 
-- **ID**. Einmalig vergebene Identifikations-Nummer fÃ¼r den Eintrag.
-  Sie wird von Joomla automatisch vergeben und dient zur internen
-  Identifikation des Eintrages. Man kann die Nummer nicht Ã¤ndern. Beim
+- **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
+  wird von Joomla automatisch vergeben und dient zur internen
+  Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
   Neu-Erstellen eines Eintrags zeigt das Feld "0" an, bis man speichert,
   dabei wird dann die neue ID vergeben.
 
@@ -101,35 +100,35 @@ data-file-width="1038" data-file-height="561" width="600" height="324"
 alt="Help-4x-Site-My-Profile-basic-de.png" />
 
 - **Backend-Template-Stil.** (*Standard verwenden*/*Atum - Default*)
-  Wahl des Template-Stils fÃ¼r das Administrator-Backend. Gilt nur fÃ¼r
+  Wahl des Template-Stils für das Administrator-Backend. Gilt nur für
   diesen Benutzer.
 
 <!-- -->
 
 - **Backend-Sprache.** (*Standard verwenden*/*Deutsch*/*Englisch*)
-  Sprache der Administration fÃ¼r diesen Benutzer wÃ¤hlen. Alle fÃ¼r das
+  Sprache der Administration für diesen Benutzer wählen. Alle für das
   Backend installierten Sprachen werden in der Drop-down-Liste
-  angezeigt. Standard ist die in â€žSprachen: Installiert
-  (Administrator)â€œ eingestellte Sprache.
-
-<!-- -->
-
-- **Frontend-Sprache.** (*Standard verwenden*/*Deutsch*/*Englisch*)
-  Sprache der Website fÃ¼r diesen Benutzer wÃ¤hlen. Alle fÃ¼r das
-  Frontend installierten Sprachen werden in der Drop-down-Liste
-  angezeigt. Standard ist die in â€žSprachen: Installiert (Site)â€œ
+  angezeigt. Standard ist die in „Sprachen: Installiert (Administrator)“
   eingestellte Sprache.
 
 <!-- -->
 
+- **Frontend-Sprache.** (*Standard verwenden*/*Deutsch*/*Englisch*)
+  Sprache der Website für diesen Benutzer wählen. Alle für das Frontend
+  installierten Sprachen werden in der Drop-down-Liste angezeigt.
+  Standard ist die in „Sprachen: Installiert (Site)“ eingestellte
+  Sprache.
+
+<!-- -->
+
 - **Editor.** (*Standard verwenden*/*Editor - CodeMirror*/*Editor -
-  Keine*/*Editor - TinyMCE*) Texteditor fÃ¼r diesen Benutzer.
+  Keine*/*Editor - TinyMCE*) Texteditor für diesen Benutzer.
 
 <!-- -->
 
 - **Zeitzone.** (*Standard verwenden*/*Abidjan*/*Accra*/...) Die
-  Zeitzone fÃ¼r diesen Benutzer wÃ¤hlen. Standard ist die in der
-  Konfiguration gewÃ¤hlte Zeitzone.
+  Zeitzone für diesen Benutzer wählen. Standard ist die in der
+  Konfiguration gewählte Zeitzone.
 
 #### Einstellungen zur Barrierefreiheit
 
@@ -142,9 +141,9 @@ alt="Help-4x-users-user-manager-super-user-accessibility-settings-en.png" />
 - **Monochrome** Ja/Nein
 - **Hoher Kontrast.** Ja/Nein
 - **Links hervorheben.** Ja/Nein
-- **Schrift vergrÃ¶ÃŸern.** Ja/Nein
+- **Schrift vergrößern.** Ja/Nein
 
-### Einstellungen BenutzeraktivitÃ¤ten *(Reiter ist nur fÃ¼r Superuser sichtbar)*
+### Einstellungen Benutzeraktivitäten *(Reiter ist nur für Superuser sichtbar)*
 
 <img
 src="https://docs.joomla.org/images/thumb/d/dc/Help-4x-Site-My-Profile-User-Actions-Log-Options-de.png/600px-Help-4x-Site-My-Profile-User-Actions-Log-Options-de.png"
@@ -153,46 +152,46 @@ srcset="https://docs.joomla.org/images/thumb/d/dc/Help-4x-Site-My-Profile-User-A
 data-file-width="1393" data-file-height="452" width="600" height="195"
 alt="Help-4x-Site-My-Profile-User-Actions-Log-Options-de.png" />
 
-- **Benachrichtung Ã¼ber BenutzeraktivitÃ¤ten senden**. (*Ja/Nein*) Wenn
-  diese Option auf *Ja* gesetzt ist, erhÃ¤lt der Benutzer per E-Mail
-  eine Benachrichtigung Ã¼ber die AktivitÃ¤ten des Benutzers.
-- **Ereignisse fÃ¼r Benachrichtigungen auswÃ¤hlen**. Die gewÃ¼nschten
-  Benutzeraktionen fÃ¼r die Benachrichtigung per E-Mail wÃ¤hlen.
+- **Benachrichtung über Benutzeraktivitäten senden**. (*Ja/Nein*) Wenn
+  diese Option auf *Ja* gesetzt ist, erhält der Benutzer per E-Mail eine
+  Benachrichtigung über die Aktivitäten des Benutzers.
+- **Ereignisse für Benachrichtigungen auswählen**. Die gewünschten
+  Benutzeraktionen für die Benachrichtigung per E-Mail wählen.
 
 ## Werkzeugleiste
 
 Der Screenshot am Anfang der Seite zeigt die Werkzeugleiste im oberen
-Bereich. Die SchaltflÃ¤chen sind:
+Bereich. Die Schaltflächen sind:
 
 - **Speichern** Speichert den user und wird auf dem aktuellen Bildschirm
   bleiben.
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den user und wird den aktuellen
-  Bildschirm schlieÃŸen.
+- **Speichern & Schließen**. Speichert den user und wird den aktuellen
+  Bildschirm schließen.
 
 <!-- -->
 
-- **SchlieÃŸen** SchlieÃŸt den aktuellen Bildschirm und kehrt zum
-  vorherigen Bildschirm zurÃ¼ck, ohne die vorgenommenen Ã„nderungen zu
+- **Schließen** Schließt den aktuellen Bildschirm und kehrt zum
+  vorherigen Bildschirm zurück, ohne die vorgenommenen Änderungen zu
   speichern.
 
 <!-- -->
 
-- **Hilfe** Ã–ffnet die Hilfe-Seite.
+- **Hilfe** Öffnet die Hilfe-Seite.
 
 ## Tipps
 
 - Benutzername, Passwort und E-Mail-Adresse werden automatisch aus der
-  Erst-Installation eingetragen. Wenn erwÃ¼nscht, kÃ¶nnen diese Daten
-  hier verÃ¤ndert werden. Bei Ã„nderung des Passwortes daran denken,
-  dass zwischen GroÃŸ- und Kleinschreibung unterschieden wird.
-- Das Administratorkonto kann auch Ã¼ber [Benutzer: Profil
+  Erst-Installation eingetragen. Wenn erwünscht, können diese Daten hier
+  verändert werden. Bei Änderung des Passwortes daran denken, dass
+  zwischen Groß- und Kleinschreibung unterschieden wird.
+- Das Administratorkonto kann auch über [Benutzer: Profil
   bearbeiten](https://docs.joomla.org/Help4.x:Users:_Edit_Profile/de "Help4.x:Users: Edit Profile/de")
-  aufgerufen und bearbeitet werden, das Ã¼ber
+  aufgerufen und bearbeitet werden, das über
   [Benutzer](https://docs.joomla.org/Help4.x:Users/de "Help4.x:Users/de")
-  verfÃ¼gbar ist.
+  verfügbar ist.
 
 ## Verwandte Informationen
 

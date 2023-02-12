@@ -1,4 +1,4 @@
-<!-- Display title: Site Global Configuration System -->
+<!-- Filename: Help4.x:Site_Global_Configuration_System / Display title: Konfiguration: System -->
 
  **←** 
 [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#system "Help4.x:Site Global Configuration/de")

@@ -1,4 +1,4 @@
-<!-- Display title: Smart Search: Search Term Analysis -->
+<!-- Filename: Help4.x:Smart_Search:_Search_Term_Analysis / Display title: Suchindex: Suchbegriff-Analyse -->
 
 ## Beschreibung
 

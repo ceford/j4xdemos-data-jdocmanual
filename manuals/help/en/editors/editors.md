@@ -1,4 +1,4 @@
-<!-- Help4.x:Editors -->
+<!-- Filename: Help4.x:Editors / Display title: Editors -->
 
 ## TinyMCE
 

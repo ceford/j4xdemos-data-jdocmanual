@@ -1,4 +1,4 @@
-<!-- Help4.x:Maintenance:_Clear_Cache -->
+<!-- Filename: Help4.x:Maintenance:_Clear_Cache / Display title: Maintenance: Clear Cache -->
 
 ## Description
 

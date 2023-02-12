@@ -1,21 +1,21 @@
-<!-- Display title: Menu Item: Registration Form -->
+<!-- Filename: Help4.x:Menu_Item:_Registration_Form / Display title: Menüeintrag: Registrierungsformular -->
 
 ## Beschreibung
 
-Der MenÃ¼eintrag **Registrierungsformular** wird verwendet, um eine
-Seite mit einem Benutzerregistrierungsformular zu erstellen. Das
-Standardformular enthÃ¤lt grundlegende Informationen: Name,
-Benutzername, Passwort und E-Mail-Adresse.
+Der Menüeintrag **Registrierungsformular** wird verwendet, um eine Seite
+mit einem Benutzerregistrierungsformular zu erstellen. Das
+Standardformular enthält grundlegende Informationen: Name, Benutzername,
+Passwort und E-Mail-Adresse.
 
 ## Wie darauf zugreifen
 
-So erstellt man einen neuen MenÃ¼punkt **Registrierungsformular**:
+So erstellt man einen neuen Menüpunkt **Registrierungsformular**:
 
-- Im Administrator-MenÃ¼ **MenÃ¼s **→** \[Name des MenÃ¼s\]** auswÃ¤hlen
-  (z.B.: **MenÃ¼s **→** Main Menu**). Dann ...
-  - die SchaltflÃ¤che **+ Neu** in der Werkzeugleiste wÃ¤hlen. Dann ...
-  - In der Zeile: MenÃ¼eintragstyp, auf die SchaltflÃ¤che
-    â€žAuswÃ¤hlenâ€œ klicken <img
+- Im Administrator-Menü **Menüs **→** \[Name des Menüs\]** auswählen
+  (z.B.: **Menüs **→** Main Menu**). Dann ...
+  - die Schaltfläche **+ Neu** in der Werkzeugleiste wählen. Dann ...
+  - In der Zeile: Menüeintragstyp, auf die Schaltfläche „Auswählen“
+    klicken <img
     src="https://docs.joomla.org/images/thumb/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png/83px-Help-4x-Menu-Item-Type-Select-Button-de.png"
     decoding="async"
     srcset="https://docs.joomla.org/images/thumb/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png/125px-Help-4x-Menu-Item-Type-Select-Button-de.png 1.5x, https://docs.joomla.org/images/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png 2x"

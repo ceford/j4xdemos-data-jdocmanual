@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions:_Update_Sites -->
+<!-- Filename: Help4.x:Extensions:_Update_Sites / Display title: Extensions: Update Sites -->
 
 ## Description
 

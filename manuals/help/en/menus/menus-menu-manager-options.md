@@ -1,4 +1,4 @@
-<!-- Help4.x:Menus_Menu_Manager_Options -->
+<!-- Filename: Help4.x:Menus_Menu_Manager_Options / Display title: Menus Menu Manager Options -->
 
 <img
 src="https://docs.joomla.org/images/thumb/c/ca/Delete-icon.png/25px-Delete-icon.png"

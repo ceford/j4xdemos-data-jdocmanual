@@ -1,4 +1,4 @@
-<!-- Display title: Start Here -->
+<!-- Filename: Help4.x:Start_Here / Display title: Hier beginnen -->
 
 Joomla!  4.x
 
@@ -6,7 +6,7 @@ Joomla!  4.x
 
 Um Hilfe zu einer bestimmten Administratorseite zu erhalten, innerhalb
 der Joomla-Administration den Button **Hilfe** in der Symbolleiste
-auswÃ¤hlen, um weitere Informationen Ã¼ber die Seite zu erhalten. Der
+auswählen, um weitere Informationen über die Seite zu erhalten. Der
 Button befindet sich rechts unterhalb der Titelleiste. Beispiel:
 
 <img

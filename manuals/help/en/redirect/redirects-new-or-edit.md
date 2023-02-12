@@ -1,4 +1,4 @@
-<!-- Help4.x:Redirects:_New_or_Edit -->
+<!-- Filename: Help4.x:Redirects:_New_or_Edit / Display title: Redirects: New or Edit -->
 
 ## Description
 

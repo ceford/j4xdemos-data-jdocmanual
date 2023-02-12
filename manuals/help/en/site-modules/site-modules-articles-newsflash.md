@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Articles_-_Newsflash -->
+<!-- Filename: Help4.x:Site_Modules:_Articles_-_Newsflash / Display title: Site Modules: Articles - Newsflash -->
 
 ## Description
 

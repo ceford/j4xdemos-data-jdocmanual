@@ -1,4 +1,4 @@
-<!-- Help4.x:Plugin:_Options -->
+<!-- Filename: Help4.x:Plugin:_Options / Display title: Plugin: Options -->
 
 ## Description
 

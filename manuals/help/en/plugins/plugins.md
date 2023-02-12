@@ -1,4 +1,4 @@
-<!-- Help4.x:Plugins -->
+<!-- Filename: Help4.x:Plugins / Display title: Plugins -->
 
 ## Description
 

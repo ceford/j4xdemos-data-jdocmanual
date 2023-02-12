@@ -1,18 +1,18 @@
-<!-- Display title: Site Modules: Breadcrumbs -->
+<!-- Filename: Help4.x:Site_Modules:_Breadcrumbs / Display title: Site Modul: Navigationspfad (Breadcrumbs) -->
 
 ## Beschreibung
 
 Der Modultyp **Navigationspfad** (Breadcrumbs) zeigt eine Reihe von
 Navigationslinks an, welche die Position auf der Site visualisieren und
-eine RÃ¼ckwÃ¤rtsnavigation ermÃ¶glichen.
+eine Rückwärtsnavigation ermöglichen.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ die Option **System **→** Verwalten **→** Site
-  Module** wÃ¤hlen, dann...
-  - ein neues Modul erstellen mit: SchaltflÃ¤che **Neu** in der
+- Im Administrator-Menü die Option **System **→** Verwalten **→** Site
+  Module** wählen, dann...
+  - ein neues Modul erstellen mit: Schaltfläche **Neu** in der
     Symbolleiste klicken, dann ...
-    - den gewÃ¼nschten Modultyp auswÃ¤hlen.
+    - den gewünschten Modultyp auswählen.
   - oder ein vorhandenes Modul bearbeiten:
     - das Modul in der Liste der installierten Module suchen und den
       Titel-Link in der Spalte **Titel** anklicken.
@@ -155,7 +155,7 @@ alt="Help-4x-modules-manager-admin-module-site-advanced-options-en.png" />
 - **Header Tag.** The HTML tag to use for the modules header or title.
   This can be an h1, h2, h3, h4, h5, h6 or a p tag. Note that you must
   use a module style (chrome) of html5 or add your custom module styles
-  in \<mytemplate\>/html/modules.php.
+  in /html/modules.php.
 - **Header Class.** Here you can add optional CSS classes to add to the
   modules header or title element.
 

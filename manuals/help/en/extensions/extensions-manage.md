@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions:_Manage -->
+<!-- Filename: Help4.x:Extensions:_Manage / Display title: Extensions: Manage -->
 
 ## Description
 

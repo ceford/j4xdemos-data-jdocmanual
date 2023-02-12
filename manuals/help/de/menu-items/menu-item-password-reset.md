@@ -1,29 +1,29 @@
-<!-- Display title: Menu Item: Password Reset -->
+<!-- Filename: Help4.x:Menu_Item:_Password_Reset / Display title: Menüeintrag: Passwort zurücksetzen -->
 
 ## Beschreibung
 
-Der MenÃ¼eintragstyp **Password zurÃ¼cksetzen** wird verwendet, um eine
-Seite zu erstellen, die ein Formular zum ZurÃ¼cksetzen des Passworts
-enthÃ¤lt. Er fragt nach der mit dem Benutzerkonto verknÃ¼pften
+Der Menüeintragstyp **Password zurücksetzen** wird verwendet, um eine
+Seite zu erstellen, die ein Formular zum Zurücksetzen des Passworts
+enthält. Er fragt nach der mit dem Benutzerkonto verknüpften
 E-Mail-Adresse und verschickt eine E-Mail mit einem Reset-Token an die
 angegebene Adresse.
 
 ## Wie darauf zugreifen
 
-Um einen neuen MenÃ¼eintrag *Passwort zurÃ¼cksetzen* zu erstellen:
+Um einen neuen Menüeintrag *Passwort zurücksetzen* zu erstellen:
 
-- Im Administrator-MenÃ¼ **MenÃ¼s **→** â€žName des MenÃ¼sâ€œ**
-  auswÃ¤hlen (z.B.: **MenÃ¼s **→** Main Menu**). Dann ...
-  - die SchaltflÃ¤che **+ Neu** in der Werkzeugleiste wÃ¤hlen. Dann...
-  - in der Zeile: MenÃ¼eintragstyp, auf die SchaltflÃ¤che
-    â€žAuswÃ¤hlenâ€œ klicken <img
+- Im Administrator-Menü **Menüs **→** „Name des Menüs“** auswählen
+  (z.B.: **Menüs **→** Main Menu**). Dann ...
+  - die Schaltfläche **+ Neu** in der Werkzeugleiste wählen. Dann...
+  - in der Zeile: Menüeintragstyp, auf die Schaltfläche „Auswählen“
+    klicken <img
     src="https://docs.joomla.org/images/thumb/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png/83px-Help-4x-Menu-Item-Type-Select-Button-de.png"
     decoding="async"
     srcset="https://docs.joomla.org/images/thumb/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png/125px-Help-4x-Menu-Item-Type-Select-Button-de.png 1.5x, https://docs.joomla.org/images/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png 2x"
     data-file-width="145" data-file-height="49" width="83" height="28"
     alt="Help-4x-Menu-Item-Type-Select-Button-de.png" />
-  - Im modalen Fenster in der Liste â€žBenutzerâ€œ anklicken und dann
-    den Eintrag **Password zurÃ¼cksetzen** wÃ¤hlen.
+  - Im modalen Fenster in der Liste „Benutzer“ anklicken und dann den
+    Eintrag **Password zurücksetzen** wählen.
 
 To edit an existing User Password Reset menu item:
 

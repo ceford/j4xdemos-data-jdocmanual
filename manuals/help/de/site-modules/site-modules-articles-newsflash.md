@@ -1,17 +1,17 @@
-<!-- Display title: Site Modules: Articles - Newsflash -->
+<!-- Filename: Help4.x:Site_Modules:_Articles_-_Newsflash / Display title: Site-Modul: Beiträge – Newsflash -->
 
 ## Beschreibung
 
-Das Beitragsmodul â€žNewsflashâ€œ zeigt eine feste Anzahl von BeitrÃ¤gen
-aus einer oder mehrerer Kategorien an.
+Das Beitragsmodul „Newsflash“ zeigt eine feste Anzahl von Beiträgen aus
+einer oder mehrerer Kategorien an.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ die Option **System **→** Verwalten **→** Site
-  Module** wÃ¤hlen, dann...
-  - ein neues Modul erstellen mit: SchaltflÃ¤che **Neu** in der
+- Im Administrator-Menü die Option **System **→** Verwalten **→** Site
+  Module** wählen, dann...
+  - ein neues Modul erstellen mit: Schaltfläche **Neu** in der
     Symbolleiste klicken, dann ...
-    - den gewÃ¼nschten Modultyp auswÃ¤hlen.
+    - den gewünschten Modultyp auswählen.
   - oder ein vorhandenes Modul bearbeiten:
     - das Modul in der Liste der installierten Module suchen und den
       Titel-Link in der Spalte **Titel** anklicken.
@@ -170,7 +170,7 @@ alt="Help-4x-modules-site-module-manager-module-articles-category-advanced-optio
 - **Header Tag.** The HTML tag to use for the modules header or title.
   This can be an h1, h2, h3, h4, h5, h6 or a p tag. Note that you must
   use a module style (chrome) of html5 or add your custom module styles
-  in \<mytemplate\>/html/modules.php.
+  in /html/modules.php.
 - **Header Class.** Here you can add optional CSS classes to add to the
   modules header or title element.
 

@@ -1,4 +1,4 @@
-<!-- Help4.x:Installer:_Options -->
+<!-- Filename: Help4.x:Installer:_Options / Display title: Installer: Options -->
 
 ## Description
 

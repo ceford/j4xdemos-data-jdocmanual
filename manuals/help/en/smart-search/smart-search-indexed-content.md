@@ -1,4 +1,4 @@
-<!-- Help4.x:Smart_Search:_Indexed_Content -->
+<!-- Filename: Help4.x:Smart_Search:_Indexed_Content / Display title: Smart Search: Indexed Content -->
 
 ## Description
 

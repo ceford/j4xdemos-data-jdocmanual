@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions_Module_Manager_Admin_Status_Unused -->
+<!-- Filename: Help4.x:Extensions_Module_Manager_Admin_Status_Unused / Display title: Extensions Module Manager Admin Status Unused -->
 
 To '**add'** a new Admin Status module or '**edit'** an existing Admin
 Status module, navigate to the [Module

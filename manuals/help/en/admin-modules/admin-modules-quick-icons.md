@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_Quick_Icons -->
+<!-- Filename: Help4.x:Admin_Modules:_Quick_Icons / Display title: Admin Modules: Quick Icons -->
 
 ## Description
 

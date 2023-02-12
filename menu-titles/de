@@ -1,0 +1,90 @@
+id,manual,language,heading,display_title,display_order
+1,help,de,admin-modules,Admin-Module,1
+2,help,de,articles,Artikel,2
+3,help,de,banners,Banner,3
+4,help,de,cache,Zwischenspeicher,4
+5,help,de,chunks,Brocken,5
+6,help,de,component,Komponente,6
+7,help,de,components,Komponenten,7
+8,help,de,contacts,Kontakte,8
+9,help,de,content-security-policy,Wenden Sie sich an die Sicherheitsrichtlinie,9
+10,help,de,editors,Redakteure,10
+11,help,de,extensions,Erweiterungen,11
+12,help,de,fields,Felder,12
+13,help,de,glossary,Glossar,13
+14,help,de,help-screens,Hilfebildschirme,14
+15,help,de,information,Informationen,15
+16,help,de,install-or-update,Installieren oder aktualisieren,16
+17,help,de,languages,Sprachen,17
+18,help,de,mail,Post,18
+19,help,de,media,Medien,19
+20,help,de,menu-items,Menüpunkte,20
+21,help,de,menus,Menüs,21
+22,help,de,messages,Mitteilungen,22
+23,help,de,modules,Module,23
+24,help,de,multilingual-associations,Mehrsprachige Verbände,24
+25,help,de,my-profile,Mein Profil,25
+26,help,de,news-feed,Neuigkeiten,26
+27,help,de,permissions,Berechtigungen,27
+28,help,de,plugins,Plugins,28
+29,help,de,post-install-messages,Nachrichten nach der Installation,29
+30,help,de,privacy,Privatsphäre,30
+31,help,de,private-messages,Private Nachrichten,31
+32,help,de,redirect,Umleiten,32
+33,help,de,site,Grundstück,33
+34,help,de,site-modules,Site-Module,34
+35,help,de,smart-search,Intelligente Suche,35
+36,help,de,tags,Stichworte,36
+37,help,de,templates,Vorlagen,37
+38,help,de,update-sites,Websites aktualisieren,38
+39,help,de,users,Benutzer,39
+40,help,de,workflow,Arbeitsablauf,40
+41,user,de,getting-started,Einstieg,1
+42,user,de,articles,Artikel,2
+43,user,de,articles-access,Artikel - Zugang,3
+44,user,de,articles-metadata,Artikel - Metadaten,4
+45,user,de,banners,Banner,5
+46,user,de,command-line-interface,Befehl,6
+47,user,de,configuration,Aufbau,7
+48,user,de,contacts,Kontakte,8
+49,user,de,dashboards,Dashboards,9
+50,user,de,editors,Redakteure,10
+51,user,de,extensions,Erweiterungen,11
+52,user,de,fields,Felder,12
+53,user,de,help,Hilfe,13
+54,user,de,hosting,Gastgeber,14
+55,user,de,installation-variations,Installationsvarianten,15
+56,user,de,languages,Sprachen,16
+57,user,de,media,Medien,17
+58,user,de,menus,Menüs,18
+59,user,de,migration,Migration,19
+60,user,de,modules,Module,20
+61,user,de,news-feeds,News-Feeds,21
+62,user,de,performance,Leistung,22
+63,user,de,plugins,Plugins,23
+64,user,de,privacy,Privatsphäre,24
+65,user,de,problems,Probleme,25
+66,user,de,reference,Referenz,26
+67,user,de,security,Sicherheit,27
+68,user,de,seo,SEO,28
+69,user,de,smart-search,Intelligente Suche,29
+70,user,de,system,System,30
+71,user,de,tags,Stichworte,31
+72,user,de,templates,Vorlagen,32
+73,user,de,template-tips,Vorlagen-Tipps,33
+74,user,de,test-installations,Testinstallationen,34
+75,user,de,users,Benutzer,35
+76,user,de,workflows,Arbeitsabläufe,36
+77,developer,de,getting-started,Einstieg,1
+78,developer,de,developer-information,Entwicklerinformationen,2
+79,developer,de,plugin-development,Plugin-Entwicklung,3
+80,developer,de,module-development,Modulentwicklung,4
+81,developer,de,developing-an-mvc-component,Entwicklung einer MVC-Komponente,5
+82,developer,de,mvc-anatomy,MVC-Anatomie,6
+83,developer,de,mvc-examples,MVC-Beispiele,7
+84,developer,de,cli-development,CLI-Entwicklung,8
+85,developer,de,database,Datenbank,9
+86,developer,de,coding-examples,Codierungsbeispiele,10
+87,developer,de,advanced-developer,Fortgeschrittener Entwickler,11
+88,developer,de,advanced-administrator,Erweiterter Administrator,12
+89,developer,de,unclassified,Nicht klassifiziert,13

@@ -1,8 +1,8 @@
-<!-- Display title: Menu Item: Single Contact -->
+<!-- Filename: Help4.x:Menu_Item:_Single_Contact / Display title: Menüeintrag: einzelner Kontakt -->
 
 ## Beschreibung
 
-**Einzelner Kontakt** wird verwendet, um einen MenÃ¼-Link fÃ¼r einen
+**Einzelner Kontakt** wird verwendet, um einen Menü-Link für einen
 einzelnen Kontakt mit optionalen Einstellungen wie Kontaktdetails,
 Kontaktformular und E-Mail-Betreff und Nachrichtenfilter anzuzeigen.
 
@@ -275,8 +275,8 @@ available:
 
 <!-- -->
 
-- **Link \<letter\> Label**. \<A to E\> Labels (5) to override shown
-  link's label.
+- **Link Label**.
+  Labels (5) to override shown link's label.
 
 ### Mail Options
 

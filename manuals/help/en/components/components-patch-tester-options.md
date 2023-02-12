@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Patch_Tester_Options -->
+<!-- Filename: Help4.x:Components_Patch_Tester_Options / Display title: Components Patch Tester Options -->
 
 ## Description
 

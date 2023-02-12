@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Syndication_Feeds -->
+<!-- Filename: Help4.x:Site_Modules:_Syndication_Feeds / Display title: Site Modules: Syndication Feeds -->
 
 ## Description
 

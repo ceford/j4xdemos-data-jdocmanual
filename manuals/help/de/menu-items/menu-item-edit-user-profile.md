@@ -1,14 +1,14 @@
-<!-- Display title: Menu Item: Edit User Profile -->
+<!-- Filename: Help4.x:Menu_Item:_Edit_User_Profile / Display title: Menüeintrag: Benutzerprofil bearbeiten -->
 
 ## Beschreibung
 
-Der MenÃ¼punkt **Benutzerprofil bearbeiten** wird fÃ¼r ein Formular
+Der Menüpunkt **Benutzerprofil bearbeiten** wird für ein Formular
 verwendet, mit dem ein Benutzer seine eigenen Profileinstellungen
 bearbeiten kann.
 
 ## Wie darauf zugreifen
 
-Einen neuen MenÃ¼eintrag **Benutzerprofil bearbeiten** erstellen:
+Einen neuen Menüeintrag **Benutzerprofil bearbeiten** erstellen:
 
 - Select **Menus **→** \[name of the menu\]** from the Administrator
   menu (for example, **Menus **→** Main Menu**). Then...

@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_Joomla_Version_Information -->
+<!-- Filename: Help4.x:Admin_Modules:_Joomla_Version_Information / Display title: Admin Modules: Joomla Version Information -->
 
 ## Description
 

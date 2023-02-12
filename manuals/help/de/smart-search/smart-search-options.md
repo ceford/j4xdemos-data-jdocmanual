@@ -1,8 +1,8 @@
-<!-- Display title: Smart Search: Options -->
+<!-- Filename: Help4.x:Smart_Search:_Options / Display title: Suchindex: Optionen -->
 
 ## Beschreibung
 
-Die Konfiguration der Suchindex-Optionen stellt die Parameter fÃ¼r den
+Die Konfiguration der Suchindex-Optionen stellt die Parameter für den
 Suchindex ein.
 
 ## Wie darauf zugreifen
@@ -30,7 +30,7 @@ alt="Help4.x-Components-Finder-Options-en.png" />
 <!-- -->
 
 - **Description Length**. Number of characters of the description in
-  search results. Enter \<number\> in field, default is 255.
+  search results. Enter in field, default is 255.
 - **Result Date.** (Show/Hide) Show the start and end date filters in
   the advanced search.
 - **Result URL.** (Show/Hide) Show the result item's URL in search

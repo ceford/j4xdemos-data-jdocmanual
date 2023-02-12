@@ -1,15 +1,15 @@
-<!-- Display title: Menus: Options -->
+<!-- Filename: Help4.x:Menus:_Options / Display title: Menüs: Optionen -->
 
 ## Beschreibung
 
-MenÃ¼-Optionen ermÃ¶glichen die Einstellung von Parametern, die global
-fÃ¼r alle MenÃ¼s verwendet werden, wie z.B. Titel, CSS-Klasse und
+Menü-Optionen ermöglichen die Einstellung von Parametern, die global für
+alle Menüs verwendet werden, wie z.B. Titel, CSS-Klasse und
 Berechtigungen.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **MenÃ¼s **→** Verwalten** auswÃ¤hlen, dann ...
-  - die SchaltflÃ¤che **Optionen** in der Symbolleiste anklicken.
+- Im Administrator-Menü **Menüs **→** Verwalten** auswählen, dann ...
+  - die Schaltfläche **Optionen** in der Symbolleiste anklicken.
 
 ## Bildschirmfoto
 
@@ -26,15 +26,14 @@ alt="Help-4x-Menus-Menu-Manager-Options-screen-de.png" />
 
 - **Seitentitel im Browser**. Optionaler Text, der in der Kopfzeile des
   Browsers angezeigt wird. Ist kein Text angegeben, wird der Name des
-  MenÃ¼eintrags angezeigt.
-- **SeitenÃ¼berschrift anzeigen**. Falls â€žJaâ€œ ausgewÃ¤hlt wurde und
-  unten ist keine alternative SeitenÃ¼berschrift angegeben, erscheint
-  standardmÃ¤ÃŸig der Text des aktuellen MenÃ¼eintrags als Ãœberschrift.
-  Die SeitenÃ¼berschrift wird innerhalb des HTML-Tags â€žh1â€œ
-  angezeigt.
-- **SeitenÃ¼berschrift**. Optionaler Text fÃ¼r die SeitenÃ¼berschrift.
+  Menüeintrags angezeigt.
+- **Seitenüberschrift anzeigen**. Falls „Ja“ ausgewählt wurde und unten
+  ist keine alternative Seitenüberschrift angegeben, erscheint
+  standardmäßig der Text des aktuellen Menüeintrags als Überschrift. Die
+  Seitenüberschrift wird innerhalb des HTML-Tags „h1“ angezeigt.
+- **Seitenüberschrift**. Optionaler Text für die Seitenüberschrift.
 - **CSS-Klasse Seite**. Optionale CSS-Klasse, die zu Elementen auf
-  dieser Seite hinzugefÃ¼gt werden kann. Dies ermÃ¶glicht ein
+  dieser Seite hinzugefügt werden kann. Dies ermöglicht ein
   Seiten-bezogenes CSS-Design.
 
 ### Berechtigungen
@@ -46,46 +45,46 @@ srcset="https://docs.joomla.org/images/thumb/2/29/Help-4x-Menu-Options-screen-pe
 data-file-width="952" data-file-height="1025" width="600" height="646"
 alt="Help-4x-Menu-Options-screen-permissions-tab-de.png" />
 
-Um Berechtigungen dieser Erweiterung zu Ã¤ndern:
+Um Berechtigungen dieser Erweiterung zu ändern:
 
 - Die **Gruppe** durch Anklicken des Namens auf der linken Seite
-  auswÃ¤hlen.
-- Die gewÃ¼nschte **Aktion** aussuchen. MÃ¶gliche Aktionen sind:
+  auswählen.
+- Die gewünschte **Aktion** aussuchen. Mögliche Aktionen sind:
 
 <!-- -->
 
-- - **ACL & Optionen konfigurieren**. ErmÃ¶glicht Benutzern das
+- - **ACL & Optionen konfigurieren**. Ermöglicht Benutzern das
     Bearbeiten der Optionen und Berechtigungen (ACL) dieser Erweiterung.
 
 <!-- -->
 
-- - **Nur Optionen konfigurieren**. ErmÃ¶glicht Benutzern die Optionen,
-    auÃŸer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
+- - **Nur Optionen konfigurieren**. Ermöglicht Benutzern die Optionen,
+    außer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
 
 <!-- -->
 
-- - **Administrationszugriff**. ErmÃ¶glicht Benutzern den Zugriff auf
+- - **Administrationszugriff**. Ermöglicht Benutzern den Zugriff auf
     diese Erweiterung.
-  - **Erstellen**. Benutzer kÃ¶nnen Inhalte fÃ¼r diese Erweiterung
+  - **Erstellen**. Benutzer können Inhalte für diese Erweiterung
     erstellen.
-  - **LÃ¶schen**. Benutzer kÃ¶nnen Inhalte dieser Erweiterung lÃ¶schen.
-  - **Bearbeiten**. Benutzer kÃ¶nnen den Inhalt dieser Erweiterung
+  - **Löschen**. Benutzer können Inhalte dieser Erweiterung löschen.
+  - **Bearbeiten**. Benutzer können den Inhalt dieser Erweiterung
     bearbeiten.
   - **Status bearbeiten**. Der Benutzer kann den Status der
-    VerÃ¶ffentlichung und die zugehÃ¶rigen Informationen zum Inhalt
-    dieser Erweiterung Ã¤ndern.
-  - **Eigene Inhalte bearbeiten:** ErmÃ¶glicht Benutzern das Bearbeiten
+    Veröffentlichung und die zugehörigen Informationen zum Inhalt dieser
+    Erweiterung ändern.
+  - **Eigene Inhalte bearbeiten:** Ermöglicht Benutzern das Bearbeiten
     von selbst erstellten Inhalten in dieser Erweiterung.
 
-- Die gewÃ¼nschte Berechtigungen der gewÃ¤hlten Aktion aussuchen.
-  MÃ¶gliche Einstellungen sind:
+- Die gewünschte Berechtigungen der gewählten Aktion aussuchen. Mögliche
+  Einstellungen sind:
   - ***Vererbt***. Wird von der globalen Konfigurationseinstellung
-    dieser Erweiterung fÃ¼r Benutzer dieser Gruppe vererbt.
-  - ***Erlaubt:*** Erlaubt fÃ¼r Benutzer dieser Gruppe. Wenn diese
-    Aktion auf einer der hÃ¶heren Ebenen verweigert wird, ist die
-    Berechtigung â€žErlaubtâ€œ hier nicht wirksam. Eine
-    Verweigert-Einstellung kann nicht auÃŸer Kraft gesetzt werden.
-  - ***Verweigert***. Verweigert fÃ¼r Benutzer dieser Gruppe.
+    dieser Erweiterung für Benutzer dieser Gruppe vererbt.
+  - ***Erlaubt:*** Erlaubt für Benutzer dieser Gruppe. Wenn diese Aktion
+    auf einer der höheren Ebenen verweigert wird, ist die Berechtigung
+    „Erlaubt“ hier nicht wirksam. Eine Verweigert-Einstellung kann nicht
+    außer Kraft gesetzt werden.
+  - ***Verweigert***. Verweigert für Benutzer dieser Gruppe.
 
 - Auf **Speichern** in der **Werkzeugleiste** oben klicken. Danach
   aktualisiert sich die Anzeige, erst dann werden die errechneten
@@ -101,18 +100,18 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
@@ -120,9 +119,9 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 ## Verwandte Informationen
 
-- Neue MenÃ¼s erstellen: [MenÃ¼s:
+- Neue Menüs erstellen: [Menüs:
   Neu/Bearbeiten](https://docs.joomla.org/Help4.x:Menus:_Edit/de "Help4.x:Menus: Edit/de")
-- MenÃ¼eintrÃ¤ge neu/bearbeiten: [MenÃ¼s:
-  MenÃ¼-EintrÃ¤ge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Help4.x:Menus: Items/de")
-- HinzufÃ¼gen oder Bearbeiten von MenÃ¼-Modulen: [Erweiterungen: Module
+- Menüeinträge neu/bearbeiten: [Menüs:
+  Menü-Einträge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Help4.x:Menus: Items/de")
+- Hinzufügen oder Bearbeiten von Menü-Modulen: [Erweiterungen: Module
   bearbeiten](https://docs.joomla.org/Help4.x:Extensions_Module_Manager_Edit/de "Help4.x:Extensions Module Manager Edit/de")

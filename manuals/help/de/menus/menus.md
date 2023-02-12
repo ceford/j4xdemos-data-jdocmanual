@@ -1,33 +1,33 @@
-<!-- Display title: Menus -->
+<!-- Filename: Help4.x:Menus / Display title: Menüs -->
 
 ## Beschreibung
 
-MenÃ¼s ermÃ¶glichen es dem Benutzer, auf der Website zu navigieren. Ein
-MenÃ¼ ist ein Objekt, das einen oder mehrere MenÃ¼eintrÃ¤ge enthÃ¤lt.
-Jeder MenÃ¼eintrag verweist auf eine logische Seite auf der Website. Ein
-MenÃ¼modul ist erforderlich, um das MenÃ¼ auf der Seite zu platzieren.
-Ein MenÃ¼ kann mehr als ein Modul aufweisen. Ein Modul kann
-beispielsweise nur die MenÃ¼punkte der ersten Ebene anzeigen und ein
-zweites Modul kann die MenÃ¼punkte der Ebene 2 anzeigen.
+Menüs ermöglichen es dem Benutzer, auf der Website zu navigieren. Ein
+Menü ist ein Objekt, das einen oder mehrere Menüeinträge enthält. Jeder
+Menüeintrag verweist auf eine logische Seite auf der Website. Ein
+Menümodul ist erforderlich, um das Menü auf der Seite zu platzieren. Ein
+Menü kann mehr als ein Modul aufweisen. Ein Modul kann beispielsweise
+nur die Menüpunkte der ersten Ebene anzeigen und ein zweites Modul kann
+die Menüpunkte der Ebene 2 anzeigen.
 
-Die MenÃ¼liste bietet einen Ãœberblick Ã¼ber die auf einer Joomla-Seite
-verfÃ¼gbaren MenÃ¼s. Dazu gehÃ¶ren die Angaben Ã¼ber die Anzahl der
-verÃ¶ffentlichten, versteckten und gelÃ¶schten EintrÃ¤ge jedes einzelnen
-MenÃ¼s sowie die Namen der verknÃ¼pften Module.
+Die Menüliste bietet einen Überblick über die auf einer Joomla-Seite
+verfügbaren Menüs. Dazu gehören die Angaben über die Anzahl der
+veröffentlichten, versteckten und gelöschten Einträge jedes einzelnen
+Menüs sowie die Namen der verknüpften Module.
 
-Der normale Ablauf zum Einrichten eines MenÃ¼s auf der Website ist wie
+Der normale Ablauf zum Einrichten eines Menüs auf der Website ist wie
 folgt:
 
-1.  Ein neues MenÃ¼ erstellen (diese Seite).
-2.  Ein oder mehrere MenÃ¼eintrÃ¤ge in diesem MenÃ¼ erstellen. Jeder
-    MenÃ¼eintrag hat einen speziellen MenÃ¼eintragtyp.
-3.  Erstellen von einem oder mehreren MenÃ¼-Modulen, um das MenÃ¼ auf
-    der Website anzuzeigen. In den Modulen wird eingestellt, welche
-    MenÃ¼eintrÃ¤ge das Modul zeigen soll.
+1.  Ein neues Menü erstellen (diese Seite).
+2.  Ein oder mehrere Menüeinträge in diesem Menü erstellen. Jeder
+    Menüeintrag hat einen speziellen Menüeintragtyp.
+3.  Erstellen von einem oder mehreren Menü-Modulen, um das Menü auf der
+    Website anzuzeigen. In den Modulen wird eingestellt, welche
+    Menüeinträge das Modul zeigen soll.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **MenÃ¼s **→** Verwalten** auswÃ¤hlen.
+- Im Administrator-Menü **Menüs **→** Verwalten** auswählen.
 
 ## Bildschirmfoto
 
@@ -38,40 +38,38 @@ srcset="https://docs.joomla.org/images/thumb/a/a0/Help-4x-menus-menu-manager-men
 data-file-width="1630" data-file-height="1105" width="800" height="542"
 alt="Help-4x-menus-menu-manager-menus-de.png" />
 
-## Spalten-Ãœberschriften
+## Spalten-Überschriften
 
 Ein Klick auf den Titel einer Spalte sortiert die Tabellenansicht nach
-dieser Spalte. Ein AbwÃ¤rts-Pfeil neben dem Spaltentitel bedeutet
-absteigende Sortierung wÃ¤hrend ein AufwÃ¤rts-Pfeil aufsteigende
+dieser Spalte. Ein Abwärts-Pfeil neben dem Spaltentitel bedeutet
+absteigende Sortierung während ein Aufwärts-Pfeil aufsteigende
 Sortierung bedeutet. Als Standard wird nach der **ID**-Nummer
 aufsteigend sortiert.
 
-- **Checkbox**. Dieses KÃ¤stchen markieren, um einen oder mehrere
-  EintrÃ¤ge auszuwÃ¤hlen. Um alle EintrÃ¤ge auszuwÃ¤hlen, das KÃ¤stchen
-  im Spaltenkopf markieren. Nachdem ein oder mehrere KÃ¤stchen markiert
-  sind, auf eine SchaltflÃ¤che in der Werkzeugleiste klicken, um eine
-  Aktion fÃ¼r den ausgewÃ¤hlten Eintrag oder die ausgewÃ¤hlten EintrÃ¤ge
-  durchzufÃ¼hren. Viele Aktionen, wie z.B. VerÃ¶ffentlichen und
-  Verstecken, kÃ¶nnen mit mehreren EintrÃ¤gen arbeiten. Andere, wie z.B.
+- **Checkbox**. Dieses Kästchen markieren, um einen oder mehrere
+  Einträge auszuwählen. Um alle Einträge auszuwählen, das Kästchen im
+  Spaltenkopf markieren. Nachdem ein oder mehrere Kästchen markiert
+  sind, auf eine Schaltfläche in der Werkzeugleiste klicken, um eine
+  Aktion für den ausgewählten Eintrag oder die ausgewählten Einträge
+  durchzuführen. Viele Aktionen, wie z.B. Veröffentlichen und
+  Verstecken, können mit mehreren Einträgen arbeiten. Andere, wie z.B.
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
-  Wenn mehrere EintrÃ¤ge markiert sind und Sie auf â€žBearbeitenâ€œ
-  drÃ¼cken, wird der erste der markierten EintrÃ¤ge zur Bearbeitung
-  geÃ¶ffnet.
-- **Titel**. Der Name des MenÃ¼s.
-- **\# VerÃ¶ffentlicht.** Anzahl der verÃ¶ffentlichten MenÃ¼eintrÃ¤ge
-  des MenÃ¼s
-- **\# Versteckt.** Anzahl der versteckten MenÃ¼eintrÃ¤ge des MenÃ¼s
-- **\# Im Papierkorb**. Anzahl der MenÃ¼eintrÃ¤ge des MenÃ¼s im
-  Papierkorb.
-- **Zugeordnete Module**. Zeigt jedes MenÃ¼-Modul, das dem MenÃ¼
+  Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
+  wird der erste der markierten Einträge zur Bearbeitung geöffnet.
+- **Titel**. Der Name des Menüs.
+- **\# Veröffentlicht.** Anzahl der veröffentlichten Menüeinträge des
+  Menüs
+- **\# Versteckt.** Anzahl der versteckten Menüeinträge des Menüs
+- **\# Im Papierkorb**. Anzahl der Menüeinträge des Menüs im Papierkorb.
+- **Zugeordnete Module**. Zeigt jedes Menü-Modul, das dem Menü
   zugeordnet ist. Die Spalte zeigt den Namen des Moduls, seine
   Zugriffsebene und Position im Template.
 
 <!-- -->
 
-- **ID**. Einmalig vergebene Identifikations-Nummer fÃ¼r den Eintrag.
-  Sie wird von Joomla automatisch vergeben und dient zur internen
-  Identifikation des Eintrages. Man kann die Nummer nicht Ã¤ndern. Beim
+- **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
+  wird von Joomla automatisch vergeben und dient zur internen
+  Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
   Neu-Erstellen eines Eintrags zeigt das Feld "0" an, bis man speichert,
   dabei wird dann die neue ID vergeben.
 
@@ -80,80 +78,77 @@ aufsteigend sortiert.
 Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
-- **Neu**: Ã–ffnet das Bearbeitungs-Formular, um menu zu erstellen.
+- **Neu**: Öffnet das Bearbeitungs-Formular, um menu zu erstellen.
 
 <!-- -->
 
-- **Bearbeiten:** Ã–ffnet das Bearbeitungs-Formular fÃ¼r das
-  ausgewÃ¤hlte menu. Falls mehr als ein menu ausgewÃ¤hlt wurde (wo
-  anwendbar), wird nur das erste menu geÃ¶ffnet. Das
-  Bearbeitungs-Formular kann auch durch Klicken auf den menu-Namen
-  geÃ¶ffnet werden.
+- **Bearbeiten:** Öffnet das Bearbeitungs-Formular für das ausgewählte
+  menu. Falls mehr als ein menu ausgewählt wurde (wo anwendbar), wird
+  nur das erste menu geöffnet. Das Bearbeitungs-Formular kann auch durch
+  Klicken auf den menu-Namen geöffnet werden.
 
 <!-- -->
 
-- **LÃ¶schen:** LÃ¶scht markierte menus. Funktioniert mit einem oder
-  mehreren ausgewÃ¤hlten menus. Das LÃ¶schen eines MenÃ¼s lÃ¶scht auch
-  alle seine MenÃ¼eintrÃ¤ge und seine zugeordneten Module. Nach Klick
-  auf "LÃ¶schen" wird man um BestÃ¤tigung der LÃ¶schung der gewÃ¤hlten
-  MenÃ¼s gefragt. Ein Klick auf "OK" lÃ¶scht die MenÃ¼s. Ein Klick auf
-  "Abbrechen" unterbricht die LÃ¶schung.
+- **Löschen:** Löscht markierte menus. Funktioniert mit einem oder
+  mehreren ausgewählten menus. Das Löschen eines Menüs löscht auch alle
+  seine Menüeinträge und seine zugeordneten Module. Nach Klick auf
+  "Löschen" wird man um Bestätigung der Löschung der gewählten Menüs
+  gefragt. Ein Klick auf "OK" löscht die Menüs. Ein Klick auf
+  "Abbrechen" unterbricht die Löschung.
 
 <!-- -->
 
 - **Wiederherstellen.** Rekonstruiert und aktualisiert die menu-Tabelle.
-  Ãœblicherweise muÃŸ diese Tabelle *nicht* wiederhergestellt werden.
-  Die Funktion ist fÃ¼r den Fall einer beschÃ¤digten Tabelle gedacht.
+  Üblicherweise muß diese Tabelle *nicht* wiederhergestellt werden. Die
+  Funktion ist für den Fall einer beschädigten Tabelle gedacht.
 
 <!-- -->
 
-- **Optionen.** Ã–ffnet das Optionen-Fenster, in dem Einstellungen, wie
-  die Standard-Parameter, bearbeitet werden kÃ¶nnen. Siehe auch [Menus
+- **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
+  die Standard-Parameter, bearbeitet werden können. Siehe auch [Menus
   Configuration](https://docs.joomla.org/Help4.x:Components_Menus_Configuration "Special:MyLanguage/Help4.x:Components Menus Configuration").
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
-- Es ist ratsam, neuen MenÃ¼s einen aussagekrÃ¤ftigen Titel zu geben, da
-  sie spÃ¤ter im MenÃ¼ *Administrator-MenÃ¼s* angezeigt werden. Es ist
-  sinnvoll, das Feld *Beschreibung* mit Informationen Ã¼ber das MenÃ¼ zu
-  fÃ¼llen. Ein kurzer Name im Feld *Modultitel* hilft, das Modul des
-  MenÃ¼s im Modul-Manager mit diesem Titel zu identifizieren.
-- Man kann zwar eine Kopie eines ausgewÃ¤hlten MenÃ¼s erstellen, indem
-  man auf die SchaltflÃ¤che *Kopieren* in der Symbolleiste klickt,
-  allerdings kann man auch eine weitere Instanz im Modulmanager
-  erstellen.
-- In neu angelegten MenÃ¼s sollte im Feld *Titel* der Name eindeutig
-  sein und nur englische alphanumerische Zeichen ohne Leerzeichen
-  verwendet werden. Es ist sinnvoll, nur die Zeichen a-z, 0-9 und den
-  Unterstrich (\_) zu benutzen.
+- Es ist ratsam, neuen Menüs einen aussagekräftigen Titel zu geben, da
+  sie später im Menü *Administrator-Menüs* angezeigt werden. Es ist
+  sinnvoll, das Feld *Beschreibung* mit Informationen über das Menü zu
+  füllen. Ein kurzer Name im Feld *Modultitel* hilft, das Modul des
+  Menüs im Modul-Manager mit diesem Titel zu identifizieren.
+- Man kann zwar eine Kopie eines ausgewählten Menüs erstellen, indem man
+  auf die Schaltfläche *Kopieren* in der Symbolleiste klickt, allerdings
+  kann man auch eine weitere Instanz im Modulmanager erstellen.
+- In neu angelegten Menüs sollte im Feld *Titel* der Name eindeutig sein
+  und nur englische alphanumerische Zeichen ohne Leerzeichen verwendet
+  werden. Es ist sinnvoll, nur die Zeichen a-z, 0-9 und den Unterstrich
+  (\_) zu benutzen.
 - Wird kein "Modul-Titel" eingegeben, kann das Modul nicht gespeichert
-  und das MenÃ¼ im Frontend nicht angezeigt werden. Allerdings kann
-  spÃ¤ter in der Modul-Verwaltung ein neues MenÃ¼-Modul erstellt und dem
-  MenÃ¼ zugeordnet werden.
-- Wird ein existierendes MenÃ¼ gelÃ¶scht, werden auch alle
-  MenÃ¼-Elemente des MenÃ¼s gelÃ¶scht.
-- Das HauptmenÃ¼ enthÃ¤lt das Standard-MenÃ¼, daher sollte es **nicht
-  gelÃ¶scht** werden. Das Standard-MenÃ¼-Element definiert die Seite,
-  die nach Aufruf von *www.meineseite.de* angezeigt wird. Die Site wird
-  ohne das Standard-MenÃ¼-Element nicht funktionieren. Normalerweise ist
-  dies der MenÃ¼punkt â€žHomeâ€œ, aber es kann jeder beliebige
-  MenÃ¼punkt eingestellt werden, einschlieÃŸlich eines MenÃ¼punkts in
-  einem verborgenen MenÃ¼. Wird das Standard-MenÃ¼-Element gewechselt,
-  sollte es genauso wenig gelÃ¶scht werden! Das MenÃ¼ mit dem
-  StandardmenÃ¼eintrag ist im MenÃ¼ *MenÃ¼s* mit einem Sternchen (\*)
-  gekennzeichnet.
+  und das Menü im Frontend nicht angezeigt werden. Allerdings kann
+  später in der Modul-Verwaltung ein neues Menü-Modul erstellt und dem
+  Menü zugeordnet werden.
+- Wird ein existierendes Menü gelöscht, werden auch alle Menü-Elemente
+  des Menüs gelöscht.
+- Das Hauptmenü enthält das Standard-Menü, daher sollte es **nicht
+  gelöscht** werden. Das Standard-Menü-Element definiert die Seite, die
+  nach Aufruf von *www.meineseite.de* angezeigt wird. Die Site wird ohne
+  das Standard-Menü-Element nicht funktionieren. Normalerweise ist dies
+  der Menüpunkt „Home“, aber es kann jeder beliebige Menüpunkt
+  eingestellt werden, einschließlich eines Menüpunkts in einem
+  verborgenen Menü. Wird das Standard-Menü-Element gewechselt, sollte es
+  genauso wenig gelöscht werden! Das Menü mit dem Standardmenüeintrag
+  ist im Menü *Menüs* mit einem Sternchen (\*) gekennzeichnet.
 
 ## Verwandte Informationen
 
-- Neue MenÃ¼s hinzufÃ¼gen: [MenÃ¼s:
+- Neue Menüs hinzufügen: [Menüs:
   Neu/Bearbeiten](https://docs.joomla.org/Help4.x:Menus:_Edit/de "Help4.x:Menus: Edit/de")
-- Zum Einrichten von Berechtigungen fÃ¼r Aktionen in MenÃ¼s: [MenÃ¼s:
+- Zum Einrichten von Berechtigungen für Aktionen in Menüs: [Menüs:
   Optionen](https://docs.joomla.org/Help4.x:Menus:_Options/de "Help4.x:Menus: Options/de")
-- MenÃ¼eintrÃ¤ge neu/bearbeiten: [MenÃ¼s:
-  MenÃ¼-EintrÃ¤ge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Help4.x:Menus: Items/de")
-- Zum HinzufÃ¼gen oder Bearbeiten von MenÃ¼-Modulen: [Neuer
-  MenÃ¼-Eintrag](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de "Help4.x:Menu Item: New Item/de")
+- Menüeinträge neu/bearbeiten: [Menüs:
+  Menü-Einträge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Help4.x:Menus: Items/de")
+- Zum Hinzufügen oder Bearbeiten von Menü-Modulen: [Neuer
+  Menü-Eintrag](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de "Help4.x:Menu Item: New Item/de")

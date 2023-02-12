@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Banners -->
+<!-- Filename: Help4.x:Site_Modules:_Banners / Display title: Site Modules: Banners -->
 
 ## Description
 

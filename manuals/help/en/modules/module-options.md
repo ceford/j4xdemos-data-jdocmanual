@@ -1,4 +1,4 @@
-<!-- Help4.x:Module:_Options -->
+<!-- Filename: Help4.x:Module:_Options / Display title: Modules: Options -->
 
 ## Description
 

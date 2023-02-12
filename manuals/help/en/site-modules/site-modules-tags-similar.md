@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Tags_-_Similar -->
+<!-- Filename: Help4.x:Site_Modules:_Tags_-_Similar / Display title: Site Modules: Tags - Similar -->
 
 ## Description
 

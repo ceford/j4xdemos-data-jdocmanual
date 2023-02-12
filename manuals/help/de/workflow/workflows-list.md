@@ -1,12 +1,12 @@
-<!-- Display title: Workflows List -->
+<!-- Filename: Help4.x:Workflows_List / Display title: Workflows-Liste -->
 
 ## Beschreibung
 
 Die Publishing-Workflow-Komponente wird benutzt, um bestimmte Stadien
-(unverÃ¶ffentlicht, verÃ¶ffentlicht, gelÃ¶scht und archiviert) durch
-einen etwas allgemeineren Ansatz zu ersetzen. Auf diese Weise kann ein
-maÃŸgeschneiderter Ablaufplan einfach erzeugt werden, um die eigenen
-BeitrÃ¤ge innerhalb einer Komponente zu handhaben.
+(unveröffentlicht, veröffentlicht, gelöscht und archiviert) durch einen
+etwas allgemeineren Ansatz zu ersetzen. Auf diese Weise kann ein
+maßgeschneiderter Ablaufplan einfach erzeugt werden, um die eigenen
+Beiträge innerhalb einer Komponente zu handhaben.
 
 Weitere Informationen sind auf der Seite
 [Workflow](https://docs.joomla.org/J4.x:Workflow/en "J4.x:Workflow/en")

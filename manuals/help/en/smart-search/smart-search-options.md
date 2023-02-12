@@ -1,4 +1,4 @@
-<!-- Help4.x:Smart_Search:_Options -->
+<!-- Filename: Help4.x:Smart_Search:_Options / Display title: Smart Search: Options -->
 
 ## Description
 

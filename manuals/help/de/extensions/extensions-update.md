@@ -1,22 +1,22 @@
-<!-- Display title: Extensions: Update -->
+<!-- Filename: Help4.x:Extensions:_Update / Display title: Erweiterungen: Aktualisieren -->
 
 ## Beschreibung
 
-Ãœber diese Seite kÃ¶nnen installierte Erweiterungen aktualisiert
-werden, die einen Aktualisierungsserver bereitstellen. Die
-Live-Aktualisierung der Erweiterung erfolgt, ohne dass die
-aktualisierten Erweiterungsdateien manuell hochgeladen und installiert
-werden mÃ¼ssen. Sie werden stattdessen Ã¼ber Standard-HTTP-Verbindungen
-vom externen Aktualisierungsserver bezogen.
+Über diese Seite können installierte Erweiterungen aktualisiert werden,
+die einen Aktualisierungsserver bereitstellen. Die Live-Aktualisierung
+der Erweiterung erfolgt, ohne dass die aktualisierten
+Erweiterungsdateien manuell hochgeladen und installiert werden müssen.
+Sie werden stattdessen über Standard-HTTP-Verbindungen vom externen
+Aktualisierungsserver bezogen.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼
-  **System **→** Aktualisierungen **→** Erweiterungen** wÃ¤hlen. Dann,
-  um ein Update durchzufÃ¼hren ...
-  - das KontrollkÃ¤stchen eines oder mehrerer EintrÃ¤ge markieren, die
+- Im Administrator-Menü
+  **System **→** Aktualisierungen **→** Erweiterungen** wählen. Dann, um
+  ein Update durchzuführen ...
+  - das Kontrollkästchen eines oder mehrerer Einträge markieren, die
     aktualisiert werden sollen.
-  - Die SchaltflÃ¤che **Aktualisieren** in der Symbolleiste anklicken.
+  - Die Schaltfläche **Aktualisieren** in der Symbolleiste anklicken.
 
 ## Bildschirmfoto
 
@@ -26,7 +26,7 @@ en
 
 .png\|800px\]\]
 
-## Spalten-Ãœberschriften
+## Spalten-Überschriften
 
 <img
 src="https://docs.joomla.org/images/thumb/1/1d/Help-4x-Extensions-Manage-Update-columns-en.png/680px-Help-4x-Extensions-Manage-Update-columns-en.png"
@@ -35,17 +35,16 @@ srcset="https://docs.joomla.org/images/1/1d/Help-4x-Extensions-Manage-Update-col
 data-file-width="871" data-file-height="29" width="680" height="23"
 alt="Help-4x-Extensions-Manage-Update-columns-en.png" />
 
-- **Checkbox**. Dieses KÃ¤stchen markieren, um einen oder mehrere
-  EintrÃ¤ge auszuwÃ¤hlen. Um alle EintrÃ¤ge auszuwÃ¤hlen, das KÃ¤stchen
-  im Spaltenkopf markieren. Nachdem ein oder mehrere KÃ¤stchen markiert
-  sind, auf eine SchaltflÃ¤che in der Werkzeugleiste klicken, um eine
-  Aktion fÃ¼r den ausgewÃ¤hlten Eintrag oder die ausgewÃ¤hlten EintrÃ¤ge
-  durchzufÃ¼hren. Viele Aktionen, wie z.B. VerÃ¶ffentlichen und
-  Verstecken, kÃ¶nnen mit mehreren EintrÃ¤gen arbeiten. Andere, wie z.B.
+- **Checkbox**. Dieses Kästchen markieren, um einen oder mehrere
+  Einträge auszuwählen. Um alle Einträge auszuwählen, das Kästchen im
+  Spaltenkopf markieren. Nachdem ein oder mehrere Kästchen markiert
+  sind, auf eine Schaltfläche in der Werkzeugleiste klicken, um eine
+  Aktion für den ausgewählten Eintrag oder die ausgewählten Einträge
+  durchzuführen. Viele Aktionen, wie z.B. Veröffentlichen und
+  Verstecken, können mit mehreren Einträgen arbeiten. Andere, wie z.B.
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
-  Wenn mehrere EintrÃ¤ge markiert sind und Sie auf â€žBearbeitenâ€œ
-  drÃ¼cken, wird der erste der markierten EintrÃ¤ge zur Bearbeitung
-  geÃ¶ffnet.
+  Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
+  wird der erste der markierten Einträge zur Bearbeitung geöffnet.
 - **Name**. Der Name der Erweiterung.
 
 <!-- -->

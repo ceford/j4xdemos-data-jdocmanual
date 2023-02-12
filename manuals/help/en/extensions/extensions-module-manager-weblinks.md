@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions_Module_Manager_Weblinks -->
+<!-- Filename: Help4.x:Extensions_Module_Manager_Weblinks / Display title: Extensions Module Manager Weblinks -->
 
 ## Description
 

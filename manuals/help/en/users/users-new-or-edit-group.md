@@ -1,4 +1,4 @@
-<!-- Help4.x:Users:_New_or_Edit_Group -->
+<!-- Filename: Help4.x:Users:_New_or_Edit_Group / Display title: Users: New or Edit Group -->
 
 ## Description
 

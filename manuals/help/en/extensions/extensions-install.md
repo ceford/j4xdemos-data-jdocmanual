@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions:_Install -->
+<!-- Filename: Help4.x:Extensions:_Install / Display title: Extensions: Install -->
 
 ## Description
 

@@ -1,17 +1,17 @@
-<!-- Display title: Permissions for Group -->
+<!-- Filename: Help4.x:Permissions_for_Group / Display title: Berechtigungen für Gruppen -->
 
 ## Beschreibung
 
-Der Erweiterte Berechtigungsbericht zeigt die exakten Berechtigungen
-fÃ¼r eine bestimmte Benutzergruppe fÃ¼r alle Objekte der Joomla!
-Installation an. Er ist hilfreich fÃ¼r die Fehlersuche bei Problemen mit
-dem Benutzerzugang.
+Der Erweiterte Berechtigungsbericht zeigt die exakten Berechtigungen für
+eine bestimmte Benutzergruppe für alle Objekte der Joomla! Installation
+an. Er ist hilfreich für die Fehlersuche bei Problemen mit dem
+Benutzerzugang.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **Benutzer â†’ Gruppen** auswÃ¤hlen, dann ...
-  - das Symbol **Berechtigungen** fÃ¼r eine bestimmte Gruppe in der
-    Liste der Benutzergruppen anklicken.
+- Im Administrator-Menü **Benutzer → Gruppen** auswählen, dann ...
+  - das Symbol **Berechtigungen** für eine bestimmte Gruppe in der Liste
+    der Benutzergruppen anklicken.
 
 ## Bildschirmfoto
 
@@ -22,42 +22,42 @@ srcset="https://docs.joomla.org/images/thumb/1/18/Help-4x-debug_groups-screen-de
 data-file-width="2182" data-file-height="980" width="800" height="359"
 alt="Help-4x-debug groups-screen-de.png" />
 
-## Spalten-Ãœberschriften
+## Spalten-Überschriften
 
-Die Asset-Liste der Joomla! Site enthÃ¤lt folgende Spalten. FÃ¼r jedes
-Asset wird die Berechtigung fÃ¼r die jeweilige Gruppe angezeigt,
-farblich codiert gemÃ¤ÃŸ der Legende (siehe Screenshot).
+Die Asset-Liste der Joomla! Site enthält folgende Spalten. Für jedes
+Asset wird die Berechtigung für die jeweilige Gruppe angezeigt, farblich
+codiert gemäß der Legende (siehe Screenshot).
 
 - **Bestandstitel**. Titel des jeweiligen Assets.
 - **Bestandsname**. Interner Name des Assets.
-- **Site-Anmeldung.** ErmÃ¶glicht Benutzern in der Gruppe, sich im
+- **Site-Anmeldung.** Ermöglicht Benutzern in der Gruppe, sich im
   Frontend anzumelden.
-- **Administratoranmeldung**. ErmÃ¶glicht den Benutzern der Gruppe, sich
+- **Administratoranmeldung**. Ermöglicht den Benutzern der Gruppe, sich
   im Administrator-Backend anzumelden.
-- **Web Services Login.** ErmÃ¶glicht die Nutzung der Joomla Web
-  Services API Ã¼ber ein Superuser API Token.
-- **Offlinezugang**. ErmÃ¶glicht den Benutzern der Gruppe, sich im
+- **Web Services Login.** Ermöglicht die Nutzung der Joomla Web Services
+  API über ein Superuser API Token.
+- **Offlinezugang**. Ermöglicht den Benutzern der Gruppe, sich im
   Frontend anzumelden, auch wenn die Seite offline ist.
-- **Super Benutzer**. ErmÃ¶glicht den Benutzern der Gruppe, jede Aktion
-  auf der ganzen Seite, unabhÃ¤ngig von anderen
-  Berechtigungseinstellungen, durchzufÃ¼hren.
+- **Super Benutzer**. Ermöglicht den Benutzern der Gruppe, jede Aktion
+  auf der ganzen Seite, unabhängig von anderen
+  Berechtigungseinstellungen, durchzuführen.
   - **Nur Optionen konfigurieren**. Erlaubt den Benutzern der Gruppe,
     die Optionen zu bearbeiten, mit Ausnahme der Berechtigung
     irgendeiner Erweiterung.
 - **Administrationszugriff**. Erlaubt den Benutzern der Gruppe Zugriff
   auf alle Bereiche der Backend-Administration mit Ausnahme der globalen
   Konfiguration.
-- **Erstellen**. ErmÃ¶glicht den Benutzern der Gruppe, jeden Inhalt in
+- **Erstellen**. Ermöglicht den Benutzern der Gruppe, jeden Inhalt in
   jeder Erweiterung zu erstellen.
-- **LÃ¶schen**. ErmÃ¶glicht den Benutzern der Gruppe, jeden Inhalt in
-  jeder Erweiterung zu lÃ¶schen.
-- **Bearbeiten**. ErmÃ¶glicht den Benutzern der Gruppe, jeden Inhalt in
+- **Löschen**. Ermöglicht den Benutzern der Gruppe, jeden Inhalt in
+  jeder Erweiterung zu löschen.
+- **Bearbeiten**. Ermöglicht den Benutzern der Gruppe, jeden Inhalt in
   jeder Erweiterung zu bearbeiten.
-- **Status bearbeiten**. ErmÃ¶glicht den Benutzern der Gruppe, den
-  Status der Inhalte in jeder Erweiterung zu bearbeiten.
-- **Bearbeiten**. ErmÃ¶glicht den Benutzern der Gruppe, jeden eigenen
+- **Status bearbeiten**. Ermöglicht den Benutzern der Gruppe, den Status
+  der Inhalte in jeder Erweiterung zu bearbeiten.
+- **Bearbeiten**. Ermöglicht den Benutzern der Gruppe, jeden eigenen
   Inhalt in jeder Erweiterung zu bearbeiten.
-- **Inhalt von eigenen Feldern bearbeiten**. ErmÃ¶glicht den Benutzern
+- **Inhalt von eigenen Feldern bearbeiten**. Ermöglicht den Benutzern
   der Gruppe, jeden Inhalt von eigenen Feldern in jeder Erweiterung zu
   bearbeiten.
 - **LFT**. Die linken und rechten Werte in der Hierarchie. Siehe [Using
@@ -67,9 +67,9 @@ farblich codiert gemÃ¤ÃŸ der Legende (siehe Screenshot).
 
 <!-- -->
 
-- **ID**. Einmalig vergebene Identifikations-Nummer fÃ¼r den Eintrag.
-  Sie wird von Joomla automatisch vergeben und dient zur internen
-  Identifikation des Eintrages. Man kann die Nummer nicht Ã¤ndern. Beim
+- **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
+  wird von Joomla automatisch vergeben und dient zur internen
+  Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
   Neu-Erstellen eines Eintrags zeigt das Feld "0" an, bis man speichert,
   dabei wird dann die neue ID vergeben.
 
@@ -80,22 +80,22 @@ dargestellte Filterleiste. Die Funktionen sind:
 
 - **Suche**. Einen Teil des Bestandstitels eingeben und auf das
   Lupen-Symbol klicken, um passende Namen zu finden. Durch Tippen auf
-  **X** oder â€žZurÃ¼cksetzenâ€œ wird das Suchfeld geleert und die
-  komplette Liste der MenÃ¼s wieder angezeigt.
-- **Komponente auswÃ¤hlen**. Filtern nach installierter Komponente in
+  **X** oder „Zurücksetzen“ wird das Suchfeld geleert und die komplette
+  Liste der Menüs wieder angezeigt.
+- **Komponente auswählen**. Filtern nach installierter Komponente in
   Joomla.
-- **Anfangsebene auswÃ¤hlen**. Die Anfangsebene des Elements.
-- **Endebene auswÃ¤hlen**. Die Endebene des Elements.
+- **Anfangsebene auswählen**. Die Anfangsebene des Elements.
+- **Endebene auswählen**. Die Endebene des Elements.
 
-**Seitenkontrolle**. Gibt es mehr EintrÃ¤ge als auf der Seite gezeigt,
+**Seitenkontrolle**. Gibt es mehr Einträge als auf der Seite gezeigt,
 wird im unteren Bereich die Seitenkontrollleiste wie auf dem
 [Bildschirmfoto](#screenshot) eingeblendet. Die aktuelle Seitenzahl ist
 mit dunkler Farbe unterlegt.
 
 - **Start**. Anklicken, um die erste Seite anzuzeigen.
 - **Vorherige**. Anklicken, um die vorherige Seite anzuzeigen.
-- **Seitennummer**. Anklicken, um die anzuzeigende Seite auszuwÃ¤hlen.
-- **Weiter**. Anklicken, um die nÃ¤chste Seite anzuzeigen.
+- **Seitennummer**. Anklicken, um die anzuzeigende Seite auszuwählen.
+- **Weiter**. Anklicken, um die nächste Seite anzuzeigen.
 - **Ende**. Anklicken, um die letzte Seite anzuzeigen.
 
 ## Werkzeugleiste
@@ -103,18 +103,18 @@ mit dunkler Farbe unterlegt.
 Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
 
-- **Optionen.** Ã–ffnet das Optionen-Fenster, in dem Einstellungen, wie
-  die Standard-Parameter, bearbeitet werden kÃ¶nnen.
+- **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
+  die Standard-Parameter, bearbeitet werden können.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Legende
 

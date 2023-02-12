@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Control_Panel -->
+<!-- Filename: Help4.x:Site_Control_Panel / Display title: Home Dashboard -->
 
 ## Description
 

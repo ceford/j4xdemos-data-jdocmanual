@@ -1,12 +1,11 @@
-<!-- Display title: User Notes: New or Edit Category -->
+<!-- Filename: Help4.x:User_Notes:_New_or_Edit_Category / Display title: Benutzerhinweise: Kategorie neu erstellen oder bearbeiten -->
 
 ## Beschreibung
 
 Kategorien werden verwendet, um Benutzerhinweise zu organisieren, sodass
-zusammengehÃ¶rige Hinweise zusammen auf einer Seite angezeigt werden
-kÃ¶nnen. Alle Benutzerhinweise werden entweder einer neu erstellten
-Kategorie oder der speziellen Kategorie â€žUnkategorisiertâ€œ
-zugeordnet.
+zusammengehörige Hinweise zusammen auf einer Seite angezeigt werden
+können. Alle Benutzerhinweise werden entweder einer neu erstellten
+Kategorie oder der speziellen Kategorie „Unkategorisiert“ zugeordnet.
 
 This screen has a form to add a new Category or edit an existing
 Category.
@@ -34,15 +33,15 @@ alt="Help-4x-users-category-manager-add-a-new-user-notes-category-de.png" />
 - **Titel.** Titel der Kategorie.
 
 Der Alias wird in der SEF-URL (suchmaschinenfreundliche URL) verwendet.
-Dieses Feld leer lassen, dann fÃ¼llt Joomla einen Standardwert aus dem
-Titel aus. Dieser Wert hÃ¤ngt von den SEO-Einstellungen ab
+Dieses Feld leer lassen, dann füllt Joomla einen Standardwert aus dem
+Titel aus. Dieser Wert hängt von den SEO-Einstellungen ab
 (**System **→** Konfiguration **→** Site**). Die Verwendung von Unicode
 erzeugt UTF-8-Aliase. Ein beliebiges UTF-8-Zeichen kann auch manuell
-eingegeben werden. Leerzeichen und einige unzulÃ¤ssige Zeichen werden in
+eingegeben werden. Leerzeichen und einige unzulässige Zeichen werden in
 Bindestriche umgewandelt. Bei Verwendung der Standard-Transliteration
 wird ein Alias in Kleinbuchstaben und mit Bindestrichen anstelle von
 Leerzeichen erzeugt. Der Alias kann auch manuell eingegeben werden. Es
-mÃ¼ssen Kleinbuchstaben und Bindestriche (-) verwendet werden. Es sind
+müssen Kleinbuchstaben und Bindestriche (-) verwendet werden. Es sind
 keine Leerzeichen oder Unterstriche erlaubt. Der Standardwert ist ein
 Datum und eine Uhrzeit, wenn der Titel in nicht-lateinischen Buchstaben
 eingegeben wird.
@@ -51,22 +50,21 @@ eingegeben wird.
 
 - **Beschreibung**. Im Textbereich die optionale Beschreibung der
   Kategorie eingeben.
-- **Ãœbergeordnet**. (*Keine Ã¼bergeordnete
-  Kategorie*/*Unkategorisiert*). Eine Ã¼bergeordnete Kategorie
-  auswÃ¤hlen.
-- **Status**. (*VerÃ¶ffentlicht*/*Versteckt*/*Archiviert*/*Papierkorb*).
-  Den VerÃ¶ffentlichungs-Status einstellen.
+- **Übergeordnet**. (*Keine übergeordnete Kategorie*/*Unkategorisiert*).
+  Eine übergeordnete Kategorie auswählen.
+- **Status**. (*Veröffentlicht*/*Versteckt*/*Archiviert*/*Papierkorb*).
+  Den Veröffentlichungs-Status einstellen.
 - **Zugriffsebene**.
-  (*Gast*/*Ã–ffentlich*/*Registriert*/*Spezial*/*Eigene Zugriffsebene
+  (*Gast*/*Öffentlich*/*Registriert*/*Spezial*/*Eigene Zugriffsebene
   (Beispiel)*). Die Gruppe der Zugriffsebene, die dieses Element sehen
   kann.
 - **Sprache**. (*Alle*/*German (DE)*). Der Kategorie eine Sprache
   zuordnen.
-- **SchlagwÃ¶rter**. Dem Inhalt des Elements SchlagwÃ¶rter zuordnen.
-  SchlagwÃ¶rter mÃ¼ssen einmalig sein.
+- **Schlagwörter**. Dem Inhalt des Elements Schlagwörter zuordnen.
+  Schlagwörter müssen einmalig sein.
 - **Notiz**. Eine optionale Notiz zur Anzeige in der Kategorie-Liste
   eingeben.
-- **Versionshinweis**. Einen optionalen Hinweis fÃ¼r diese Version des
+- **Versionshinweis**. Einen optionalen Hinweis für diese Version des
   Eintrags eingeben.
 
 ### Optionen
@@ -79,13 +77,13 @@ data-file-width="1222" data-file-height="687" width="800" height="450"
 alt="Help-4x-users-category-manager-add-a-new-user-notes-category-options-de.png" />
 
 **Layout** (*Globale Einstellung*). Ein Layout aus der mitgelieferten
-Komponentenansicht verwenden oder in den Templates Ã¼bersteuern.
+Komponentenansicht verwenden oder in den Templates übersteuern.
 
-- **Bild**. Ein Bild fÃ¼r die Kategorie auswÃ¤hlen.
-- **Alternativtext**. Der alternative Text wird fÃ¼r Besucher ohne
+- **Bild**. Ein Bild für die Kategorie auswählen.
+- **Alternativtext**. Der alternative Text wird für Besucher ohne
   Bildanzeige verwendet.
 
-### VerÃ¶ffentlichung
+### Veröffentlichung
 
 <img
 src="https://docs.joomla.org/images/thumb/3/37/Help-4x-users-category-manager-add-a-new-user-notes-category-publishing-de.png/800px-Help-4x-users-category-manager-add-a-new-user-notes-category-publishing-de.png"
@@ -95,20 +93,20 @@ data-file-width="1412" data-file-height="686" width="800" height="389"
 alt="Help-4x-users-category-manager-add-a-new-user-notes-category-publishing-de.png" />
 
 - **Erstellungsdatum**. Datum und Uhrzeit der erstmaligen Erstellung des
-  Elements. Wird vom System automatisch ausgefÃ¼llt.
+  Elements. Wird vom System automatisch ausgefüllt.
 - **Autor**. Der Benutzer, der das Element erstellt hat.
 - **Bearbeitungsdatum**. Datum und Uhrzeit der letztmaligen Bearbeitung
-  des Elements. Wird vom System automatisch ausgefÃ¼llt
+  des Elements. Wird vom System automatisch ausgefüllt
 - **Bearbeitet von**. Der Benutzer, der das Element zuletzt bearbeitet
   hat.
 - **Zugriffe**. Anzahl der Zugriffe auf diese Kategorie.
 - **ID**. Datensatznummer in der Datenbank.
-- **Meta Beschreibung**. Eine zusÃ¤tzliche Beschreibung, die zusammen
-  mit dem HTML-Code ausgegeben wird. Sie wird in den Resultaten von
+- **Meta Beschreibung**. Eine zusätzliche Beschreibung, die zusammen mit
+  dem HTML-Code ausgegeben wird. Sie wird in den Resultaten von
   Suchmaschinen angezeigt.
-- **Meta-SchlÃ¼sselwÃ¶rter**. Eine optionale, durch Kommas getrennte
-  Liste von SchlÃ¼sselwÃ¶rtern, die zusammen mit dem HTML-Code
-  ausgegeben wird (SEO).
+- **Meta-Schlüsselwörter**. Eine optionale, durch Kommas getrennte Liste
+  von Schlüsselwörtern, die zusammen mit dem HTML-Code ausgegeben wird
+  (SEO).
 - **Autor**. Der Autor dieses Inhalts.
 - **Robots**. (*Globale Einstellung*/*index, follow*/*noindex,
   follow*/*index, nofollow*/*noindex, nofollow*). Robots Anweisungen.
@@ -122,34 +120,34 @@ srcset="https://docs.joomla.org/images/thumb/9/92/Help-4x-users-category-manager
 data-file-width="1411" data-file-height="801" width="800" height="454"
 alt="Help-4x-users-category-manager-add-a-new-user-notes-category-permissions-de.png" />
 
-Verwaltung der Zugriffsrechte fÃ¼r die folgenden Benutzergruppen. Die
+Verwaltung der Zugriffsrechte für die folgenden Benutzergruppen. Die
 untenstehenden Hinweise sollten beachtet werden.
 
 - **Erstellen**. (*Vererbt*/*Erlaubt*/*Verweigert*). Erlauben oder
-  Verweigern von Erstellen fÃ¼r Benutzer der Gruppe Ã–ffentlich.
-  Erstellen neuer Einstellungen fÃ¼r die **Erstellen-Aktion** in dieser
-  Kategorie und der errechneten Einstellung basierend auf der
-  Ã¼bergeordneten Kategorie und den Gruppenberechtigungen.
-- **LÃ¶schen**. (*Vererbt*/*Erlaubt*/*Verweigert*). Erlauben oder
-  Verweigern von Erstellen fÃ¼r Benutzer der Gruppe Ã–ffentlich.
-  Erstellen neuer Einstellungen fÃ¼r die **LÃ¶schen-Aktion** in dieser
-  Kategorie und der errechneten Einstellung basierend auf der
-  Ã¼bergeordneten Kategorie und den Gruppenberechtigungen.
+  Verweigern von Erstellen für Benutzer der Gruppe Öffentlich. Erstellen
+  neuer Einstellungen für die **Erstellen-Aktion** in dieser Kategorie
+  und der errechneten Einstellung basierend auf der übergeordneten
+  Kategorie und den Gruppenberechtigungen.
+- **Löschen**. (*Vererbt*/*Erlaubt*/*Verweigert*). Erlauben oder
+  Verweigern von Erstellen für Benutzer der Gruppe Öffentlich. Erstellen
+  neuer Einstellungen für die **Löschen-Aktion** in dieser Kategorie und
+  der errechneten Einstellung basierend auf der übergeordneten Kategorie
+  und den Gruppenberechtigungen.
 - **Bearbeiten**. (*Vererbt*/*Erlaubt*/*Verweigert*). Erlauben oder
-  Verweigern von Erstellen fÃ¼r Benutzer der Gruppe Ã–ffentlich.
-  Erstellen neuer Einstellungen fÃ¼r die **Bearbeiten-Aktion** in dieser
-  Kategorie und der errechneten Einstellung basierend auf der
-  Ã¼bergeordneten Kategorie und den Gruppenberechtigungen.
+  Verweigern von Erstellen für Benutzer der Gruppe Öffentlich. Erstellen
+  neuer Einstellungen für die **Bearbeiten-Aktion** in dieser Kategorie
+  und der errechneten Einstellung basierend auf der übergeordneten
+  Kategorie und den Gruppenberechtigungen.
 - **Status bearbeiten**. (*Vererbt*/*Erlaubt*/*Verweigert*). Erlauben
-  oder Verweigern von Erstellen fÃ¼r Benutzer der Gruppe Ã–ffentlich.
-  Erstellen neuer Einstellungen fÃ¼r die **Status bearbeiten-Aktion** in
+  oder Verweigern von Erstellen für Benutzer der Gruppe Öffentlich.
+  Erstellen neuer Einstellungen für die **Status bearbeiten-Aktion** in
   dieser Kategorie und der errechneten Einstellung basierend auf der
-  Ã¼bergeordneten Kategorie und den Gruppenberechtigungen.
+  übergeordneten Kategorie und den Gruppenberechtigungen.
 - **Eigene Inhalte bearbeiten**. (*Vererbt*/*Erlaubt*/*Verweigert*).
-  Erlauben oder Verweigern von Erstellen fÃ¼r Benutzer der Gruppe
-  Ã–ffentlich. Erstellen neuer Einstellungen fÃ¼r die **Eigene Inhalte
+  Erlauben oder Verweigern von Erstellen für Benutzer der Gruppe
+  Öffentlich. Erstellen neuer Einstellungen für die **Eigene Inhalte
   bearbeiten-Aktion** in dieser Kategorie und der errechneten
-  Einstellung basierend auf der Ã¼bergeordneten Kategorie und den
+  Einstellung basierend auf der übergeordneten Kategorie und den
   Gruppenberechtigungen.
 
 ## Toolbar

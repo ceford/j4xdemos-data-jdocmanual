@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Plug-in_Manager_Options -->
+<!-- Filename: Help4.x:Components_Plug-in_Manager_Options / Display title: Components Plug-in Manager Options -->
 
 ## Description
 

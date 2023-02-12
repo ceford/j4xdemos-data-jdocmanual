@@ -1,4 +1,4 @@
-<!-- Help4.x:Joomla_Update -->
+<!-- Filename: Help4.x:Joomla_Update / Display title: Joomla Update -->
 
 ## Description
 

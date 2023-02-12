@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Search_Manager_Options -->
+<!-- Filename: Help4.x:Components_Search_Manager_Options / Display title: Components Search Manager Options -->
 
 ## Description
 

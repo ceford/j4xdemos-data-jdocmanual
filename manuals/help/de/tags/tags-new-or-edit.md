@@ -1,8 +1,8 @@
-<!-- Display title: Tags: New or Edit -->
+<!-- Filename: Help4.x:Tags:_New_or_Edit / Display title: Schlagwörter: Neu oder Bearbeiten -->
 
 ## Beschreibung
 
-HinzufÃ¼gen oder bearbeiten von SchlagwÃ¶rtern, die zum Anzeigen von
+Hinzufügen oder bearbeiten von Schlagwörtern, die zum Anzeigen von
 Inhalten nach Schlagwortnamen verwendet werden.
 
 ## Wie darauf zugreifen

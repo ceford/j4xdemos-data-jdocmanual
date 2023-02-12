@@ -1,4 +1,4 @@
-<!-- Help4.x:Menus_Menu_Item_Search_Results -->
+<!-- Filename: Help4.x:Menus_Menu_Item_Search_Results / Display title: Menus Menu Item Search Results -->
 
 <img
 src="https://docs.joomla.org/images/thumb/4/47/Copyedit.png/25px-Copyedit.png"

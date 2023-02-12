@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Create_Article -->
+<!-- Filename: Help4.x:Menu_Item:_Create_Article / Display title: Menu Item: Create Article -->
 
 ## Description
 

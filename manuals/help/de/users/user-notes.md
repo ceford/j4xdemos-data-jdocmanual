@@ -1,11 +1,11 @@
-<!-- Display title: User Notes -->
+<!-- Filename: Help4.x:User_Notes / Display title: Benutzerhinweise -->
 
 ## Beschreibung
 
 Benutzerhinweise sind Informationen, die einem registrierten Benutzer
-der Joomla!-Site zugewiesen werden kÃ¶nnen. Diese Hinweise kÃ¶nnen zum
-Beispiel Kommentare Ã¼ber â€žbeleidigendeâ€œ oder â€žschwierigeâ€œ,
-Benutzer usw. enthalten.
+der Joomla!-Site zugewiesen werden können. Diese Hinweise können zum
+Beispiel Kommentare über „beleidigende“ oder „schwierige“, Benutzer usw.
+enthalten.
 
 The User Notes screen presents a list of existing notes.
 

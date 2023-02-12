@@ -1,4 +1,4 @@
-<!-- Help4.x:Articles:_Edit -->
+<!-- Filename: Help4.x:Articles:_Edit / Display title: Articles: Edit -->
 
 ## Description
 

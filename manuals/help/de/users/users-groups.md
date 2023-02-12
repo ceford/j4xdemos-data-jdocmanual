@@ -1,15 +1,15 @@
-<!-- Display title: Users: Groups -->
+<!-- Filename: Help4.x:Users:_Groups / Display title: Benutzer: Gruppen -->
 
 ## Beschreibung
 
 Benutzergruppen steuern, welche Aktionen ein Benutzer auf der Website
-durchfÃ¼hren darf und welche Objekte ein Benutzer sehen kann. Ãœber
-diese OberflÃ¤che kann man Benutzergruppen erstellen, ansehen,
-bearbeiten und lÃ¶schen.
+durchführen darf und welche Objekte ein Benutzer sehen kann. Über diese
+Oberfläche kann man Benutzergruppen erstellen, ansehen, bearbeiten und
+löschen.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **Benutzer **→** Gruppen** auswÃ¤hlen.
+- Im Administrator-Menü **Benutzer **→** Gruppen** auswählen.
 
 ## Bildschirmfoto
 
@@ -20,26 +20,25 @@ srcset="https://docs.joomla.org/images/thumb/d/de/Help-4x-users-user-manager-use
 data-file-width="1228" data-file-height="855" width="800" height="557"
 alt="Help-4x-users-user-manager-user-groups-de.png" />
 
-## Spalten-Ãœberschriften
+## Spalten-Überschriften
 
 In der Tabelle mit den Benutzern der Joomla!-Website sind
-unterschiedliche Spalten. Hier wird ihre Bedeutung erklÃ¤rt und gezeigt
+unterschiedliche Spalten. Hier wird ihre Bedeutung erklärt und gezeigt
 was in den Spalten steht.
 
-- **Checkbox**. Dieses KÃ¤stchen markieren, um einen oder mehrere
-  EintrÃ¤ge auszuwÃ¤hlen. Um alle EintrÃ¤ge auszuwÃ¤hlen, das KÃ¤stchen
-  im Spaltenkopf markieren. Nachdem ein oder mehrere KÃ¤stchen markiert
-  sind, auf eine SchaltflÃ¤che in der Werkzeugleiste klicken, um eine
-  Aktion fÃ¼r den ausgewÃ¤hlten Eintrag oder die ausgewÃ¤hlten EintrÃ¤ge
-  durchzufÃ¼hren. Viele Aktionen, wie z.B. VerÃ¶ffentlichen und
-  Verstecken, kÃ¶nnen mit mehreren EintrÃ¤gen arbeiten. Andere, wie z.B.
+- **Checkbox**. Dieses Kästchen markieren, um einen oder mehrere
+  Einträge auszuwählen. Um alle Einträge auszuwählen, das Kästchen im
+  Spaltenkopf markieren. Nachdem ein oder mehrere Kästchen markiert
+  sind, auf eine Schaltfläche in der Werkzeugleiste klicken, um eine
+  Aktion für den ausgewählten Eintrag oder die ausgewählten Einträge
+  durchzuführen. Viele Aktionen, wie z.B. Veröffentlichen und
+  Verstecken, können mit mehreren Einträgen arbeiten. Andere, wie z.B.
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
-  Wenn mehrere EintrÃ¤ge markiert sind und Sie auf â€žBearbeitenâ€œ
-  drÃ¼cken, wird der erste der markierten EintrÃ¤ge zur Bearbeitung
-  geÃ¶ffnet.
+  Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
+  wird der erste der markierten Einträge zur Bearbeitung geöffnet.
 - **Gruppentitel.** Der Name der Gruppe.
 - **Berechtigungen**. Link zum Erweiterten Berechtigungsbericht, der die
-  genauen Berechtigungen fÃ¼r eine bestimmte Benutzergruppe Ã¼ber alle
+  genauen Berechtigungen für eine bestimmte Benutzergruppe über alle
   Assets auf der Joomla!-Installation abbildet.
 - **Enabled users**. (Tick) The number of enabled users in this group.
 - **Disabled users**. (X) The number of disabled users in this group.

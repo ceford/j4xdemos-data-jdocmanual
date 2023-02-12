@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Language_Switcher -->
+<!-- Filename: Help4.x:Site_Modules:_Language_Switcher / Display title: Site Modules: Language Switcher -->
 
 ## Description
 

@@ -1,4 +1,4 @@
-<!-- Display title: Menu Item: List Contacts in a Category -->
+<!-- Filename: Help4.x:Menu_Item:_List_Contacts_in_a_Category / Display title: Menüeintrag: Kontakte in einer Kategorie auflisten -->
 
 ## Beschreibung
 
@@ -9,7 +9,7 @@ subject and message filters.
 
 ## Wie darauf zugreifen
 
-Um eine neue Kontaktliste in einem Kategorie-MenÃ¼eintrag zu erstellen:
+Um eine neue Kontaktliste in einem Kategorie-Menüeintrag zu erstellen:
 
 - Select **Menus **→** \[name of the menu\]** from the Administrator
   menu (for example, **Menus **→** Main Menu**).
@@ -467,8 +467,8 @@ available:
 
 <!-- -->
 
-- **Link \<letter\> Label**. \<A to E\> Labels (5) to override shown
-  link's label.
+- **Link Label**.
+  Labels (5) to override shown link's label.
 
 ### Mail Options Tab
 

@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_List_All_Tags -->
+<!-- Filename: Help4.x:Menu_Item:_List_All_Tags / Display title: Menu Item: List All Tags -->
 
 ## Description
 

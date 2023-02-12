@@ -1,4 +1,4 @@
-<!-- Display title: Maintenance: Global Check-in -->
+<!-- Filename: Help4.x:Maintenance:_Global_Check-in / Display title: Wartung: Globales Freigeben -->
 
 ## Beschreibung
 
@@ -21,7 +21,7 @@ href="https://docs.joomla.org/index.php?title=Special:Upload&amp;wpDestFile=Help
 class="new"
 title="File:Help-4x-system-maintenance-global-check-in-de.png">800px</a>
 
-## Spalten Ãœberschriften
+## Spalten Überschriften
 
 - **Checkbox**. Check this box to select one or more items. To select
   all items, check the box in the column heading. After one or more

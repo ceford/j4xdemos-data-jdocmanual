@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Redirect_Manager -->
+<!-- Filename: Help4.x:Components_Redirect_Manager / Display title: Redirects: Links -->
 
 Redirect to:
 

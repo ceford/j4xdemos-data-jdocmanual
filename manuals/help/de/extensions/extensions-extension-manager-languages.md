@@ -1,25 +1,24 @@
-<!-- Display title: Extensions Extension Manager Languages -->
+<!-- Filename: Help4.x:Extensions_Extension_Manager_Languages / Display title: Erweiterungen: Sprachen installieren -->
 
-## Ãœbersicht
+## Übersicht
 
-Dieser Bildschirm wird Ã¼ber das Backend-Administrationspanel von
-Joomla! aufgerufen. Es wird eine Liste von Sprachen vom Joomla
-Akkreditierte Sprachen Server angezeigt, die mit einem Klick
-installierbar sind.
+Dieser Bildschirm wird über das Backend-Administrationspanel von Joomla!
+aufgerufen. Es wird eine Liste von Sprachen vom Joomla Akkreditierte
+Sprachen Server angezeigt, die mit einem Klick installierbar sind.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **System **→** Installieren **→** Sprachen**
-  wÃ¤hlen.
-- Oder im Administrator-MenÃ¼ **System **→** Verwalten **→** Sprachen**
-  wÃ¤hlen und dann...
-  - auf die SchaltflÃ¤che â€žInstallieren" klicken.
+- Im Administrator-Menü **System **→** Installieren **→** Sprachen**
+  wählen.
+- Oder im Administrator-Menü **System **→** Verwalten **→** Sprachen**
+  wählen und dann...
+  - auf die Schaltfläche „Installieren" klicken.
 
 ## Beschreibung
 
-Auf diesem Bildschirm wird jede verfÃ¼gbare Sprache auf dem
-Joomla-Server angezeigt. Es ist mÃ¶glich, alle auf dem Bildschirm
-aufgefÃ¼hrten Sprachpakete zu wÃ¤hlen und zu installieren.
+Auf diesem Bildschirm wird jede verfügbare Sprache auf dem Joomla-Server
+angezeigt. Es ist möglich, alle auf dem Bildschirm aufgeführten
+Sprachpakete zu wählen und zu installieren.
 
 ## Bildschirmfoto
 
@@ -33,14 +32,14 @@ alt="Help4x-Extensions-Manage-Install-Languages-screen-de.png" />
 ## Werkzeugleiste
 
 Der Screenshot am Anfang der Seite zeigt die Werkzeugleiste im oberen
-Bereich. Die SchaltflÃ¤chen sind:
+Bereich. Die Schaltflächen sind:
 
-- **Optionen.** Ã–ffnet das Optionen-Fenster, in dem Einstellungen, wie
-  die Standard-Parameter, bearbeitet werden kÃ¶nnen.
+- **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
+  die Standard-Parameter, bearbeitet werden können.
 
 <!-- -->
 
-- **Hilfe** Ã–ffnet die Hilfe-Seite.
+- **Hilfe** Öffnet die Hilfe-Seite.
 
 ## Listen-Filter
 
@@ -55,27 +54,26 @@ data-file-width="1077" data-file-height="54" width="600" height="30"
 alt="Help-4x-colheader-filter-field-de.png" />
 
 - **Suche**. Nach Eingabe eines Teils des Suchbegriffs auf das Symbol
-  fÃ¼r Suche klicken. Die Suche kann sich auf ein oder mehrere Felder
-  beziehen. Wenn der Mauszeiger Ã¼ber das Eingabefeld bewegt wird,
+  für Suche klicken. Die Suche kann sich auf ein oder mehrere Felder
+  beziehen. Wenn der Mauszeiger über das Eingabefeld bewegt wird,
   erscheint ein *Hilfetext*, der die einzelnen durchsuchten Bereiche
-  angibt. In manchen FÃ¤llen ist ein anderes Format erforderlich. Um
-  beispielsweise **nach der ID zu suchen**, muss â€žid:xxâ€œ eingegeben
-  werden, wobei â€žxxâ€œ die ID-Nummer des Eintrags ist (z.B.
-  â€žid:9â€œ).
-- **Filter-Optionen**. Durch Anklicken werden zusÃ¤tzliche Filter
+  angibt. In manchen Fällen ist ein anderes Format erforderlich. Um
+  beispielsweise **nach der ID zu suchen**, muss „id:xx“ eingegeben
+  werden, wobei „xx“ die ID-Nummer des Eintrags ist (z.B. „id:9“).
+- **Filter-Optionen**. Durch Anklicken werden zusätzliche Filter
   angezeigt oder ausgeblendet.
-- **ZurÃ¼cksetzen**. Durch Klicken wird das Feld Filter zurÃ¼ckgesetzt
-  und die Liste im ungefilterten Zustand angezeigt.
-- **Reihenfolge**. Zeigt das aktuelle Feld fÃ¼r die Reihenfolge der
-  EintrÃ¤ge an. Aus dem Dropdown-MenÃ¼ auswÃ¤hlen, in welcher
-  Reihenfolge die Liste angezeigt werden soll. Alternativ kann die
-  Reihenfolge auch durch Anklicken einer SpaltenÃ¼berschrift geÃ¤ndert
-  werden. Die Sortierung kann in aufsteigender oder absteigender
-  Reihenfolge erfolgen. Ein Klick auf die SpaltenÃ¼berschrift wechselt
-  zwischen aufsteigender und absteigender Reihenfolge.
-- **Anzuzeigende Anzahl**. Zeigt die Anzahl der EintrÃ¤ge einer Liste
-  pro Seite an. Der Standardwert ist 20, er kann in der globalen
-  Konfiguration geÃ¤ndert werden. Zur Ã„nderung aus der Dropdown-Liste
-  die gewÃ¼nschte Anzahl auswÃ¤hlen. Wenn sehr viele komplexe EintrÃ¤ge
-  ausgewÃ¤hlt sind, kÃ¶nnten diese mÃ¶glicherweise nur langsam
-  aufbereitet und angezeigt werden.
+- **Zurücksetzen**. Durch Klicken wird das Feld Filter zurückgesetzt und
+  die Liste im ungefilterten Zustand angezeigt.
+- **Reihenfolge**. Zeigt das aktuelle Feld für die Reihenfolge der
+  Einträge an. Aus dem Dropdown-Menü auswählen, in welcher Reihenfolge
+  die Liste angezeigt werden soll. Alternativ kann die Reihenfolge auch
+  durch Anklicken einer Spaltenüberschrift geändert werden. Die
+  Sortierung kann in aufsteigender oder absteigender Reihenfolge
+  erfolgen. Ein Klick auf die Spaltenüberschrift wechselt zwischen
+  aufsteigender und absteigender Reihenfolge.
+- **Anzuzeigende Anzahl**. Zeigt die Anzahl der Einträge einer Liste pro
+  Seite an. Der Standardwert ist 20, er kann in der globalen
+  Konfiguration geändert werden. Zur Änderung aus der Dropdown-Liste die
+  gewünschte Anzahl auswählen. Wenn sehr viele komplexe Einträge
+  ausgewählt sind, könnten diese möglicherweise nur langsam aufbereitet
+  und angezeigt werden.

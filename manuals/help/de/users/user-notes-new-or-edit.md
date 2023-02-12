@@ -1,29 +1,29 @@
-<!-- Display title: User Notes: New or Edit -->
+<!-- Filename: Help4.x:User_Notes:_New_or_Edit / Display title: Benutzerhinweise: Bearbeiten -->
 
 ## Beschreibung
 
 Benutzerhinweise sind Informationen, die einem registrierten Benutzer
-der Joomla!-Site zugewiesen werden kÃ¶nnen. Diese Hinweise kÃ¶nnen zum
-Beispiel Kommentare Ã¼ber â€žbeleidigendeâ€œ oder â€žschwierigeâ€œ,
-Benutzer usw. enthalten.
+der Joomla!-Site zugewiesen werden können. Diese Hinweise können zum
+Beispiel Kommentare über „beleidigende“ oder „schwierige“, Benutzer usw.
+enthalten.
 
-Auf dieser Seite kÃ¶nnen Benutzer-Hinweise erstellt oder bearbeitet
-werden. Der â€žEditorâ€œ fÃ¼r die Hinweise ist der gewÃ¤hlte globale
-Editor. Beispiele: TinyMCE, JCE, CodeMirror.
+Auf dieser Seite können Benutzer-Hinweise erstellt oder bearbeitet
+werden. Der „Editor“ für die Hinweise ist der gewählte globale Editor.
+Beispiele: TinyMCE, JCE, CodeMirror.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ **Benutzer **→** Benutzerhinweise** auswÃ¤hlen,
+- Im Administrator-Menü **Benutzer **→** Benutzerhinweise** auswählen,
   dann ...
-  - aus der Werkzeugleiste **Neu** wÃ¤hlen, um einen neuen Hinweis
+  - aus der Werkzeugleiste **Neu** wählen, um einen neuen Hinweis
     anzulegen oder ...
-  - einen Link aus der Spalte **Betreff** auswÃ¤hlen, um einen
+  - einen Link aus der Spalte **Betreff** auswählen, um einen
     vorhandenen Benutzerhinweis zu bearbeiten.
-- Oder im Administrator-MenÃ¼ **Benutzer **→** Verwalten** auswÃ¤hlen,
+- Oder im Administrator-Menü **Benutzer **→** Verwalten** auswählen,
   dann ...
-  - einen Benutzer Ã¼ber Benutzername oder E-Mail aussuchen, dann ...
-  - **+ Hinweis hinzufÃ¼gen** wÃ¤hlen, um einen neuen Hinweis zu
-    erstellen oder...
+  - einen Benutzer über Benutzername oder E-Mail aussuchen, dann ...
+  - **+ Hinweis hinzufügen** wählen, um einen neuen Hinweis zu erstellen
+    oder...
 
 <!-- -->
 
@@ -47,17 +47,17 @@ alt="Help-4x-users-notes-de.png" />
 ## Details
 
 - **Betreff**. Der Betreff des Benutzerhinweises.
-- **Benutzer**. Der Benutzer fÃ¼r den Benutzerhinweis. Ein bestehender
-  Benutzer kann ausgewÃ¤hlt werden.
+- **Benutzer**. Der Benutzer für den Benutzerhinweis. Ein bestehender
+  Benutzer kann ausgewählt werden.
 - **Kategorie**. (*Unkategorisiert*). Die Kategorie des
   Benutzerhinweises.
-- **Status**. (*VerÃ¶ffentlicht*/*Versteckt*/*Archiviert*/*Papierkorb*).
-  Den VerÃ¶ffentlichungs-Status einstellen.
-- **PrÃ¼fungsdatum**. Das PrÃ¼fungsdatum kann manuell nach dem
+- **Status**. (*Veröffentlicht*/*Versteckt*/*Archiviert*/*Papierkorb*).
+  Den Veröffentlichungs-Status einstellen.
+- **Prüfungsdatum**. Das Prüfungsdatum kann manuell nach dem
   individuellen Ablaufplan eingegeben werden. Beispiel: Es kann das
-  Datum der nÃ¤chsten PrÃ¼fung oder das der letzten PrÃ¼fung des
-  Benutzers eingegeben werden.
-- **Versionshinweis**. Einen optionalen Hinweis fÃ¼r diese Version des
+  Datum der nächsten Prüfung oder das der letzten Prüfung des Benutzers
+  eingegeben werden.
+- **Versionshinweis**. Einen optionalen Hinweis für diese Version des
   Eintrags eingeben.
 - **Hinweis**. Den Hinweistext eingeben.
 
@@ -68,28 +68,28 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Speichern**. Speichert den Benutzerhinweis und bleibt auf der
   aktuellen Seite.
-- **Speichern & SchlieÃŸen**. Speichert den Benutzerhinweis und
-  schlieÃŸt den aktuellen Bildschirm.
-- **Speichern & Neu** Speichert den Benutzerhinweis und hÃ¤lt den
+- **Speichern & Schließen**. Speichert den Benutzerhinweis und schließt
+  den aktuellen Bildschirm.
+- **Speichern & Neu** Speichert den Benutzerhinweis und hält den
   Bildschirm zum Bearbeiten offen damit ein neuer Hinweis erstellt
   werden kann.
-- **Als Kopie speichern**. Speichert Ã„nderungen in einer Kopie des
+- **Als Kopie speichern**. Speichert Änderungen in einer Kopie des
   aktuellen Benutzerhinweises. Nicht beeinflusst wird dabei der aktuelle
   Hinweis. Diese Option wird nicht angezeigt, wenn ein neuer
   Benutzerhinweis erstellt wird.
-- **Versionen**. Ã–ffnet den Versionsverlauf, der Ã¤ltere Versionen des
-  Eintrags zeigt. Damit kÃ¶nnen Ã¤ltere Versionen des Elements angezeigt
+- **Versionen**. Öffnet den Versionsverlauf, der ältere Versionen des
+  Eintrags zeigt. Damit können ältere Versionen des Elements angezeigt
   und gegebenenfalls wiederhergestellt werden. Siehe
   [Versionsverlauf](https://docs.joomla.org/Help4.x:Components_Version_History/de "Help4.x:Components Version History/de")
-  fÃ¼r weitere Informationen.
-- **SchlieÃŸen**. SchlieÃŸt den aktuellen Bildschirm und kehrt zum
-  vorherigen Bildschirm zurÃ¼ck, ohne die vorgenommenen Ã„nderungen zu
+  für weitere Informationen.
+- **Schließen**. Schließt den aktuellen Bildschirm und kehrt zum
+  vorherigen Bildschirm zurück, ohne die vorgenommenen Änderungen zu
   speichern.
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Verwandte Informationen
 
-- [TinyMCE â€“ der
+- [TinyMCE – der
   Standard-WYSIWYG-Editor](https://docs.joomla.org/Help4.x:TinyMCE/de "Help4.x:TinyMCE/de")
 - [Benutzerhinweise](https://docs.joomla.org/Help4.x:User_Notes/de "Help4.x:User Notes/de")
 - [Benutzerhinweise: Kategorie neu erstellen oder

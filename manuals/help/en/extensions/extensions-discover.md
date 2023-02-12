@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions:_Discover -->
+<!-- Filename: Help4.x:Extensions:_Discover / Display title: Extensions: Discover -->
 
 ## Description
 

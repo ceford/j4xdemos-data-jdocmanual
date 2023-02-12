@@ -1,4 +1,4 @@
-<!-- Help4.x:Articles:_New_or_Edit_Category -->
+<!-- Filename: Help4.x:Articles:_New_or_Edit_Category / Display title: Articles: Edit Category -->
 
 ## Description
 

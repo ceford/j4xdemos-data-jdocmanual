@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Weblinks_Categories_Edit -->
+<!-- Filename: Help4.x:Components_Weblinks_Categories_Edit / Display title: Components Weblinks Categories Edit -->
 
 ## Description
 

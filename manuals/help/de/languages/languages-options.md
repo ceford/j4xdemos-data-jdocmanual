@@ -1,17 +1,17 @@
-<!-- Display title: Languages: Options -->
+<!-- Filename: Help4.x:Languages:_Options / Display title: Sprachen: Optionen -->
 
 ## Beschreibung
 
-Die Konfiguration der Sprachen-Optionen stellt die Parameter fÃ¼r alle
+Die Konfiguration der Sprachen-Optionen stellt die Parameter für alle
 Sprachen ein.
 
 ## Wie darauf zugreifen
 
-Aus dem Administration-MenÃ¼ **System **→** Verwalten **→** Sprachen**
-wÃ¤hlen. **Achtung:** Sprachen werden auch im Fenster Installieren
+Aus dem Administration-Menü **System **→** Verwalten **→** Sprachen**
+wählen. **Achtung:** Sprachen werden auch im Fenster Installieren
 angezeigt, dann...
 
-- - die SchaltflÃ¤che *Optionen* in der Toolbar **anklicken**.
+- - die Schaltfläche *Optionen* in der Toolbar **anklicken**.
 
 ## Bildschirmfoto
 
@@ -26,36 +26,36 @@ alt="Help-4x-Components-Languages-Options-de.png" />
 
 ### Berechtigungen
 
-Um Berechtigungen dieser Erweiterung zu Ã¤ndern:
+Um Berechtigungen dieser Erweiterung zu ändern:
 
 - Die **Gruppe** durch Anklicken des Namens auf der linken Seite
-  auswÃ¤hlen.
-- Die gewÃ¼nschte **Aktion** herausfinden. MÃ¶gliche Aktionen sind:
-  - **ACL & Optionen konfigurieren**. ErmÃ¶glicht Benutzern das
+  auswählen.
+- Die gewünschte **Aktion** herausfinden. Mögliche Aktionen sind:
+  - **ACL & Optionen konfigurieren**. Ermöglicht Benutzern das
     Bearbeiten der Optionen und Berechtigungen (ACL) dieser Erweiterung.
-  - **Nur Optionen konfigurieren**. ErmÃ¶glicht Benutzern die Optionen,
-    auÃŸer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
-  - **Administrationszugriff.** Benutzer kÃ¶nnen auf die
-    Administrator-OberflÃ¤che dieser Erweiterung zugreifen.
-  - **Erstellen**. Benutzer kÃ¶nnen Inhalte fÃ¼r diese Erweiterung
+  - **Nur Optionen konfigurieren**. Ermöglicht Benutzern die Optionen,
+    außer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
+  - **Administrationszugriff.** Benutzer können auf die
+    Administrator-Oberfläche dieser Erweiterung zugreifen.
+  - **Erstellen**. Benutzer können Inhalte für diese Erweiterung
     erstellen.
-  - **LÃ¶schen**. Benutzer kÃ¶nnen Inhalte dieser Erweiterung lÃ¶schen.
-  - **Bearbeiten**. Benutzer kÃ¶nnen den Inhalt dieser Erweiterung
+  - **Löschen**. Benutzer können Inhalte dieser Erweiterung löschen.
+  - **Bearbeiten**. Benutzer können den Inhalt dieser Erweiterung
     bearbeiten.
   - **Status bearbeiten**. Der Benutzer kann den Status der
-    VerÃ¶ffentlichung und die zugehÃ¶rigen Informationen zum Inhalt
-    dieser Erweiterung Ã¤ndern.
-  - **Inhalt von eigenen Feldern bearbeiten**. Benutzer kÃ¶nnen selbst
+    Veröffentlichung und die zugehörigen Informationen zum Inhalt dieser
+    Erweiterung ändern.
+  - **Inhalt von eigenen Feldern bearbeiten**. Benutzer können selbst
     erstellte Inhalte dieser Erweiterung bearbeiten.
-- Die gewÃ¼nschte Berechtigungen der gewÃ¤hlten Aktion aussuchen.
-  MÃ¶gliche Einstellungen sind:
+- Die gewünschte Berechtigungen der gewählten Aktion aussuchen. Mögliche
+  Einstellungen sind:
   - ***Vererbt***. Wird von der globalen Konfigurationseinstellung
-    dieser Erweiterung fÃ¼r Benutzer dieser Gruppe vererbt.
-  - ***Erlaubt:*** Erlaubt fÃ¼r Benutzer dieser Gruppe. Wenn diese
-    Aktion auf einer der hÃ¶heren Ebenen verweigert wird, ist die
-    Berechtigung â€žErlaubtâ€œ hier nicht wirksam. Eine
-    Verweigert-Einstellung kann nicht auÃŸer Kraft gesetzt werden.
-  - ***Verweigert***. Verweigert fÃ¼r Benutzer dieser Gruppe.
+    dieser Erweiterung für Benutzer dieser Gruppe vererbt.
+  - ***Erlaubt:*** Erlaubt für Benutzer dieser Gruppe. Wenn diese Aktion
+    auf einer der höheren Ebenen verweigert wird, ist die Berechtigung
+    „Erlaubt“ hier nicht wirksam. Eine Verweigert-Einstellung kann nicht
+    außer Kraft gesetzt werden.
+  - ***Verweigert***. Verweigert für Benutzer dieser Gruppe.
 - Auf **Speichern** in der **Symbolleiste** oben klicken. Danach
   aktualisiert sich die Anzeige, erst dann werden die errechneten
   Einstellungen angezeigt.
@@ -63,22 +63,22 @@ Um Berechtigungen dieser Erweiterung zu Ã¤ndern:
 ## Werkzeugleiste
 
 Der Screenshot am Anfang der Seite zeigt die Werkzeugleiste im oberen
-Bereich. Die SchaltflÃ¤chen sind:
+Bereich. Die Schaltflächen sind:
 
-- **Speichern** Speichert den MenÃ¼eintrag und wird auf dem aktuellen
+- **Speichern** Speichert den Menüeintrag und wird auf dem aktuellen
   Bildschirm bleiben.
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und wird den
-  aktuellen Bildschirm schlieÃŸen.
+- **Speichern & Schließen**. Speichert den Eintrag und wird den
+  aktuellen Bildschirm schließen.
 
 <!-- -->
 
-- **SchlieÃŸen** SchlieÃŸt den aktuellen Bildschirm und kehrt zum
-  vorherigen Bildschirm zurÃ¼ck, ohne die vorgenommenen Ã„nderungen zu
+- **Schließen** Schließt den aktuellen Bildschirm und kehrt zum
+  vorherigen Bildschirm zurück, ohne die vorgenommenen Änderungen zu
   speichern.
 
 <!-- -->
 
-- **Hilfe** Ã–ffnet die Hilfe-Seite.
+- **Hilfe** Öffnet die Hilfe-Seite.

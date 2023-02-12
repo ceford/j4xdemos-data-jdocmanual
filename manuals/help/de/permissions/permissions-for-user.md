@@ -1,9 +1,9 @@
-<!-- Display title: Permissions for User -->
+<!-- Filename: Help4.x:Permissions_for_User / Display title: Berechtigungen für Benutzer -->
 
 ## Beschreibung
 
-Der Bericht Ã¼ber die Benutzerrechte zeigt eine Ãœbersicht Ã¼ber die
-genauen Berechtigungen fÃ¼r einen bestimmten Benutzer Ã¼ber alle
+Der Bericht über die Benutzerrechte zeigt eine Übersicht über die
+genauen Berechtigungen für einen bestimmten Benutzer über alle
 Erweiterungen der Joomla! Installation hinweg.
 
 ## Wie darauf zugreifen

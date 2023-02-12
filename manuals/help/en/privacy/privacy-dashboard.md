@@ -1,4 +1,4 @@
-<!-- Help4.x:Privacy_Dashboard -->
+<!-- Filename: Help4.x:Privacy_Dashboard / Display title: Privacy Dashboard -->
 
 ## Description
 

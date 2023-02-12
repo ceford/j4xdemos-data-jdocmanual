@@ -1,4 +1,4 @@
-<!-- Help4.x:Smart_Search:_Search_Filters -->
+<!-- Filename: Help4.x:Smart_Search:_Search_Filters / Display title: Smart Search: Search Filters -->
 
 ## Description
 

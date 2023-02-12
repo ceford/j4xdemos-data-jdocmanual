@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_Post_Installation_Messages -->
+<!-- Filename: Help4.x:Admin_Modules:_Post_Installation_Messages / Display title: Admin Modules: Post Installation Messages -->
 
 ## Description
 

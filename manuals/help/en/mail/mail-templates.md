@@ -1,4 +1,4 @@
-<!-- Help4.x:Mail_Templates -->
+<!-- Filename: Help4.x:Mail_Templates / Display title: Mail Templates -->
 
 ## Description
 

@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Logout -->
+<!-- Filename: Help4.x:Menu_Item:_Logout / Display title: Menu Item: Logout -->
 
 ## Description
 

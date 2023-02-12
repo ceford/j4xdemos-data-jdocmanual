@@ -1,4 +1,4 @@
-<!-- Display title: Joomla Version Additional Information -->
+<!-- Filename: Help4.x:Joomla_Version_Additional_Information / Display title: Ergänzende Joomla Versionsinformationen -->
 
 ### Bekanntmachungen und Versionshinweise
 
@@ -19,79 +19,79 @@
 - <a
   href="https://www.joomla.org/announcements/release-news/5869-joomla-4-2-3-bug-fix-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.2.3 AnkÃ¼ndigung</a>
+  4.2.3 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5867-joomla-4-2-2-bug-fix-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.2.2 AnkÃ¼ndigung</a>
+  4.2.2 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5866-joomla-4-2-1-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.2.1 AnkÃ¼ndigung</a>
+  4.2.1 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5865-joomla-4-2-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.2.0 AnkÃ¼ndigung</a>
+  4.2.0 Ankündigung</a>
 
 #### Version 4.1.x
 
 - <a
   href="https://www.joomla.org/announcements/release-news/5861-joomla-4-1-5-and-3-10-10-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.1.5 AnkÃ¼ndigung</a>
+  4.1.5 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5860-joomla-4-1-4.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.1.4 AnkÃ¼ndigung</a>
+  4.1.4 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5859-joomla-4-1-3-and-3-10-9-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.1.3 AnkÃ¼ndigung</a>
+  4.1.3 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5858-joomla-4-1-2-and-3-10-8-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.1.2 AnkÃ¼ndigung</a>
+  4.1.2 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5857-joomla-4-1-1-and-3-10-7-release.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.1.1 AnkÃ¼ndigung</a>
+  4.1.1 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5855-joomla-4-1-0-stable-new-standards-in-accessible-website-design.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.1.0 AnkÃ¼ndigung</a>
+  4.1.0 Ankündigung</a>
 
 #### Version 4.0.x
 
 - <a
   href="https://www.joomla.org/announcements/release-news/5852-joomla-4-0-6-and-joomla-3-10-5-are-here.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.0.6 AnkÃ¼ndigung</a>
+  4.0.6 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5851-joomla-4-0-5-and-joomla-3-10-4-are-here.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.0.5 AnkÃ¼ndigung</a>
+  4.0.5 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5849-joomla-4-0-4-and-joomla-3-10-3-are-here.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.0.4 AnkÃ¼ndigung</a>
+  4.0.4 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5848-joomla-4-0-3-and-joomla-3-10-2-are-here.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.0.3 AnkÃ¼ndigung</a>
+  4.0.3 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5847-joomla-4-0-2-bug-fix.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.0.2 AnkÃ¼ndigung</a>
+  4.0.2 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5846-joomla-4-0-1-and-joomla-3-10-1-are-here.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.0.1 AnkÃ¼ndigung</a>
+  4.0.1 Ankündigung</a>
 - <a
   href="https://www.joomla.org/announcements/release-news/5845-joomla-4-0-and-joomla-3-10-are-here.html"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla!
-  4.0.0 AnkÃ¼ndigung</a>
+  4.0.0 Ankündigung</a>
 
-## HÃ¤ufig gestellte Fragen (FAQ)
+## Häufig gestellte Fragen (FAQ)
 
 #### Version 4.2.x
 
@@ -115,8 +115,8 @@ resolutions.
 
 #### Version 4.1.x
 
-FÃ¼r bekannte Probleme zu einer bestimmten 4.1.x-Version, gemeinsam mit
-vorgeschlagenen LÃ¶sungen.
+Für bekannte Probleme zu einer bestimmten 4.1.x-Version, gemeinsam mit
+vorgeschlagenen Lösungen.
 
 - [Version 4.1.2
   FAQ](https://docs.joomla.org/:Category:Version_4.1.2_FAQ "Special:MyLanguage/:Category:Version 4.1.2 FAQ")
@@ -127,8 +127,8 @@ vorgeschlagenen LÃ¶sungen.
 
 #### Version 4.0.x
 
-FÃ¼r bekannte Probleme zu einer bestimmten 4.0.x-Version, gemeinsam mit
-vorgeschlagenen LÃ¶sungen.
+Für bekannte Probleme zu einer bestimmten 4.0.x-Version, gemeinsam mit
+vorgeschlagenen Lösungen.
 
 - [Version 4.0.6
   FAQ](https://docs.joomla.org/:Category:Version_4.0.6_FAQ "Special:MyLanguage/:Category:Version 4.0.6 FAQ")

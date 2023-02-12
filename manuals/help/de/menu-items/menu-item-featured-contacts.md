@@ -1,13 +1,13 @@
-<!-- Display title: Menu Item: Featured Contacts -->
+<!-- Filename: Help4.x:Menu_Item:_Featured_Contacts / Display title: Menüeintrag: Hauptkontakte -->
 
 ## Beschreibung
 
-Der MenÃ¼eintrags-Typ **Hauptkontakte** wird verwendet, um eine Liste
-der Hauptkontakte anzuzeigen.
+Der Menüeintrags-Typ **Hauptkontakte** wird verwendet, um eine Liste der
+Hauptkontakte anzuzeigen.
 
 ## Wie darauf zugreifen
 
-Um einen neuen MenÃ¼eintrag â€žHauptkontakteâ€œ zu erstellen:
+Um einen neuen Menüeintrag „Hauptkontakte“ zu erstellen:
 
 - Select **Menus **→** \[name of the menu\]** from the Administrator
   menu (for example, **Menus **→** Main Menu**). Then...
@@ -314,8 +314,8 @@ alt="Help-4x-Menus-Menu-Item-Contact-featured-contact-form-parameters-en.png" />
 <!-- -->
 
 - **Contact Links**. Display the contact's *Contact Links*.
-- **Link \<letter\> Label**. \<A to E\> Labels (5) to override shown
-  link's label.
+- **Link Label**.
+  Labels (5) to override shown link's label.
 
 ### Mail Options Tab
 

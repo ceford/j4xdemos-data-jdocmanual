@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions:_Update -->
+<!-- Filename: Help4.x:Extensions:_Update / Display title: Extensions: Update -->
 
 ## Description
 

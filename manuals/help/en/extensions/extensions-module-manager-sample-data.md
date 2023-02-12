@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions_Module_Manager_Sample_Data -->
+<!-- Filename: Help4.x:Extensions_Module_Manager_Sample_Data / Display title: Extensions Module Manager Sample Data -->
 
 ## Description
 

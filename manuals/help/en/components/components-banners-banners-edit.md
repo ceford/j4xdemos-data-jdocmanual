@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Banners_Banners_Edit -->
+<!-- Filename: Help4.x:Components_Banners_Banners_Edit / Display title: Banners: Edit -->
 
 Redirect to:
 

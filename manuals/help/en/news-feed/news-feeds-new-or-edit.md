@@ -1,4 +1,4 @@
-<!-- Help4.x:News_Feeds:_New_or_Edit -->
+<!-- Filename: Help4.x:News_Feeds:_New_or_Edit / Display title: News Feeds: Edit -->
 
 ## Description
 

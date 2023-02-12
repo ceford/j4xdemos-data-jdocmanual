@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_User_Menu -->
+<!-- Filename: Help4.x:Admin_Modules:_User_Menu / Display title: Admin Modules: User Menu -->
 
 ## Description
 

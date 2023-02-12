@@ -1,4 +1,4 @@
-<!-- Help4.x:Smart_Search:_New_or_Edit_Filter -->
+<!-- Filename: Help4.x:Smart_Search:_New_or_Edit_Filter / Display title: Smart Search: New or Edit Filter -->
 
 ## Description
 

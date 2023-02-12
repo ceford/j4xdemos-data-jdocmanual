@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Password_Reset -->
+<!-- Filename: Help4.x:Menu_Item:_Password_Reset / Display title: Menu Item: Password Reset -->
 
 ## Description
 

@@ -1,9 +1,9 @@
-<!-- Display title: Plugins: Name of Plugin -->
+<!-- Filename: Help4.x:Plugins:_Name_of_Plugin / Display title: Plugins: Name des Plugins -->
 
 ## Beschreibung
 
 Die Plugin-Seite erlaubt es, Details und Optionen eines Plugins zu
-bearbeiten. Gemeinsame Optionen fÃ¼r alle Plugins befinden sich im
+bearbeiten. Gemeinsame Optionen für alle Plugins befinden sich im
 rechten Teil des Plugin-Reiters und werden weiter unten beschrieben.
 
 Plugins nach Gruppe:
@@ -155,17 +155,17 @@ Plugins nach Gruppe:
   title="Chunk4x:Extensions Plugin Manager Edit Workflow Group/de (page does not exist)"><strong>Workflow
   Group.</strong> (3 Plugins)</a>
 
-Die vollstÃ¤ndige Liste der obigen Plugin-Gruppen ist in einem
-umfangreichen Dokument verfÃ¼gbar: [**Liste der
+Die vollständige Liste der obigen Plugin-Gruppen ist in einem
+umfangreichen Dokument verfügbar: [**Liste der
 Plugins**.](https://docs.joomla.org/Chunk4x:List_of_Plugins/de "Chunk4x:List of Plugins/de")
 
 ## Wie darauf zugreifen
 
-Vom Administrator-MenÃ¼ ausgehend:
+Vom Administrator-Menü ausgehend:
 
-- **Dashboard **→** Site **→** Plugins** wÃ¤hlen oder ...
-- **System **→** Verwalten **→** Plugins** wÃ¤hlen, dann ...
-  - aus der Liste der Plugins den Namen des Plugins auswÃ¤hlen.
+- **Dashboard **→** Site **→** Plugins** wählen oder ...
+- **System **→** Verwalten **→** Plugins** wählen, dann ...
+  - aus der Liste der Plugins den Namen des Plugins auswählen.
 
 ## Bildschirmfoto
 
@@ -184,8 +184,8 @@ alt="Help-4x-Extensions-Plugin-Manager-Edit-screen-de.png" />
 
 Wenn das Plugin konfigurierbare Optionen hat, erscheinen diese hier. Das
 im Screenshot gezeigte Beispiel ist das Plugin *Inhalt -
-DatenschutzerklÃ¤rung*, das mehrere konfigurierbare Parameter hat, die
-sich Ã¤ndern, wenn Optionen ausgewÃ¤hlt werden.
+Datenschutzerklärung*, das mehrere konfigurierbare Parameter hat, die
+sich ändern, wenn Optionen ausgewählt werden.
 
 **Rechte Seite**
 
@@ -195,26 +195,26 @@ Felder:
 - **Status**. Zeigt ob ein Element aktiv ist oder nicht.
 - **Zugriffsebene**. Zeigt welche Zugriffsebenen der Benutzer auf diesen
   Eintrag Zugriff haben. Die Zugriffsebene eines Eintrags kann durch
-  Anklicken seines Namens geÃ¤ndert und zur Bearbeitung geÃ¶ffnet
-  werden. Die Zugriffsebenen der Benutzer, die mit Joomla!
-  vorkonfiguriert sind, sind:
-  - Ã–ffentlich: Alle haben Zugriff, einschlieÃŸlich der
-    Website-Besucher, welche nicht eingeloggt sind.
-  - Registriert: Nur Benutzer mit dem Status â€žregistriertâ€œ oder
-    hÃ¶her haben Zugriff
-  - Spezial: Nur Benutzer mit Autorenstatus oder hÃ¶her haben Zugriff
+  Anklicken seines Namens geändert und zur Bearbeitung geöffnet werden.
+  Die Zugriffsebenen der Benutzer, die mit Joomla! vorkonfiguriert sind,
+  sind:
+  - Öffentlich: Alle haben Zugriff, einschließlich der Website-Besucher,
+    welche nicht eingeloggt sind.
+  - Registriert: Nur Benutzer mit dem Status „registriert“ oder höher
+    haben Zugriff
+  - Spezial: Nur Benutzer mit Autorenstatus oder höher haben Zugriff
 - **Reihenfolge**. Eine Dropdown-Liste der Plugins des gleichen Typs.
   Die Liste der Plugins ist nach ihrer aktuellen Reihenfolge sortiert.
   Die Reihenfolge dieses Plugins in Bezug zu den anderen Plugins kann
-  geÃ¤ndert werden, indem das Plugin in der Dropdown-Liste ausgewÃ¤hlt
+  geändert werden, indem das Plugin in der Dropdown-Liste ausgewählt
   wird, hinter dem dieses Plugin angeordnet werden soll.
 - **Plugintyp**. Der Typ des Plugins. Dieser Eintrag kann nicht
-  verÃ¤ndert werden.
-- **Plugindatei**. Der Name der Plugin-Datei. Zu jedem Plugin gehÃ¶ren
+  verändert werden.
+- **Plugindatei**. Der Name der Plugin-Datei. Zu jedem Plugin gehören
   zwei Dateien mit seinem Namen. Einmal eine Datei mit der Endung '.php'
   und eine weitere mit der Endung '.xml'.
 - **Beschreibung**. Die Beschreibung der Funktion dieses Plugins. Sie
-  kann nicht verÃ¤ndert werden. Der Entwickler des Plugins bestimmt die
+  kann nicht verändert werden. Der Entwickler des Plugins bestimmt die
   Beschreibung. Ist die Beschreibung leer, wurde keine Beschreibung vom
   Entwickler angegeben.
 
@@ -228,29 +228,28 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
 - Wird TinyMCE als Editor verwendet, kann die Werkzeugleiste mit den
   Parametern des Plugins "Editor - TinyMCE" eingestellt werden.
-- Konfigurierbare Plugin-Einstellungen werden als â€žOptionenâ€œ
-  bezeichnet. In frÃ¼heren Versionen von Joomla! wurden diese
-  konfigurierbaren Einstellungen als â€žParameterâ€œ bezeichnet. Die
-  Begriffe â€žOptionenâ€œ und â€žParameterâ€œ werden in der
-  Hilfedokumentation und in den Anleitungen, mÃ¶glicherweise abwechselnd
-  verwendet.
+- Konfigurierbare Plugin-Einstellungen werden als „Optionen“ bezeichnet.
+  In früheren Versionen von Joomla! wurden diese konfigurierbaren
+  Einstellungen als „Parameter“ bezeichnet. Die Begriffe „Optionen“ und
+  „Parameter“ werden in der Hilfedokumentation und in den Anleitungen,
+  möglicherweise abwechselnd verwendet.
 
 ## Verwandte Informationen
 

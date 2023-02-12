@@ -1,15 +1,15 @@
-<!-- Display title: Extensions: Manage -->
+<!-- Filename: Help4.x:Extensions:_Manage / Display title: Erweiterungen: Verwalten -->
 
 ## Beschreibung
 
-Diese Seite ermÃ¶glicht das Aktivieren oder Deaktivieren von
-Erweiterungen, Ã¤quivalent zum VerÃ¶ffentlichen und Verstecken, sowie
-das Deinstallieren von nicht mehr benÃ¶tigten Erweiterungen.
+Diese Seite ermöglicht das Aktivieren oder Deaktivieren von
+Erweiterungen, äquivalent zum Veröffentlichen und Verstecken, sowie das
+Deinstallieren von nicht mehr benötigten Erweiterungen.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ die Option
-  **System **→** Verwalten **→** Erweiterungen** wÃ¤hlen.
+- Im Administrator-Menü die Option
+  **System **→** Verwalten **→** Erweiterungen** wählen.
 
 ## Bildschirmfoto
 
@@ -20,42 +20,42 @@ srcset="https://docs.joomla.org/images/thumb/4/46/Help-4x-Extensions-Manage-Mana
 data-file-width="1385" data-file-height="820" width="800" height="474"
 alt="Help-4x-Extensions-Manage-Manage-screen-de.png" />
 
-## Spalten-Ãœberschriften
+## Spalten-Überschriften
 
 In der Erweiterungs-Tabelle werden unterschiedliche Spalten gezeigt. Ein
-Klick auf eine SpaltenÃ¼berschrift sortiert die Liste nach dessen Wert.
+Klick auf eine Spaltenüberschrift sortiert die Liste nach dessen Wert.
 
-- **KontrollkÃ¤stchen**. Die KÃ¤stchen markieren, um ein oder mehrere
-  EintrÃ¤ge auszuwÃ¤hlen. Um alle EintrÃ¤ge auszuwÃ¤hlen, das KÃ¤stchen
-  im Spaltenkopf markieren. Nachdem ein oder mehrere KÃ¤stchen markiert
-  sind, auf eine SchaltflÃ¤che in der Symbolleiste klicken, um eine
-  Aktion fÃ¼r die gewÃ¤hlten EintrÃ¤ge auszufÃ¼hren.
-- **Status**. Ein grÃ¼ner Haken oder ein roter Kreis zeigen ob die
+- **Kontrollkästchen**. Die Kästchen markieren, um ein oder mehrere
+  Einträge auszuwählen. Um alle Einträge auszuwählen, das Kästchen im
+  Spaltenkopf markieren. Nachdem ein oder mehrere Kästchen markiert
+  sind, auf eine Schaltfläche in der Symbolleiste klicken, um eine
+  Aktion für die gewählten Einträge auszuführen.
+- **Status**. Ein grüner Haken oder ein roter Kreis zeigen ob die
   Erweiterung aktiviert/deaktiviert ist. Auf das Symbol klicken, um den
-  Status zu wechseln. Ein SchloÃŸ zeigt eine geschÃ¼tzte Erweiterung an.
+  Status zu wechseln. Ein Schloß zeigt eine geschützte Erweiterung an.
 - **Name**. Der Name der Erweiterung.
 - **Bereich**. Zeigt an, ob es eine Site- oder Administrator-Erweiterung
   ist.
 - **Typ**. Der Erweiterungstyp. Beispiele sind Modul, Plugin, Template,
   Komponente, Sprache oder Paket.
 - **Version**. Die Versionsnummer der Erweiterung.
-- **Datum**. Das VerÃ¶ffentlichungsdatum der Erweiterung.
+- **Datum**. Das Veröffentlichungsdatum der Erweiterung.
 - **Autor**. Der Autor der Erweiterung.
 - **Verzeichnis**. Falls die Erweiterung ein Plugin ist, befindet sich
   das Unterverzeichnis im Verzeichnis /plugins der Joomla!-Installation,
-  in dem sich die Erweiterung befindet. StandardmÃ¤ÃŸig verfÃ¼gt Joomla!
-  im Plugins-Verzeichnis Ã¼ber die folgenden Unterverzeichnisse, die
-  jeweils die verschiedenen Arten von definierten Plugins darstellen:
+  in dem sich die Erweiterung befindet. Standardmäßig verfügt Joomla! im
+  Plugins-Verzeichnis über die folgenden Unterverzeichnisse, die jeweils
+  die verschiedenen Arten von definierten Plugins darstellen:
   authentication, content, editors, editors-xtd, extension, search,
   system, user.
 - **Paket-ID**. Die Nummer der Paket-ID. Einmalig vergebene
-  Identifikations-Nummer fÃ¼r das Element, automatisch von Joomla!
+  Identifikations-Nummer für das Element, automatisch von Joomla!
   vergeben. Sie wird zur internen Identifikation des Elements verwendet,
-  man kann die Nummer nicht Ã¤ndern.
-- **ID**. Die ID-Nummer. Einmalig vergebene Identifikations-Nummer fÃ¼r
+  man kann die Nummer nicht ändern.
+- **ID**. Die ID-Nummer. Einmalig vergebene Identifikations-Nummer für
   diesen Eintrag. Sie wird automatisch von Joomla! vergeben und wird zur
   internen Identifikation des Elements verwendet. Man kann die Nummer
-  nicht verÃ¤ndern.
+  nicht verändern.
 
 ## Listen-Filter
 
@@ -63,57 +63,57 @@ Klick auf eine SpaltenÃ¼berschrift sortiert die Liste nach dessen Wert.
 im oberen Bereich.
 
 - **Suche nach Text**. Einen Teil des Suchbegriffs eingeben, auf das
-  Symbol fÃ¼r Suche klicken. Wird der Mauszeiger *Ã¼ber das Eingabefeld
+  Symbol für Suche klicken. Wird der Mauszeiger *über das Eingabefeld
   bewegt*, zeigt ein *Hilfetext* durchsuchbare Bereiche.Um 'Nach der ID'
   zu suchen, "id:x" eingeben ("x" ist die ID-Nummer, z.B. "id:19").
-- **Filter-Optionen**. Durch Anklicken zusÃ¤tzliche Filter zeigen.
-- **ZurÃ¼cksetzen**. Durch Klicken werden Filter zurÃ¼ckgesetzt und die
+- **Filter-Optionen**. Durch Anklicken zusätzliche Filter zeigen.
+- **Zurücksetzen**. Durch Klicken werden Filter zurückgesetzt und die
   Liste im ungefilterten Zustand gezeigt.
-- **Reihenfolge**. Zeigt das aktuelle Feld fÃ¼r die Reihenfolge an. Es
-  gibt 2 MÃ¶glichkeiten, die Reihenfolge zu Ã¤ndern:
-  - Im Dropdown-MenÃ¼ wÃ¤hlen. Die Reihenfolge ist aufsteigend oder
-    absteigend mÃ¶glich.
-  - Eine SpaltenÃ¼berschrift anklicken. Ein Klick auf die
-    SpaltenÃ¼berschrift wechselt zwischen aufsteigender und absteigender
+- **Reihenfolge**. Zeigt das aktuelle Feld für die Reihenfolge an. Es
+  gibt 2 Möglichkeiten, die Reihenfolge zu ändern:
+  - Im Dropdown-Menü wählen. Die Reihenfolge ist aufsteigend oder
+    absteigend möglich.
+  - Eine Spaltenüberschrift anklicken. Ein Klick auf die
+    Spaltenüberschrift wechselt zwischen aufsteigender und absteigender
     Reihenfolge.
-- **Anzuzeigende Anzahl**. Zeigt die Anzahl der EintrÃ¤ge an. Zur
-  Ã„nderung in der Dropdown-Liste die gewÃ¼nschte Anzahl wÃ¤hlen.Der
-  Standardwert fÃ¼r die Site ist '20', er kann in der
+- **Anzuzeigende Anzahl**. Zeigt die Anzahl der Einträge an. Zur
+  Änderung in der Dropdown-Liste die gewünschte Anzahl wählen.Der
+  Standardwert für die Site ist '20', er kann in der
   [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#defaultlistlimit "Help4.x:Site Global Configuration/de")
-  geÃ¤ndert werden.
+  geändert werden.
 
 ### Filtern nach Bereich, Status, Typ und Verzeichnis
 
 **Location**
 
-- **- Bereich wÃ¤hlen -**. Einen Bereich aus der Drop-down-Liste der
-  mÃ¶glichen Bereiche wÃ¤hlen.
-- **Site**. Site-Erweiterungen werden in Bereichen auÃŸerhalb des
+- **- Bereich wählen -**. Einen Bereich aus der Drop-down-Liste der
+  möglichen Bereiche wählen.
+- **Site**. Site-Erweiterungen werden in Bereichen außerhalb des
   Administrator-Bereiches verwendet.
-- **Administrator**. Administrator-Erweiterungen werden fÃ¼r
-  administrative Aufgaben verwendet. Ãœblicherweise wird mit diesen
+- **Administrator**. Administrator-Erweiterungen werden für
+  administrative Aufgaben verwendet. Üblicherweise wird mit diesen
   Erweiterungen direkt im Backend gearbeitet.
 
 **Status**
 
-- **- Status wÃ¤hlen -**. Den Status der Erweiterung aus der
-  Drop-down-Liste wÃ¤hlen.
+- **- Status wählen -**. Den Status der Erweiterung aus der
+  Drop-down-Liste wählen.
 - **Deaktiviert**. Installierte, aber nicht aktive Erweiterung.
 - **Aktiviert**. Installierte und aktivierte Erweiterung.
-- **GeschÃ¼tzt**. Installierte und geschÃ¼tzte Erweiterung. Diese
+- **Geschützt**. Installierte und geschützte Erweiterung. Diese
   Erweiterung kann weder deaktiviert noch deinstalliert werden.
-- **UngeschÃ¼tzt**. Installierte und ungeschÃ¼tzte Erweiterung. Diese
+- **Ungeschützt**. Installierte und ungeschützte Erweiterung. Diese
   Erweiterung kann aktiviert, deaktiviert oder deinstalliert werden.
 
 **Extension Type**
 
-- **- Typ wÃ¤hlen -**. Den Typ der Erweiterungen aus der Dropdown-Liste
-  wÃ¤hlen.
+- **- Typ wählen -**. Den Typ der Erweiterungen aus der Dropdown-Liste
+  wählen.
 
 **Folder**
 
-- **- Verzeichnis wÃ¤hlen. -**. Ein Plugin-Verzeichnis aus der
-  Drop-down-Liste wÃ¤hlen. FÃ¼r jeden Plugin-Typ gibt es ein eigenes
+- **- Verzeichnis wählen. -**. Ein Plugin-Verzeichnis aus der
+  Drop-down-Liste wählen. Für jeden Plugin-Typ gibt es ein eigenes
   Verzeichnis.
 
 ### Seitennavigation
@@ -125,8 +125,8 @@ mit dunkler Farbe unterlegt.
 
 - **Start**. Anklicken, um die erste Seite anzuzeigen.
 - **Vorherige**. Anklicken, um die vorherige Seite anzuzeigen.
-- **Seitennummer**. Anklicken, um die anzuzeigende Seite auszuwÃ¤hlen.
-- **Weiter**. Anklicken, um die nÃ¤chste Seite anzuzeigen.
+- **Seitennummer**. Anklicken, um die anzuzeigende Seite auszuwählen.
+- **Weiter**. Anklicken, um die nächste Seite anzuzeigen.
 - **Ende**. Anklicken, um die letzte Seite anzuzeigen.
 
 ## Werkzeugleiste
@@ -134,41 +134,41 @@ mit dunkler Farbe unterlegt.
 Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
-- **Aktivieren.** GewÃ¤hlte Elemente kÃ¶nnen auf der Website verwendet
+- **Aktivieren.** Gewählte Elemente können auf der Website verwendet
   werden.
 
 <!-- -->
 
-- **Deaktivieren**: Macht gewÃ¤hlte Erweiterungen fÃ¼r die Besucher der
+- **Deaktivieren**: Macht gewählte Erweiterungen für die Besucher der
   Webseite unsichtbar.
 
 <!-- -->
 
 - **Cache erneuern**. Erneuert die angezeigten Informationen der
-  gewÃ¤hlten Erweiterung(en).
+  gewählten Erweiterung(en).
 
 <!-- -->
 
-- **Deinstallieren:** Deinstalliert die gewÃ¤hlten Erweiterungen.
+- **Deinstallieren:** Deinstalliert die gewählten Erweiterungen.
 
 <!-- -->
 
-- **Optionen.** Ã–ffnet das Optionen-Fenster, in dem Einstellungen, wie
-  die Standard-Parameter, bearbeitet werden kÃ¶nnen.
+- **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
+  die Standard-Parameter, bearbeitet werden können.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
-- Ãœberall im Backend von Joomla! finden sich die Begriffe
-  â€žVerÃ¶ffentlichtâ€œ und â€žVerstecktâ€œ. *VerÃ¶ffentlichen* bedeutet
-  dasselbe wie *Eingeschaltet* oder *Aktiviert*. *Versteckt* meint
-  dasselbe wie *Ausgeschaltet* oder *Deaktiviert*. Die Begriffe kÃ¶nnen
+- Überall im Backend von Joomla! finden sich die Begriffe
+  „Veröffentlicht“ und „Versteckt“. *Veröffentlichen* bedeutet dasselbe
+  wie *Eingeschaltet* oder *Aktiviert*. *Versteckt* meint dasselbe wie
+  *Ausgeschaltet* oder *Deaktiviert*. Die Begriffe können
   gleichbedeutend in Erweiterungsseiten und Hilfe-Dokumentationen
   verwendet werden.
-- Informationen wie *Datum* oder *Autor* werden fÃ¼r eine Erweiterung
+- Informationen wie *Datum* oder *Autor* werden für eine Erweiterung
   vielleicht nicht angezeigt. Das ist kein Problem da es nur bedeutet,
   dass der Entwickler diese Informationen im Installationspaket nicht
   angegeben hat.

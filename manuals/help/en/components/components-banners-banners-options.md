@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Banners_Banners_Options -->
+<!-- Filename: Help4.x:Components_Banners_Banners_Options / Display title: Components Banners Banners Options -->
 
 ## Description
 

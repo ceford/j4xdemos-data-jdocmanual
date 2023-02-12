@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions_Extension_Manager_Languages -->
+<!-- Filename: Help4.x:Extensions_Extension_Manager_Languages / Display title: Extensions Extension Manager Languages -->
 
 ## Overview
 

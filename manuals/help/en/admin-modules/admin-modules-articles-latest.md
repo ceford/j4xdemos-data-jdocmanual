@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_Articles_-_Latest -->
+<!-- Filename: Help4.x:Admin_Modules:_Articles_-_Latest / Display title: Admin Modules: Articles - Latest -->
 
 ## Description
 

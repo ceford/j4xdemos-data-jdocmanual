@@ -1,16 +1,16 @@
-<!-- Display title: Edit Update Site -->
+<!-- Filename: Help4.x:Edit_Update_Site / Display title: Update-Site bearbeiten -->
 
 ## Beschreibung
 
-Das Fenster â€žUpdate-Site bearbeitenâ€œ zeigt einige Informationen
-Ã¼ber die Update-Site an. Die Joomla!-Quellen kÃ¶nnen nicht bearbeitet
-werden, aber andere Quellen erlauben mÃ¶glicherweise eine Bearbeitung.
+Das Fenster „Update-Site bearbeiten“ zeigt einige Informationen über die
+Update-Site an. Die Joomla!-Quellen können nicht bearbeitet werden, aber
+andere Quellen erlauben möglicherweise eine Bearbeitung.
 
 ## Wie darauf zugreifen
 
-- Im Administrator-MenÃ¼ die Option **System **→** Update
-  panel **→** Update Sites** wÃ¤hlen. Dann...
-  - In der Spalte â€žAktualisierungsquelleâ€œ den Titel-Link anklicken.
+- Im Administrator-Menü die Option **System **→** Update
+  panel **→** Update Sites** wählen. Dann...
+  - In der Spalte „Aktualisierungsquelle“ den Titel-Link anklicken.
 
 ## Bildschirmfoto
 
@@ -37,15 +37,15 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfe-Seite.
+- **Hilfe**. Öffnet die Hilfe-Seite.

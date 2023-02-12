@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Site_Configuration_Options -->
+<!-- Filename: Help4.x:Menu_Item:_Site_Configuration_Options / Display title: Menu Item: Site Configuration Options -->
 
 ## Description
 

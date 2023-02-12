@@ -1,4 +1,4 @@
-<!-- Help4.x:Mail_Template:_Edit -->
+<!-- Filename: Help4.x:Mail_Template:_Edit / Display title: Mail Template: Edit -->
 
 ## Description
 

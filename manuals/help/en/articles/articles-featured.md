@@ -1,4 +1,4 @@
-<!-- Help4.x:Articles:_Featured -->
+<!-- Filename: Help4.x:Articles:_Featured / Display title: Articles: Featured -->
 
 ## Description
 

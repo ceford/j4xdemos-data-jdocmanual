@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Articles_-_Category -->
+<!-- Filename: Help4.x:Site_Modules:_Articles_-_Category / Display title: Site Modules: Articles - Category -->
 
 ## Description
 

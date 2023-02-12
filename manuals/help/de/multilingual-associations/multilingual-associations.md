@@ -1,18 +1,18 @@
-<!-- Display title: Multilingual Associations -->
+<!-- Filename: Help4.x:Multilingual_Associations / Display title: Sprachverknüpfungen -->
 
 ## Beschreibung
 
-SprachverknÃ¼pfungen ermÃ¶glichen die Bearbeitung verknÃ¼pfter
-EintrÃ¤ge, die nebeneinander gezeigt werden.
+Sprachverknüpfungen ermöglichen die Bearbeitung verknüpfter Einträge,
+die nebeneinander gezeigt werden.
 
-Auf der Seite werden VerknÃ¼pfungen zwischen EintrÃ¤gen und installieren
+Auf der Seite werden Verknüpfungen zwischen Einträgen und installieren
 Seitensprachen bearbeitet.
 
 ## Wie darauf zugreifen
 
-- **Komponenten **→** SprachverknÃ¼pfungen**
-  1.  **Eintragstyp** wÃ¤hlen.
-  2.  **Sprache** wÃ¤hlen.
+- **Komponenten **→** Sprachverknüpfungen**
+  1.  **Eintragstyp** wählen.
+  2.  **Sprache** wählen.
 
 ## Bildschirmfoto
 
@@ -23,22 +23,21 @@ srcset="https://docs.joomla.org/images/thumb/f/f6/Help-4x-Components-Association
 data-file-width="2720" data-file-height="1700" width="800" height="500"
 alt="Help-4x-Components-Associations-de.png" />
 
-## Spalten-Ãœberschriften
+## Spalten-Überschriften
 
-- **Status**. Der VerÃ¶ffentlichungs-Status des MenÃ¼eintrags.
-- **Titel**. Der Titel des MenÃ¼eintrags. Mit Klick auf den Titel
-  Ã¶ffnen.
-- **Sprache**. Die Sprache des MenÃ¼eintrags.
-- **VerknÃ¼pfungen**. Zeigt an, mit welcher Sprache dieser MenÃ¼eintrag
-  verknÃ¼pft ist.
-- **Nicht verknÃ¼pft**. Zeigt an, mit welcher Sprache der MenÃ¼eintrag
-  nicht verknÃ¼pft ist.
-- **MenÃ¼**. Zeigt an, welchem MenÃ¼ der MenÃ¼eintrag zugeordnet ist.
+- **Status**. Der Veröffentlichungs-Status des Menüeintrags.
+- **Titel**. Der Titel des Menüeintrags. Mit Klick auf den Titel öffnen.
+- **Sprache**. Die Sprache des Menüeintrags.
+- **Verknüpfungen**. Zeigt an, mit welcher Sprache dieser Menüeintrag
+  verknüpft ist.
+- **Nicht verknüpft**. Zeigt an, mit welcher Sprache der Menüeintrag
+  nicht verknüpft ist.
+- **Menü**. Zeigt an, welchem Menü der Menüeintrag zugeordnet ist.
 - **Zugriffsebene**. Die
   [Zugriffsebene](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Help4.x:Users: Viewing Access Levels/de")
-  fÃ¼r die Anzeige des MenÃ¼eintrags.
-- **ID**. Einmalig vergebene Identifikations-Nummer des MenÃ¼eintrags,
-  die nicht geÃ¤ndert werden kann.
+  für die Anzeige des Menüeintrags.
+- **ID**. Einmalig vergebene Identifikations-Nummer des Menüeintrags,
+  die nicht geändert werden kann.
 
 ## Listen-Filter
 
@@ -46,49 +45,48 @@ alt="Help-4x-Components-Associations-de.png" />
 im oberen Bereich.
 
 - **Suche nach Text**. Einen Teil des Suchbegriffs eingeben, auf das
-  Symbol fÃ¼r Suche klicken. Wird der Mauszeiger *Ã¼ber das Eingabefeld
+  Symbol für Suche klicken. Wird der Mauszeiger *über das Eingabefeld
   bewegt*, zeigt ein *Hilfetext* durchsuchbare Bereiche.Um 'Nach der ID'
   zu suchen, "id:x" eingeben ("x" ist die ID-Nummer, z.B. "id:19").
-- **Filter-Optionen**. Durch Anklicken zusÃ¤tzliche Filter zeigen.
-- **ZurÃ¼cksetzen**. Durch Klicken werden Filter zurÃ¼ckgesetzt und die
+- **Filter-Optionen**. Durch Anklicken zusätzliche Filter zeigen.
+- **Zurücksetzen**. Durch Klicken werden Filter zurückgesetzt und die
   Liste im ungefilterten Zustand gezeigt.
-- **Reihenfolge**. Zeigt das aktuelle Feld fÃ¼r die Reihenfolge an. Es
-  gibt 2 MÃ¶glichkeiten, die Reihenfolge zu Ã¤ndern:
-  - Im Dropdown-MenÃ¼ wÃ¤hlen. Die Reihenfolge ist aufsteigend oder
-    absteigend mÃ¶glich.
-  - Eine SpaltenÃ¼berschrift anklicken. Ein Klick auf die
-    SpaltenÃ¼berschrift wechselt zwischen aufsteigender und absteigender
+- **Reihenfolge**. Zeigt das aktuelle Feld für die Reihenfolge an. Es
+  gibt 2 Möglichkeiten, die Reihenfolge zu ändern:
+  - Im Dropdown-Menü wählen. Die Reihenfolge ist aufsteigend oder
+    absteigend möglich.
+  - Eine Spaltenüberschrift anklicken. Ein Klick auf die
+    Spaltenüberschrift wechselt zwischen aufsteigender und absteigender
     Reihenfolge.
-- **Anzuzeigende Anzahl**. Zeigt die Anzahl der MenÃ¼eintrÃ¤ge an. Zur
-  Ã„nderung in der Dropdown-Liste die gewÃ¼nschte Anzahl wÃ¤hlen.Der
-  Standardwert fÃ¼r die Site ist '20', er kann in der
+- **Anzuzeigende Anzahl**. Zeigt die Anzahl der Menüeinträge an. Zur
+  Änderung in der Dropdown-Liste die gewünschte Anzahl wählen.Der
+  Standardwert für die Site ist '20', er kann in der
   [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#defaultlistlimit "Help4.x:Site Global Configuration/de")
-  geÃ¤ndert werden.
+  geändert werden.
 
 ### Filter-Optionen
 
 Das [Bildschirmfoto](#screenshot) zeigt die Filterleiste im oberen
 Bereich.
 
-- **Status wÃ¤hlen**. Auswahl von Papierkorb / Versteckt /
-  VerÃ¶ffentlicht / Archiviert / Alle.
-- **Kategorie wÃ¤hlen**. Aus den verfÃ¼gbaren Kategorien wÃ¤hlen.
-- **MenÃ¼ wÃ¤hlen**. Aus den verfÃ¼gbaren MenÃ¼s wÃ¤hlen.
-- **Zugriffsebene wÃ¤hlen**. Aus den verfÃ¼gbaren Zugriffsebenen
-  wÃ¤hlen.
-- **Max. Ebenen wÃ¤hlen**. Aus den verfÃ¼gbaren Ebenen wÃ¤hlen.
+- **Status wählen**. Auswahl von Papierkorb / Versteckt / Veröffentlicht
+  / Archiviert / Alle.
+- **Kategorie wählen**. Aus den verfügbaren Kategorien wählen.
+- **Menü wählen**. Aus den verfügbaren Menüs wählen.
+- **Zugriffsebene wählen**. Aus den verfügbaren Zugriffsebenen wählen.
+- **Max. Ebenen wählen**. Aus den verfügbaren Ebenen wählen.
 
 ### Seitennavigation
 
-**Seitenkontrolle**. Gibt es mehr MenÃ¼eintrÃ¤ge als auf der Seite
+**Seitenkontrolle**. Gibt es mehr Menüeinträge als auf der Seite
 gezeigt, wird im unteren Bereich die Seitenkontrollleiste wie auf dem
 [Bildschirmfoto](#screenshot) eingeblendet. Die aktuelle Seitenzahl ist
 mit dunkler Farbe unterlegt.
 
 - **Start**. Anklicken, um die erste Seite anzuzeigen.
 - **Vorherige**. Anklicken, um die vorherige Seite anzuzeigen.
-- **Seitennummer**. Anklicken, um die anzuzeigende Seite auszuwÃ¤hlen.
-- **Weiter**. Anklicken, um die nÃ¤chste Seite anzuzeigen.
+- **Seitennummer**. Anklicken, um die anzuzeigende Seite auszuwählen.
+- **Weiter**. Anklicken, um die nächste Seite anzuzeigen.
 - **Ende**. Anklicken, um die letzte Seite anzuzeigen.
 
 ## Werkzeugleiste
@@ -101,20 +99,20 @@ srcset="https://docs.joomla.org/images/thumb/4/42/Help-4x-Components-Association
 data-file-width="2791" data-file-height="269" width="800" height="77"
 alt="Help-4x-Components-Associations-toolbar-subscreen-de.png" />
 
-- **Alle VerknÃ¼pfungen lÃ¶schen**. Nach einer Sicherheitsabfrage werden
-  alle VerknÃ¼pfungen gelÃ¶scht.
-- **Verwaiste EintrÃ¤ge lÃ¶schen**. LÃ¶schen aller verwaisten EintrÃ¤ge.
-- **Optionen**. Ã–ffnet die Hilfeseite [SprachverknÃ¼pfungen:
+- **Alle Verknüpfungen löschen**. Nach einer Sicherheitsabfrage werden
+  alle Verknüpfungen gelöscht.
+- **Verwaiste Einträge löschen**. Löschen aller verwaisten Einträge.
+- **Optionen**. Öffnet die Hilfeseite [Sprachverknüpfungen:
   Optionen](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Options/de "Help4.x:Multilingual Associations: Options/de").
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
-- Ein MenÃ¼eintrag in Deutsch kann leichter auf Englisch Ã¼bersetzt
-  werden, da Original und Ãœbersetzungsziel parallel angezeigt werden.
-  FÃ¼r weitere Ãœbersetzungen die Zielsprache Ã¤ndern. [Mehr
+- Ein Menüeintrag in Deutsch kann leichter auf Englisch übersetzt
+  werden, da Original und Übersetzungsziel parallel angezeigt werden.
+  Für weitere Übersetzungen die Zielsprache ändern. [Mehr
   erfahren.](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/de "Help4.x:Multilingual Associations: Edit/de")
-- Die Hilfeseite nutzt 'MenÃ¼eintrÃ¤ge' als Beispiel. Alle Eintragstypen
+- Die Hilfeseite nutzt 'Menüeinträge' als Beispiel. Alle Eintragstypen
   werden im [Bildschirmfoto](#screenshot) gezeigt.
 
 ## Verwandte Informationen
@@ -123,9 +121,9 @@ alt="Help-4x-Components-Associations-toolbar-subscreen-de.png" />
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.
 
-|                                                                                                                                                         |                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Verwandte Hilfeseiten                                                                                                                                   | Beschreibung                                                                                        |
-| [SprachverknÃ¼pfungen: Optionen](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Options/de "Help4.x:Multilingual Associations: Options/de") | Standardberechtigungen fÃ¼r sÃ¤mtliche Inhalte der SprachverknÃ¼pfungen.                            |
-| <span class="mw-selflink selflink">SprachverknÃ¼pfungen</span>                                                                                          | Auf der Seite werden VerknÃ¼pfungen zwischen EintrÃ¤gen und installieren Seitensprachen bearbeitet. |
-| [SprachverknÃ¼pfungen: Bearbeiten](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/de "Help4.x:Multilingual Associations: Edit/de")     | Erstellen oder Bearbeiten von VerknÃ¼pfungen zwischen den Sprachen einer mehrsprachigen Website.    |
+|                                                                                                                                                        |                                                                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Verwandte Hilfeseiten                                                                                                                                  | Beschreibung                                                                                      |
+| [Sprachverknüpfungen: Optionen](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Options/de "Help4.x:Multilingual Associations: Options/de") | Standardberechtigungen für sämtliche Inhalte der Sprachverknüpfungen.                             |
+| <span class="mw-selflink selflink">Sprachverknüpfungen</span>                                                                                          | Auf der Seite werden Verknüpfungen zwischen Einträgen und installieren Seitensprachen bearbeitet. |
+| [Sprachverknüpfungen: Bearbeiten](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/de "Help4.x:Multilingual Associations: Edit/de")     | Erstellen oder Bearbeiten von Verknüpfungen zwischen den Sprachen einer mehrsprachigen Website.   |

@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_List_News_Feeds_in_a_Category -->
+<!-- Filename: Help4.x:Menu_Item:_List_News_Feeds_in_a_Category / Display title: Menu Item: List News Feeds in a Category -->
 
 ## Description
 

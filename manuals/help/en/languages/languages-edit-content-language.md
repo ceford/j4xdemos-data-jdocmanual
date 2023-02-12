@@ -1,4 +1,4 @@
-<!-- Help4.x:Languages:_Edit_Content_Language -->
+<!-- Filename: Help4.x:Languages:_Edit_Content_Language / Display title: Languages: Edit Content Language -->
 
 <img
 src="https://docs.joomla.org/images/thumb/4/47/Copyedit.png/25px-Copyedit.png"

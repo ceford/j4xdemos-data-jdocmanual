@@ -1,4 +1,4 @@
-<!-- Help4.x:Joomla_Version_Additional_Information -->
+<!-- Filename: Help4.x:Joomla_Version_Additional_Information / Display title: Joomla Version Additional Information -->
 
 ## Announcements and release notes
 

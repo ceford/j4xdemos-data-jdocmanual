@@ -1,4 +1,4 @@
-<!-- Help4.x:News_Feeds:_Categories -->
+<!-- Filename: Help4.x:News_Feeds:_Categories / Display title: News Feeds: Categories -->
 
 ## Description
 

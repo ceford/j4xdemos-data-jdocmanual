@@ -1,4 +1,4 @@
-<!-- Help4.x:User_Notes:_New_or_Edit -->
+<!-- Filename: Help4.x:User_Notes:_New_or_Edit / Display title: User Notes: New or Edit -->
 
 ## Description
 

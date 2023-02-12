@@ -1,4 +1,4 @@
-<!-- Help4.x:Banners:_Edit -->
+<!-- Filename: Help4.x:Banners:_Edit / Display title: Banners: Edit -->
 
 ## Description
 

@@ -1,36 +1,34 @@
-<!-- Display title: Menu Item: Display Template Options -->
+<!-- Filename: Help4.x:Menu_Item:_Display_Template_Options / Display title: Menüeintrag Template-Optionen -->
 
 ## Beschreibung
 
-Der MenÃ¼punkt **Template-Optionen anzeigen** ermÃ¶glicht es einem
-Joomla! Super-User, einige Template-Optionen einfach vom Front-End aus
-zu Ã¤ndern. Nach einer Ã„nderung sieht der Super-User die Ergebnisse
-sofort. Dieser MenÃ¼punkt ist dazu gedacht, neuen Super-Usern bei der
-Entwicklung ihrer Website zu helfen.
+Der Menüpunkt **Template-Optionen anzeigen** ermöglicht es einem Joomla!
+Super-User, einige Template-Optionen einfach vom Front-End aus zu
+ändern. Nach einer Änderung sieht der Super-User die Ergebnisse sofort.
+Dieser Menüpunkt ist dazu gedacht, neuen Super-Usern bei der Entwicklung
+ihrer Website zu helfen.
 
 ## Wie darauf zugreifen
 
-Erstellen eines neuen MenÃ¼punkts **Template-Optionen anzeigen**:
+Erstellen eines neuen Menüpunkts **Template-Optionen anzeigen**:
 
-- Im Administrator-MenÃ¼ **MenÃ¼s **→** \[Name des MenÃ¼s\]** auswÃ¤hlen
-  (z.B.: **MenÃ¼s **→** Main Menu**).
-  - die SchaltflÃ¤che **+ Neu** in der Toolbar anklicken
-  - In der Zeile: MenÃ¼eintragstyp, auf die SchaltflÃ¤che
-    â€žAuswÃ¤hlenâ€œ klicken <img
+- Im Administrator-Menü **Menüs **→** \[Name des Menüs\]** auswählen
+  (z.B.: **Menüs **→** Main Menu**).
+  - die Schaltfläche **+ Neu** in der Toolbar anklicken
+  - In der Zeile: Menüeintragstyp, auf die Schaltfläche „Auswählen“
+    klicken <img
     src="https://docs.joomla.org/images/thumb/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png/74px-Help-4x-Menu-Item-Type-Select-Button-de.png"
     decoding="async"
     srcset="https://docs.joomla.org/images/thumb/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png/113px-Help-4x-Menu-Item-Type-Select-Button-de.png 1.5x, https://docs.joomla.org/images/1/1e/Help-4x-Menu-Item-Type-Select-Button-de.png 2x"
     data-file-width="145" data-file-height="49" width="74" height="25"
     alt="Help-4x-Menu-Item-Type-Select-Button-de.png" />
-  - Im modalen Dialog den Punkt Konfiguration auswÃ¤hlen, um eine Liste
-    zu Ã¶ffnen, und dann den Punkt **Template-Optionen anzeigen**
-    auswÃ¤hlen.
+  - Im modalen Dialog den Punkt Konfiguration auswählen, um eine Liste
+    zu öffnen, und dann den Punkt **Template-Optionen anzeigen**
+    auswählen.
 
-Einen vorhandenen MenÃ¼punkt â€žTemplate-Optionen anzeigenâ€œ
-bearbeiten:
+Einen vorhandenen Menüpunkt „Template-Optionen anzeigen“ bearbeiten:
 
-- Den Namen aus der Liste â€žAlle MenÃ¼eintrÃ¤geâ€œ bei den MenÃ¼s
-  auswÃ¤hlen:
+- Den Namen aus der Liste „Alle Menüeinträge“ bei den Menüs auswählen:
 
 ## Screenshot
 
@@ -43,8 +41,7 @@ alt="Help-4x-Menus-Menu-Display Template Options-screen-de.png" />
 
 ## Formular Felder
 
-- **MenÃ¼titel.** Der Titel, der fÃ¼r diesen MenÃ¼eintrag angezeigt
-  wird.
+- **Menütitel.** Der Titel, der für diesen Menüeintrag angezeigt wird.
 
 <!-- -->
 
@@ -58,93 +55,92 @@ alt="Help-4x-Menus-Menu-Display Template Options-screen-de.png" />
 
 **Linke Seite**
 
-- **MenÃ¼eintragstyp**. Der MenÃ¼eintragstyp wird beim Erstellen des
-  MenÃ¼eintrages gewÃ¤hlt. Das kann einer der Core-MenÃ¼eintragstypen
-  oder ein MenÃ¼eintragstyp einer installierten Erweiterung sein.
+- **Menüeintragstyp**. Der Menüeintragstyp wird beim Erstellen des
+  Menüeintrages gewählt. Das kann einer der Core-Menüeintragstypen oder
+  ein Menüeintragstyp einer installierten Erweiterung sein.
 
 <!-- -->
 
-- **Link**. Vom System erstellter Link fÃ¼r den MenÃ¼eintrag. Das Feld
-  kann nicht verÃ¤ndert werden, es dient ausschlieÃŸlich der
-  Information.
+- **Link**. Vom System erstellter Link für den Menüeintrag. Das Feld
+  kann nicht verändert werden, es dient ausschließlich der Information.
 
 <!-- -->
 
-- **Zielfenster.** Aus der Dropdown-Liste wÃ¤hlen.
+- **Zielfenster.** Aus der Dropdown-Liste wählen.
 
 <!-- -->
 
-- **Template-Stil.** Aus der Dropdown-Liste wÃ¤hlen.
+- **Template-Stil.** Aus der Dropdown-Liste wählen.
 
 **Rechte Seite**
 
-- **MenÃ¼**. Zeigt, in welchem MenÃ¼ der Link erscheinen wird.
+- **Menü**. Zeigt, in welchem Menü der Link erscheinen wird.
 
 <!-- -->
 
-- **Ãœbergeordneter Eintrag.** Der Ã¼bergeordnete MenÃ¼punkt fÃ¼r diesen
-  MenÃ¼eintrag. Wird verwendet, um zu bestimmen, ob ein MenÃ¼punkt ein
-  Eintrag der obersten Ebene oder ein UntermenÃ¼punkt ist. WÃ¤hlen Sie
-  â€žOberste MenÃ¼ebeneâ€œ (der Standardwert), wenn es sich um einen
-  MenÃ¼punkt der obersten Ebene handelt. Andernfalls wÃ¤hlen Sie den
-  MenÃ¼eintrag, welcher der Ã¼bergeordnete MenÃ¼eintrag dieses Eintrags
+- **Übergeordneter Eintrag.** Der übergeordnete Menüpunkt für diesen
+  Menüeintrag. Wird verwendet, um zu bestimmen, ob ein Menüpunkt ein
+  Eintrag der obersten Ebene oder ein Untermenüpunkt ist. Wählen Sie
+  „Oberste Menüebene“ (der Standardwert), wenn es sich um einen
+  Menüpunkt der obersten Ebene handelt. Andernfalls wählen Sie den
+  Menüeintrag, welcher der übergeordnete Menüeintrag dieses Eintrags
   ist.
 
 <!-- -->
 
 - **Reihenfolge.** Die Reihenfolge eines Eintrags innerhalb einer Liste
-  kann wie folgt geÃ¤ndert werden:
-  - Wenn die Liste Filter-Optionen einen Positions-Filter enthÃ¤lt, dann
-    wÃ¤hlt man die gewÃ¼nschte Position aus. Dadurch wird die Liste auf
-    Positionen beschrÃ¤nkt, die dieser Position zugeordnet sind.
+  kann wie folgt geändert werden:
+  - Wenn die Liste Filter-Optionen einen Positions-Filter enthält, dann
+    wählt man die gewünschte Position aus. Dadurch wird die Liste auf
+    Positionen beschränkt, die dieser Position zugeordnet sind.
   - Das Reihenfolge-Symbol <img
     src="https://docs.joomla.org/images/e/ee/Help30-Ordering-colheader-icon.png"
     decoding="async" data-file-width="12" data-file-height="23" width="12"
     height="23" alt="Help30-Ordering-colheader-icon.png" /> in der
-    TabellenÃ¼berschrift anklicken, um diese Spalte zur aktiven
-    Sortierung zu machen. Die Ordnungssymbole in jeder Zeile Ã¤ndern
-    sich von hellgrau zu dunkelgrau, und der Mauszeiger verwandelt sich
-    beim Ãœberfahren in einen Ziehpfeil.
+    Tabellenüberschrift anklicken, um diese Spalte zur aktiven
+    Sortierung zu machen. Die Ordnungssymbole in jeder Zeile ändern sich
+    von hellgrau zu dunkelgrau, und der Mauszeiger verwandelt sich beim
+    Überfahren in einen Ziehpfeil.
   - Eines der Reihenfolge-Symbole <img
     src="https://docs.joomla.org/images/8/87/Help30-Ordering-colheader-grab-bar-icon.png"
     decoding="async" data-file-width="10" data-file-height="21" width="10"
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" />
-    wÃ¤hlen und es nach oben oder unten ziehen, um die Position dieser
-    Zeile in der Liste zu Ã¤ndern. Die EintrÃ¤ge werden in der neuen
+    wählen und es nach oben oder unten ziehen, um die Position dieser
+    Zeile in der Liste zu ändern. Die Einträge werden in der neuen
     Reihenfolge innerhalb der Position angezeigt.
 
 <!-- -->
 
-- **Status**. Der VerÃ¶ffentlichungs-Status des Eintrags.
+- **Status**. Der Veröffentlichungs-Status des Eintrags.
 
 <!-- -->
 
-- **VerÃ¶ffentlichung starten**. Datum und Uhrzeit, um die
-  VerÃ¶ffentlichung zu starten. Dieses Feld verwenden, um Inhalt vor der
-  Zeit zu erstellen und ihn spÃ¤ter automatisch zu verÃ¶ffentlichen.
+- **Veröffentlichung starten**. Datum und Uhrzeit, um die
+  Veröffentlichung zu starten. Dieses Feld verwenden, um Inhalt vor der
+  Zeit zu erstellen und ihn später automatisch zu veröffentlichen.
 
 <!-- -->
 
-- **VerÃ¶ffentlichung beenden**. Datum und Uhrzeit, um die
-  VerÃ¶ffentlichung zu beenden. Dieses Feld verwenden, um dem Inhalt
-  automatisch den Status â€žVerstecktâ€œ zuzuweisen (zum Beispiel, wenn
-  der Inhalt nicht mehr aktuell ist).
+- **Veröffentlichung beenden**. Datum und Uhrzeit, um die
+  Veröffentlichung zu beenden. Dieses Feld verwenden, um dem Inhalt
+  automatisch den Status „Versteckt“ zuzuweisen (zum Beispiel, wenn der
+  Inhalt nicht mehr aktuell ist).
 
 <!-- -->
 
-- **Standardseite**. Wenn Ja, bezeichnet dieser MenÃ¼eintrag die
-  Standardseite fÃ¼r die Website. Es muss genau ein MenÃ¼eintrag als
-  Standardseite festgelegt sein. Sie kann auf zwei Arten geÃ¤ndert
+- **Standardseite**. Wenn Ja, bezeichnet dieser Menüeintrag die
+  Standardseite für die Website. Es muss genau ein Menüeintrag als
+  Standardseite festgelegt sein. Sie kann auf zwei Arten geändert
   werden:
-  1.  Auf dem Bildschirm [MenÃ¼s:
-      EintrÃ¤ge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Special:MyLanguage/Help4.x:Menus: Items/de")
-      in der Spalte 'Startseite' des gewÃ¼nschten MenÃ¼eintrags klicken.
-  2.  Den MenÃ¼eintrag fÃ¼r die neue Standardseite Ã¶ffnen und die
-      Einstellung Standardseite auf 'Ja' Ã¤ndern.
+  1.  Auf dem Bildschirm [Menüs:
+      Einträge](https://docs.joomla.org/Help4.x:Menus:_Items/de "Special:MyLanguage/Help4.x:Menus: Items/de")
+      in der Spalte 'Startseite' des gewünschten Menüeintrags klicken.
+  2.  Den Menüeintrag für die neue Standardseite öffnen und die
+      Einstellung Standardseite auf 'Ja' ändern.
 
 <!-- -->
 
-- **Zugriffsebene**. Die [Zugriffsebene fÃ¼r die
+- **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   des Eintrags.
 
@@ -155,20 +151,20 @@ alt="Help-4x-Menus-Menu-Display Template Options-screen-de.png" />
 <!-- -->
 
 - **Notiz**. Die Notiz wird meist vom Site-Administrator verwendet, um
-  beispielsweise Informationen Ã¼ber den Eintrag zu notieren. Die Notiz
+  beispielsweise Informationen über den Eintrag zu notieren. Die Notiz
   wird nicht im Frontend der Seite angezeigt.
 
 ### Allgemeine Optionen
 
-Siehe [MenÃ¼-Eintrag: Neuer
+Siehe [Menü-Eintrag: Neuer
 Eintrag](https://docs.joomla.org/Help4.x:Menu_Item:_New_Item/de "Help4.x:Menu Item: New Item/de")
-fÃ¼r Hilfe zu Feldern, die bei allen MenÃ¼eintragstypen gleich sind und
+für Hilfe zu Feldern, die bei allen Menüeintragstypen gleich sind und
 sich auf den folgenden Registerkarten befinden:
 
 - **Linktyp**
 - **Seitenanzeige**
 - **Metadaten**
-- **VerknÃ¼pfungen**
+- **Verknüpfungen**
 - **Modulzuweisung**
 
 ## Werkzeugleiste
@@ -181,35 +177,35 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **Speichern & Neu**. Speichert den Eintrag und hÃ¤lt die Seite offen,
+- **Speichern & Neu**. Speichert den Eintrag und hält die Seite offen,
   damit ein neuer Eintrag erstellt werden kann.
 
 <!-- -->
 
-- **Als Kopie speichern**. Speichert Ã„nderungen in einer Kopie des
+- **Als Kopie speichern**. Speichert Änderungen in einer Kopie des
   aktuellen Eintrags. Der aktuelle Eintrag wird davon nicht beeinflusst.
   Dieses Symbol wird nicht angezeigt, wenn ein neuer Eintrag erstellt
   wird.
 
 <!-- -->
 
-- **Abbrechen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Oder
+- **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Oder
 
 <!-- -->
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Frontend Screenshot
 
@@ -219,13 +215,13 @@ decoding="async" data-file-width="600" data-file-height="646"
 width="600" height="646"
 alt="Help-4x-Menus-Menu-Display Template Options-front-end-screenshot-en.png" />
 
-## ZugehÃ¶rige Informationen
+## Zugehörige Informationen
 
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Verwandte Hilfeseiten                                                                                                                    | Beschreibung                                                                                                                                                                                                                                                                                                              |
-| [Templates: Stile](https://docs.joomla.org/Help4.x:Templates:_Styles/de "Help4.x:Templates: Styles/de")                                  |                                                                                                                                                                                                                                                                                                                           |
-| [Templates: Stile bearbeiten](https://docs.joomla.org/Help4.x:Templates:_Edit_Style/de "Help4.x:Templates: Edit Style/de")               | Hier werden Templatestile bearbeitet. Bei der ersten Installation eines Templates wird ein Standardstil erstellt. Der Name ist der des Templates plus "- Standard". FÃ¼r Stilvarianten das KontrollkÃ¤stchen des Standardstils markieren und den "Kopieren"-Button der Werkzeugleiste anklicken und die Kopie bearbeiten. |
-| [Templates: Templates](https://docs.joomla.org/Help4.x:Templates:_Templates/de "Help4.x:Templates: Templates/de")                        | Der **Template-Manager:** Der Bildschirm **Templates** ermÃ¶glicht die Vorschau und Bearbeitung von Templates, die auf der Joomla! Website installiert sind.                                                                                                                                                              |
-| [Templates: Anpassen](https://docs.joomla.org/Help4.x:Templates:_Customise/de "Help4.x:Templates: Customise/de")                         | Hier kann der Quellcode eines Templates bearbeitet werden. Von diesem Bildschirm aus werden die Masterdateien und Stylesheets des Templates geÃ¤ndert und angepasst.                                                                                                                                                      |
-| [Templates: Quellcode anpassen](https://docs.joomla.org/Help4.x:Templates:_Customise_Source/de "Help4.x:Templates: Customise Source/de") | Auf diesem Bildschirm wird der Quellcode von Template-Dateien bearbeitet. Er bietet eine Klartextschnittstelle zur Bearbeitung der Template-Dateien. Die HTML- und PHP-Programmiersyntax ist hervorgehoben, um die Quellcodedateien leichter lesbar zu machen.                                                            |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                         |
+|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Verwandte Hilfeseiten                                                                                                                    | Beschreibung                                                                                                                                                                                                                                                                                                            |
+| [Templates: Stile](https://docs.joomla.org/Help4.x:Templates:_Styles/de "Help4.x:Templates: Styles/de")                                  |                                                                                                                                                                                                                                                                                                                         |
+| [Templates: Stile bearbeiten](https://docs.joomla.org/Help4.x:Templates:_Edit_Style/de "Help4.x:Templates: Edit Style/de")               | Hier werden Templatestile bearbeitet. Bei der ersten Installation eines Templates wird ein Standardstil erstellt. Der Name ist der des Templates plus "- Standard". Für Stilvarianten das Kontrollkästchen des Standardstils markieren und den "Kopieren"-Button der Werkzeugleiste anklicken und die Kopie bearbeiten. |
+| [Templates: Templates](https://docs.joomla.org/Help4.x:Templates:_Templates/de "Help4.x:Templates: Templates/de")                        | Der **Template-Manager:** Der Bildschirm **Templates** ermöglicht die Vorschau und Bearbeitung von Templates, die auf der Joomla! Website installiert sind.                                                                                                                                                             |
+| [Templates: Anpassen](https://docs.joomla.org/Help4.x:Templates:_Customise/de "Help4.x:Templates: Customise/de")                         | Hier kann der Quellcode eines Templates bearbeitet werden. Von diesem Bildschirm aus werden die Masterdateien und Stylesheets des Templates geändert und angepasst.                                                                                                                                                     |
+| [Templates: Quellcode anpassen](https://docs.joomla.org/Help4.x:Templates:_Customise_Source/de "Help4.x:Templates: Customise Source/de") | Auf diesem Bildschirm wird der Quellcode von Template-Dateien bearbeitet. Er bietet eine Klartextschnittstelle zur Bearbeitung der Template-Dateien. Die HTML- und PHP-Programmiersyntax ist hervorgehoben, um die Quellcodedateien leichter lesbar zu machen.                                                          |

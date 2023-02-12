@@ -1,9 +1,9 @@
-<!-- Display title: Extensions: Languages -->
+<!-- Filename: Help4.x:Extensions:_Languages / Display title: Erweiterungen: Sprachen installieren -->
 
 ## Beschreibung
 
-In der Seite werden Sprachen installiert. Alle verfÃ¼gbaren Sprachen
-samt aktueller Version werden angezeigt.
+In der Seite werden Sprachen installiert. Alle verfügbaren Sprachen samt
+aktueller Version werden angezeigt.
 
 ## How to Access
 

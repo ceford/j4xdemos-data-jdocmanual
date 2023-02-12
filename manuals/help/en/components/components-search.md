@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Search -->
+<!-- Filename: Help4.x:Components_Search / Display title: Components Search -->
 
 **Components Help Screens**
 

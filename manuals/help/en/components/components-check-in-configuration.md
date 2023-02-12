@@ -1,4 +1,4 @@
-<!-- Help4.x:Components_Check-in_Configuration -->
+<!-- Filename: Help4.x:Components_Check-in_Configuration / Display title: Components Check-in Configuration -->
 
 ## Description
 

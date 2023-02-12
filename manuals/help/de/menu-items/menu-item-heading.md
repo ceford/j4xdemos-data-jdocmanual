@@ -1,12 +1,12 @@
-<!-- Display title: Menu Item: Heading -->
+<!-- Filename: Help4.x:Menu_Item:_Heading / Display title: Menü-Eintrag: Titel -->
 
 ## Beschreibung
 
-Der MenÃ¼eintragstyp **Menu-Titel** wird verwendet, um MenÃ¼links mit
-Text oder Bildern in einem MenÃ¼ zu trennen. Zum Beispiel, um einer
-Gruppe von Links einen Titel zu geben oder vor jedem Link oder jeder
-Gruppe von Links eine kurze Beschreibung zu erlauben. Siehe Screenshot
-des [Frontend-Beispiels](#Front_End_Screenshot) unten.
+Der Menüeintragstyp **Menu-Titel** wird verwendet, um Menülinks mit Text
+oder Bildern in einem Menü zu trennen. Zum Beispiel, um einer Gruppe von
+Links einen Titel zu geben oder vor jedem Link oder jeder Gruppe von
+Links eine kurze Beschreibung zu erlauben. Siehe Screenshot des
+[Frontend-Beispiels](#Front_End_Screenshot) unten.
 
 ## Wie darauf zugreifen
 

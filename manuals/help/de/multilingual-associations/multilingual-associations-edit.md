@@ -1,25 +1,25 @@
-<!-- Display title: Multilingual Associations: Edit -->
+<!-- Filename: Help4.x:Multilingual_Associations:_Edit / Display title: Sprachverknüpfungen: Bearbeiten -->
 
 ## Beschreibung
 
-Erstellen oder Bearbeiten von VerknÃ¼pfungen zwischen den Sprachen einer
+Erstellen oder Bearbeiten von Verknüpfungen zwischen den Sprachen einer
 mehrsprachigen Website.
 
 ## Wie darauf zugreifen
 
-Eine SprachverknÃ¼pfung hinzufÃ¼gen:
+Eine Sprachverknüpfung hinzufügen:
 
-- **Komponenten **→** SprachverknÃ¼pfungen**
-  1.  **Eintragstyp** wÃ¤hlen.
-  2.  **Sprache** wÃ¤hlen.
-  3.  Die Zielsprache in der Spalte **Nicht verknÃ¼pft** wÃ¤hlen.
+- **Komponenten **→** Sprachverknüpfungen**
+  1.  **Eintragstyp** wählen.
+  2.  **Sprache** wählen.
+  3.  Die Zielsprache in der Spalte **Nicht verknüpft** wählen.
 
-Eine SprachverknÃ¼pfung bearbeiten:
+Eine Sprachverknüpfung bearbeiten:
 
-- **Komponenten **→** SprachverknÃ¼pfungen**
-  1.  **Eintragstyp** wÃ¤hlen.
-  2.  **Sprache** wÃ¤hlen.
-  3.  Eine Zielsprache in der Spalte **VerknÃ¼pfungen** wÃ¤hlen.
+- **Komponenten **→** Sprachverknüpfungen**
+  1.  **Eintragstyp** wählen.
+  2.  **Sprache** wählen.
+  3.  Eine Zielsprache in der Spalte **Verknüpfungen** wählen.
 
 ## Bildschirmfoto
 
@@ -30,34 +30,34 @@ srcset="https://docs.joomla.org/images/thumb/7/78/Help-4x-Components-Assocations
 data-file-width="2720" data-file-height="1700" width="800" height="500"
 alt="Help-4x-Components-Assocations-Edit-screen-de.png" />
 
-Die SprachverknÃ¼pfungen zeigen 'Referenz' und 'Ziel' nebeneinander.
+Die Sprachverknüpfungen zeigen 'Referenz' und 'Ziel' nebeneinander.
 Beides sind scrollbare Fenster mit allen Formular Feldern.
 
 ## Formular Felder
 
-Der Inhalt hÃ¤ngt vom gewÃ¤hlten Eintrag ab:
+Der Inhalt hängt vom gewählten Eintrag ab:
 
 ### Content
 
-- [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#content "Help4.x:Articles: Edit/de")
-- [BeitrÃ¤ge:
+- [Beiträge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#content "Help4.x:Articles: Edit/de")
+- [Beiträge:
   Kategorien](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/de#content "Help4.x:Articles: Edit Category/de")
 - [Kontakte](https://docs.joomla.org/Help4.x:Contacts:_Edit/de#content "Help4.x:Contacts: Edit/de")
 - [Kontakte:
   Kategorien](https://docs.joomla.org/Help4.x:Contacts:_Edit_Category/de#content "Help4.x:Contacts: Edit Category/de")
-- [MenÃ¼s](https://docs.joomla.org/Help4.x:Menus:_Items/de "Help4.x:Menus: Items/de")
+- [Menüs](https://docs.joomla.org/Help4.x:Menus:_Items/de "Help4.x:Menus: Items/de")
 - [Newsfeeds](https://docs.joomla.org/Help4.x:News_Feeds:_Edit/de#content "Help4.x:News Feeds: Edit/de")
 - [Newsfeeds:
   Kategorien](https://docs.joomla.org/Help4.x:News_Feeds:_Edit_Category/de#content "Help4.x:News Feeds: Edit Category/de")
 
 ### Bilder und Links
 
-- [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#imagesandlinks "Help4.x:Articles: Edit/de")
+- [Beiträge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#imagesandlinks "Help4.x:Articles: Edit/de")
 
 ### Optionen
 
-- [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#options "Help4.x:Articles: Edit/de")
-- [BeitrÃ¤ge:
+- [Beiträge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#options "Help4.x:Articles: Edit/de")
+- [Beiträge:
   Kategorien](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/de#options "Help4.x:Articles: Edit Category/de")
 - [Kontakte:
   Kategorien](https://docs.joomla.org/Help4.x:Contacts:_Edit_Category/de#options "Help4.x:Contacts: Edit Category/de")
@@ -65,10 +65,10 @@ Der Inhalt hÃ¤ngt vom gewÃ¤hlten Eintrag ab:
 - [Newsfeeds:
   Kategorien](https://docs.joomla.org/Help4.x:News_Feeds:_Edit_Category/de#options "Help4.x:News Feeds: Edit Category/de")
 
-### VerÃ¶ffentlichung
+### Veröffentlichung
 
-- [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#publishing "Help4.x:Articles: Edit/de")
-- [BeitrÃ¤ge:
+- [Beiträge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#publishing "Help4.x:Articles: Edit/de")
+- [Beiträge:
   Kategorien](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/de#publishing "Help4.x:Articles: Edit Category/de")
 - [Kontakte](https://docs.joomla.org/Help4.x:Contacts:_Edit/de#publishing "Help4.x:Contacts: Edit/de")
 - [Kontakte:
@@ -77,10 +77,10 @@ Der Inhalt hÃ¤ngt vom gewÃ¤hlten Eintrag ab:
 - [Newsfeeds:
   Kategorien](https://docs.joomla.org/Help4.x:News_Feeds:_Edit_Category/de#publishing "Help4.x:News Feeds: Edit Category/de")
 
-### VerknÃ¼pfungen
+### Verknüpfungen
 
-- [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#associations "Help4.x:Articles: Edit/de")
-- [BeitrÃ¤ge:
+- [Beiträge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#associations "Help4.x:Articles: Edit/de")
+- [Beiträge:
   Kategorien](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/de#associations "Help4.x:Articles: Edit Category/de")
 - [Kontakte](https://docs.joomla.org/Help4.x:Contacts:_Edit/de#associations "Help4.x:Contacts: Edit/de")
 - [Kontakte:
@@ -91,12 +91,12 @@ Der Inhalt hÃ¤ngt vom gewÃ¤hlten Eintrag ab:
 
 ### Konfigurieren des Editorfensters
 
-- [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#configureeditscreen "Help4.x:Articles: Edit/de")
+- [Beiträge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#configureeditscreen "Help4.x:Articles: Edit/de")
 
 ### Berechtigungen
 
-- [BeitrÃ¤ge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#permissions "Help4.x:Articles: Edit/de")
-- [BeitrÃ¤ge:
+- [Beiträge](https://docs.joomla.org/Help4.x:Articles:_Edit/de#permissions "Help4.x:Articles: Edit/de")
+- [Beiträge:
   Kategorien](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/de#permissions "Help4.x:Articles: Edit Category/de")
 - [Kontakte:
   Kategorien](https://docs.joomla.org/Help4.x:Contacts:_Edit_Category/de#permissions "Help4.x:Contacts: Edit Category/de")
@@ -126,9 +126,9 @@ Bereich.
   Seite.
 - **Referenz in Ziel kopieren**. Kopiert alle Felder in die Felder des
   Ziels.
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck.
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Verwandte Informationen
 
@@ -136,9 +136,9 @@ Bereich.
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.
 
-|                                                                                                                                                         |                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Verwandte Hilfeseiten                                                                                                                                   | Beschreibung                                                                                        |
-| [SprachverknÃ¼pfungen: Optionen](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Options/de "Help4.x:Multilingual Associations: Options/de") | Standardberechtigungen fÃ¼r sÃ¤mtliche Inhalte der SprachverknÃ¼pfungen.                            |
-| [SprachverknÃ¼pfungen](https://docs.joomla.org/Help4.x:Multilingual_Associations/de "Help4.x:Multilingual Associations/de")                             | Auf der Seite werden VerknÃ¼pfungen zwischen EintrÃ¤gen und installieren Seitensprachen bearbeitet. |
-| <span class="mw-selflink selflink">SprachverknÃ¼pfungen: Bearbeiten</span>                                                                              | Erstellen oder Bearbeiten von VerknÃ¼pfungen zwischen den Sprachen einer mehrsprachigen Website.    |
+|                                                                                                                                                        |                                                                                                   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Verwandte Hilfeseiten                                                                                                                                  | Beschreibung                                                                                      |
+| [Sprachverknüpfungen: Optionen](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Options/de "Help4.x:Multilingual Associations: Options/de") | Standardberechtigungen für sämtliche Inhalte der Sprachverknüpfungen.                             |
+| [Sprachverknüpfungen](https://docs.joomla.org/Help4.x:Multilingual_Associations/de "Help4.x:Multilingual Associations/de")                             | Auf der Seite werden Verknüpfungen zwischen Einträgen und installieren Seitensprachen bearbeitet. |
+| <span class="mw-selflink selflink">Sprachverknüpfungen: Bearbeiten</span>                                                                              | Erstellen oder Bearbeiten von Verknüpfungen zwischen den Sprachen einer mehrsprachigen Website.   |

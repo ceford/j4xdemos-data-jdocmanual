@@ -1,16 +1,15 @@
-<!-- Display title: Contacts: Options -->
+<!-- Filename: Help4.x:Contacts:_Options / Display title: Kontakte: Optionen -->
 
 ## Beschreibung
 
-Kontakt-Optionen werden global fÃ¼r alle Kontakte verwendet.
+Kontakt-Optionen werden global für alle Kontakte verwendet.
 
 ## Wie darauf zugreifen
 
-- **Komponenten **→** Kontakte** im Administrator-MenÃ¼ auswÃ¤hlen, dann
+- **Komponenten **→** Kontakte** im Administrator-Menü auswählen, dann
   ...
-  - die SchaltflÃ¤che **Optionen** in der Symbolleiste anklicken. Die
-    SchaltflÃ¤che *Optionen* ist unter Kontakte und Kategorien
-    verfÃ¼gbar.
+  - die Schaltfläche **Optionen** in der Symbolleiste anklicken. Die
+    Schaltfläche *Optionen* ist unter Kontakte und Kategorien verfügbar.
 
 ## Bildschirmfoto
 
@@ -25,14 +24,13 @@ alt="Help-4x-Components-Contacts-Contacts-options1-de.png" />
 
 ### Kontakt Tab
 
-Diese Einstellungen gelten fÃ¼r einzelne Kontakte, es sei denn, sie
-werden fÃ¼r einen bestimmten MenÃ¼punkt oder Kontakt geÃ¤ndert
+Diese Einstellungen gelten für einzelne Kontakte, es sei denn, sie
+werden für einen bestimmten Menüpunkt oder Kontakt geändert
 
-- **Layout auswÃ¤hlen.** Standardlayout fÃ¼r die Anzeige auswÃ¤hlen.
-- **Kontaktkategorie.** Bei â€žVerbergenâ€œ wird die Kontaktkategorie
-  nicht angezeigt. Bei â€žOhne Link zeigenâ€œ wird sie als Text gezeigt.
-  Bei â€žMit Link zeigenâ€œ wird sie als Link zu einer Kontaktkategorie
-  gezeigt.
+- **Layout auswählen.** Standardlayout für die Anzeige auswählen.
+- **Kontaktkategorie.** Bei „Verbergen“ wird die Kontaktkategorie nicht
+  angezeigt. Bei „Ohne Link zeigen“ wird sie als Text gezeigt. Bei „Mit
+  Link zeigen“ wird sie als Link zu einer Kontaktkategorie gezeigt.
 - **Enable Versions.** (Yes/No). Whether or not to save version history
   for this component. If No, version history will not be saved for
   component items or for this component's categories.
@@ -47,8 +45,8 @@ werden fÃ¼r einen bestimmten MenÃ¼punkt oder Kontakt geÃ¤ndert
   screen.
 - **Kontaktliste.** Dem Besucher erlauben, einen Kontakt aus einer
   Drop-down-Liste mit allen Kontakten der aktuellen Kategorie
-  auszuwÃ¤hlen.
-- **Anzeigeformat.** Anzeigeformat des Kontaktformulars auswÃ¤hlen.
+  auszuwählen.
+- **Anzeigeformat.** Anzeigeformat des Kontaktformulars auswählen.
 - **Tags.** Whether to hide or show any tags for this item.
 
 <!-- -->
@@ -64,12 +62,12 @@ werden fÃ¼r einen bestimmten MenÃ¼punkt oder Kontakt geÃ¤ndert
 - **Name.** Der Name des Kontakts.
 - **Position.** Anzeigen oder Verbergen der Position.
 - **E-Mail-Adresse.** Anzeigen oder Verbergen der E-Mail-Adresse.
-- **â€ž<a href="mailto:%C3%A2%C2%80%C2%9C-Link" class="external free"
-  target="_blank" rel="nofollow noreferrer noopener">mailto:â€œ-Link</a>
-  hinzufÃ¼gen.** ErgÃ¤nzt einen
-  â€ž<a href="mailto:%C3%A2%C2%80%C2%9C-Link" class="external free"
-  target="_blank" rel="nofollow noreferrer noopener">mailto:â€œ-Link</a>
-  zur angezeigten E-Mail-Adresse.
+- **„<a href="mailto:%E2%80%9C-Link" class="external free" target="_blank"
+  rel="nofollow noreferrer noopener">mailto:“-Link</a> hinzufügen.**
+  Ergänzt einen
+  „<a href="mailto:%E2%80%9C-Link" class="external free" target="_blank"
+  rel="nofollow noreferrer noopener">mailto:“-Link</a> zur angezeigten
+  E-Mail-Adresse.
 - **Adresse.** Anzeigen oder Verbergen der Adresse.
 - **Ort.** Anzeigen oder Verbergen des Ortes.
 - **State or County.** Show or Hide state or county.
@@ -80,11 +78,11 @@ werden fÃ¼r einen bestimmten MenÃ¼punkt oder Kontakt geÃ¤ndert
 - **Fax.** Anzeigen oder Verbergen der Faxnummer.
 - **Website.** Anzeigen oder Verbergen der Website.
 - **Bild.** Anzeigen oder Verbergen des Bildes.
-- **Bild auswÃ¤hlen.** Das Bild fÃ¼r den Kontakt auswÃ¤hlen.
+- **Bild auswählen.** Das Bild für den Kontakt auswählen.
 - **Weitere Informationen.** Anzeigen oder Verbergen weiterer
   Informationen.
-- **vCard.** Anzeigen oder Verbergen der MÃ¶glichkeit, im vCard-Format
-  zu exportieren.
+- **vCard.** Anzeigen oder Verbergen der Möglichkeit, im vCard-Format zu
+  exportieren.
 - **Show User Articles.** Show User Articles::If this contact is mapped
   to a user, and if this is set to Show, then a list of articles created
   by this user will show.

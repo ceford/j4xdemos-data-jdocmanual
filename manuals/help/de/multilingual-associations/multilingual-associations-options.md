@@ -1,12 +1,12 @@
-<!-- Display title: Multilingual Associations: Options -->
+<!-- Filename: Help4.x:Multilingual_Associations:_Options / Display title: Sprachverknüpfungen: Optionen -->
 
 ## Beschreibung
 
-Standardberechtigungen fÃ¼r sÃ¤mtliche Inhalte der SprachverknÃ¼pfungen.
+Standardberechtigungen für sämtliche Inhalte der Sprachverknüpfungen.
 
 ## Wie darauf zugreifen
 
-- **Komponenten **→** SprachverknÃ¼pfungen**
+- **Komponenten **→** Sprachverknüpfungen**
   - auf den Button **Optionen** der Werkzeugleiste klicken.
 
 ## Bildschirmfoto
@@ -22,26 +22,26 @@ alt="Help-4x-Components-Multilingual-Associations-Options-screen-de.png" />
 
 ### Berechtigungen
 
-Um Berechtigungen der SprachverknÃ¼pfungen zu Ã¤ndern:
+Um Berechtigungen der Sprachverknüpfungen zu ändern:
 
 1.  Die **Gruppe** durch Anklicken des Namens auf der linken Seite
-    auswÃ¤hlen.
-2.  Die gewÃ¼nschte **Aktion** aussuchen.
-    - **ACL & Optionen konfigurieren**. Benutzern kÃ¶nnen Optionen und
+    auswählen.
+2.  Die gewünschte **Aktion** aussuchen.
+    - **ACL & Optionen konfigurieren**. Benutzern können Optionen und
       Berechtigungen bearbeiten.
-    - **Nur Optionen konfigurieren**. Benutzer kÃ¶nnen Optionen
+    - **Nur Optionen konfigurieren**. Benutzer können Optionen
       ausgenommen der Berechtigungen bearbeiten.
     - **Administrationszugriff**. Benutzer haben Zugriff auf die
       Administration.
-3.  Die Berechtigungen der gewÃ¤hlten Aktion wÃ¤hlen.
-    - **Vererbt**. FÃ¼r Benutzer dieser Gruppe von der
+3.  Die Berechtigungen der gewählten Aktion wählen.
+    - **Vererbt**. Für Benutzer dieser Gruppe von der
       [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#permissions "Help4.x:Site Global Configuration/de")
       vererbt .
-    - **Erlaubt**. FÃ¼r Benutzer dieser Gruppe erlaubt.Hinweis: Wenn die
-      Aktion auf einer hÃ¶heren Ebene 'Verweigert' wird, ist die
-      'Erlaubt'-Berechtigung hier dadurch Ã¼berschrieben. Eine
-      'Verweigert'-Einstellung kann nicht Ã¼berschrieben werden.
-    - **Verweigert**. FÃ¼r Benutzer dieser Gruppe verweigert .
+    - **Erlaubt**. Für Benutzer dieser Gruppe erlaubt.Hinweis: Wenn die
+      Aktion auf einer höheren Ebene 'Verweigert' wird, ist die
+      'Erlaubt'-Berechtigung hier dadurch überschrieben. Eine
+      'Verweigert'-Einstellung kann nicht überschrieben werden.
+    - **Verweigert**. Für Benutzer dieser Gruppe verweigert .
 4.  Auf **Speichern** in der **Werkzeugleiste** oben klicken. Danach
     aktualisiert sich die Anzeige, erst dann werden die errechneten
     Einstellungen angezeigt.
@@ -51,13 +51,13 @@ Um Berechtigungen der SprachverknÃ¼pfungen zu Ã¤ndern:
 Das [Bildschirmfoto](#screenshot) zeigt die Werkzeugleiste im oberen
 Bereich.
 
-- **Speichern**. Speichert die SprachverknÃ¼pfung und bleibt auf der
+- **Speichern**. Speichert die Sprachverknüpfung und bleibt auf der
   aktuellen Seite.
-- **Speichern & SchlieÃŸen**. Speichert die SprachverknÃ¼pfung und
-  schlieÃŸt die aktuelle Seite.
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck.
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Speichern & Schließen**. Speichert die Sprachverknüpfung und
+  schließt die aktuelle Seite.
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Verwandte Informationen
 
@@ -65,9 +65,9 @@ Bereich.
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.
 
-|                                                                                                                                                     |                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Verwandte Hilfeseiten                                                                                                                               | Beschreibung                                                                                        |
-| <span class="mw-selflink selflink">SprachverknÃ¼pfungen: Optionen</span>                                                                            | Standardberechtigungen fÃ¼r sÃ¤mtliche Inhalte der SprachverknÃ¼pfungen.                            |
-| [SprachverknÃ¼pfungen](https://docs.joomla.org/Help4.x:Multilingual_Associations/de "Help4.x:Multilingual Associations/de")                         | Auf der Seite werden VerknÃ¼pfungen zwischen EintrÃ¤gen und installieren Seitensprachen bearbeitet. |
-| [SprachverknÃ¼pfungen: Bearbeiten](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/de "Help4.x:Multilingual Associations: Edit/de") | Erstellen oder Bearbeiten von VerknÃ¼pfungen zwischen den Sprachen einer mehrsprachigen Website.    |
+|                                                                                                                                                    |                                                                                                   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Verwandte Hilfeseiten                                                                                                                              | Beschreibung                                                                                      |
+| <span class="mw-selflink selflink">Sprachverknüpfungen: Optionen</span>                                                                            | Standardberechtigungen für sämtliche Inhalte der Sprachverknüpfungen.                             |
+| [Sprachverknüpfungen](https://docs.joomla.org/Help4.x:Multilingual_Associations/de "Help4.x:Multilingual Associations/de")                         | Auf der Seite werden Verknüpfungen zwischen Einträgen und installieren Seitensprachen bearbeitet. |
+| [Sprachverknüpfungen: Bearbeiten](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/de "Help4.x:Multilingual Associations: Edit/de") | Erstellen oder Bearbeiten von Verknüpfungen zwischen den Sprachen einer mehrsprachigen Website.   |

@@ -1,4 +1,4 @@
-<!-- Help4.x:Mail_Templates:_Options -->
+<!-- Filename: Help4.x:Mail_Templates:_Options / Display title: Mail Templates: Options -->
 
 ## Description
 

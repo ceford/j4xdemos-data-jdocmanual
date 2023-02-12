@@ -1,4 +1,4 @@
-<!-- Help4.x:Menu_Item:_Featured_Articles -->
+<!-- Filename: Help4.x:Menu_Item:_Featured_Articles / Display title: Menu Item: Featured Articles -->
 
 ## Description
 

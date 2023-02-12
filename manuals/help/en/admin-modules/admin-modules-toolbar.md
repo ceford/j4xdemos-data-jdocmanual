@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_Toolbar -->
+<!-- Filename: Help4.x:Admin_Modules:_Toolbar / Display title: Admin Modules: Toolbar -->
 
 ## Description
 

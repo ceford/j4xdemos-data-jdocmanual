@@ -1,12 +1,12 @@
-<!-- Display title: Users: New or Edit Group -->
+<!-- Filename: Help4.x:Users:_New_or_Edit_Group / Display title: Benutzer: Gruppe neu erstellen oder bearbeiten -->
 
 ## Beschreibung
 
 Mit der Installation von Joomla! wird eine Reihe von Benutzergruppen
-installiert, die fÃ¼r die Verwaltung von Standard-Sites geeignet sind.
-Die Standardgruppen sollten nicht bearbeitet werden! Neue Gruppen
-kÃ¶nnen fÃ¼r spezielle Zwecke erstellt werden. Zum Beispiel kÃ¶nnte eine
-Gruppe erstellt werden, die nur den Zugriff auf eine einzelne Komponente
+installiert, die für die Verwaltung von Standard-Sites geeignet sind.
+Die Standardgruppen sollten nicht bearbeitet werden! Neue Gruppen können
+für spezielle Zwecke erstellt werden. Zum Beispiel könnte eine Gruppe
+erstellt werden, die nur den Zugriff auf eine einzelne Komponente
 erlaubt.
 
 ## Wie darauf zugreifen

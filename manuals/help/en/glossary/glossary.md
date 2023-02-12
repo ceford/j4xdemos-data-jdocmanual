@@ -1,4 +1,4 @@
-<!-- Help4.x:Glossary -->
+<!-- Filename: Help4.x:Glossary / Display title: Glossary -->
 
 The Joomla! Glossary is helpful for learning common terms used in
 Joomla! tutorials, help screens and advanced documentation.

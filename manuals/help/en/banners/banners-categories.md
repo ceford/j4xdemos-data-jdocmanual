@@ -1,4 +1,4 @@
-<!-- Help4.x:Banners:_Categories -->
+<!-- Filename: Help4.x:Banners:_Categories / Display title: Banners: Categories -->
 
 ## Description
 

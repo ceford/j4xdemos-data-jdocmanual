@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Footer -->
+<!-- Filename: Help4.x:Site_Modules:_Footer / Display title: Site Modules: Footer -->
 
 ## Description
 

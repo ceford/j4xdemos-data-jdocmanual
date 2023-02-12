@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Global_Configuration_Logging -->
+<!-- Filename: Help4.x:Site_Global_Configuration_Logging / Display title: Site Global Configuration Logging -->
 
  **←**  [Global
 Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#logging "Help4.x:Site Global Configuration/en")

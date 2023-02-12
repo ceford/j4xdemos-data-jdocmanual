@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Modules:_Articles_-_Related -->
+<!-- Filename: Help4.x:Site_Modules:_Articles_-_Related / Display title: Site Modules: Articles - Related -->
 
 ## Description
 

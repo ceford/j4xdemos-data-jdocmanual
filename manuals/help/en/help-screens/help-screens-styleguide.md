@@ -1,4 +1,4 @@
-<!-- Help4.x:Help_screens_styleguide -->
+<!-- Filename: Help4.x:Help_screens_styleguide / Display title: Help screens styleguide -->
 
 <a href="https://docs.joomla.org/Help4.x:Help_screens"
 class="mw-redirect" title="Help4.x:Help screens">Return to Joomla! 4.x

@@ -1,4 +1,4 @@
-<!-- Help4.x:Admin_Modules:_Popular_Articles -->
+<!-- Filename: Help4.x:Admin_Modules:_Popular_Articles / Display title: Admin Modules: Popular Articles -->
 
 ## Description
 

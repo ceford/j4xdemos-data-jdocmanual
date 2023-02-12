@@ -1,30 +1,28 @@
-<!-- Display title: Users: Edit Profile -->
+<!-- Filename: Help4.x:Users:_Edit_Profile / Display title: Benutzer: Profil bearbeiten -->
 
 ## Beschreibung
 
-Die Seite â€žBenutzer bearbeitenâ€œ wird verwendet, um einen neuen
-Benutzer anzulegen oder einen bestehenden Benutzer zu bearbeiten.
+Die Seite „Benutzer bearbeiten“ wird verwendet, um einen neuen Benutzer
+anzulegen oder einen bestehenden Benutzer zu bearbeiten.
 
 ## Wie darauf zugreifen
 
 Zum Bearbeiten eines bereits vorhandenen Benutzers:
 
-- Im Administrator-MenÃ¼ **Benutzer **→** Verwalten** auswÃ¤hlen, dann
-  ...
-  - nach dem gewÃ¼nschten Benutzer suchen und den Link in der Spalte
-    **Name** wÃ¤hlen.
+- Im Administrator-Menü **Benutzer **→** Verwalten** auswählen, dann ...
+  - nach dem gewünschten Benutzer suchen und den Link in der Spalte
+    **Name** wählen.
 
 Um einen neuen Benutzer zu erstellen:
 
-- Im Administrator-MenÃ¼ **Benutzer **→** Verwalten** auswÃ¤hlen, dann
-  ...
-  - die SchaltflÃ¤che **+ Neu** in der Symbolleiste anklicken
-- oder im Administrator-MenÃ¼ **Benutzer **→** Verwalten **→** auf das
+- Im Administrator-Menü **Benutzer **→** Verwalten** auswählen, dann ...
+  - die Schaltfläche **+ Neu** in der Symbolleiste anklicken
+- oder im Administrator-Menü **Benutzer **→** Verwalten **→** auf das
   Plus-Zeichen** klicken
-- oder im Administrator-MenÃ¼ **Benutzer **→** Dashboard-Symbol**
-  auswÃ¤hlen, dann
-  - das **Plus-Zeichen** im Benutzerbereich auswÃ¤hlen
-- oder im Administrator-MenÃ¼ **Dashboard **→** Site-Panel **→** auf das
+- oder im Administrator-Menü **Benutzer **→** Dashboard-Symbol**
+  auswählen, dann
+  - das **Plus-Zeichen** im Benutzerbereich auswählen
+- oder im Administrator-Menü **Dashboard **→** Site-Panel **→** auf das
   Plus-Zeichen** klicken.
 
 ## Bildschirmfoto
@@ -41,29 +39,29 @@ alt="Help-4x-users-user-manager-add-new-user-de.png" />
 ### Benutzerkontodetails
 
 - **Name**. Der Name des Benutzers.
-- **Benutzername**. Den Anmeldenamen (Benutzernamen) fÃ¼r diesen
-  Benutzer eingeben.
-- **Passwort**. (Neues) Passwort fÃ¼r den Benutzer eingeben. Obwohl das
+- **Benutzername**. Den Anmeldenamen (Benutzernamen) für diesen Benutzer
+  eingeben.
+- **Passwort**. (Neues) Passwort für den Benutzer eingeben. Obwohl das
   Feld nicht erforderlich ist, kann sich der Benutzer ohne Passwort
   nicht anmelden.
-- **Passwort wiederholen**. Das oben eingefÃ¼gte Benutzerpasswort erneut
-  eingeben, um es zu bestÃ¤tigen. Dieses Feld ist erforderlich, wenn ein
+- **Passwort wiederholen**. Das oben eingefügte Benutzerpasswort erneut
+  eingeben, um es zu bestätigen. Dieses Feld ist erforderlich, wenn ein
   neues Passwort vergeben wurde.
-- **E-Mail-Adresse**. Eine E-Mail-Adresse fÃ¼r den Benutzer eingeben.
+- **E-Mail-Adresse**. Eine E-Mail-Adresse für den Benutzer eingeben.
 - **Registrierungsdatum**. Das Registrierungsdatum des Benutzers.
 - **Letzter Besuch**. Datum des letzten Besuchs der Website von diesem
   Benutzer.
 - **Letzter Passwort-Reset**. Datum und Uhrzeit der letzten
-  PasswortrÃ¼cksetzung.
-- **Anzahl Passwort-Resets**. Die Anzahl der PasswortrÃ¼cksetzungen seit
-  Beginn der ZurÃ¼cksetzungsdauer.
-- **System-E-Mails erhalten**. (*Ja*/*Nein*) Wenn "Ja" gewÃ¤hlt ist,
-  wird der Benutzer System-E-Mails erhalten.
+  Passwortrücksetzung.
+- **Anzahl Passwort-Resets**. Die Anzahl der Passwortrücksetzungen seit
+  Beginn der Zurücksetzungsdauer.
+- **System-E-Mails erhalten**. (*Ja*/*Nein*) Wenn "Ja" gewählt ist, wird
+  der Benutzer System-E-Mails erhalten.
 - **Benutzerstatus**. (*Gesperrt*/*Freigegeben*) Den aktuellen Benutzer
   sperren oder freigeben.
-- **PasswortzurÃ¼cksetzung fordern**. (*Ja*/*Nein*) Wenn diese Option
-  auf "Ja" gesetzt wird, wird der Benutzer bei der nÃ¤chsten Anmeldung
-  zu einer PasswortzurÃ¼cksetzung aufgefordert.
+- **Passwortzurücksetzung fordern**. (*Ja*/*Nein*) Wenn diese Option auf
+  "Ja" gesetzt wird, wird der Benutzer bei der nächsten Anmeldung zu
+  einer Passwortzurücksetzung aufgefordert.
 - **ID**. Datensatznummer in der Datenbank.
 
 ### Zugewiesene Gruppen
@@ -85,17 +83,17 @@ data-file-width="1239" data-file-height="497" width="600" height="241"
 alt="Help-4x-users-user-manager-add-new-user-basic-settings-de.png" />
 
 - **Backend-Template-Stil**. (*Standard verwenden*/*Hathor -
-  Default*/*isis - Default*) Wahl des Template-Stils fÃ¼r das
-  Administrator-Backend. Gilt nur fÃ¼r diesen Benutzer.
+  Default*/*isis - Default*) Wahl des Template-Stils für das
+  Administrator-Backend. Gilt nur für diesen Benutzer.
 - **Backend-Sprache**. (*Standard verwenden*/*Deutsch*/*Englisch*) Wahl
-  der Sprache fÃ¼r das Administrator-Backend. Gilt nur fÃ¼r diesen
+  der Sprache für das Administrator-Backend. Gilt nur für diesen
   Benutzer.
 - **Frontend-Sprache**. (*Standard verwenden*/*Deutsch*/*Englisch*) Die
-  Sprache fÃ¼r das Frontend auswÃ¤hlen. Gilt nur fÃ¼r diesen Benutzer.
+  Sprache für das Frontend auswählen. Gilt nur für diesen Benutzer.
 - **Editor**. (*Standard verwenden*/*Editor - CodeMirror*/*Editor -
-  Keine*/*Editor - TinyMCE*) Texteditor fÃ¼r diesen Benutzer.
+  Keine*/*Editor - TinyMCE*) Texteditor für diesen Benutzer.
 - **Zeitzone**. (*Standard verwenden*/*Abidjan*/*Accra*/*Addis
-  Ababa*/*Algiers*/*Asmara*/...) Zeitzone fÃ¼r diesen Benutzer.
+  Ababa*/*Algiers*/*Asmara*/...) Zeitzone für diesen Benutzer.
 
 ### Einstellungen zur Barrierefreiheit
 
@@ -109,9 +107,9 @@ alt="Help-4x-users-user-manager-super-user-accessibility-settings-de.png" />
 - **Monochrome**. Ja/Nein
 - **Hoher Kontrast**. Ja/Nein
 - **Links hervorheben**. Ja/Nein
-- **SchriftgrÃ¶ÃŸe erhÃ¶hen**. Ja/Nein
+- **Schriftgröße erhöhen**. Ja/Nein
 
-### Einstellungen BenutzeraktivitÃ¤ten *(Reiter ist nur fÃ¼r Superuser sichtbar)*
+### Einstellungen Benutzeraktivitäten *(Reiter ist nur für Superuser sichtbar)*
 
 <img
 src="https://docs.joomla.org/images/thumb/e/ea/Help-4x-users-user-manager-super-user-actionslog-settings-de.png/600px-Help-4x-users-user-manager-super-user-actionslog-settings-de.png"
@@ -120,11 +118,11 @@ srcset="https://docs.joomla.org/images/thumb/e/ea/Help-4x-users-user-manager-sup
 data-file-width="1388" data-file-height="551" width="600" height="238"
 alt="Help-4x-users-user-manager-super-user-actionslog-settings-de.png" />
 
-- **Benachrichtung Ã¼ber BenutzeraktivitÃ¤ten senden**. (*Ja/Nein*) Wenn
-  diese Option auf *Ja* gesetzt ist, erhÃ¤lt der Benutzer per E-Mail
-  eine Benachrichtigung Ã¼ber die AktivitÃ¤ten des Benutzers.
-- **Ereignisse fÃ¼r Benachrichtigungen auswÃ¤hlen**. Die gewÃ¼nschten
-  Benutzeraktionen fÃ¼r die Benachrichtigung per E-Mail wÃ¤hlen.
+- **Benachrichtung über Benutzeraktivitäten senden**. (*Ja/Nein*) Wenn
+  diese Option auf *Ja* gesetzt ist, erhält der Benutzer per E-Mail eine
+  Benachrichtigung über die Aktivitäten des Benutzers.
+- **Ereignisse für Benachrichtigungen auswählen**. Die gewünschten
+  Benutzeraktionen für die Benachrichtigung per E-Mail wählen.
 
 ### W3C Web Authentication (WebAuthn) Login
 
@@ -198,23 +196,23 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Speichern & SchlieÃŸen**. Speichert den Eintrag und schlieÃŸt die
+- **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
 
 <!-- -->
 
-- **Speichern & Neu**. Speichert den Eintrag und hÃ¤lt die Seite offen,
+- **Speichern & Neu**. Speichert den Eintrag und hält die Seite offen,
   damit ein neuer Eintrag erstellt werden kann.
 
 <!-- -->
 
-- **Abbrechen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. *Oder*
+- **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. *Oder*
 
 <!-- -->
 
-- **SchlieÃŸen**. SchlieÃŸt die aktuelle Seite und kehrt zur vorherigen
-  Seite ohne Speichern der Ã„nderungen zurÃ¼ck. Dieses Symbol wird nicht
+- **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
+  Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
 
 <!-- -->
@@ -226,14 +224,14 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- **Hilfe**. Ã–ffnet die Hilfeseite.
+- **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
 
 - Name, Benutzername und E-Mail-Adresse sind erforderlich.
 - Wird keine bestimmte Sprache, Editor, Hilfeseite und/oder Zeitzone
-  angegeben, werden die entsprechenden Standard-Werte aus der
-  â€žglobalenâ€œ Konfiguration, Sprachen und Templates verwendet.
+  angegeben, werden die entsprechenden Standard-Werte aus der „globalen“
+  Konfiguration, Sprachen und Templates verwendet.
 
 ## Verwandte Informationen
 

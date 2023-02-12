@@ -1,4 +1,4 @@
-<!-- Help4.x:Joomla_Update:_Options -->
+<!-- Filename: Help4.x:Joomla_Update:_Options / Display title: Joomla Update: Options -->
 
 ## Description
 

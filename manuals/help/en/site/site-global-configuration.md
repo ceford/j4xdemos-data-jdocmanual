@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Global_Configuration -->
+<!-- Filename: Help4.x:Site_Global_Configuration / Display title: Site Global Configuration -->
 
 ## Description
 

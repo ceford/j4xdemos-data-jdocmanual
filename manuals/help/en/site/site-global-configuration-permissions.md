@@ -1,4 +1,4 @@
-<!-- Help4.x:Site_Global_Configuration_Permissions -->
+<!-- Filename: Help4.x:Site_Global_Configuration_Permissions / Display title: Site Global Configuration Permissions -->
 
  **←**  [Global
 Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#permissions "Help4.x:Site Global Configuration/en")

@@ -1,4 +1,4 @@
-<!-- Help4.x:Extensions_Module_Manager_Edit -->
+<!-- Filename: Help4.x:Extensions_Module_Manager_Edit / Display title: Extensions Module Manager Edit -->
 
 ## Description
 
