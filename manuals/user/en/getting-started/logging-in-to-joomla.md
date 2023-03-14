@@ -90,7 +90,6 @@ class="thumbborder" decoding="async"
 srcset="https://docs.joomla.org/images/a/ae/J4x_front_end_login_en.png 1.5x"
 data-file-width="1000" data-file-height="548" width="800" height="438"
 alt="J4x front end login en.png" />
-
   
 In the **Login Form**:
 

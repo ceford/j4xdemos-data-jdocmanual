@@ -293,7 +293,7 @@ supplémentaires".
 Vous accéderez alors à une page d'installation supplémentaire qui vous
 permettra de sélectionner les langues souhaitées.
 
-==== Installation des langues ====
+#### Installation des langues
 
 Une liste des paquets de langue s'affiche.
 
@@ -326,7 +326,9 @@ Souvenez-vous de ce qui suit ː
 Cliquez sur **Suivant** et une barre de progression s'affichera pendant
 l'installation du ou des packs de langues.
 
-==== Choisissez la langue par défaut ==== Une fois l'installation des
+#### Choisissez la langue par défaut
+
+Une fois l'installation des
 langues terminée, vous verrez apparaître un écran très similaire : "
 Félicitations ! Votre site Joomla est prêt.". La différence sera une
 liste des langues installées vous permettant de sélectionner la langue
@@ -338,9 +340,6 @@ class="thumbborder" decoding="async" data-file-width="500"
 data-file-height="650" width="500" height="650" alt="500" />
 
 - Sélectionnez la langue par défaut que vous souhaitez utiliser.
-
-<!-- -->
-
 - Lorsque vous avez sélectionné la langue par défaut, cliquez sur le
   bouton **Définir la langue par défaut** pour confirmer.
 - Un message système sera affiché pour confirmer que Joomla a défini la
@@ -356,7 +355,7 @@ bord de l'administrateur** en cliquant sur **Terminer et ouvrir Admin**
 ou aller directement sur votre site en cliquant sur **Terminer et ouvrir
 Site**.
 
-== Related Information ==
+## Related Information
 
 - [Hosting
   Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")

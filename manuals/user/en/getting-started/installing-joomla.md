@@ -176,7 +176,7 @@ Database Connection* button to proceed.
 Enter the database information noted down when you created the database
 for this installation. You may also read or review [Creating a Database
 for
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!").
+[Special:MyLanguage/Creating a Database for Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla!).
 
 <img
 src="https://docs.joomla.org/images/4/4f/J40_Installation_screen_page_3.png"

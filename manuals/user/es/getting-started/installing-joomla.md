@@ -112,26 +112,15 @@ With the above requirements met, a database created and the required
 Joomla files in place, you are ready to install Joomla. Start the Joomla
 web installer by opening your favourite browser and browsing to the
 site's domain name. On a hosting installation you will use
+*`https://www.yoursitename.com`*. If your are installing Joomla locally,
+you will use *`http://localhost/`* and you should see the installation
+screen.
 
-*`https://www.yoursitename.com`*.
-
-If your are installing Joomla locally, you will use
-
-*`http://localhost/<`*
-
-` `` `
-
-path to Joomla files
-
-`>`
-
-and you should see the installation screen
-
-. \[\[File:
-
-J4x_Installation_screen_page_1.png
-
-\|border\|right\|500px\]\]
+<img
+src="https://docs.joomla.org/images/0/06/J4x_Installation_screen_page_1.png"
+class="thumbborder" decoding="async" data-file-width="500"
+data-file-height="397" width="500" height="397"
+alt="J4x Installation screen page 1.png" />
 
 Joomla will try to identify the *Select Language* field automatically
 from your browser's language. You can change this if needed.
@@ -150,11 +139,11 @@ Data* button to proceed.
 
 You should now see the login data screen
 
-. \[\[File:
-
-J4x_Installation_screen_page_2.png
-
-\|border\|right\|500px\]\]
+<img
+src="https://docs.joomla.org/images/6/66/J4x_Installation_screen_page_2.png"
+class="thumbborder" decoding="async" data-file-width="500"
+data-file-height="481" width="500" height="481"
+alt="J4x Installation screen page 2.png" />
 
 Fill in the following information.
 
@@ -181,13 +170,13 @@ Database Connection* button to proceed.
 Enter the database information noted down when you created the database
 for this installation. You may also read or review [Creating a Database
 for
-Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla! "Special:MyLanguage/Creating a Database for Joomla!").
+[Special:MyLanguage/Creating a Database for Joomla!](https://docs.joomla.org/Creating_a_Database_for_Joomla!).
 
-\[\[File:
-
-J40_Installation_screen_page_3.png
-
-\|border\|right\|500px\]\]
+<img
+src="https://docs.joomla.org/images/4/4f/J40_Installation_screen_page_3.png"
+class="thumbborder" decoding="async" data-file-width="500"
+data-file-height="637" width="500" height="637"
+alt="J40 Installation screen page 3.png" />
 
 For simplification, these instructions are a reference to installing
 with a <a href="https://en.wikipedia.org/wiki/MySQLi" class="extiw"
@@ -237,11 +226,11 @@ success page.
 
 Congratulations! Joomla! 4 is now installed.
 
-\[\[File:
-
-J40_Installation_screen_page_4.png
-
-\|border\|right\|500px\]\]
+<img
+src="https://docs.joomla.org/images/e/e0/J40_Installation_screen_page_4.png"
+class="thumbborder" decoding="async" data-file-width="500"
+data-file-height="318" width="500" height="318"
+alt="J40 Installation screen page 4.png" />
 
 If you want to start using Joomla right away without [installing extra
 languages](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla")
@@ -255,7 +244,7 @@ You may see a section with recommended PHP settings.
   can refer to the above instructions on how they may be changed if
   there is a need to do so.
 
-=== Extra Languages ===
+### Extra Languages
 
 As part of the Joomla installation process you are given the opportunity
 to install additional languages before you complete the installation.
@@ -265,15 +254,14 @@ To do this select the Install Additional Languages button
 This will take you to an extra installation page allowing you to select
 the languages you require.
 
-==== Install Additional Languages ====
+#### Install Additional Languages
 
 A list of language packs is displayed.
 
-\[\[File:
-
-J40_Installation_screen_page_5.png
-
-\|right\|500px\]\]
+<img
+src="https://docs.joomla.org/images/c/ce/J40_Installation_screen_page_5.png"
+decoding="async" data-file-width="500" data-file-height="755"
+width="500" height="755" alt="J40 Installation screen page 5.png" />
 
 Select up to 3 languages you wish to install. (More than 3 at once can
 cause timeout issues; you can install more later.)
@@ -297,34 +285,32 @@ Remember the following:
 Click *Next* and a progress bar will be displayed while the language
 pack or packs are installed.
 
-==== Choose the Default Language ==== When the installation of the
+#### Choose the Default Language
+
+When the installation of the
 languages is complete you will now be presented with a similar
 *Congratulations! Your Joomla site is ready.* screen. The difference
 will be a list of the installed languages allowing you to select the
 default language for the Site and the Administrator interface.
 
-\[\[File:
-
-J40_Installation_screen_page_4_default_langs.png
-
-\|border\|right\|500\]\]
+<img
+src="https://docs.joomla.org/images/d/d2/J40_Installation_screen_page_4_default_langs.png"
+class="thumbborder" decoding="async" data-file-width="500"
+data-file-height="650" width="500" height="650" alt="500" />
 
 - Select the default language you wish to use.
-
-<!-- -->
-
 - When you have selected the default language, click the *Set default
   language* button to confirm.
 - A system message will be displayed confirming Joomla has set the
   default ADMINISTRATOR and SITE language. That message can be closed.
 
-==== Finalise ====
+#### Finalise
 
 You can now can navigate to the *Administrator Dashboard*. Log in by
 selecting *Open Administrator* or go right to your site Home page by
 selecting *Open Site*.
 
-== Related Information ==
+## Related Information
 
 - [Hosting
   Setup](https://docs.joomla.org/J4.x:Hosting_Setup "Special:MyLanguage/J4.x:Hosting Setup")

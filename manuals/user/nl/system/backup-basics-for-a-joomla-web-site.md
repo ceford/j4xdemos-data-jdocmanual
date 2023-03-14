@@ -40,26 +40,11 @@ het publiek.
 This is the preferred method using the Akeeba Backup Extension.
 
 - Akeeba Backup produceert een `.jpa`-bestand
-
-<!-- -->
-
 - Het .jpa-bestand bevat alle mappen/bestanden en database-bestanden.
-
-<!-- -->
-
 - Het .jpa-bestand bevat ook een installatiebestand
-
-<!-- -->
-
 - Kkickstart.php (van Akeeba) pakt het jpa-bestand uit
-
-<!-- -->
-
 - U moet dan het installatieprogramma uitvoeren en installeer uw website
   als een gewone Joomla! installatie
-
-<!-- -->
-
 - Het installatieprogramma wijzigt de configuratie om het herstellen op
   een nieuwe locatie en vraagt om de nieuwe databasegegevens.
 
@@ -76,9 +61,6 @@ Er zijn twee delen van een volledige back-up van uw Joomla website. Ze
 zijn:
 
 1.  De database informatie, meestal een mysql-database.
-
-<!-- -->
-
 1.  De bestanden en mappen op uw website, net als statische html
     websites gehost.
 
@@ -128,7 +110,7 @@ te doen, heeft u waarschijnlijk geen behoefte aan deze documentatie.
 Het is aan te raden een back-up van de database minstens twee keer per
 week te maken of zelfs dagelijks (en meer) als u een actieve site heeft.
 
-==== Bestandssysteem backup - Deel 2 van 2 ====
+### Bestandssysteem backup - Deel 2 van 2
 
 Ga verder met uw site als deze offline is, zie hierboven. Uw joomla
 mappen en bestanden kunnen worden ondersteund door het downloaden van

@@ -253,7 +253,7 @@ The following classes have been removed in Joomla! 4.0:
 All references to JSite and JAdministrator have been removed (these were
 just class alias' since Joomla 3.2)
 
-    ==== Classes Desaprovadas ====
+#### Classes Desaprovadas
 
 The following classes have been deprecated and scheduled for removal in
 Joomla! 5.0:

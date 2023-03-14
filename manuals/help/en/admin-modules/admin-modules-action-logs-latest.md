@@ -1,5 +1,7 @@
 <!-- Filename: Help4.x:Admin_Modules:_Action_Logs_-_Latest / Display title: Admin Modules: Action Logs - Latest -->
 
+# I was here today
+
 ## Description
 
 The **Action Logs - Latest** module type shows a list of the most recent
@@ -95,24 +97,12 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

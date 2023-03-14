@@ -1,5 +1,3 @@
-<!-- Filename: Help4.x:Admin_Modules:_Administrator_Dashboard_Menu / Display title: Admin Modules: Administrator Dashboard Menu -->
-
 ## Description
 
 The **Administrator Dashboard Menu** module type displays a collection
@@ -43,9 +41,6 @@ alt="Help-4x-modules-administrator-module-manager-module-dashboard-menu-en.png" 
 - **Show Title.** (Show/Hide) Choose whether to show or hide the modules
   title in the front end. The title will be the one in the Form Field
   above.
-
-<!-- -->
-
 - **Position.** Choose the [module
   position](https://docs.joomla.org/Module_Position/en "Module Position/en")
   you wish this module to be displayed in. A custom module position can
@@ -53,44 +48,23 @@ alt="Help-4x-modules-administrator-module-manager-module-dashboard-menu-en.png" 
   plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/en "How do you put a module inside an article?/en")
   or the position button can be pressed to select a module position from
   the template.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Module Ordering.** This shows a drop down of every module in the
   position that the current module is in. This is the order that the
   modules will display in when displayed on in the front end as well as
   in the
   [Modules](https://docs.joomla.org/Help4.x:Modules/en "Help4.x:Modules/en")
   page.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -127,17 +101,11 @@ alt="Help-4x-modules-manager-admin-module-site-advanced-options-en.png" />
 - **Header Tag.** The HTML tag to use for the modules header or title.
   This can be an h1, h2, h3, h4, h5, h6 or a p tag. Note that you must
   use a module style (chrome) of html5 or add your custom module styles
-  in \<mytemplate\>/html/modules.php.
+  in \/html/modules.php.
 - **Header Class.** Here you can add optional CSS classes to add to the
   modules header or title element.
 
 ### Permissions Tab
-
-<img
-src="https://docs.joomla.org/images/d/d8/Help-4x-modules-manager-admin-module-administrator-permissions-en.png"
-decoding="async" data-file-width="600" data-file-height="374"
-width="600" height="374"
-alt="Help-4x-modules-manager-admin-module-administrator-permissions-en.png" />
 
 To change the permissions, do the following.
 
@@ -165,27 +133,12 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

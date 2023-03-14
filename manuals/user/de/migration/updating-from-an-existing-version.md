@@ -23,12 +23,8 @@ folgende Punkte beachtet werden:
 - [Potential backward compatibility issues in Joomla
   4](https://docs.joomla.org/Potential_backward_compatibility_issues_in_Joomla_4 "Special:MyLanguage/Potential backward compatibility issues in Joomla 4")
 
-<!-- -->
-
 - [Joomla 3.x to 4.x Step by Step
   Migration](https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration "Special:MyLanguage/Joomla 3.x to 4.x Step by Step Migration")
-
-<!-- -->
 
 - Updating 1.x or 2.x to 3.x: use [Updating Joomla (Install
   Method)](https://docs.joomla.org/J3.x:Updating_Joomla_(Install_Method) "Special:MyLanguage/J3.x:Updating Joomla (Install Method)").
@@ -50,23 +46,25 @@ Alternatively, to access the Update Component from the Administrator
 sidebar menu, click **System**. This will take you to the **System
 Dashboard**.
 
-\[\[File:j4x_joomla_system_dashboard_update-
-
-en
-
-.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/1/14/J4x_joomla_system_dashboard_update-en.png/800px-J4x_joomla_system_dashboard_update-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/1/14/J4x_joomla_system_dashboard_update-en.png 1.5x"
+data-file-width="1000" data-file-height="399" width="800" height="319"
+alt="J4x joomla system dashboard update-en.png" />
 
 The System Dashboard has an *Update Panel* which includes a Joomla link
 that will show the available update version number. Click the **Joomla**
 link and you will be taken to the Update Component.
 
-==Carrying out the Update==
+## Carrying out the Update
 
-\[\[File:j4x_joomla_pre_update_check-
-
-en
-
-.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/5/5d/J4x_joomla_pre_update_check-en.png/800px-J4x_joomla_pre_update_check-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/5/5d/J4x_joomla_pre_update_check-en.png 1.5x"
+data-file-width="1000" data-file-height="882" width="800" height="706"
+alt="J4x joomla pre update check-en.png" />
 
 When you arrive at the Joomla Update Component you will be presented
 with a Pre-Update Check which provides you with information about the
@@ -93,35 +91,38 @@ Joomla update servers.
 When you have reviewed the Pre-Update Check and are happy, click
 **Update**.
 
-===Confirming the Update===
+### Confirming the Update
 
-\[\[File:j4x_joomla_start_update-
-
-en
-
-.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/c/c3/J4x_joomla_start_update-en.png/800px-J4x_joomla_start_update-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/c/c3/J4x_joomla_start_update-en.png 1.5x"
+data-file-width="1000" data-file-height="645" width="800" height="516"
+alt="J4x joomla start update-en.png" />
 
 Click the checkbox to confirm you have made a backup and checked
 extensions are compatible then click the **Start Update**.
 
-===Update Progress===
+### Update Progress
 
-\[\[File:j4x_joomla_update_progress-
-
-en
-
-.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/c/cd/J4x_joomla_update_progress-en.png/800px-J4x_joomla_update_progress-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/c/cd/J4x_joomla_update_progress-en.png 1.5x"
+data-file-width="1000" data-file-height="193" width="800" height="154"
+alt="J4x joomla update progress-en.png" />
 
 Once the update starts a progress bar will appear as the Joomla files
 are updated.
 
-===Completion===
+### Completion
 
-\[\[File:j4x_joomla_updated-
-
-en
-
-.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/9/9a/J4x_joomla_updated-en.png/800px-J4x_joomla_updated-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/9/9a/J4x_joomla_updated-en.png 1.5x"
+data-file-width="1000" data-file-height="274" width="800" height="219"
+alt="J4x joomla updated-en.png" />
 
 When the progress bar reaches 100% a system message will confirm your
 site has been updated and the version number. The version number will
@@ -130,13 +131,13 @@ also update in the top toolbar, next to the site name.
 Click the **Back** button and you will be returned to the Joomla Update
 Component where it is possible to check for updates again.
 
-==Post Update Checks==
+## Post Update Checks
 
 Once the update is complete you should carry out some checks to make
 sure everything went as expected, that no errors are present and that
 there have been no changes that require further action.
 
-===Frontend Check===
+### Frontend Check
 
 Go to the front end of the website and check it is working and
 displaying as it did prior to the update.
@@ -144,17 +145,18 @@ displaying as it did prior to the update.
 As a matter of course, clear your browser cache as this will load any
 changes to stylesheets and scripts.
 
-===System Checks===
+### System Checks
 
 Joomla makes it easy to do a "health" check. From the sidebar menu click
 **System** to be taken to the System Dashboard. This gives you an
 overview of the current status of your Joomla site.
 
-\[\[File:j4x_system_dashboard-
-
-en
-
-.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/7/71/J4x_system_dashboard-en.png/800px-J4x_system_dashboard-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/7/71/J4x_system_dashboard-en.png 1.5x"
+data-file-width="1000" data-file-height="715" width="800" height="572"
+alt="J4x system dashboard-en.png" />
 
 In this example we can see that since the update we have two items that
 require attention. They are marked with a label that includes a number.
@@ -173,21 +175,12 @@ site:
 1.  Back up your site before updating to a new version. That way, if
     something goes wrong during the update process, you can easily
     restore your site to the earlier version.
-
-<!-- -->
-
 1.  Review the release notes for the new version to be familiar with
     what was changed.
-
-<!-- -->
-
 1.  Update using one of the recommended methods outlined in this
     document. These methods install the new program files, delete
     unneeded old program files, and update the database as needed for
     the new Joomla version.
-
-<!-- -->
-
 1.  Clear your browser cache and check that the update was successful,
     using the steps outlined in the **Checking Site** tab.
 
@@ -200,28 +193,22 @@ checks you can do from the Extension Manager.
 Navigate to Extension Manager **→** Database. If your database is up to
 date, you should see a screen similar to the one below:
 
-\[\[File:j4x-update-screenshot-db-ok-
-
-en
-
-.png\|border\|800px\|
-
-Database Screen With No Problems
-
-\]\]
+<img
+src="https://docs.joomla.org/images/thumb/0/08/J4x-update-screenshot-db-ok-en.png/800px-J4x-update-screenshot-db-ok-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/0/08/J4x-update-screenshot-db-ok-en.png 1.5x"
+data-file-width="1000" data-file-height="434" width="800" height="347"
+alt="Database Screen With No Problems" />
 
 If your database is not up to date, you will see a screen listing the
 problems found, similar to the one below:
 
-\[\[File:j4x-update-screenshot-db-not-ok-
-
-en
-
-.png\|border\|800px\|
-
-Database Screen With 3 Database Problems
-
-\]\]
+<img
+src="https://docs.joomla.org/images/thumb/4/42/J4x-update-screenshot-db-not-ok-en.png/800px-J4x-update-screenshot-db-not-ok-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/4/42/J4x-update-screenshot-db-not-ok-en.png 1.5x"
+data-file-width="1000" data-file-height="527" width="800" height="422"
+alt="Database Screen With 3 Database Problems" />
 
 In this case, press the Fix button in the upper right corner. Joomla
 will update your database to correct the issues listed and then it will
@@ -231,7 +218,7 @@ indicate that the database is up to date.
 **N.B.** If any errors still exist make sure all the database tables are
 checked in.
 
-==Extension Manager: Discover==
+## Extension Manager: Discover
 
 In some cases, when you update to a new Joomla version, new core
 extensions are added. If there were problems with the database update,
@@ -239,15 +226,12 @@ these extensions may not have been correctly installed. To check this,
 navigate to **System **→** Discover**. Then click on the Discover icon
 in the toolbar. The screen should show as follows:
 
-\[\[File:j4x-update-screenshot-extensions-
-
-en
-
-.png\|border\|800px\|
-
-Discover Screen With No Extensions To Install
-
-\]\]
+<img
+src="https://docs.joomla.org/images/thumb/1/12/J4x-update-screenshot-extensions-en.png/800px-J4x-update-screenshot-extensions-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/1/12/J4x-update-screenshot-extensions-en.png 1.5x"
+data-file-width="1000" data-file-height="539" width="800" height="431"
+alt="Discover Screen With No Extensions To Install" />
 
 If so, you know that any new extensions added during the update were
 correctly installed in the database.
@@ -255,22 +239,21 @@ correctly installed in the database.
 If there are uninstalled extensions, they will show similar to the
 following screen:
 
-\[\[File:j4x-update-screenshot-uninstalled-ext-
-
-en
-
-.png\|border\|800px\|
-
-Discover Screen With One Extension To Install
-
-\]\]
+<img
+src="https://docs.joomla.org/images/thumb/1/13/J4x-update-screenshot-uninstalled-ext-en.png/800px-J4x-update-screenshot-uninstalled-ext-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/1/13/J4x-update-screenshot-uninstalled-ext-en.png 1.5x"
+data-file-width="1000" data-file-height="325" width="800" height="260"
+alt="Discover Screen With One Extension To Install" />
 
 In this case, check the boxes and click on the Install icon in the
 toolbar. Joomla will install the extension(s) and then display the
 screen showing no extensions discovered. At this point, the new
 extensions have been installed in the database.
 
-==Troubleshooting== If you have any questions, problems or errors
+## Troubleshooting
+
+If you have any questions, problems or errors
 before, during or after the update, please ask them on the
 **<a href="https://forum.joomla.org/viewforum.php?f=812" class="extiw"
 title="jforum:812">Migrating and Upgrading to Joomla! 4.x Forum</a>**.
@@ -281,9 +264,6 @@ tips.
 - Clearing your browser cache. There may have been changes to the CSS or
   Javascript that will need to be reloaded by your Web browser after an
   update.
-
-<!-- -->
-
 - If any database error messages show after the update, be sure to check
   the **System **→** Maintenance panel **→** Database** link. In some
   cases, if a database error occurs it will prevent all of the database
@@ -371,49 +351,53 @@ If the information displayed is incorrect please check the following:
   beta version of a third party extension is compatible with the Joomla
   version you want to upgrade to Joomla will tell you that there is no
   compatible version of the third party extension available.
-
-\* The update information may be out of date. Go to System, Update,
-Extensions and click on Check For Updates. Then go back to System,
-Update, Joomla and see if the extension now appears as compatible or if
-you are told than a compatible update to it is available. \* The update
-sites information in Joomla is corrupt. Go to System, Update, Update
-Sites and click on Rebuild. Then go to System, Update, Joomla and click
-on Options. Select the Testing update channel. Click on Save & Close.
-Click on Options again. Select the Default or Joomla Next update channel
-— depending on your preference — and click on Save & Close. \* Your host
-prevents making outbound HTTP/HTTPS requests at all or restricts them to
-predefined allowed IP addresses. This will prevent Joomla from
-retrieving update information from third party update sites. First go to
-System, Update, Update Sites. Below each update site you will see its
-URL. Make a list of those URLs. Then ask your host to allow your site to
-make requests to these URLs. Please note that some of these URLs may
-point to a CDN, meaning that the exact IP address will be different
-depending on where the world you are trying to access this URL from. Do
-tell your host; they will know what to do with this information. \* Your
-host may have an outdated SSL library which does not understand the
-modern TLS certificates used by most third party extension developers'
-update sites. Please ask your host about it. \* You may have “orphaned”
-extensions. Most modern Joomla extensions are delivered as ‘package’
-type extensions which include two or more related extensions. When
-installing a package extension Joomla records a package extension in its
-database. It then records the package ID to each of the installed
-extensions from that package in the database. The update information is
-provided for the package, not each individual extension. This
-association may break if you used Discover to install the extensions,
-extracted the package and installed the separate extensions directly,
-Joomla failed to record the package ID for each extension when
-installing the package (most likely because an error occurred) or your
-site has been upgraded from an old version of Joomla which predates the
-use of packages in extensions. In this case even updating the extension
-will NOT update the package association. There is currently no solution
-to this except determining manually the compatibility of extensions with
-each Joomla version. \* In some cases the number of requests Joomla
-sends to your server as it determines compatibility for each extension
-may overwhelm the server and trigger a Denial of Service protection. In
-this case some or all of the extensions will appear as of indeterminate
-compatibility status. Unfortuantely, you will have to check the
-compatibility of each extension manually against the information
-published by extension's developer.
+- The update information may be out of date. Go to System, Update,
+  Extensions and click on Check For Updates. Then go back to System,
+  Update, Joomla and see if the extension now appears as compatible or if
+  you are told than a compatible update to it is available. 
+- The update
+  sites information in Joomla is corrupt. Go to System, Update, Update
+  Sites and click on Rebuild. Then go to System, Update, Joomla and click
+  on Options. Select the Testing update channel. Click on Save & Close.
+  Click on Options again. Select the Default or Joomla Next update channel
+  — depending on your preference — and click on Save & Close. 
+- Your host
+  prevents making outbound HTTP/HTTPS requests at all or restricts them to
+  predefined allowed IP addresses. This will prevent Joomla from
+  retrieving update information from third party update sites. First go to
+  System, Update, Update Sites. Below each update site you will see its
+  URL. Make a list of those URLs. Then ask your host to allow your site to
+  make requests to these URLs. Please note that some of these URLs may
+  point to a CDN, meaning that the exact IP address will be different
+  depending on where the world you are trying to access this URL from. Do
+  tell your host; they will know what to do with this information. 
+- Your
+  host may have an outdated SSL library which does not understand the
+  modern TLS certificates used by most third party extension developers'
+  update sites. Please ask your host about it. 
+- You may have “orphaned”
+  extensions. Most modern Joomla extensions are delivered as ‘package’
+  type extensions which include two or more related extensions. When
+  installing a package extension Joomla records a package extension in its
+  database. It then records the package ID to each of the installed
+  extensions from that package in the database. The update information is
+  provided for the package, not each individual extension. This
+  association may break if you used Discover to install the extensions,
+  extracted the package and installed the separate extensions directly,
+  Joomla failed to record the package ID for each extension when
+  installing the package (most likely because an error occurred) or your
+  site has been upgraded from an old version of Joomla which predates the
+  use of packages in extensions. In this case even updating the extension
+  will NOT update the package association. There is currently no solution
+  to this except determining manually the compatibility of extensions with
+  each Joomla version. 
+- In some cases the number of requests Joomla
+  sends to your server as it determines compatibility for each extension
+  may overwhelm the server and trigger a Denial of Service protection. In
+  this case some or all of the extensions will appear as of indeterminate
+  compatibility status. Unfortuantely, you will have to check the
+  compatibility of each extension manually against the information
+  published by extension's developer.
 
 ### Downloading the update
 
@@ -431,24 +415,25 @@ reasons:
   timeout or the web server's timeout the download will fail and you
   will see an error page. You will have to ask your host for help with
   that.
-
-\* You may not have enough free space on your site. You need enough
-space to store the compressed update ZIP file and its extracted files.
-As a rule of thumb, you need about 50–60 MiB of free space for Joomla
-Update to work correctly. Do note that the free space reported by your
-hosting control panel is not always realtime, i.e. it may ‘lag’ several
-minutes or hours behind the actual disk space usage on your site.
-Moreover, further limits may be imposed by your host. If unsure, please
-ask your host. \* Your host prevents making outbound HTTPS requests at
-all or restricts them to predefined allowed IP addresses. Please ask
-them to allow outbound HTTP requests to
-\`<a href="https://github.com%60" class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com`</a>. This is a
-CDN, meaning that the exact IP address will be different depending on
-where the world you are trying to access this URL from. Do tell your
-host; they will know what to do with this information. \* Your host may
-have an outdated SSL library which does not understand the modern TLS
-certificates used by GitHub. Please ask your host about it.
+- You may not have enough free space on your site. You need enough
+  space to store the compressed update ZIP file and its extracted files.
+  As a rule of thumb, you need about 50–60 MiB of free space for Joomla
+  Update to work correctly. Do note that the free space reported by your
+  hosting control panel is not always realtime, i.e. it may ‘lag’ several
+  minutes or hours behind the actual disk space usage on your site.
+  Moreover, further limits may be imposed by your host. If unsure, please
+  ask your host. 
+- Your host prevents making outbound HTTPS requests at
+  all or restricts them to predefined allowed IP addresses. Please ask
+  them to allow outbound HTTP requests to
+  <a href="https://github.com%60" class="external free" target="_blank"
+  rel="nofollow noreferrer noopener">https://github.com`</a>. This is a
+  CDN, meaning that the exact IP address will be different depending on
+  where the world you are trying to access this URL from. Do tell your
+  host; they will know what to do with this information. 
+- Your host may
+  have an outdated SSL library which does not understand the modern TLS
+  certificates used by GitHub. Please ask your host about it.
 
 ### Extracting the update
 
@@ -475,41 +460,45 @@ reasons:
   be replaced with the URL to your site. You should see the message
   {"status":false,"message":"Invalid login"} If you see anything else
   you are being forbidden from accessing this file.
-
-\* If you can access the file but extracting the update fails
-immediately there is a different server protection on your site which
-prevents the request to \`extract.php\` from being handled by that file.
-Please contact your host about this. \* If you are using CloudFlare go
-to Rules and create a new Page Rule. Set the If URL Matches to
-\*/administrator/components/com_joomlaupdate/extract.php and Then The
-Settings Are to “Disable Security” and on a new line ”Cache Level”,
-‘Bypass’. Set the Order to First. Click on Save and Deploy. This ensures
-that CloudFlare will not try to block the update extraction. \* The
-update ZIP file is corrupt or truncated. This could happen if
-downloading the update file failed with an error. Go back and retry. See
-also the previous section. \* If you are using upload and update i.e.
-you uploaded the update ZIP file yourself please make sure that you are
-using only the official Joomla Update ZIP files. The extraction script
-only supports a subset of the ZIP archive format used by the official
-update ZIP files. \* Did you run out of disk space? Please check the
-section above. \* Is the ownership and permissions of all files correct?
-Joomla needs write access to all of its files and folders. If unsure,
-ask your host. There is no specific set of “good” permissions! The
-permissions needed depend on the ownership of your files and which
-system user the web server runs under. \* Did you lose network
-connectivity or your network has very high latency? It's possible that
-the request fails because of that. \* The extraction takes place by
-making consecutive requests to the aforementioned extract.php file. Each
-request is set up to take between 3 and 4 seconds. The process repeats
-until the entirety of the update file has been extracted. On some
-servers this cadence of requests to the same file from the same IP
-address may trigger the server's security. On other servers it may
-trigger a different server protection, e.g. a maximum PHP time limit, a
-maximum CPU usage limit or another server timeout. On even fewer servers
-running on CloudLinux it could trigger a server memory outage situation
-if your server was already running low on memory. You need to contact
-your server about that; there is nothing you can do yourself to work
-around these server limitations.
+- If you can access the file but extracting the update fails
+  immediately there is a different server protection on your site which
+  prevents the request to \`extract.php\` from being handled by that file.
+  Please contact your host about this. 
+- If you are using CloudFlare go to Rules and create a new Page Rule. Set 
+  the If URL Matches to /administrator/components/com_joomlaupdate/extract.php and Then The Settings Are to “Disable Security” and on a new line ”Cache 
+  Level”,‘Bypass’. Set the Order to First. Click on Save and Deploy. This 
+  ensures that CloudFlare will not try to block the update extraction. 
+- The
+  update ZIP file is corrupt or truncated. This could happen if
+  downloading the update file failed with an error. Go back and retry. See
+  also the previous section. 
+- If you are using upload and update i.e.
+  you uploaded the update ZIP file yourself please make sure that you are
+  using only the official Joomla Update ZIP files. The extraction script
+  only supports a subset of the ZIP archive format used by the official
+  update ZIP files. 
+- Did you run out of disk space? Please check the
+  section above. 
+- Is the ownership and permissions of all files correct?
+  Joomla needs write access to all of its files and folders. If unsure,
+  ask your host. There is no specific set of “good” permissions! The
+  permissions needed depend on the ownership of your files and which
+  system user the web server runs under. 
+- Did you lose network
+  connectivity or your network has very high latency? It's possible that
+  the request fails because of that. 
+- The extraction takes place by
+  making consecutive requests to the aforementioned extract.php file. Each
+  request is set up to take between 3 and 4 seconds. The process repeats
+  until the entirety of the update file has been extracted. On some
+  servers this cadence of requests to the same file from the same IP
+  address may trigger the server's security. On other servers it may
+  trigger a different server protection, e.g. a maximum PHP time limit, a
+  maximum CPU usage limit or another server timeout. On even fewer servers
+  running on CloudLinux it could trigger a server memory outage situation
+  if your server was already running low on memory. You need to contact
+  your server about that; there is nothing you can do yourself to work
+  around these server limitations.
 
 ### Finalising the update
 

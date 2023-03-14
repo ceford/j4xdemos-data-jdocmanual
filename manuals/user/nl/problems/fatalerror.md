@@ -11,19 +11,23 @@ you were expecting. There are two types of error pages:
   template but the content area is replaced with an error message. This
   is invoked when the error occurs in content code.
 
-=== System Error Page ===
+### System Error Page
+
 <img src="https://docs.joomla.org/images/9/9d/Joomla-j4-fatal.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="355" width="800" height="355"
 alt="Joomla-j4-fatal.png" />
 
-=== Template Error Page ===
+### Template Error Page
+
 <img src="https://docs.joomla.org/images/6/6d/J4x-template-error.png"
 class="thumbborder" decoding="async" data-file-width="800"
 data-file-height="406" width="800" height="406"
 alt="J4x-template-error.png" />
 
-== How to Resolve == There are a number of possible reasons for fatal
+## How to Resolve
+
+There are a number of possible reasons for fatal
 errors to occur. Here are just a few:
 
 - A change in your host, for example an updated PHP version that is not
@@ -32,7 +36,9 @@ errors to occur. Here are just a few:
 - A newly installed or enabled Extension that is not compatible with
   Joomla. A bad plugin may disable Administrator login!
 
-=== Enable Debug === If your Administrator interface **is** still
+### Enable Debug
+
+If your Administrator interface **is** still
 working go to **Home Dashboard **→** System panel **→** Global
 Configuration**. In the System tab set *Debug System* to *Yes* and in
 the Server tab set *Error Reporting* to *Maximum*. Then *Save & Close*.
@@ -78,7 +84,7 @@ script that analyses your Joomla installation and tells you what might
 be wrong. Again, it might not mean much to you but the experts who
 answer questions in the Forums may ask to see it.
 
-== Cleaning Up ==
+## Cleaning Up
 
 When your problem is resolved:
 
