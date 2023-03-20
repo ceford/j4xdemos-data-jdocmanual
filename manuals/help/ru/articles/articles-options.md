@@ -113,9 +113,6 @@ Article](https://docs.joomla.org/Help4.x:Menu_Item:_Single_Article/en#options "H
   title to include.Note: This can prevent the Read More text to become
   excessively long if the article has a very long title.
 - **Теги**. Show the tags for each article.
-
-<!-- -->
-
 - **Записывать просмотры**. Record the number of times the article has
   been viewed.
 - **Количество просмотров**. Show the number of times the article has
@@ -178,9 +175,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-ru.png" />
   Links
   tab](https://docs.joomla.org/Help4.x:Articles:_Edit/en#imagesandlinks "Help4.x:Articles: Edit/en")
   in the Backend when editing Articles.
-
-<!-- -->
-
 - **Окно браузера для ссылки A**. Sets the default value for the target
   for the first Link in the article. Choices are:
   - Родительское окно: Opens the in the main browser window, replacing
@@ -193,9 +187,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-ru.png" />
   for the second Link in the article. Same options as URL A.
 - **Окно браузера для ссылки C**. Sets the default value for the target
   for the third Link in the article. Same options as URL A.
-
-<!-- -->
-
 - **CSS-класс изображения вводного текста**. Sets the class attribute
   for an Intro Image selected in the Intro Image field.
   <a href="https://cassiopeia.joomla.com/help" class="external text"
@@ -304,23 +295,14 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-ru.p
   Articles.
 - **Порядок размещения в столбцах**. In multi-column blog layouts,
   whether to order articles Down the columns or Across the columns.
-
-<!-- -->
-
   - Вниз: Order articles going down the first column and then over to
     the next column, for example:
 
 - 
-
-<!-- -->
-
   - Поперек: Order articles going across the columns and then back to
     the first column, for example:
 
 - 
-
-<!-- -->
-
 - **Количество ссылок на другие материалы**. The number of Links to
   display in the Links area of the page. These links allow a User to
   link to additional Articles, if there are more Articles than can fit

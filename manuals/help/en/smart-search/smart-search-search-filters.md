@@ -84,43 +84,19 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new search filter.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Publish**. Makes the selected search filters available to visitors
   to your website.
-
-<!-- -->
-
 - **Unpublish.** Makes the selected search filters unavailable to
   visitors to your website.
-
-<!-- -->
-
 - **Check-In**. Checks-in the selected search filters. Works with one or
   multiple search filters selected.
-
-<!-- -->
-
 - **Statistics:** Shows some basic statistics on Smart Search.
-
-<!-- -->
-
 - **Delete:** Deletes the selected search filters. Works with one or
   multiple search filters selected.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

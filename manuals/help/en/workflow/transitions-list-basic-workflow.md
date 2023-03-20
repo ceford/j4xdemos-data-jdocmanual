@@ -38,9 +38,6 @@ Click on the column heading to sort the list by that column's value.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -59,19 +56,10 @@ Click on the column heading to sort the list by that column's value.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Name:** The (full) name of the user.
 - **Current Stage.** Default is All.
 - **Target Stage.** Default is Basic Stage.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -118,41 +106,20 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Back.** Go back to the previous page.
-
-<!-- -->
-
 - **New**. Opens the editing screen to create a new item.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Enable**. Makes the selected item available for use on your website.
-
-<!-- -->
-
 - **Disable**. Makes the selected items unavailable for use on your
   website.
-
-<!-- -->
-
 - **Default:** Makes the selected item the default item. The default
   star symbol
   (<img src="https://docs.joomla.org/images/7/7e/Icon-16-default.png"
   decoding="async" data-file-width="30" data-file-height="20" width="30"
   height="20" alt="Icon-16-default.png" />) will show in the Default
   column, indicating that this is now the default item.
-
-<!-- -->
-
 - **Check-In**. Checks-in the selected items. Works with one or multiple
   items selected.
-
-<!-- -->
-
 - **Trash**. Changes the status of the selected items to indicate that
   they are trashed. Trashed items can still be recovered by selecting
   "Trashed" in the Select Status filter and changing the status of the
@@ -160,12 +127,6 @@ above. The functions are:
   trashed items, select "Trashed" in the Select Status filter, select
   the items to be permanently deleted, then click the Empty Trash
   toolbar icon.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

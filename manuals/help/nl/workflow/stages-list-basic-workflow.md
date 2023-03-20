@@ -44,9 +44,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -66,19 +63,10 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
 - **Standaard.** Als er meer dan één workflow is. Selecteer om de
   standaard in te stellen.
-
-<!-- -->
-
 - **Naam:** De (volledige) naam van de gebruiker.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -124,42 +112,21 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn.
 
 - **Terug.** Ga terug naar de vorige pagina.
-
-<!-- -->
-
 - **Nieuw**. Opent het bewerk scherm om een nieuwe item te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Inschakelen**. Maakt de selecteerde items beschikbaar om te
   gebruiken op uw website.
-
-<!-- -->
-
 - **Uitschakelen**. Maakt de selecteerde items niet beschikbaar om te
   gebruiken op uw website.
-
-<!-- -->
-
 - **Standaard:** Maakt het geselecteerde item de standaard item. Het
   standaard ster symbool
   (<img src="https://docs.joomla.org/images/7/7e/Icon-16-default.png"
   decoding="async" data-file-width="30" data-file-height="20" width="30"
   height="20" alt="Icon-16-default.png" />) wordt getoond in de
   Standaard kolom, wat aangeeft dat het nu het standaard item is.
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde items in. Werkt bij één of meer
   items geselecteerd.
-
-<!-- -->
-
 - **Prullenbak**. Verandert de status van de selecteerde items om aan te
   geven dat ze in de prullenbak zitten. Items in de prullenbak kunnen
   hersteld worden door "Verplaatst naar prullenbak" te kiezen in het
@@ -169,12 +136,6 @@ De functies zijn.
   "Verplaatst naar prullenbak" in het Selecteer status filter, selecteer
   de items die definitief verwijderd moeten worden en klik daarna op het
   'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

@@ -67,9 +67,6 @@ alt="Help4x-Menus-Menu-Item-Components-Menu-Container-screen-en.png" />
 ## Form Fields
 
 - **Name.** The full name of the menu item.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -88,26 +85,14 @@ alt="Help4x-Menus-Menu-Item-Components-Menu-Container-screen-en.png" />
 **Right Panel**
 
 - **Menu**. Shows which menu the link will appear in.
-
-<!-- -->
-
 - **Parent**. The item (category, menu item, and so on) that is the
   parent of the item being edited.
-
-<!-- -->
-
 - **Ordering:** Indicates the order of this Menu Item in the Menu. The
   default Order is to add the Menu Item to the end of the Menu. This
   Menu Item will moved to the order position just after the Menu Item
   selected from the drop-down list. Note that the Order of Menu Items
   can also be changed in the Menu Item Manager.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -134,13 +119,7 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
 
@@ -149,9 +128,6 @@ Or
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

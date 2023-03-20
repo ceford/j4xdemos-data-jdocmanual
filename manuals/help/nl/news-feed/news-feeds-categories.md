@@ -32,9 +32,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -54,32 +51,14 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Titel**. De naam van de titel van het feed. Maak het zo beschrijvend
   mogelijk.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Associaties:** Toont, aan welke taal dit item geassocieerd is.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -131,17 +110,11 @@ bovenstaande [Screenshot](#screenshot).
 
 - **Selecteer toegang**. Selecteer uit de lijst met beschikbare weergave
   toegangsniveaus.
-
-<!-- -->
-
 - 
 
 **Selecteer taal**. Selecteer uit de lijst met beschikbare talen.
 
 - **Selecteer tag**. Selecteer uit de lijst met beschikbare tags.
-
-<!-- -->
-
 - **Selecteer max niveaus**. Selecteer uit de lijst met beschikbare
   niveaus.
 
@@ -151,52 +124,28 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe categorie te maken.
-
-<!-- -->
-
 - **Bewerken**. Opent het scherm voor het bewerken van het geselecteerde
   categorie. Als er meer dan één categorie is geselecteerd (indien van
   toepassing), wordt alleen het eerste categorie geopend. Het
   bewerkingsscherm kan ook worden geopend door te klikken op de Naam van
   het categorie.
-
-<!-- -->
-
 - **Publiceren**. Maakt de geselecteerde categorie beschikbaar voor de
   bezoekers van uw website.
-
-<!-- -->
-
 - **Depubliceren.** Maakt de geselecteerde categorie niet beschikbaar
   voor de bezoekers van uw website
-
-<!-- -->
-
 - **Archiveren**. Verandert de status van één van de geselecteerde
   categorie om aan te geven dat ze worden gearchiveerd. Gearchiveerde
   categorie kunnen terug naar de gepubliceerde of gedepubliceerde status
   gebracht worden door *Gearchiveerd* te selecteren in het Selecteer
   status filter en de status van de categorie te wijzigen naar
   Gepubliceerd of Gedepubliceerd.
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde categorie in. Werkt bij één of
   meer categorie geselecteerd.
-
-<!-- -->
-
 - **Batch**. Batch verwerkt de geselecteerde categorie. Werkt bij één of
   meer geselecteerde items.
-
-<!-- -->
-
 - **Opnieuw opbouwen.** Ververst en stelt de categorie tabel opnieuw
   samen. Normaal hoeft u de tabel *niet* opnieuw op te bouwen. Deze
   functie voorziet in het geval de data in de tabel corrupt raakt.
-
-<!-- -->
-
 - **Prullenbak**. Verandert de status van de selecteerde categorie om
   aan te geven dat ze in de prullenbak zitten. categorie in de
   prullenbak kunnen hersteld worden door "Verplaatst naar prullenbak" te
@@ -206,14 +155,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   verwijderen, voor "Verplaatst naar prullenbak" in het Selecteer status
   filter, selecteer de categorie die definitief verwijderd moeten worden
   en klik daarna op het 'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

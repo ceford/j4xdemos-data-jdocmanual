@@ -36,9 +36,6 @@ above. The functions are:
 
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## List Filters

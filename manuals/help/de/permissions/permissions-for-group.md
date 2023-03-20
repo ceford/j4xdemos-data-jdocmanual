@@ -64,9 +64,6 @@ codiert gemäß der Legende (siehe Screenshot).
   nested
   sets](https://docs.joomla.org/Using_nested_sets "Using nested sets")
   in Englisch.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -106,14 +103,8 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 - **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Legende

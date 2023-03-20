@@ -172,9 +172,6 @@ droits](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/fr "Help4.x
   user](https://docs.joomla.org/Help4.x:Users:_Edit_Profile/en "Help4.x:Users: Edit Profile/en").
 - To change [article
   permissions](https://docs.joomla.org/Help4.x:Articles:_Options/en#permissions "Help4.x:Articles: Options/en").
-
-<!-- -->
-
 - Ce
   [portail](https://docs.joomla.org/Portal:Joomla_4/fr "Portal:Joomla 4/fr")
   rassemble des informations liées spécifiquement à Joomla 4.

@@ -55,15 +55,9 @@ menu-item
 - **Weergave.** Bepaalt de stijl die gebruikt wordt om secties van het
   contactformulier weer te geven.
 - **Tags.** Whether to hide or show any tags for this item.
-
-<!-- -->
-
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show to allow users to select a contact in a drop down list.
 - *Hide:* Do not display the Contact list.
-
-<!-- -->
-
 - **Contactpersoongegevens.** Toon of verberg de contactinformatie.
 - **Naam:** De naam van de contactpersoon.
 - **Contactpersoon positie.** Toon of verberg de positie.
@@ -216,9 +210,6 @@ staan hieronder.
 - *Titel:* Filter op artikeltitel.
 - *Auteur:* Filter op de naam van de auteur.
 - *Hits:* Filter op het aantal hits van artikelen.
-
-<!-- -->
-
 - **Toon selecteer.** (Toon/Verberg) Of het Toon \# control getoond of
   verborgen moet worden, welke de gebruiker de mogelijkheid geeft het
   aantal items te selecteren dat getoond wordt in de lijst. Een
@@ -266,9 +257,6 @@ Anders wordt de lijst zonder kop getoond.
   contactpersonen.
 - **Land.** Toon of verberg de kolom land in de lijst met
   contactpersonen.
-
-<!-- -->
-
 - **Paginering.** Toon of verberg de paginering. Paginering geeft
   paginalinks weer onderaan de pagina waarmee gebruikers naar andere
   pagina's kunnen navigeren. Deze zijn nodig wanneer de items in de
@@ -287,16 +275,10 @@ De volgende opties zijn beschikbaar.
 - *Toon:* Paginalinks tonen indien nodig.
 - *Verbergen:* Paginalinks niet tonen. In dit geval kunnen gebruikers
   niet naar andere pagina's navigeren.
-
-<!-- -->
-
 - **Paginering samenvatting.** Toon of verberg het huidige paginanummer
   en totaal aantal pagina's (bijv., "Pagina 1 van 2") onderaan iedere
   pagina. Gebruik algemeen zal de standaard waarde van de component
   opties gebruiken.
-
-<!-- -->
-
 - **Sorteren op**. Kies het veld waarop gesorteerd moet worden.
 
 ### Formulier tabblad
@@ -408,20 +390,11 @@ De functies zijn.
 
 - **Opslaan.** Slaat Contactpersonen beheer opties op en blijft op het
   huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat Contactpersonen beheer opties op en sluit
   het huidige scherm.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

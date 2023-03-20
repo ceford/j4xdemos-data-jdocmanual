@@ -64,15 +64,9 @@ Tab](https://docs.joomla.org/Help4.x:Menus_Menu_Item_Manager_Edit#New_Menu_Item_
 #### Required Settings
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **Menu**. Shows which menu the link will appear in.
 
 #### Optional Settings
@@ -104,14 +98,8 @@ class="new"
 title="File:Help-4x-Menus-Menu-Item-Search-Results-basic-options-screenshot-en.png">600px</a>
 
 - **Use Search Options**. *(Global/Show/Hide)* Show the search options.
-
-<!-- -->
-
 - **Use Search Areas**. *(Global/Show/Hide)* Check boxes for search area
   types: Articles, Categories, Contacts, Newsfeeds, or Weblinks.
-
-<!-- -->
-
 - **Created Date**. Date the item(Article, Category, Weblink, etc.) was
   created.
 
@@ -119,9 +107,6 @@ Default Search Options
 
 - **Search for**. *(All Words/Any Words/Exact Phrase)* Set the type of
   search. Search for All Words, Any Words or Exact Phrase.
-
-<!-- -->
-
 - **Results ordering:** Set the search results ordering.
   - *Newest:* Show newest item first.
   - *Oldest:* Show oldest item first.
@@ -166,23 +151,11 @@ alt="Help-4x-Save-SaveClose-SaveNew-Cancel-Help-toolbar-en.png" />
 The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Front End Screenshot

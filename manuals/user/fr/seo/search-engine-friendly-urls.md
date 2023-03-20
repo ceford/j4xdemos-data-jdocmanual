@@ -95,14 +95,8 @@ Article / Catégorie de Blog, le lien pour le Titre de l'article et / ou
 le lien En savoir plus aurait trois parties:
 
 - L'URL de l'élément de menu - exemple.com/produits ;
-
-<!-- -->
-
 - Auquel vient s'ajouter la clé primaire de la Catégorie et l'alias de
   la Catégorie - 32-fruit ;
-
-<!-- -->
-
 - Auquel vient s'ajouter la clé primaire de l'Article et l'alias de
   l'Article - 1-pomme ;
 

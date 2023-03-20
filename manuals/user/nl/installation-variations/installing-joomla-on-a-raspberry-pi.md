@@ -161,9 +161,6 @@ for that:
 - use a command like **nmap**. Assuming that our PC has IP address
   **192.168.0**.25 we can find all other devices in the same network
   range by doing the following:
-
-<!-- -->
-
     sudo nmap -sP 192.168.0/24
 
 Which might show the following details:
@@ -251,15 +248,9 @@ Before installing anything else, we'll:
 
 - **update** the list of software versions from all external
   repositories
-
-<!-- -->
-
     sudo apt-get update
 
 - **upgrade** all installed software
-
-<!-- -->
-
     sudo apt-get upgrade
 
 **Updating the version list and upgrading all software is something that
@@ -351,9 +342,6 @@ for example:
 
 - /var/www/example.com/
 - /var/www/voorbeeld.nl/
-
-<!-- -->
-
     sudo mkdir /var/www/example.com
     sudo mkdir /var/www/voorbeeld.nl
 
@@ -361,9 +349,6 @@ For every site we will create a virtual domain which is basically a text
 file with domain specific information:
 
 - /etc/nginx/sites-available/example.com
-
-<!-- -->
-
     server {
     listen 80;
     server_name example.com www.example.com;
@@ -378,9 +363,6 @@ file with domain specific information:
     }
 
 - /etc/nginx/sites-available/voorbeeld.nl
-
-<!-- -->
-
     server {
     listen 80;
     server_name voorbeeld.nl www.voorbeeld.nl;
@@ -462,9 +444,6 @@ rel="nofollow noreferrer noopener">http://192.168.0.35/example.com/test.php</a>
 ## Joomla!
 
 - te doen
-
-<!-- -->
-
     sudo wget https://github.com/joomla/joomla-cms/releases/download/3.6.3/Joomla_3.6.3-Stable-Full_Package.zip
     sudo unzip -x Joomla_3.6.3-Stable-Full_Package.zip
 

@@ -104,25 +104,16 @@ alt="Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-nl.png"
   multi-kolom blog layouts, of artikelen qua volgorde getoond moeten
   worden van boven naar beneden binnen de kolommen of van links naar
   rechts over de kolommen.
-
-<!-- -->
-
   - Down: Naar beneden: Om de artikelen qua volgorde eerst te tonen in
     de eerste kolom totdat deze vol is, en vervolgens in de volgende
     kolom, bijvoorbeeld:
 
 - 
-
-<!-- -->
-
   - Across: Links naar rechts: Om de artikelen van links naar rechts te
     tonen over de kolommen heen tot de laatste kolom is bereikt, en
     vervolgens weer terug naar de eerste kolom, bijvoorbeeld:
 
 - 
-
-<!-- -->
-
 - **\# Links**. **\# Links**. Het aantal artikelen waarvan alleen de
   titel als link getoond moet worden in het 'Links' gedeelte van de
   pagina. Deze links staan een Gebruiker toe om te navigeren naar
@@ -341,14 +332,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - To create a new Category see [Articles: Edit
   Category](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/en "Help4.x:Articles: Edit Category/en").
-
-<!-- -->
-
 - Kijk voor het aanmaken van een nieuw menu bij
   [Menu's](https://docs.joomla.org/Help4.x:Menus/nl "Help4.x:Menus/nl").
-
-<!-- -->
-
 - Dit
   [portaal](https://docs.joomla.org/Portal:Joomla_4/nl "Portal:Joomla 4/nl")
   brengt informatie specifiek gerelateerd aan Joomla 4 samen.

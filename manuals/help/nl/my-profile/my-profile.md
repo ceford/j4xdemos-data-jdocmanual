@@ -35,55 +35,22 @@ alt="Help-4x-my-profile-screenshot-nl.png" />
 ### Accountgegevens
 
 - **Naam:** De (volledige) naam van de gebruiker.
-
-<!-- -->
-
 - **Inlognaam**. De gebruikersnaam die ingevoerd wordt bij het inloggen.
-
-<!-- -->
-
 - **Wachtwoord**. Het wachtwoord dat ingevoerd wordt bij het inloggen.
-
-<!-- -->
-
 - **Bevestig wachtwoord**. Het zelfde wachtwoord nogmaals (om zeker te
   weten dat het wachtwoord juist is ingevoerd).
-
-<!-- -->
-
 - **E-mailadres**. E-mailadres voor deze gebruiker.
-
-<!-- -->
-
 - **Registratiedatum:** De datum waarop deze gebruiker is geregistreerd.
-
-<!-- -->
-
 - **Laatste bezoek**. De datum dat de gebruiker voor het laatst ingelogd
   was op de site.
-
-<!-- -->
-
 - **Datum laatste reset**. Datum en tijd waarop voor het laatst het
   wachtwoord gereset is.
-
-<!-- -->
-
 - **Aantal herinstellingen wachtwoord**. Aantal keren dat het wachtwoord
   opnieuw is ingesteld sinds het laatste herinstellen.
-
-<!-- -->
-
 - **Ontvang systeemberichten**. (*Ja*/*Nee*) Indien ja is ingesteld
   ontvangt de gebruiker systeemberichten.
-
-<!-- -->
-
 - **Gebruikersstatus**. (*Geblokkeerd*/*Ingeschakeld*) Blokkeer of
   deblokkeer deze gebruiker.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -101,27 +68,15 @@ alt="Help-4x-Site-My-Profile-basic-nl.png" />
 
 - **Template beheergedeelte**. De template stijl die gebruikt moet
   worden voor deze gebruiker in het beheergedeelte.
-
-<!-- -->
-
 - **Beheertaal**. Hier kunt u de taal in het beheergedeelte kiezen voor
   de gebruikers. Alle geïnstalleerde talen voor het beheergedeelte
   worden getoond. Standaard is de taal die staat ingesteld in het beheer
   van talen.
-
-<!-- -->
-
 - **Websitetaal**. Hier kunt u de taal op de website kiezen voor de
   gebruiker. Alle geïnstalleerde talen voor de website worden getoond.
   Standaard is de taal die staat ingesteld in het beheer van talen.
-
-<!-- -->
-
 - **Tekstverwerker**. De te gebruiken tekstverwerker voor deze
   gebruiker.
-
-<!-- -->
-
 - **Tijdzone**. Stelt de tijdzone van de gebruiker in. Standaard wordt
   de tijdzone ingesteld bij de Algemene instellingen.
 
@@ -159,18 +114,9 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn.
 
 - **Opslaan.** Slaat user op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat user op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

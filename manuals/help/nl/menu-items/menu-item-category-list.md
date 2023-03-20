@@ -124,9 +124,6 @@ alt="Help-4x-Menus-Item-Articles-Category-List-list-layouts-subscreen-nl.png" />
   wordt weergegeven.
 - **Hits**. Toon het aantal hits van artikelen.
 - **Auteur**. Toon de naam van de auteur.
-
-<!-- -->
-
 - **Volgorde categorieën**.
   - Geen volgorde: Artikelen worden alleen gesorteerd op
     artikelvolgorde, onafhankelijk van de categorie.

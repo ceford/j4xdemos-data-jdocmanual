@@ -203,14 +203,8 @@ alt="Help-4x-Content-Categories-batch-nl.png" />
 
 - [Artikelen: Bewerk
   categorie](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/nl "Help4.x:Articles: Edit Category/nl")
-
-<!-- -->
-
 - [Controlepaneel](https://docs.joomla.org/Help4.x:Home_Dashboard/nl "Help4.x:Home Dashboard/nl"):
   Toegang tot veel standaard Joomla functies.
-
-<!-- -->
-
 - Dit
   [portaal](https://docs.joomla.org/Portal:Joomla_4/nl "Portal:Joomla 4/nl")
   brengt informatie specifiek gerelateerd aan Joomla 4 samen.

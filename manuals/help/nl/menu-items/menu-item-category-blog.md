@@ -135,25 +135,16 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-nl.png" />
 - **Meervoudige kolomrichting**. In de multi-kolom blog layouts, of
   artikelen qua volgorde getoond moeten worden van boven naar beneden
   binnen de kolommen of van links naar rechts over de kolommen.
-
-<!-- -->
-
   - Naar beneden: Om de artikelen qua volgorde eerst te tonen in de
     eerste kolom totdat deze vol is, en vervolgens in de volgende kolom,
     bijvoorbeeld:
 
 - 
-
-<!-- -->
-
   - Links naar rechts: Om de artikelen van links naar rechts te tonen
     over de kolommen heen tot de laatste kolom is bereikt, en vervolgens
     weer terug naar de eerste kolom, bijvoorbeeld:
 
 - 
-
-<!-- -->
-
 - **\# Links**. Het aantal artikelen waarvan alleen de titel als link
   getoond moet worden in het 'Links' gedeelte van de pagina. Deze links
   staan een Gebruiker toe om te navigeren naar aanvullende Artikelen als

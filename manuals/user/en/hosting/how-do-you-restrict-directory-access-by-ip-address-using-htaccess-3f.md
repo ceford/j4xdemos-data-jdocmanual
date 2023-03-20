@@ -14,23 +14,14 @@ different IP Address will get a 403 Forbidden error.
     *.htaccess* file. (Note the dot at the beginning of the file name.)
 2.  Add the following code to this file, replacing 100.100.100.100 in
     this example with the static IP address you plan to allow:
-
-<!-- -->
-
     Order Deny,Allow
     Deny from all
     Allow from 100.100.100.100
 
 - Optional: You can enter partial IP Addresses, such as, 100.100.100.
   This allows access to a range of addresses.
-
-<!-- -->
-
 - Optional: You can add multiple addresses by separating them with
   commas.
-
-<!-- -->
-
     100.100.100.101, 100.100.100.102
 
 If comma separation does not work, enter each IP address (or partial

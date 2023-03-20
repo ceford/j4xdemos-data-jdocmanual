@@ -90,44 +90,20 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe zoekfilter te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Publiceren**. Maakt de geselecteerde zoekfilters beschikbaar voor de
   bezoekers van uw website.
-
-<!-- -->
-
 - **Depubliceren.** Maakt de geselecteerde zoekfilters niet beschikbaar
   voor de bezoekers van uw website
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde zoekfilters in. Werkt bij één
   of meer zoekfilters geselecteerd.
-
-<!-- -->
-
 - **Statistieken:** Toont een aantal standaard statistieken op Slim
   zoeken
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde zoekfilters. Werkt met
   één of meerdere zoekfilters geselecteerd.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

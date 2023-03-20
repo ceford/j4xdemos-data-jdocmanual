@@ -41,9 +41,6 @@ em cada coluna.
   grupo.
 - **Usuários desabilitados**: (X) O número de usuários desabilitados
   neste grupo.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -66,22 +63,13 @@ No topo, você verá a barra de ferramentas mostrada na captura de tela
 acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo user group.
-
-<!-- -->
-
 - **Excluir**: Exclui os user groups selecionados. Funciona com um ou
   vários user groups selecionados. Se você excluir um grupo que tenha
   usuários atribuídos a ele, esses usuários perderão as permissões que
   tinham desse grupo. É recomendável remover todos os usuários de um
   grupo antes de excluir o grupo.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

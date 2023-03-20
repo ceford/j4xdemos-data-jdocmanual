@@ -10,9 +10,6 @@ Les sites web Joomla disposent de deux interfaces distinctes :
   personnalisation. D'autres templates sont disponibles gratuitement ou
   pour une somme modique. Il existe d'ailleurs un vaste secteur
   d'activité basé sur la fourniture de templates personnalisés.
-
-<!-- -->
-
 - L'interface d'administration est vue et utilisée par ceux qui créent
   le contenu. Elle a un aspect complètement différent car elle sert un
   objectif différent. Bien qu'une certaine personnalisation soit

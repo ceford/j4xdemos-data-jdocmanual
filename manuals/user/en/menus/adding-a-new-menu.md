@@ -28,9 +28,6 @@ There are 2 ways to access the Menu Manager that is used to add a Menu:
 
 - From the Home Dashboard, in the Sidebar Menu click the Menu Dashboard
   Icon to be taken to the Menu Manager, then click **Manage**.
-
-<!-- -->
-
 - Or, from the Home Dashboard, in the Sidebar Menu expand the **Menus**
   section and then click on **Manage**.
 
@@ -154,27 +151,12 @@ The **Menus: New Item** panel will open. We will add a single article to
 the Menu:
 
 - In the **Title** field add the title you want to appear in the Menu.
-
-<!-- -->
-
 - In the **Menu Item Type** field click the **Select** button then
   **Single Article** then **Single Article**.
-
-<!-- -->
-
 - In the **Select Article** field click the **Select** button which will
   open a list of your articles. Select your article.
-
-<!-- -->
-
 - Check the **Menu** field is set to the new Menu.
-
-<!-- -->
-
 - The **Status** field should be set to **Published**.
-
-<!-- -->
-
 - Click **Save & Close**.
 
 <img

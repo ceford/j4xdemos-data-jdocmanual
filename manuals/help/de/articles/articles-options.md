@@ -116,9 +116,6 @@ und
   Link "Weiterlesen" verhindert, wenn der Beitragstitel sehr lang ist.
 - **Schlagwörter anzeigen**. Die Schlagwörter für jeden Beitrag
   anzeigen.
-
-<!-- -->
-
 - **Zugriffe aufzeichnen**. Aufzeichnen, wie oft der Beitrag angeklickt
   wurde.
 - **Zugriffe**. Zeigt, wie oft der Beitrag von Benutzern aufgerufen
@@ -182,9 +179,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-de.png" />
 - **Bilder und Links im Backend**. Den Tab [Bilder und
   Links](https://docs.joomla.org/Help4.x:Articles:_Edit/de#imagesandlinks "Help4.x:Articles: Edit/de")
   im Backend beim Bearbeiten von Beiträgen verbergen.
-
-<!-- -->
-
 - **URL A Zielfenster**. Bestimmt den Standard-Wert für das Ziel des
   ersten Links im Beitrag. Zur Auswahl stehen:
   - In gleichem Fenster öffnen: Öffnet den Link im gleichen
@@ -198,9 +192,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-de.png" />
   zweiten Links im Beitrag. Auswahl wie bei URL A.
 - **URL C Zielfenster**. Bestimmt den Standard-Wert für das Ziel des
   dritten Links im Beitrag. Auswahl wie bei URL A.
-
-<!-- -->
-
 - **CSS-Klasse Einleitungsbild**. Die CSS-Klasse für das Einleitungsbild
   eingeben.
   <a href="https://cassiopeia.joomla.com/help" class="external text"
@@ -312,23 +303,14 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-de.p
 - **Mehrspaltige Anordnung**. Die Beiträge werden innerhalb der Spalten
   untereinander (Option: Abwärts) oder nebeneinander (Option: Seitlich)
   angezeigt.
-
-<!-- -->
-
   - Abwärts: Beiträge werden innerhalb der ersten Spalte abwärts
     sortiert, dann in der nächsten Spalte. Zum Beispiel:
 
 - 
-
-<!-- -->
-
   - Seitlich: Beiträge werden quer durch die Spalten sortiert, dann
     zurück in die erste Spalte. Zum Beispiel:
 
 - 
-
-<!-- -->
-
 - **\# Links**. Anzahl der Beiträge, deren Überschriften als Links
   gezeigt werden, normalerweise unterhalb der Einleitungstexte. Damit
   können Benutzer weitere Beiträge aufrufen, falls mehr Beiträge

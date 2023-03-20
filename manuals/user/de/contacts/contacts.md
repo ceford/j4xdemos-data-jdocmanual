@@ -41,47 +41,23 @@ sortieren.
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Reihenfolge:** (standard). Wie die Einträge in der Spalte der
   Tabelle sortiert werden. Die Werte sind die gleichen wie die der
   Spaltenköpfe.
-
-<!-- -->
-
 - **Haupteintrag.** Gibt an, ob der Eintrag in der Ansicht
   *Haupteinträge* angezeigt wird oder nicht.
-
-<!-- -->
-
 - **Status**. Der Veröffentlichungs-Status des Eintrags.
-
-<!-- -->
-
 - **Titel**. Der Name des Eintrags. Bei einem Menüeintrag wird der Titel
   im Menü angezeigt. Bei einem Beitrag oder einer Kategorie wird der
   Titel wahlweise in der Webseite angezeigt. Der Eintrag ist
   erforderlich. Das Element kann durch Klick auf den Titel geöffnet
   werden.
-
-<!-- -->
-
 - **Verknüpfter Benutzer.** Der Benutzername, mit dem der Kontakt
   verknüpft ist (falls vorhanden).
-
-<!-- -->
-
 - **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   des Eintrags.
-
-<!-- -->
-
 - **Sprache**. Die Sprachzuordnung des Eintrags.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -112,36 +88,18 @@ im oberen Bereich.
   Standardwert für die Site ist '20', er kann in der
   [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#defaultlistlimit "Help4.x:Site Global Configuration/de")
   geändert werden.
-
-<!-- -->
-
 - **Hauptbeiträge wählen**. Auswahl von Keine Hauptbeiträge /
   Hauptbeiträge.
-
-<!-- -->
-
 - **Status wählen**. Auswahl von Papierkorb / Versteckt / Veröffentlicht
   / Archiviert / Alle.
-
-<!-- -->
-
 - **Kategorie wählen**. Aus den verfügbaren Kategorien auswählen.
-
-<!-- -->
-
 - **Zugriffsebene wählen**. Aus den verfügbaren Zugriffsebenen
   auswählen.
-
-<!-- -->
-
 - 
 
 **Sprache wählen**. Aus den verfügbaren Sprachen auswählen.
 
 - **Schlagwort wählen**. Aus den verfügbaren Schlagwörtern auswählen.
-
-<!-- -->
-
 - **Max. Ebenen wählen**. Aus den verfügbaren Ebenen auswählen.
 
 **Seitenkontrolle**. Gibt es mehr Einträge als auf der Seite gezeigt,
@@ -161,15 +119,9 @@ Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Neu**: Öffnet das Bearbeitungs-Formular, um Kontakt zu erstellen.
-
-<!-- -->
-
 - **Aktionen:** Zeigt eine Liste von Aktionen für ausgewählte Objekte
   an. Ein oder mehrere Auswahlkästchen für Einträge markieren, um die
   Liste zu aktivieren.
-
-<!-- -->
-
   - **Veröffentlichen**: Macht die gewählten Kontakte auf der Webseite
     für Besucher verfügbar.
 
@@ -200,14 +152,8 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
     *Veröffentlicht* oder *Versteckt* ändern.Um Kontakte im Papierkorb
     zu löschen, den Suchfilter „Papierkorb“ wählen und gewählte Kontakte
     durch Klick auf *Papierkorb leeren* in der Werkzeugleiste löschen.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

@@ -27,9 +27,6 @@ alt="Help4.x-Components-Finder-Options-nl.png" />
 - **Resultaat taxonomie.** (Ja/Nee) ...
 - **Beschrijving resultaten.** (Toon/Verbeg) Schakelen tussen het wel of
   niet weergeven van een beschrijving bij de zoekresultaten.
-
-<!-- -->
-
 - **Lengte Omschrijving**. Het aantal karakters van de omschrijving in
   de zoekresultaten. Vul gewenst in het veld, standaard is 255.
 - **Resultaat datum**. Toon de start en einddatum filters in Uitgebreid
@@ -38,21 +35,12 @@ alt="Help4.x-Components-Finder-Options-nl.png" />
   zoekresultaten. De URL staat onder de beschrijving.
 - **Verzamel zoekstatistieken.** (Ja/Nee) Bewaar de zoekzinnen waarop
   bezoekers zoeken.
-
-<!-- -->
-
 - **Lege zoekopdracht toestaan**. Sta een lege zoekopdracht toe, beperkt
   tot het lege filter en alleen wanneer een filter is geselecteerd.
 - **Zoeksuggesties.** (Toon/Verberg) Schakelen tussen het wel of niet
   weergeven van automatische zoeksuggesties.
-
-<!-- -->
-
 - **Bedoelde u**. Laat alternatieve zoektermen zien wanneer een
   zoekopdracht geen resultaat geeft.
-
-<!-- -->
-
 - **Beschrijving zoekopdracht**. Toon of verberg een gedetailleerde
   uitleg van de opgevraagde zoekactie.
 - **Uitgebreide zoeken.** (Toon/Verberg) Schakelen tussen het wel of
@@ -148,14 +136,8 @@ handelingen uitvoeren.
 
 - Selecteer de **Groep** door op de titel aan de linkerzijde te klikken.
 - Zoek de gewenste **Actie**. Mogelijke acties zijn:
-
-<!-- -->
-
   - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
     van deze extensie bewerken.
-
-<!-- -->
-
   - **Configure Options Only.** Users can edit the options except the
     permissions of this extension.
   - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
@@ -189,17 +171,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

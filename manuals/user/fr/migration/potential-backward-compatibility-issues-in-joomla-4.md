@@ -57,9 +57,6 @@ ainsi :
   les futures mises à jour de la version de MySQL et s'aligne également
   plus étroitement avec Postgres pour permettre une compatibilité plus
   facile avec les requêtes dans les deux langues.
-
-<!-- -->
-
     'STRICT_TRANS_TABLES',
     'ERROR_FOR_DIVISION_BY_ZERO',
     'NO_AUTO_CREATE_USER',
@@ -323,9 +320,6 @@ plutôt qu'une classe réelle.
 - Nouveau :
   JApplicationWeb **→** Joomla\Application\AbstractWebApplication **→** 
   Joomla\Application\AbstractApplication
-
-<!-- -->
-
 - Les manières obsolètes d'appeler JApplicationWeb::redirect ont été
   supprimées :
   - avec un message et des paramètres messageType (appel de

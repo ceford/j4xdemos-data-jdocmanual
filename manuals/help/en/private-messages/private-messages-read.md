@@ -9,9 +9,6 @@ only.
 
 - Select **Users **→** Messaging **→** Private Messages** from the
   Administrator menu.
-
-<!-- -->
-
 - Or select the icon in the title bar of the Administrator pages.
 
 <img
@@ -44,14 +41,8 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Reply**. Creates a new message as a reply to the current message.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

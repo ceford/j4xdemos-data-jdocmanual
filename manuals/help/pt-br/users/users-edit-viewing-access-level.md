@@ -54,23 +54,11 @@ class="new" title="Pt-br (page does not exist)">captura de tela</a>
 acima. As funções são:
 
 - **Salvar**: Salva o item e permanece na tela atual.
-
-<!-- -->
-
 - **Salvar fechar**: Salva o item e fecha a tela atual.
-
-<!-- -->
-
 - **Salvar & novo**: Salva o item e mantém a tela de edição aberta e
   pronta para criar outro item.
-
-<!-- -->
-
 - **Cancelar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que você tenha feito.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

@@ -23,9 +23,6 @@ alt="Help-4x-Components-Tags-Tags-Edit-screen-en.png" />
 ## Form Fields
 
 - **Title.** The Name of this item. This field is required.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -39,29 +36,14 @@ alt="Help-4x-Components-Tags-Tags-Edit-screen-en.png" />
 
 - **Parent**. The item (category, menu item, and so on) that is the
   parent of the item being edited.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
-
-<!-- -->
-
 - **Version Note**. Optional field to identify this version of the item
   in the item's [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/de "Special:MyLanguage/Help40:Components Version History/de")
@@ -79,9 +61,6 @@ alt="Help-4x-Components-Tags-Tags-Edit-Options-Details-Tab-en.png" />
 
 - **Layout**. Use a layout from the supplied component view or overrides
   in the templates.
-
-<!-- -->
-
 - **CSS Class for tag link**. Add specific CSS classes for the tag link.
   If empty 'label label-info' will be added by the default tag layout.
 
@@ -89,21 +68,9 @@ alt="Help-4x-Components-Tags-Tags-Edit-Options-Details-Tab-en.png" />
 
 - **Teaser Image.** The image that will be displayed as part of the
   list.
-
-<!-- -->
-
 - **Float.** Float attribute for the image.
-
-<!-- -->
-
 - **Alt.** Alt text for the image.
-
-<!-- -->
-
 - **Caption.** The caption for the image.
-
-<!-- -->
-
 - **Full Image.** An image that will be displayed in the single tag
   view.
 
@@ -117,50 +84,26 @@ alt="Help-4x-Components-Tags-Tags-Edit-Publishing-Options-Tab-en.png" />
 
 - **Created Date**. Date the item(Article, Category, Weblink, etc.) was
   created.
-
-<!-- -->
-
 - **Created By**. Name of the Joomla User who created this item. This
   will default to the currently logged-in user. If you want to change
   this to a different user, click the Select User button to select a
   different user.
-
-<!-- -->
-
 - **Created by Alias**. This optional field allows you to enter in an
   alias for this Author for this Article. This allows you to display a
   different Author name for this Article.
-
-<!-- -->
-
 - **Modified Date**. Date of last modification.
-
-<!-- -->
-
 - **Modified By**. Username who performed the last modification.
-
-<!-- -->
-
 - **Hits**. The number of times an item has been viewed.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
   field displays "0" until you save the new entry, at which point a new
   ID is assigned to it.
-
-<!-- -->
-
 - **Meta Description**. An optional paragraph to be used as the
   description of the page in the HTML output. This will generally
   display in the results of search engines. If entered, this creates an
   HTML meta element with a name attribute of 'description' and a content
   attribute equal to the entered text.
-
-<!-- -->
-
 - **Keywords**. Optional entry for keywords. Must be entered separated
   by commas (for example, "cats, dogs, pets") and may be entered in
   upper or lower case. (For example, "CATS" will match "cats" or
@@ -186,15 +129,9 @@ alt="Help-4x-Components-Tags-Tags-Edit-Publishing-Options-Tab-en.png" />
       example, if the current Article displayed has the keywords "cats,
       dogs, monkeys", any other Articles with at least one of these
       keywords will show in the 'Articles - Related' module.
-
-<!-- -->
-
 - **Author**. Optional entry for an Author name within the metadata. If
   entered, this creates an HTML meta element with the name attribute of
   'author' and the content attribute as entered here.
-
-<!-- -->
-
 - **Robots**. The instructions for web 'robots' that browse to this
   page.
   - *index, follow:* Index this page and follow the links on this page.
@@ -217,36 +154,18 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Versions**. Opens the Item Version History window to show any prior
   versions of this item. This allows you to view older versions of this
   item and, if desired, restore from an older version. See [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/de "Special:MyLanguage/Help40:Components Version History/de")
   for more information.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

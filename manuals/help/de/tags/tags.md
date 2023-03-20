@@ -37,9 +37,6 @@ width="1228" height="22" alt="Help31-Tags-Manager-columns-de.png" />
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Reihenfolge.** Die Reihenfolge eines Eintrags innerhalb einer Liste
   kann wie folgt geändert werden:
   - Wenn die Liste Filter-Optionen einen Positions-Filter enthält, dann
@@ -60,33 +57,18 @@ width="1228" height="22" alt="Help31-Tags-Manager-columns-de.png" />
     wählen und es nach oben oder unten ziehen, um die Position dieser
     Zeile in der Liste zu ändern. Die Einträge werden in der neuen
     Reihenfolge innerhalb der Position angezeigt.
-
-<!-- -->
-
 - **Status**. Der Veröffentlichungs-Status des Eintrags.
-
-<!-- -->
-
 - **Titel**. Der Name des Eintrags. Bei einem Menüeintrag wird der Titel
   im Menü angezeigt. Bei einem Beitrag oder einer Kategorie wird der
   Titel wahlweise in der Webseite angezeigt. Der Eintrag ist
   erforderlich. Das Element kann durch Klick auf den Titel geöffnet
   werden.
-
-<!-- -->
-
 - **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   des Eintrags.
-
-<!-- -->
-
 - **Sprache**. Die Sprachzuordnung des Eintrags.
 - **Tagged Items.** The number of items with this tag. Click the number
   to go to a list of items.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -122,22 +104,13 @@ im oberen Bereich.
 
 - **Status wählen**. Auswahl von Papierkorb / Versteckt / Veröffentlicht
   / Archiviert / Alle.
-
-<!-- -->
-
 - **Zugriffsebene wählen**. Aus den verfügbaren Zugriffsebenen
   auswählen.
-
-<!-- -->
-
 - 
 
 **Sprache wählen**. Aus den verfügbaren Sprachen auswählen.
 
 - **Max. Ebenen wählen**. Aus den verfügbaren Ebenen auswählen.
-
-<!-- -->
-
 - **Filter nach Schlagwort-Typ.** Den Schlagwort-Typ aus der Liste
   verfügbarer Schlagwort-Typen wählen. Verfügbare Schlagwörter sind
   Komponenten mit definierten Schlagwörtern.
@@ -168,44 +141,23 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Neu**: Öffnet das Bearbeitungs-Formular, um ein Schlagwort zu
   erstellen.
-
-<!-- -->
-
 - **Bearbeiten:** Öffnet das Bearbeitungs-Formular für das ausgewählte
   Schlagwort. Falls mehr als ein Schlagwort ausgewählt wurde (wo
   anwendbar), wird nur das erste Schlagwort geöffnet. Das
   Bearbeitungs-Formular kann auch durch Klicken auf den Schlagwort-Namen
   geöffnet werden.
-
-<!-- -->
-
 - **Veröffentlichen**: Macht die gewählten Schlagworte auf der Webseite
   für Besucher verfügbar.
-
-<!-- -->
-
 - **Versteckt**: Macht die gewählten Schlagworte für die Besucher der
   Webseite unsichtbar.
-
-<!-- -->
-
 - **Archivieren**. Ändert den Status gewählter Schlagworte auf
   archiviert. Schlagworte können wieder hergestellt werden. Den
   Suchfilter 'Archiviert' wählen und den Status gewählter Schlagworte
   auf 'Veröffentlicht' oder 'Versteckt' ändern.
-
-<!-- -->
-
 - **Freigeben**. Gibt die ausgewählten Schlagworte wieder frei.
   Funktioniert mit einem oder mehreren ausgewählten Schlagworte.
-
-<!-- -->
-
 - **Stapelverarbeitung**: Gewählte Schlagworte in der Stapelverarbeitung
   nutzen. Funktioniert mit einem oder mehreren gewählten Schlagworten.
-
-<!-- -->
-
 - **Papierkorb**. Ändert den Status gewählter Schlagwörter auf
   „Papierkorb“.Schlagwörter können wieder hergestellt werden. Den
   Suchfilter „Papierkorb“ wählen und den Status gewählter Schlagwörter
@@ -213,12 +165,6 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   Papierkorb zu löschen, den Suchfilter „Papierkorb“ wählen und gewählte
   Schlagwörter durch Klick auf *Papierkorb leeren* in der Werkzeugleiste
   löschen.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.

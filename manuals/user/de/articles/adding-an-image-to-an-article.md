@@ -35,9 +35,6 @@ decoding="async" data-file-width="1000" data-file-height="508"
 width="1000" height="508" alt="Selecting an image" />
 
 1.  Wähle die gewünschten Bildeinstellungen:
-
-<!-- -->
-
 1.  - "Beschreibung": Dies wird als "alt"-Text des Bildes dargestellt,
       ein wichtiges Merkmal für die Übereinstimmung mit den
       Web-Standards.
@@ -59,14 +56,8 @@ width="1000" height="508" alt="Selecting an image" />
 
 1.  - **Ausrichtung**: Bildausrichtung festlegen. Standartmäßig ist es
       auf **Nicht definiert** gesetzt.
-
-<!-- -->
-
 1.  - **Beschriftung Klasse**: Fügt die eingegebene Klasse an das
       *figcaption* Element an.
-
-<!-- -->
-
 1.  Klick den *Einfügen* Button, um das Bild einzufügen. Das
     Bild-Einfügefenster wird geschlossen und das Bild erscheint im
     Editor. Oder klick den "Abbrechen" Button um das Bild-Einfügefenster
@@ -119,26 +110,14 @@ Du kannst auch Bilder einfügen, indem Du den "Upload-Bereich" im
   to store new images for the current article.
 
 1.  Klicke auf den "Durchsuchen"-Button um den Datei-Browser zu öffnen.
-
-<!-- -->
-
 1.  Wähle das Bild, dass Du hochladen willst. Klicke auf "Öffnen" im
     Datei-Browser um die Auswahl zu bestätigen. Hinweis: Stil und Layout
     des Datei-Browsers hängt davon ab, welchen Browser und welches
     Betriebssystem Du verwendest.
-
-<!-- -->
-
 1.  Die ausgewählten Datei(en) erscheinen im unteren Teil des "Bild
     Einfügen-Fensters". Klicken Sie auf "Hochladen starten", um mit dem
     Hochladen der Datei(en) zu beginnen.
-
-<!-- -->
-
 1.  - Wenn die Datei hochgeladen ist erscheint eine grüne Nachricht zur
       Bestätigung oben im Fenster.
-
-<!-- -->
-
 1.  Du kannst nun das hochgeladene Bild wie zuvor beschrieben auswählen
     und einfügen.

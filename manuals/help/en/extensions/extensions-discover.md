@@ -56,9 +56,6 @@ alt="Help-4x-Extensions-Extension-Manager-Discover-screen-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Name.** The name of the extension.
 - **Location.** Specifies if this is a site or administrator extension.
 - **Type.** The extension type - module, plug-in, template, language.
@@ -134,14 +131,8 @@ At the top of the page you will see the toolbar shown in the
   uninstalled extensions. Any uninstalled extensions found will be
   displayed in the extension listing. Caches the search results so they
   continue to be displayed on subsequent visits to this screen.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

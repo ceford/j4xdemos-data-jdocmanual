@@ -91,22 +91,10 @@ handelingen uitvoeren.
 
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Opslaan.** Slaat Verwijzingen opties op en blijft op het huidige
   scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat Verwijzingen opties op en sluit het
   huidige scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

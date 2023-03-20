@@ -42,9 +42,6 @@ banners para classificar a lista pelo valor dessa coluna.
   Outras, como "Editar", funcionam apenas em um item de cada vez. Se
   vários itens estiverem marcados e você pressionar "Editar", apenas o
   primeiro item será aberto para edição.
-
-<!-- -->
-
 - **Ordenação**: Você pode alterar a ordem de um item em uma lista da
   seguinte forma:
   - Se a lista das opções dos filtros incluir um filtro de posição,
@@ -63,18 +60,9 @@ banners para classificar a lista pelo valor dessa coluna.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> e
     arraste-o para cima ou para baixo para alterar a posição dessa linha
     na lista. Os itens serão exibidos na nova ordem dentro da posição.
-
-<!-- -->
-
 - **Estado**: O estado de publicação do item.
-
-<!-- -->
-
 - **Nome**: O nome do banner. Opção de edição - acione o (clique no)
   nome para abrir o banner para edição.
-
-<!-- -->
-
 - **Fixado**: *(Sim ou não)* Se o banner está "fixado" ou não. Se um ou
   mais banners em uma categoria forem designados como "fixados", eles
   terão prioridade sobre os banners que não forem fixos.
@@ -90,28 +78,16 @@ começarão a ser mostrados automaticamente.*
 
 - **Cliente**: O cliente para este banner. Os clientes são inseridos
   usando o gerenciador dos clientes para banners.
-
-<!-- -->
-
 - **Impressões (visualizações)**: A contagem dad impressões é o número
   de vezes que o banner foi emostrado em uma página. O primeiro número
   nesta coluna é o número real de impressões (visualizações) até o
   momento, e o segundo número é quantas impressões (visualizações) foram
   compradas pelo cliente.
-
-<!-- -->
-
 - **Acessos (cliques)**: O primeiro número é o número total de acessos
   (cliques) que foram feitos no banner desde que o contador foi zerado.
   O segundo número é a porcentagem do tempo em que o usuário acoonou o
   (clicou no) banner quando ele foi mostrado.
-
-<!-- -->
-
 - **Linguagem**: Linguagem do item.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -148,19 +124,10 @@ captura de tela acima. As funções são:
 
 - **Selecionar estado**: Seleciona entre lixeira / não publicado /
   publicado / arquivado / todos.
-
-<!-- -->
-
 - **Selecionar categoria**: Selecione a partir da lista das categorias
   disponíveis.
-
-<!-- -->
-
 - **Selecionar cliente**: Selecione a partir da lista dos clientes
   disponíveis.
-
-<!-- -->
-
 - 
 
 **Selecionar linguagem**: Seleciona na lista de linguagens disponíveis.
@@ -186,14 +153,8 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo banner.
-
-<!-- -->
-
 - **Ações**: Revela uma lista de ações para os itens selecionados.
   Marque uma ou mais caixas de seleção de itens para ativar a lista.
-
-<!-- -->
-
   - **Publicar**: Disponibiliza os banner selecionados para os
     visitantes do seu site.
 
@@ -220,14 +181,8 @@ de tela](#Captura_de_tela) acima. As funções são:
 
   - **Lote**: Processa em lote os banner selecionados. Funciona com um
     ou vários itens selecionados.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 Consulte [Opções do gerenciador dos

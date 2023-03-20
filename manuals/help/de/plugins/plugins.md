@@ -35,9 +35,6 @@ alt="Help-4x-Extensions-Plugin-Manager-screen-de.png" />
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Reihenfolge.** Die Reihenfolge eines Eintrags innerhalb einer Liste
   kann wie folgt geändert werden:
   - Wenn die Liste Filter-Optionen einen Positions-Filter enthält, dann
@@ -58,15 +55,9 @@ alt="Help-4x-Extensions-Plugin-Manager-screen-de.png" />
     wählen und es nach oben oder unten ziehen, um die Position dieser
     Zeile in der Liste zu ändern. Die Einträge werden in der neuen
     Reihenfolge innerhalb der Position angezeigt.
-
-<!-- -->
-
 - **Status.** Ein grüner Haken oder ein rotes Kreuz zeigen den
   aktivierten/deaktivierten Status der Komponente an. Zum Ändern des
   Status auf das Symbol klicken.
-
-<!-- -->
-
 - **Pluginname:** Der Name des Plugins.
 - **Typ.** Der Typ des Plugins. Einige Typen sind: authentication,
   content, editors, editors-xtd, search, system und user. Diese
@@ -89,9 +80,6 @@ alt="Help-4x-Extensions-Plugin-Manager-screen-de.png" />
   - Registriert: Nur Benutzer mit dem Status „registriert“ oder höher
     haben Zugriff
   - Spezial: Nur Benutzer mit Autorenstatus oder höher haben Zugriff
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -146,26 +134,14 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   werden. Alternativ kann zwischen Aktiviert und Deaktiviert
   umgeschaltet werden, indem man auf das Symbol in der Spalte *Status'
   klickt.*
-
-<!-- -->
-
 - **Deaktivieren**: Macht gewählte Plugins für die Besucher der Webseite
   unsichtbar. Alternativ kann zwischen Aktiviert und Deaktiviert
   umgeschaltet werden, indem man auf das Symbol in der Spalte *Status*
   klickt.
-
-<!-- -->
-
 - **Freigeben**. Gibt die ausgewählten Plugins wieder frei. Funktioniert
   mit einem oder mehreren ausgewählten Plugins.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

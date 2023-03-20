@@ -47,19 +47,10 @@ handelingen uitvoeren.
 
 - Selecteer de **Groep** door op de titel aan de linkerzijde te klikken.
 - Zoek de gewenste **Actie**. Mogelijke Acties zijn:
-
-<!-- -->
-
   - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
     van deze extensie bewerken.
-
-<!-- -->
-
   - **Alleen instellingenopties**. Gebruikers kunnen van deze extensie
     de opties bewerken, behalve de rechten.
-
-<!-- -->
-
   - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
     de beheerdersinterface van deze extensie.
   - **Maken:** Gebruikers mogen inhoud voor deze extensie aanmaken.
@@ -91,20 +82,11 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

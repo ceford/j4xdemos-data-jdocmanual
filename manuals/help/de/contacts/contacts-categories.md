@@ -35,9 +35,6 @@ sortieren.
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Reihenfolge.** Die Reihenfolge eines Eintrags innerhalb einer Liste
   kann wie folgt geändert werden:
   - Wenn die Liste Filter-Optionen einen Positions-Filter enthält, dann
@@ -58,68 +55,38 @@ sortieren.
     wählen und es nach oben oder unten ziehen, um die Position dieser
     Zeile in der Liste zu ändern. Die Einträge werden in der neuen
     Reihenfolge innerhalb der Position angezeigt.
-
-<!-- -->
-
 - **Status**. Der Veröffentlichungs-Status des Eintrags.
-
-<!-- -->
-
 - **Titel**. Der Name des Eintrags. Bei einem Menüeintrag wird der Titel
   im Menü angezeigt. Bei einem Beitrag oder einer Kategorie wird der
   Titel wahlweise in der Webseite angezeigt. Der Eintrag ist
   erforderlich. Das Element kann durch Klick auf den Titel geöffnet
   werden.
-
-<!-- -->
-
 - **Veröffentlicht:**
   <img src="https://docs.joomla.org/images/1/10/Help-4x-icon-tick.png"
   decoding="async" data-file-width="27" data-file-height="20" width="27"
   height="20" alt="Help-4x-icon-tick.png" /> Die Anzahl der
   veröffentlichten Artikel. Ein Klick auf die Ziffer zeigt eine Liste
   mit genau diesen Einträgen an.
-
-<!-- -->
-
 - **Versteckt:**
   <img src="https://docs.joomla.org/images/c/c9/Help-4x-icon-cross.png"
   decoding="async" data-file-width="21" data-file-height="20" width="21"
   height="20" alt="Help-4x-icon-cross.png" /> Die Anzahl der versteckten
   Artikel. Ein Klick auf die Ziffer zeigt eine Liste mit genau diesen
   Einträgen an.
-
-<!-- -->
-
 - **Archiviert.** Ob und wenn ja wie viele Einträge archiviert sind. Ein
   Klick auf die Ziffer zeigt die archivierten Elemente.
-
-<!-- -->
-
 - **Papierkorb**
   <img src="https://docs.joomla.org/images/5/59/Help-4x-icon-bin.png"
   decoding="async" data-file-width="18" data-file-height="20" width="18"
   height="20" alt="Help-4x-icon-bin.png" /> Die Anzahl der im Papierkorb
   liegenden Einträge. Ein Klick auf die Ziffer zeigt eine Liste mit
   genau diesen Einträgen an.
-
-<!-- -->
-
 - **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   des Eintrags.
-
-<!-- -->
-
 - **Verknüpfung.** Zeigt an, mit welchem anderen Menüeintrag dieser
   Eintrag verknüpft ist.
-
-<!-- -->
-
 - **Sprache**. Die Sprachzuordnung des Eintrags.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -150,27 +117,15 @@ im oberen Bereich.
   Standardwert für die Site ist '20', er kann in der
   [Konfiguration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/de#defaultlistlimit "Help4.x:Site Global Configuration/de")
   geändert werden.
-
-<!-- -->
-
 - **Status wählen**. Auswahl von Papierkorb / Versteckt / Veröffentlicht
   / Archiviert / Alle.
-
-<!-- -->
-
 - **Zugriffsebene wählen**. Aus den verfügbaren Zugriffsebenen
   auswählen.
-
-<!-- -->
-
 - 
 
 **Sprache wählen**. Aus den verfügbaren Sprachen auswählen.
 
 - **Schlagwort wählen**. Aus den verfügbaren Schlagwörtern auswählen.
-
-<!-- -->
-
 - **Max. Ebenen wählen**. Aus den verfügbaren Ebenen auswählen.
 
 **Seitenkontrolle**. Gibt es mehr Einträge als auf der Seite gezeigt,
@@ -246,15 +201,9 @@ Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Neu**: Öffnet das Bearbeitungs-Formular, um Kategorie zu erstellen.
-
-<!-- -->
-
 - **Aktionen:** Zeigt eine Liste von Aktionen für ausgewählte Objekte
   an. Ein oder mehrere Auswahlkästchen für Einträge markieren, um die
   Liste zu aktivieren.
-
-<!-- -->
-
   - **Veröffentlichen**: Macht die gewählten Kategorie auf der Webseite
     für Besucher verfügbar.
 
@@ -280,16 +229,10 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   - **Stapelverarbeitung**: Gewählte Kategorien in der
     Stapelverarbeitung nutzen. Funktioniert mit einem oder mehreren
     gewählten Kategorienn.
-
-<!-- -->
-
 - **Wiederherstellen.** Rekonstruiert und aktualisiert die
   Kategorie-Tabelle. Üblicherweise muß diese Tabelle *nicht*
   wiederhergestellt werden. Die Funktion ist für den Fall einer
   beschädigten Tabelle gedacht.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können. Siehe [Kontakte:
   Optionen](https://docs.joomla.org/Help4.x:Contacts:_Options/de "Help4.x:Contacts: Options/de")

@@ -57,16 +57,10 @@ alt="Help-4x-Extensions-Language-Manager-Edit-screen-nl.png" />
   gebruikt wordt.
 - **Status.** Beschikbare opties zijn Gepubliceerd, Gedepubliceerd,
   Verplaatst naar prullenbak.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
 - **Beschrijving**. Vul een beschrijving in voor de taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -88,25 +82,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips
@@ -122,14 +104,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   de zoekmodule in het Spaans.
 - Deze keuze van de gebruiker wordt niet beïnvloed door de standaard
   taal die is ingesteld voor de website.
-
-<!-- -->
-
 - Het wijzigen van de taal van een gebruiker of de standaard taal
   beïnvloed de artikelen en andere inhoud op de website niet.
-
-<!-- -->
-
 - **Belangrijk**: Verwijder de standaard taalbestanden niet
   (bijvoorbeeld via FTP). Dit veroorzaakt fouten op zowel de website als
   in het beheergedeelte.

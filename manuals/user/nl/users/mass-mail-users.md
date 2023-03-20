@@ -56,20 +56,11 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Verstuur bericht**. Verzend de e-mail en keert terug naar het hoofd
   Groepsmail scherm
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

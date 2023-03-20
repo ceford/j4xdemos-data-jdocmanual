@@ -13,9 +13,6 @@ Aanmaken van een nieuw 'Wachtwoord herinstellen' menu-itemː
 
 - Selecteer **Menu's **→** \[naam van het menu\]** vanuit het beheermenu
   (bijvoorbeeld, **Menu's **→** Hoofdmenu**). Dan...
-
-<!-- -->
-
   - Selecteer de **Nieuw** knop in de werkbalk. Dan...
   - Klik op de Menu-itemtype selectie knop. <img
     src="https://docs.joomla.org/images/thumb/8/8f/Help-4x-Menu-Item-Type-Select-Button-nl.png/81px-Help-4x-Menu-Item-Type-Select-Button-nl.png"
@@ -23,9 +20,6 @@ Aanmaken van een nieuw 'Wachtwoord herinstellen' menu-itemː
     srcset="https://docs.joomla.org/images/thumb/8/8f/Help-4x-Menu-Item-Type-Select-Button-nl.png/122px-Help-4x-Menu-Item-Type-Select-Button-nl.png 1.5x, https://docs.joomla.org/images/8/8f/Help-4x-Menu-Item-Type-Select-Button-nl.png 2x"
     data-file-width="124" data-file-height="43" width="81" height="28"
     alt="Help-4x-Menu-Item-Type-Select-Button-nl.png" />
-
-<!-- -->
-
   - Selecteer in de modale dialoog het 'Gebruikers' item om een lijst te
     openen en selecteer daarna het **Wachtwoord herinstellen** item.
 
@@ -45,9 +39,6 @@ alt="Help-4x-Menus-Menu-Item-User-Password-Reset-nl.png" />
 ## Formulier velden
 
 - **Titel**. De titel die wordt getoond voor dit menu item.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -61,34 +52,19 @@ alt="Help-4x-Menus-Menu-Item-User-Password-Reset-nl.png" />
 - **Menu-itemtype**. Het menu-item type dat geselecteerd is toen het
   mneu-item aangemaakt werd. Dit kan een van de core menu-item types
   zijn of een menu-item type geleverd door een geïnstalleerde extensie.
-
-<!-- -->
-
 - **Link**. De door het systeem gegenereerde link voor dit menu-item.
   Dit veld kan niet veranderd worden en is alleen ter informatie.
-
-<!-- -->
-
 - **Doelvenster.** Selecteer uit de uitklaplijst.
-
-<!-- -->
-
 - **Templatestijl.** Selecteer uit de uitklaplijst.
 
 **Rechter venster**
 
 - **Menu**. Toont in welk menu de link zal verschijnen.
-
-<!-- -->
-
 - **Hoofditem.** Het bovenliggend menu-item voor dit menu-item. Gebruikt
   om vast te stellen of een menu-item top-niveau item of een sub-menu
   item is. Selecteer 'Menu-item root' (de standaard waarde) als dit een
   top-niveau menu-item is. Selecteer anders het Menu-item dat het
   bovenliggende item van het item is.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -108,27 +84,15 @@ alt="Help-4x-Menus-Menu-Item-User-Password-Reset-nl.png" />
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Standaard pagina**. Indien Ja, is dit menu-item de standaard of home
   pagina van de website. Er mag exact één menu-item ingesteld zijn als
   standaard pagina. U kunt de standaard pagina op twee manieren
@@ -138,19 +102,10 @@ alt="Help-4x-Menus-Menu-Item-User-Password-Reset-nl.png" />
       scherm.
   2.  Open het menu-item voor de nieuwe standaard pagina en wijzig de
       Standaard pagina instellingen op Ja.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -174,24 +129,12 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Website schermafbeelding

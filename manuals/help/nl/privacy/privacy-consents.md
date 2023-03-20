@@ -61,14 +61,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Toestemming afwijzen.** Actief als er een item geselecteerd is.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

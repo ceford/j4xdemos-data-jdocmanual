@@ -45,9 +45,6 @@ valeur de cette colonne.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -66,18 +63,9 @@ valeur de cette colonne.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Name.** The name of the Banner. Editing Option - 'click' on the name
   to open the Banner for editing.
-
-<!-- -->
-
 - **Pinned**. *(Yes or No)* Whether or not the Banner is "pinned". If
   one or more Banners in a Category are designated "sticky," they will
   take priority over Banners that are not sticky.
@@ -92,27 +80,15 @@ displaying automatically.*
 
 - **Client.** The Client for this Banner. Clients are entered using the
   Banner Client Manager.
-
-<!-- -->
-
 - **Impressions.** The Impression count is the number of times the
   Banner has been displayed on a page. The first number in this column
   is the actual number of Impressions so far, and the second number is
   how many Impressions were purchased by the client.
-
-<!-- -->
-
 - **Clicks.** The first number is the total number of clicks that have
   been made on the Banner since the counter was reset. The second number
   is what percentage of the time user clicked on the banner when it was
   displayed.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -149,22 +125,10 @@ Screenshot above. The functions are:
 
 - **Select Status**. Select from Trashed / Unpublished / Published /
   Archived / All.
-
-<!-- -->
-
 - **Select Category**. Select from the list of available categories.
-
-<!-- -->
-
 - **Select Client**. Select from the list of available clients.
-
-<!-- -->
-
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
-
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 
 **Page Controls**. When the number of items is more than one page, you
@@ -184,14 +148,8 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new bannière.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
   - **Publish**. Makes the selected bannière available to visitors to
     your website.
 
@@ -216,14 +174,8 @@ At the top of the page you will see the toolbar shown in the
 
   - **Batch**. Batch processes the selected bannière. Works with one or
     multiple items selected.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 Voir [Options du gestionnaire de

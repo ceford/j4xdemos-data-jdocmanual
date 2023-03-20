@@ -61,15 +61,9 @@ title="File:Help-4x-module-manager-details-screenshot-en.png">Help-4x-module-man
 
 - **Title.** The title of the module. This is also the title displayed
   for the module depending on the *Show Title* Form Field
-
-<!-- -->
-
 - **Show Title.** (Show/Hide) Choose whether to show or hide the modules
   title in the front end. The title will be the one in the Form Field
   above.
-
-<!-- -->
-
 - **Position.** Choose the [module
   position](https://docs.joomla.org/Module_Position/en "Module Position/en")
   you wish this module to be displayed in. A custom module position can
@@ -77,44 +71,23 @@ title="File:Help-4x-module-manager-details-screenshot-en.png">Help-4x-module-man
   plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/en "How do you put a module inside an article?/en")
   or the position button can be pressed to select a module position from
   the template.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels "Special:MyLanguage/Help4.x:Users: Viewing Access Levels")
   for this item.
-
-<!-- -->
-
 - **Module Ordering.** This shows a drop down of every module in the
   position that the current module is in. This is the order that the
   modules will display in when displayed on in the front end as well as
   in the
   [Modules](https://docs.joomla.org/Help4.x:Modules/en "Help4.x:Modules/en")
   page.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -126,9 +99,6 @@ title="File:Help-4x-module-manager-details-screenshot-en.png">Help-4x-module-man
 - **Module Assignment.** Select **On All Pages**, **No Pages**, **Only
   on the pages selected** or **On all pages except those selected** from
   the List.
-
-<!-- -->
-
 - **Menu Selection.** If the latter two options are selected a list will
   show all of the menu items. This allows you to assign modules to some
   but not all pages, and by selecting the menu links that you want the
@@ -168,9 +138,6 @@ alt="Help-4x-module-manager-advanced-options-screenshot-en.png" />
 - **Layout.** If you have defined one or more alternative layouts for a
   module either in the template or Joomla! Core, you can select the
   layout to use for this module.
-
-<!-- -->
-
 - **Module Class.** A suffix applied to the CSS class of the Module.
   This allows you to create customized CSS styles that will apply just
   to this module. You would then modify the "template.css" file of your
@@ -178,42 +145,21 @@ alt="Help-4x-module-manager-advanced-options-screenshot-en.png" />
   - Enter this parameter with a leading space to create a new CSS class
     for this module. Enter the parameter without a leading space to
     change the CSS class name for this module.
-
-<!-- -->
-
 - **Caching.** Use Global/No Caching. Whether or not to cache the
   content of this Module. A setting of "Use Global" will use the Cache
   Settings from the Global Configuration screen.
-
-<!-- -->
-
 - **Cache Time.** The number of seconds for which to cache the item
   locally. It can safely be left at the default.
-
-<!-- -->
-
 - **Module Style.** You can use this option to override the templates
   style for its position.
-
-<!-- -->
-
 - **Module Tag.** The HTML tag for the module to be placed in. By
   default this is a div tag but other HTML5 elements can also be used.
-
-<!-- -->
-
 - **Bootstrap Size.** (Values 0 to 12) This allows you to choose the
   width of the module via the span element built into bootstrap.
-
-<!-- -->
-
 - **Header Tag.** The HTML tag to use for the modules header or title.
   This can be an h1, h2, h3, h4, h5, h6 or a p tag. Note that you must
   use a module style (chrome) of *html5* or add your custom module
   styles in \<mytemplate\>*/html/modules.php*.
-
-<!-- -->
-
 - **Header Class.** Here you can add optional CSS classes to add to the
   modules header or title element.
 

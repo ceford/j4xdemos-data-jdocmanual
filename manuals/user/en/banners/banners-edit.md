@@ -37,9 +37,6 @@ alt="Help-4x-Components-Banners-Banners-Edit-screen-en.png" />
 - **Name.** The name of the Banner. This is the name that will display
   in the *Name* column of the [Banner
   Manager](https://docs.joomla.org/Help4.x:Banners/en "Help4.x:Banners/en").
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -79,9 +76,6 @@ alt="Help-4x-Components-Banners-Banners-Edit-screen-en.png" />
 **Right Panel**
 
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Pinned**. *(Yes or No)* Whether or not the Banner is "pinned". If
   one or more Banners in a Category are designated "sticky," they will
   take priority over Banners that are not sticky.
@@ -95,9 +89,6 @@ banners will no longer display, and the non-pinned banners will begin
 displaying automatically.*
 
 - **Language**. Item language.
-
-<!-- -->
-
 - **Version Note**. Optional field to identify this version of the item
   in the item's [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/en "Special:MyLanguage/Help40:Components Version History/en")
@@ -121,9 +112,6 @@ alt="Help-4x-Components-Banners-Banners-Edit-Banners-Details-Tab-en.png" />
 - **Total Clicks.** The number of times this Banner has been clicked. No
   entry is allowed. You can reset this number to 0 by pressing the
   'Reset clicks' button.
-
-<!-- -->
-
 - **Client.** The Client for this Banner. Clients are entered using the
   Banner Client Manager.
 
@@ -165,34 +153,16 @@ and select a date from the calendar.
 
 - **Created Date**. Date the item(Article, Category, Weblink, etc.) was
   created.
-
-<!-- -->
-
 - **Created By**. Name of the Joomla User who created this item. This
   will default to the currently logged-in user. If you want to change
   this to a different user, click the Select User button to select a
   different user.
-
-<!-- -->
-
 - **Created by Alias**. This optional field allows you to enter in an
   alias for this Author for this Article. This allows you to display a
   different Author name for this Article.
-
-<!-- -->
-
 - **Modified Date**. Date of last modification.
-
-<!-- -->
-
 - **Modified By**. Username who performed the last modification.
-
-<!-- -->
-
 - **Revision**. Number of revisions to this item.
-
-<!-- -->
-
 - **Keywords**. Optional entry for keywords. Must be entered separated
   by commas (for example, "cats, dogs, pets") and may be entered in
   upper or lower case. (For example, "CATS" will match "cats" or
@@ -218,15 +188,9 @@ and select a date from the calendar.
       example, if the current Article displayed has the keywords "cats,
       dogs, monkeys", any other Articles with at least one of these
       keywords will show in the 'Articles - Related' module.
-
-<!-- -->
-
 - **Use Own Prefix.** Whether or not to use the banner's prefix or that
   of the client. Select *No* if you want to use the prefix of the banner
   client.
-
-<!-- -->
-
 - **Meta Keyword Prefix:** When matching meta keywords, only search for
   meta keywords with these optional prefixes. This improves performance.
 
@@ -236,43 +200,22 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Versions**. Opens the Item Version History window to show any prior
   versions of this item. This allows you to view older versions of this
   item and, if desired, restore from an older version. See [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/en "Special:MyLanguage/Help40:Components Version History/en")
   for more information.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

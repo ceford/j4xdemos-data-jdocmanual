@@ -112,43 +112,19 @@ De functies zijn.
   toepassing), wordt alleen het eerste item geopend. Het
   bewerkingsscherm kan ook worden geopend door te klikken op de Naam van
   het item.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Inschakelen**. Maakt de selecteerde items beschikbaar om te
   gebruiken op uw website.
-
-<!-- -->
-
 - **Uitschakelen**. Maakt de selecteerde items niet beschikbaar om te
   gebruiken op uw website.
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde items. Werkt met één of
   meerdere items geselecteerd.
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde items in. Werkt bij één of meer
   items geselecteerd.
-
-<!-- -->
-
 - **Opnieuw opbouwen.** Ververst en stelt de relevant tabel opnieuw
   samen. Normaal hoeft u de tabel *niet* opnieuw op te bouwen. Deze
   functie voorziet in het geval de data in de tabel corrupt raakt.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

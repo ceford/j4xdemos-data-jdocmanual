@@ -37,9 +37,6 @@ title="File:Help-4x-Components-Banners-Banners-Edit-screen-pt-br.png">800px</a>
 - **Nome**: O nome do banner. Este é o nome que será mostrado na coluna
   *Nome* do [gerenciador para
   banners](https://docs.joomla.org/Help4.x:Banners/pt-br "Help4.x:Banners/pt-br").
-
-<!-- -->
-
 - **Alias**: O nome interno do item. Normalmente, você pode deixar em
   branco e o Joomla preencherá um valor padrão de título em letras
   minúsculas e com traços em vez de espaços. [Saiba
@@ -82,9 +79,6 @@ title="File:Help-4x-Components-Banners-Banners-Edit-screen-pt-br.png">800px</a>
 **Painel direito**
 
 - **Estado**: O estado de publicação do item.
-
-<!-- -->
-
 - **Fixado**: *(Sim ou não)* Se o banner está "fixado" ou não. Se um ou
   mais banners em uma categoria forem designados como "fixados", eles
   terão prioridade sobre os banners que não forem fixos.
@@ -99,9 +93,6 @@ banners fixados não serão mais mostrados e os que não são fixados
 começarão a ser mostrados automaticamente.*
 
 - **Linguagem**: Linguagem do item.
-
-<!-- -->
-
 - **Nota da versão**: Campo opcional para identificar esta versão do
   item na janela do [histórico das
   versões](https://docs.joomla.org/Help40:Components_Version_History/pt-br "Special:MyLanguage/Help40:Components Version History/pt-br")
@@ -125,9 +116,6 @@ title="File:Help-4x-Components-Banners-Banners-Edit-Banners-Details-Tab-pt-br.pn
 - **Total de acionamentos**: a quantidade de vezes que este banner foi
   acionado. Nenhuma entrada é permitida. Você pode redefinir esse número
   para 0 pressionando o botão "Redefinir acionamentos".
-
-<!-- -->
-
 - **Cliente**: O cliente para este banner. Os clientes são inseridos
   usando o gerenciador dos clientes para banners.
 
@@ -168,35 +156,17 @@ e selecione um data no calendário.
 
 - **Data da criação**: Data em que o item (artigo, categoria, link da
   web etc.) foi criado.
-
-<!-- -->
-
 - **Criado por**: Nome do usuário que criou este item em seu Joomla!.
   Por padrão, será o usuário conectado no momento. Se você quiser mudar
   isso para um usuário diferente, acione o (clique no) botão "Selecionar
   usuário" para selecionar um usuário diferente.
-
-<!-- -->
-
 - **Criado pelo alias**: Este campo opcional permite que você insira um
   alias para este autor para este artigo. Isso permite que você mostre
   um nome de autor diferente para este artigo.
-
-<!-- -->
-
 - **Data da modificação**: Data da última modificação.
-
-<!-- -->
-
 - **Modificado por**: Nome como usuário de quem executou a última
   modificação.
-
-<!-- -->
-
 - **Revisão**: Número das revisões neste item.
-
-<!-- -->
-
 - **Palavras-chaves**: Entrada opcional para palavras-chaves. Precisam
   ser inseridas separadas por vírgulas (por exemplo, "gatos, cachorros,
   animais de estimação") e podem ser inseridas em letras maiúsculas ou
@@ -228,15 +198,9 @@ e selecione um data no calendário.
       as palavras-chaves "gatos, cachorros, macacos", quaisquer outros
       artigos com pelo menos uma dessas palavras-chaves serão exibidos
       no módulo "Artigos - Relacionados".
-
-<!-- -->
-
 - **Usar prefixo próprio**: Se deve ou não usar o prefixo do banner ou
   do cliente. Selecione *Não* se quiser usar o prefixo do cliente do
   banner.
-
-<!-- -->
-
 - **Prefixo para meta palavras-chaves**: Ao fazer a correspondência das
   meta palavras-chaves, pesquisa apenas meta palavras-chaves com esses
   prefixos opcionais. Isso melhora o desempenho.
@@ -247,44 +211,23 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Salvar**: Salva o item e permanece na tela atual.
-
-<!-- -->
-
 - **Salvar fechar**: Salva o item e fecha a tela atual.
-
-<!-- -->
-
 - **Salvar & novo**: Salva o item e mantém a tela de edição aberta e
   pronta para criar outro item.
-
-<!-- -->
-
 - **Salvar como cópia**: Salva suas alterações em uma cópia do item
   atual. Não afeta o item atual. Este ícone da barra de ferramentas não
   é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Cancelar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que você tenha feito. Ou
-
-<!-- -->
-
 - **Fechar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que tenha feito. Este ícone da barra de
   ferramentas não é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Versões**: Abre a janela do histórico das versões do item para
   mostrar as versões anteriores deste item. Isso permite que você
   visualize versões mais antigas deste item e, se desejar, restaure a
   partir de uma versão mais antiga. Consulte [histórico das
   versões](https://docs.joomla.org/Help40:Components_Version_History/pt-br "Special:MyLanguage/Help40:Components Version History/pt-br")
   para mais informações.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

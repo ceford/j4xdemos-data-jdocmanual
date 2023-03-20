@@ -34,9 +34,6 @@ coluna.
   Outras, como "Editar", funcionam apenas em um item de cada vez. Se
   vários itens estiverem marcados e você pressionar "Editar", apenas o
   primeiro item será aberto para edição.
-
-<!-- -->
-
 - **Ordenação**: Você pode alterar a ordem de um item em uma lista da
   seguinte forma:
   - Se a lista das opções dos filtros incluir um filtro de posição,
@@ -55,35 +52,17 @@ coluna.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> e
     arraste-o para cima ou para baixo para alterar a posição dessa linha
     na lista. Os itens serão exibidos na nova ordem dentro da posição.
-
-<!-- -->
-
 - **Estado**: O estado de publicação do item.
-
-<!-- -->
-
 - **Título**: O nome do objeto. Para um item de menu, o título será
   exibido no menu. Para um artigo ou uma categoria, o título pode,
   opcionalmente, ser exibido na página web. Esta entrada é obrigatória.
   Você pode abrir o item para edição clicando no título.
-
-<!-- -->
-
 - **Acessos (visualizações)**: A quantidade de vezes que um item foi
   visualizado.
-
-<!-- -->
-
 - **Acesso**: O [nível de acesso de
   visualização](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/pt-br "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/pt-br")
   para este item.
-
-<!-- -->
-
 - **Linguagem**: Linguagem do item.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -131,30 +110,18 @@ pesquisa mostrada na [captura de tela](#screenshot) acima.
   - ***Arquivado***: Mostra apenas os itens que estão arquivados.
   - ***Todos***: Mostra todos os itens independentemente do estado da
     publicação.
-
-<!-- -->
-
 - ***- Selecionar acesso -*** Mostra itens com qualquer nível do acesso
   para visualização.
   - **: Mostra itens apenas com este nível do acesso para visualização.
-
-<!-- -->
-
 - ***- Selecionar linguagem -***: Mostra todos os itens
   independentemente da linguagem definida.
   - **: Mostra os itens apenas para esta linguagem.
   - ***Todas***: Mostra os itens nos quais a linguagem está definida
     como "Todas". Estes podem ser os itens que não são específicos para
     linguagens, como imagens.
-
-<!-- -->
-
 - ***- Selecionar tags -*** Mostra os itens com quaisquer (ou nenhuma)
   tag(s).
   - **: Mostra apenas os itens com esta tag.
-
-<!-- -->
-
 - ***- Selecionar o máximo de níveis -***: Mostra todos os itens,
   independentemente da quantidade de níveis atribuída.
   - ***1***: Mostra apenas os itens com este nível na hierarquia.
@@ -181,25 +148,13 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo item.
-
-<!-- -->
-
 - **Ações**: Revela uma lista de ações para os itens selecionados.
   Marque uma ou mais caixas de seleção de itens para ativar a lista.
-
-<!-- -->
-
 - **Reconstruir**: Reconstrói e atualiza a tabela relevante.
   Normalmente, você "não" precisa reconstruir esta tabela. Esta função é
   fornecida caso os dados na tabela passem a estar corrompidos.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Processo em lote

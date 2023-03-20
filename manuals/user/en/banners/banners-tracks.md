@@ -21,9 +21,6 @@ alt="Help-4x-Components-Banners-Tracks-screen-en.png" />
 Click on a column heading to sort the list by that column's value.
 
 - **Name.** The name and category of the banner.
-
-<!-- -->
-
 - **Client.** The Client for this Banner. Clients are entered using the
   Banner Client Manager.
 - **Type.** The type of the track. This is an impression or a click.
@@ -55,13 +52,7 @@ shown in the [Screenshot](#screenshot) above.
   from the dropdown list to change the number displayed.The default for
   a site is '20' but this may be changed in the [Global
   Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#defaultlistlimit "Help4.x:Site Global Configuration/en").
-
-<!-- -->
-
 - **Select Category**. Select from the list of available categories.
-
-<!-- -->
-
 - **Select Client**. Select from the list of available clients.
 
   
@@ -76,9 +67,6 @@ alt="Help30-colheader-select-track-type-en.png" />
 
 - ***- Select Type -:*** Show items assigned to any type.
 - ***:*** Show items assigned only to this type.
-
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 
 **Begin and End date.**
@@ -105,14 +93,8 @@ At the top of the page you will see the toolbar shown in the
 - **Export**. Opens a window where you will be able export the Banner
   Tracks.
 - **Delete Tracks**. Will delete the selected Banner Tracks.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 See [Article Manager

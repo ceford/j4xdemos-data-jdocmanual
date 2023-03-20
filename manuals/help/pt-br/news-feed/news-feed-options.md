@@ -143,9 +143,6 @@ back-end) são mostradas abaixo.
 - *Título*: Filtra pelo título do artigo.
 - *Autor*: Filtra pelo nome do autor.
 - *Acessos*: Filtra pelo número dos acessos (cliques) ao artigo.
-
-<!-- -->
-
 - **Mostrar seleção**: (Mostrar/ocultar) Mostra ou oculta o controle
   para exibição da quantidade que permite ao usuário selecionar a
   quantidade de itens a serem mostrados na lista. Um exemplo é mostrado
@@ -179,9 +176,6 @@ Caso não, a lista será mostrada sem os títulos.
   ou ocultar a quantidade de artigos em cada feed.
 - **Links dos feeds**: (Mostrar/ocultar). Se é necessário mostrar ou
   ocultar o URL dos links dos feeds.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -198,9 +192,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -263,19 +254,10 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Salvar**: Salva o item e permanece na tela atual.
-
-<!-- -->
-
 - **Salvar fechar**: Salva o item e fecha a tela atual.
-
-<!-- -->
-
 - **Fechar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que tenha feito. Este ícone da barra de
   ferramentas não é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

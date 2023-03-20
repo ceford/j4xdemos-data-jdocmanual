@@ -61,9 +61,6 @@ alt="Help31-Components-Smart-Search-Manager-columns-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Status**. The status of the content item within Smart Search.
   Published items are shown with a green tick; unpublished items by a
   red circle. You can change the status of an item by clicking on the
@@ -111,9 +108,6 @@ shown in the [Screenshot](#screenshot) above.
   is independent of their published state elsewhere.
 - **Filter by type of content**. Select the content item type from the
   drop-down list.
-
-<!-- -->
-
 - **Search Content Maps**. Optional, used to search in content map
   title.
 
@@ -138,13 +132,7 @@ At the top of the page you will see the toolbar shown in the
   website.
 - **Unpublish.** Makes the selected items unavailable to visitors to
   your website.
-
-<!-- -->
-
 - **Statistics:** Shows some basic statistics on Smart Search.
-
-<!-- -->
-
 - **Delete:** Deletes the selected content items. Works with one or
   multiple content items selected. Deleting a content item from Smart
   Search only deletes it from the index and does not affect the content
@@ -155,9 +143,6 @@ At the top of the page you will see the toolbar shown in the
   the content filters. You must manually re-enter the content filter
   settings after a Purge-Index cycle.
 - **Help**. Opens this help screen.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited. See [Smart Search:
   Options](https://docs.joomla.org/Help4.x:Smart_Search:_Options/en "Help4.x:Smart Search: Options/en")

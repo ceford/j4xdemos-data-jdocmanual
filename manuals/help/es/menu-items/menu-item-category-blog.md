@@ -137,23 +137,14 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-es.png" />
 - **Orden en columnas múltiples**. En el diseño blog de columnas
   múltiples, sirve para ordenar los artículos en formato hacia Abajo o
   Cruzado de las columnas.
-
-<!-- -->
-
   - Abajo: Orden de los artículos van hacia abajo en la primera columna
     y, a continuación, a la siguiente columna, por ejemplo:
 
 - 
-
-<!-- -->
-
   - Cruzado: El orden de los artículos va a través de las columnas y, a
     continuación, vuelve a la primera columna, por ejemplo:
 
 - 
-
-<!-- -->
-
 - **Cantidad de enlaces**. El número de Enlaces a mostrar en los "Links"
   de la página. Estos enlaces permiten a un Usuario ver enlaces a otros
   Artículos, si no caben más Artículos en la primera página del Diseño

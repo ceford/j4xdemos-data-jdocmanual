@@ -36,9 +36,6 @@ width="800" height="812" alt="Help-4x-Menus-Menu-Item-Wrapper-en.png" />
 ## Form Fields
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -51,9 +48,6 @@ width="800" height="812" alt="Help-4x-Menus-Menu-Item-Wrapper-en.png" />
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **URL**. Field to enter a URL (web page address.
 
 Generally, it is a good idea to always add http:// or https:// when
@@ -67,13 +61,7 @@ make sure the 'Auto add' function is disabled.*
 
 - **Link**. The system-generated link for this menu item. This field
   cannot be changed and is for information only.
-
-<!-- -->
-
 - **Target Window.** Select from the drop-down list.
-
-<!-- -->
-
 - **Template Style.** Select from the drop-down list.
 
 **Right Panel**
@@ -104,15 +92,9 @@ alt="Help-4x-Menus-Menu-Item-Wrapper-Scroll-Bar-parameters-screenshot-en.png" />
 - **Scroll Bars:** *(No/Yes/Auto)* Whether or not to include horizontal
   and vertical scroll bars, no or yes. Auto will add the scroll bars
   automatically when needed because of embedded page size.
-
-<!-- -->
-
 - **Width:** Width of the IFrame Window. Enter in a number of pixels or
   enter in a percentage (%). For example, "550" means 550 pixels. "75%"
   means 75% of the page width.
-
-<!-- -->
-
 - **Height**. Height of the IFrame Window. Enter in a number of pixels
   or enter in a percentage (%). For example, "550" means 550 pixels.
   "75%" means 75% of the page height.
@@ -130,15 +112,9 @@ alt="Help-4x-Menus-Menu-Item-Wrapper-Advanced-options-screenshot-en.png" />
   domain**. For example, `http://www.example.com` the external html must
   be in the `example.com` root file structure. Sub domains will not
   work, as a sub domain is considered a separate domain.
-
-<!-- -->
-
 - **Auto add**. Automatically prefix web address with http://. This
   feature will automatically detect and not prefix a URL with http:// or
   https:// already used in the URL.
-
-<!-- -->
-
 - **Frame border**. Add a border around the IFrame window.
 
 ### Link Type Tab
@@ -191,27 +167,12 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the menu item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the menu item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the menu item and keeps the editing screen open
   and ready to create another menu item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current menu
   item. Does not affect the current menu item. This toolbar icon is not
   shown if you are creating a new menu item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

@@ -36,46 +36,22 @@ alt="Help-4x-menus-menu-manager-menu-items-de.png" />
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Titel**. Der Name des Eintrags. Bei einem Menüeintrag wird der Titel
   im Menü angezeigt. Bei einem Beitrag oder einer Kategorie wird der
   Titel wahlweise in der Webseite angezeigt. Der Eintrag ist
   erforderlich. Das Element kann durch Klick auf den Titel geöffnet
   werden.
-
-<!-- -->
-
 - **Menü**. Zeigt, in welchem Menü der Link erscheinen wird.
-
-<!-- -->
-
 - **Startseite**. Das gelbe Stern-Symbol bezeichnet den Menüeintrag als
   aktuelle Standard-Homepage. Ein Klick auf ein leeres Stern-Symbol
   bezeichnet den Menüeintrag als neue Standard-Homepage.
-
-<!-- -->
-
 - **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   des Eintrags.
-
-<!-- -->
-
 - **Verknüpfung.** Zeigt an, mit welchem anderen Menüeintrag dieser
   Eintrag verknüpft ist.
-
-<!-- -->
-
 - **Sprache**. Die Sprachzuordnung des Eintrags.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -94,9 +70,6 @@ dargestellte Filterleiste. Die Funktionen sind:
   klicken, um passende Namen zu finden. Durch Tippen auf **X** oder
   „Zurücksetzen“ wird das Suchfeld geleert und die komplette Liste der
   Menüs wieder angezeigt.
-
-<!-- -->
-
 - **Reihenfolge:** (standard). Wie die Einträge in der Spalte der
   Tabelle sortiert werden. Die Werte sind die gleichen wie die der
   Spaltenköpfe.
@@ -105,14 +78,8 @@ dargestellte Filterleiste. Die Funktionen sind:
 
 - **Status wählen**. Auswahl von Papierkorb / Versteckt / Veröffentlicht
   / Archiviert / Alle.
-
-<!-- -->
-
 - **Zugriffsebene wählen**. Aus den verfügbaren Zugriffsebenen
   auswählen.
-
-<!-- -->
-
 - 
 
 **Sprache wählen**. Aus den verfügbaren Sprachen auswählen.
@@ -133,56 +100,29 @@ Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Neu**: Öffnet das Bearbeitungs-Formular, um menu item zu erstellen.
-
-<!-- -->
-
 - **Aktionen:** Zeigt eine Liste von Aktionen für ausgewählte Objekte
   an. Ein oder mehrere Auswahlkästchen für Einträge markieren, um die
   Liste zu aktivieren.
-
-<!-- -->
-
 - **Veröffentlichen**: Macht die gewählten menu items auf der Webseite
   für Besucher verfügbar.
-
-<!-- -->
-
 - **Versteckt**: Macht die gewählten menu items für die Besucher der
   Webseite unsichtbar.
-
-<!-- -->
-
 - **Freigeben**. Gibt die ausgewählten menu items wieder frei.
   Funktioniert mit einem oder mehreren ausgewählten menu items.
-
-<!-- -->
-
 - **Papierkorb**. Ändert den Status gewählter menu items auf
   „Papierkorb“.menu items können wieder hergestellt werden. Den
   Suchfilter „Papierkorb“ wählen und den Status gewählter menu items auf
   *Veröffentlicht* oder *Versteckt* ändern.Um menu items im Papierkorb
   zu löschen, den Suchfilter „Papierkorb“ wählen und gewählte menu items
   durch Klick auf *Papierkorb leeren* in der Werkzeugleiste löschen.
-
-<!-- -->
-
 - **Stapelverarbeitung**: Gewählte menu items in der Stapelverarbeitung
   nutzen. Funktioniert mit einem oder mehreren gewählten menu itemsn.
-
-<!-- -->
-
 - **Wiederherstellen.** Rekonstruiert und aktualisiert die
   relevant-Tabelle. Üblicherweise muß diese Tabelle *nicht*
   wiederhergestellt werden. Die Funktion ist für den Fall einer
   beschädigten Tabelle gedacht.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Stapelverarbeitung

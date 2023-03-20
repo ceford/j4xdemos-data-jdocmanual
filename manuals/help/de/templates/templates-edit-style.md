@@ -97,26 +97,14 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Speichern**. Speichert den Eintrag und bleibt auf der aktuellen
   Seite.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
-
-<!-- -->
-
 - **Als Kopie speichern**. Speichert Änderungen in einer Kopie des
   aktuellen Eintrags. Der aktuelle Eintrag wird davon nicht beeinflusst.
   Dieses Symbol wird nicht angezeigt, wenn ein neuer Eintrag erstellt
   wird.
-
-<!-- -->
-
 - **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Verwandte Informationen

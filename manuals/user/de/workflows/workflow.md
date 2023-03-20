@@ -188,9 +188,6 @@ Der letzte Reiter ist "Berechtigungen". Hier wird festgelegt, wer diesen
   befinden sich Einträge ursprünglich im Zustand „versteckt“. Sie
   bedürfen beispielsweise noch einer Überprüfung. Nachdem sie überprüft
   wurden, können sie in den Status „veröffentlicht“ wechseln.
-
-<!-- -->
-
 - Alle Aktionen des Workflow-Übergangs sind Joomla! Workflow-Plugins.
   Wenn man zu System **→** Plugins geht und in den Filter-Optionen den
   „Typ“ auf *workflow* ändert, so werden diese Plugins angezeigt, die,

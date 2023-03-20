@@ -38,9 +38,6 @@ alt="Help-4x-Menus-Menu-Item-Contact-Single-screen-nl.png" />
 ## Formulier velden
 
 - **Titel**. De titel die wordt getoond voor dit menu item.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -54,39 +51,21 @@ alt="Help-4x-Menus-Menu-Item-Contact-Single-screen-nl.png" />
 - **Menu-itemtype**. Het menu-item type dat geselecteerd is toen het
   mneu-item aangemaakt werd. Dit kan een van de core menu-item types
   zijn of een menu-item type geleverd door een geïnstalleerde extensie.
-
-<!-- -->
-
 - **Selecteer contactpersoon**. Selecteer de contactpersoon voor dit
   menu-item.
-
-<!-- -->
-
 - **Link**. De door het systeem gegenereerde link voor dit menu-item.
   Dit veld kan niet veranderd worden en is alleen ter informatie.
-
-<!-- -->
-
 - **Doelvenster.** Selecteer uit de uitklaplijst.
-
-<!-- -->
-
 - **Templatestijl.** Selecteer uit de uitklaplijst.
 
 **Rechter venster**
 
 - **Menu**. Toont in welk menu de link zal verschijnen.
-
-<!-- -->
-
 - **Hoofditem.** Het bovenliggend menu-item voor dit menu-item. Gebruikt
   om vast te stellen of een menu-item top-niveau item of een sub-menu
   item is. Selecteer 'Menu-item root' (de standaard waarde) als dit een
   top-niveau menu-item is. Selecteer anders het Menu-item dat het
   bovenliggende item van het item is.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -106,27 +85,15 @@ alt="Help-4x-Menus-Menu-Item-Contact-Single-screen-nl.png" />
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Standaard pagina**. Indien Ja, is dit menu-item de standaard of home
   pagina van de website. Er mag exact één menu-item ingesteld zijn als
   standaard pagina. U kunt de standaard pagina op twee manieren
@@ -136,19 +103,10 @@ alt="Help-4x-Menus-Menu-Item-Contact-Single-screen-nl.png" />
       scherm.
   2.  Open het menu-item voor de nieuwe standaard pagina en wijzig de
       Standaard pagina instellingen op Ja.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -175,9 +133,6 @@ De volgende opties zijn beschikbaar.
 - *Sliders:* Weergave van contactpersoon in een slider.
 - *Tabs:* Weergave van contactpersoon in tabs.
 - *Direct:* Directe weergave van contactpersoon.
-
-<!-- -->
-
 - **Contactpersonencategorie**. Instellingen voor de weergave van de
   categorie contactpersonen.
 
@@ -190,99 +145,39 @@ De volgende opties zijn beschikbaar.
   als koptekst.
 - *Toon met link* Toon categorienaam van de contactpersonen als koptekst
   gelinkt aan de categorie.
-
-<!-- -->
-
 - **Slectielijstlijst met contactpersonen**. Geef de gebruikers de
   mogelijkheid een lijst met alle contactpersonen in een categorie te
   tonen. Stel een van de volgende opties in:
-
-<!-- -->
-
 - *Gebruik algemeen:* Gebruik de standaard waarde uit de contactpersoon
   opties.
 - *Toon:* Om gebruikers toe te staan een contactpersoon te selecteren
   uit een lijst.
 - *Verberg:* Toon geen lijst met contactpersonen
-
-<!-- -->
-
 - **Tags**. Toon of verberg de tags voor dit item.
 
  **Algemene contact velden in de weergave** zijn:
 
 - **Naam**. Geeft de *Naam* van de contactpersoon weer.
-
-<!-- -->
-
 - **Positie van contactpersoon**. Geeft de *Positie van contactpersoon*
   van de contactpersoon weer.
-
-<!-- -->
-
 - **E-mail**. Geeft de *E-mail* van de contactpersoon weer.
-
-<!-- -->
-
 - **Adres**. Geeft de *Adres* van de contactpersoon weer.
-
-<!-- -->
-
 - **Woonplaats**. Geeft de *Woonplaats* van de contactpersoon weer.
-
-<!-- -->
-
 - **Provincie**. Geeft de *Provincie* van de contactpersoon weer.
-
-<!-- -->
-
 - **Postcode**. Geeft de *Postcode* van de contactpersoon weer.
-
-<!-- -->
-
 - **Land**. Geeft de *Land* van de contactpersoon weer.
-
-<!-- -->
-
 - **Telefoon**. Geeft de *Telefoon* van de contactpersoon weer.
-
-<!-- -->
-
 - **Mobiel**. Geeft de *Mobiel* van de contactpersoon weer.
-
-<!-- -->
-
 - **Fax**. Geeft de *Fax* van de contactpersoon weer.
-
-<!-- -->
-
 - **Website**. Geeft de *Website* van de contactpersoon weer.
-
-<!-- -->
-
 - **Overige gegevens**. Geeft de *Overige gegevens* van de
   contactpersoon weer.
-
-<!-- -->
-
 - **Afbeelding**. Geeft de *Afbeelding* van de contactpersoon weer.
-
-<!-- -->
-
 - **vCard**. Geeft de *vCard* van de contactpersoon weer.
-
-<!-- -->
-
 - **Toon artikelen van gebruiker**. Geeft de *Artikelen* van de
   contactpersoon weer.
-
-<!-- -->
-
 - **\# Artikelen**. Geeft de *Artikelen om te tonen* van de
   contactpersoon weer.
-
-<!-- -->
-
 - **Toon links**. Geeft de *Extra links* van de contactpersoon weer. Dit
   kunnen links zijn naar Social media accounts, zoals Twitter, Facebook,
   Skype etc.
@@ -294,9 +189,6 @@ beschikbaar:
   opties.
 - *Toon:* Toon dit veld.
 - *Verberg:* Toon dit veld niet.
-
-<!-- -->
-
 - **Link Label**.
   Labels (5) om de standaard link labels te overschrijven.
 
@@ -321,9 +213,6 @@ De volgende opties zijn beschikbaar:
   opties.
 - *Toon:* Geeft het contactformulier weer.
 - *Verberg:* Geeft het contactformulier niet weer.
-
-<!-- -->
-
 - **Verstuur een kopie naar de afzender**. Toont een checkbox om het de
   afzender mogelijk te maken een kopie van het formulier naar zichzelf
   te sturen.
@@ -334,9 +223,6 @@ De volgende opties zijn beschikbaar:
   opties.
 - *Toon:* Geeft het contactformulier weer.
 - *Verberg:* Geeft het contactformulier niet weer.
-
-<!-- -->
-
 - **Sessiecontrole**. Controleert op de aanwezigheid van een
   sessiecookie. Dit houdt in dat gebruikers die cookies uitgeschakeld
   hebben geen e-mails kunnen versturen.
@@ -347,9 +233,6 @@ De volgende opties zijn beschikbaar:
   opties.
 - *Ja:* Check op sessiecookie.
 - *Nee:* Check niet op sessiecookie.
-
-<!-- -->
-
 - **Aangepast antwoord**. Schakelt het automatisch antwoord in of uit.
 
 De volgende opties zijn beschikbaar:
@@ -360,9 +243,6 @@ De volgende opties zijn beschikbaar:
   contactformulier.
 - *Nee:* Stuur geen geautomatiseerd e-mail als antwoord op het
   contactformulier.
-
-<!-- -->
-
 - **Contactpersoon doorverwijzing**. Voer een alternatieve url in waar
   de gebruiker naar wordt doorverwezen na het versturen van de e-mail.
 
@@ -385,36 +265,18 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige item. Beïnvloed het huidige item niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan. Of
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   This toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

@@ -14,9 +14,6 @@ formulario de inicio de sesión. Para activarlo puedes:
 
 1.  cambiar el estado **Habilitado** a **Sí** (símbolo verde) en el
     administrador de módulos; o
-
-<!-- -->
-
 1.  hacer clic en el nombre del módulo de formulario de inicio de sesión
     en el administrador de módulos para mostrar los detalles del módulo,
     luego escoger *Sí* en la opción **Habilitado** y guardar los

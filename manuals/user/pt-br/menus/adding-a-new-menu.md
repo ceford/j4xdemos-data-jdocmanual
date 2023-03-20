@@ -31,9 +31,6 @@ adicionar um menu:
 - A partir do painel inicial, no menu da barra lateral, acione o (clique
   no) ícone do painel do menu para ser levado ao gerenciador dos menus e
   acione (clique em) **Gerenciar**.
-
-<!-- -->
-
 - Ou, a partir do painel inicial, no menu da barra lateral, expanda a
   seção **Menus** e acione (clique em) **Gerenciar**.
 
@@ -161,29 +158,14 @@ O painel **Menus: Novo item** será aberto. Adicionaremos um único artigo
 ao menu:
 
 - No campo **Título** adicione o título que deseja que apareça no menu.
-
-<!-- -->
-
 - No campo **Tipo do item dos menus** acione o (clique no) botão
   **Selecionar** e depois acione (clique em) **Artigo** e **Artigo
   único**.
-
-<!-- -->
-
 - No campo **Selecionar artigo** acione o (clique no) botão
   **Selecionar** que abrirá uma lista contendo os seus artigos.
   Selecione seu artigo.
-
-<!-- -->
-
 - Verifique se o campo **Menu** está definido como novo menu.
-
-<!-- -->
-
 - O campo **Estado** deve ser definido como **Publicado**.
-
-<!-- -->
-
 - Acione (clique em) **Salvar e fechar**.
 
 <img

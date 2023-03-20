@@ -170,9 +170,6 @@ that can only be seen by users authorised to add articles.
   user](https://docs.joomla.org/Help4.x:Users:_Edit_Profile/en "Help4.x:Users: Edit Profile/en").
 - To change [article
   permissions](https://docs.joomla.org/Help4.x:Articles:_Options/en#permissions "Help4.x:Articles: Options/en").
-
-<!-- -->
-
 - Este
   [portal](https://docs.joomla.org/Portal:Joomla_4/es "Portal:Joomla 4/es")
   reúne información específica relativa a Joomla 4.

@@ -35,9 +35,6 @@ decoding="async" data-file-width="1000" data-file-height="508"
 width="1000" height="508" alt="Selecting an image" />
 
 1.  Establece las propiedades de la imagen según sea necesario:
-
-<!-- -->
-
 1.  - **Descripción de la imagen**: Esto se convierte en el atributo
       **alt** de la imagen, una característica importante para la
       accesibilidad y el cumplimiento de los estándares web.
@@ -59,14 +56,8 @@ width="1000" height="508" alt="Selecting an image" />
 
 1.  - **Flotación de la imagen**: Establece la alineación de la imagen.
       De forma predeterminada, el atributo *align' es **Sin asignar**.*
-
-<!-- -->
-
 1.  - **Clase Caption**: Aplica la clase entrada al elemento
       *figcaption*.
-
-<!-- -->
-
 1.  Has clic en el botón *Insertar* para insertar la imagen. La pantalla
     Inserción de Imagen se cerrará y la imagen aparecerá en el editor. O
     has clic en el botón *Cancelar* para salir de la pantalla Inserción
@@ -119,26 +110,14 @@ archivo de la pantalla Inserción de Imagen.
   to store new images for the current article.
 
 1.  Has clic en el botón Examinar para abrir un explorador de archivos.
-
-<!-- -->
-
 1.  Selecciona los archivos de imagen que deseas cargar. Has clic en
     Abrir en el explorador de archivos para confirmar la selección.
     Nota: El estilo y el diseño del explorador de archivos depende del
     navegador y sistema operativo que estés utilizando.
-
-<!-- -->
-
 1.  El(los) archivo(s) seleccionado(s) aparecen en la parte inferior de
     la pantalla de Inserción de Imagen. Has clic en *Iniciar subida*
     para empezar a subir archivos.
-
-<!-- -->
-
 1.  - Cuando la carga se haya completado, un aviso sobre fondo verde
       aparecerá en la parte superior de la pantalla.
-
-<!-- -->
-
 1.  Ahora puedes seleccionar e insertar la imagen subida como se indicó
     anteriormente.

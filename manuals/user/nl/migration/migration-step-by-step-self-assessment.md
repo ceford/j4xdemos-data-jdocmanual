@@ -93,9 +93,6 @@ Complexere vragen die u zichzelf één voor één moet stellen:
         Directory</a> of neem contact op met de ontwikkelaar die hem
         voor u schreef.
 2.  Heeft u een aangepaste template geïnstalleerd op uw website?
-
-<!-- -->
-
 1.  - Zo ja, heeft u deze zelf gebouwt?
       - Als u deze zelf heeft gebouwd zou u in staat moeten zijn de
         website te migreren naar Joomla 3.x.
@@ -112,9 +109,6 @@ Complexere vragen die u zichzelf één voor één moet stellen:
 
 2.  Heeft u constant veranderende data (gebruikersgegevens) op uw
     website?
-
-<!-- -->
-
 1.  - Sommige websites hebben veel gebruikersgegevens op de website die
       steeds worden toegevoegd (forums, gebruikers, winkelwagentjes,
       enz.). Dit betekent dat, terwijl u de site migreert, er nieuwe
@@ -123,9 +117,6 @@ Complexere vragen die u zichzelf één voor één moet stellen:
       Sommige extensie-ontwikkelaars geven hier instructies voor. Een
       andere keer, moet u enkele MySQL functies kennen om verder te
       gaan.
-
-<!-- -->
-
 1.  Heeft u ervaring met het werken met MySQL om gegevens toe te voegen?
     - Als dat zo is, kunt u misschien uw eigen website naar Joomla 3.x.
       migreren

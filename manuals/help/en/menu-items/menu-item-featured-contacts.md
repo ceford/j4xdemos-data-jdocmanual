@@ -34,9 +34,6 @@ alt="Help-4x-Menus-Menu-Item-Contact-FeaturedContacts-screen-en.png" />
 ## Form Fields
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -49,33 +46,18 @@ alt="Help-4x-Menus-Menu-Item-Contact-FeaturedContacts-screen-en.png" />
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **Link**. The system-generated link for this menu item. This field
   cannot be changed and is for information only.
-
-<!-- -->
-
 - **Target Window.** Select from the drop-down list.
-
-<!-- -->
-
 - **Template Style.** Select from the drop-down list.
 
 **Right Panel**
 
 - **Menu**. Shows which menu the link will appear in.
-
-<!-- -->
-
 - **Parent Item.** The parent menu item for this menu item. Used to
   determine whether a Menu Item is a top-level item or a submenu item.
   Select 'Menu Item Root' (the default value) if this is a top-level
   Menu Item. Otherwise, select the Menu Item that is this item's parent.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -94,25 +76,13 @@ alt="Help-4x-Menus-Menu-Item-Contact-FeaturedContacts-screen-en.png" />
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Default Page**. If Yes, this menu item is the default or home page
   for the site. There must be exactly one menu item set as the default
   page. You can change the default page in two ways:
@@ -121,19 +91,10 @@ alt="Help-4x-Menus-Menu-Item-Contact-FeaturedContacts-screen-en.png" />
       screen.
   2.  Open the menu item for the new default page and change the Default
       Page setting to Yes.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -177,9 +138,6 @@ If set to *Show*, this heading will show above the list. If set to
 *Hide*, the list will show with no headings.
 
 - **Position**. Show or hide a Position column in the list of Contacts.
-
-<!-- -->
-
 - **Email**. Set to control the Email's display in list.
 
 The following options are available.
@@ -187,9 +145,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Phone**. Set to control the Phone's display in list.
 
 The following options are available.
@@ -197,9 +152,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Mobile**. Set to control the Mobile's display in list.
 
 The following options are available.
@@ -207,9 +159,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Fax**. Set to control the Fax's display in list.
 
 The following options are available.
@@ -217,9 +166,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **City or Suburb**. Set to control the City or Suburb's display in
   list.
 
@@ -228,9 +174,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **State or County**. Set to control the State or County's display in
   list.
 
@@ -239,9 +182,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Country**. Set to control the Country's display in list.
 
 The following options are available.
@@ -249,9 +189,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -268,9 +205,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -289,30 +223,12 @@ alt="Help-4x-Menus-Menu-Item-Contact-featured-contact-form-parameters-en.png" />
 **Common Contact Form Fields** are:
 
 - **Tags**. Display the contact's *Tags*.
-
-<!-- -->
-
 - **Contact Information**. Display the contact's *Contact Information*.
-
-<!-- -->
-
 - **vCard**. Display the contact's *vCard*.
-
-<!-- -->
-
 - **Miscellaneous Information**. Display the contact's *Miscellaneous
   Information*.
-
-<!-- -->
-
 - **User Articles**. Display the contact's *User Articles*.
-
-<!-- -->
-
 - **\# Articles to List**. Display the contact's *\# Articles to List*.
-
-<!-- -->
-
 - **Contact Links**. Display the contact's *Contact Links*.
 - **Link \<letter\> Label**. \<A to E\> Labels (5) to override shown
   link's label.
@@ -335,9 +251,6 @@ It has the following options available:
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Display this.
 - *Hide:* Do not display.
-
-<!-- -->
-
 - **Send Copy to Submitter**. Display the a check box to allow a
   Submitter to send a copy of email to themselves.
 
@@ -346,9 +259,6 @@ It has the following options available:
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Display this.
 - *Hide:* Do not display.
-
-<!-- -->
-
 - **Session Check**. Check for the existence of session cookie. Users
   without cookies enabled will not be able to send emails.
 
@@ -357,9 +267,6 @@ It has the following options available:
 - *Use Global:* Use the default value from the contacts options screen.
 - *Yes:* Check for session cookie.
 - *No:* Do not check for session cookie.
-
-<!-- -->
-
 - **Custom Reply**. Turn on or off the custom message reply to contact
   form's submitter, allowing for Plugins to handle integration with
   other systems.
@@ -369,9 +276,6 @@ It has the following options available:
 - *Use Global:* Use the default value from the contacts options screen.
 - *Yes:* Send an automated reply email.
 - *No:* Do not send an automated reply email.
-
-<!-- -->
-
 - **Contact Redirect**. Enter alternative URL to redirect submitter
   after email is sent.
 
@@ -394,34 +298,16 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the menu item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the menu item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the menu item and keeps the editing screen open
   and ready to create another menu item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current menu
   item. Does not affect the current menu item. This toolbar icon is not
   shown if you are creating a new menu item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

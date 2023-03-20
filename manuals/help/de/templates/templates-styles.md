@@ -34,9 +34,6 @@ alt="Help-4x-Extensions-Template-Manager-Styles-screen-de.png" />
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Reihenfolge.** Die Reihenfolge eines Eintrags innerhalb einer Liste
   kann wie folgt geändert werden:
   - Wenn die Liste Filter-Optionen einen Positions-Filter enthält, dann
@@ -72,9 +69,6 @@ alt="Help-4x-Extensions-Template-Manager-Styles-screen-de.png" />
   Template-Dateien den Link anklicken. Bitte nicht die
   Joomla-Standard-Templates bearbeiten – die Änderungen könnten verloren
   gehen, wenn es ein Update eingespielt wird.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -124,24 +118,12 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   decoding="async" data-file-width="30" data-file-height="20" width="30"
   height="20" alt="Icon-16-default.png" />) wird in der Spalte Standard
   angezeigt und weist darauf hin, dass dies nun das Standard-item ist.
-
-<!-- -->
-
 - **Kopieren:** Erstellt eine Kopie des gewählten item. Die Kopie wird
   sofort mit dem gleichen Namen erstellt, hat aber "Kopie von"
   vorangestellt und/oder eine Nummer angehängt (z.B. "(2)"), damit es
   vom Original oder anderen Kopien unterscheidbar ist.
-
-<!-- -->
-
 - **Löschen:** Löscht markierte items. Funktioniert mit einem oder
   mehreren ausgewählten items.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.

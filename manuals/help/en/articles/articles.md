@@ -208,9 +208,6 @@ alt="Help-4x-batch-process-articles-en.png" />
 - [Home
   Dashboard](https://docs.joomla.org/Help4.x:Home_Dashboard/en "Help4.x:Home Dashboard/en"):
   Access to many default Joomla functions.
-
-<!-- -->
-
 - This
   [Portal](https://docs.joomla.org/Portal:Joomla_4/en "Portal:Joomla 4/en")
   brings together information related specifically to Joomla 4.

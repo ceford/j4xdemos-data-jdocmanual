@@ -187,9 +187,6 @@ web site.
   - Linux and OSX users can set up the following bash alias by placing
     the following inside the ~/.bash_profile or ~/.zsh file (\$ source
     ~/.bash_profile to effect immediately):
-
-<!-- -->
-
     alias jclean="rm -rf administrator/templates/atum/css; rm -rf templates/cassiopeia/css; rm -rf media/; rm -rf node_modules/; rm -rf libraries/vendor/;rm -f administrator/cache/autoload_psr4.php;rm -rf installation/template/css"
     alias jinstall="jclean; composer install --ignore-platform-reqs; npm ci"
 
@@ -397,9 +394,6 @@ build-local.xml in the root of the project:
 - In Builders: Apply and Close
 - Project / Build Project
 - See what happens:
-
-<!-- -->
-
     Buildfile: /Users/username/git/joomla-cms/build-local.xml
      [property] Loading /Users/username/git/joomla-cms/.project
 

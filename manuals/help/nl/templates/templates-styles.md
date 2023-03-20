@@ -33,9 +33,6 @@ alt="Help-4x-Extensions-Template-Manager-Styles-screen-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -70,9 +67,6 @@ alt="Help-4x-Extensions-Template-Manager-Styles-screen-nl.png" />
 - **Template.** De naam van het template. Selecteer een link om de
   templatebestanden aan te passen. Bewerk standaard Joomla-templates
   niet - Uw wijzigingen verdwijnen als er een update komt.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -120,25 +114,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   decoding="async" data-file-width="30" data-file-height="20" width="30"
   height="20" alt="Icon-16-default.png" />) wordt getoond in de
   Standaard kolom, wat aangeeft dat het nu het standaard item is.
-
-<!-- -->
-
 - **Opslaan als kopie:** Maakt een kopie van het geselecteerde item. De
   kopie wordt direct aangemaakt en krijgt dezelfde naam als het
   origineel maar wordt voorafgegaan door "Kopie van" en/of gevolgd dor
   een nummer (bijv. "(2)") zodat het onderscheiden kan worden van het
   origineel en andere kopieën.
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde items. Werkt met één of
   meerdere items geselecteerd.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

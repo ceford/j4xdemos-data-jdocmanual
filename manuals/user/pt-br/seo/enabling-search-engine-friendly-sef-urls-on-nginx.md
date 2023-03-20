@@ -35,9 +35,6 @@ Apache.
 
 - Por favor, adicione o próximo código à configuração do seu servidor
   (vhost) no arquivo *nginx.conf*:
-
-<!-- -->
-
        # Support Clean (aka Search Engine Friendly) URLs
        location / {
           try_files $uri $uri/ /index.php?$args;
@@ -46,9 +43,6 @@ Apache.
 - Se o acima não funcionar, adicione o próximo código à configuração do
   seu servidor no arquivo *nginx.conf*: (Isso funcionou com o nginx
   1.4.6 no Ubuntu.)
-
-<!-- -->
-
     server {
       ....
       location / {

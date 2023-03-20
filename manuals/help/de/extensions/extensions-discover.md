@@ -62,9 +62,6 @@ alt="Help-4x-Extensions-Extension-Manager-Discover-screen-de.png" />
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Name.** Der Name der Erweiterung.
 - **Bereich.** Zeigt an, ob es eine Site- oder Administrator-Erweiterung
   ist.
@@ -142,14 +139,8 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   nicht installierten Erweiterungen. Gefundene Erweiterungen werden
   angezeigt. Resultate werden zwischengespeichert und bei neuerlichem
   Aufrufen angezeigt.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

@@ -33,9 +33,6 @@ alt="Help-4x-System-Clear-Cache-screen-nl.png" />
 
 - **\#**. Een indexeringsnummer die automatisch door Joomla! wordt
   toegewezen voor gemakkelijke verwijzingen.
-
-<!-- -->
-
 - **Selectievakje**. Vink dit vakje aan om één of meer items te
   selecteren. Vink het vakje in de kolomkop aan om alle selectievakjes
   aan te vinken. Nadat één of meer vakjes zijn aangevinkt kan op een
@@ -45,20 +42,11 @@ alt="Help-4x-System-Clear-Cache-screen-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Cachegroep**. Het type item dat wordt opgeslagen in dit bestand. Dit
   is ook de naam van de subdirectory waar dit type bestand in de caches
   is opgeslagen. De bestanden in de cache worden opgeslagen in de
   "/cache/".
-
-<!-- -->
-
 - **Aantal bestanden**. Het huidige aantal bestanden in deze cachegroep.
-
-<!-- -->
-
 - **Grootte**. De totale grootte, in KB, van de cache bestanden in deze
   groep.
 
@@ -107,25 +95,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Verwijderen:** Verwijderd de geselecteerde items. Werkt met één of
   meerdere items geselecteerd.
-
-<!-- -->
-
 - **Alles verwijderen:** Verwijderd alle items. Werkt met alle items.
-
-<!-- -->
-
 - **Opschonen verlopen cache**. Verwijdert alle verlopen cache
   bestanden. Cache bestanden die nog gebruikt worden worden niet
   verwijderd. WAARSCHUWING: Deze handeling kan veel resources vragen op
   sites met een groot aantal items.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

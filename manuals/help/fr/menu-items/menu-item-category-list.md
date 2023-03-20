@@ -121,9 +121,6 @@ alt="Help-4x-Menus-Item-Articles-Category-List-list-layouts-subscreen-fr.png" />
 - **Format de la date**. Format optionnel d'affichage de la date.
 - **Nombre d'affichages**. Show the number of hits for articles.
 - **Auteur**. Show the name of the author.
-
-<!-- -->
-
 - **Ordre des catégories**.
   - Aucun ordre: Articles are ordered only by the Article Order, without
     regard to Category.

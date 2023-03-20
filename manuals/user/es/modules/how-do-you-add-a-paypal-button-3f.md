@@ -50,9 +50,6 @@ menos que uses la solución alternativa a continuación).
     href="http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,88/Itemid,35/"
     class="external free" target="_blank"
     rel="noreferrer noopener">http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,88/Itemid,35/</a>
-
-<!-- -->
-
 1.  Cambiar el editor predeterminado (Configuración global \> Sitio \>
     Editor WYSIWYG) a JCE. Puede que necesites cambiar también el editor
     predeterminado para otros usuarios.

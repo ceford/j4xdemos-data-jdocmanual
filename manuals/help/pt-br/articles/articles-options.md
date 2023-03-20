@@ -127,9 +127,6 @@ para todas as categorias</a> e [artigos
   impedir que o texto "Ler mais" fique excessivamente longo se o artigo
   tiver um título muito longo.
 - **Tags**. Mostra as tags para cada artigo.
-
-<!-- -->
-
 - **Registrar os acionamentos (acessos, cliques)**. Registra a
   quantidade de vezes que o artigo foi visualizado.
 - **Acionamentos (acessos, cliques)**. Mostra a quantidade de vezes que
@@ -196,9 +193,6 @@ title="File:Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-pt-
   "[Imagens e
   links](https://docs.joomla.org/Help4.x:Articles:_Edit/pt-br#imagesandlinks "Help4.x:Articles: Edit/pt-br")"
   na área administrativa (backend) ao editar artigos.
-
-<!-- -->
-
 - **Janela destino do URL A**. Define o valor padrão para o destino do
   primeiro link no artigo. As escolhas são:
   - Abrir na janela superior (principal, pai): Abre o link na janela
@@ -212,9 +206,6 @@ title="File:Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-pt-
   segundo link no artigo. Mesmas opções do URL A.
 - **Janela destino do URL C**. Define o valor padrão para o destino do
   terceiro link no artigo. Mesmas opções do URL A.
-
-<!-- -->
-
 - **Classe da imagem da introdução**. Configura o atributo da classe
   para uma imagem da introdução selecionada no campo "Imagem da
   introdução".
@@ -341,23 +332,14 @@ title="File:Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscre
 - **Direção das várias colunas**. Em disposições para blogs com várias
   colunas, é usado para classificar os artigos, verticalmente ou
   horizontalmente, nas colunas.
-
-<!-- -->
-
   - Verticalmente: Classifica os artigos descendo a primeira coluna e
     depois para a próxima coluna, por exemplo:
 
 - 
-
-<!-- -->
-
   - Horizontalmente: Classifica os artigos horizontalmente pelas colunas
     e depois volta para a primeira coluna, por exemplo:
 
 - 
-
-<!-- -->
-
 - **Quantidade de links**. A quantidade de links a serem mostrados na
   área dos links da página. Esses links permitem que um usuário vincule
   a artigos adicionais, se houver mais artigos do que cabem na primeira

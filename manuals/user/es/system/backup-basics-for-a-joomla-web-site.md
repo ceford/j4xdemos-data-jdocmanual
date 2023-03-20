@@ -66,9 +66,6 @@ Ellas son:
 
 1.  La información de la base de datos, que normalmente se encuentran en
     tu base de datos mysql.
-
-<!-- -->
-
 1.  Los archivos y las carpetas en tu sitio web, alojado en la mayoría
     de los sitios web estático en html.
 

@@ -162,9 +162,6 @@ que só pode ser visto por usuários autorizados a adicionar artigos.
   usuário](https://docs.joomla.org/Help4.x:Users:_Edit_Profile/pt-br "Help4.x:Users: Edit Profile/pt-br").
 - Para alterar as [permissões do(s)
   artigo(s)](https://docs.joomla.org/Help4.x:Articles:_Options/pt-br#permissions "Help4.x:Articles: Options/pt-br").
-
-<!-- -->
-
 - Este
   [portal](https://docs.joomla.org/Portal:Joomla_4/pt-br "Portal:Joomla 4/pt-br")
   reúne informações relacionadas especificamente ao Joomla! 4.

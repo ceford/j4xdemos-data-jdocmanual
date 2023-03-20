@@ -72,9 +72,6 @@ alt="Help31-Components-Smart-Search-Content-Maps-columns-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Status**. The status of the content item within Smart Search.
   Published items are shown with a green tick; unpublished items by a
   red circle. You can change the status of an item by clicking on the
@@ -143,39 +140,21 @@ At the top of the page you will see the toolbar shown in the
 
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Publish**. Makes the selected Map Groups or Content Maps available
   to visitors to your website.
-
-<!-- -->
-
 - **Unpublish.** Makes the selected Map Groups or Content Maps
   unavailable to visitors to your website. An unpublished Map Group will
   not be displayed as a select list in the front-end. An unpublished
   Content Map will not appear in the select list for the Map Group in
   which it occurs. Re-indexing does not change the published state of
   Map Groups or Content Maps.
-
-<!-- -->
-
 - **Statistics:** Shows some basic statistics on Smart Search.
-
-<!-- -->
-
 - **Delete:** Deletes the selected Map Groups or Content Maps. Works
   with one or multiple Map Groups or Content Maps selected. You can
   recover deleted Map Groups or Content Maps by running the Smart Search
   indexer again.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen. See [Smart Search:
   Options](https://docs.joomla.org/Help4.x:Smart_Search:_Options/en "Help4.x:Smart Search: Options/en")
   for further details.

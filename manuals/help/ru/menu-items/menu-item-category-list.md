@@ -122,9 +122,6 @@ alt="Help-4x-Menus-Item-Articles-Category-List-list-layouts-subscreen-ru.png" />
 - **Количество просмотров в списке**. Show the number of hits for
   articles.
 - **Автор в списке**. Show the name of the author.
-
-<!-- -->
-
 - **Порядок категорий**.
   - Не упорядочивать: Articles are ordered only by the Article Order,
     without regard to Category.

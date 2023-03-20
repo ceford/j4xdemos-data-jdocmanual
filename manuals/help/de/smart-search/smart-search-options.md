@@ -26,9 +26,6 @@ alt="Help4.x-Components-Finder-Options-en.png" />
 - **Result Taxonomy.** (Yes/No) ...
 - **Result Description.** (Show/Hide) Toggle if the description should
   be displayed with search results.
-
-<!-- -->
-
 - **Description Length**. Number of characters of the description in
   search results. Enter in field, default is 255.
 - **Result Date.** (Show/Hide) Show the start and end date filters in
@@ -37,21 +34,12 @@ alt="Help4.x-Components-Finder-Options-en.png" />
   results. The URL is located under the description.
 - **Gather Search Statistics.** (Yes/No) Record the search phrases
   submitted by visitors.
-
-<!-- -->
-
 - **Allow Empty Search**. Only if a filter is selected. Allows an empty
   search string to initiate a search with the filter constraints.
 - **Search Suggestions.** (Show/Hide) Toggle if automatic search
   suggestions should be displayed.
-
-<!-- -->
-
 - **Did You Mean**. Whether to suggest alternative search terms when a
   search produces no result.
-
-<!-- -->
-
 - **Query Explanation**. Show or hide a detailed explanation of the
   search requested.
 - **Advanced Search.** (Show/Hide) Toggle if users should be able to see
@@ -168,16 +156,7 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

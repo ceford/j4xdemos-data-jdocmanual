@@ -22,9 +22,6 @@ Acione o (clique no) cabeçalho de uma coluna para classificar a lista
 pelo valor dessa coluna.
 
 - **Nome**: O nome e a categoria do banner.
-
-<!-- -->
-
 - **Cliente**: O cliente para este banner. Os clientes são inseridos
   usando o gerenciador dos clientes para banners.
 - **Tipo**: O tipo do monitoramento. Trata-se de uma impressão
@@ -58,14 +55,8 @@ pesquisa mostrada na [captura de tela](#screenshot) acima.
   Selecione na lista suspensa para alterar o número exibido.O padrão
   para um site é '20', mas isso pode ser alterado nas [Configurações
   Globais](https://docs.joomla.org/Help4.x:Site_Global_Configuration/pt-br#defaultlistlimit "Help4.x:Site Global Configuration/pt-br").
-
-<!-- -->
-
 - **Selecionar categoria**: Selecione a partir da lista das categorias
   disponíveis.
-
-<!-- -->
-
 - **Selecionar cliente**: Selecione a partir da lista dos clientes
   disponíveis.
 
@@ -81,9 +72,6 @@ title="File:Help30-colheader-select-track-type-pt-br.png">File:Help30-colheader-
 - ***- Selecionar o tipo -***: Mostra os itens atribuídos a qualquer
   tipo.
 - **: Mostra os itens atribuídos apenas a este tipo.
-
-<!-- -->
-
 - **Selecionar os níveis máximos**: Seleciona a partir da lista de
   níveis disponíveis.
 
@@ -115,14 +103,8 @@ de tela](#Captura_de_tela) acima. As funções são:
   monitoramentos dos banners.
 - **Excluir monitoramentos**: Irá excluir os monitoramentos dos banners
   selecionados.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 Consulte as [opções do gerenciador dos

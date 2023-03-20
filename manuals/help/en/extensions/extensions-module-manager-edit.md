@@ -56,9 +56,6 @@ here.
 The right panel is common to all modules.
 
 - **Show Title.** Whether or not to show the Module's Title.
-
-<!-- -->
-
 - **Position.** Choose the [module
   position](https://docs.joomla.org/Module_Position/en "Module Position/en")
   you wish this module to be displayed in. A custom module position can
@@ -66,9 +63,6 @@ The right panel is common to all modules.
   plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/en "How do you put a module inside an article?/en")
   or the position button can be pressed to select a module position from
   the template.
-
-<!-- -->
-
 - **Status**. The published status of this item.
   - *Published:* Item is visible in the Frontend of the site.
   - *Unpublished:* Item is will not be visible to guests in the Frontend
@@ -79,21 +73,12 @@ The right panel is common to all modules.
     It can be permanently deleted from the database with the Empty Trash
     function in Toolbar (see also [Deleting an
     Article](https://docs.joomla.org/Deleting_an_Article/en "Special:MyLanguage/Deleting an Article/en")).
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Access**. Select the viewing access level for this item from the
   list box. The access levels that display will depend on the what has
   been set up for this site in [Users → Access
@@ -101,9 +86,6 @@ The right panel is common to all modules.
   Note that access levels are separate from ACL permissions. Access
   levels control what a user can see. ACL permissions control what
   actions a user can perform.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -122,14 +104,8 @@ The right panel is common to all modules.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Language**. Select the language for this item. If you are not using
   the multi-language feature of Joomla, keep the default of 'All'.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -149,9 +125,6 @@ alt="Help-4x-Module-Manager-Edit-menu-assignment-en.png" />
 #### Menu Assignment Tab - Module Assignment
 
 - **Module Assignment**. Click for drop down choice of module assignment
-
-<!-- -->
-
 - **On all pages**. Module will show on all pages in the selected module
   position.
 - **No pages**. Module **will not show** on any pages in the selected
@@ -206,34 +179,16 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the user and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the user and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the user and keeps the editing screen open and
   ready to create another user.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current user.
   Does not affect the current user. This toolbar icon is not shown if
   you are creating a new user.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

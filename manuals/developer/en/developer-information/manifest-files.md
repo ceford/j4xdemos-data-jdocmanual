@@ -295,9 +295,6 @@ the Administrator area for the site.
   the cpanel-example administrator module position
 - The title and icon defined in the XML file will be used as the header
   and icon at the top of the component's dashboard page.
-
-<!-- -->
-
        
             example
         

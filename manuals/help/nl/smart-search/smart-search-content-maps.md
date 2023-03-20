@@ -78,9 +78,6 @@ alt="Help31-Components-Smart-Search-Content-Maps-columns-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Status**. De status van het inhoud-item binnen Slim zoeken.
   Gepubliceerde items worden getoond met een groen vinkje;
   niet-gepubliceerde items door een rood kruis. U kunt de status van een
@@ -149,40 +146,22 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Publiceren**. Maakt de geselecteerde Takken of inhoudsschema's
   beschikbaar voor de bezoekers van uw website.
-
-<!-- -->
-
 - **Depubliceren.** Maakt de geselecteerde Takken of inhoudsschema's
   niet beschikbaar voor de bezoekers van uw website Een gedepubliceerde
   tak wordt niet getoond als een te selecteren lijst op de website. Een
   gedepubliceerd inhoudsschema verschijnt niet in de selectielijst van
   de tak waarin hij verschijnt. Opnieuw indexeren verandert de
   publicatiestatus van takken of inhoudsschema's niet.
-
-<!-- -->
-
 - **Statistieken:** Toont een aantal standaard statistieken op Slim
   zoeken
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde Takken of
   inhoudsschema's. Werkt met één of meerdere Takken of inhoudsschema's
   geselecteerd. U kunt verwijderde takken of inhoudsschema's terug
   krijgen door opnieuw indexeren van Slim zoeken.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm. Kijk bij [Slim zoeken:
   Opties](https://docs.joomla.org/Help4.x:Smart_Search:_Options/nl "Help4.x:Smart Search: Options/nl")
   voor meer details.

@@ -420,12 +420,5 @@ Video erschaffen wurde.
   <a href="https://symfony.com/doc/current/console/style.html"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">How to Style a Console Command</a>
-
-<!-- -->
-
--   
--   
--   
--   
 - Eine CLI Anwendung mit Joomla 4 entwickeln [J4.x:Writing A CLI
   Application](https://docs.joomla.org/J4.x:Writing_A_CLI_Application "J4.x:Writing A CLI Application")

@@ -183,9 +183,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 - **Downloaden als tekst:** Download de systeemgegevens als
   tekstbestand.
 - **Downloaden als JSON:** Download de systeemgegevens als JSON bestand.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

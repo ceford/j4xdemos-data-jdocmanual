@@ -9,9 +9,6 @@ beantwoorden.
 
 - Selecteer **Gebruikers **→** Berichten **→** Privéberichten** vanuit
   het beheermenu.
-
-<!-- -->
-
 - Of selecteer de icoon in de titelbalk van de beheerpagina's.
 
 <img
@@ -46,15 +43,9 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Beantwoord**. Maakt een nieuw bericht aan als antwoord op het
   huidige bericht.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

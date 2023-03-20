@@ -50,9 +50,6 @@ alt="Help-4x-modules-site-module-manager-module-similar-tags-de.png" />
 - **Titel anzeigen** (*Anzeigen*/*Verbergen*). Zeigt den Titel des
   Moduls an oder unterdrückt die Anzeige im Frontend. Der angezeigte
   Titel entspricht dem Titel im Formularfeld oben.
-
-<!-- -->
-
 - **Position**. Die
   [Modul-Position](https://docs.joomla.org/Module_Position/de "Module Position/de")
   wählen, auf der dieses Modul angezeigt werden soll. Eine
@@ -60,44 +57,23 @@ alt="Help-4x-modules-site-module-manager-module-similar-tags-de.png" />
   [Load-Position-Plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/de "How do you put a module inside an article?/de")
   eingegeben werden. Alternativ kann die Positionstaste gedrückt werden,
   um eine Modulposition aus dem Template auszuwählen.
-
-<!-- -->
-
 - **Status**. Der Veröffentlichungs-Status des Eintrags.
-
-<!-- -->
-
 - **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   des Eintrags.
-
-<!-- -->
-
 - **Module Reihenfolge** Zeigt eine DropDown-Liste aller Module an der
   Position, an der sich das aktuelle Modul befindet. In dieser
   Reihenfolge werden die Module angezeigt, sowohl im Frontend als auch
   auf der
   [Module](https://docs.joomla.org/Help4.x:Modules/de "Help4.x:Modules/de")-Seite.
-
-<!-- -->
-
 - **Veröffentlichung starten**. Datum und Uhrzeit, um die
   Veröffentlichung zu starten. Dieses Feld verwenden, um Inhalt vor der
   Zeit zu erstellen und ihn später automatisch zu veröffentlichen.
-
-<!-- -->
-
 - **Veröffentlichung beenden**. Datum und Uhrzeit, um die
   Veröffentlichung zu beenden. Dieses Feld verwenden, um dem Inhalt
   automatisch den Status „Versteckt“ zuzuweisen (zum Beispiel, wenn der
   Inhalt nicht mehr aktuell ist).
-
-<!-- -->
-
 - **Sprache**. Die Sprachzuordnung des Eintrags.
-
-<!-- -->
-
 - **Notiz**. Die Notiz wird meist vom Site-Administrator verwendet, um
   beispielsweise Informationen über den Eintrag zu notieren. Die Notiz
   wird nicht im Frontend der Seite angezeigt.
@@ -114,9 +90,6 @@ alt="Help-4x-modules-manager-site-module-menu-assignment-tab-de.png" />
 - **Menüzuweisung**. Eine der Optionen **Auf allen Seiten**, **Auf
   keiner Seite**, **Nur auf den gewählten Seiten** oder **Auf allen,
   außer den gewählten Seiten** aus der Liste wählen.
-
-<!-- -->
-
 - **Menüauswahl**. Wenn eine der beiden letztgenannten Optionen
   ausgewählt wird, erscheint eine Liste mit allen Menüeinträgen. Auf
   diese Weise kann man bestimmten Seiten Module zuweisen. Durch Auswahl
@@ -207,29 +180,14 @@ Bereich. Die Schaltflächen sind:
 
 - **Speichern** Speichert den Menüeintrag und wird auf dem aktuellen
   Bildschirm bleiben.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und wird den
   aktuellen Bildschirm schließen.
-
-<!-- -->
-
 - **Speichern & Neu** Speichert das item und hält die Seite zum
   Bearbeiten offen damit ein neues item erstellt werden kann.
-
-<!-- -->
-
 - **Als Kopie speichern** Speichert Änderungen in einer Kopie des
   aktuellen items. Nicht beeinflusst wird dabei das aktuelle item.
   Dieses Symbol wird nicht angezeigt, wenn ein neues item erstellt wird.
-
-<!-- -->
-
 - **Schließen** Schließt den aktuellen Bildschirm und kehrt zum
   vorherigen Bildschirm zurück, ohne die vorgenommenen Änderungen zu
   speichern.
-
-<!-- -->
-
 - **Hilfe** Öffnet die Hilfe-Seite.

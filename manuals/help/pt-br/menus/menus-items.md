@@ -33,44 +33,20 @@ title="File:Help-4x-menus-menu-manager-menu-items-pt-br.png">800px</a>
   Outras, como "Editar", funcionam apenas em um item de cada vez. Se
   vários itens estiverem marcados e você pressionar "Editar", apenas o
   primeiro item será aberto para edição.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Título**: O nome do objeto. Para um item de menu, o título será
   exibido no menu. Para um artigo ou uma categoria, o título pode,
   opcionalmente, ser exibido na página web. Esta entrada é obrigatória.
   Você pode abrir o item para edição clicando no título.
-
-<!-- -->
-
 - **Menu**: Mostra em qual menu o link aparecerá.
-
-<!-- -->
-
 - **Início**: O ícone da estrela amarela designa qual item dos menus é a
   página inicial atual. Acionar (clicar em) um ícone da estrela vazio
   designará esse item dos menus como a nova página inicial.
-
-<!-- -->
-
 - **Acesso**: O [nível de acesso de
   visualização](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/pt-br "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/pt-br")
   para este item.
-
-<!-- -->
-
 - **Associação**: Mostra a qual item dos menus este item está associado.
-
-<!-- -->
-
 - **Linguagem**: Linguagem do item.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -88,9 +64,6 @@ captura de tela acima. As funções são:
 - **Pesquisar**: Insira parte do nome do menu e pressione "Pesquisar"
   para encontrar os nomes correspondentes. Pressione o **x** ou "Limpar"
   para limpar o campo da pesquisa e restaurar a lista dos menus.
-
-<!-- -->
-
 - **Ordenação** (padrão): A coluna na qual classificar os itens exibidos
   na tabela. Os valores são os mesmos que os nomes dos cabeçalhos das
   colunas.
@@ -99,14 +72,8 @@ captura de tela acima. As funções são:
 
 - **Selecionar estado**: Seleciona entre lixeira / não publicado /
   publicado / arquivado / todos.
-
-<!-- -->
-
 - **Selecionar acesso**. Seleciona na lista de níveis de acesso de
   visualização disponíveis.
-
-<!-- -->
-
 - 
 
 **Selecionar linguagem**: Seleciona na lista de linguagens disponíveis.
@@ -129,29 +96,14 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo menu item.
-
-<!-- -->
-
 - **Ações**: Revela uma lista de ações para os itens selecionados.
   Marque uma ou mais caixas de seleção de itens para ativar a lista.
-
-<!-- -->
-
 - **Publicar**: Disponibiliza os menu items selecionados para os
   visitantes do seu site.
-
-<!-- -->
-
 - **Cancelar publicação**: Torna os menu items selecionados
   indisponíveis para os visitantes do seu site.
-
-<!-- -->
-
 - **Check-in**: Faz o check-in dos menu items selecionados. Funciona com
   um ou vários menu items selecionados.
-
-<!-- -->
-
 - **Lixeira**: Altera o estado dos menu items selecionados para indicar
   que eles estão na lixeira.menu items na lixeira ainda podem ser
   recuperados selecionando "Lixeira" no filtro "Selecionar estado" e
@@ -160,25 +112,13 @@ de tela](#Captura_de_tela) acima. As funções são:
   lixeira, selecione "Lixeira" no filtro "Selecionar estado", selecione
   os menu items a serem excluídos permanentemente e clique no ícone
   "Esvaziar lixeira" na barra de ferramentas.
-
-<!-- -->
-
 - **Lote**: Processa em lote os menu items selecionados. Funciona com um
   ou vários itens selecionados.
-
-<!-- -->
-
 - **Reconstruir**: Reconstrói e atualiza a tabela relevante.
   Normalmente, você "não" precisa reconstruir esta tabela. Esta função é
   fornecida caso os dados na tabela passem a estar corrompidos.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Processar em lote

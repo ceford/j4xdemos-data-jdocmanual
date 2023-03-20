@@ -164,9 +164,6 @@ alt="Help-4x-Menus-Item-Articles-Create-Article-frontend-language-nl.png" />
   gebruiker](https://docs.joomla.org/Help4.x:Users:_Edit_Profile/nl "Help4.x:Users: Edit Profile/nl")
 - Om artikel ACL rechten voor een groep te wijzigen: [Artikel:
   Rechten](https://docs.joomla.org/Help4.x:Articles:_Options/nl#permissions "Help4.x:Articles: Options/nl").
-
-<!-- -->
-
 - Dit
   [portaal](https://docs.joomla.org/Portal:Joomla_4/nl "Portal:Joomla 4/nl")
   brengt informatie specifiek gerelateerd aan Joomla 4 samen.

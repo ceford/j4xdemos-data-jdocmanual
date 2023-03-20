@@ -300,9 +300,6 @@ is probably best to open a separate VS Code window for debugging.
 
 - **Open new window:** From the VS Code menu, select *File / New Window*
   and select the folder containing your Joomla website.
-
-<!-- -->
-
 - **Open folder:** In the newly opened window, select *File / Open
   Folder...* from the VS Code menu. Find your website folder and select
   it. You should see a list of all the files in your Joomla website in

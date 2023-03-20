@@ -35,9 +35,6 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-screen-nl.png" />
 ## Formulier velden
 
 - **Titel**. De titel die wordt getoond voor dit menu item.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -51,48 +48,24 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-screen-nl.png" />
 - **Menu-itemtype**. Het menu-item type dat geselecteerd is toen het
   mneu-item aangemaakt werd. Dit kan een van de core menu-item types
   zijn of een menu-item type geleverd door een geïnstalleerde extensie.
-
-<!-- -->
-
 - **Tag**. Selecteer de tag om te gebruiken.
-
-<!-- -->
-
 - **Selecteer inhoudstype.** Alleen tags van de geselecteerde types
   worden getoond (optioneel).
-
-<!-- -->
-
 - **Taalfilter**. (Gebruik algemeen (Alle)/Alle/Huidige/Engels
   (en-GB)/...). Filter de lijst met tags optioneel op taal.
-
-<!-- -->
-
 - **Link**. De door het systeem gegenereerde link voor dit menu-item.
   Dit veld kan niet veranderd worden en is alleen ter informatie.
-
-<!-- -->
-
 - **Doelvenster.** Selecteer uit de uitklaplijst.
-
-<!-- -->
-
 - **Templatestijl.** Selecteer uit de uitklaplijst.
 
 **Rechter venster**
 
 - **Menu**. Toont in welk menu de link zal verschijnen.
-
-<!-- -->
-
 - **Hoofditem.** Het bovenliggend menu-item voor dit menu-item. Gebruikt
   om vast te stellen of een menu-item top-niveau item of een sub-menu
   item is. Selecteer 'Menu-item root' (de standaard waarde) als dit een
   top-niveau menu-item is. Selecteer anders het Menu-item dat het
   bovenliggende item van het item is.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -112,27 +85,15 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-screen-nl.png" />
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Standaard pagina**. Indien Ja, is dit menu-item de standaard of home
   pagina van de website. Er mag exact één menu-item ingesteld zijn als
   standaard pagina. U kunt de standaard pagina op twee manieren
@@ -142,19 +103,10 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-screen-nl.png" />
       scherm.
   2.  Open het menu-item voor de nieuwe standaard pagina en wijzig de
       Standaard pagina instellingen op Ja.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -170,38 +122,20 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Items-List-Tags-options-screenshot-nl.pn
 
 - **Tagnaam.** (Gebruik algemeen(Verberg)/Verberg/Toon). Voor een
   wergave met een tag, toon de tagnaam.
-
-<!-- -->
-
 - **Tagafbeelding.** (Gebruik algemeen(Verberg)/Verberg/Toon). Voor een
   weergave met één tag, toon de afbeelding van de tag.
-
-<!-- -->
-
 - **Beschrijving tag.** (Gebruik algemeen(Verberg)/Verberg/Toon). Toon
   of verberg de beschrijving van de tag (wordt alleen gebruikt als één
   enkele tag geselecteerd is).
-
-<!-- -->
-
 - **Afbeelding.** Selecteer of upload de afbeelding.
-
-<!-- -->
-
 - **Beschrijving.** De beschrijving van het item in. Categorie,
   subcategorie en weblink beschrijvingen kunnen worden weergegeven op
   webpagina's, afhankelijk van de instellingen. Deze beschrijvingen
   worden ingevoerd met behulp van dezelfde editor die wordt gebruikt
   voor artikelen.
-
-<!-- -->
-
 - **Volgorde:** (standaard). De kolom waarin getoonde items in de tabel
   gesorteerd worden. De waarden zijn hetzelfde als de namen van de
   kolomkoppen.
-
-<!-- -->
-
 - **Richting.** Sorteervolgorde. Aflopend is van hoog naar laag.
   Oplopend is van laag naar hoog.
 
@@ -215,20 +149,11 @@ data-file-width="948" data-file-height="318" width="600" height="201"
 alt="Help-4x-Menus-Menu-Item-Tags-Items-Items-List-Item-options-screenshot-nl.png" />
 
 - **Itemafbeelding:** Toon de afbeelding van ieder item.
-
-<!-- -->
-
 - **Itembeschrijving:** Toon of verberg de beschrijving van ieder item
   in de lijst. De lengte kan beperkt worden met behulp van de Maximum
   aantal tekens optie.
-
-<!-- -->
-
 - **Maximum aantal tekens.** Het maximum aantal tekens uit de
   beschrijving dat getoond moet worden van iedere tag.
-
-<!-- -->
-
 - **Filterveld:** Toon of verberg het veld in de lijst.
 
 ### Pagineringsopties tabblad
@@ -276,9 +201,6 @@ De volgende opties zijn beschikbaar.
 - *Toon:* Paginalinks tonen indien nodig.
 - *Verbergen:* Paginalinks niet tonen. In dit geval kunnen gebruikers
   niet naar andere pagina's navigeren.
-
-<!-- -->
-
 - **Paginering samenvatting.** Toon of verberg het huidige paginanummer
   en totaal aantal pagina's (bijv., "Pagina 1 van 2") onderaan iedere
   pagina. Gebruik algemeen zal de standaard waarde van de component
@@ -296,9 +218,6 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Items-List-Item-Selection-options-screen
 - **Overeenkomsttype:** Alle zal de items weergeven die alle tags
   hebben. Enkele zal de items weergeven die tenminste één van de tags
   hebben.
-
-<!-- -->
-
 - **Subtags:** In- of uitsluiten van subtags op de lijst resultaten van
   een tag.
 
@@ -334,30 +253,15 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan. Of
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   This toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Website schermafbeelding

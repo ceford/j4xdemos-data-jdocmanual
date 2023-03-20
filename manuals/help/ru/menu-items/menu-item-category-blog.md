@@ -131,23 +131,14 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-ru.png" />
   Articles.
 - **Порядок размещения в столбцах**. In multi-column blog layouts,
   whether to order articles Down the columns or Across the columns.
-
-<!-- -->
-
   - Вниз: Order articles going down the first column and then over to
     the next column, for example:
 
 - 
-
-<!-- -->
-
   - Поперек: Order articles going across the columns and then back to
     the first column, for example:
 
 - 
-
-<!-- -->
-
 - **Количество ссылок на другие материалы**. The number of Links to
   display in the Links area of the page. These links allow a User to
   link to additional Articles, if there are more Articles than can fit

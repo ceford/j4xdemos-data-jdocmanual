@@ -50,19 +50,10 @@ Um Berechtigungen dieser Erweiterung zu ändern:
 - Die **Gruppe** durch Anklicken des Namens auf der linken Seite
   auswählen.
 - Die gewünschte **Aktion** aussuchen. Mögliche Aktionen sind:
-
-<!-- -->
-
   - **ACL & Optionen konfigurieren**. Ermöglicht Benutzern das
     Bearbeiten der Optionen und Berechtigungen (ACL) dieser Erweiterung.
-
-<!-- -->
-
   - **Nur Optionen konfigurieren**. Ermöglicht Benutzern die Optionen,
     außer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
-
-<!-- -->
-
   - **Administrationszugriff**. Ermöglicht Benutzern den Zugriff auf
     diese Erweiterung.
   - **Erstellen**. Benutzer können Inhalte für diese Erweiterung
@@ -97,20 +88,11 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Speichern**. Speichert den Eintrag und bleibt auf der aktuellen
   Seite.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
-
-<!-- -->
-
 - **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

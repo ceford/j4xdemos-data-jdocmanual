@@ -10,109 +10,46 @@ Plugins by Group:
 
 - [**Action Log Group.** (1
   Plugin)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Action_Log_Group/en "Chunk4x:Extensions Plugin Manager Edit Action Log Group/en")
-
-<!-- -->
-
 - [**API Authentication Group.** (2
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_API_Authentication_Group/en "Chunk4x:Extensions Plugin Manager Edit API Authentication Group/en")
-
-<!-- -->
-
 - [**Authentication Group.** (3
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Authentication_Group/en "Chunk4x:Extensions Plugin Manager Edit Authentication Group/en")
-
-<!-- -->
-
 - [**Behaviour Group.** (2
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Behaviour_Group/en "Chunk4x:Extensions Plugin Manager Edit Behaviour Group/en")
-
-<!-- -->
-
 - [**CAPTCHA Group**. (2
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_CAPTCHA_Group/en "Chunk4x:Extensions Plugin Manager Edit CAPTCHA Group/en")
-
-<!-- -->
-
 - [**Content Group.** (1
   Plugin)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Content_Group/en "Chunk4x:Extensions Plugin Manager Edit Content Group/en")
-
-<!-- -->
-
 - [**Editors Group.** (3
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Editor_Group/en "Chunk4x:Extensions Plugin Manager Edit Editor Group/en")
-
-<!-- -->
-
 - [**Editor Button Group.** (8
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Button_Group/en "Chunk4x:Extensions Plugin Manager Edit Button Group/en")
-
-<!-- -->
-
 - [**Extensions Group.** (3
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Extension_Group/en "Chunk4x:Extensions Plugin Manager Edit Extension Group/en")
-
-<!-- -->
-
 - [**Fields Group.** (6
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Fields_Group/en "Chunk4x:Extensions Plugin Manager Edit Fields Group/en")
-
-<!-- -->
-
 - [**FileSystem Group.** (1
   Plugin)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_FileSystem_Group/en "Chunk4x:Extensions Plugin Manager Edit FileSystem Group/en")
-
-<!-- -->
-
 - [**Finder Group.** (5
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Smart_Search_Group/en "Chunk4x:Extensions Plugin Manager Edit Smart Search Group/en")
-
-<!-- -->
-
 - [**Installer Group.** (5
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Installer_Group/en "Chunk4x:Extensions Plugin Manager Edit Installer Group/en")
-
-<!-- -->
-
 - [**Media Action Group.** (3
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Media_Action_Group/en "Chunk4x:Extensions Plugin Manager Edit Media Action Group/en")
-
-<!-- -->
-
 - [**Privacy Group.** (6
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Privacy_Group/en "Chunk4x:Extensions Plugin Manager Edit Privacy Group/en")
-
-<!-- -->
-
 - [**Quick Icon Group.** (6
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Quick_Icon_Group/en "Chunk4x:Extensions Plugin Manager Edit Quick Icon Group/en")
-
-<!-- -->
-
 - [**Sample Data Group.** (2
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Sample_Data_Group/en "Chunk4x:Extensions Plugin Manager Edit Sample Data Group/en")
-
-<!-- -->
-
 - [**System Group.** (22
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_System_Group/en "Chunk4x:Extensions Plugin Manager Edit System Group/en")
-
-<!-- -->
-
 - [**Two Factor Authentication Group.** (2
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Two_Factor_Authentication_Group/en "Chunk4x:Extensions Plugin Manager Edit Two Factor Authentication Group/en")
-
-<!-- -->
-
 - [**User Group.** (5
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_User_Group/en "Chunk4x:Extensions Plugin Manager Edit User Group/en")
-
-<!-- -->
-
 - [**Web Services Group.** (5
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Web_Services_Group/en "Chunk4x:Extensions Plugin Manager Edit Web Services Group/en")
-
-<!-- -->
-
 - [**Workflow Group.** (3
   Plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Workflow_Group/en "Chunk4x:Extensions Plugin Manager Edit Workflow Group/en")
 
@@ -181,19 +118,10 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

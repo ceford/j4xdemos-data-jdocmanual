@@ -29,9 +29,6 @@ alt="Help-4x-Components-Weblinks-Categories-Edit-en.png" />
 
 - **Title**. The Title for this item. This may or may not display on the
   page, depending on the parameter values you choose.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -53,9 +50,6 @@ alt="Help-4x-Administrator-Categories-Edit-Editor-en.png" />
 
 - **Article.** Click to quickly add an 'Article' link to the description
   with a popup window.
-
-<!-- -->
-
 - **Image.** Click to quickly add an 'Image' to the description with a
   popup window.
 

@@ -35,9 +35,6 @@ decoding="async" data-file-width="1000" data-file-height="508"
 width="1000" height="508" alt="Selecting an image" />
 
 1.  Définissez les propriétés de l'image :
-
-<!-- -->
-
 1.  - **Description** : l'attribut **alt** de l'image, une
       caractéristique importante pour l'accessibilité et la conformité
       avec les standards du web.
@@ -59,14 +56,8 @@ width="1000" height="508" alt="Selecting an image" />
 
 1.  - **Alignement** : définit l'alignement de l'image. Par défaut,
       l'alignement est paramétré sur **Non défini**.
-
-<!-- -->
-
 1.  - **Classe de légende** : permet d'appliquer la classe définie à
       l'élément *figcaption*.
-
-<!-- -->
-
 1.  Cliquez sur le bouton **Insérer** pour insérer l'image. L'écran
     d'insertion de l'image va se fermer et l'image sera affichée dans
     l'éditeur. Sinon, vous pouvez cliquer sur le bouton **Annuler** pour
@@ -120,26 +111,14 @@ de chargement situé en bas de l'écran d'insertion d'images.
 
 1.  Cliquez sur le bouton *Parcourir* pour ouvrir un navigateur de
     fichiers.
-
-<!-- -->
-
 1.  Sélectionnez les images que vous souhaitez charger. Cliquez sur
     Ouvrir dans le navigateur de fichiers pour confirmer la sélection.
     Remarque : le style et la mise en page dépend du navigateur et du
     système d'exploitation que vous utilisez.
-
-<!-- -->
-
 1.  Le(s) fichier(s) sélectionné(s) s'affichent en bas de l'écran
     d'insertion d'images. Cliquez sur *Démarrer l'envoi* pour lancer le
     chargement des fichiers.
-
-<!-- -->
-
 1.  - Lorsque le chargement est terminé, un encart vert s'affiche en
       haut de l'écran.
-
-<!-- -->
-
 1.  Vous pouvez maintenant sélectionner et insérer l'image chargée comme
     précédemment.

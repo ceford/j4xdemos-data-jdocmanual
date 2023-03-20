@@ -65,15 +65,9 @@ At the top of the page you will see the toolbar shown in the
   format for your inspections.
 - **Email Export Data.** For Export requests only. Sends export data to
   the data Subject in XML format.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

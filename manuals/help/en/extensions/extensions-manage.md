@@ -129,28 +129,13 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Enable**. Makes the selected item available for use on your website.
-
-<!-- -->
-
 - **Disable**. Makes the selected extension(s) unavailable for use on
   your website.
-
-<!-- -->
-
 - **Refresh cache**. Refresh the information displayed for the selected
   extension(s).
-
-<!-- -->
-
 - **Uninstall:** Uninstall the selected extension(s).
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

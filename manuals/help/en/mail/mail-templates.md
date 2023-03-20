@@ -79,7 +79,4 @@ has a dark colour background.
 
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

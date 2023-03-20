@@ -215,9 +215,6 @@ Em baixo tem um resumo dos tipos de colocação em *cache*.
   Plugin Manager → System - Page Cache)
 - **Caches**: each whole page of your site
 - **Based on**: URL
-
-<!-- -->
-
 - **More info**:
   - Optional browser caching: Also caches on your visitors'
     browser/computer

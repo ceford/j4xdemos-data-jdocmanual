@@ -67,18 +67,9 @@ Bereich. Die Schaltflächen sind:
 
 - **Speichern** Speichert den Menüeintrag und wird auf dem aktuellen
   Bildschirm bleiben.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und wird den
   aktuellen Bildschirm schließen.
-
-<!-- -->
-
 - **Schließen** Schließt den aktuellen Bildschirm und kehrt zum
   vorherigen Bildschirm zurück, ohne die vorgenommenen Änderungen zu
   speichern.
-
-<!-- -->
-
 - **Hilfe** Öffnet die Hilfe-Seite.

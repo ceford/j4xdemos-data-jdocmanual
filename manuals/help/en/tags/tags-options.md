@@ -182,24 +182,12 @@ To change the permissions for this extension, do the following.
 
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Save.** Saves the Tags Options settings and stays in the current
   screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the Tags Options settings and closes the
   current screen.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

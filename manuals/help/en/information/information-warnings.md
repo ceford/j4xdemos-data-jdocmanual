@@ -26,9 +26,6 @@ At the top of the page you will see the toolbar shown in the
 
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

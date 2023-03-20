@@ -35,9 +35,6 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-nl.png" />
 ## Formulier velden
 
 - **Titel**. De titel die wordt getoond voor dit menu item.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -51,44 +48,23 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-nl.png" />
 - **Menu-itemtype**. Het menu-item type dat geselecteerd is toen het
   mneu-item aangemaakt werd. Dit kan een van de core menu-item types
   zijn of een menu-item type geleverd door een geïnstalleerde extensie.
-
-<!-- -->
-
 - **Hoofd**. Het item (categorie, menu-item, enzovoort) dat bovenliggend
   is aan het item dat bewerkt wordt.
-
-<!-- -->
-
 - **Taalfilter**. (Gebruik algemeen (Alle)/Alle/Huidige/Engels
   (en-GB)/...). Filter de lijst met tags optioneel op taal.
-
-<!-- -->
-
 - **Link**. De door het systeem gegenereerde link voor dit menu-item.
   Dit veld kan niet veranderd worden en is alleen ter informatie.
-
-<!-- -->
-
 - **Doelvenster.** Selecteer uit de uitklaplijst.
-
-<!-- -->
-
 - **Templatestijl.** Selecteer uit de uitklaplijst.
 
 **Rechter venster**
 
 - **Menu**. Toont in welk menu de link zal verschijnen.
-
-<!-- -->
-
 - **Hoofditem.** Het bovenliggend menu-item voor dit menu-item. Gebruikt
   om vast te stellen of een menu-item top-niveau item of een sub-menu
   item is. Selecteer 'Menu-item root' (de standaard waarde) als dit een
   top-niveau menu-item is. Selecteer anders het Menu-item dat het
   bovenliggende item van het item is.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -108,27 +84,15 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-nl.png" />
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Standaard pagina**. Indien Ja, is dit menu-item de standaard of home
   pagina van de website. Er mag exact één menu-item ingesteld zijn als
   standaard pagina. U kunt de standaard pagina op twee manieren
@@ -138,19 +102,10 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-nl.png" />
       scherm.
   2.  Open het menu-item voor de nieuwe standaard pagina en wijzig de
       Standaard pagina instellingen op Ja.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -169,51 +124,24 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-Tags-options-screenshot-nl.png"
   weergegeven kolommen als de deling van 12 door het opgegeven aantal
   niet resulteert in een heel getal. De weergave is namelijk gebaseerd
   op een 12 kolommen raster.
-
-<!-- -->
-
 - **Beschrijving taglijst** Optionele alternatieve tekst als koptekst
   van de pagina.
-
-<!-- -->
-
 - **Tags afbeelding.** (Gebruik Algemeen/Verberg/Toon). Toon een
   afbeelding in de titel van de tagslijst.
-
-<!-- -->
-
 - **Tags afbeelding.** Selecteer of upload de afbeelding bestemd voor de
   titel van de tagslijst.
-
-<!-- -->
-
 - **Volgorde:** (standaard). De kolom waarin getoonde items in de tabel
   gesorteerd worden. De waarden zijn hetzelfde als de namen van de
   kolomkoppen.
-
-<!-- -->
-
 - **Richting.** Sorteervolgorde. Aflopend is van hoog naar laag.
   Oplopend is van laag naar hoog.
-
-<!-- -->
-
 - **Item afbeeldingen.** (Gebruik afbeeldingen(Verberg),Verberg, Toon)
   Toont de eerste afbeelding van iedere afbeelding in de lijst.
-
-<!-- -->
-
 - **Beschrijving tag.** (Gebruik algemeen(Verberg)/Verberg/Toon). Toon
   of verberg de beschrijving van de tag (wordt alleen gebruikt als één
   enkele tag geselecteerd is).
-
-<!-- -->
-
 - **Maximum aantal tekens.** Het maximum aantal tekens uit de
   beschrijving dat getoond moet worden van iedere tag.
-
-<!-- -->
-
 - **Hits**. Het aantal keren dat een item is bekeken.
 
 ### Selectie opties tabblad
@@ -227,9 +155,6 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-Tags-Selection-options-screensh
 
 - **Maximum items.** Het maximum aantal items dat terug moet worden
   gegeven.
-
-<!-- -->
-
 - **Filterveld.** Het Filterveld maakt een tekstveld aan waar een
   gebruiker een veld kan opgeven dat gebruikt moet worden om de
   artikelen te filteren die getoond moeten worden. Een voorbeeld hoe dit
@@ -254,9 +179,6 @@ alt="Help30-article-category-list-filter-field-options-nl.png" />
 - *Titel:* Filter op artikeltitel.
 - *Auteur:* Filter op de naam van de auteur.
 - *Hits:* Filter op het aantal hits van artikelen.
-
-<!-- -->
-
 - **Weergave selectielijst.** (Gebruik algemeen/Toon/Verberg) Tonen of
   verbergen van de selectielijst waarmee de gebruiker het aantal weer te
   geven items in de lijst kan selecteren. Onderstaand een voorbeeld van
@@ -293,9 +215,6 @@ De volgende opties zijn beschikbaar.
 - *Toon:* Paginalinks tonen indien nodig.
 - *Verbergen:* Paginalinks niet tonen. In dit geval kunnen gebruikers
   niet naar andere pagina's navigeren.
-
-<!-- -->
-
 - **Paginering samenvatting.** Toon of verberg het huidige paginanummer
   en totaal aantal pagina's (bijv., "Pagina 1 van 2") onderaan iedere
   pagina. Gebruik algemeen zal de standaard waarde van de component
@@ -322,24 +241,12 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Website schermafbeelding

@@ -88,13 +88,7 @@ el ejemplo anterior, si el elemento de menú productos era un
 el vínculo al artículo tendría tres partes:
 
 - La dirección URL del elemento de menú sería example.com/productos;
-
-<!-- -->
-
 - Más, el ID de la categoría y el alias de la categoría - "'32-frutas"';
-
-<!-- -->
-
 - Más,el ID del artículo y el alias del artículo - "'1-manzana"';
 
 La dirección URL completa es:

@@ -32,9 +32,6 @@ if you want to use Apache's mod_rewrite/URL rewriting.
 
 - Please add the next code to your server (vhost) configuration in the
   *nginx.conf* file:
-
-<!-- -->
-
        # Support Clean (aka Search Engine Friendly) URLs
        location / {
           try_files $uri $uri/ /index.php?$args;
@@ -43,9 +40,6 @@ if you want to use Apache's mod_rewrite/URL rewriting.
 - If the above does not work, add the next code to your server
   configuration in the *nginx.conf* file: (This worked with nginx 1.4.6
   on Ubuntu.)
-
-<!-- -->
-
     server {
       ....
       location / {

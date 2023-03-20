@@ -46,9 +46,6 @@ alt="Help-4x-Components-Banners-Banners-Edit-screen-nl.png" />
   <a href="https://docs.joomla.org/Help4.x:Components_Banners_Banners/nl"
   class="mw-redirect"
   title="Help4.x:Components Banners Banners/nl">Advertentiebeheer</a>.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -60,9 +57,6 @@ alt="Help-4x-Components-Banners-Banners-Edit-screen-nl.png" />
 **Left Panel**
 
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Type**. Het type advertentie dat getoond wordt. Opties zijn een
   afbeeldingsbestand of aangepaste HTML code.
   - **Afbeelding**. Afbeeldingsbestand dat getoond moet worden als
@@ -97,9 +91,6 @@ alt="Help-4x-Components-Banners-Banners-Edit-screen-nl.png" />
 **Right Panel**
 
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Kleven**. *(Ja of Nee)* Of al dan niet de advertentie "kleeft". Als
   één of meer advertenties in een categorie aangemerkt wordt als
   "klevend," hebben ze voorrang op advertenties die niet kleven.
@@ -113,9 +104,6 @@ worden ze pas als ze opgebruikt zijn niet meer getoond en worden de niet
 klevende advertenties automatisch getoond.*
 
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie versie**. Optioneel veld om deze versie van dit item te
   identificeren in het
   [versiegeschiedenis](https://docs.joomla.org/Help40:Components_Version_History/nl "Special:MyLanguage/Help40:Components Version History/nl")
@@ -141,9 +129,6 @@ alt="Help-4x-Components-Banners-Banners-Edit-Banners-Details-Tab-nl.png" />
 - **Klikken.** Het aantal keer dat op de advertentie geklikt is. Kan
   niet ingevoerd worden. U kunt dit aantal herstellen naar 0 door op de
   'Herstel klikken' knop te drukken.
-
-<!-- -->
-
 - **Adverteerder.** De adverteerder van deze advertentie. Adverteerders
   worden toegevoegd via Advertenties - Adverteerders.
 
@@ -187,35 +172,17 @@ het 'pop-up' scherm en selecteer een datum uit de kalender.
 
 - **Aanmaakdatum.** Datum dat het item (artikel, categorie, weblink,
   etc.) aangemaakt is.
-
-<!-- -->
-
 - **Gemaakt door**. Naam van de Joomla! gebruiker die dit item gemaakt
   heeft. Dit is standaard de huidig ingelogde gebruiker. Klik op de knop
   selecteer gebruiker en selecteer een andere gebruiker indien dit
   aangepast moet worden naar een andere gebruiker.
-
-<!-- -->
-
 - **Gemaakt door alias**. Dit optionele veld geeft u de mogelijkheid een
   alias in te voeren voor deze auteur voor dit artikel. Dit geeft de
   mogelijkheid een andere auteursnaam voor dit artikel te tonen.
-
-<!-- -->
-
 - **Aanpassingsdatum**. Datum van laatste wijziging.
-
-<!-- -->
-
 - **Aangepast door**. Gebruikersnaam wie de laatste aanpassing heeft
   gedaan.
-
-<!-- -->
-
 - **Herzien**. Aantal aanpassingen van dit item.
-
-<!-- -->
-
 - **Trefwoorden**. Optionele invoer voor trefwoorden. Dient ingevoerd
   worden gescheiden door komma's (bijvoorbeeld, "katten, honden,
   huisdieren") en mag ingevoerd worden met hoofdletters of kleine
@@ -247,15 +214,9 @@ het 'pop-up' scherm en selecteer een datum uit de kalender.
       delen. Als bijvoorbeeld het huidige artikel de trefwoorden
       "katten, honden, apen" heeft, dan worden artikelen met slechts één
       van deze trefwoorden getoond in de gerelateerde artikelen module.
-
-<!-- -->
-
 - **Gebruik eigen voorvoegsel.** Het al dan niet gebruiken van het
   advertentie-voorvoegsel of dat van de opdrachtgever. Selecteer *Nee*
   als u het voorvoegsel van de advertentie opdrachtgever wilt gebruiken.
-
-<!-- -->
-
 - **Meta trefwoord voorvoegsel:** Wanneer de meta trefwoorden kloppen
   zoek dan alleen naar meta trefwoorden met deze optionele voorvoegsels.
   Dit verbetert de performance.
@@ -266,45 +227,24 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige item. Beïnvloed het huidige item niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan. Of
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Versies**. Opent het item versie geschiedenis scherm om eerdere
   versies van dit item te tonen. Dit stelt u in staat oudere versies van
   het item te bekijken en een oudere versie te herstellen. Zie [Versie
   historie](https://docs.joomla.org/Help40:Components_Version_History/nl "Special:MyLanguage/Help40:Components Version History/nl")
   voor meer informatie.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

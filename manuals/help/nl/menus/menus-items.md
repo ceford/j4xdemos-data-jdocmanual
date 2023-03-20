@@ -35,44 +35,20 @@ alt="Help-4x-menus-menu-manager-menu-items-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Titel**. De naam van het item. Voor een menu-item wordt de titel in
   het menu weergegeven. Voor een artikel of categorie wordt de titel
   optioneel weergegeven op de webpagina. Invullen is vereist. Een item
   kan bewerkt worden door op de titel te klikken.
-
-<!-- -->
-
 - **Menu**. Toont in welk menu de link zal verschijnen.
-
-<!-- -->
-
 - **Home**. Het gele stericoon geeft aan welk menu-item de huidige
   startpagina is. Wanneer er op een "lege" stericoon geklikt wordt zal
   dit menu-item als nieuwe startpagina instellen.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Associatie:** Toont aan welk menu-item dit item geassocieerd is.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -91,9 +67,6 @@ hierboven. De functies zijn:
   zoeken om naar een overeenkomstige namen te zoeken. Klik op **x** or
   Wissen om het zoekveld leeg te maken en weer alle menu's in de lijst
   weer te geven.
-
-<!-- -->
-
 - **Volgorde:** (standaard). De kolom waarin getoonde items in de tabel
   gesorteerd worden. De waarden zijn hetzelfde als de namen van de
   kolomkoppen.
@@ -102,14 +75,8 @@ hierboven. De functies zijn:
 
 - **Selecteer status**. Selecteer uit Naar prullenbak / Gedepubliceerd /
   Gepubliceerd / Gearchiveerd / Alles.
-
-<!-- -->
-
 - **Selecteer toegang**. Selecteer uit de lijst met beschikbare weergave
   toegangsniveaus.
-
-<!-- -->
-
 - 
 
 **Selecteer taal**. Selecteer uit de lijst met beschikbare talen.
@@ -131,29 +98,14 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe menu item te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Publiceren**. Maakt de geselecteerde menu items beschikbaar voor de
   bezoekers van uw website.
-
-<!-- -->
-
 - **Depubliceren.** Maakt de geselecteerde menu items niet beschikbaar
   voor de bezoekers van uw website
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde menu items in. Werkt bij één of
   meer menu items geselecteerd.
-
-<!-- -->
-
 - **Prullenbak**. Verandert de status van de selecteerde menu items om
   aan te geven dat ze in de prullenbak zitten. menu items in de
   prullenbak kunnen hersteld worden door "Verplaatst naar prullenbak" te
@@ -163,25 +115,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   verwijderen, voor "Verplaatst naar prullenbak" in het Selecteer status
   filter, selecteer de menu items die definitief verwijderd moeten
   worden en klik daarna op het 'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Batch**. Batch verwerkt de geselecteerde menu items. Werkt bij één
   of meer geselecteerde items.
-
-<!-- -->
-
 - **Opnieuw opbouwen.** Ververst en stelt de relevant tabel opnieuw
   samen. Normaal hoeft u de tabel *niet* opnieuw op te bouwen. Deze
   functie voorziet in het geval de data in de tabel corrupt raakt.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Batchproces

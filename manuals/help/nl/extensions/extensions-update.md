@@ -116,14 +116,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   de geïnstalleerde extensies. Nogmaals, dit kan even duren.
 - **Opschonen cache.** Wis de beschikbare extensie update-informatie
   getoond in de lijst.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

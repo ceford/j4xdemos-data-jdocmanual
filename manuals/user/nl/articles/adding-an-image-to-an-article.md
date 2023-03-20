@@ -35,9 +35,6 @@ decoding="async" data-file-width="1000" data-file-height="508"
 width="1000" height="508" alt="Selecting an image" />
 
 1.  Stel de afbeelding eigenschappen naar behoefte in:
-
-<!-- -->
-
 1.  - **Alternatieve tekst**: Dit wordt het **alt** attribuut va de
       afbeelding, een belangrijke functie voor toegankelijkheid en de
       naleving van web-standaards.
@@ -59,14 +56,8 @@ width="1000" height="508" alt="Selecting an image" />
 
 1.  - **Uitlijning**: Stelt de afbeelding uitlijning in. Standaard is de
       uitlijning **Niet ingesteld**.
-
-<!-- -->
-
 1.  - **Caption Class**: Koppelt de ingegeven class aan het *figcaption*
       element.
-
-<!-- -->
-
 1.  Klik op de *Invoeg* knop om de afbeelding in te voegen. Het voeg
     afbeelding scherm sluit en de afbeelding wordt getoond in de editor.
     Of klik op de *Annuleren* knop om het 'voeg afbeelding toe' scherm
@@ -119,26 +110,14 @@ U kunt ook nieuwe afbeeldingen uploaden door de upload sectie van het
   to store new images for the current article.
 
 1.  Klik op de Bladeren knop om door bestanden te bladeren.
-
-<!-- -->
-
 1.  Selecteer de afbeeldingen die u wilt uploaden. Klik op Openen om de
     selectie te bevestigen. Let op: De stijl en de lay-out van het door
     bestanden bladeren hangt af van de browser en het operating systeem
     dat u gebruikt.
-
-<!-- -->
-
 1.  De geselecteerde bestand(en) verschijnen onderaan het 'Invoegen
     afbeelding' scherm. Klik *Upload starten* om het uploaden van de
     bestanden te beginnen.
-
-<!-- -->
-
 1.  - Wanneer de upload voltooid is verschijnt een groen bericht
       bovenaan het scherm.
-
-<!-- -->
-
 1.  U kunt nu de geüploade afbeelding selecteren en invoegen, zoals
     eerder beschreven.

@@ -54,9 +54,6 @@ The system requirements have been updated as follows:
   accordingly. This will help us with future MySQL version upgrades and
   also aligns more closely with Postgres to enable easier compatibility
   with queries in both languages.
-
-<!-- -->
-
     'STRICT_TRANS_TABLES',
     'ERROR_FOR_DIVISION_BY_ZERO',
     'NO_AUTO_CREATE_USER',
@@ -299,9 +296,6 @@ interface rather than a concrete class.
 - New:
   JApplicationWeb **→** Joomla\Application\AbstractWebApplication **→** 
   Joomla\Application\AbstractApplication
-
-<!-- -->
-
 - The legacy ways of calling JApplicationWeb::redirect have been removed
   - With a message and messageType parameters. (Call enqueueMessage
     separately.)

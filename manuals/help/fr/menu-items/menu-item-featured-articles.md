@@ -105,23 +105,14 @@ alt="Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-fr.png"
   ci-dessus).
 - **Multi Column Direction**. In multi-column blog layouts, whether to
   order articles Down the columns or Across the columns.
-
-<!-- -->
-
   - Down: Colonne : les articles se suivent à la verticale. Par
     exemple :
 
 - 
-
-<!-- -->
-
   - Across: Ligne : les articles se suivent à l'horizontal. Par
     exemple :
 
 - 
-
-<!-- -->
-
 - **\# Links**. **Titres avec lien**. Nombre d'articles dont seul le
   titre, sous forme de lien, doit être affiché. Ces liens permettent à
   un utilisateur d'avoir un lien vers des articles supplémentaires dans
@@ -337,14 +328,8 @@ En haut de la page, vous verrez la barre d'outils présentée dans la
 
 - To create a new Category see [Articles: Edit
   Category](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/en "Help4.x:Articles: Edit Category/en").
-
-<!-- -->
-
 - To create a new menu see
   [Menus](https://docs.joomla.org/Help4.x:Menus/en "Help4.x:Menus/en").
-
-<!-- -->
-
 - Ce
   [portail](https://docs.joomla.org/Portal:Joomla_4/fr "Portal:Joomla 4/fr")
   rassemble des informations liées spécifiquement à Joomla 4.

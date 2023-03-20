@@ -71,9 +71,6 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new message.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
   - **Mark As Read**. Marks the selected messages as Read. Select
@@ -90,16 +87,10 @@ At the top of the page you will see the toolbar shown in the
   Trash' toolbar icon.
 - **My Settings**. Opens a new window that allows you to change
   messaging settings.
-
-<!-- -->
-
         
 
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

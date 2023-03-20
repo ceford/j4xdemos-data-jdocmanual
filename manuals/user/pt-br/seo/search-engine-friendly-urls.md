@@ -109,14 +109,8 @@ o link para o título do artigo e/ou o link leia mais teria três partes:
 
 - O localizador uniforme de recursos (URL) do item de menu -
   example.com/produtos;
-
-<!-- -->
-
 - Além disso, a chave primária para a categoria e o alias da categoria -
   32-fruta;
-
-<!-- -->
-
 - Além disso, a chave primária para o artigo e o alias do artigo -
   1-laranja;
 

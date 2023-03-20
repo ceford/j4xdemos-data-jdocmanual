@@ -56,9 +56,6 @@ A cópia de um site em Joomla é feita em duas partes. São:
 
 1.  A informação do banco de dados, normalmente encontrada no seu banco
     de dados MySQL.
-
-<!-- -->
-
 1.  Os arquivos e pastar do seu site como estão no servidor.
 
 Se não fizer a cópia dos arquivos e do banco de dados, ela estará

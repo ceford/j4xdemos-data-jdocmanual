@@ -37,29 +37,14 @@ Then let this guide relieve some of that pain.
 
 - [Getting Started with Joomla!
   4](https://docs.joomla.org/J4.x:Getting_Started_with_Joomla!/en "Special:MyLanguage/J4.x:Getting Started with Joomla!/en")
-
-<!-- -->
-
 - [Getting Started: Site and Administrator
   templates](https://docs.joomla.org/J4.x:Getting_Started:_Site_and_Administrator_templates/en "Special:MyLanguage/J4.x:Getting Started: Site and Administrator templates/en")
-
-<!-- -->
-
 - [Getting Started: Adding an
   Article](https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article/en "Special:MyLanguage/J4.x:Getting Started: Adding an Article/en")
-
-<!-- -->
-
 - [Getting Started: Adding a Menu
   Item](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item/en "Special:MyLanguage/J4.x:Getting Started: Adding a Menu Item/en")
-
-<!-- -->
-
 - [Getting Started: Adding a
   Category](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category/en "Special:MyLanguage/J4.x:Getting Started: Adding a Category/en")
-
-<!-- -->
-
 - [Getting Started: Adding a
   Module](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module/en "Special:MyLanguage/J4.x:Getting Started: Adding a Module/en")
 

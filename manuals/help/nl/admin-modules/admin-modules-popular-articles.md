@@ -47,9 +47,6 @@ alt="Help-4x-modules-administrator-module-manager-module-popular-articles-form-n
 - **Toon titel.** (Toon/Verberg) Kies of de moduletitel op de website
   getoond of verborgen moet worden. De titel wordt degene in het
   formulierveld hierboven.
-
-<!-- -->
-
 - **Positie.** Kies de [module
   positie](https://docs.joomla.org/Module_Position/nl "Module Position/nl")
   waarop u wilt dat de module getoond wordt. Een aangepaste module
@@ -57,45 +54,24 @@ alt="Help-4x-modules-administrator-module-manager-module-popular-articles-form-n
   plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/nl "How do you put a module inside an article?/nl")
   of er kan op de positie knop gedrukt worden om een module positie te
   selecteren uit het template.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Module volgorde.** Dit toont een drop-down lijst met iedere module
   op de positie waar de huidige module op staat. Dit is de zowel
   volgorde waarin de modules getoond worden op de website als op de
   [Modulebeheer](https://docs.joomla.org/Help4.x:Modules/nl "Help4.x:Modules/nl")
   pagina.
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -177,28 +153,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige item. Beïnvloed het huidige item niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw item.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   This toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

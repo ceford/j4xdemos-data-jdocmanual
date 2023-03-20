@@ -48,18 +48,9 @@ conditions will appear in the list.
 
 - **Select Status**. Select from Trashed / Unpublished / Published /
   Archived / All.
-
-<!-- -->
-
 - **Select Category**. Select from the list of available categories.
-
-<!-- -->
-
 - **Select Access**. Select from the list of available viewing access
   levels.
-
-<!-- -->
-
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
 

@@ -61,15 +61,9 @@ alt="Help-4x-modules-site-module-manager-module-articles-newsflash-nl.png" />
 
 - **Title.** The title of the module. This is also the title displayed
   for the module depending on the *Show Title* Form Field
-
-<!-- -->
-
 - **Show Title.** (Show/Hide) Choose whether to show or hide the modules
   title in the front end. The title will be the one in the Form Field
   above.
-
-<!-- -->
-
 - **Position.** Choose the [module
   position](https://docs.joomla.org/Module_Position/en "Module Position/en")
   you wish this module to be displayed in. A custom module position can
@@ -77,44 +71,23 @@ alt="Help-4x-modules-site-module-manager-module-articles-newsflash-nl.png" />
   plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/en "How do you put a module inside an article?/en")
   or the position button can be pressed to select a module position from
   the template.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   for this item.
-
-<!-- -->
-
 - **Module Ordering.** This shows a drop down of every module in the
   position that the current module is in. This is the order that the
   modules will display in when displayed on in the front end as well as
   in the
   [Modules](https://docs.joomla.org/Help4.x:Modules/en "Help4.x:Modules/en")
   page.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -131,9 +104,6 @@ alt="Help-4x-modules-manager-site-module-menu-assignment-tab-nl.png" />
 - **Moduletoewijzing.** Selecteer **Op alle pagina's**, **Geen
   pagina's**, **Alleen op de geselecteerde pagina's** of **Op alle
   pagina's behalve de geselecteerden** uit de lijst.
-
-<!-- -->
-
 - **Menuselectie.** Wanneer de laatste twee opties gekozen worden zal er
   een lijst worden weergegeven met alle menu-items zoals in het
   schermafdruk hierboven is te zien. Dit geeft u de mogelijkheid om de
@@ -220,31 +190,16 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige item. Beïnvloed het huidige item niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw item.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Website schermafbeelding

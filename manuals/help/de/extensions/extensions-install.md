@@ -144,9 +144,6 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Links zu anderen Seiten

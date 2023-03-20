@@ -71,9 +71,6 @@ niet ieder mogelijk scenario noemen.
     navigatie van de site aanbrengt, ontstaan er dan verouderde pagina's
     die een verwijzing nodig hebben? Houd alle URLs bij die een
     verwijzing nodig hebben in een spreadsheet of kladblok.
-
-<!-- -->
-
 1.  Heeft u “de core gehackt” van uw 1.5 site? Als dat zo is, dan worden
     deze aanpassingen niet gemigreerd naar Joomla 3. U zult
     alternatieven willen vinden voor het hacken van de core van Joomla 3
@@ -109,9 +106,6 @@ niet ieder mogelijk scenario noemen.
     document ter referentie als u dat wil. Een stuk papier en een pen
     zijn voldoende. Neem ook op of de extensie zwaar, gemiddeld,
     nauwelijks of helemaal niet gebruikt wordt.
-
-<!-- -->
-
 1.  Bepaal of de extensie van derden die u gebruikt klaar is voor de
     Joomla versie waar uw naartoe migreert.
 2.  Bepaal of u echt alle extensies nodig heeft die u gebruikt.
@@ -124,9 +118,6 @@ niet ieder mogelijk scenario noemen.
     een sterk aangepast template van derden? Zie, voor uitgebreide
     [Template overwegingen tijdens
     migraties](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
-
-<!-- -->
-
 1.  Als u uw template inwisselt voor een nieuwe, heeft het dan nieuwe
     afbeeldingen nodig? Bijvoorbeeld, als uw huidige site een witte
     achtergrond heeft en uw logo en andere afbeeldingen zijn .jpg

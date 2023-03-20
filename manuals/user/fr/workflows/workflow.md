@@ -183,9 +183,6 @@ this transition.
   originally of the state "unpublished". They are, for example, in need
   of a review. After they have been reviewed, they can transit to the
   state "published".
-
-<!-- -->
-
 - All the workflow transition actions are Joomla! workflow plugins. If
   you go to System **→** Plugins. Then change the "type" dropdown to
   "workflow" you will see the plugins. These can be disabled like any

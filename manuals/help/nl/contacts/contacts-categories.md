@@ -34,9 +34,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -56,66 +53,36 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Titel**. De naam van het item. Voor een menu-item wordt de titel in
   het menu weergegeven. Voor een artikel of categorie wordt de titel
   optioneel weergegeven op de webpagina. Invullen is vereist. Een item
   kan bewerkt worden door op de titel te klikken.
-
-<!-- -->
-
 - **Gepubliceerd:**
   <img src="https://docs.joomla.org/images/1/10/Help-4x-icon-tick.png"
   decoding="async" data-file-width="27" data-file-height="20" width="27"
   height="20" alt="Help-4x-icon-tick.png" /> Het aantal gepubliceerde
   items. Klik op de genummerde knop om een lijst met alleen deze items
   te tonen.
-
-<!-- -->
-
 - **Gedepubliceerd:**
   <img src="https://docs.joomla.org/images/c/c9/Help-4x-icon-cross.png"
   decoding="async" data-file-width="21" data-file-height="20" width="21"
   height="20" alt="Help-4x-icon-cross.png" /> Het aantal gedepubliceerde
   items. Klik op de genummerde knop om een lijst met alleen deze items
   te tonen.
-
-<!-- -->
-
 - **Gearchiveerd:** Of en hoeveel items gearchiveerd zijn. U kunt de
   gearchiveerde items zien door op het icoon in deze kolom te klikken.
-
-<!-- -->
-
 - **Naar prullenbak:**
   <img src="https://docs.joomla.org/images/5/59/Help-4x-icon-bin.png"
   decoding="async" data-file-width="18" data-file-height="20" width="18"
   height="20" alt="Help-4x-icon-bin.png" /> Het aantal items in de
   prullenbak. Klik op de genummerde knop om een lijst met alleen deze
   items te tonen.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Associatie:** Toont aan welk menu-item dit item geassocieerd is.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -144,27 +111,15 @@ bovenstaande [Screenshot](#screenshot).
   uit de uitklaplijst om het te tonen aantal te veranderen.De standaard
   voor een site is '20' maar dit kan veranderd worden bij de [Algemene
   instellingen](https://docs.joomla.org/Help4.x:Site_Global_Configuration/nl#defaultlistlimit "Help4.x:Site Global Configuration/nl").
-
-<!-- -->
-
 - **Selecteer status**. Selecteer uit Naar prullenbak / Gedepubliceerd /
   Gepubliceerd / Gearchiveerd / Alles.
-
-<!-- -->
-
 - **Selecteer toegang**. Selecteer uit de lijst met beschikbare weergave
   toegangsniveaus.
-
-<!-- -->
-
 - 
 
 **Selecteer taal**. Selecteer uit de lijst met beschikbare talen.
 
 - **Selecteer tag**. Selecteer uit de lijst met beschikbare tags.
-
-<!-- -->
-
 - **Selecteer max niveaus**. Selecteer uit de lijst met beschikbare
   niveaus.
 
@@ -239,14 +194,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe categorie te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
   - **Publiceren**. Maakt de geselecteerde categorie beschikbaar voor de
     bezoekers van uw website.
 
@@ -276,15 +225,9 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
   - **Batch**. Batch verwerkt de geselecteerde categorie. Werkt bij één
     of meer geselecteerde items.
-
-<!-- -->
-
 - **Opnieuw opbouwen.** Ververst en stelt de categorie tabel opnieuw
   samen. Normaal hoeft u de tabel *niet* opnieuw op te bouwen. Deze
   functie voorziet in het geval de data in de tabel corrupt raakt.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt. Zie [Contactpersoon beheer
   opties](https://docs.joomla.org/Help4.x:Contacts:_Options/nl "Help4.x:Contacts: Options/nl")

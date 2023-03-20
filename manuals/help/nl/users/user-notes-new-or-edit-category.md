@@ -151,58 +151,28 @@ De functies zijn.
 **Gebruikersnotities: Nieuwe categorie**: De functies zijn:
 
 - **Opslaan.** Slaat category op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat category op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat category op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander category.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 **Gebruikersnotities: Bewerk categorie**: De functies zijn:
 
 - **Opslaan.** Slaat category op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat category op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat category op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander category.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige category. Beïnvloed het huidige category niet. Dit werkbalk
   icoon wordt niet getoond bij het aanmaken van een nieuw category.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Associaties**. Met een bepaalde taal ingesteld voor een artikel
   geeft het de mogelijkheid tot het naast elkaar bewerken van een andere
   taal.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

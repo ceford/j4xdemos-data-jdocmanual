@@ -87,14 +87,8 @@ the link for the Article Title and/or Read More link would have three
 parts:
 
 - The menu item URL - example.com/products;
-
-<!-- -->
-
 - Plus, the primary key for the Category and the Category alias -
   32-fruit;
-
-<!-- -->
-
 - Plus, the primary key for the Article and the Article alias - 1-apple;
 
 The complete URL is: `http://example.com/products/32-fruit/1-apple`

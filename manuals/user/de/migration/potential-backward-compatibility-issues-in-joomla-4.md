@@ -56,9 +56,6 @@ Die Systemanforderungen wurden wie folgt aktualisiert:
   zukünftigen Upgrades der MySQL-Version helfen und wird auch enger an
   Postgres ausgerichtet, um eine einfachere Kompatibilität mit Abfragen
   in beiden Sprachen zu ermöglichen.
-
-<!-- -->
-
     'STRICT_TRANS_TABLES',
     'ERROR_FOR_DIVISION_BY_ZERO',
     'NO_AUTO_CREATE_USER',
@@ -324,9 +321,6 @@ nicht eine konkrete Klasse verwenden.
 - Neu:
   JApplicationWeb **→** Joomla\Application\AbstractWebApplication **→** 
   Joomla\Application\AbstractApplication
-
-<!-- -->
-
 - Die alten Methoden zum Aufruf von JApplicationWeb::redirect wurden
   entfernt.
   - Mit einer Nachricht und messageType-Parametern (Aufruf von

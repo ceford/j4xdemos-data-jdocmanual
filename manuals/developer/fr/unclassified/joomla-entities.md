@@ -75,9 +75,6 @@ adding the following dependency to your composer file:
   also sets a default table name in case none is specified by the
   developer. The default value is the pluralised and underscore
   separated Class name.
-
-<!-- -->
-
        /**
          * The table associated with the model.
          *
@@ -89,9 +86,6 @@ adding the following dependency to your composer file:
   it does, special column aliases need to be specified for the
   'createdAt' and 'updatedAt' columns. These two columns are handled
   automatically by the project when creating or updating the entity.
-
-<!-- -->
-
        /**
          * Indicates if the model should be timestamped.
          *
@@ -103,9 +97,6 @@ adding the following dependency to your composer file:
   Joomla implementation, they provide a way to be able to refer at
   different column names across different components with one name in
   case they fulfil the same functionality.
-
-<!-- -->
-
        /**
          * Array with alias for "special" columns such as ordering, hits etc etc
          *
@@ -121,9 +112,6 @@ adding the following dependency to your composer file:
   Two most common use cases are 'int' and 'array'. The latter is
   specifically useful as it transforms json columns into key indexed
   arrays.
-
-<!-- -->
-
        /**
          * The attributes that should be cast to native types.
          *
@@ -134,9 +122,6 @@ adding the following dependency to your composer file:
         ];
 
 - Dates - used to cast dates to Carbon instances
-
-<!-- -->
-
        /**
          * The attributes that should be mutated to dates. Already aliased!
          *
@@ -150,9 +135,6 @@ adding the following dependency to your composer file:
 
 - Hidden - used to hide certain columns from serialisation. E.g.
   passwords.
-
-<!-- -->
-
        /**
          * The attributes that should be hidden for serialization.
          *
@@ -166,9 +148,6 @@ adding the following dependency to your composer file:
   relations are lazy loaded. The primary key and foreign key are
   mandatory if the relation is loaded with constraints(selecting only
   some of the columns for efficiency purposes)
-
-<!-- -->
-
        /**
          * The relations to eager load on every query.
          *
@@ -345,28 +324,16 @@ Exemple :
 #### Filtering
 
 - select - selects only the specified columns in the next query.
-
-<!-- -->
-
      /* @method select()     select(array $columns) */
 
 - where -\> adds a where clause in the next query that will be executed.
-
-<!-- -->
-
      /* @method where()      where($conditions, string $glue = 'AND') */
 
 - orders -\> adds an ORDER BY clause to the next query.
-
-<!-- -->
-
      /* @method order()      order($columns) */
 
 - filter - applies a custom filter on a relation. This is the Entities
   way of making joins.
-
-<!-- -->
-
      /* @method filter()     filter(string $relation, Closure $callback) */
 
         // The following query only counts users which sent a message with subject "sentMessages".

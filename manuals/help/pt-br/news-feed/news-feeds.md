@@ -40,9 +40,6 @@ coluna em questão.
   Outras, como "Editar", funcionam apenas em um item de cada vez. Se
   vários itens estiverem marcados e você pressionar "Editar", apenas o
   primeiro item será aberto para edição.
-
-<!-- -->
-
 - **Ordenação**: Você pode alterar a ordem de um item em uma lista da
   seguinte forma:
   - Se a lista das opções dos filtros incluir um filtro de posição,
@@ -61,38 +58,17 @@ coluna em questão.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> e
     arraste-o para cima ou para baixo para alterar a posição dessa linha
     na lista. Os itens serão exibidos na nova ordem dentro da posição.
-
-<!-- -->
-
 - **Estado**: O estado de publicação do item.
-
-<!-- -->
-
 - **Título**: O nome ou o título do feed. Faça-o o mais descritivo
   possível.
-
-<!-- -->
-
 - **Acesso**: O [nível de acesso de
   visualização](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/pt-br "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/pt-br")
   para este item.
 - **Artigos (quantidade)**: O número de artigos incluídos no feed.
-
-<!-- -->
-
 - **Tempo do cache**: O número em segundos para armazenar o item em
   cache localmente. Ele pode ser deixado com segurança no padrão.
-
-<!-- -->
-
 - **Associação**: Mostra a qual item dos menus este item está associado.
-
-<!-- -->
-
 - **Linguagem**: Linguagem do item.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -145,22 +121,13 @@ republicar itens da "Lixeira" selecionando-os e clicando no ícone
 
 - **Selecionar categoria**: Selecione a partir da lista das categorias
   disponíveis.
-
-<!-- -->
-
 - **Selecionar acesso**. Seleciona na lista de níveis de acesso de
   visualização disponíveis.
-
-<!-- -->
-
 - 
 
 **Selecionar linguagem**: Seleciona na lista de linguagens disponíveis.
 
 - **Selecionar tag**: Seleciona a partir da lista de tags disponíveis.
-
-<!-- -->
-
 - **Selecionar os níveis máximos**: Seleciona a partir da lista de
   níveis disponíveis.
 
@@ -170,37 +137,19 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo feed para notícias.
-
-<!-- -->
-
 - **Ações**: Revela uma lista de ações para os itens selecionados.
   Marque uma ou mais caixas de seleção de itens para ativar a lista.
-
-<!-- -->
-
 - **Publicar**: Disponibiliza os feeds para notícias selecionados para
   os visitantes do seu site.
-
-<!-- -->
-
 - **Cancelar publicação**: Torna os feeds para notícias selecionados
   indisponíveis para os visitantes do seu site.
-
-<!-- -->
-
 - **Arquivo**: Altera o estado dos feeds para notícias selecionados para
   indicar que eles estão arquivados. Os feeds para notícias arquivados
   podem ser movidos de volta para o estado publicado ou não publicado
   selecionando "Arquivado" no filtro "Selecionar estado" e alterando o
   estado dos feeds para notícias.
-
-<!-- -->
-
 - **Check-in**: Faz o check-in dos feeds para notícias selecionados.
   Funciona com um ou vários feeds para notícias selecionados.
-
-<!-- -->
-
 - **Lixeira**: Altera o estado dos feeds para notícias selecionados para
   indicar que eles estão na lixeira.feeds para notícias na lixeira ainda
   podem ser recuperados selecionando "Lixeira" no filtro "Selecionar
@@ -210,19 +159,10 @@ de tela](#Captura_de_tela) acima. As funções são:
   estado", selecione os feeds para notícias a serem excluídos
   permanentemente e clique no ícone "Esvaziar lixeira" na barra de
   ferramentas.
-
-<!-- -->
-
 - **Lote**: Processa em lote os feeds para notícias selecionados.
   Funciona com um ou vários itens selecionados.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

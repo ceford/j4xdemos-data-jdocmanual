@@ -62,9 +62,6 @@ Joomla. Estas são:
 
 1.  A informação da base de dados, mais frequentemente encontrada na sua
     base de dados mysql.
-
-<!-- -->
-
 1.  Os ficheiros e as pastas no seu site da Web, como alojados na
     maioria dos sites da Web html estáticos.
 

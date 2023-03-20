@@ -58,9 +58,6 @@ requirements such as shell access, cron access, SSL server, etc.
 - **Use Secure FTP:** Choose a host that requires SFTP (Secure FTP) for
   transferring files. This prevents others from snooping your user name
   and password from packets as they travel over the Internet.
-
-<!-- -->
-
 - **Set PHP register_globals OFF:** The most security conscious hosts
   turn PHP's Register Globals directive OFF by default. The next best
   allow you to turn it off in local *.htaccess* or *php.ini* files. A
@@ -75,23 +72,14 @@ requirements such as shell access, cron access, SSL server, etc.
   setting, so don't get caught in a Register Globals backwater. Modify
   your code to work without Register Globals, and choose a host that
   encourages such practices.
-
-<!-- -->
-
 - **Stay up-to-date:** Choose a host that stays up-to-date with the
   latest stable versions of core applications, including the operating
   system, database, and
   <a href="https://www.php.net/" class="external text" target="_blank"
   rel="nofollow noreferrer noopener">PHP</a>.
-
-<!-- -->
-
 - **Avoid cheap shared servers:** Be sure users on your shared server
   can't view each others files and databases, for example through shell
   accounts and cpanels.
-
-<!-- -->
-
 - **Proactive server management:** Choose a host that provides real
   information about security compromises, rather than simply shutting
   your site down. Check their user forums for evidence of how they've
@@ -100,44 +88,26 @@ requirements such as shell access, cron access, SSL server, etc.
   quarantine the problem file for you, while leaving it there for
   further investigation. A poor host will shut your site down and
   provide limited information on why. Watch out! All too many do this.
-
-<!-- -->
-
 - **Require raw log access:** Be sure you have access to raw server
   logs. Reading these logs is a vital part of site security and
   recovery.
-
-<!-- -->
-
 - **Performance matters:** Choose a host that limits the number of users
   per machine and the average CPU load per machine to some reasonable
   number (depending on hardware). Be sure they proactively move user
   sites as needed to balance load. Check the number of domains on a
   server using reverse IP lookup.
-
-<!-- -->
-
 - **Data center:** Choose a host that manages its own data center. Check
   the data center infrastructure, such as redundant Internet access, hot
   swappable backups, full daily backups, environment and access
   controls, emergency generators, etc.
-
-<!-- -->
-
 - **Know your neighbors:** Check that your host is not at risk of having
   its IP addresses blocked because it hosts SPAM sites.
-
-<!-- -->
-
 - **Visit the Joomla Community Portal <a
   href="https://community.joomla.org/service-providers-directory/listings/category/view/116-hosting-providers.html"
   class="external text" target="_blank" rel="noreferrer noopener">hosting
   section</a>:** If you are looking for a Joomla Host, please ensure you
   make your own investigations as to the services offered and whether
   they suit your needs.
-
-<!-- -->
-
 - **Grow with your site:** As sites grow in complexity, resource
   requirements, and security requirements, they may need to be moved off
   of a shared server environment. At that point, good options
@@ -260,9 +230,6 @@ terms of which ids and passwords are used.
   than it is to use a different password truth be told! Knowing the
   username allows easy hacking...half the work is done! knowing the
   password is useless unless you know what account it goes to!
-
-<!-- -->
-
 - **Level 4 (Webmaster)** - Reserved for SQL Only. this is a password
   that would only be used by SQL and limited to a specific database in
   SQL. The best way to protect SQL is by limiting each account to just
@@ -272,16 +239,10 @@ terms of which ids and passwords are used.
   to J! at all... for J! the best practice is to set up an individual
   account (not root for sure) that only has read and write access to the
   J! DB nothing else.
-
-<!-- -->
-
 - **Level 3 (Webmaster)** - FTP and Server Access. these can be the same
   user:pass combo since both if compromised can do the most damage.
   doesn't matter if the Backend or Cpanel is safe if the FTP is not and
   the same goes the other way!
-
-<!-- -->
-
 - **Level 2 (Personal Data Access)** - This password should be used for
   any sites or locations that contain personal data with the exception
   of Banking (see level 1). these sites are often used for social
@@ -289,9 +250,6 @@ terms of which ids and passwords are used.
   financial records not directly related to banking! You want these to
   be secure but also different from the real threat of security...your
   money!
-
-<!-- -->
-
 - **Level 1 (Banking!)** - this needs to be the most secure in fact if
   you have two different banks it actually pays to have a different
   user:pass for each just to be sure!
@@ -932,9 +890,6 @@ relevant code.
     once you are finished.
 2.  Add the following to your *.htaccess* file. This example will
     protect both the *configuration.php* and *.htaccess* files.
-
-<!-- -->
-
     order allow,deny
     deny from all
 
@@ -1555,23 +1510,14 @@ different IP Address will get a 403 Forbidden error.
     name.)
 2.  Add the following code to this file, replacing 100.100.100.100 in
     this example with the static IP address you plan to allow:
-
-<!-- -->
-
     Order Deny,Allow
     Deny from all
     Allow from 100.100.100.100
 
 - Optional: You can enter partial IP Addresses, such as, 100.100.100.
   This allows access to a range of addresses.
-
-<!-- -->
-
 - Optional: You can add multiple addresses by separating them with
   comma's.
-
-<!-- -->
-
     100.100.100.101, 100.100.100.102
 
 ### How do I convert an *htaccess.txt* file into a *.htaccess* file?
@@ -1636,9 +1582,6 @@ your Apache configuration (such as on a shared server), you must use
     file in your *images* directory.
 2.  Place the following code in the *.htaccess* file of your root
     directory.
-
-<!-- -->
-
      RewriteEngine On
      RewriteCond %{HTTP_REFERER} !^http://([^.]+\.)*your_site\.com/ [NC]
      RewriteCond %{HTTP_REFERER} !^$
@@ -1739,9 +1682,6 @@ to view content, even if not all features are loaded.
     gzipped version of your CSS file(s) and point your *index.php* at
     it. Example script below - I didn't write it, but it's short, to the
     point, and works.
-
-<!-- -->
-
                  ob_start ("ob_gzhandler");
                  header("Content-type: text/css");
                  header("Cache-Control: must-revalidate");
@@ -1892,9 +1832,6 @@ Here</a>
   <a href="http://forum.joomla.org/viewtopic.php?p=1804483#p1804483"
   class="external text" target="_blank"
   rel="noreferrer noopener"><em>Dormant</em></a> since August 2010)
-
-<!-- -->
-
 - <a
   href="http://www.joomlatutorials.com/joomla-tips-and-tricks/40-miscellaneous-joomla-tips/114-how-to-troubleshoot-a-joomla-installation.html"
   class="external text" target="_blank"

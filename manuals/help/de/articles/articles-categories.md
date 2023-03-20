@@ -193,14 +193,8 @@ alt="Help-4x-Content-Categories-batch-de.png" />
 
 - [Beiträge: Kategorie
   bearbeiten](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/de "Help4.x:Articles: Edit Category/de")
-
-<!-- -->
-
 - [Dashboard](https://docs.joomla.org/Help4.x:Home_Dashboard/de "Help4.x:Home Dashboard/de"):
   Zugriff auf viele Standardfunktionen.
-
-<!-- -->
-
 - Dieses
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.

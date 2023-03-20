@@ -87,24 +87,12 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe item te maken.
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde items. Werkt met één of
   meerdere items geselecteerd.
-
-<!-- -->
-
 - **Wis cache.** Wis de beschikbare extensie update-informatie getoond
   in de lijst.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

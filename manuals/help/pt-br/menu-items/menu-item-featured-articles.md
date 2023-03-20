@@ -102,24 +102,15 @@ title="File:Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-
 - **Multi Column Direction**. **Direção para várias colunas**: Em
   disposições para blogs com várias colunas, classifica (verticalmente
   ou horizontalmente) os artigos nas colunas.
-
-<!-- -->
-
   - Down: Para baixo (verticalmente): Classifica os artigos descendo a
     primeira coluna e depois para a próxima coluna, por exemplo:
 
 - 
-
-<!-- -->
-
   - Across: Através (horizontalmente): Classifica os artigos através
     (horizontalmente) das colunas e depois volta para a primeira coluna,
     por exemplo:
 
 - 
-
-<!-- -->
-
 - **\# Links**. **Quantidade de links**: A quantidade de links a serem
   mostrados na área para links da página. Esses links permitem que um
   usuário vincule a artigos adicionais, se houver mais artigos do que
@@ -360,14 +351,8 @@ da tela](#screenshot) acima.
 
 - Para criar uma nova categoria consulte [Artigos: Editar
   categoria](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/pt-br "Help4.x:Articles: Edit Category/pt-br").
-
-<!-- -->
-
 - Para criar um novo menu, consulte
   [Menus](https://docs.joomla.org/Help4.x:Menus/pt-br "Help4.x:Menus/pt-br").
-
-<!-- -->
-
 - Este
   [portal](https://docs.joomla.org/Portal:Joomla_4/pt-br "Portal:Joomla 4/pt-br")
   reúne informações relacionadas especificamente ao Joomla! 4.

@@ -215,9 +215,6 @@ A summary of the caching types is below.
   Plugin Manager → System - Page Cache)
 - **Caches**: each whole page of your site
 - **Based on**: URL
-
-<!-- -->
-
 - **More info**:
   - Optional browser caching: Also caches on your visitors'
     browser/computer
@@ -247,9 +244,6 @@ A summary of the caching types is below.
 - **Basado en**: ?
 - **Más info**: debe desactivarse en algunos módulos para evitar
   problemas
-
-<!-- -->
-
 - **Configuration**: Global Config -\> Cache
 - **Caches**: each module (individually customized via each module's
   Advanced Parameters)

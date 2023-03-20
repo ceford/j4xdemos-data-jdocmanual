@@ -36,13 +36,7 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
 - **Versie.** Het versienummer van de geïnstalleerde taal.
 - **Datum.** De aanmaakdatum van de taal.
 - **Auteur.** De naam van de vertaler wordt in deze kolom getoond.
-
-<!-- -->
-
 - **E-mailadres auteur.** Het e-mailadres van de vertaler.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -55,9 +49,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
 
 - **Site.** Toont de geïnstalleerde talen voor de website. Hier kunt u
   de standaard taal voor de website van uw Joomla website aangeven.
-
-<!-- -->
-
 - **Beheerder.** Toont de geïnstalleerde talen voor het
   beheergedeelte.Hier kunt u de standaardtaal voor het beheergedeelte
   van uw Joomla website instellen.
@@ -111,26 +102,14 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   keuzerondje en daarna deze knop. De beheerdertaal verandert en er is
   een bericht zoals *Message The Administrator Language has been
   switched to "English (en-GB)* *.*
-
-<!-- -->
-
 - **Installeer talen.** Linkt naar het [Installeer talen
   scherm](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Languages/nl "Help4.x:Extensions Extension Manager Languages/nl").
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips
@@ -144,19 +123,10 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   deze gebruiker in deze taal te verschijnen. Als een gebruiker
   bijvoorbeeld voor Spaans kiest als zijn of haar taal, dan verschijnt
   de zoekmodule in het Spaans.
-
-<!-- -->
-
 - Deze keuze van de gebruiker wordt niet beïnvloed door de standaard
   taal die is ingesteld voor de website.
-
-<!-- -->
-
 - Het wijzigen van de taal van een gebruiker of de standaard taal
   beïnvloed de artikelen en andere inhoud op de website niet.
-
-<!-- -->
-
 - **Belangrijk**: Verwijder de standaard taalbestanden niet
   (bijvoorbeeld via FTP). Dit veroorzaakt fouten op zowel de website als
   in het beheergedeelte.

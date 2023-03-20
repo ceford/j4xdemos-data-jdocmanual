@@ -113,9 +113,6 @@ Article](https://docs.joomla.org/Help4.x:Menu_Item:_Single_Article/en#options "H
   from the title to include.Note: This can prevent the Read More text to
   become excessively long if the article has a very long title.
 - **Tags**. Show the tags for each article.
-
-<!-- -->
-
 - **Record Hits**. Record the number of times the article has been
   viewed.
 - **Hits**. Show the number of times the article has been displayed by a
@@ -177,9 +174,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-en.png" />
 - **Administrator Images and Links**. Hide the [Images and Links
   tab](https://docs.joomla.org/Help4.x:Articles:_Edit/en#imagesandlinks "Help4.x:Articles: Edit/en")
   in the Backend when editing Articles.
-
-<!-- -->
-
 - **URL A Target Window**. Sets the default value for the target for the
   first Link in the article. Choices are:
   - Open in parent window: Opens the in the main browser window,
@@ -192,9 +186,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-en.png" />
   second Link in the article. Same options as URL A.
 - **URL C Target Window**. Sets the default value for the target for the
   third Link in the article. Same options as URL A.
-
-<!-- -->
-
 - **Intro Image Class**. Sets the class attribute for an Intro Image
   selected in the Intro Image field.
   <a href="https://cassiopeia.joomla.com/help" class="external text"
@@ -304,23 +295,14 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-en.p
   full width of the display area, just like the Leading Articles.
 - **Multi Column Direction**. In multi-column blog layouts, whether to
   order articles Down the columns or Across the columns.
-
-<!-- -->
-
   - Down: Order articles going down the first column and then over to
     the next column, for example:
 
 - 
-
-<!-- -->
-
   - Across: Order articles going across the columns and then back to the
     first column, for example:
 
 - 
-
-<!-- -->
-
 - **\# Links**. The number of Links to display in the Links area of the
   page. These links allow a User to link to additional Articles, if
   there are more Articles than can fit on the first page of the Blog

@@ -29,9 +29,6 @@ alt="Help-4x-Components-Weblinks-Categories-screen-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -50,16 +47,10 @@ alt="Help-4x-Components-Weblinks-Categories-screen-en.png" />
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Title**. The name of the item. For a Menu Item, the Title will
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Status**. Status of Category, Published or Unpublished are shown
   with icons as follows:
   - *Published category*.<img
@@ -72,19 +63,10 @@ alt="Help-4x-Components-Weblinks-Categories-screen-en.png" />
     decoding="async" data-file-width="20" data-file-height="20" width="20"
     height="20"
     alt="Help-4x-Article-status-not-published-feature-manager-en.png" />
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -138,18 +120,9 @@ them and clicking on the Publish icon in the toolbar.
 
 - **Select Access**. Select from the list of available viewing access
   levels.
-
-<!-- -->
-
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
-
-<!-- -->
-
 - **Select Tag**. Select from the list of available tags.
-
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 
 ## Toolbar

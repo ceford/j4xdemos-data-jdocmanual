@@ -56,14 +56,8 @@ handelingen uitvoeren.
 
 - Selecteer de **Groep** door op de titel aan de linkerzijde te klikken.
 - Zoek de gewenste **Actie**. Mogelijke acties zijn:
-
-<!-- -->
-
   - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
     van deze extensie bewerken.
-
-<!-- -->
-
   - **Configure Options Only.** Users can edit the options except the
     permissions of this extension.
   - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
@@ -97,17 +91,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn.
 
 - **Opslaan.** Slaat Template opties op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat Template opties op en sluit het huidige
   scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

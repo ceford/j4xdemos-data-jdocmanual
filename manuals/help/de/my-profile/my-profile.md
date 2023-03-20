@@ -34,56 +34,23 @@ alt="Help-4x-my-profile-screenshot-de.png" />
 ### Benutzerkontodetails
 
 - **Name.** Der (komplette) Name des Benutzers.
-
-<!-- -->
-
 - **Benutzername.** Der Benutzername, der während der Anmeldung
   eingegeben wird.
-
-<!-- -->
-
 - **Passwort.** Das Passwort, das während der Anmeldung eingegeben wird.
-
-<!-- -->
-
 - **Passwort bestätigen.** Dasselbe Passwort noch einmal eingeben (um
   sicher zu gehen, dass es korrekt eingegeben wurde).
-
-<!-- -->
-
 - **E-Mail-Adresse.** Eine E-Mail-Adresse des Benutzers.
-
-<!-- -->
-
 - **Registrierungsdatum.** Das Datum, an dem der Benutzer registriert
   wurde.
-
-<!-- -->
-
 - **Letzter Besuch.** Das Datum der letzten Anmeldung des Benutzers.
-
-<!-- -->
-
 - **Letzter Passwort-Reset.** Datum und Uhrzeit der letzten
   Passwortrücksetzung.
-
-<!-- -->
-
 - **Anzahl Passwort-Resets.** Die Anzahl der Passwortzurücksetzungen
   seit dem Datum der letzten Passwortzurücksetzung.
-
-<!-- -->
-
 - **System-E-Mails erhalten.** (*Ja*/*Nein*) Wenn auf "Ja" gesetzt ist,
   wird der Benutzer System-E-Mails erhalten.
-
-<!-- -->
-
 - **Benutzerstatus.** (*Gesperrt*/*Freigegeben*) Den aktuellen Benutzer
   sperren oder freigeben.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -102,30 +69,18 @@ alt="Help-4x-Site-My-Profile-basic-de.png" />
 - **Backend-Template-Stil.** (*Standard verwenden*/*Atum - Default*)
   Wahl des Template-Stils für das Administrator-Backend. Gilt nur für
   diesen Benutzer.
-
-<!-- -->
-
 - **Backend-Sprache.** (*Standard verwenden*/*Deutsch*/*Englisch*)
   Sprache der Administration für diesen Benutzer wählen. Alle für das
   Backend installierten Sprachen werden in der Drop-down-Liste
   angezeigt. Standard ist die in „Sprachen: Installiert (Administrator)“
   eingestellte Sprache.
-
-<!-- -->
-
 - **Frontend-Sprache.** (*Standard verwenden*/*Deutsch*/*Englisch*)
   Sprache der Website für diesen Benutzer wählen. Alle für das Frontend
   installierten Sprachen werden in der Drop-down-Liste angezeigt.
   Standard ist die in „Sprachen: Installiert (Site)“ eingestellte
   Sprache.
-
-<!-- -->
-
 - **Editor.** (*Standard verwenden*/*Editor - CodeMirror*/*Editor -
   Keine*/*Editor - TinyMCE*) Texteditor für diesen Benutzer.
-
-<!-- -->
-
 - **Zeitzone.** (*Standard verwenden*/*Abidjan*/*Accra*/...) Die
   Zeitzone für diesen Benutzer wählen. Standard ist die in der
   Konfiguration gewählte Zeitzone.
@@ -165,20 +120,11 @@ Bereich. Die Schaltflächen sind:
 
 - **Speichern** Speichert den user und wird auf dem aktuellen Bildschirm
   bleiben.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den user und wird den aktuellen
   Bildschirm schließen.
-
-<!-- -->
-
 - **Schließen** Schließt den aktuellen Bildschirm und kehrt zum
   vorherigen Bildschirm zurück, ohne die vorgenommenen Änderungen zu
   speichern.
-
-<!-- -->
-
 - **Hilfe** Öffnet die Hilfe-Seite.
 
 ## Tipps

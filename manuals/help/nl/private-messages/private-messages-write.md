@@ -41,15 +41,9 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Verzenden:** Verzend het bericht. Let er op dat de ontvanger, het
   onderwerp en het berichtveld niet leeg mag zijn.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

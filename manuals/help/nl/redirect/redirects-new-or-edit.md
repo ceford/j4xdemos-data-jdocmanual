@@ -33,13 +33,7 @@ alt="Help-4x-Components-Redirect-Manager-Edit-screen-nl.png" />
 **Bewerk/Nieuwe link \#1**
 
 - **Verlopen URL.** De URL die doorgestuurd wordt.
-
-<!-- -->
-
 - **Nieuwe URL.** De URL om naar door te verwijzen.
-
-<!-- -->
-
 - **Status**: Publiceerstatus van het item. Mogelijke waarden zijn:
   - *Gepubliceerd*: Het item is gepubliceerd. Dit is de enige status de
     gewone website bezoekers in staat stelt dit item te bekijken.
@@ -47,27 +41,15 @@ alt="Help-4x-Components-Redirect-Manager-Edit-screen-nl.png" />
   - *Gearchiveerd*: Dit item is gearchiveerd.
   - *Verplaatst naar de prullenbak*: Dit item is naar de prullenbak
     verplaatst.
-
-<!-- -->
-
 - **Notitie.** Een commentaar die alleen zichtbaar is in de beheerder
   backend. Het is hoofdzakelijk als referentie bedoeld voor beheerders.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
   een nieuw item aanmaakt, is dit veld "0" totdat u het opslaat, waarbij
   een nieuw ID toegekend wordt.
-
-<!-- -->
-
 - **Aanmaakdatum.** Datum dat het item (artikel, categorie, weblink,
   etc.) aangemaakt is.
-
-<!-- -->
-
 - **Aanpassingsdatum.** Toont de datum dat het item voor het laatst werd
   aangepast.
 
@@ -77,25 +59,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Functie

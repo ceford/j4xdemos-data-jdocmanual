@@ -35,9 +35,6 @@ oeuvre la réécriture d'URL Apache mod_rewrite.
 
 - Ajoutez le code suivant dans la configuration de votre serveur (vhost)
   dans le fichier *nginx.conf* 
-
-<!-- -->
-
        # Support Clean (aka Search Engine Friendly) URLs
        location / {
           try_files $uri $uri/ /index.php?$args;
@@ -46,9 +43,6 @@ oeuvre la réécriture d'URL Apache mod_rewrite.
 - Si cela ne fonctionne pas, ajoutez le code suivant dans le fichier de
   configuration *nginx.conf* : (Ceci fonctionnait avec nginx 1.4.6 sur
   Ubuntu.)
-
-<!-- -->
-
     server {
       ....
       location / {

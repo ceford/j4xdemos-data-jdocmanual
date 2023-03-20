@@ -53,12 +53,6 @@ les suivantes :
   have read all the messages***. There is a ***Reset Messages*** button
   that restores the unread messages, including the individually hidden
   messages.
-
-<!-- -->
-
 - **Paramètres.** Ouvre la fenêtre des options où les paramètres tels
   que ceux devant être appliqués par défaut peuvent être modifiés.
-
-<!-- -->
-
 - **Aide**. Ouvre l'écran d'aide.

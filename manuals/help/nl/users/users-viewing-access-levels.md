@@ -32,18 +32,12 @@ elke kolom wordt getoond.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde:** (standaard). De kolom waarin getoonde items in de tabel
   gesorteerd worden. De waarden zijn hetzelfde als de namen van de
   kolomkoppen.
 - **Niveaunaam**. De naam van het toegangsniveau.
 - **Gebruikersgroepen die toegang tot weergave hebben**. De groepen die
   toegang hebben tot het bekijken van iets.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -67,31 +61,19 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe access level te
   maken.
-
-<!-- -->
-
 - **Bewerken**. Opent het scherm voor het bewerken van het geselecteerde
   access level. Als er meer dan één access level is geselecteerd (indien
   van toepassing), wordt alleen het eerste access level geopend. Het
   bewerkingsscherm kan ook worden geopend door te klikken op de Naam van
   het access level.
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde access levels. Werkt met
   één of meerdere access levels geselecteerd. Merk op dat u geen
   toegangsniveau kunt verwijderen dat in gebruik is. Als u probeert een
   toegangsniveau te verwijderen dat is toegewezen, dan wordt er een
   melding weergegeven waarin staat waaraan het toegangsniveau is
   toegewezen.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

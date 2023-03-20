@@ -28,9 +28,6 @@ alt="Help-4x-Components-Newsfeeds-Categories-Edit-screen-en.png" />
 ## Form Fields
 
 - **Title.** The Name of the News Feed. This field is required.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -40,16 +37,10 @@ alt="Help-4x-Components-Newsfeeds-Categories-Edit-screen-en.png" />
 
 - **Title**. The Title for this item. This may or may not display on the
   page, depending on the parameter values you choose.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
   more.](https://docs.joomla.org/Alias "Special:MyLanguage/Alias")
-
-<!-- -->
-
 - **Description**. The description for the item. Category, Subcategory
   and Web Link descriptions may be shown on web pages, depending on the
   parameter settings. These descriptions are entered using the same
@@ -64,9 +55,6 @@ alt="Help-4x-Administrator-Categories-Edit-Editor-en.png" />
 
 - **Article.** Click to quickly add an 'Article' link to the description
   with a popup window.
-
-<!-- -->
-
 - **Image.** Click to quickly add an 'Image' to the description with a
   popup window.
 
@@ -256,35 +244,17 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

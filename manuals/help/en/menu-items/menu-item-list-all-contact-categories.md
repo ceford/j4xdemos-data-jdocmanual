@@ -35,9 +35,6 @@ alt="Help-4x-Menus-Menu-Item-Contact-ListAllCategories-screen-en.png" />
 ## Form Fields
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -52,9 +49,6 @@ alt="Help-4x-Menus-Menu-Item-Contact-ListAllCategories-screen-en.png" />
   item type provided by an installed extension.
 - **Top Level Category.** Categories that are within this category will
   be displayed.
-
-<!-- -->
-
 - **Link**. The system-generated link for this menu item. This field
   cannot be changed and is for information only.
 - **Target Window.** This determines how the new page will be opened.
@@ -80,16 +74,10 @@ specific template style to always show this menu item with that style.
 **Right Panel**
 
 - **Menu**. Shows which menu the link will appear in.
-
-<!-- -->
-
 - **Parent Item.** The parent menu item for this menu item. Used to
   determine whether a Menu Item is a top-level item or a submenu item.
   Select 'Menu Item Root' (the default value) if this is a top-level
   Menu Item. Otherwise, select the Menu Item that is this item's parent.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -108,25 +96,13 @@ specific template style to always show this menu item with that style.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Default Page**. If Yes, this menu item is the default or home page
   for the site. There must be exactly one menu item set as the default
   page. You can change the default page in two ways:
@@ -135,19 +111,10 @@ specific template style to always show this menu item with that style.
       screen.
   2.  Open the menu item for the new default page and change the Default
       Page setting to Yes.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -196,35 +163,17 @@ alt="Help-4x-Menus-Menu-Item-Contact-Categories-category-options-parameters-en.p
 - **Category Title.** (Use Global/Hide/Show) If Show, the Category Title
   will show as a subheading on the page. The subheading is usually
   displayed inside the "H2" tag.
-
-<!-- -->
-
 - **Category Description**. (Use Global/Hide/Show) Show or hide the
   description of the selected Category.
-
-<!-- -->
-
 - **Category Image.** (Use Global/Hide/Show) Whether to hide or show the
   category image.
-
-<!-- -->
-
 - **Subcategory Levels.** (Use Global/All/1-5) The number of levels of
   subcategories to show in the layout. Select *All* to show all levels
   in the subcategory hierarchy.
-
-<!-- -->
-
 - **Empty Categories.** (Use Global/Hide/Show) Whether to hide or show
   the categories that contain no content items or subcategories.
-
-<!-- -->
-
 - **Subcategories Descriptions.** (Use Global/Hide/Show) Whether to hide
   or show the category description of subcategories.
-
-<!-- -->
-
 - **\# Contacts in Category**. (Use Global/Hide/Show) Whether to hide or
   show the number of Contact in a Contact Category.
 
@@ -240,9 +189,6 @@ alt="Help-4x-Menus-Menu-Item-Contact-Categories-Category-list-layout-options-par
 
 - **Filter Field:** (Use Global/Hide/Show) Whether to show a Filter
   field for the list. Select Hide to hide the filer field
-
-<!-- -->
-
 - **Display Select.** (Use Global/Hide/Show) Whether to hide or show the
   Display \# control that allows the user to select the number of items
   to show in the list. An example of how it is shown in the Front End
@@ -272,9 +218,6 @@ If set to *Show*, this heading will show above the list. If set to
 *Hide*, the list will show with no headings.
 
 - **Position**. The Contact's current position.
-
-<!-- -->
-
 - **Email**. Set to control the Email's display in list.
 
 The following options are available.
@@ -282,9 +225,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Phone**. Set to control the Phone's display in list.
 
 The following options are available.
@@ -292,9 +232,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Mobile**. Set to control the Mobile's display in list.
 
 The following options are available.
@@ -302,9 +239,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Fax**. Set to control the Fax's display in list.
 
 The following options are available.
@@ -312,9 +246,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **City or Suburb**. Set to control the City or Suburb's display in
   list.
 
@@ -323,9 +254,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **State or County**. Set to control the State or County's display in
   list.
 
@@ -334,9 +262,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Country**. Set to control the Country's display in list.
 
 The following options are available.
@@ -344,9 +269,6 @@ The following options are available.
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show in list.
 - *Hide:* Do not show in list.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -363,9 +285,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -389,9 +308,6 @@ The following options are available.
 - *Sliders:* Slider contact view.
 - *Tabs:* Tabbed contact view.
 - *Plain:* Plain text contact view.
-
-<!-- -->
-
 - **Contact Category**. Set to control the Contacts Category display
   view.
 
@@ -403,14 +319,8 @@ The following options are available.
   text only.
 - *Show With Link* Show Category name of contacts as heading styled text
   linked to Category.
-
-<!-- -->
-
 - **Show Contacts List**. Allow the user to use a drop down list of all
   contacts in one contact category. Set one of the following options:
-
-<!-- -->
-
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show to allow users to select a contact in a drop down list.
 - *Hide:* Do not display the Contact list.
@@ -418,78 +328,24 @@ The following options are available.
  **Common Contact Display Fields** are:
 
 - **Tags**. Display the contact's *Tags*.
-
-<!-- -->
-
 - **Name**. Display the contact's *Name*.
-
-<!-- -->
-
 - **Contact's Position**. Display the contact's *Contact's Position*.
-
-<!-- -->
-
 - **Email**. Display the contact's *Email*.
-
-<!-- -->
-
 - **Street Address**. Display the contact's *Street Address*.
-
-<!-- -->
-
 - **City or Suburb**. Display the contact's *City or Suburb*.
-
-<!-- -->
-
 - **State or County**. Display the contact's *State or County*.
-
-<!-- -->
-
 - **Postal Code**. Display the contact's *Postal Code*.
-
-<!-- -->
-
 - **Country**. Display the contact's *Country*.
-
-<!-- -->
-
 - **Telephone**. Display the contact's *Telephone*.
-
-<!-- -->
-
 - **Mobile phone**. Display the contact's *Mobile phone*.
-
-<!-- -->
-
 - **Fax**. Display the contact's *Fax*.
-
-<!-- -->
-
 - **Webpage**. Display the contact's *Webpage*.
-
-<!-- -->
-
 - **Misc. Information**. Display the contact's *Misc. Information*.
-
-<!-- -->
-
 - **Image**. Display the contact's *Image*.
-
-<!-- -->
-
 - **vCard**. Display the contact's *vCard*.
-
-<!-- -->
-
 - **Show User Articles**. Display the contact's *Articles*.
-
-<!-- -->
-
 - **\# Articles to List**. Display the contact's *Number Articles to
   list*.
-
-<!-- -->
-
 - **Show Links**. Display the contact's *additional links*. These could
   be links to Social Media accounts, such as Twitter, Facebook, Skype...
 
@@ -499,9 +355,6 @@ available:
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show this field.
 - *Hide:* Do not display this field.
-
-<!-- -->
-
 - **Link \<letter\> Label**. \<A to E\> Labels (5) to override shown
   link's label.
 
@@ -563,33 +416,15 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

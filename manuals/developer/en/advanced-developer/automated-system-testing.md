@@ -22,17 +22,11 @@ This article is regarding system test (codeception tests) for Joomla 4.
 
 - **Open a session and change to the document root of your local
   webserver.**
-
-<!-- -->
-
     $ cd /var/www/html/
     /var/www/html$
 
 - **Clone the current joomla repository into your webserver root
   folder**
-
-<!-- -->
-
     /var/www/html$ git clone git@github.com:joomla/joomla-cms.git
     Clone into 'joomla-cms' ...
 
@@ -65,9 +59,6 @@ Make sure you are on the correct branch:
      staging
 
 - **Your joomla-cms folder should contain this files:**
-
-<!-- -->
-
     /var/www/html/joomla-cms$ ls
     acceptance.suite.yml  cli                 Gemfile       jenkins-phpunit.xml  modules            RoboFile.php          web.config.txt
     administrator         codeception.yml     htaccess.txt  karma.conf.js        package.json       robots.txt.dist
@@ -79,9 +70,6 @@ Make sure you are on the correct branch:
 
 - **Optional: Have a look into composer.json for information what
   software you will install via composer.**
-
-<!-- -->
-
     /var/www/html/joomla-cms$ cat composer.json
 
 Read more about \[how to install
@@ -91,9 +79,6 @@ rel="nofollow noreferrer noopener">https://getcomposer.org/doc/00-intro.md</a>)
 here.
 
 - **Install via composer**
-
-<!-- -->
-
     /var/www/html/joomla-cms$ composer install
 
 Loading composer repositories with package information Installing
@@ -169,9 +154,6 @@ Currently we need the configuation file twice!
     /var/www/html/joomla-cms$ cp acceptance.suite.yml ./libraries/vendor/joomla/test-system/src
 
 - **Optional: Create and edit the file RoboFile.ini.**
-
-<!-- -->
-
     /var/www/html/joomla-cms$ cat RoboFile.ini
 
 If you want to setup your test website (document root) in a different
@@ -198,9 +180,6 @@ recursively. This is made possible by the ‘-R’ option.
 #### For Linux
 
 - **Using Robo**
-
-<!-- -->
-
     /var/www/html/joomla-cms$ libraries/vendor/bin/robo run:tests➜  Running tests
     [Filesystem\DeleteDir] Deleted test-install...
     [Filesystem\CopyDir] Copied from ./media to test-install/media

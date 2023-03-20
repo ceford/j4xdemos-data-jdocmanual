@@ -31,9 +31,6 @@ Joomla!, você verá colunas diferentes.
   Outras, como "Editar", funcionam apenas em um item de cada vez. Se
   vários itens estiverem marcados e você pressionar "Editar", apenas o
   primeiro item será aberto para edição.
-
-<!-- -->
-
 - **Ordenação**: Você pode alterar a ordem de um item em uma lista da
   seguinte forma:
   - Se a lista das opções dos filtros incluir um filtro de posição,
@@ -52,30 +49,15 @@ Joomla!, você verá colunas diferentes.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> e
     arraste-o para cima ou para baixo para alterar a posição dessa linha
     na lista. Os itens serão exibidos na nova ordem dentro da posição.
-
-<!-- -->
-
 - **Estado**: O estado de publicação do item.
-
-<!-- -->
-
 - **Título**: O nome do objeto. Para um item de menu, o título será
   exibido no menu. Para um artigo ou uma categoria, o título pode,
   opcionalmente, ser exibido na página web. Esta entrada é obrigatória.
   Você pode abrir o item para edição clicando no título.
-
-<!-- -->
-
 - **Acesso**: O [nível de acesso de
   visualização](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/pt-br "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/pt-br")
   para este item.
-
-<!-- -->
-
 - **Linguagem**: Linguagem do item.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -107,27 +89,15 @@ pesquisa mostrada na [captura de tela](#screenshot) acima.
   Selecione na lista suspensa para alterar o número exibido.O padrão
   para um site é '20', mas isso pode ser alterado nas [Configurações
   Globais](https://docs.joomla.org/Help4.x:Site_Global_Configuration/pt-br#defaultlistlimit "Help4.x:Site Global Configuration/pt-br").
-
-<!-- -->
-
 - **Selecionar estado**: Seleciona entre lixeira / não publicado /
   publicado / arquivado / todos.
-
-<!-- -->
-
 - **Selecionar acesso**. Seleciona na lista de níveis de acesso de
   visualização disponíveis.
-
-<!-- -->
-
 - 
 
 **Selecionar linguagem**: Seleciona na lista de linguagens disponíveis.
 
 - **Selecionar tag**: Seleciona a partir da lista de tags disponíveis.
-
-<!-- -->
-
 - **Selecionar os níveis máximos**: Seleciona a partir da lista de
   níveis disponíveis.
 
@@ -155,22 +125,13 @@ acima. As funções são:
   selecionada para a administração do seu site.
 - **Cancelar publicação**: Torna a categoria de notas de usuários
   selecionada indisponível para a administração do seu site.
-
-<!-- -->
-
 - **Arquivo**: Altera o estado dos category selecionados para indicar
   que eles estão arquivados. Os category arquivados podem ser movidos de
   volta para o estado publicado ou não publicado selecionando
   "Arquivado" no filtro "Selecionar estado" e alterando o estado dos
   category.
-
-<!-- -->
-
 - **Check-in**: Faz o check-in dos category selecionados. Funciona com
   um ou vários category selecionados.
-
-<!-- -->
-
 - **Lixeira**: Altera o estado dos category selecionados para indicar
   que eles estão na lixeira.category na lixeira ainda podem ser
   recuperados selecionando "Lixeira" no filtro "Selecionar estado" e
@@ -179,18 +140,9 @@ acima. As funções são:
   lixeira, selecione "Lixeira" no filtro "Selecionar estado", selecione
   os category a serem excluídos permanentemente e clique no ícone
   "Esvaziar lixeira" na barra de ferramentas.
-
-<!-- -->
-
 - **Lote**: Processa em lote os category selecionados. Funciona com um
   ou vários itens selecionados.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
 

@@ -158,56 +158,26 @@ above. The functions are:
 **User Notes: New Category**: The functions are:
 
 - **Save.** Saves the category and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the category and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the category and keeps the editing screen open
   and ready to create another category.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 **User Notes: Edit Category**: The functions are:
 
 - **Save.** Saves the category and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the category and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the category and keeps the editing screen open
   and ready to create another category.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current
   category. Does not affect the current category. This toolbar icon is
   not shown if you are creating a new category.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Associations**. With a specific language set for an article, allows
   side by side editing in another language.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

@@ -97,14 +97,8 @@ de tela](#Captura_de_tela) acima. As funções são:
 - **Excluir**: Exclui um ou mais registros selecionados.
 - **Purgar**: Permite que você exclua todos os registros das ações dos
   usuários de uma só vez.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Informações relacionadas

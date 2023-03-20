@@ -64,9 +64,6 @@ aufsteigend sortiert.
 - **Zugeordnete Module**. Zeigt jedes Menü-Modul, das dem Menü
   zugeordnet ist. Die Spalte zeigt den Namen des Moduls, seine
   Zugriffsebene und Position im Template.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -79,37 +76,22 @@ Das [Bildschirmfoto](#Bildschirmfoto) am Anfang der Seite zeigt die
 Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Neu**: Öffnet das Bearbeitungs-Formular, um menu zu erstellen.
-
-<!-- -->
-
 - **Bearbeiten:** Öffnet das Bearbeitungs-Formular für das ausgewählte
   menu. Falls mehr als ein menu ausgewählt wurde (wo anwendbar), wird
   nur das erste menu geöffnet. Das Bearbeitungs-Formular kann auch durch
   Klicken auf den menu-Namen geöffnet werden.
-
-<!-- -->
-
 - **Löschen:** Löscht markierte menus. Funktioniert mit einem oder
   mehreren ausgewählten menus. Das Löschen eines Menüs löscht auch alle
   seine Menüeinträge und seine zugeordneten Module. Nach Klick auf
   "Löschen" wird man um Bestätigung der Löschung der gewählten Menüs
   gefragt. Ein Klick auf "OK" löscht die Menüs. Ein Klick auf
   "Abbrechen" unterbricht die Löschung.
-
-<!-- -->
-
 - **Wiederherstellen.** Rekonstruiert und aktualisiert die menu-Tabelle.
   Üblicherweise muß diese Tabelle *nicht* wiederhergestellt werden. Die
   Funktion ist für den Fall einer beschädigten Tabelle gedacht.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können. Siehe auch [Menus
   Configuration](https://docs.joomla.org/Help4.x:Components_Menus_Configuration "Special:MyLanguage/Help4.x:Components Menus Configuration").
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

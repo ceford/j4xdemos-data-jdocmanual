@@ -37,18 +37,12 @@ alt="Help-4x-Components-Banners-Clients-Edit-screen-en.png" />
   banner is clicked by web site visitors.
 - **Additional Information.** Enter any extra information you want to
   save for this client.
-
-<!-- -->
-
 - **Status**: Published status of the item. Possible values are:
   - *Published*: The item is published. This is the only state that will
     allow regular website users to view this item.
   - *Unpublished*: The item is unpublished.
   - *Archived*: The item has been archived.
   - *Trashed*: The item has been sent to the Trash.
-
-<!-- -->
-
 - **Version Note**. Optional field to identify this version of the item
   in the item's [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/de "Special:MyLanguage/Help40:Components Version History/de")
@@ -87,15 +81,9 @@ alt="Help-4x-Components-Banners-Clients-Edit-screen-metadata-en.png" />
       example, if the current Article displayed has the keywords "cats,
       dogs, monkeys", any other Articles with at least one of these
       keywords will show in the 'Articles - Related' module.
-
-<!-- -->
-
 - **Use Own Prefix.** Whether or not to use the banner's prefix or that
   of the client. Select *No* if you want to use the prefix of the banner
   client.
-
-<!-- -->
-
 - **Meta Keyword Prefix:** When matching meta keywords, only search for
   meta keywords with these optional prefixes. This improves performance.
 
@@ -105,43 +93,22 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Versions**. Opens the Item Version History window to show any prior
   versions of this item. This allows you to view older versions of this
   item and, if desired, restore from an older version. See [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/de "Special:MyLanguage/Help40:Components Version History/de")
   for more information.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

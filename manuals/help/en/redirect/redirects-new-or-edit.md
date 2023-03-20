@@ -30,40 +30,22 @@ alt="Help-4x-Components-Redirect-Manager-Edit-screen-en.png" />
 **Edit/New Link \#1**
 
 - **Expired URL.** The URL to be redirected.
-
-<!-- -->
-
 - **New URL.** The URL to redirect to.
-
-<!-- -->
-
 - **Status**: Published status of the item. Possible values are:
   - *Published*: The item is published. This is the only state that will
     allow regular website users to view this item.
   - *Unpublished*: The item is unpublished.
   - *Archived*: The item has been archived.
   - *Trashed*: The item has been sent to the Trash.
-
-<!-- -->
-
 - **Comment.** A comment that is only viewable in the administrator
   back-end. It is primarily intended for administrator reference only.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
   field displays "0" until you save the new entry, at which point a new
   ID is assigned to it.
-
-<!-- -->
-
 - **Created Date**. Date the item(Article, Category, Weblink, etc.) was
   created.
-
-<!-- -->
-
 - **Last Updated Date.** Shows the last date the item was modified.
 
 ## Toolbar
@@ -72,24 +54,12 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Function

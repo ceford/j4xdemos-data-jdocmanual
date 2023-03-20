@@ -43,9 +43,6 @@ pode ler o que elas significam e o que é exibido em cada coluna.
 - **Assunto**: O assunto da nota do usuário.
 - **Usuário**: O nome do usuário.
 - **Data de revisão**: A data em que a nota do usuário foi criada.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -74,31 +71,19 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo user note.
-
-<!-- -->
-
 - **Ações**: Revela uma lista de ações para os itens selecionados.
   Marque uma ou mais caixas de seleção de itens para ativar a lista.
 - **Publicar**: Disponibiliza as notas de usuários selecionadas para a
   administração do seu site.
 - **Cancelar publicação**: Torna as notas de usuários selecionadas
   indisponíveis para a administração do seu site.
-
-<!-- -->
-
 - **Arquivo**: Altera o estado dos user notes selecionados para indicar
   que eles estão arquivados. Os user notes arquivados podem ser movidos
   de volta para o estado publicado ou não publicado selecionando
   "Arquivado" no filtro "Selecionar estado" e alterando o estado dos
   user notes.
-
-<!-- -->
-
 - **Check-in**: Faz o check-in dos user notes selecionados. Funciona com
   um ou vários user notes selecionados.
-
-<!-- -->
-
 - **Lixeira**: Altera o estado dos user notes selecionados para indicar
   que eles estão na lixeira.user notes na lixeira ainda podem ser
   recuperados selecionando "Lixeira" no filtro "Selecionar estado" e
@@ -107,13 +92,7 @@ de tela](#Captura_de_tela) acima. As funções são:
   lixeira, selecione "Lixeira" no filtro "Selecionar estado", selecione
   os user notes a serem excluídos permanentemente e clique no ícone
   "Esvaziar lixeira" na barra de ferramentas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
 

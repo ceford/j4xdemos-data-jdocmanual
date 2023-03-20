@@ -33,9 +33,6 @@ alt="Help-4x-Extensions-Plugin-Manager-screen-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -55,15 +52,9 @@ alt="Help-4x-Extensions-Plugin-Manager-screen-nl.png" />
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status.** Een groen vinkje of een rood kruis dat toont of het
   gebruik van de component ingeschakeld/uitgeschakeld is. Klik op het
   pictogram om te schakelen tussen ingeschakeld en uitgeschakeld.
-
-<!-- -->
-
 - **Pluginnaam.** De naam van de plugin.
 - **Type.** Het type plugin. Mogelijke types zijn: authentication,
   content, editors, editors-xtd, search, system, en user. Dit zijn ook
@@ -85,9 +76,6 @@ alt="Help-4x-Extensions-Plugin-Manager-screen-nl.png" />
     hoger hebben toegang.
   - Speciaal: Alleen gebruikers met auteur status of hoger hebben
     toegang.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -143,25 +131,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 - **Inschakelen**. Maakt de selecteerde plugin beschikbaar om te
   gebruiken op uw website. U kunt ook schakelen tussen 'Ingeschakeld' en
   'Uitgeschakeld' door op het icoon in de 'Status' kolom te drukken.
-
-<!-- -->
-
 - **Uitschakelen**. Maakt de selecteerde plugins niet beschikbaar om te
   gebruiken op uw website. U kunt ook schakelen tussen 'Ingeschakeld' en
   'Uitgeschakeld' door op het icoon in de 'Status' kolom te drukken.
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde plugins in. Werkt bij één of
   meer plugins geselecteerd.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

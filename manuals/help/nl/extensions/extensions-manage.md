@@ -134,28 +134,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Inschakelen**. Maakt de selecteerde extensie(s) beschikbaar om te
   gebruiken op uw website.
-
-<!-- -->
-
 - **Uitschakelen**. Maakt de selecteerde extensie(s) niet beschikbaar om
   te gebruiken op uw website.
-
-<!-- -->
-
 - **Wis cache**. Ververst de informatie getoond voor de geselecteerde
   extensie(s).
-
-<!-- -->
-
 - **Deïnstalleren:** Deïnstalleer de geselecteerde extensie(s).
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

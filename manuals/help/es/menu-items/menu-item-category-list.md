@@ -124,9 +124,6 @@ alt="Help-4x-Menus-Item-Articles-Category-List-list-layouts-subscreen-es.png" />
 - **Mostrar impresiones en la lista**. Show the number of hits for
   articles.
 - **Mostrar autor en la lista**. Show the name of the author.
-
-<!-- -->
-
 - **Orden de las categorías**.
   - Sin ordenar: Articles are ordered only by the Article Order, without
     regard to Category.

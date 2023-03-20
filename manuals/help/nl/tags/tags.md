@@ -36,9 +36,6 @@ width="1188" height="27" alt="Help31-Tags-Manager-columns-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -58,32 +55,17 @@ width="1188" height="27" alt="Help31-Tags-Manager-columns-nl.png" />
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Titel**. De naam van het item. Voor een menu-item wordt de titel in
   het menu weergegeven. Voor een artikel of categorie wordt de titel
   optioneel weergegeven op de webpagina. Invullen is vereist. Een item
   kan bewerkt worden door op de titel te klikken.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
 - **Tagged Items.** The number of items with this tag. Click the number
   to go to a list of items.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -117,14 +99,8 @@ bovenstaande [Screenshot](#screenshot).
 
 - **Selecteer status**. Selecteer uit Naar prullenbak / Gedepubliceerd /
   Gepubliceerd / Gearchiveerd / Alles.
-
-<!-- -->
-
 - **Selecteer toegang**. Selecteer uit de lijst met beschikbare weergave
   toegangsniveaus.
-
-<!-- -->
-
 - 
 
 **Selecteer taal**. Selecteer uit de lijst met beschikbare talen.
@@ -159,44 +135,23 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe tag te maken.
-
-<!-- -->
-
 - **Bewerken**. Opent het scherm voor het bewerken van het geselecteerde
   tag. Als er meer dan één tag is geselecteerd (indien van toepassing),
   wordt alleen het eerste tag geopend. Het bewerkingsscherm kan ook
   worden geopend door te klikken op de Naam van het tag.
-
-<!-- -->
-
 - **Publiceren**. Maakt de geselecteerde tag beschikbaar voor de
   bezoekers van uw website.
-
-<!-- -->
-
 - **Depubliceren.** Maakt de geselecteerde tag niet beschikbaar voor de
   bezoekers van uw website
-
-<!-- -->
-
 - **Archiveren**. Verandert de status van één van de geselecteerde tag
   om aan te geven dat ze worden gearchiveerd. Gearchiveerde tag kunnen
   terug naar de gepubliceerde of gedepubliceerde status gebracht worden
   door *Gearchiveerd* te selecteren in het Selecteer status filter en de
   status van de tag te wijzigen naar Gepubliceerd of Gedepubliceerd.
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde tag in. Werkt bij één of meer
   tag geselecteerd.
-
-<!-- -->
-
 - **Batch**. Batch verwerkt de geselecteerde tag. Werkt bij één of meer
   geselecteerde items.
-
-<!-- -->
-
 - **Prullenbak**. Verandert de status van de selecteerde tag om aan te
   geven dat ze in de prullenbak zitten. tag in de prullenbak kunnen
   hersteld worden door "Verplaatst naar prullenbak" te kiezen in het
@@ -206,12 +161,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   naar prullenbak" in het Selecteer status filter, selecteer de tag die
   definitief verwijderd moeten worden en klik daarna op het 'Prullenbak
   leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

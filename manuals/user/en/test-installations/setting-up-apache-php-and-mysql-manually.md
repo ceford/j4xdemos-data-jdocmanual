@@ -187,9 +187,6 @@ a server wide setting applying to all your projects.):
   the directory where the following extensions are located by
   uncommenting this variable and assign the absolute location of the
   folder. The complete line should read as follows*
-
-<!-- -->
-
     extension_dir = "C:\Program Files\PHP\ext"
 
 - Dynamic extensions section contains various additional modules that
@@ -216,24 +213,15 @@ Apache and do the same.
   section add the following directives. (If you have located your PHP
   folder differently do make corresponding change for php5apache2_2.dll
   below.):
-
-<!-- -->
-
     LoadModule php5_module "C:/Program Files/PHP/php5apache2_2.dll" 
     AddType application/x-httpd-php .php
 
 - In the DirectoryIndex add *index.php* and *index.htm* as possible
   files to serve when directory is requested as follows:
-
-<!-- -->
-
     DirectoryIndex index.html index.htm index.php
 
 - At the end of the file add the following line which will point out
   where the *php.ini* file is located
-
-<!-- -->
-
     PHPIniDir "C:/Program Files/PHP"
 
 ### Restart and Test PHP

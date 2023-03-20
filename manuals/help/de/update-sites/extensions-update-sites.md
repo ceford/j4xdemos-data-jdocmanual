@@ -111,45 +111,21 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   item. Falls mehr als ein item ausgewählt wurde (wo anwendbar), wird
   nur das erste item geöffnet. Das Bearbeitungs-Formular kann auch durch
   Klicken auf den item-Namen geöffnet werden.
-
-<!-- -->
-
 - **Aktionen:** Zeigt eine Liste von Aktionen für ausgewählte Objekte
   an. Ein oder mehrere Auswahlkästchen für Einträge markieren, um die
   Liste zu aktivieren.
-
-<!-- -->
-
 - **Aktivieren.** Gewählte Elemente können auf der Website verwendet
   werden.
-
-<!-- -->
-
 - **Deaktivieren**: Macht gewählte items für die Besucher der Webseite
   unsichtbar.
-
-<!-- -->
-
 - **Löschen:** Löscht markierte items. Funktioniert mit einem oder
   mehreren ausgewählten items.
-
-<!-- -->
-
 - **Freigeben**. Gibt die ausgewählten items wieder frei. Funktioniert
   mit einem oder mehreren ausgewählten items.
-
-<!-- -->
-
 - **Wiederherstellen.** Rekonstruiert und aktualisiert die
   relevant-Tabelle. Üblicherweise muß diese Tabelle *nicht*
   wiederhergestellt werden. Die Funktion ist für den Fall einer
   beschädigten Tabelle gedacht.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.

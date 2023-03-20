@@ -27,9 +27,6 @@ alt="Help-4x-Components-Finder-Manage-Search-Filters-Edit-screen-nl.png" />
 
 - **Titel**. De titel van dit item. Dit kan op de pagina weergegeven
   worden, afhankelijk van de instellingen.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -39,9 +36,6 @@ alt="Help-4x-Components-Finder-Manage-Search-Filters-Edit-screen-nl.png" />
 ## Bewerk filter tabblad
 
 - **Aantal schema's.** Het aantal schema's dat het filter bevat.
-
-<!-- -->
-
 - **Selectie omkeren.** De Selectie omkeren knop zal alle selecties
   omkeren. Zo zullen alle geselecteerde items niet meer geselecteerd
   worden en alle niet geselecteerde items worden geselecteerd.
@@ -87,31 +81,16 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan. Of
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

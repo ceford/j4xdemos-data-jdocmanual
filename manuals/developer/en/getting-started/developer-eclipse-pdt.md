@@ -424,9 +424,6 @@ Features to note:
     web site.
   - Select Finish - you may need to Terminate and reload the debug
     session.
-
-<!-- -->
-
 - Debugging resumes after a selecting the Terminate button. To Fix:
   - Use your browser Developer Tools to open an inspection window.
   - Find the cookies your browser is using (Storage in Firefox)

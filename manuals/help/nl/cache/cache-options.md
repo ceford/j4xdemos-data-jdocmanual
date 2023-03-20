@@ -57,19 +57,10 @@ handelingen uitvoeren.
 ## Werkbalk
 
 - **Opslaan.** Slaat configuratie op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat configuratie op en sluit het huidige
   scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

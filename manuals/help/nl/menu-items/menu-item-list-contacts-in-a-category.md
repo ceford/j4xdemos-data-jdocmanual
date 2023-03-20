@@ -41,9 +41,6 @@ alt="Help-4x-Menus-Menu-Item-Contact-Category-screen-nl.png" />
 ## Formulier velden
 
 - **Titel**. De titel die wordt getoond voor dit menu item.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -83,17 +80,11 @@ altijd altijd met deze stijl te tonen.
 **Rechter venster**
 
 - **Menu**. Toont in welk menu de link zal verschijnen.
-
-<!-- -->
-
 - **Hoofditem.** Het bovenliggend menu-item voor dit menu-item. Gebruikt
   om vast te stellen of een menu-item top-niveau item of een sub-menu
   item is. Selecteer 'Menu-item root' (de standaard waarde) als dit een
   top-niveau menu-item is. Selecteer anders het Menu-item dat het
   bovenliggende item van het item is.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -113,27 +104,15 @@ altijd altijd met deze stijl te tonen.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Standaard pagina**. Indien Ja, is dit menu-item de standaard of home
   pagina van de website. Er mag exact één menu-item ingesteld zijn als
   standaard pagina. U kunt de standaard pagina op twee manieren
@@ -143,19 +122,10 @@ altijd altijd met deze stijl te tonen.
       scherm.
   2.  Open het menu-item voor de nieuwe standaard pagina en wijzig de
       Standaard pagina instellingen op Ja.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -177,38 +147,20 @@ alt="Help-4x-Menus-Menu-Item-Contact-Category-category-options-parameters-nl.png
   ingesteld op toon wordt de categorietitel als subkop weergegeven op
   een pagina. De subkop wordt over het algemeen binnen "H2" tags
   weergegeven.
-
-<!-- -->
-
 - **Beschrijving van categorie**. (Gebruik algemeen/Verberg/Toon) Toon
   of verberg de beschrijving van de geselecteerde categorie.
-
-<!-- -->
-
 - **Afbeelding van categorie.** (Gebruik algemeen/Verberg/Toon) Toon of
   verberg de afbeelding van de geselecteerde categorie.
-
-<!-- -->
-
 - **Subcategorieniveaus.** (Gebruik algemeen/Alle/1-5) Het aantal
   niveaus van de subcategorieën die te zien zijn in de lay-out.
   Selecteer *Alle* om alle niveaus weer te geven in de subcategorie
   hiërarchie.
-
-<!-- -->
-
 - **Lege categorieën.** (Gebruik algemeen/Verberg/Toon) Indien ingesteld
   op Toon dan worden lege categorieën getoond. Een categorie is alleen
   leeg als het geen contactpersonen of subcategorieën bevat.
-
-<!-- -->
-
 - **Subcategorie beschrijving.** (Gebruik algemeen/Verberg/Toon) Of de
   categoriebeschrijving van subcategorieën wel of niet getoond moet
   worden.
-
-<!-- -->
-
 - **\# Contactpersonen in categorie**. (Gebruik algemeen/Verberg/Toon)
   Of het aantal contactpersonen al dan niet getoond moet worden in een
   categorie.
@@ -227,9 +179,6 @@ alt="Help-4x-Menus-Menu-Item-Contact-Category-category-list-layout-options-param
 - **Filterveld.** (Gebruik algemeen/Verberg/Toon) Het Filterveld maakt
   een tekstveld aan voor de website gebruiker om op een deel van de naam
   van een contactpersoon te zoeken.
-
-<!-- -->
-
 - **Weergave selectielijst.** (Gebruik algemeen/Toon/Verberg) Tonen of
   verbergen van de selectielijst waarmee de gebruiker het aantal weer te
   geven items in de lijst kan selecteren. Onderstaand een voorbeeld van
@@ -264,9 +213,6 @@ Indien ingesteld op *Verberg* dan wordt de lijst zonder kop getoond.
 - **Positie.** (Gebruik algemeen/Verberg/Toon) De positie die deze
   contactpersoon bekleed in de organisatie. Bijvoorbeeld CEO,
   secretaris, conciërge.
-
-<!-- -->
-
 - **E-mail**. Instellingen om E-mail in een lijst weer te geven.
 
 De volgende opties zijn beschikbaar.
@@ -275,9 +221,6 @@ De volgende opties zijn beschikbaar.
   opties.
 - *Toon:* Toon in de lijst.
 - *Verberg:* niet in lijst tonen.
-
-<!-- -->
-
 - **Telefoon**. Instellingen om Telefoon in een lijst weer te geven.
 
 De volgende opties zijn beschikbaar.
@@ -286,9 +229,6 @@ De volgende opties zijn beschikbaar.
   opties.
 - *Toon:* Toon in de lijst.
 - *Verberg:* niet in lijst tonen.
-
-<!-- -->
-
 - **Mobiel**. Instellingen om Mobiel in een lijst weer te geven.
 
 De volgende opties zijn beschikbaar.
@@ -297,9 +237,6 @@ De volgende opties zijn beschikbaar.
   opties.
 - *Toon:* Toon in de lijst.
 - *Verberg:* niet in lijst tonen.
-
-<!-- -->
-
 - **Fax**. Instellingen om Fax in een lijst weer te geven.
 
 De volgende opties zijn beschikbaar.
@@ -308,9 +245,6 @@ De volgende opties zijn beschikbaar.
   opties.
 - *Toon:* Toon in de lijst.
 - *Verberg:* niet in lijst tonen.
-
-<!-- -->
-
 - **Woonplaats**. Instellingen om Woonplaats in een lijst weer te geven.
 
 De volgende opties zijn beschikbaar.
@@ -319,9 +253,6 @@ De volgende opties zijn beschikbaar.
   opties.
 - *Toon:* Toon in de lijst.
 - *Verberg:* niet in lijst tonen.
-
-<!-- -->
-
 - **Provincie**. Instellingen om Provincie in een lijst weer te geven.
 
 De volgende opties zijn beschikbaar.
@@ -330,9 +261,6 @@ De volgende opties zijn beschikbaar.
   opties.
 - *Toon:* Toon in de lijst.
 - *Verberg:* niet in lijst tonen.
-
-<!-- -->
-
 - **Land**. Instellingen om Land in een lijst weer te geven.
 
 De volgende opties zijn beschikbaar.
@@ -341,9 +269,6 @@ De volgende opties zijn beschikbaar.
   opties.
 - *Toon:* Toon in de lijst.
 - *Verberg:* niet in lijst tonen.
-
-<!-- -->
-
 - **Paginering.** Toon of verberg de paginering. Paginering geeft
   paginalinks weer onderaan de pagina waarmee gebruikers naar andere
   pagina's kunnen navigeren. Deze zijn nodig wanneer de items in de
@@ -362,16 +287,10 @@ De volgende opties zijn beschikbaar.
 - *Toon:* Paginalinks tonen indien nodig.
 - *Verbergen:* Paginalinks niet tonen. In dit geval kunnen gebruikers
   niet naar andere pagina's navigeren.
-
-<!-- -->
-
 - **Paginering samenvatting.** Toon of verberg het huidige paginanummer
   en totaal aantal pagina's (bijv., "Pagina 1 van 2") onderaan iedere
   pagina. Gebruik algemeen zal de standaard waarde van de component
   opties gebruiken.
-
-<!-- -->
-
 - **Sorteren op**. Kies het veld waarop gesorteerd moet worden.
 
 ### Weergave opties voor contactpersonen tabblad
@@ -387,9 +306,6 @@ data-file-width="817" data-file-height="543" width="600" height="399"
 alt="Help-4x-Menus-Menu-Item-Contact-Category-category-contact-display-options-parameters-nl.png" />
 
 - **Kies een weergave.** Selecteer uit de lijst met templates.
-
-<!-- -->
-
 - **Contactpersonencategorie**. Instellingen voor de weergave van de
   categorie contactpersonen.
 
@@ -402,99 +318,39 @@ De volgende opties zijn beschikbaar.
   als koptekst.
 - *Toon met link* Toon categorienaam van de contactpersonen als koptekst
   gelinkt aan de categorie.
-
-<!-- -->
-
 - **Slectielijstlijst met contactpersonen**. Geef de gebruikers de
   mogelijkheid een lijst met alle contactpersonen in een categorie te
   tonen. Stel een van de volgende opties in:
-
-<!-- -->
-
 - *Gebruik algemeen:* Gebruik de standaard waarde uit de contactpersoon
   opties.
 - *Toon:* Om gebruikers toe te staan een contactpersoon te selecteren
   uit een lijst.
 - *Verberg:* Toon geen lijst met contactpersonen
-
-<!-- -->
-
 - **Tags**. Toon of verberg de tags voor dit item.
 
 **Algemene contact velden in de weergave** zijn:
 
 - **Naam**. Geeft de *Naam* van de contactpersoon weer.
-
-<!-- -->
-
 - **Positie van contactpersoon**. Geeft de *Positie van contactpersoon*
   van de contactpersoon weer.
-
-<!-- -->
-
 - **E-mail**. Geeft de *E-mail* van de contactpersoon weer.
-
-<!-- -->
-
 - **Adres**. Geeft de *Adres* van de contactpersoon weer.
-
-<!-- -->
-
 - **Woonplaats**. Geeft de *Woonplaats* van de contactpersoon weer.
-
-<!-- -->
-
 - **Provincie**. Geeft de *Provincie* van de contactpersoon weer.
-
-<!-- -->
-
 - **Postcode**. Geeft de *Postcode* van de contactpersoon weer.
-
-<!-- -->
-
 - **Land**. Geeft de *Land* van de contactpersoon weer.
-
-<!-- -->
-
 - **Telefoon**. Geeft de *Telefoon* van de contactpersoon weer.
-
-<!-- -->
-
 - **Mobiel**. Geeft de *Mobiel* van de contactpersoon weer.
-
-<!-- -->
-
 - **Fax**. Geeft de *Fax* van de contactpersoon weer.
-
-<!-- -->
-
 - **Website**. Geeft de *Website* van de contactpersoon weer.
-
-<!-- -->
-
 - **Overige gegevens**. Geeft de *Overige gegevens* van de
   contactpersoon weer.
-
-<!-- -->
-
 - **Afbeelding**. Geeft de *Afbeelding* van de contactpersoon weer.
-
-<!-- -->
-
 - **vCard**. Geeft de *vCard* van de contactpersoon weer.
-
-<!-- -->
-
 - **Toon artikelen van gebruiker**. Geeft de *Artikelen* van de
   contactpersoon weer.
-
-<!-- -->
-
 - **\# Artikelen**. Geeft de *aantal artikelen* van de contactpersoon
   weer.
-
-<!-- -->
-
 - **Toon links**. Geeft de *Extra links* van de contactpersoon weer. Dit
   kunnen links zijn naar Social Media accounts, zoals Twitter, Facebook,
   Skype etc.
@@ -506,9 +362,6 @@ beschikbaar:
   opties.
 - *Toon:* Toon dit veld.
 - *Verberg:* Toon dit veld niet.
-
-<!-- -->
-
 - **Link Label**.
   Labels (5) om de standaard link labels te overschrijven.
 
@@ -576,28 +429,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

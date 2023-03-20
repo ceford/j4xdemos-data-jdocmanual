@@ -72,23 +72,11 @@ alt="Help-4x-Save-SaveClose-SaveNew-Cancel-Help-toolbar-en.png" />
 The functions are:
 
 - **Save:** Saves the menu and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the menu and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the menu and keeps the editing screen open and
   ready to create another menu.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

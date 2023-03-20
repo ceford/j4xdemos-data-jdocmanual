@@ -44,9 +44,6 @@ waarde in die kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -66,18 +63,9 @@ waarde in die kolom te sorteren.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Naam.** De naam van de advertentie. Bewerken - 'klik' op de naam om
   de advertentie te openen en te bewerken.
-
-<!-- -->
-
 - **Kleven**. *(Ja of Nee)* Of al dan niet de advertentie "kleeft". Als
   één of meer advertenties in een categorie aangemerkt wordt als
   "klevend," hebben ze voorrang op advertenties die niet kleven.
@@ -92,27 +80,15 @@ klevende advertenties automatisch getoond.*
 
 - **Adverteerder.** De adverteerder van deze advertentie. Adverteerders
   worden toegevoegd via Advertenties - Adverteerders.
-
-<!-- -->
-
 - **Weergaves.** De weergaveteller is het aantal keren dat advertentie
   getoond is op een pagina. Het eerste aantal in deze kolom is het
   werkelijke aantal weergaves tot nu toe en het tweede aantal weergaves
   dat de klant aangeschaft heeft.
-
-<!-- -->
-
 - **Klikken.** Het eerste cijfer is het totaal aantal klikken die gedaan
   zijn op de advertentie sinds de teller gereset werd. Het tweede nummer
   is welk percentage van de tijd de gebruiker op de advertentie klikte
   toen het werd weergegeven.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -149,18 +125,9 @@ hierboven. De functies zijn:
 
 - **Selecteer status**. Selecteer uit Naar prullenbak / Gedepubliceerd /
   Gepubliceerd / Gearchiveerd / Alles.
-
-<!-- -->
-
 - **Selecteer categorie**. Selecteer uit de lijst met beschikbare
   categorieën.
-
-<!-- -->
-
 - **Selecteer client**. Selecteer uit de lijst met beschikbare clients.
-
-<!-- -->
-
 - 
 
 **Selecteer taal**. Selecteer uit de lijst met beschikbare talen.
@@ -185,14 +152,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe advertentie te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
   - **Publiceren**. Maakt de geselecteerde advertentie beschikbaar voor
     de bezoekers van uw website.
 
@@ -222,14 +183,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
   - **Batch**. Batch verwerkt de geselecteerde advertentie. Werkt bij
     één of meer geselecteerde items.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 Zie [Advertentiebeheer

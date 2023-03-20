@@ -398,9 +398,6 @@ Bereich.
 
 - Ein neues Menü erstellen:
   [Menüs](https://docs.joomla.org/Help4.x:Menus/de "Help4.x:Menus/de").
-
-<!-- -->
-
 - Dieses
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.

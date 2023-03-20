@@ -40,14 +40,8 @@ At the top of the page you will see the toolbar shown in the
 
 - **Send:** Sends the message. Note that the Recipient, Subject and
   Message fields cannot be blank.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

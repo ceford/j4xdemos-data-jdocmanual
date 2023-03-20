@@ -38,9 +38,6 @@ alt="Help-4x-Menus-Menu-Item-Wrapper-nl.png" />
 ## Formulier velden
 
 - **Titel**. De titel die wordt getoond voor dit menu item.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -54,9 +51,6 @@ alt="Help-4x-Menus-Menu-Item-Wrapper-nl.png" />
 - **Menu-itemtype**. Het menu-item type dat geselecteerd is toen het
   mneu-item aangemaakt werd. Dit kan een van de core menu-item types
   zijn of een menu-item type geleverd door een geïnstalleerde extensie.
-
-<!-- -->
-
 - **URL**. Veld om een URL in te vullen (website adres).
 
 In het algemeen is het een goed idee altijd http:// of https:// toe te
@@ -71,13 +65,7 @@ functie uitgeschakeld is.*
 
 - **Link**. De door het systeem gegenereerde link voor dit menu-item.
   Dit veld kan niet veranderd worden en is alleen ter informatie.
-
-<!-- -->
-
 - **Doelvenster.** Selecteer uit de uitklaplijst.
-
-<!-- -->
-
 - **Templatestijl.** Selecteer uit de uitklaplijst.
 
 **Rechter venster**
@@ -109,15 +97,9 @@ alt="Help-4x-Menus-Menu-Item-Wrapper-Scroll-Bar-parameters-screenshot-nl.png" />
   horizontale en verticale schuifbalken, nee of ja. Automatisch zal de
   schuifbalken automatisch toevoegen wanneer dat nodig door de omvang
   van de ingesloten pagina.
-
-<!-- -->
-
 - **Breedte:** Breedte van het IFrame-venster. Voer een aantal pixels in
   of geef een percentage (%). Bijvoorbeeld, "550" betekend 550 pixels.
   "75%" betekent 75% van de breedte van de pagina.
-
-<!-- -->
-
 - **Hoogte:** Hoogte van het IFrame-venster. Voer een aantal pixels in
   of geef een percentage (%). Bijvoorbeeld, "550" betekend 550 pixels.
   "75%" betekent 75% van de hoogte van de pagina.
@@ -136,15 +118,9 @@ alt="Help-4x-Menus-Menu-Item-Wrapper-Advanced-options-screenshot-nl.png" />
   `http://www.example.com` de externe html moet in de `example.com` root
   bestandstructuur staan. Subdomeinen werken niet, aangezien een
   subdomein beschouwd wordt als een apart domein.
-
-<!-- -->
-
 - **Automatisch toevoegen**. Automatisch het webadres laten voorafgaan
   door http://. Deze functie zal automatisch constateren of een URL al
   http:// of https:// bevat en deze niet toevoegen.
-
-<!-- -->
-
 - **Framerand**. Voeg een rand toe rond het iframe venster.
 
 ### Linktype tabblad
@@ -197,28 +173,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige item. Beïnvloed het huidige item niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

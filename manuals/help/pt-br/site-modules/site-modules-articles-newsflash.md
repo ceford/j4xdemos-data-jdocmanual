@@ -60,15 +60,9 @@ title="File:Help-4x-modules-site-module-manager-module-articles-newsflash-pt-br.
 
 - **Title.** The title of the module. This is also the title displayed
   for the module depending on the *Show Title* Form Field
-
-<!-- -->
-
 - **Show Title.** (Show/Hide) Choose whether to show or hide the modules
   title in the front end. The title will be the one in the Form Field
   above.
-
-<!-- -->
-
 - **Position.** Choose the [module
   position](https://docs.joomla.org/Module_Position/en "Module Position/en")
   you wish this module to be displayed in. A custom module position can
@@ -76,44 +70,23 @@ title="File:Help-4x-modules-site-module-manager-module-articles-newsflash-pt-br.
   plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/en "How do you put a module inside an article?/en")
   or the position button can be pressed to select a module position from
   the template.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/pt-br "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/pt-br")
   for this item.
-
-<!-- -->
-
 - **Module Ordering.** This shows a drop down of every module in the
   position that the current module is in. This is the order that the
   modules will display in when displayed on in the front end as well as
   in the
   [Modules](https://docs.joomla.org/Help4.x:Modules/en "Help4.x:Modules/en")
   page.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -128,9 +101,6 @@ title="File:Help-4x-modules-manager-site-module-menu-assignment-tab-pt-br.png">8
 - **Atribuição de módulo**: Selecione **Em todas as páginas**, **Nenhuma
   página**, **Apenas nas páginas selecionadas** ou **Em todas as
   páginas, exceto as selecionadas** da lista.
-
-<!-- -->
-
 - **Seleção de menu**: Se as duas últimas opções forem selecionadas, uma
   lista mostrará todos os itens de menu. Isso permite que você atribua
   módulos à algumas, mas não à todas as páginas, e selecionando os links
@@ -213,30 +183,15 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Salvar**: Salva o item e permanece na tela atual.
-
-<!-- -->
-
 - **Salvar fechar**: Salva o item e fecha a tela atual.
-
-<!-- -->
-
 - **Salvar & novo**: Salva o item e mantém a tela de edição aberta e
   pronta para criar outro item.
-
-<!-- -->
-
 - **Salvar como cópia**: Salva suas alterações em uma cópia do item
   atual. Não afeta o item atual. Este ícone da barra de ferramentas não
   é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Fechar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que tenha feito. Este ícone da barra de
   ferramentas não é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Captura da tela do site (front-end)

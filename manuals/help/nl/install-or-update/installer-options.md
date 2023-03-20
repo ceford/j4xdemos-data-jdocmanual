@@ -83,17 +83,8 @@ De functies zijn.
 
 - **Opslaan.** Slaat Installeren opties op en blijft op het huidige
   scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat Installeren opties op en sluit het
   huidige scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

@@ -41,9 +41,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Status**: Publiceerstatus van het item. Mogelijke waarden zijn:
   - *Gepubliceerd*: Het item is gepubliceerd. Dit is de enige status de
     gewone website bezoekers in staat stelt dit item te bekijken.
@@ -55,22 +52,10 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   pagina gedeelte wordt getoond in deze lijst.
 - **Nieuwe URL.** De doel URL voor de verwijzing.
 - **Verwijzende pagina.** De aanroepende webpagina voor de verwijzing.
-
-<!-- -->
-
 - **Aanmaakdatum.** Datum dat het item (artikel, categorie, weblink,
   etc.) aangemaakt is.
-
-<!-- -->
-
 - **404 hits.** Het aantal 404 hits dat er op de URL is geweest.
-
-<!-- -->
-
 - **Statuscode.** De statuscode van de pagina.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -142,32 +127,17 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe item te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Inschakelen**. Maakt de selecteerde items beschikbaar om te
   gebruiken op uw website.
-
-<!-- -->
-
 - **Uitschakelen**. Maakt de selecteerde items niet beschikbaar om te
   gebruiken op uw website.
-
-<!-- -->
-
 - **Archiveren**. Verandert de status van één van de geselecteerde items
   om aan te geven dat ze worden gearchiveerd. Gearchiveerde items kunnen
   terug naar de gepubliceerde of gedepubliceerde status gebracht worden
   door *Gearchiveerd* te selecteren in het Selecteer status filter en de
   status van de items te wijzigen naar Gepubliceerd of Gedepubliceerd.
-
-<!-- -->
-
 - **Prullenbak**. Verandert de status van de selecteerde items om aan te
   geven dat ze in de prullenbak zitten. Items in de prullenbak kunnen
   hersteld worden door "Verplaatst naar prullenbak" te kiezen in het
@@ -177,28 +147,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   "Verplaatst naar prullenbak" in het Selecteer status filter, selecteer
   de items die definitief verwijderd moeten worden en klik daarna op het
   'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Prullenbak legen.** Selecteer een of meer artikelen en klik op deze
   knop om ze definitief te verwijderen.
-
-<!-- -->
-
 - **Batchinvoer**. Nieuwe URL's toevoegen in batchverwerking.
-
-<!-- -->
-
 - **Opschonen uitgeschakeld**. Verwijdert alle uitgeschakelde links.
   URL's die nog ingeschakeld zijn worden niet verwijderd.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Opties

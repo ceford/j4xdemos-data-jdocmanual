@@ -425,9 +425,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - Kijk voor het aanmaken van een nieuw menu bij
   [Menu's](https://docs.joomla.org/Help4.x:Menus/nl "Help4.x:Menus/nl").
-
-<!-- -->
-
 - Dit
   [portaal](https://docs.joomla.org/Portal:Joomla_4/nl "Portal:Joomla 4/nl")
   brengt informatie specifiek gerelateerd aan Joomla 4 samen.

@@ -417,9 +417,6 @@ En haut de la page, vous verrez la barre d'outils présentée dans la
 
 - To create a new menu see
   [Menus.](https://docs.joomla.org/Help4.x:Menus/en "Help4.x:Menus/en")
-
-<!-- -->
-
 - Ce
   [portail](https://docs.joomla.org/Portal:Joomla_4/fr "Portal:Joomla 4/fr")
   rassemble des informations liées spécifiquement à Joomla 4.

@@ -105,42 +105,18 @@ above. The functions are:
   one item is selected (where applicable), only the first item will be
   opened. The editing screen can also be opened by clicking on the Name
   of the item.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Enable**. Makes the selected item available for use on your website.
-
-<!-- -->
-
 - **Disable**. Makes the selected items unavailable for use on your
   website.
-
-<!-- -->
-
 - **Delete:** Deletes the selected items. Works with one or multiple
   items selected.
-
-<!-- -->
-
 - **Check-In**. Checks-in the selected items. Works with one or multiple
   items selected.
-
-<!-- -->
-
 - **Rebuild.** Reconstructs and refreshes the relevant table. Normally,
   you do *not* need to rebuild this table. This function is provided in
   case the data in the table becomes corrupted.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

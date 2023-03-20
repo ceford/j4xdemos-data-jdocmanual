@@ -52,20 +52,11 @@ category. All child categories of the selected category will show in the
 layout.
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **Choose a Category**. The Categories that are within this category
   will be displayed.
-
-<!-- -->
-
 - **Menu**. Shows which menu the link will appear in.
 
 ### Advanced Details Tab
@@ -93,20 +84,11 @@ alt="Help-4x-Menus-Menu-Item-Web-Link-Categories-categories-options-parameters-e
   alternatively replace the category description for this layout. If the
   Top Level Description option is set to *Show*, this entered
   description will show instead of the normal category description.
-
-<!-- -->
-
 - **Subcategory Levels.** (Use Global/All/1-5) The number of levels of
   subcategories to show in the layout. Select *All* to show all levels
   in the subcategory hierarchy.
-
-<!-- -->
-
 - **Empty Categories.** (Use Global/Hide/Show) Whether to hide or show
   the categories that contain no content items or subcategories.
-
-<!-- -->
-
 - **Subcategories Descriptions.** (Use Global/Hide/Show) Whether to hide
   or show the category description of subcategories.
 - **\# Web links**. (Use Global/Hide/Show) Show or hide the number of
@@ -127,30 +109,15 @@ alt="Help-4x-Menus-Menu-Item-Web-Link-Categories-categories-category-options-par
 - **Category Title.** (Use Global/Hide/Show) If Show, the Category Title
   will show as a subheading on the page. The subheading is usually
   displayed inside the "H2" tag.
-
-<!-- -->
-
 - **Category Description**. (Use Global/Hide/Show) Show or hide the
   description of the selected Category.
-
-<!-- -->
-
 - **Category Image.** (Use Global/Hide/Show) Whether to hide or show the
   category image.
-
-<!-- -->
-
 - **Subcategory Levels.** (Use Global/All/1-5) The number of levels of
   subcategories to show in the layout. Select *All* to show all levels
   in the subcategory hierarchy.
-
-<!-- -->
-
 - **Empty Categories.** (Use Global/Hide/Show) Whether to hide or show
   the categories that contain no content items or subcategories.
-
-<!-- -->
-
 - **Subcategories Descriptions.** (Use Global/Hide/Show) Whether to hide
   or show the category description of subcategories.
 - **\# Web links**. (Use Global/Hide/Show) Show or hide the number of
@@ -171,9 +138,6 @@ alt="Help-4x-Menus-Menu-Item-Web-Link-Categories-categories-list-layout-options-
 
 - **Filter Field:** (Use Global/Hide/Show) Whether to show a Filter
   field for the list. Select Hide to hide the filer field
-
-<!-- -->
-
 - **Display Select.** (Use Global/Hide/Show) Whether to hide or show the
   Display \# control that allows the user to select the number of items
   to show in the list. An example of how it is shown in the Front End
@@ -204,14 +168,8 @@ If set to *Show*, this heading will show above the list. If set to
 
 - **Links Description**. (Use Global/Hide/Show) Show or hide the
   description of the list of links.
-
-<!-- -->
-
 - **Hits**. (Use Global/Hide/Show) Show or hide the number of hits
   (refers to \# of clicks) to a link in the list of links.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -228,9 +186,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -272,29 +227,14 @@ alt="Help-4x-Save-SaveClose-SaveNew-SaveCopy-Cancel-Help-toolbar-en.png" />
 The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

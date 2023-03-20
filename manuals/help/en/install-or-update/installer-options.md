@@ -77,17 +77,8 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the Installer options and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the Installer options and closes the current
   screen.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

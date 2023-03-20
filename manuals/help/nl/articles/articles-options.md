@@ -118,9 +118,6 @@ artikel](https://docs.joomla.org/Help4.x:Menu_Item:_Single_Article/nl#options "H
   dat wordt gebruikt.Let op: Dit kan voorkomen dat de 'Lees meer' tekst
   enorm lang wordt als het artikel een erg lange titel heeft.
 - **Tags**. Toon de tags voor elk artikel.
-
-<!-- -->
-
 - **Hits bijhouden**. Sla het aantal keer dat het artikel bekeken is op.
 - **Hits**. Toon het aantal keren dat een artikel getoond is aan
   gebruikers.
@@ -186,9 +183,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-nl.png" />
   en links
   tabblad](https://docs.joomla.org/Help4.x:Articles:_Edit/nl#imagesandlinks "Help4.x:Articles: Edit/nl")
   in het beheerdeel bij het bewerken van artikelen.
-
-<!-- -->
-
 - **URL A doelvenster**. Stelt de standaard waarde in voor het
   doelvenster van de eerste link in het artikel. Keuzes zijn:
   - Openen in het hoofdvenster: Opent de link in het hoofdvenster en
@@ -202,9 +196,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-nl.png" />
   doelvenster van de tweede link in het artikel. Zelfde opties al URL A.
 - **URL C doelvenster**. Stelt de standaard waarde in voor het
   doelvenster van de derde link in het artikel. Zelfde opties als URL A.
-
-<!-- -->
-
 - **Introductie afbeelding class**. Zorgt voor de class van de
   introductie afbeelding die gekozen wordt als afbeeldingsveld.
   <a href="https://cassiopeia.joomla.com/help" class="external text"
@@ -320,25 +311,16 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-nl.p
 - **Meervoudige kolomrichting**. In de multi-kolom blog layouts, of
   artikelen qua volgorde getoond moeten worden van boven naar beneden
   binnen de kolommen of van links naar rechts over de kolommen.
-
-<!-- -->
-
   - Naar beneden: Om de artikelen qua volgorde eerst te tonen in de
     eerste kolom totdat deze vol is, en vervolgens in de volgende kolom,
     bijvoorbeeld:
 
 - 
-
-<!-- -->
-
   - Links naar rechts: Om de artikelen van links naar rechts te tonen
     over de kolommen heen tot de laatste kolom is bereikt, en vervolgens
     weer terug naar de eerste kolom, bijvoorbeeld:
 
 - 
-
-<!-- -->
-
 - **\# Links**. Het aantal artikelen waarvan alleen de titel als link
   getoond moet worden in het 'Links' gedeelte van de pagina. Deze links
   staan een Gebruiker toe om te navigeren naar aanvullende Artikelen als

@@ -57,9 +57,6 @@ kolom wordt getoond.
 - **LFT.** De links en rechts waarden in de hiërarchie. Zie [Het gebruik
   van geneste
   sets](https://docs.joomla.org/Using_nested_sets "Using nested sets").
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -97,9 +94,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Legenda

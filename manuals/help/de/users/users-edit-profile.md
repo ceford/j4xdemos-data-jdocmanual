@@ -193,37 +193,19 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Speichern**. Speichert den Eintrag und bleibt auf der aktuellen
   Seite.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
-
-<!-- -->
-
 - **Speichern & Neu**. Speichert den Eintrag und hält die Seite offen,
   damit ein neuer Eintrag erstellt werden kann.
-
-<!-- -->
-
 - **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. *Oder*
-
-<!-- -->
-
 - **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
-
-<!-- -->
-
 - **Activate & Send Email.** Activate the user and send an email
   notifying that their account has been activated. -OR-
 - **Send Activation Reminder.** An email will be sent to the user
   notifying that their account has been activated
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

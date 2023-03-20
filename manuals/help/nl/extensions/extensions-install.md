@@ -138,9 +138,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Links naar de andere schermen

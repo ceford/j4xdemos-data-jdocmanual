@@ -196,36 +196,18 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Salvar**: Salva o item e permanece na tela atual.
-
-<!-- -->
-
 - **Salvar fechar**: Salva o item e fecha a tela atual.
-
-<!-- -->
-
 - **Salvar & novo**: Salva o item e mantém a tela de edição aberta e
   pronta para criar outro item.
-
-<!-- -->
-
 - **Cancelar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que você tenha feito. Ou
-
-<!-- -->
-
 - **Fechar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que tenha feito. Este ícone da barra de
   ferramentas não é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Activate & Send Email.** Activate the user and send an email
   notifying that their account has been activated. -OR-
 - **Send Activation Reminder.** An email will be sent to the user
   notifying that their account has been activated
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

@@ -45,15 +45,9 @@ Tab](https://docs.joomla.org/Help4.x:Menus_Menu_Item_Manager_Edit#New_Menu_Item_
 #### Required Settings
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **Menu**. Shows which menu the link will appear in.
 
 ### Advanced Details Tab
@@ -95,29 +89,14 @@ alt="Help-4x-Save-SaveClose-SaveNew-SaveCopy-Cancel-Help-toolbar-en.png" />
 The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Front End Screenshot
@@ -142,43 +121,22 @@ the Front End. Title, Category and URL are required fields.
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
   more.](https://docs.joomla.org/Alias/en "Special:MyLanguage/Alias/en")
-
-<!-- -->
-
 - **Category.** The Category this item belongs to.
-
-<!-- -->
-
 - **URL**. Field to enter a URL (web page address.
-
-<!-- -->
-
 - **Tags**. Enter one or more optional tags for this item. You can
   select existing tags by entering in the first few letters. You may
   also create new tags by entering them here. Tags allow you to see
   lists of related items across content types (for example, articles,
   contacts, and categories).
-
-<!-- -->
-
 - **Status**. The published status of the item. ***\*Note:** Trashed is
   not an available option because the Web Link does not exist yet. The
   only options are Published or Unpublished when submitting a new Web
   Link.*
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Description**. The description for the item. Category, Subcategory
   and Web Link descriptions may be shown on web pages, depending on the
   parameter settings. These descriptions are entered using the same

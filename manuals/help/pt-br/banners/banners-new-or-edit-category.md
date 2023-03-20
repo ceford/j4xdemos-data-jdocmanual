@@ -29,9 +29,6 @@ title="File:Help-4x-Components-Banners-Categories-Edit-screen-pt-br.png">800px</
 
 - **Título**: O título para este item. Isso pode ou não ser mostrado na
   página, dependendo dos valores do parâmetro que você escolher.
-
-<!-- -->
-
 - **Alias**: O nome interno do item. Normalmente, você pode deixar em
   branco e o Joomla preencherá um valor padrão de título em letras
   minúsculas e com traços em vez de espaços. [Saiba
@@ -50,9 +47,6 @@ title="File:Help-4x-Components-Banners-Categories-Edit-screen-pt-br.png">800px</
 
 - **Superior (pai)**: O item (categoria, item dos menus e assim por
   diante) que é o superior (pai) do item que está sendo editado.
-
-<!-- -->
-
 - **Estado**: O estado da publicação deste item.
   - *Publicado*: O item é visível do site (frontend).
   - *Despublicado*: O item não será visível para os visitantes do site
@@ -65,9 +59,6 @@ title="File:Help-4x-Components-Banners-Categories-Edit-screen-pt-br.png">800px</
     função "Esvaziar lixeira" na barra das ferramentas (veja também
     "[Excluindo um
     artigo](https://docs.joomla.org/Deleting_an_Article/pt-br "Special:MyLanguage/Deleting an Article/pt-br")").
-
-<!-- -->
-
 - **Acesso**: Selecione o nível do acesso para visualização para este
   item na caixa da listagem. Os níveis dos acessos mostrados dependerão
   do que foi configurado para este site em [Usuários → Níveis dos
@@ -75,27 +66,15 @@ title="File:Help-4x-Components-Banners-Categories-Edit-screen-pt-br.png">800px</
   Observe que os níveis dos acessos são separados das permissões das
   ACLs. Os níveis dos acessos controlam o que um usuário pode ver. As
   permissões das ACLs controlam quais ações um usuário pode executar.
-
-<!-- -->
-
 - **Linguagem**: Selecione a linguagem para este item. Se você não
   estiver usando o recurso multilíngue do Joomla!, mantenha o padrão
   "Todas".
-
-<!-- -->
-
 - **Tags**: Atribua tags a itens do conteúdo. Você pode selecionar uma
   tag predefinida da lista ou inserir uma nova tag digitando o nome no
   campo e pressionando "enter".
-
-<!-- -->
-
 - **Nota**: Isso normalmente é para uso da administração do site (por
   exemplo, para documentar informações sobre o item) e não aparece no
   frontend do mesmo.
-
-<!-- -->
-
 - **Nota da versão**: Campo opcional para identificar esta versão do
   item na janela do [histórico das
   versões](https://docs.joomla.org/Help40:Components_Version_History/pt-br "Special:MyLanguage/Help40:Components Version History/pt-br")
@@ -196,14 +175,8 @@ Para alterar as permissões para esta extensão, faça o seguinte.
 
 - Selecione o **grupo** clicando em seu título localizado à esquerda.
 - Encontre a **ação** desejada. As ações possíveis são:
-
-<!-- -->
-
   - **Configurar ACL e opções**: Os usuários podem editar as opções e as
     permissões desta extensão.
-
-<!-- -->
-
   - **Configurar apenas opções**: Os usuários podem editar as opções,
     exceto as permissões desta extensão.
   - **Interface de administração de acesso**: Os usuários podem acessar
@@ -236,51 +209,27 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Salvar**: Salva o item e permanece na tela atual.
-
-<!-- -->
-
 - **Salvar fechar**: Salva o item e fecha a tela atual.
-
-<!-- -->
-
 - **Salvar & novo**: Salva o item e mantém a tela de edição aberta e
   pronta para criar outro item.
-
-<!-- -->
-
 - **Salvar como cópia**: Salva suas alterações em uma cópia do item
   atual. Não afeta o item atual. Este ícone da barra de ferramentas não
   é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Cancelar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que você tenha feito. Ou
-
-<!-- -->
-
 - **Fechar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que tenha feito. Este ícone da barra de
   ferramentas não é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Versões**: Abre a janela do histórico das versões do item para
   mostrar as versões anteriores deste item. Isso permite que você
   visualize versões mais antigas deste item e, se desejar, restaure a
   partir de uma versão mais antiga. Consulte [histórico das
   versões](https://docs.joomla.org/Help40:Components_Version_History/pt-br "Special:MyLanguage/Help40:Components Version History/pt-br")
   para mais informações.
-
-<!-- -->
-
 - **Associações**: Com uma linguagem específica definida para um item,
   permite a edição lado a lado em outra linguagem. Este ícone na barra
   das ferramentas é mostrado apenas em [sites
   multilíngues](https://docs.joomla.org/Help4.x:Multilingual_Associations/pt-br "Special:MyLanguage/Help4.x:Multilingual Associations/pt-br").
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Informações relacionadas

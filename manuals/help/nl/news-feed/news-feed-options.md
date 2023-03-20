@@ -142,9 +142,6 @@ staan hieronder.
 - *Titel:* Filter op artikeltitel.
 - *Auteur:* Filter op de naam van de auteur.
 - *Hits:* Filter op het aantal hits van artikelen.
-
-<!-- -->
-
 - **Toon selecteer.** (Toon/Verberg) Of het Toon \# getoond of verborgen
   moet worden, welke de gebruiker de mogelijkheid geeft het aantal items
   te selecteren dat getoond wordt in de lijst. Een voorbeeld wordt
@@ -179,9 +176,6 @@ Anders wordt de lijst zonder kop getoond.
   feed getoond moet worden.
 - **Feedlinks.** (Toon/verberg).Of de URL van de feed al dan niet
   getoond moet worden.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -198,9 +192,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -267,18 +258,9 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn.
 
 - **Opslaan.** Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

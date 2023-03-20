@@ -74,9 +74,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe bericht te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
   - **Markeer als gelezen**. Markeert het geselecteerde bericht als
@@ -97,16 +94,10 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   'Prullenbak leegmaken' werkbalk icoon.
 - **Mijn instellingen**. Opent een pop-up venster dat u in staat stelt
   de instellingen van berichten te veranderen.
-
-<!-- -->
-
         
 
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

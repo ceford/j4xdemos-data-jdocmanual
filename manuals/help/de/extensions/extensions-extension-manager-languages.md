@@ -36,9 +36,6 @@ Bereich. Die Schaltflächen sind:
 
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe** Öffnet die Hilfe-Seite.
 
 ## Listen-Filter

@@ -48,9 +48,6 @@ alt="Help-4x-Component-Patch-Tester-Options-github-authentication-subscreen-nl.p
 
 - **GitHub authenticatie methode.** Kies voor de Token methode. De
   inloggegevens methode zal vanaf november 2020 niet meer werken.
-
-<!-- -->
-
 - **GitHub token.** Voer de token in die u van GitHub krijgt.
 
 ### CI server-instellingen tabblad
@@ -89,9 +86,6 @@ handelingen uitvoeren.
     van deze extensie bewerken.
   - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
     de beheerdersinterface van deze extensie.
-
-<!-- -->
-
 - Selecteer de gewenste rechten voor de actie die u wilt wijzigen.
   Mogelijke instellingen zijn:
   - '**Overgenomen:'** Overgenomen van gebruikers in deze groep vanuit
@@ -111,18 +105,9 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn.
 
 - **Opslaan.** Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

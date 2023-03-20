@@ -135,9 +135,6 @@ below.
 - *Title:* Filter on article title.
 - *Author:* Filter on the author's name.
 - *Hits:* Filter on the number of article hits.
-
-<!-- -->
-
 - **Display Select.** (Show/Hide) Whether to show or hide the Display \#
   control that allows the user to select the number of items to show in
   the list. An example is shown below.
@@ -170,9 +167,6 @@ list will show with no headings.
   articles in each feed.
 - **Feed Links.** (Show/Hide). Whether to show or hide the feed links
   URL.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -189,9 +183,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -253,18 +244,9 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

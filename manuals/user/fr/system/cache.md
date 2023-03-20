@@ -233,9 +233,6 @@ Un résumé des types de mises en cache est donné ci-dessous.
   plug-in -\> Système - Cache de page)
 - **Mise en cache** : chaque page complète du site
 - **Basé sur** : URL
-
-<!-- -->
-
 - **Information complémentaire** :
   - Cache facultatif du navigateur : Met également en cache le
     navigateur/ordinateur du visiteur du site.

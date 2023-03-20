@@ -94,9 +94,6 @@ As mais complexas questões para se perguntar a si mesmo uma de cada vez:
     de recursos</a> ou entre em contato com o desenvolvedor que escreveu
     isso para você.
 5.  Você tem um template personalizado instalado no seu site?
-
-<!-- -->
-
 1.  \* Se sim, você desenvolveu ele sozinho?
 2.  \*\* Se você desenvolveu ele, você deve ser capaz de migrar seu site
     para Joomla 3.x.
@@ -111,9 +108,6 @@ As mais complexas questões para se perguntar a si mesmo uma de cada vez:
     Joomla! Diretório de recursos</a> ou entre em contato com o
     desenvolvedor que construiu isso para você.
 4.  Você muda constantemente dados (dados do usuário) no seu site?
-
-<!-- -->
-
 1.  \* Alguns sites têm uma grande quantidade de dados de usuários que
     são adicionados a um site em uma base consistente (fóruns, usuários,
     carrinhos de compras, etc.). Isto significa que enquanto você está
@@ -123,9 +117,6 @@ As mais complexas questões para se perguntar a si mesmo uma de cada vez:
     desenvolvedores de extensão dão instruções para isso. Outras vezes,
     você vai precisar saber algumas funções do MySQL, a fim de
     prosseguir.
-
-<!-- -->
-
 1.  Você se sente confortável trabalhando no MySQL para adicionar dados?
 2.  \* Se sim, você pode ser capaz de migrar seu próprio site para
     Joomla 3.x.

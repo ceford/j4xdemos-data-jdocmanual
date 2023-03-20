@@ -69,16 +69,10 @@ het informatieverzoek de status In behandeling heeft*
   gegevens in XML formaat om te bekijken.
 - **E-mail geëxporteerde gegevens.** Alleen voor exporteer verzoeken.
   Verzend de geëxporteerde gegevens in XML formaat.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

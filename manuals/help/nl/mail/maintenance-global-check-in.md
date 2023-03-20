@@ -35,13 +35,7 @@ alt="Help-4x-system-maintenance-global-check-in-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Databasebel**. De naam van de tabel die gecontroleerd wordt.
-
-<!-- -->
-
 - **Items om in te checken**. Items die ingecheckt moeten worden.
 
 ## Lijst filters
@@ -78,14 +72,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Inchecken**. Checkt de geselecteerde items in. Werkt bij één of meer
   items geselecteerd.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

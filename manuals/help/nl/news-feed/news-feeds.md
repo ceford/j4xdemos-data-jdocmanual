@@ -37,9 +37,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -59,39 +56,18 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Titel**. De naam van de titel van het feed. Maak het zo beschrijvend
   mogelijk.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
 - **\# Artikelen** Het aantal artikelen dat wordt opgenomen in de feed.
-
-<!-- -->
-
 - **Cachetijd.** Het aantal seconden waarvoor de cache van het item
   lokaal wordt opgeslagen. Deze kan veilig op de standaardwaarde blijven
   staan.
-
-<!-- -->
-
 - **Associatie:** Toont aan welk menu-item dit item geassocieerd is.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -143,22 +119,13 @@ bovenstaande [Screenshot](#screenshot).
 
 - **Selecteer categorie**. Selecteer uit de lijst met beschikbare
   categorieën.
-
-<!-- -->
-
 - **Selecteer toegang**. Selecteer uit de lijst met beschikbare weergave
   toegangsniveaus.
-
-<!-- -->
-
 - 
 
 **Selecteer taal**. Selecteer uit de lijst met beschikbare talen.
 
 - **Selecteer tag**. Selecteer uit de lijst met beschikbare tags.
-
-<!-- -->
-
 - **Selecteer max niveaus**. Selecteer uit de lijst met beschikbare
   niveaus.
 
@@ -168,38 +135,20 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe nieuwsfeed te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Publiceren**. Maakt de geselecteerde nieuwsfeeds beschikbaar voor de
   bezoekers van uw website.
-
-<!-- -->
-
 - **Depubliceren.** Maakt de geselecteerde nieuwsfeeds niet beschikbaar
   voor de bezoekers van uw website
-
-<!-- -->
-
 - **Archiveren**. Verandert de status van één van de geselecteerde
   nieuwsfeeds om aan te geven dat ze worden gearchiveerd. Gearchiveerde
   nieuwsfeeds kunnen terug naar de gepubliceerde of gedepubliceerde
   status gebracht worden door *Gearchiveerd* te selecteren in het
   Selecteer status filter en de status van de nieuwsfeeds te wijzigen
   naar Gepubliceerd of Gedepubliceerd.
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde nieuwsfeeds in. Werkt bij één
   of meer nieuwsfeeds geselecteerd.
-
-<!-- -->
-
 - **Prullenbak**. Verandert de status van de selecteerde nieuwsfeeds om
   aan te geven dat ze in de prullenbak zitten. nieuwsfeeds in de
   prullenbak kunnen hersteld worden door "Verplaatst naar prullenbak" te
@@ -209,19 +158,10 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   verwijderen, voor "Verplaatst naar prullenbak" in het Selecteer status
   filter, selecteer de nieuwsfeeds die definitief verwijderd moeten
   worden en klik daarna op het 'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Batch**. Batch verwerkt de geselecteerde nieuwsfeeds. Werkt bij één
   of meer geselecteerde items.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

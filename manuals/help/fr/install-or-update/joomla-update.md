@@ -84,9 +84,6 @@ Des options permettent de sélectionner le type de mise à jour :
   production.
 - **Joomla Suivant**. Pour ...
 - **Test**. Pour ...
-
-<!-- -->
-
 - **Url personnalisée**. Pour les développeurs.
 
 Sélectionnez le bouton **Options** dans la barre d'outils pour vérifier

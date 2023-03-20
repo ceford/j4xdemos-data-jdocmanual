@@ -96,9 +96,6 @@ dann als Vorlage für den Beitrag verwendet werden..
 - Die Webseite [offline
   nehmen](https://docs.joomla.org/Taking_the_website_temporarily_offline#Using_the_htaccess_method_.28cpanel.29 "Special:MyLanguage/Taking the website temporarily offline")
   (**Wir empfehlen die htaccess-Methode**)
-
-<!-- -->
-
 - Das <a href="https://github.com/ForumPostAssistant/FPA/zipball/en-GB"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Forum Post Assistant and Security
@@ -115,29 +112,17 @@ dann als Vorlage für den Beitrag verwendet werden..
   ein Paket im Unix-Stil gewünscht oder benötigt wird. Die Datei
   fpa-de.php aus dem Paket muss in das Joomla-Stammverzeichnis des
   Servers hochgeladen werden.
-
-<!-- -->
-
 - Alle Rechner mit FTP-, Joomla-Super-Admin- und Joomla-Admin-Zugang
   nach Malware, Viren, Trojanern, Spyware usw. durchsuchen (siehe
   [Lokale Sicherheit](#Local_Security) weiter unten)
-
-<!-- -->
-
 - Sicherstellen, dass die neueste Version von
   <a href="http://www.joomla.org/download.html" class="external text"
   target="_blank" rel="noreferrer noopener">Joomla</a> für die auf der
   Website verwendete Joomla-Serie verwendet wird. (siehe unten:
   [Inkompatible Versionen](#incompatible_versions))
-
-<!-- -->
-
 - Den **Hosting-Provider benachrichtigen** und mit ihm zusammenarbeiten,
   um die Webseite zu bereinigen und sicherzustellen, dass es keine
   Hintertüren zu Ihrer Website gibt.
-
-<!-- -->
-
 - Die
   <a href="http://vel.joomla.org/" class="external text" target="_blank"
   rel="noreferrer noopener">Liste der anfälligen Erweiterungen</a>
@@ -145,9 +130,6 @@ dann als Vorlage für den Beitrag verwendet werden..
   sind. Diese sollten nicht länger verwendet werden. Ein Anhaltspunkt
   für angegriffene Erweiterungen ist die Protokolldatei. Hier ist ein
   Beispiel dafür, wonach gesucht werden sollte:
-
-<!-- -->
-
     //administrator/components/com_extension/admin.extension.php?mosConfig.absolute.path=http:
 
 oder
@@ -159,9 +141,6 @@ oder
   überprüfen, um sicherzustellen, dass alle Schritte durchlaufen wurden
   (bitte beachten, dass einige Schritte optional sind, aber trotzdem
   überprüft werden sollten).
-
-<!-- -->
-
 - **Alle Passwörter ändern** und wenn möglich auch die Benutzernamen für
   die Admin-Oberfläche des Hosting-Providers, mysql, FTP, [Joomla! Super
   Admin](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F "Special:MyLanguage/Why should you immediately change the name of the default admin user?")
@@ -173,9 +152,6 @@ oder
   sollten [diese
   Anweisungen](https://docs.joomla.org/How_do_you_recover_your_admin_password%3F "Special:MyLanguage/How do you recover your admin password?")
   befolgt werden.
-
-<!-- -->
-
 - Alle Templates und Dateien **löschen und durch saubere Kopien
   ersetzen**
 - Alle .pdf-, Bild- und Fotodateien auf Exploits **überprüfen und/oder
@@ -288,14 +264,8 @@ sogar länger dauern.
   - Ein Passwort-Manager verwenden, wie etwa das kostenlose
     <a href="http://keepass.info/" class="external text" target="_blank"
     rel="nofollow noreferrer noopener">keepass</a>
-
-<!-- -->
-
 - Überprüfung von allen Rechnern mit FTP-, Joomla-Super-Admin- und
   Joomla-Admin-Zugang auf Malware, Viren, Trojaner, Spyware usw.
-
-<!-- -->
-
 - Dafür können z. B. die folgenden Programme verwendet werden:
   - <a href="http://www.eset.com/" class="external text" target="_blank"
     rel="nofollow noreferrer noopener">ENOD32</a> von eSet
@@ -326,9 +296,6 @@ sogar länger dauern.
 
 - Den Standard-Tabellenpräfix jos\_ nicht verwenden und wenn möglich
   Ein-Klick-Installationen vermeiden
-
-<!-- -->
-
 - Den <a href="http://feeds.joomla.org/JoomlaSecurityNews?format=xml"
   class="external text" target="_blank" rel="noreferrer noopener">Joomla
   Sicherheits-Newsfeed</a> im Kontrollzetrum als Modul an oberster
@@ -342,67 +309,37 @@ sogar länger dauern.
     Admin-Modul Feed-Anzeige</a> sollte, wenn noch nicht geschehen,
     hinzugefügt und an die erste Stelle im Backend-Kontrollzentrum
     gesetzt werden..
-
-<!-- -->
-
 - Eventuell eine
   <a href="http://forum.joomla.org/viewtopic.php?p=1568940#p1568940"
   class="external text" target="_blank"
   rel="noreferrer noopener">Bot-Blockliste</a> zur .htaccess-Datei
   hinzufügen
-
-<!-- -->
-
 - Wenn möglich,
   <a href="http://en.wikipedia.org/wiki/SSH_file_transfer_protocol"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">sFTP</a> statt FTP verwenden
-
-<!-- -->
-
 - <a
   href="http://en.wikipedia.org/wiki/File_Transfer_Protocol#Anonymous_FTP"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Anonymes FTP</a> unter keinen
   Umständen aktivieren oder verwenden
-
-<!-- -->
-
 - Einen Server verwenden, der
   <a href="http://www.modsecurity.org/" class="external text"
   target="_blank" rel="nofollow noreferrer noopener">mod_security</a>
   korrekt installiert hat
-
-<!-- -->
-
 - Überprüfung auf hinzugefügte Sub-Domains und/oder Verzeichnisse
-
-<!-- -->
-
 - Überprüfung auf
   <a href="http://en.wikipedia.org/wiki/Common_Gateway_Interface"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">CGI-Skripte</a>
-
-<!-- -->
-
 - Überprüfung auf
   <a href="http://de.wikipedia.org/wiki/Cron" class="extiw"
   title="de.wp:Cron">Cron-Jobs</a>, die nicht vom Administrator
   eingerichtet wurden
-
-<!-- -->
-
 - Download und Überprüfung der primären Zugriffs- und Fehlerprotokolle
   <sup>[\[3\]](#cite_note-3)</sup>
-
-<!-- -->
-
 - Ablehnung aller IPs, die von der Webseite blockiert werden, aber zu
   einer Proxy-Seite gehören könnten
-
-<!-- -->
-
     Wenn die Webseite in der Vergangenheit bereits gehackt und keine vollständige Bereinigung der Webseite durchgeführt wurde, um vorhandene (auch versteckte) Hacks zu entfernen, können diese eine Hintertür für eine erneute Infektion hinterlassen.
 
 - Eventuell Entfernung von "<a
@@ -414,9 +351,6 @@ sogar länger dauern.
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">Suchmaschinen-Attacken</a> zu
   verhindern
-
-<!-- -->
-
 - Unbenutzte oder angreifbare Erweiterungen nicht einfach nicht
   veröffentlichen, sondern vollständig entfernen/deinstallieren. [Die
   Nichtveröffentlichung einer anfälligen Erweiterung bietet keinen

@@ -220,9 +220,6 @@ alt="Help-4x-batch-process-articles-nl.png" />
 
 - [Controlepaneel](https://docs.joomla.org/Help4.x:Home_Dashboard/nl "Help4.x:Home Dashboard/nl"):
   Toegang tot veel standaard Joomla functies.
-
-<!-- -->
-
 - Dit
   [portaal](https://docs.joomla.org/Portal:Joomla_4/nl "Portal:Joomla 4/nl")
   brengt informatie specifiek gerelateerd aan Joomla 4 samen.

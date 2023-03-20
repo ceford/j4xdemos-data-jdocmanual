@@ -39,42 +39,24 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Adverteerder.** De adverteerder van deze advertentie. Adverteerders
   worden toegevoegd via Advertenties - Adverteerders.
 - **Contactpersoon.** De contactpersoon voor deze adverteerder.
-
-<!-- -->
-
 - **Gepubliceerd:**
   <img src="https://docs.joomla.org/images/1/10/Help-4x-icon-tick.png"
   decoding="async" data-file-width="27" data-file-height="20" width="27"
   height="20" alt="Help-4x-icon-tick.png" /> Het aantal gepubliceerde
   items. Klik op de genummerde knop om een lijst met alleen deze items
   te tonen.
-
-<!-- -->
-
 - **Gedepubliceerd:**
   <img src="https://docs.joomla.org/images/c/c9/Help-4x-icon-cross.png"
   decoding="async" data-file-width="21" data-file-height="20" width="21"
   height="20" alt="Help-4x-icon-cross.png" /> Het aantal gedepubliceerde
   items. Klik op de genummerde knop om een lijst met alleen deze items
   te tonen.
-
-<!-- -->
-
 - **Gearchiveerd:** Of en hoeveel items gearchiveerd zijn. U kunt de
   gearchiveerde items zien door op het icoon in deze kolom te klikken.
-
-<!-- -->
-
 - **Naar prullenbak:**
   <img src="https://docs.joomla.org/images/5/59/Help-4x-icon-bin.png"
   decoding="async" data-file-width="18" data-file-height="20" width="18"
@@ -85,9 +67,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   wordt gebruikt om aan te geven hoe de adverteerder de vertoningstijd
   heeft aangeschaft voor zijn advertenties - maandelijks, jaarlijks,
   etc...
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -155,14 +134,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe adverteerder te
   maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
   - **Publiceren**. Maakt de geselecteerde adverteerder beschikbaar voor
     de bezoekers van uw website.
 
@@ -189,13 +162,7 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
     het Selecteer status filter, selecteer de adverteerder die
     definitief verwijderd moeten worden en klik daarna op het
     'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
 

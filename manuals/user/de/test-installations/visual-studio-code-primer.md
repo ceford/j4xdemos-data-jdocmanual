@@ -322,9 +322,6 @@ separates VS-Code-Fenster zum Debuggen zu öffnen.
 
 - **Neues Fenster öffnen:** Wählen Sie im VS-Code-Menü *Datei / Neues
   Fenster* und wählen Sie den Ordner mit Ihrer Joomla-Website aus.
-
-<!-- -->
-
 - **Ordner öffnen:** Wählen Sie im neu geöffneten Fenster *Datei /
   Ordner öffnen...* aus dem VS-Code-Menü. Suchen Sie Ihren
   Website-Ordner und wählen Sie ihn aus. Sie sollten eine Liste aller

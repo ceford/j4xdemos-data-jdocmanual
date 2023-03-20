@@ -39,42 +39,24 @@ coluna.
   Outras, como "Editar", funcionam apenas em um item de cada vez. Se
   vários itens estiverem marcados e você pressionar "Editar", apenas o
   primeiro item será aberto para edição.
-
-<!-- -->
-
 - **Estado**: O estado de publicação do item.
-
-<!-- -->
-
 - **Cliente**: O cliente para este banner. Os clientes são inseridos
   usando o gerenciador dos clientes para banners.
 - **Contato**: O contato para este cliente.
-
-<!-- -->
-
 - **Publicado**:
   <img src="https://docs.joomla.org/images/1/10/Help-4x-icon-tick.png"
   decoding="async" data-file-width="27" data-file-height="20" width="27"
   height="20" alt="Help-4x-icon-tick.png" /> a quantidade de itens
   publicados. Acione o (clique no) botão numerado para mostrar uma lista
   apenas desses itens.
-
-<!-- -->
-
 - **Despublicado**:
   <img src="https://docs.joomla.org/images/c/c9/Help-4x-icon-cross.png"
   decoding="async" data-file-width="21" data-file-height="20" width="21"
   height="20" alt="Help-4x-icon-cross.png" /> A quantidade de itens
   despublicados. Clique no botão numerado para mostrar uma lista apenas
   desses itens.
-
-<!-- -->
-
 - **Arquivado**: Se e quantos itens foram arquivados. Você vê os itens
   arquivados acionando o (clicando no) ícone nesta coluna.
-
-<!-- -->
-
 - **Lixeira**
   <img src="https://docs.joomla.org/images/5/59/Help-4x-icon-bin.png"
   decoding="async" data-file-width="18" data-file-height="20" width="18"
@@ -84,9 +66,6 @@ coluna.
 - **Tipo da compra**: O tipo da compra do banner do cliente. Isso é
   usado para indicar como o cliente comprou o tempo para exibição de
   seus banners - mensal, anual, etc...
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -154,14 +133,8 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo cliente.
-
-<!-- -->
-
 - **Ações**: Revela uma lista de ações para os itens selecionados.
   Marque uma ou mais caixas de seleção de itens para ativar a lista.
-
-<!-- -->
-
   - **Publicar**: Disponibiliza os cliente selecionados para os
     visitantes do seu site.
 
@@ -185,13 +158,7 @@ de tela](#Captura_de_tela) acima. As funções são:
     lixeira, selecione "Lixeira" no filtro "Selecionar estado",
     selecione os cliente a serem excluídos permanentemente e clique no
     ícone "Esvaziar lixeira" na barra de ferramentas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
 

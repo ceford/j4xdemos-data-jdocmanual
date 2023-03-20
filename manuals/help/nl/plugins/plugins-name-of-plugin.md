@@ -10,109 +10,46 @@ Plugins per groep:
 
 - [**Actielog groep.** (1
   plugin)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Action_Log_Group/nl "Chunk4x:Extensions Plugin Manager Edit Action Log Group/nl")
-
-<!-- -->
-
 - [**API authenticatie groep.** (2
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_API_Authentication_Group/nl "Chunk4x:Extensions Plugin Manager Edit API Authentication Group/nl")
-
-<!-- -->
-
 - [**Authenticatie groep.** (3
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Authentication_Group/nl "Chunk4x:Extensions Plugin Manager Edit Authentication Group/nl")
-
-<!-- -->
-
 - [**Gedrag groep.** (2
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Behaviour_Group/nl "Chunk4x:Extensions Plugin Manager Edit Behaviour Group/nl")
-
-<!-- -->
-
 - [**CAPTCHA groep.** (2
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_CAPTCHA_Group/nl "Chunk4x:Extensions Plugin Manager Edit CAPTCHA Group/nl")
-
-<!-- -->
-
 - [**Inhoud groep.** (1
   plugin)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Content_Group/nl "Chunk4x:Extensions Plugin Manager Edit Content Group/nl")
-
-<!-- -->
-
 - [**Tekstverwerkers groep.** (3
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Editor_Group/nl "Chunk4x:Extensions Plugin Manager Edit Editor Group/nl")
-
-<!-- -->
-
 - [**Tekstverwerker knop groep.** (8
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Button_Group/nl "Chunk4x:Extensions Plugin Manager Edit Button Group/nl")
-
-<!-- -->
-
 - [**Extensies groep.** (3
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Extension_Group/nl "Chunk4x:Extensions Plugin Manager Edit Extension Group/nl")
-
-<!-- -->
-
 - [**Velden groep.** (6
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Fields_Group/nl "Chunk4x:Extensions Plugin Manager Edit Fields Group/nl")
-
-<!-- -->
-
 - [**Bestandssysteem groep.** (1
   plugin)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_FileSystem_Group/nl "Chunk4x:Extensions Plugin Manager Edit FileSystem Group/nl")
-
-<!-- -->
-
 - [**Slimzoeken groep.** (5
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Smart_Search_Group/nl "Chunk4x:Extensions Plugin Manager Edit Smart Search Group/nl")
-
-<!-- -->
-
 - [**Installeren groep.** (5
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Installer_Group/nl "Chunk4x:Extensions Plugin Manager Edit Installer Group/nl")
-
-<!-- -->
-
 - [**Media groep.** (3
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Media_Action_Group/nl "Chunk4x:Extensions Plugin Manager Edit Media Action Group/nl")
-
-<!-- -->
-
 - [**Privacy groep.** (6
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Privacy_Group/nl "Chunk4x:Extensions Plugin Manager Edit Privacy Group/nl")
-
-<!-- -->
-
 - [**Snelkoppeling groep.** (6
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Quick_Icon_Group/nl "Chunk4x:Extensions Plugin Manager Edit Quick Icon Group/nl")
-
-<!-- -->
-
 - [**Voorbeelddata groep.** (2
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Sample_Data_Group/nl "Chunk4x:Extensions Plugin Manager Edit Sample Data Group/nl")
-
-<!-- -->
-
 - [**Systeem groep.** (22
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_System_Group/nl "Chunk4x:Extensions Plugin Manager Edit System Group/nl")
-
-<!-- -->
-
 - [**Authenticatie in twee stappen groep.** (2
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Two_Factor_Authentication_Group/nl "Chunk4x:Extensions Plugin Manager Edit Two Factor Authentication Group/nl")
-
-<!-- -->
-
 - [**Gebruikers groep.** (5
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_User_Group/nl "Chunk4x:Extensions Plugin Manager Edit User Group/nl")
-
-<!-- -->
-
 - [**Webservices groep.** (5
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Web_Services_Group/nl "Chunk4x:Extensions Plugin Manager Edit Web Services Group/nl")
-
-<!-- -->
-
 - [**Workflow groep.** (3
   plugins)](https://docs.joomla.org/Chunk4x:Extensions_Plugin_Manager_Edit_Workflow_Group/nl "Chunk4x:Extensions Plugin Manager Edit Workflow Group/nl")
 
@@ -185,20 +122,11 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

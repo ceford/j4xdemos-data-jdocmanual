@@ -104,24 +104,15 @@ alt="Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-es.png"
 - **Multi Column Direction**. **Orden en columnas múltiples**. En el
   diseño blog de columnas múltiples, sirve para ordenar los artículos en
   formato hacia Abajo o Cruzado de las columnas.
-
-<!-- -->
-
   - Down: Abajo: Orden de los artículos van hacia abajo en la primera
     columna y, a continuación, a la siguiente columna, por ejemplo:
 
 - 
-
-<!-- -->
-
   - Across: Cruzado: El orden de los artículos va a través de las
     columnas y, a continuación, vuelve a la primera columna, por
     ejemplo:
 
 - 
-
-<!-- -->
-
 - **\# Links**. **\# Cantidad de enlaces**. El número de Enlaces a
   mostrar en los "Links" de la página. Estos enlaces permiten a un
   Usuario ver enlaces a otros Artículos, si no caben más Artículos en la
@@ -333,14 +324,8 @@ At the top of the page you will see the toolbar shown in the
 
 - To create a new Category see [Articles: Edit
   Category](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/en "Help4.x:Articles: Edit Category/en").
-
-<!-- -->
-
 - To create a new menu see
   [Menus](https://docs.joomla.org/Help4.x:Menus/en "Help4.x:Menus/en").
-
-<!-- -->
-
 - Este
   [portal](https://docs.joomla.org/Portal:Joomla_4/es "Portal:Joomla 4/es")
   reúne información específica relativa a Joomla 4.

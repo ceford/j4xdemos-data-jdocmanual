@@ -168,9 +168,6 @@ zuzuweisen, die nur berechtigte Benutzer sehen.
   anlegen.
 - [Berechtigungen für Beiträge
   ändern](https://docs.joomla.org/Help4.x:Articles:_Options/de#permissions "Help4.x:Articles: Options/de").
-
-<!-- -->
-
 - Dieses
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.

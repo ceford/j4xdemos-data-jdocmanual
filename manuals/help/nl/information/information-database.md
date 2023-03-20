@@ -38,9 +38,6 @@ alt="Help-4x-extension manager-database-screen-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Naam.** De naam van de extensie.
 - **Locatie.** Bepaalt of dit een website of beheer extensie is.
 - **Type.** Het extensie type - module, plugin, template, taal.
@@ -87,14 +84,8 @@ de extensies die overeenkomen met uw filterparameters.
 
 - **Selecteer locatie.** Selecteer Site, Beheerder of API uit de
   drop-down lijst van de beschikbare locaties.
-
-<!-- -->
-
 - **-Selecteer type-.** Selecteer het extensietype uit de drop-down
   lijst met beschikbare extensietypes.
-
-<!-- -->
-
 - **-Selecteer map-.** Selecteer een plugin map uit de drop-down lijst
   met beschikbare mappen. Er is een aparte map voor ieder type plugin
   gedefinieerd binnen uw installatie van Joomla.
@@ -122,23 +113,14 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   during the version update. It then re-checks whether or not the
   database is up to date. If it is successful, the message "Database
   table structure is up to date" will show.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips
 
 - Gebruik, als u problemen ondervindt tijdens het een update, de
   Database controle om te zien of uw database juist geüpdatet is.
-
-<!-- -->
-
 - Er wordt zeer aangedrongen dat u de [Joomla!
   update](https://docs.joomla.org/Help4.x:Joomla_Update/nl "Help4.x:Joomla Update/nl")
   component gebruikt om uw site te updaten. Op deze manier worden de
@@ -157,39 +139,18 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Installeren.** Linkt naar het [Installatie
   scherm](https://docs.joomla.org/Help4.x:Extensions:_Install/nl "Help4.x:Extensions: Install/nl").
-
-<!-- -->
-
 - **Update.** Linkt naar het [Update
   scherm](https://docs.joomla.org/Help4.x:Extensions:_Update/nl "Help4.x:Extensions: Update/nl").
-
-<!-- -->
-
 - **Beheren.** Linkt naar het [Beheren
   scherm](https://docs.joomla.org/Help4.x:Extensions:_Manage/nl "Help4.x:Extensions: Manage/nl").
-
-<!-- -->
-
 - **Ontdekken.** Linkt naar het [Ontdekken
   scherm](https://docs.joomla.org/Help4.x:Extensions:_Discover/nl "Help4.x:Extensions: Discover/nl").
-
-<!-- -->
-
 - **Database.** Linkt naar het
   <span class="mw-selflink selflink">Database scherm</span>.
-
-<!-- -->
-
 - **Waarschuwingen.** Linkt naar het [Waarschuwingen
   scherm](https://docs.joomla.org/Help4.x:Information:_Warnings/nl "Help4.x:Information: Warnings/nl").
-
-<!-- -->
-
 - **Installeer talen.** Linkt naar het [Installeer talen
   scherm](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Languages/nl "Help4.x:Extensions Extension Manager Languages/nl").
-
-<!-- -->
-
 - **Updatesites.** Linkt naar het <a
   href="https://docs.joomla.org/index.php?title=Help4.x:Extensions_Extension_Manager_Update_Sites/nl&amp;action=edit&amp;redlink=1"
   class="new"

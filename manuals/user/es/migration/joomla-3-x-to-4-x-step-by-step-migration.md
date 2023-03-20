@@ -411,9 +411,6 @@ rel="noreferrer noopener">extensión de terceros</a>.
   <a href="https://extensions.joomla.org/tags/backup/"
   class="external text" target="_blank"
   rel="noreferrer noopener">herramientas de respaldo</a>.
-
-<!-- -->
-
 - <a
   href="http://extensions.joomla.org/extensions/access-a-security/site-security/backup/1606"
   class="external text" target="_blank" rel="noreferrer noopener">Akeeba

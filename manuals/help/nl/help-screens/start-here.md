@@ -36,29 +36,14 @@ voor u. Laat deze gids iets van deze 'stress' verlichten.
 
 - [Aan de slag met Joomla!
   4](https://docs.joomla.org/J4.x:Getting_Started_with_Joomla!/nl "J4.x:Getting Started with Joomla!/nl")
-
-<!-- -->
-
 - [Aan de slag: Website- en
   Beheerder-templates](https://docs.joomla.org/J4.x:Getting_Started:_Site_and_Administrator_templates/nl "J4.x:Getting Started: Site and Administrator templates/nl")
-
-<!-- -->
-
 - [Aan de slag: Een artikel
   toevoegen](https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article/nl "J4.x:Getting Started: Adding an Article/nl")
-
-<!-- -->
-
 - [Aan de slag: Een menu-item
   toevoegen](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item/nl "J4.x:Getting Started: Adding a Menu Item/nl")
-
-<!-- -->
-
 - [Aan de slag: Een categorie
   toevoegen](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category/nl "J4.x:Getting Started: Adding a Category/nl")
-
-<!-- -->
-
 - [Aan de slag: Een module
   toevoegen](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module/nl "J4.x:Getting Started: Adding a Module/nl")
 

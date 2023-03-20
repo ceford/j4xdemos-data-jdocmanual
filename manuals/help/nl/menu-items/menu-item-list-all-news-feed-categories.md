@@ -42,9 +42,6 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Categories-screen-nl.png" />
 ## Formulier velden
 
 - **Titel**. De titel die wordt getoond voor dit menu item.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -58,42 +55,24 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Categories-screen-nl.png" />
 - **Menu-itemtype**. Het menu-item type dat geselecteerd is toen het
   mneu-item aangemaakt werd. Dit kan een van de core menu-item types
   zijn of een menu-item type geleverd door een geïnstalleerde extensie.
-
-<!-- -->
-
 - **Link**. De door het systeem gegenereerde link voor dit menu-item.
   Dit veld kan niet veranderd worden en is alleen ter informatie.
-
-<!-- -->
-
 - **Kies een categorie**. De categorieën binnen deze categorie worden
   getoond. Deze weergave heeft een verplichte Hoofdcategorie nodig.
   Selecteer, om alle artikel categorieën op te nemen *Root*. Selecteer
   anders de gewenste hoofdcategorie. Alle onderliggende categorieën van
   de geseldcteerde categorie worden getoond in de weergave.
-
-<!-- -->
-
 - **Doelvenster.** Selecteer uit de uitklaplijst.
-
-<!-- -->
-
 - **Templatestijl.** Selecteer uit de uitklaplijst.
 
 **Rechter venster**
 
 - **Menu**. Toont in welk menu de link zal verschijnen.
-
-<!-- -->
-
 - **Hoofditem.** Het bovenliggend menu-item voor dit menu-item. Gebruikt
   om vast te stellen of een menu-item top-niveau item of een sub-menu
   item is. Selecteer 'Menu-item root' (de standaard waarde) als dit een
   top-niveau menu-item is. Selecteer anders het Menu-item dat het
   bovenliggende item van het item is.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -113,27 +92,15 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Categories-screen-nl.png" />
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Standaard pagina**. Indien Ja, is dit menu-item de standaard of home
   pagina van de website. Er mag exact één menu-item ingesteld zijn als
   standaard pagina. U kunt de standaard pagina op twee manieren
@@ -143,19 +110,10 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Categories-screen-nl.png" />
       scherm.
   2.  Open het menu-item voor de nieuwe standaard pagina en wijzig de
       Standaard pagina instellingen op Ja.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -177,22 +135,13 @@ alt="Help-4x-Menus-Menu-Item-News-Feeds-Categories-categories-options-parameters
   beschrijving voor de categoriebeschrijving voor deze layout. Indien de
   hoofdbeschrijving optie op *Toon* staat, wordt deze opgegeven
   beschrijving getoond in plaats van de normale categoriebeschrijving.
-
-<!-- -->
-
 - **Subcategorieniveaus.** (Gebruik algemeen/Alle/1-5) Het aantal
   niveaus van de subcategorieën die te zien zijn in de lay-out.
   Selecteer *Alle* om alle niveaus weer te geven in de subcategorie
   hiërarchie.
-
-<!-- -->
-
 - **Lege categorieën.** (Gebruik algemeen/Verberg/Toon) Indien ingesteld
   op Toon dan worden lege categorieën getoond. Een categorie is alleen
   leeg als het geen contactpersonen of subcategorieën bevat.
-
-<!-- -->
-
 - **Subcategorie beschrijving.** (Gebruik algemeen/Verberg/Toon) Of de
   categoriebeschrijving van subcategorieën wel of niet getoond moet
   worden.
@@ -212,32 +161,17 @@ alt="Help-4x-Menus-Menu-Item-News-Feeds-Categories-categories-category-options-p
   ingesteld op toon wordt de categorietitel als subkop weergegeven op
   een pagina. De subkop wordt over het algemeen binnen "H2" tags
   weergegeven.
-
-<!-- -->
-
 - **Beschrijving van categorie**. (Gebruik algemeen/Verberg/Toon) Toon
   of verberg de beschrijving van de geselecteerde categorie.
-
-<!-- -->
-
 - **Afbeelding van categorie.** (Gebruik algemeen/Verberg/Toon) Toon of
   verberg de afbeelding van de geselecteerde categorie.
-
-<!-- -->
-
 - **Subcategorieniveaus.** (Gebruik algemeen/Alle/1-5) Het aantal
   niveaus van de subcategorieën die te zien zijn in de lay-out.
   Selecteer *Alle* om alle niveaus weer te geven in de subcategorie
   hiërarchie.
-
-<!-- -->
-
 - **Lege categorieën.** (Gebruik algemeen/Verberg/Toon) Indien ingesteld
   op Toon dan worden lege categorieën getoond. Een categorie is alleen
   leeg als het geen contactpersonen of subcategorieën bevat.
-
-<!-- -->
-
 - **Subcategorie beschrijving.** (Gebruik algemeen/Verberg/Toon) Of de
   categoriebeschrijving van subcategorieën wel of niet getoond moet
   worden.
@@ -255,9 +189,6 @@ alt="Help-4x-Menus-Menu-Item-News-Feeds-Categories-categories-list-layout-option
 
 - **Filterveld**. (Gebruik algemeen/Verberg/Toon) Toon of verberg een
   filterveld voor de lijst.
-
-<!-- -->
-
 - **Weergave selectielijst.** (Gebruik algemeen/Toon/Verberg) Tonen of
   verbergen van de selectielijst waarmee de gebruiker het aantal weer te
   geven items in de lijst kan selecteren. Onderstaand een voorbeeld van
@@ -292,9 +223,6 @@ Indien ingesteld op *Verberg* dan wordt de lijst zonder kop getoond.
   te stellen zijn beschikbaar in elk afzonderlijk nieuwsfeed.
 - **Feedlinks**. (Gebruik algemeen/Verberg/Toon) Toon of verberg de
   feedlink URL's.
-
-<!-- -->
-
 - **Paginering.** Toon of verberg de paginering. Paginering geeft
   paginalinks weer onderaan de pagina waarmee gebruikers naar andere
   pagina's kunnen navigeren. Deze zijn nodig wanneer de items in de
@@ -313,9 +241,6 @@ De volgende opties zijn beschikbaar.
 - *Toon:* Paginalinks tonen indien nodig.
 - *Verbergen:* Paginalinks niet tonen. In dit geval kunnen gebruikers
   niet naar andere pagina's navigeren.
-
-<!-- -->
-
 - **Paginering samenvatting.** Toon of verberg het huidige paginanummer
   en totaal aantal pagina's (bijv., "Pagina 1 van 2") onderaan iedere
   pagina. Gebruik algemeen zal de standaard waarde van de component
@@ -340,14 +265,8 @@ De feedweergave opties zijn als volgt.
 
 - **Feedafbeelding.** (Gebruik algemeen/Verberg/Toon) Verberg of toon de
   afbeelding van de Nieuwsfeed.
-
-<!-- -->
-
 - **Feedbeschrijving.** (Gebruik algemeen/Verberg/Toon) Verberg of Toon
   de beschrijvende tekst van het Nieuwsfeed.
-
-<!-- -->
-
 - **Feed inhoud**. (Gebruik Algemeen/Verberg/Toon) Toont of verbergt de
   inhoud van de Nieuwsfeeds.
 - **Aantal tekens**. Aantal weer te geven tekens per feed als de
@@ -372,36 +291,18 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige item. Beïnvloed het huidige item niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan. Of
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   This toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

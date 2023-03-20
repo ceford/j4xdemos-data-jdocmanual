@@ -155,9 +155,6 @@ die alleen publishers of administrator zouden moeten kunnen zien?
   href="http://extensions.joomla.org/support/knowledgebase/item/choosing-secure-extensions"
   class="external text" target="_blank" rel="noreferrer noopener">het
   Kiezen van Veilige Extensies op de JED website</a>
-
-<!-- -->
-
 - Zie:
   <a href="http://vel.joomla.org/" class="external text" target="_blank"
   rel="noreferrer noopener">Kwetsbare extensies lijst</a>

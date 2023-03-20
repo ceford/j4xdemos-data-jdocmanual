@@ -19,9 +19,6 @@
     your *images* directory.
 2.  Place the following code in the *.htaccess* file of your root
     directory.
-
-<!-- -->
-
      RewriteEngine On
      RewriteCond %{HTTP_REFERER} !^http://(.+\.)?your_site\.com/ [NC]
      RewriteCond %{HTTP_REFERER} !^$

@@ -32,18 +32,12 @@ exibido nessas colunas.
   Outras, como "Editar", funcionam apenas em um item de cada vez. Se
   vários itens estiverem marcados e você pressionar "Editar", apenas o
   primeiro item será aberto para edição.
-
-<!-- -->
-
 - **Ordenação** (padrão): A coluna na qual classificar os itens exibidos
   na tabela. Os valores são os mesmos que os nomes dos cabeçalhos das
   colunas.
 - **Nome do nível**: O nome do nível de acesso.
 - **Grupos de usuários com acesso de visualização**: Os grupos que têm
   acesso de visualização.
-
-<!-- -->
-
 - **ID**: Este é um número de identificação exclusivo atribuído
   automaticamente pelo Joomla para este item. Ele é usado para
   identificar o item internamente e você não pode alterar esse número.
@@ -65,29 +59,17 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Novo**: Abre a tela de edição para criar um novo access level.
-
-<!-- -->
-
 - **Editar**: Abre a tela de edição para o access level selecionado. Se
   mais de um access level for selecionado (quando aplicável), somente o
   primeiro access level será aberto. A tela de edição também pode ser
   aberta clicando no nome do access level.
-
-<!-- -->
-
 - **Excluir**: Exclui os access levels selecionados. Funciona com um ou
   vários access levels selecionados. Observe que você não pode excluir
   um nível de acesso que está sendo usado no momento. Se você tentar
   excluir um nível de acesso atribuído, será exibida uma mensagem
   mostrando onde ele foi atribuído.
-
-<!-- -->
-
 - **Opções**: Abre a janela de opções onde configurações, como os
   parâmetros padrões, podem ser editadas.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

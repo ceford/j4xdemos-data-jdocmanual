@@ -75,9 +75,6 @@ veröffentlicht werden. Dafür gibt es zwei Möglichkeiten:
 
 1.  den Status in der Module-Liste auf **Veröffentlicht** (grüner Haken)
     setzen oder
-
-<!-- -->
-
 1.  den Namen des Moduls in der Module-Liste anklicken, im
     Bearbeitungs-Formular den Status auf **Veröffentlicht** ändern und
     *Speichern*.

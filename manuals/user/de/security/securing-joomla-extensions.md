@@ -311,39 +311,50 @@ Component / Adding ACL</a>
 The basics of incorporating ACL are actually quite simple, there are
 three stages:
 
-1.  Include a file access.xml in the administrator folder of your
-    component, this file will describe the actions that you want to
-    control access to, for example
+**Stage 1:** Include a file access.xml in the administrator folder of your
+component, this file will describe the actions that you want to
+control access to, for example:
 
-<!-- -->
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_example">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+        </section>
+</access>        
+```
+**Stage 2:** Include a permissions fieldset in your component's config.xml
+file, this will allow the site's administrator to set the
+permissions for these actions:
 
+```xml
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+		>
 
-        
-            
-            
-            
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			validate="rules"
+			filter="rules"
+			component="com_example"
+			section="component" />
+	</fieldset>
+```
 
-1.  1.  Include a permissions fieldset in your component's config.xml
-        file, this will allow the site's administrator to set the
-        permissions for these actions
+**Stage 3:** Use the JUser \$user-\>authorise method in your component's
+controller to check if the user is has the correct
+permissions for the action, for example:
 
-<!-- -->
-
-       
-
-            
-        
-
-1.  1.  1.  Use the JUser \$user-\>authorise method in your component's
-            controller to check if the user is has the correct
-            permissions for the action, for example:
-
-<!-- -->
-
-    if (!JFactory::getUser()->authorise('core.manage', 'com_example')) {
-            return JError::raiseWarning(404, JText::_('JERROR_ALERTNOAUTHOR'));
-    }
-
+```php
+if (!JFactory::getUser()->authorise('core.manage', 'com_example')) {
+        return JError::raiseWarning(404, JText::_('JERROR_ALERTNOAUTHOR'));
+}
+```
   
 **Conclusion:** You can check these values to block access to certain
 parts of your component.

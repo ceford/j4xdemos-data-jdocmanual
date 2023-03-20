@@ -33,52 +33,19 @@ alt="Help-4x-my-profile-screenshot-en.png" />
 ### Account Details
 
 - **Name:** The (full) name of the user.
-
-<!-- -->
-
 - **Login Name**. The user name that will be entered during login.
-
-<!-- -->
-
 - **Password**. The password that will be entered during login.
-
-<!-- -->
-
 - **Confirm Password**. The same password again (to make sure the
   password is entered correctly).
-
-<!-- -->
-
 - **Email**. Email address for this user.
-
-<!-- -->
-
 - **Registration Date:** The date this user was registered.
-
-<!-- -->
-
 - **Last Visit Date**. The date this user last logged into the site.
-
-<!-- -->
-
 - **Last Reset Date**. Date and time of last password reset.
-
-<!-- -->
-
 - **Password Reset Count**. Number of password resets since starting the
   last reset time.
-
-<!-- -->
-
 - **Receive System Emails**. (*Yes*/*No*) If set to yes, the user will
   receive system emails.
-
-<!-- -->
-
 - **User Status**. (*Blocked*/*Enabled*) Enable or block this user.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -94,25 +61,13 @@ width="600" height="252" alt="Help-4x-Site-My-Profile-basic-en.png" />
 
 - **Backend Template Style**. The template style to use for this user in
   the administrative backend.
-
-<!-- -->
-
 - **Back-end Language**. Here you can select the back-end language of
   the user. All installed languages for the back-end will be displayed
   in the drop-down box. Default is the language set in Language Manager.
-
-<!-- -->
-
 - **Front-end Language**. Here you can select the front-end language of
   the user. All installed languages for the front-end will be displayed
   in the drop-down box. Default is the language set in Language Manager.
-
-<!-- -->
-
 - **Editor**. The editor to use for this user.
-
-<!-- -->
-
 - **Time Zone**. Set the time zone of the user. Default is the Time Zone
   set in the Global Configuration.
 
@@ -148,18 +103,9 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the user and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the user and closes the current screen.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

@@ -76,9 +76,6 @@ posibles escenarios.
     la navegación, ¿va a tener páginas obsoletas que requerirán una
     redirección? Realizar un seguimiento de todas las URL que necesitan
     redirecciones en una hoja de cálculo o en el bloc de notas.
-
-<!-- -->
-
 1.  ¿Sabe si ha "hackeado el núcleo" de su sitio en 1.5? Si es así, esos
     cambios no se migrarán a Joomla 3. Tendrá que buscar alternativas
     para hackear el núcleo de de Joomla 3 (<a
@@ -112,9 +109,6 @@ posibles escenarios.
     copiar/pegar en un documento de referencia, si desea. Un trozo de
     papel y un bolígrafo serán suficientes. Incluya si estas extensiones
     se utilizan en gran medida, de forma moderada, casi nunca, o nunca.
-
-<!-- -->
-
 1.  Determinar si las extensiones de terceros en las que confía, están
     preparadas para la versión de de Joomla que está migrando.
 2.  Determine si realmente necesita todas las extensiones que está
@@ -129,9 +123,6 @@ posibles escenarios.
     terceros? Para una ampliación de las consideraciones para las
     plantillas, ver [Consideraciones sobre la plantilla durante la
     migración](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
-
-<!-- -->
-
 1.  Si va a cambiar tu plantilla por una nueva, ¿va a necesitar nuevas
     imágenes? Por ejemplo, si su sitio actual tiene un fondo blanco y su
     logotipo, u otras imágenes, son .jpg, con fondo blanco, no quedarán

@@ -76,9 +76,6 @@ be aborted with `Ctrl+C` in case of an incorrect entry.
     insecure as it can be easily guessed by a hacker.
   - `Enter the email address of the website Super User.:` The prompt is
     quite obvious.
-
-<!-- -->
-
 - **Database Configuration:**
   - `Database type. Supported: mysql, mysqli, pgsql [mysqli]:` Default
     is *mysqli*. Supported database types are MySQL (mysql) and

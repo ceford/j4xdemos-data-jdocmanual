@@ -20,9 +20,6 @@ The following are also working combinations:
 
 - SMTP Port 587
 - SMTP Security: STARTTLS
-
-<!-- -->
-
 - SMTP Port 25
 - SMTP Security: STARTTLS
 

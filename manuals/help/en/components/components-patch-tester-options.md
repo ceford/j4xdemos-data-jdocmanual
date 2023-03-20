@@ -47,9 +47,6 @@ alt="Help-4x-Component-Patch-Tester-Options-github-authentication-subscreen-en.p
 
 - **GitHub Authentication Method.** Choose the Token method. The
   Credentials method will not work from September 2020.
-
-<!-- -->
-
 - **GitHub Token.** Paste in the Token obtained from GitHub.
 
 ### CI Server Settings Tab
@@ -87,9 +84,6 @@ To change the permissions for this extension, do the following.
     persimissions of this extension.
   - **Access Administration Interface**. Users can access user
     administration interface of this extension.
-
-<!-- -->
-
 - Select the desired permission for the action you wish to change.
   Possible settings are:
   - ***Inherited:*** Inherited for users in this Group from the Global
@@ -108,18 +102,9 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

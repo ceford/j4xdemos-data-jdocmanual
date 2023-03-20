@@ -37,9 +37,6 @@ displayed in that column.
   on your Joomla! installation.
 - **Enabled users**. (Tick) The number of enabled users in this group.
 - **Disabled users**. (X) The number of disabled users in this group.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -61,22 +58,13 @@ At the top you will see the toolbar shown in the Screenshot above. The
 functions are:
 
 - **New**. Opens the editing screen to create a new user group.
-
-<!-- -->
-
 - **Delete:** Deletes the selected user groups. Works with one or
   multiple user groups selected. If you delete a group that has users
   assigned to it, those users will lose the permissions they had from
   that group. It is recommended to remove all users from a group before
   you delete the group.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

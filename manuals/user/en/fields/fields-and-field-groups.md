@@ -208,9 +208,6 @@ Login module after login, here are the steps required:
   the Editor tab / html / mod_login.
 - Open default_logout.php and add the following lines after the last use
   statament (line 17):
-
-<!-- -->
-
     // custom code to access custom field 'user-photo'
     use Joomla\CMS\Factory;
     use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;

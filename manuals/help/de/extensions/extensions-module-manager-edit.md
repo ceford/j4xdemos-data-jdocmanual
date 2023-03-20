@@ -64,9 +64,6 @@ Der rechte Bereich ist bei allen Modulen gleich.
 
 - **Titel anzeigen**. Anzeigen oder Verbergen des Modultitels im
   Frontend.
-
-<!-- -->
-
 - **Position**. Die
   [Modul-Position](https://docs.joomla.org/Module_Position/de "Module Position/de")
   wählen, auf der dieses Modul angezeigt werden soll. Eine
@@ -74,9 +71,6 @@ Der rechte Bereich ist bei allen Modulen gleich.
   [Load-Position-Plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/de "How do you put a module inside an article?/de")
   eingegeben werden. Alternativ kann die Positionstaste gedrückt werden,
   um eine Modulposition aus dem Template auszuwählen.
-
-<!-- -->
-
 - **Status**. Der Veröffentlichungs-Status des Eintrages.
   - *Veröffentlicht:* Der Eintrag ist im Frontend der Seite sichtbar.
   - *Versteckt:* Der Eintrag ist im Frontend der Seite für Besucher
@@ -88,22 +82,13 @@ Der rechte Bereich ist bei allen Modulen gleich.
     der Datenbank. Dauerhaft wird es über den Button 'Papierkorb leeren'
     der Symbolleiste gelöscht (siehe auch [Einen Beitrag
     löschen](https://docs.joomla.org/Deleting_an_Article/de "Special:MyLanguage/Deleting an Article/de")).
-
-<!-- -->
-
 - **Veröffentlichung starten**. Datum und Uhrzeit, um die
   Veröffentlichung zu starten. Dieses Feld verwenden, um Inhalt vor der
   Zeit zu erstellen und ihn später automatisch zu veröffentlichen.
-
-<!-- -->
-
 - **Veröffentlichung beenden**. Datum und Uhrzeit, um die
   Veröffentlichung zu beenden. Dieses Feld verwenden, um dem Inhalt
   automatisch den Status „Versteckt“ zuzuweisen (zum Beispiel, wenn der
   Inhalt nicht mehr aktuell ist).
-
-<!-- -->
-
 - **Zugriffsebene**. Die angezeigte Zugriffsebene für diesen Eintrag aus
   dem Listenfeld auswählen. Welche Zugriffsebenen angezeigt werden,
   hängt davon ab, was für diese Site in [Benutzer →
@@ -112,9 +97,6 @@ Der rechte Bereich ist bei allen Modulen gleich.
   ACL-Berechtigungen gleichzusetzen sind. Zugriffsebenen steuern, was
   ein Benutzer sehen kann. ACL-Berechtigungen steuern, welche Aktionen
   ein Benutzer durchführen kann.
-
-<!-- -->
-
 - **Reihenfolge.** Die Reihenfolge eines Eintrags innerhalb einer Liste
   kann wie folgt geändert werden:
   - Wenn die Liste Filter-Optionen einen Positions-Filter enthält, dann
@@ -135,14 +117,8 @@ Der rechte Bereich ist bei allen Modulen gleich.
     wählen und es nach oben oder unten ziehen, um die Position dieser
     Zeile in der Liste zu ändern. Die Einträge werden in der neuen
     Reihenfolge innerhalb der Position angezeigt.
-
-<!-- -->
-
 - **Sprache**. Die Sprache für diesen Eintrag wählen. Wird die Funktion
   Mehrsprachigkeit nicht verwendet, den Standardwert 'Alle' beibehalten.
-
-<!-- -->
-
 - **Notiz**. Die Notiz wird meist vom Site-Administrator verwendet, um
   beispielsweise Informationen über den Eintrag zu notieren. Die Notiz
   wird nicht im Frontend der Seite angezeigt.
@@ -165,9 +141,6 @@ alt="Help-4x-Module-Manager-Edit-menu-assignment-de.png" />
 
 - **Modulzuweisung**. Zur Auswahl der Modulzuordnung einfach hier
   klicken.
-
-<!-- -->
-
 - **Auf allen Seiten.** Das Modul wird auf allen Seiten in der gewählten
   Position gezeigt.
 - **Auf keinen Seiten**. Module werden **auf keiner Seite** an der
@@ -227,37 +200,19 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Speichern**. Speichert den Eintrag und bleibt auf der aktuellen
   Seite.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
-
-<!-- -->
-
 - **Speichern & Neu**. Speichert den Eintrag und hält die Seite offen,
   damit ein neuer Eintrag erstellt werden kann.
-
-<!-- -->
-
 - **Als Kopie speichern**. Speichert Änderungen in einer Kopie des
   aktuellen Eintrags. Der aktuelle Eintrag wird davon nicht beeinflusst.
   Dieses Symbol wird nicht angezeigt, wenn ein neuer Eintrag erstellt
   wird.
-
-<!-- -->
-
 - **Abbrechen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Oder
-
-<!-- -->
-
 - **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Verwandte Informationen

@@ -11,9 +11,6 @@ Joomla-Websites haben zwei separate Oberflächen:
   sind kostenlos oder gegen eine geringe Gebühr erhältlich. In der Tat
   gibt es eine ganze Branche, die sich auf die Entwicklung und
   Bereitstellung von Templates nach Maß spezialisiert hat.
-
-<!-- -->
-
 - Die Administrator-Oberfläche wird von denjenigen gesehen und
   verwendet, die den Inhalt erstellen. Sie sieht völlig anders aus, weil
   sie einem anderen Zweck dient. Obwohl einige Anpassungen möglich sind,
@@ -35,17 +32,11 @@ Beachtenswerte Elemente:
 - Der obere blaue Balken ist der *Header*, der üblicherweise ein Logo
   und einen Firmennamen enthält. Man kann ein Bild als Logo einfügen und
   „Cassiopeia“ nach Belieben ändern.
-
-<!-- -->
-
 - Die Felder auf der rechten Seite mit der Bezeichnung *Hauptmenü* und
   *Anmeldeformular* sind Beispiele für Module. Der graue Balken mit *Sie
   sind hier:* ist ein *Breadcrumb*-Modul. Es zeigt an, wo man sich
   innerhalb einer Seitenstruktur befindet, was bei komplexen Websites
   sehr nützlich ist.
-
-<!-- -->
-
 - *Home* ist der Name der Stelle, an der der Inhalt erscheint. Bei einer
   neuen Installation ist dies eine Liste von *Haupt-Beiträgen*. Da es
   aber noch keine Beiträge gibt, ist sie leer. Die erste Aufgabe besteht

@@ -31,9 +31,6 @@ Click on the column heading to sort the list by that column's value.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -52,34 +49,16 @@ Click on the column heading to sort the list by that column's value.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Title**. The name of the item. For a Menu Item, the Title will
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Hits**. The number of times an item has been viewed.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -123,26 +102,14 @@ shown in the [Screenshot](#screenshot) above.
   - ***Published:*** Shows only items that are Published.
   - ***Archived:*** Shows only items that are Archived.
   - ***All:*** Shows all items regardless of published status.
-
-<!-- -->
-
 - ***- Select Access -*** Show items with any viewing access level.
   - ***:*** Show items only with this viewing access level.
-
-<!-- -->
-
 - ***- Select Language -*** Shows all items regardless of language set.
   - ** Show items only for this language.
   - ***All*** Show items in which the language is set to All. This may
     be items that are not language specific, such as images.
-
-<!-- -->
-
 - ***- Select Tags -*** Show items with any (or no) tag(s).
   - ** Show items only with this tag.
-
-<!-- -->
-
 - ***- Select Max Levels -:*** Show all items regardless of assigned
   level.
   - ***1*** Only show items with this level in the hierarchy.
@@ -168,25 +135,13 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new item.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Rebuild.** Reconstructs and refreshes the relevant table. Normally,
   you do *not* need to rebuild this table. This function is provided in
   case the data in the table becomes corrupted.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Batch Process

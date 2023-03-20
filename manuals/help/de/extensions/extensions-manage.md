@@ -136,28 +136,13 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Aktivieren.** Gewählte Elemente können auf der Website verwendet
   werden.
-
-<!-- -->
-
 - **Deaktivieren**: Macht gewählte Erweiterungen für die Besucher der
   Webseite unsichtbar.
-
-<!-- -->
-
 - **Cache erneuern**. Erneuert die angezeigten Informationen der
   gewählten Erweiterung(en).
-
-<!-- -->
-
 - **Deinstallieren:** Deinstalliert die gewählten Erweiterungen.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

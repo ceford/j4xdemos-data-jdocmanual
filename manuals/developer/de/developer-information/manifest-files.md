@@ -311,11 +311,11 @@ Komponente im Administratorbereich der Website.
   werden als Überschrift und Symbol am oberen Rand der Dashboard-Seite
   der Komponente verwendet.
 
-<!-- -->
-
-       
-            example
-        
+```xml
+	<dashboards>
+		<dashboard title="COM_EXAMPLE_DASHBOARD_TITLE" icon="icon-lock">example</dashboard>
+	</dashboards>        
+```
 
 ### Konfiguration
 

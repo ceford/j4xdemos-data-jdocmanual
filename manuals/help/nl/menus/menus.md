@@ -60,9 +60,6 @@ is op **ID#** in oplopende volgorde.
   verplaatste menu-items in dit menu.
 - **Gelinkte modules**. Toont menu modules gekoppeld aan het menu. De
   kolom toont de modulenaam, toegangsniveau en positie op het template.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -75,17 +72,11 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe menu te maken.
-
-<!-- -->
-
 - **Bewerken**. Opent het scherm voor het bewerken van het geselecteerde
   menu. Als er meer dan één menu is geselecteerd (indien van
   toepassing), wordt alleen het eerste menu geopend. Het
   bewerkingsscherm kan ook worden geopend door te klikken op de Naam van
   het menu.
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde menus. Werkt met één of
   meerdere menus geselecteerd. Het verwijderen van een menu verwijdert
   ook alle menu-items die het bevat en gekoppelde menu-modules. Bij het
@@ -93,21 +84,12 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   geselecteerde menu's wilt verwijderen. Klikken op de OK knop zal de
   menu's verwijderen. Klik op 'Annuleren' op het verwijderen af te
   breken.
-
-<!-- -->
-
 - **Opnieuw opbouwen.** Ververst en stelt de menu tabel opnieuw samen.
   Normaal hoeft u de tabel *niet* opnieuw op te bouwen. Deze functie
   voorziet in het geval de data in de tabel corrupt raakt.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt. Zie [Menus
   Configuration](https://docs.joomla.org/Help4.x:Components_Menus_Configuration "Special:MyLanguage/Help4.x:Components Menus Configuration").
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

@@ -36,9 +36,6 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Category-screen-en.png" />
 ## Form Fields
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -51,41 +48,23 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Category-screen-en.png" />
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **Choose a Category**. The Categories that are within this category
   will be displayed. This layout requires a category selection. Select
   the desired top-level category. All child categories can be shown in
   the selected category if sub categories are selected to be shown in
   the 'Category Options' Tab.
-
-<!-- -->
-
 - **Link**. The system-generated link for this menu item. This field
   cannot be changed and is for information only.
-
-<!-- -->
-
 - **Target Window.** Select from the drop-down list.
-
-<!-- -->
-
 - **Template Style.** Select from the drop-down list.
 
 **Right Panel**
 
 - **Menu**. Shows which menu the link will appear in.
-
-<!-- -->
-
 - **Parent Item.** The parent menu item for this menu item. Used to
   determine whether a Menu Item is a top-level item or a submenu item.
   Select 'Menu Item Root' (the default value) if this is a top-level
   Menu Item. Otherwise, select the Menu Item that is this item's parent.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -104,25 +83,13 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Category-screen-en.png" />
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Default Page**. If Yes, this menu item is the default or home page
   for the site. There must be exactly one menu item set as the default
   page. You can change the default page in two ways:
@@ -131,19 +98,10 @@ alt="Help-4x-Menus-Menu-Item-News-Feed-Category-screen-en.png" />
       screen.
   2.  Open the menu item for the new default page and change the Default
       Page setting to Yes.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -159,30 +117,15 @@ alt="Help-4x-Menus-Menu-Item-News-Feeds-Categories-category-options-parameters-e
 - **Category Title.** (Use Global/Hide/Show) If Show, the Category Title
   will show as a subheading on the page. The subheading is usually
   displayed inside the "H2" tag.
-
-<!-- -->
-
 - **Category Description**. (Use Global/Hide/Show) Show or hide the
   description of the selected Category.
-
-<!-- -->
-
 - **Category Image.** (Use Global/Hide/Show) Whether to hide or show the
   category image.
-
-<!-- -->
-
 - **Subcategory Levels.** (Use Global/All/1-5) The number of levels of
   subcategories to show in the layout. Select *All* to show all levels
   in the subcategory hierarchy.
-
-<!-- -->
-
 - **Empty Categories.** (Use Global/Hide/Show) Whether to hide or show
   the categories that contain no content items or subcategories.
-
-<!-- -->
-
 - **Subcategories Descriptions.** (Use Global/Hide/Show) Whether to hide
   or show the category description of subcategories.
 - **Feeds in Category.** (Use Global/Hide/Show) Show or hide the number
@@ -198,9 +141,6 @@ alt="Help-4x-Menus-Menu-Item-News-Feeds-Categories-list-layout-options-parameter
 
 - **Filter Field:** (Use Global/Hide/Show) Whether to show a Filter
   field for the list. Select Hide to hide the filer field
-
-<!-- -->
-
 - **Display Select.** (Use Global/Hide/Show) Whether to hide or show the
   Display \# control that allows the user to select the number of items
   to show in the list. An example of how it is shown in the Front End
@@ -234,9 +174,6 @@ If set to *Show*, this heading will show above the list. If set to
   value in each individual News Feed.
 - **Feed Links.** (Use Global/Hide/Show) Show or hide the feed links
   URLs.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -253,9 +190,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -270,14 +204,8 @@ alt="Help-4x-Menus-Menu-Item-News-Feeds-Category-feed-display-options-parameters
 
 - **Feed Image**. (Use Global/Hide/Show) Show or hide the image of News
   Feeds.
-
-<!-- -->
-
 - **Feed Description.** (Use Global/Hide/Show) Hide or Show the
   description text of the News Feed.
-
-<!-- -->
-
 - **Feed Content**. (Use Global/Hide/Show) Show or hide the content of
   News Feeds.
 - **Characters count.** Number of characters to show if Feed Content
@@ -305,34 +233,16 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the menu item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the menu item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the menu item and keeps the editing screen open
   and ready to create another menu item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current menu
   item. Does not affect the current menu item. This toolbar icon is not
   shown if you are creating a new menu item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

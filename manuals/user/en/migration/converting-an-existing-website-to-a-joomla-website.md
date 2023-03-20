@@ -74,9 +74,6 @@ class="internal" title="Enlarge"></a>Expandable List of Menu Item Types
   **mainmenu** menu for the top level and then add one new menu for each
   existing submenu. For the latter, add the submenus by going to **Menu
   Manager **→** Menus **→** New**.
-
-<!-- -->
-
 - Go to **Menus **→** Menu Items** and click **New** to add one Menu
   Item for each article created above. Click on **Menu Item Type -
   Select** to open a modal window where you can choose an Item Type from

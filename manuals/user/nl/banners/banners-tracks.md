@@ -22,9 +22,6 @@ alt="Help-4x-Components-Banners-Tracks-screen-nl.png" />
 Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
 
 - **Naam.** De naam en categorie van de advertentie.
-
-<!-- -->
-
 - **Adverteerder.** De adverteerder van deze advertentie. Adverteerders
   worden toegevoegd via Advertenties - Adverteerders.
 - **Type.** Het type van 'volgen'. Dit is een vertoning of een klik.
@@ -56,14 +53,8 @@ bovenstaande [Screenshot](#screenshot).
   uit de uitklaplijst om het te tonen aantal te veranderen.De standaard
   voor een site is '20' maar dit kan veranderd worden bij de [Algemene
   instellingen](https://docs.joomla.org/Help4.x:Site_Global_Configuration/nl#defaultlistlimit "Help4.x:Site Global Configuration/nl").
-
-<!-- -->
-
 - **Selecteer categorie**. Selecteer uit de lijst met beschikbare
   categorieën.
-
-<!-- -->
-
 - **Selecteer client**. Selecteer uit de lijst met beschikbare clients.
 
   
@@ -109,14 +100,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   gegevens kunt exporteren.
 - **Verwijder volgbestanden**. Zal de geselecteerde advertentie gegevens
   verwijderen.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 Zie [Artikelbeheer

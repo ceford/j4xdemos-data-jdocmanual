@@ -195,15 +195,9 @@ alt="Help-4x-Content-Categories-batch-en.png" />
 
 - [Articles: Edit
   Category](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/en "Help4.x:Articles: Edit Category/en")
-
-<!-- -->
-
 - [Home
   Dashboard](https://docs.joomla.org/Help4.x:Home_Dashboard/en "Help4.x:Home Dashboard/en"):
   Access to many default Joomla functions.
-
-<!-- -->
-
 - This
   [Portal](https://docs.joomla.org/Portal:Joomla_4/en "Portal:Joomla 4/en")
   brings together information related specifically to Joomla 4.

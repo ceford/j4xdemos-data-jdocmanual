@@ -59,9 +59,6 @@ alt="Help-4x-Extensions-Extension-Manager-Discover-screen-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Naam.** De naam van de extensie.
 - **Locatie.** Bepaalt of dit een website of beheer extensie is.
 - **Type.** Het extensie type - module, plugin, template, taal.
@@ -138,14 +135,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   wordt gevonden wordt getoond in de extensielijst. Slaat het resultaat
   op, zodat ze steeds getoond worden bij een nieuwe bezoek aan dit
   scherm.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

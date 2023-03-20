@@ -70,9 +70,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   nieuw template aan te maken. Om het nieuwe template te verwijderen: ga
   naar Systeem - Beheren - Extensies type: templates, vink het template
   vakje aan en selecteer 'Deïnstalleren' in de werkbalk.
-
-<!-- -->
-
 - **Template voorbeeld.** Selecteer om de website standaard weergave te
   zien met dit template.
 - **Beheer mappen.** Selecteer om een nieuwe map aan te maken binnen de
@@ -101,48 +98,24 @@ alt="Help-4x-Extensions-Template-Manager-Templates-Edit-upload-file-dialog-nl.pn
   - Mark Checked
   - Mark Unchecked
   - Remove Record
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ### Geselecteerd bestand
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Bestand hernoemen.** Selecteer een bestand om te bewerken. Selecteer
   de Hernoem knop om een nieuwe naam op te geven.
-
-<!-- -->
-
 - **Verwijder bestand.** U krijgt een vraag om te bevestigen of te
   annuleren.
-
-<!-- -->
-
 - **Check Overrides.** Activated when an Override is selected in the
   **Overrides** tab.
-
-<!-- -->
-
 - **Bestand sluiten.** Sluit het geopende bestand en keert terug naar
   het bewerk tabblad.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

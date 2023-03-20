@@ -84,9 +84,6 @@ possibles.
     votre site, allez-vous avoir des pages obsolètes qui nécessiteront
     une redirection ? Notez sur un document externe toutes les URLs qui
     ont besoin d'être redirigées.
-
-<!-- -->
-
 1.  Avez-vous “modifié le noyau” de votre site 1.5 ? Si c'est le cas,
     ces modifications ne seront pas migrées vers Joomla! 3. Vous
     souhaiterez alors trouver des alternatives pour modifier le noyau de
@@ -123,9 +120,6 @@ possibles.
     copier/coller dans un document. Une feuille de papier et un crayon
     conviennent également parfaitement. Indiquez si ces extensions sont
     utilisées fortement, modérément, presque jamais ou pas du tout.
-
-<!-- -->
-
 1.  Déterminez si les extensions tierces dont vous avez besoin sont
     disponibles pour la version de Joomla! sur laquelle vous allez
     migrer.
@@ -141,9 +135,6 @@ possibles.
     informations sur les considérations en matière de template, voir
     [Considérations sur les templates lors d'une
     migration](https://docs.joomla.org/Template_Considerations_During_Migration "Special:MyLanguage/Template Considerations During Migration").
-
-<!-- -->
-
 1.  Si vous remplacez votre template par un nouveau template, aura-t-il
     besoin de nouvelles images ? Par exemple, si votre site actuel a un
     fond blanc et que votre logo ou d'autres images sont des images .jpg

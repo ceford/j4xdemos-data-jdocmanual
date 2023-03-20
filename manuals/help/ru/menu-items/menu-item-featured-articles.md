@@ -92,23 +92,14 @@ alt="Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-ru.png"
   full width of the display area, just like the Leading Articles.
 - **Multi Column Direction**. In multi-column blog layouts, whether to
   order articles Down the columns or Across the columns.
-
-<!-- -->
-
   - Down: Order articles going down the first column and then over to
     the next column, for example:
 
 - 
-
-<!-- -->
-
   - Across: Order articles going across the columns and then back to the
     first column, for example:
 
 - 
-
-<!-- -->
-
 - **\# Links**. The number of Links to display in the Links area of the
   page. These links allow a User to link to additional Articles, if
   there are more Articles than can fit on the first page of the Blog
@@ -317,14 +308,8 @@ At the top of the page you will see the toolbar shown in the
 
 - To create a new Category see [Articles: Edit
   Category](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/en "Help4.x:Articles: Edit Category/en").
-
-<!-- -->
-
 - To create a new menu see
   [Menus](https://docs.joomla.org/Help4.x:Menus/en "Help4.x:Menus/en").
-
-<!-- -->
-
 - This
   [Portal](https://docs.joomla.org/Portal:Joomla_4/en "Portal:Joomla 4/en")
   brings together information related specifically to Joomla 4.

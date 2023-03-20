@@ -46,9 +46,6 @@ deze betekenen en wat er in elke kolom wordt getoond.
 - **Onderwerp:** Het onderwerp van de gebruikersnotitie.
 - **Gebruiker**. De naam van de gebruiker.
 - **Herzieningsdatum**. De datum dat de notitie het laatst is aangepast.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -79,32 +76,20 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe user note te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
 - "'Publiceren."' Maakt de geselecteerde gebruiker notities beschikbaar
   voor beheerders van uw website.
 - **Depubliceren:** Maakt de geselecteerde gebruikersnotitie niet
   beschikbaar voor de administrators van uw website.
-
-<!-- -->
-
 - **Archiveren**. Verandert de status van één van de geselecteerde user
   notes om aan te geven dat ze worden gearchiveerd. Gearchiveerde user
   notes kunnen terug naar de gepubliceerde of gedepubliceerde status
   gebracht worden door *Gearchiveerd* te selecteren in het Selecteer
   status filter en de status van de user notes te wijzigen naar
   Gepubliceerd of Gedepubliceerd.
-
-<!-- -->
-
 - **Inchecken**. Checkt de geselecteerde user notes in. Werkt bij één of
   meer user notes geselecteerd.
-
-<!-- -->
-
 - **Prullenbak**. Verandert de status van de selecteerde user notes om
   aan te geven dat ze in de prullenbak zitten. user notes in de
   prullenbak kunnen hersteld worden door "Verplaatst naar prullenbak" te
@@ -114,13 +99,7 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   verwijderen, voor "Verplaatst naar prullenbak" in het Selecteer status
   filter, selecteer de user notes die definitief verwijderd moeten
   worden en klik daarna op het 'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
 

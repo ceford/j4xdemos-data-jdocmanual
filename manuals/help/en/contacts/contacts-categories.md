@@ -30,9 +30,6 @@ Click on the column heading to sort the list by that column's value.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -51,63 +48,33 @@ Click on the column heading to sort the list by that column's value.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Title**. The name of the item. For a Menu Item, the Title will
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Published:**
   <img src="https://docs.joomla.org/images/1/10/Help-4x-icon-tick.png"
   decoding="async" data-file-width="27" data-file-height="20" width="27"
   height="20" alt="Help-4x-icon-tick.png" /> The number of published
   items. Click the numbered button to show a list of just those items.
-
-<!-- -->
-
 - **Unpublished:**
   <img src="https://docs.joomla.org/images/c/c9/Help-4x-icon-cross.png"
   decoding="async" data-file-width="21" data-file-height="20" width="21"
   height="20" alt="Help-4x-icon-cross.png" /> The number of unpublished
   items. Click the numbered button to show a list of just those items.
-
-<!-- -->
-
 - **Archived:** Whether and how many items has been archived. You see
   the Archived items by clicking on the icon in this column.
-
-<!-- -->
-
 - **Trashed**
   <img src="https://docs.joomla.org/images/5/59/Help-4x-icon-bin.png"
   decoding="async" data-file-width="18" data-file-height="20" width="18"
   height="20" alt="Help-4x-icon-bin.png" /> The number of trashed items.
   Click the numbered button to show a list of just those items.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Association:** Shows which menu item this item is associated.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -136,28 +103,13 @@ shown in the [Screenshot](#screenshot) above.
   from the dropdown list to change the number displayed.The default for
   a site is '20' but this may be changed in the [Global
   Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#defaultlistlimit "Help4.x:Site Global Configuration/en").
-
-<!-- -->
-
 - **Select Status**. Select from Trashed / Unpublished / Published /
   Archived / All.
-
-<!-- -->
-
 - **Select Access**. Select from the list of available viewing access
   levels.
-
-<!-- -->
-
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
-
-<!-- -->
-
 - **Select Tag**. Select from the list of available tags.
-
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 
 **Page Controls**. When the number of items is more than one page, you
@@ -230,14 +182,8 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new category.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
   - **Publish**. Makes the selected category available to visitors to
     your website.
 
@@ -262,15 +208,9 @@ At the top of the page you will see the toolbar shown in the
 
   - **Batch**. Batch processes the selected category. Works with one or
     multiple items selected.
-
-<!-- -->
-
 - **Rebuild.** Reconstructs and refreshes the category table. Normally,
   you do *not* need to rebuild this table. This function is provided in
   case the data in the table becomes corrupted.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited. See [Contact Manager
   Options](https://docs.joomla.org/Help4.x:Contacts:_Options/en "Help4.x:Contacts: Options/en")

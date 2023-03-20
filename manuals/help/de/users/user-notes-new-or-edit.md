@@ -24,14 +24,8 @@ Beispiele: TinyMCE, JCE, CodeMirror.
   - einen Benutzer über Benutzername oder E-Mail aussuchen, dann ...
   - **+ Hinweis hinzufügen** wählen, um einen neuen Hinweis zu erstellen
     oder...
-
-<!-- -->
-
   - Select **Show Notes List** from the drop-down list, only shown if
     notes exist for this user. Or...
-
-<!-- -->
-
   - Select **Display Note** from the drop-down list to show notes in a
     popup window.
 

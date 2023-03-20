@@ -172,9 +172,6 @@ At the top of the page you will see the toolbar shown in the
 
 - **Download as text.** Downloads the System Information in a text file.
 - **Download as JSON.** Downloads the System Information in a JSON file.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

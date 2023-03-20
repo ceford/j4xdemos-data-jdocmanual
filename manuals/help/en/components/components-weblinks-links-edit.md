@@ -26,9 +26,6 @@ alt="Help-4x-Components-Weblinks-Links-Edit-screen-en.png" />
 
 - **Title.** This is the text that will display in the *Title* column of
   the links list. This field is required.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -106,9 +103,6 @@ alt="Help-4x-Components-Weblinks-Links-Edit-screen-en.png" />
   and you cannot change this number. When creating a new item, this
   field displays 0 until you save the new entry, at which point a new ID
   is assigned to it.
-
-<!-- -->
-
 - **Meta Description.** An optional paragraph to be used as the
   description of the page in the HTML output. This will generally
   display in the results of search engines. If entered, this creates an

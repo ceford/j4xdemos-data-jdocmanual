@@ -95,23 +95,14 @@ alt="Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-de.png"
 - **Multi Column Direction**. **Mehrspaltige Anordnung**. Die Beiträge
   werden innerhalb der Spalten untereinander oder nebeneinander
   angezeigt.
-
-<!-- -->
-
   - Down: Abwärts: Beiträge werden innerhalb der ersten Spalte abwärts
     sortiert, dann in der nächsten Spalte. Zum Beispiel:
 
 - 
-
-<!-- -->
-
   - Across: Seitlich: Beiträge werden quer durch die Spalten sortiert,
     dann zurück in die erste Spalte. Zum Beispiel:
 
 - 
-
-<!-- -->
-
 - **\# Links**. **\# Links**. Anzahl der Beiträge, deren Überschriften
   als Links gezeigt werden, normalerweise unterhalb der
   Einleitungstexte. Damit können Benutzer weitere Beiträge aufrufen,
@@ -331,14 +322,8 @@ Bereich.
 
 - [Beiträge: Kategorie neu erstellen oder
   bearbeiten](https://docs.joomla.org/Help4.x:Articles:_Edit_Category/de "Help4.x:Articles: Edit Category/de").
-
-<!-- -->
-
 - Ein neues Menü erstellen:
   [Menüs](https://docs.joomla.org/Help4.x:Menus/de "Help4.x:Menus/de").
-
-<!-- -->
-
 - Dieses
   [Portal](https://docs.joomla.org/Portal:Joomla_4/de "Portal:Joomla 4/de")
   bringt alle Informationen zu Joomla 4 zusammen.

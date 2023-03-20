@@ -36,40 +36,22 @@ Click on the column heading to sort the list by that column's value.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Client.** The Client for this Banner. Clients are entered using the
   Banner Client Manager.
 - **Contact.** The Contact for this Client.
-
-<!-- -->
-
 - **Published:**
   <img src="https://docs.joomla.org/images/1/10/Help-4x-icon-tick.png"
   decoding="async" data-file-width="27" data-file-height="20" width="27"
   height="20" alt="Help-4x-icon-tick.png" /> The number of published
   items. Click the numbered button to show a list of just those items.
-
-<!-- -->
-
 - **Unpublished:**
   <img src="https://docs.joomla.org/images/c/c9/Help-4x-icon-cross.png"
   decoding="async" data-file-width="21" data-file-height="20" width="21"
   height="20" alt="Help-4x-icon-cross.png" /> The number of unpublished
   items. Click the numbered button to show a list of just those items.
-
-<!-- -->
-
 - **Archived:** Whether and how many items has been archived. You see
   the Archived items by clicking on the icon in this column.
-
-<!-- -->
-
 - **Trashed**
   <img src="https://docs.joomla.org/images/5/59/Help-4x-icon-bin.png"
   decoding="async" data-file-width="18" data-file-height="20" width="18"
@@ -78,9 +60,6 @@ Click on the column heading to sort the list by that column's value.
 - **Purchase Type.** The banner purchase type of the client. This is
   used to indicate how the client purchased the display time for their
   banners - monthly, yearly, etc...
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -147,14 +126,8 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new client.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
   - **Publish**. Makes the selected client available to visitors to your
     website.
 
@@ -176,13 +149,7 @@ At the top of the page you will see the toolbar shown in the
     permanently delete trashed client, select 'Trashed' in the 'Select
     Status' filter, select the client to be permanently deleted, then
     click the 'Empty Trash' toolbar icon.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
 

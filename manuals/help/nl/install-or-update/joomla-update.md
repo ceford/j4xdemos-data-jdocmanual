@@ -82,9 +82,6 @@ Er zijn opties om het type update te selecteren:
 - **Standaard.** Dit moet voor productie-websites gebruikt worden.
 - **Volgende Joomla.** voor ...
 - **Testen.** voor ...
-
-<!-- -->
-
 - **Aangepaste URL.** voor ontwikkelaars.
 
 Selecteer de **Opties** knop in de werkbalk om de huidige selectie te

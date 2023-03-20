@@ -50,12 +50,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   have read all the messages***. There is a ***Reset Messages*** button
   that restores the unread messages, including the individually hidden
   messages.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.

@@ -109,11 +109,27 @@ order presented in the edit form. Most of the fields are
 self-explanatory so only two are shown below. The name values are the
 column names used in the database tables.
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
 
+		<field
+			name="title"
+			type="text"
+			label="COM_COUNTRYBASE_COUNTRY_TITLE"
+			required="true"
+			maxlength="128"
+		/>
 
-            
-
-            
+		<field
+			name="iso_2"
+			type="text"
+			label="COM_COUNTRYBASE_COUNTRY_ISO_2"
+			description="COM_COUNTRYBASE_COUNTRY_ISO_2_DESC"
+			required="true"
+			maxlength="3"
+		/>
+```
 
 ## src/Model/CountryModel.php
 
@@ -180,46 +196,68 @@ to prevent session expiry whilst completing complex forms.
 - LayoutHelper::render('joomla.edit.global', \$this); renders the fields
   on the right side of the Details tab.
 
-<!-- -->
+```php
+<?php
+/**
+ * @package     Countrybase.Administrator
+ * @subpackage  com_countrybase
+ *
+ * @copyright   (C) 2022 Clifford E Ford
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
+\defined('_JEXEC') or die;
 
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Layout\LayoutHelper;
+use Joomla\CMS\Router\Route;
 
+HTMLHelper::_('behavior.formvalidator');
+HTMLHelper::_('behavior.keepalive');
 
-        
+?>
 
-        
-             'details')); ?>
+<form action="<?php echo Route::_('index.php?option=com_countrybase&view=country&layout=edit&id=' . (int) $this->item->id); ?>"
+	method="post" name="adminForm" id="country-form" class="form-validate">
 
-            
-            
-                
-                    
-                        
-                            form->renderField('iso_2'); ?>
-                            form->renderField('iso_3'); ?>
-                            form->renderField('country_code'); ?>
-                            form->renderField('region_code'); ?>
-                            form->renderField('subregion_code'); ?>
-                            form->renderField('phone_prefix'); ?>
-                            form->renderField('currency_code'); ?>
-                            form->renderField('id'); ?>
-                        
-                    
-                
-                
-                    
-                        
-                            
-                        
-                    
-                
-            
-            
+	<?php echo LayoutHelper::render('joomla.edit.title_alias', $this); ?>
 
-            
-        
-        
-        
+	<div>
+		<?php echo HTMLHelper::_('uitab.startTabSet', 'myTab', array('active' => 'details')); ?>
+
+		<?php echo HTMLHelper::_('uitab.addTab', 'myTab', 'details', Text::_('COM_COUNTRYBASE_COUNTRY_TAB_DETAILS')); ?>
+		<div class="row">
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-6">
+						<?php echo $this->form->renderField('iso_2'); ?>
+						<?php echo $this->form->renderField('iso_3'); ?>
+						<?php echo $this->form->renderField('country_code'); ?>
+						<?php echo $this->form->renderField('region_code'); ?>
+						<?php echo $this->form->renderField('subregion_code'); ?>
+						<?php echo $this->form->renderField('phone_prefix'); ?>
+						<?php echo $this->form->renderField('currency_code'); ?>
+						<?php echo $this->form->renderField('id'); ?>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card card-light">
+					<div class="card-body">
+						<?php echo LayoutHelper::render('joomla.edit.global', $this); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php echo HTMLHelper::_('uitab.endTab'); ?>
+
+		<?php echo HTMLHelper::_('uitab.endTabSet'); ?>
+	</div>
+	<input type="hidden" name="task" value="">
+	<?php echo HTMLHelper::_('form.token'); ?>
+</form>
+```
 
 You can cycle through form fieldsets and fields within each fieldset.
 That can simplify output of complex forms with many tabs.

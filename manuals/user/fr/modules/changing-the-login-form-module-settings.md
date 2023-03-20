@@ -9,29 +9,17 @@ son comportement, vous pouvez agir sur ces éléments :
     l'administration en
     backend](https://docs.joomla.org/Logging_in_or_out_of_the_Administrator_back-end "Special:MyLanguage/Logging in or out of the Administrator back-end").
 2.  Cliquez sur **Extensions **→** Modules** élément de menu.
-
-<!-- -->
-
 1.  À partir de la liste des modules, chercher celui du "Formulaire de
     Connexion". Il peut y exister plusieurs pages de modules de sorte
     qu'il vous faudra peut-être regarder les pages suivantes. Vous
     pouvez faciliter la recherche en cliquant sur la liste déroulante
     "Sélectionner par type" et en cliquant sur l'élément "mod_login"
     (liste par ordre alphabétique).
-
-<!-- -->
-
 1.  Cliquez sur le nom du module, c'est à dire : **Formulaire de
     Connexion**.
-
-<!-- -->
-
 1.  L'écran d'édition du module regroupe quatre groupes de champs :
     Module, Assignation des menus, Droits sur le module et Paramètres
     avancés.
-
-<!-- -->
-
 1.  Réalisez les changements que vous souhaitez faire.
 2.  Cliquez sur le bouton **Enregistrer** ou **Enregistrer & Fermer** de
     la barre d'outils pour mettre en œuvre les nouveaux paramètres :

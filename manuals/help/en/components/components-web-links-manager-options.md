@@ -264,9 +264,6 @@ title="File:Help-4x-article-category-list-filter-field-options-en.png">File:Help
 - *Title:* Filter on weblink title.
 - *Author:* Filter on the author's name.
 - *Hits:* Filter on the number of weblinks hits.
-
-<!-- -->
-
 - **Display Select.** (Hide/Show) Whether to hide or show the Display \#
   control that allows the user to select the number of items to show in
   the list. An example is shown below.
@@ -376,13 +373,7 @@ title="File:Help-4x-Save-SaveClose-Cancel-Help-toolbar-en.png">File:Help-4x-Save
 The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
 

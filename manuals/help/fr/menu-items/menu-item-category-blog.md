@@ -138,21 +138,12 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-fr.png" />
   ci-dessus).
 - **Direction multicolonne**. In multi-column blog layouts, whether to
   order articles Down the columns or Across the columns.
-
-<!-- -->
-
   - Colonne: Les articles se suivent à la verticale. Par exemple :
 
 - 
-
-<!-- -->
-
   - Ligne: Les articles se suivent à l'horizontal. Par exemple :
 
 - 
-
-<!-- -->
-
 - **Titres avec lien**. Nombre d'articles dont seul le titre, sous forme
   de lien, doit être affiché. Ces liens permettent à un utilisateur
   d'avoir un lien vers des articles supplémentaires dans le cas où il y

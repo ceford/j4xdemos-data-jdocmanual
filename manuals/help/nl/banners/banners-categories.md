@@ -35,9 +35,6 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -57,34 +54,16 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Titel**. De naam van het item. Voor een menu-item wordt de titel in
   het menu weergegeven. Voor een artikel of categorie wordt de titel
   optioneel weergegeven op de webpagina. Invullen is vereist. Een item
   kan bewerkt worden door op de titel te klikken.
-
-<!-- -->
-
 - **Hits**. Het aantal keren dat een item is bekeken.
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -131,26 +110,14 @@ bovenstaande [Screenshot](#screenshot).
   - ***Gepubliceerd:*** Toont alleen de items die gepubliceerd zijn.
   - ***Gearchiveerd:*** Toont alleen de items die gearchiveerd zijn.
   - ***Alle:*** Toont alle items ongeacht de publicatiestatus.
-
-<!-- -->
-
 - ***- Selecteer toegang -:*** Toon items met alle toegangsniveaus.
   - ***:*** Toont items met alleen dit toegangsniveau.
-
-<!-- -->
-
 - ***- Selecteer taal -*** Toont alle items los van de ingestelde taal.
   - ***:*** Toont alleen items in deze taal.
   - ***Alle*** Toont items waarbij de taal ingesteld is op Alle. Dit
     kunnen items zijn die niet taalspecifiek zijn zoals afbeeldingen.
-
-<!-- -->
-
 - ***- Selecteer tags -:*** Toont items met een (of geen) tag(s).
   - ***:*** Toont alleen de items met deze tag.
-
-<!-- -->
-
 - ***- Selecteer max niveaus -:*** Toont alle items los van het
   toegekende niveau.
   - ***1*** Toon alleen items met dit niveau in de hiërarchie.
@@ -176,25 +143,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe item te maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
 - **Opnieuw opbouwen.** Ververst en stelt de relevant tabel opnieuw
   samen. Normaal hoeft u de tabel *niet* opnieuw op te bouwen. Deze
   functie voorziet in het geval de data in de tabel corrupt raakt.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Batchproces

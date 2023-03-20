@@ -48,15 +48,9 @@ specific menu item or Contact
 - **Display Format.** Determines the style used to display sections of
   the contact form.
 - **Tags.** Whether to hide or show any tags for this item.
-
-<!-- -->
-
 - *Use Global:* Use the default value from the contacts options screen.
 - *Show:* Show to allow users to select a contact in a drop down list.
 - *Hide:* Do not display the Contact list.
-
-<!-- -->
-
 - **Contact Information.** Show or hide the contact information.
 - **Name.** Show name of the contact.
 - **Contact's Position.** Show or Hide position.
@@ -196,9 +190,6 @@ below.
 - *Title:* Filter on article title.
 - *Author:* Filter on the author's name.
 - *Hits:* Filter on the number of article hits.
-
-<!-- -->
-
 - **Display Select.** (Show/Hide) Whether to hide or show the Display \#
   control that allows the user to select the number of items to show in
   the list. An example is shown below.
@@ -238,9 +229,6 @@ list will show with no headings.
 - **State or County.** Show or Hide a State or County column in the list
   of Contacts.
 - **Country.** Show or Hide a Country column in the list of Contacts.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -257,15 +245,9 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
-
-<!-- -->
-
 - **Sort by**. Choose the field name to sort.
 
 ### Form Tab
@@ -365,19 +347,10 @@ above. The functions are:
 
 - **Save.** Saves the Contact Manager options and stays in the current
   screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the Contact Manager options and closes the
   current screen.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

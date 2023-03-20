@@ -80,16 +80,7 @@ title="File:Help-4x-Save-SaveClose-Cancel-Help-toolbar-en.png">File:Help-4x-Save
 The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

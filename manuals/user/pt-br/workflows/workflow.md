@@ -183,9 +183,6 @@ pode usar essa transição.
   originalmente do estado "não publicado". Eles estão, por exemplo,
   precisando de uma revisão. Depois de revisados, podem transitar para o
   estado "publicado".
-
-<!-- -->
-
 - Todas as ações de transição de fluxo de trabalho são plug-ins de fluxo
   de trabalho do Joomla!. Se você for a sistema **→** plugins e, em
   seguida, alterar o menu suspenso de "tipo" para o de "fluxo de

@@ -33,17 +33,11 @@ angezeigt wird.
   Bearbeiten, funktionieren gleichzeitig jeweils nur mit einem Eintrag.
   Wenn mehrere Einträge markiert sind und Sie auf „Bearbeiten“ drücken,
   wird der erste der markierten Einträge zur Bearbeitung geöffnet.
-
-<!-- -->
-
 - **Reihenfolge:** (standard). Wie die Einträge in der Spalte der
   Tabelle sortiert werden. Die Werte sind die gleichen wie die der
   Spaltenköpfe.
 - **Ebenenname.** Der Name der Zugriffsebene.
 - **Benutzergruppen mit Zugriff.** Die Gruppen mit Anzeige-Zugriff.
-
-<!-- -->
-
 - **ID**. Einmalig vergebene Identifikations-Nummer für den Eintrag. Sie
   wird von Joomla automatisch vergeben und dient zur internen
   Identifikation des Eintrages. Man kann die Nummer nicht ändern. Beim
@@ -67,30 +61,18 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Neu**: Öffnet das Bearbeitungs-Formular, um access level zu
   erstellen.
-
-<!-- -->
-
 - **Bearbeiten:** Öffnet das Bearbeitungs-Formular für das ausgewählte
   access level. Falls mehr als ein access level ausgewählt wurde (wo
   anwendbar), wird nur das erste access level geöffnet. Das
   Bearbeitungs-Formular kann auch durch Klicken auf den access
   level-Namen geöffnet werden.
-
-<!-- -->
-
 - **Löschen:** Löscht markierte access levels. Funktioniert mit einem
   oder mehreren ausgewählten access levels. **Anmerkung:** Eine momentan
   verwendete Zugriffsebene kann nicht gelöscht werden. Wenn versucht
   wird, eine momentan verwendete Zugriffsebene zu löschen, wird eine
   Nachricht mit Hinweis auf die Verwendung angezeigt.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

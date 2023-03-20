@@ -40,13 +40,7 @@ sortieren.
 - **Datum.** Das Erstellungsdatum der Sprache.
 - **Autor.** Der Name des Sprachübersetzers wird in dieser Spalte
   angezeigt.
-
-<!-- -->
-
 - **E-Mail des Autors.** Die E-Mail Adresse des Übersetzers.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -60,9 +54,6 @@ sortieren.
 - **Site.** Zeigt die installierten Sprachen für das Frontend an. Hier
   kann die Standardsprache für das Frontend der Joomla-Website gewählt
   werden.
-
-<!-- -->
-
 - **Administrator.** Zeigt die installierten Sprachen für das Backend
   an. Hier kann die Standardsprache für das Backend der Joomla-Website
   gewählt werden.
@@ -119,25 +110,13 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   anklicken. Die Sprache des Administrators ändert sich und es wird eine
   Meldung wie *La langue de l'administration a été changée en "French
   (France)"* angezeigt.
-
-<!-- -->
-
 - **Sprachen installieren.** Link führt zu [Erweiterungen: Sprachen
   installieren](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Languages/de "Help4.x:Extensions Extension Manager Languages/de").
-
-<!-- -->
-
 - **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
-
-<!-- -->
-
 - **Optionen.** Öffnet das Optionen-Fenster, in dem Einstellungen, wie
   die Standard-Parameter, bearbeitet werden können.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps
@@ -151,19 +130,10 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   generated in this Language just for this User. For example, if a User
   chooses Spanish as their language, then the Search Module will show
   with prompts in Spanish.
-
-<!-- -->
-
 - Die Auswahl des Benutzers wird durch die Einstellung der
   Standardsprache für das Front-End nicht beeinflusst.
-
-<!-- -->
-
 - Die Änderung der Sprache eines Benutzers oder der Standardsprache hat
   keinen Einfluss auf die Artikel und andere Inhalte der Website.
-
-<!-- -->
-
 - **Wichtig**: Die Standard-Sprachdateien dürfen nicht gelöscht werden
   (z.B. mit FTP). Das führt zu Fehlern sowohl auf dem Frontend als auch
   auf dem Backend.
@@ -183,8 +153,5 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   Verwalten](https://docs.joomla.org/Help4.x:Extensions:_Manage/de "Help4.x:Extensions: Manage/de")
 - Die Sprache für einen Benutzer ändern: [Benutzer: Profil
   bearbeiten](https://docs.joomla.org/Help4.x:Users:_Edit_Profile/de "Help4.x:Users: Edit Profile/de")
-
-<!-- -->
-
 - To set the Language of an Article: [Articles - New/Edit - Parameters -
   Advanced](https://docs.joomla.org/Help4.x:Articles:_Edit/en#Parameters_-_Advanced "Help4.x:Articles: Edit/en")

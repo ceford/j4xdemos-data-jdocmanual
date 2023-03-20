@@ -65,9 +65,6 @@ alt="Help31-Components-Smart-Search-Manager-columns-nl.png" />
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Status**. De status van het inhoud-item binnen Slim zoeken.
   Gepubliceerde items worden getoond met een groen vinkje;
   niet-gepubliceerde items door een rood kruis. U kunt de status van een
@@ -116,9 +113,6 @@ bovenstaande [Screenshot](#screenshot).
   Slim zoeken is onafhankelijk van de publicatie status elders.
 - **Filter op type inhoud**. Selecteer het inhoud-item type uit de
   drop-down lijst.
-
-<!-- -->
-
 - **Zoek Inhoudsschema**. Optioneel, gebruikt om te zoeken in de titel
   van het inhoudsschema.
 
@@ -143,14 +137,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   website.
 - **Unpublish.** Makes the selected items unavailable to visitors to
   your website.
-
-<!-- -->
-
 - **Statistieken:** Toont een aantal standaard statistieken op Slim
   zoeken
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde inhoud-items. Werkt met
   één of meerdere inhoud-items geselecteerd. Verwijderen van een
   inhoud-item uit Slim zoeken verwijdert het alleen uit de index en
@@ -162,9 +150,6 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   de inhoud-filter instellingen opnieuw inbrengen na een
   opschoon-cyclus.
 - **Help**. Opens this help screen.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt. Kijk bij [Slim zoeken:
   Opties](https://docs.joomla.org/Help4.x:Smart_Search:_Options/nl "Help4.x:Smart Search: Options/nl")

@@ -119,9 +119,6 @@ Article](https://docs.joomla.org/Help4.x:Menu_Item:_Single_Article/en#options "H
   from the title to include.Note: This can prevent the Read More text to
   become excessively long if the article has a very long title.
 - **Tags de l'article**. Show the tags for each article.
-
-<!-- -->
-
 - **Enregistrer les affichages**. Record the number of times the article
   has been viewed.
 - **Nombre d'affichages**. Show the number of times the article has been
@@ -188,9 +185,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-fr.png" />
 - **Images et liens en admin**. Hide the [Images and Links
   tab](https://docs.joomla.org/Help4.x:Articles:_Edit/en#imagesandlinks "Help4.x:Articles: Edit/en")
   in the Backend when editing Articles.
-
-<!-- -->
-
 - **Cible de l'URL A**. Fenêtre cible du navigateur lorsque le lien de
   menu est cliqué. Les choix sont :
   - Ouvrir dans la fenêtre parente: Ouvre le lien dans la fenêtre
@@ -205,9 +199,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-fr.png" />
   second Link in the article. Same options as URL A.
 - **Cible de l'URL C**. Sets the default value for the target for the
   third Link in the article. Same options as URL A.
-
-<!-- -->
-
 - **Classe de l'image de l'introduction**. fr
   <a href="https://cassiopeia.joomla.com/help" class="external text"
   target="_blank" rel="nofollow noreferrer noopener">Pour en savoir
@@ -321,21 +312,12 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-fr.p
   ci-dessus).
 - **Direction multicolonne**. In multi-column blog layouts, whether to
   order articles Down the columns or Across the columns.
-
-<!-- -->
-
   - Colonne: les articles se suivent à la verticale. Par exemple :
 
 - 
-
-<!-- -->
-
   - Ligne: les articles se suivent à l'horizontal. Par exemple :
 
 - 
-
-<!-- -->
-
 - **Titres avec lien**. Nombre d'articles dont seul le titre, sous forme
   de lien, doit être affiché. Ces liens permettent à un utilisateur
   d'avoir un lien vers des articles supplémentaires dans le cas où il y

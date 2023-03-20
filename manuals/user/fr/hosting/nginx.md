@@ -46,9 +46,6 @@ Les fichiers de configuration nginx se situent dans :
 
 - `/etc/nginx/sites-available/` on Ubuntu (for sites running on that
   Nginx instance)
-
-<!-- -->
-
 - `/etc/nginx/nginx.conf` on Gentoo and Raspbian (Debian optimized for
   Raspberry Pi)
 
@@ -105,9 +102,6 @@ Prêtez attention à quelques éléments :
     means you can run the PHP processes on separate servers. On Gentoo,
     you can find this configuration in the
     */etc/php/fpm-php5.3/php-fpm.conf/* file.
-
-<!-- -->
-
 1.  Don't forget to replace YOUR_DOMAIN & PATH_ON_SERVER above depending
     on your domain and the path of Joomla on your server.
 

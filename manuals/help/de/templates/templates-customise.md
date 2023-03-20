@@ -76,9 +76,6 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
   entfernen: Geht man über Erweiterungen -\> Verwalten, markiert Sie das
   Kontrollkästchen Template und wählt in der Symbolleiste
   Deinstallieren.
-
-<!-- -->
-
 - **Template-Vorschau**. Diese Option öffnet die Standardansicht der
   Website mit diesem Template.
 - **Verzeichnisse verwalten**. Diese Option ermöglicht das Anlegen eines
@@ -108,50 +105,26 @@ alt="Help-4x-Extensions-Template-Manager-Templates-Edit-upload-file-dialog-de.pn
   - Mark Checked
   - Mark Unchecked
   - Remove Record
-
-<!-- -->
-
 - **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ### Datei ausgewählt
 
 - **Speichern**. Speichert den Eintrag und bleibt auf der aktuellen
   Seite.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
-
-<!-- -->
-
 - **Datei umbenennen.** Eine Datei zur Bearbeitung auswählen. Drücken
   der Schaltfläche „Datei umbenennen“, um zur Eingabe eines neuen Namens
   zu gelangen.
-
-<!-- -->
-
 - **Datei löschen.** Es erscheint eine Aufforderung zum Bestätigen oder
   Abbrechen.
-
-<!-- -->
-
 - **Check Overrides.** Activated when an Override is selected in the
   **Overrides** tab.
-
-<!-- -->
-
 - **Datei schließen.** Schließt die geöffnete Datei und kehrt zum Reiter
   „Editor“ zurück.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Tipps

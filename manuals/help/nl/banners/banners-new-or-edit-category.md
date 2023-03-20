@@ -31,9 +31,6 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-nl.png" />
 
 - **Titel.** De titel van dit item. Dit kan op de pagina weergegeven
   worden, afhankelijk van de instellingen.
-
-<!-- -->
-
 - **Alias**. De interne naam van het item. Normaliter, kunt u dit leeg
   laten en Joomla zal de standaardwaarde invullen. De standaard waarde
   is de titel of naam in kleine letters en streepjes in plaats van
@@ -54,9 +51,6 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-nl.png" />
 
 - **Hoofd**. Het item (categorie, menu-item, enzovoort) dat bovenliggend
   is aan het item dat bewerkt wordt.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van dit item.
   - *Gepubliceerd:* Item is zichtbaar op de website.
   - *Gedepubliceerd:* Item is niet zichtbaar voor gasten op de website.
@@ -69,9 +63,6 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-nl.png" />
     de database met de functie Prullenbak legen in de werkbalk (zie ook
     [Verwijderen van een
     artikel](https://docs.joomla.org/Deleting_an_Article/nl "Special:MyLanguage/Deleting an Article/nl")).
-
-<!-- -->
-
 - **Toegang**. Selecteer het weergave toegangsniveau voor dit item uit
   de uitklaplijst. De weergegeven toegangsniveaus zijn afhankelijk van
   wat is ingesteld voor deze website in [Gebruikers →
@@ -79,27 +70,15 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-nl.png" />
   Let op, toegangsniveaus zijn niet identiek aan ACL rechten.
   Toegangsniveaus bepalen wat een gebruiker kan bekijken. ACL rechten
   controleren welke acties een gebruiker kan uitvoeren.
-
-<!-- -->
-
 - **Taal**. Selecteer de taal voor dit item. Wanneer u de meertalige
   functie in Joomla niet gebruikt, laat dan de standaard ingevulde
   'Alle' ongewijzigd.
-
-<!-- -->
-
 - **Tags**. Wijs tags toe aan inhoudsartikelen. U kunt een label
   selecteren uit de voorgedefinieerde lijst of voer een nieuwe tag in
   door de naam te typen in het veld en druk op enter.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
-
-<!-- -->
-
 - **Notitie versie**. Optioneel veld om deze versie van dit item te
   identificeren in het
   [versiegeschiedenis](https://docs.joomla.org/Help40:Components_Version_History/nl "Special:MyLanguage/Help40:Components Version History/nl")
@@ -212,14 +191,8 @@ handelingen uitvoeren.
 
 - Selecteer de **Groep** door op de titel aan de linkerzijde te klikken.
 - Zoek de gewenste **Actie**. Mogelijke acties zijn:
-
-<!-- -->
-
   - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
     van deze extensie bewerken.
-
-<!-- -->
-
   - **Configure Options Only.** Users can edit the options except the
     permissions of this extension.
   - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
@@ -253,52 +226,28 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 [afbeelding](#Schermafbeelding) hierboven. De functies zijn.
 
 - **Opslaan**. Slaat item op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat item op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat item op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander item.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige item. Beïnvloed het huidige item niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw item.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan. Of
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
   Dit werkbalk icoon wordt niet getoond als een nieuw item wordt
   aangemaakt.
-
-<!-- -->
-
 - **Versies**. Opent het item versie geschiedenis scherm om eerdere
   versies van dit item te tonen. Dit stelt u in staat oudere versies van
   het item te bekijken en een oudere versie te herstellen. Zie [Versie
   historie](https://docs.joomla.org/Help40:Components_Version_History/nl "Special:MyLanguage/Help40:Components Version History/nl")
   voor meer informatie.
-
-<!-- -->
-
 - **Associaties**. Met een bepaalde taal ingesteld voor een item geeft
   het de mogelijkheid tot het naast elkaar bewerken van een andere taal.
   Dit werkbalk icoon wordt alleen getoond bij [Meertalige
   websites](https://docs.joomla.org/Help4.x:Multilingual_Associations/nl "Special:MyLanguage/Help4.x:Multilingual Associations/nl").
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

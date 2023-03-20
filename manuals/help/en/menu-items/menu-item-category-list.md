@@ -122,9 +122,6 @@ alt="Help-4x-Menus-Item-Articles-Category-List-list-layouts-subscreen-en.png" />
   date.
 - **Hits**. Show the number of hits for articles.
 - **Author**. Show the name of the author.
-
-<!-- -->
-
 - **Category Order**.
   - No Order: Articles are ordered only by the Article Order, without
     regard to Category.

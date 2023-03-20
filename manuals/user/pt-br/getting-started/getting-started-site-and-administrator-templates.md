@@ -10,9 +10,6 @@ Os sites Joomla têm duas interfaces separadas:
   Outros modelos estão disponíveis gratuitamente ou por uma pequena
   taxa. De fato, existe uma extensa indústria baseada no fornecimento de
   modelos personalizados.
-
-<!-- -->
-
 - A interface do administrador é vista e utilizada por quem cria
   conteúdo. Parece completamente diferente porque serve a um propósito
   diferente. Embora seja possível alguma personalização, é melhor deixar
@@ -33,17 +30,11 @@ Itens a serem observados:
 - A barra azul superior é o *cabeçalho*, normalmente contendo um
   logotipo e o nome da empresa. Você pode adicionar uma imagem para usar
   como logotipo e alterar o Cassiopeia para o que quiser.
-
-<!-- -->
-
 - As caixas à direita denominadas *menu principal* e *formulário de
   início de sessão* são exemplos de módulos. A barra cinza contendo
   *você está aqui:* é um módulo de *trilha (migalhas de pão)*. Ele
   mostra onde você está em uma árvore de páginas, útil em sites
   complexos.
-
-<!-- -->
-
 - A *página inicial* é onde o conteúdo aparece. Em uma nova instalação,
   ela é uma lista de *artigos em destaque*. Mas ainda não há artigos,
   então está vazio. Primeiro trabalho: crie um artigo e marque-o como

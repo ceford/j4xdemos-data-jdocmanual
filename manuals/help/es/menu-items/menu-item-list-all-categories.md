@@ -416,9 +416,6 @@ At the top of the page you will see the toolbar shown in the
 
 - To create a new menu see
   [Menus.](https://docs.joomla.org/Help4.x:Menus/en "Help4.x:Menus/en")
-
-<!-- -->
-
 - Este
   [portal](https://docs.joomla.org/Portal:Joomla_4/es "Portal:Joomla 4/es")
   reúne información específica relativa a Joomla 4.

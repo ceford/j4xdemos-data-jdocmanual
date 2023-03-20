@@ -54,16 +54,10 @@ alt="Help-4x-Extensions-Language-Manager-Edit-screen-en.png" />
 - **Image.** Select from the available images for this language when
   using the "Use Image Flags" Language Switcher basic option.
 - **Status.** Available options are Published, Unpublished, Trashed.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
 - **Description.** Enter a discription for the language
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -84,24 +78,12 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips
@@ -117,14 +99,8 @@ At the top of the page you will see the toolbar shown in the
   with prompts in Spanish.
 - This User's choice is not affected by the Default Language set for the
   Front-end.
-
-<!-- -->
-
 - Changing a User's Language or the Default Language does not affect the
   web site's Articles and other content.
-
-<!-- -->
-
 - **Important**: Do not delete the default language files (for example,
   with FTP). This will create errors on both the Front-end and Back-end.
 - Additional Languages can be added using the [Extensions - Install

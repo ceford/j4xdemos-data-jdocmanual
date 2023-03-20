@@ -116,9 +116,6 @@ Article](https://docs.joomla.org/Help4.x:Menu_Item:_Single_Article/en#options "H
   title to include.Note: This can prevent the Read More text to become
   excessively long if the article has a very long title.
 - **Etiquetas**. Show the tags for each article.
-
-<!-- -->
-
 - **Registrar impresiones**. Record the number of times the article has
   been viewed.
 - **Mostrar impresiones**. Show the number of times the article has been
@@ -182,9 +179,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-es.png" />
   administración**. Hide the [Images and Links
   tab](https://docs.joomla.org/Help4.x:Articles:_Edit/en#imagesandlinks "Help4.x:Articles: Edit/en")
   in the Backend when editing Articles.
-
-<!-- -->
-
 - **Ventana de destino para la URL 'A'**. Sets the default value for the
   target for the first Link in the article. Choices are:
   - Misma ventana: Opens the in the main browser window, replacing the
@@ -197,9 +191,6 @@ alt="Help-4x-Content-Article-Manager-Options-editing-layout-subscreen-es.png" />
   target for the second Link in the article. Same options as URL A.
 - **Ventana de destino para la URL 'C'**. Sets the default value for the
   target for the third Link in the article. Same options as URL A.
-
-<!-- -->
-
 - **Clase para la imagen de introducción**. Sets the class attribute for
   an Intro Image selected in the Intro Image field.
   <a href="https://cassiopeia.joomla.com/help" class="external text"
@@ -316,23 +307,14 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-es.p
 - **Orden en columnas múltiples**. En el diseño blog de columnas
   múltiples, sirve para ordenar los artículos en formato hacia Abajo o
   Cruzado de las columnas.
-
-<!-- -->
-
   - Abajo: Orden de los artículos van hacia abajo en la primera columna
     y, a continuación, a la siguiente columna, por ejemplo:
 
 - 
-
-<!-- -->
-
   - Cruzado: El orden de los artículos va a través de las columnas y, a
     continuación, vuelve a la primera columna, por ejemplo:
 
 - 
-
-<!-- -->
-
 - **Cantidad de enlaces**. El número de Enlaces a mostrar en los "Links"
   de la página. Estos enlaces permiten a un Usuario ver enlaces a otros
   Artículos, si no caben más Artículos en la primera página del Diseño

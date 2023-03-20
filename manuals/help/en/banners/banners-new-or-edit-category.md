@@ -29,9 +29,6 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-en.png" />
 
 - **Title.** The Title for this item. This may or may not display on the
   page, depending on the parameter values you choose.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -50,9 +47,6 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-en.png" />
 
 - **Parent**. The item (category, menu item, and so on) that is the
   parent of the item being edited.
-
-<!-- -->
-
 - **Status**. The published status of this item.
   - *Published:* Item is visible in the Frontend of the site.
   - *Unpublished:* Item is will not be visible to guests in the Frontend
@@ -63,9 +57,6 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-en.png" />
     It can be permanently deleted from the database with the Empty Trash
     function in Toolbar (see also [Deleting an
     Article](https://docs.joomla.org/Deleting_an_Article/en "Special:MyLanguage/Deleting an Article/en")).
-
-<!-- -->
-
 - **Access**. Select the viewing access level for this item from the
   list box. The access levels that display will depend on the what has
   been set up for this site in [Users → Access
@@ -73,26 +64,14 @@ alt="Help-4x-Components-Banners-Categories-Edit-screen-en.png" />
   Note that access levels are separate from ACL permissions. Access
   levels control what a user can see. ACL permissions control what
   actions a user can perform.
-
-<!-- -->
-
 - **Language**. Select the language for this item. If you are not using
   the multi-language feature of Joomla, keep the default of 'All'.
-
-<!-- -->
-
 - **Tags**. Assign tags to content items. You may select a tag from the
   pre-defined list or enter a new tag by typing the name in the field
   and pressing enter.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
-
-<!-- -->
-
 - **Version Note**. Optional field to identify this version of the item
   in the item's [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/en "Special:MyLanguage/Help40:Components Version History/en")
@@ -223,51 +202,27 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the item and keeps the editing screen open and
   ready to create another item.
-
-<!-- -->
-
 - **Save as Copy**. Saves your changes to a copy of the current item.
   Does not affect the current item. This toolbar icon is not shown if
   you are creating a new item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. Or
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Versions**. Opens the Item Version History window to show any prior
   versions of this item. This allows you to view older versions of this
   item and, if desired, restore from an older version. See [Version
   History](https://docs.joomla.org/Help40:Components_Version_History/en "Special:MyLanguage/Help40:Components Version History/en")
   for more information.
-
-<!-- -->
-
 - **Associations**. With a specific language set for an item, allows
   side by side editing in another language. This toolbar icon is shown
   on [Multilingual
   Sites](https://docs.joomla.org/Help4.x:Multilingual_Associations/en "Special:MyLanguage/Help4.x:Multilingual Associations/en")
   only.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Related Information

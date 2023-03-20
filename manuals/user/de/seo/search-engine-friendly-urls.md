@@ -95,14 +95,8 @@ Beitragtitels und/oder der Weiterlesen-Link bestehen dann aus drei
 Teilen:
 
 - Die URL des Menüeintrags - beispiel.de/produkte;
-
-<!-- -->
-
 - Plus, den Primärschlüssel für die Kategorie und den Kategorie-Alias -
   32-Obst;
-
-<!-- -->
-
 - Plus, den Primärschlüssel für den Beitrag und den Alias des Beitrags -
   1-Apfel;
 

@@ -35,9 +35,6 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-en.png" />
 ## Form Fields
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -50,43 +47,22 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-en.png" />
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **Parent**. The item (category, menu item, and so on) that is the
   parent of the item being edited.
-
-<!-- -->
-
 - **Language Filter**. (Use Global (All)/All/Current/English
   (en-GB)/...). Optionally filter the list of tags based on language.
-
-<!-- -->
-
 - **Link**. The system-generated link for this menu item. This field
   cannot be changed and is for information only.
-
-<!-- -->
-
 - **Target Window.** Select from the drop-down list.
-
-<!-- -->
-
 - **Template Style.** Select from the drop-down list.
 
 **Right Panel**
 
 - **Menu**. Shows which menu the link will appear in.
-
-<!-- -->
-
 - **Parent Item.** The parent menu item for this menu item. Used to
   determine whether a Menu Item is a top-level item or a submenu item.
   Select 'Menu Item Root' (the default value) if this is a top-level
   Menu Item. Otherwise, select the Menu Item that is this item's parent.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -105,25 +81,13 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-en.png" />
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Default Page**. If Yes, this menu item is the default or home page
   for the site. There must be exactly one menu item set as the default
   page. You can change the default page in two ways:
@@ -132,19 +96,10 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-en.png" />
       screen.
   2.  Open the menu item for the new default page and change the Default
       Page setting to Yes.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -160,49 +115,22 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-Tags-options-screenshot-en.png"
 - **Number of Columns:** The number of columns to arrange the tags in.
   Note that this may not be the number displayed if 12 does not divide
   evenly into it because display is based on a 12 column grid.
-
-<!-- -->
-
 - **Heading Description.** Description to display at the heading of tags
   list.
-
-<!-- -->
-
 - **Show Heading Image.** (Use Global/Hide/Show). Show an image at the
   heading of the tags list.
-
-<!-- -->
-
 - **Heading Image File.** Select or upload the image to display in the
   heading of the tags list.
-
-<!-- -->
-
 - **Ordering:** (default). The column in which to sort displayed items
   in the table. The values are the same as the column heading names.
-
-<!-- -->
-
 - **Direction.** Sort order. Descending is highest to lowest. Ascending
   is lowest to highest.
-
-<!-- -->
-
 - **Item Images.** (Use Global(Hide),Hide, Show) Shows the firts image
   for each item in the list.
-
-<!-- -->
-
 - **Tag Description.** (Use Global(Hide)/Hide/Show). Show or hide the
   description for the tag (only used when a single tag is selected).
-
-<!-- -->
-
 - **Maximum Characters.** The maximum number of characters to display
   from the description in each tag.
-
-<!-- -->
-
 - **Hits**. The number of times an item has been viewed.
 
 ### Selection Options Tab
@@ -214,9 +142,6 @@ width="600" height="285"
 alt="Help-4x-Menus-Menu-Item-Tags-Items-List-All-Tags-Selection-options-screenshot-en.png" />
 
 - **Maximum Items.** The maximum number of results to return.
-
-<!-- -->
-
 - **Filter Field.** The Filter Field creates a text field where a user
   can enter a field to be used to filter the articles shown in the list.
   An example of how this looks in the front-end layout is shown below.
@@ -241,9 +166,6 @@ alt="Help30-article-category-list-filter-field-options-en.png" />
 - *Title:* Filter on article title.
 - *Author:* Filter on the author's name.
 - *Hits:* Filter on the number of article hits.
-
-<!-- -->
-
 - **Display Select.** (Use Global/Hide/Show) Whether to hide or show the
   Display \# control that allows the user to select the number of items
   to show in the list. An example of how it is shown in the Front End
@@ -277,9 +199,6 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
@@ -305,23 +224,11 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the menu item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the menu item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the menu item and keeps the editing screen open
   and ready to create another menu item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Front End Screenshot

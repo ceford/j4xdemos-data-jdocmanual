@@ -96,9 +96,6 @@ read this</a> checklist summary, then use it as a post template.
 - Take your [website
   offline](https://docs.joomla.org/Taking_the_website_temporarily_offline#Using_the_htaccess_method_.28cpanel.29 "Taking the website temporarily offline")
   (**We recommend the htaccess method**)
-
-<!-- -->
-
 - Run the
   <a href="https://github.com/ForumPostAssistant/FPA/zipball/en-GB"
   class="external text" target="_blank"
@@ -115,37 +112,22 @@ read this</a> checklist summary, then use it as a post template.
   rel="nofollow noreferrer noopener">available in a tar.gz package</a>
   for those who desire or need a unix style package. The fpa-en.php file
   from the package will need to be uploaded to your server Joomla root.
-
-<!-- -->
-
 - Scan all machines with FTP, Joomla super admin, and Joomla admin
   access for malware, virus, trojans, spyware, etc. (see [Local
   Security](#Local_Security) below)
-
-<!-- -->
-
 - Ensure you have downloaded the **latest version** of
   <a href="http://www.joomla.org/download.html" class="external text"
   target="_blank" rel="noreferrer noopener">Joomla</a> for the series of
   Joomla used on the site. (see [Incompatible
   Versions](#incompatible_versions) below)
-
-<!-- -->
-
 - **Notify your host** and work with them to clean up the site, and to
   make sure there are no back doors to your site.
-
-<!-- -->
-
 - Review
   <a href="http://vel.joomla.org/" class="external text" target="_blank"
   rel="noreferrer noopener">Vulnerable Extensions List</a> to see if you
   have any vulnerable extensions and deal with them. A clue to any
   extensions being targeted is your logs file. Here is an example of
   what to look for,
-
-<!-- -->
-
     //administrator/components/com_extension/admin.extension.php?mosConfig.absolute.path=http:
 
 or
@@ -156,9 +138,6 @@ or
   Checklist](https://docs.joomla.org/Security_Checklist "Security Checklist")
   to make sure you've gone through all of the steps (please note some
   steps are optional, but please review them all).
-
-<!-- -->
-
 - **Change all passwords** and if possible user names for the domains
   control panel, mysql, FTP, [Joomla! Super
   Admin](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F "Why should you immediately change the name of the default admin user?"),
@@ -171,9 +150,6 @@ or
   href="https://docs.joomla.org/How_do_you_recover_your_admin_password%3F"
   class="mw-redirect"
   title="How do you recover your admin password?">these instructions</a>.
-
-<!-- -->
-
 - **Delete and Replace** all templates and files with clean copies,
 - **Check** and/or replace all .pdf, image, photo files for exploits.
   Delete any that are suspicious
@@ -271,14 +247,8 @@ down your hacked/defaced html may take hours or even longer.
   - Use a password manager such as the free
     <a href="http://keepass.info/" class="external text" target="_blank"
     rel="nofollow noreferrer noopener">keepass</a>
-
-<!-- -->
-
 - Scan all machines with FTP, Joomla super admin, and Joomla admin
   access for malware, virus, trojans, spyware, etc.
-
-<!-- -->
-
 - Several packages available are
   - <a href="http://www.eset.com/" class="external text" target="_blank"
     rel="nofollow noreferrer noopener">ENOD32</a> from eSet
@@ -309,9 +279,6 @@ down your hacked/defaced html may take hours or even longer.
 
 - Do not use the standard jos\_ table prefix and avoid one click
   installers where possible
-
-<!-- -->
-
 - Set the
   <a href="http://feeds.joomla.org/JoomlaSecurityNews?format=xml"
   class="external text" target="_blank" rel="noreferrer noopener">joomla
@@ -325,65 +292,35 @@ down your hacked/defaced html may take hours or even longer.
     class="mw-redirect" title="Screen.modulesadministrator.edit.15">Add the
     Admin Feed Display Module</a> if it is missing. Enable it to the
     first place on your sites back end control panel.
-
-<!-- -->
-
 - Consider adding a
   <a href="http://forum.joomla.org/viewtopic.php?p=1568940#p1568940"
   class="external text" target="_blank" rel="noreferrer noopener">bot
   block list</a> to your .htaccess file
-
-<!-- -->
-
 - Use <a href="http://en.wikipedia.org/wiki/SSH_file_transfer_protocol"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">sFTP</a> instead of FTP where
   possible
-
-<!-- -->
-
 - Do not enable or use <a
   href="http://en.wikipedia.org/wiki/File_Transfer_Protocol#Anonymous_FTP"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">anonymous ftp</a> accounts for any
   reason.
-
-<!-- -->
-
 - Use a server that has
   <a href="http://www.modsecurity.org/" class="external text"
   target="_blank" rel="nofollow noreferrer noopener">mod_security</a>
   installed properly
-
-<!-- -->
-
 - Check for any added sub domains and/or added directories
-
-<!-- -->
-
 - Check for any
   <a href="http://en.wikipedia.org/wiki/Common_Gateway_Interface"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">cgi scripts</a>
-
-<!-- -->
-
 - Check
   <a href="http://en.wikipedia.org/wiki/Cron" class="external text"
   target="_blank" rel="nofollow noreferrer noopener">cron</a> for any
   cron jobs not set up by domain administrator
-
-<!-- -->
-
 - Download and <sup>[\[3\]](#cite_note-3)</sup>
-
-<!-- -->
-
 - Deny any IP's that you got to the IP ban on your site but it may
   belong to a proxy site.
-
-<!-- -->
-
     Was your site hacked in the past and proper site sanitation not used to remove actual
     (and hidden) hack thus leaving a backdoor for reinfection.
 
@@ -395,9 +332,6 @@ down your hacked/defaced html may take hours or even longer.
   href="http://www.google.co.uk/search?q=intext%3A+welcome+to+the+front+page+joomla&amp;"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">search engine attacks</a>.
-
-<!-- -->
-
 - Completely remove/uninstall, don't unpublish unused or vulnerable
   extensions. [Un-publishing a vulnerable extension will not protect
   your

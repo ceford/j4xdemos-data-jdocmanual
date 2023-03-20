@@ -170,9 +170,6 @@ administrateurs devraient être en mesure de voir ?
   href="http://extensions.joomla.org/support/knowledgebase/item/choosing-secure-extensions"
   class="external text" target="_blank" rel="noreferrer noopener">Comment
   choisir des extensions sécurisées sur le site du JED</a>
-
-<!-- -->
-
 - See:
   <a href="https://extensions.joomla.org/vulnerable-extensions/about/"
   class="external text" target="_blank"

@@ -99,9 +99,6 @@ My php script doesn't work or I have an error message.
     permissions of no more than 755.  
     644 will work just fine normally, this is not something that will
     need to be changed in most cases.
-
-<!-- -->
-
 1.  1.  Check that the directory permissions that the script resides
         within is set to a maximum of 755.  
         This also includes directories that the script would need to

@@ -43,9 +43,6 @@ kolom wordt getoond.
   deze groep (klik op het aantal om ze te zien).
 - **Gedeactiveerde gebruikers**. (kruis) Het aantal gedeactiveerde
   gebruiker in deze groep (klik op het aantal om ze te zien).
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -68,22 +65,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn:
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe user group te maken.
-
-<!-- -->
-
 - **Verwijderen:** Verwijderd de geselecteerde user groups. Werkt met
   één of meerdere user groups geselecteerd. Als je een groep verwijderd
   waar gebruikers aan toegevoegd zijn, zullen deze gebruikers de rechten
   verliezen die men had voor deze groep. Het is aan te bevelen om eerst
   alle gebruikers te verwijderen voor je de groep verwijderd.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

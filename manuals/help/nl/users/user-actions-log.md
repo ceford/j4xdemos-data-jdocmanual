@@ -96,14 +96,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
   exporteren naar een CSV bestand
 - **Verwijderen.** Verwijdert een of meer geselecteerde records.
 - **Wis**. Hiermee kunt u in één keer alle gebruikersacties verwijderen
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

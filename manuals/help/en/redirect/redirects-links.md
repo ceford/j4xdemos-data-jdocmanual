@@ -38,9 +38,6 @@ Click on the column heading to sort the list by that column's value.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Status**: Published status of the item. Possible values are:
   - *Published*: The item is published. This is the only state that will
     allow regular website users to view this item.
@@ -51,22 +48,10 @@ Click on the column heading to sort the list by that column's value.
   Only the web page portion of the URL is displayed in this listing.
 - **New URL.** The destination URL for the redirect.
 - **Referring Page.** The referring web page for the redirect.
-
-<!-- -->
-
 - **Created Date**. Date the item(Article, Category, Weblink, etc.) was
   created.
-
-<!-- -->
-
 - **404 Hits.** Number of 404 Hits there has been on this URL.
-
-<!-- -->
-
 - **Status Code.** The Status Code of the page.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -136,30 +121,15 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new item.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Enable**. Makes the selected item available for use on your website.
-
-<!-- -->
-
 - **Disable**. Makes the selected items unavailable for use on your
   website.
-
-<!-- -->
-
 - **Archive**. Changes the status of the selected items to indicate that
   they are archived. Archived items can be moved back to the published
   or unpublished state by selecting 'Archived' in the 'Select Status'
   filter and changing the status of the items.
-
-<!-- -->
-
 - **Trash**. Changes the status of the selected items to indicate that
   they are trashed.Trashed items can still be recovered by selecting
   'Trashed' in the 'Select Status' filter and changing the status of the
@@ -167,28 +137,13 @@ At the top of the page you will see the toolbar shown in the
   delete trashed items, select 'Trashed' in the 'Select Status' filter,
   select the items to be permanently deleted, then click the 'Empty
   Trash' toolbar icon.
-
-<!-- -->
-
 - **Empty Trash.** Select one or more Articles and click on this button
   to permanently delete them.
-
-<!-- -->
-
 - **Bulk Import**. Bulk process to add new URLs.
-
-<!-- -->
-
 - **Purge Disabled**. Deletes all disabled links. URL's that are still
   enabled will not be deleted.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Options

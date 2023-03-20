@@ -405,9 +405,6 @@ Video above.
   <a href="https://symfony.com/doc/current/console/style.html"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">How to Style a Console Command</a>
-
-<!-- -->
-
 -   
 -   
 -   

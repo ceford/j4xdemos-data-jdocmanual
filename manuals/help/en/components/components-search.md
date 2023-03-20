@@ -220,18 +220,9 @@ The functions are:
 
 - **Show Search Results / Hide Search Results**. Toggle this button to
   show or hide the "Results" column values.
-
-<!-- -->
-
 - **Reset**. Resets the search log to its initial, empty state.
   *Warning: This will erase all prior search statistics information.*
-
-<!-- -->
-
 - **Help**. Opens this help screen.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
 
@@ -252,18 +243,9 @@ title="File:Help-4x-Search-Save-SaveClose-Close-Help-toolbar-en.png">800px</a>
 The functions are:
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ### Search Tab

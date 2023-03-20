@@ -40,46 +40,22 @@ Klik op de kolomkop om de lijst volgens deze kolom te sorteren.
   uitgevoerd worden. Andere, zoals Bewerken, werken alleen voor één
   item. Indien er meerdere items geselecteerd zijn en op Bewerken wordt
   geklikt, opent het het eerste item om het te bewerken.
-
-<!-- -->
-
 - **Volgorde:** (standaard). De kolom waarin getoonde items in de tabel
   gesorteerd worden. De waarden zijn hetzelfde als de namen van de
   kolomkoppen.
-
-<!-- -->
-
 - **Speciaal.** Of het item, al dan niet, getoond wordt bij speciale
   artikelen.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van het item.
-
-<!-- -->
-
 - **Titel**. De naam van het item. Voor een menu-item wordt de titel in
   het menu weergegeven. Voor een artikel of categorie wordt de titel
   optioneel weergegeven op de webpagina. Invullen is vereist. Een item
   kan bewerkt worden door op de titel te klikken.
-
-<!-- -->
-
 - **Gelinkte gebruiker.** De gebruikersnaam waar deze contactpersoon aan
   gelinkt is (indien van toepassing).
-
-<!-- -->
-
 - **Toegang**. Het
   [Toegangsniveau](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/nl "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/nl")
   om het item te bekijken.
-
-<!-- -->
-
 - **Taal**. Item taal.
-
-<!-- -->
-
 - **ID**. Dit is een uniek identificatienummer voor dit item,
   automatisch toegekend door Joomla!. Het wordt gebruikt om het item
   intern te identificeren en u kunt dit nummer niet veranderen. Als u
@@ -108,37 +84,19 @@ bovenstaande [Screenshot](#screenshot).
   uit de uitklaplijst om het te tonen aantal te veranderen.De standaard
   voor een site is '20' maar dit kan veranderd worden bij de [Algemene
   instellingen](https://docs.joomla.org/Help4.x:Site_Global_Configuration/nl#defaultlistlimit "Help4.x:Site Global Configuration/nl").
-
-<!-- -->
-
 - **Selecteer Speciaal**. Selecteer uit 'Niet speciale artikelen' /
   'Speciale artikelen'.
-
-<!-- -->
-
 - **Selecteer status**. Selecteer uit Naar prullenbak / Gedepubliceerd /
   Gepubliceerd / Gearchiveerd / Alles.
-
-<!-- -->
-
 - **Selecteer categorie**. Selecteer uit de lijst met beschikbare
   categorieën.
-
-<!-- -->
-
 - **Selecteer toegang**. Selecteer uit de lijst met beschikbare weergave
   toegangsniveaus.
-
-<!-- -->
-
 - 
 
 **Selecteer taal**. Selecteer uit de lijst met beschikbare talen.
 
 - **Selecteer tag**. Selecteer uit de lijst met beschikbare tags.
-
-<!-- -->
-
 - **Selecteer max niveaus**. Selecteer uit de lijst met beschikbare
   niveaus.
 
@@ -160,14 +118,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 - **Nieuw**. Opent het bewerk scherm om een nieuwe contactpersoon te
   maken.
-
-<!-- -->
-
 - **Acties:** Toont een lijst met acties voor geselecteerde items.. Vink
   een of meer items aan om de lijst te activeren.
-
-<!-- -->
-
   - **Publiceren**. Maakt de geselecteerde contactpersoon beschikbaar
     voor de bezoekers van uw website.
 
@@ -203,14 +155,8 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
     "Verplaatst naar prullenbak" in het Selecteer status filter,
     selecteer de contactpersoon die definitief verwijderd moeten worden
     en klik daarna op het 'Prullenbak leegmaken' werkbalk icoon.
-
-<!-- -->
-
 - **Opties.** Opent het venster Opties, waar instellingen zoals de
   standaard parameters kunnen worden bewerkt.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Snelle tips

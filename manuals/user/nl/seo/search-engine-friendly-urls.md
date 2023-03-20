@@ -89,14 +89,8 @@ artikel/categorie blog was, dan zou de link naar de titel van het
 artikel en/of de 'lees meer' link uit drie delen bestaan:
 
 - De menu-item-URL - voorbeeld.com/producten;
-
-<!-- -->
-
 - Plus, de primaire sleutel voor de categorie en de categorie alias -
   32-fruit;
-
-<!-- -->
-
 - Plus, de primaire sleutel voor het artikel en het artikel alias -
   1-appel;
 

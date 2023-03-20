@@ -117,9 +117,6 @@ alt="Help-4x-Menus-Item-Articles-Category-List-list-layouts-subscreen-de.png" />
 - **Datumsformat**. Optionaler Formatstring für die Datumsanzeige.
 - **Zugriffe**. Die Zahl der Aufrufe für den Beitrag zeigen.
 - **Autor in Liste**. Den Namen des Autors zeigen.
-
-<!-- -->
-
 - **Kategoriesortierung**.
   - Keine Sortierung: Beiträge sind nur nach der Beitrags-Sortierung,
     ohne Berücksichtigung der Kategorie, sortiert.

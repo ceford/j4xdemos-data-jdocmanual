@@ -104,9 +104,6 @@ There are two ways to access **Transitions**:
     view.
 2.  Click the blue line with arrows in both directions from the
     **Workflow** list view.
-
-<!-- -->
-
 1.  Go to **Transitions**.
 2.  Click New.
 3.  Add the **Title**: *Approve/Publish*

@@ -61,9 +61,6 @@ Het rechter venster is gelijk voor alle modules.
 
 - **Toon titel.** Of de titel van de module al dan niet getoond moet
   worden.
-
-<!-- -->
-
 - **Positie.** Kies de [module
   positie](https://docs.joomla.org/Module_Position/nl "Module Position/nl")
   waarop u wilt dat de module getoond wordt. Een aangepaste module
@@ -71,9 +68,6 @@ Het rechter venster is gelijk voor alle modules.
   plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/nl "How do you put a module inside an article?/nl")
   of er kan op de positie knop gedrukt worden om een module positie te
   selecteren uit het template.
-
-<!-- -->
-
 - **Status**. De publicatiestatus van dit item.
   - *Gepubliceerd:* Item is zichtbaar op de website.
   - *Gedepubliceerd:* Item is niet zichtbaar voor gasten op de website.
@@ -86,23 +80,14 @@ Het rechter venster is gelijk voor alle modules.
     de database met de functie Prullenbak legen in de werkbalk (zie ook
     [Verwijderen van een
     artikel](https://docs.joomla.org/Deleting_an_Article/nl "Special:MyLanguage/Deleting an Article/nl")).
-
-<!-- -->
-
 - **Start publiceren**. Datum en tijd waarop de publicatie moet starten.
   Gebruik dit veld wanneer u voortijdig inhoud wilt toevoegen die
   automatisch op een bepaalde tijd in de toekomst gepubliceerd moet
   worden.
-
-<!-- -->
-
 - **Beëindig publiceren**. Datum en tijd om te stoppen met publiceren.
   Gebruik dit veld als u inhoud automatisch de status gedepubliceerd
   wilt geven op een tijdstip in de toekomst (bijvoorbeeld wanneer het
   niet meer van toepassing is).
-
-<!-- -->
-
 - **Toegang**. Selecteer het weergave toegangsniveau voor dit item uit
   de uitklaplijst. De weergegeven toegangsniveaus zijn afhankelijk van
   wat is ingesteld voor deze website in [Gebruikers →
@@ -110,9 +95,6 @@ Het rechter venster is gelijk voor alle modules.
   Let op, toegangsniveaus zijn niet identiek aan ACL rechten.
   Toegangsniveaus bepalen wat een gebruiker kan bekijken. ACL rechten
   controleren welke acties een gebruiker kan uitvoeren.
-
-<!-- -->
-
 - **Volgorde.** U kunt de volgorde van een item binnen een lijst als
   volgt veranderen:
   - Als het lijstfilter opties een positie filter hebben, selecteer dan
@@ -132,15 +114,9 @@ Het rechter venster is gelijk voor alle modules.
     sleep het naar boven of beneden om de positie van die rij in de
     lijst te veranderen. De items worden in de nieuwe volgorde binnen de
     positie getoond.
-
-<!-- -->
-
 - **Taal**. Selecteer de taal voor dit item. Wanneer u de meertalige
   functie in Joomla niet gebruikt, laat dan de standaard ingevulde
   'Alle' ongewijzigd.
-
-<!-- -->
-
 - **Notitie**. Dit wordt normaal gesproken door de beheerder gebruikt
   (bijvoorbeeld om informatie te documenteren voor dit item) en is niet
   op de website zichtbaar.
@@ -161,9 +137,6 @@ alt="Help-4x-Module-Manager-Edit-menu-assignment-nl.png" />
 #### Menutoewijzing tabblad - Moduletoewijzing
 
 - **Moduletoewijzing**. Klik op de drop-down lijst voor moduletoewijzing
-
-<!-- -->
-
 - **Op alle pagina's**. Module wordt getoond op alle pagina's op de
   geselecteerde module positie.
 - **Geen pagina's**. Module **wordt niet getoond** op een pagina op de
@@ -221,35 +194,17 @@ Bovenaan de pagina ziet u de werkbalk zoals in de afbeelding hierboven.
 De functies zijn.
 
 - **Opslaan.** Slaat user op en blijft op het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & sluiten**. Slaat user op en sluit het huidige scherm.
-
-<!-- -->
-
 - **Opslaan & nieuw**. Slaat user op en houdt het bewerkscherm open,
   klaar voor het aanmaken van een ander user.
-
-<!-- -->
-
 - **Opslaan als kopie**. Slaat uw wijzigingen op als een kopie van het
   huidige user. Beïnvloed het huidige user niet. Dit werkbalk icoon
   wordt niet getoond bij het aanmaken van een nieuw user.
-
-<!-- -->
-
 - **Annuleren/Sluiten**. Sluit het huidige scherm en keert terug naar
   het vorige scherm zonder wijzigingen die u misschien heeft gedaan op
   te slaan. Of
-
-<!-- -->
-
 - **Sluiten**. Sluit het huidige scherm en keert terug naar het vorige
   scherm zonder wijzigingen die u misschien heeft gedaan op te slaan.
-
-<!-- -->
-
 - **Help**. Opent dit helpscherm.
 
 ## Verwante informatie

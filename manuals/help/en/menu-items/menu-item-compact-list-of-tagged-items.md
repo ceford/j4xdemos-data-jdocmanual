@@ -34,9 +34,6 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Compact-List-en.png" />
 ## Form Fields
 
 - **Menu Title:** The title that will display for this menu item.
-
-<!-- -->
-
 - **Alias**. The internal name of the item. Normally, you can leave this
   blank and Joomla will fill in a default value Title in lower case and
   with dashes instead of spaces. [Learn
@@ -49,47 +46,23 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Compact-List-en.png" />
 - **Menu Item Type**. The Menu Item Type selected when this menu item
   was created. This can be one of the core menu item types or a menu
   item type provided by an installed extension.
-
-<!-- -->
-
 - **Tag**. Select the tag to use.
-
-<!-- -->
-
 - **Content Type.** Only tags of the selected types will be displayed
   (optional).
-
-<!-- -->
-
 - **Language Filter**. (Use Global (All)/All/Current/English
   (en-GB)/...). Optionally filter the list of tags based on language.
-
-<!-- -->
-
 - **Link**. The system-generated link for this menu item. This field
   cannot be changed and is for information only.
-
-<!-- -->
-
 - **Target Window.** Select from the drop-down list.
-
-<!-- -->
-
 - **Template Style.** Select from the drop-down list.
 
 **Right Panel**
 
 - **Menu**. Shows which menu the link will appear in.
-
-<!-- -->
-
 - **Parent Item.** The parent menu item for this menu item. Used to
   determine whether a Menu Item is a top-level item or a submenu item.
   Select 'Menu Item Root' (the default value) if this is a top-level
   Menu Item. Otherwise, select the Menu Item that is this item's parent.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -108,25 +81,13 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Compact-List-en.png" />
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Start Publishing**. Date and time to start publishing. Use this
   field if you want to enter content ahead of time and then have it
   published automatically at a future time.
-
-<!-- -->
-
 - **Finish Publishing**. Date and time to finish publishing. Use this
   field if you want to have content automatically changed to Unpublished
   state at a future time (for example, when it is no longer applicable).
-
-<!-- -->
-
 - **Default Page**. If Yes, this menu item is the default or home page
   for the site. There must be exactly one menu item set as the default
   page. You can change the default page in two ways:
@@ -135,19 +96,10 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Compact-List-en.png" />
       screen.
   2.  Open the menu item for the new default page and change the Default
       Page setting to Yes.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **Note**. This is normally for the site administrator's use (for
   example, to document information about this item) and does not show in
   the Frontend of the site.
@@ -162,35 +114,17 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Items-Compact-List-Tags-options-screensh
 
 - **Show Tag Name.** (Use Global(Hide)/Hide/Show). For a layout with one
   tag, show the tag name.
-
-<!-- -->
-
 - **Tag Image.** (Use Global(Hide)/Hide/Show). For a layout with one
   tag, show the image for the tag.
-
-<!-- -->
-
 - **Tag Description.** (Use Global(Hide)/Hide/Show). Show or hide the
   description for the tag (only used when a single tag is selected).
-
-<!-- -->
-
 - **Image.** Select or upload the image.
-
-<!-- -->
-
 - **Description**. The description for the item. Category, Subcategory
   and Web Link descriptions may be shown on web pages, depending on the
   parameter settings. These descriptions are entered using the same
   editor that is used for Articles.
-
-<!-- -->
-
 - **Ordering:** (default). The column in which to sort displayed items
   in the table. The values are the same as the column heading names.
-
-<!-- -->
-
 - **Direction.** Sort order. Descending is highest to lowest. Ascending
   is lowest to highest.
 
@@ -203,20 +137,11 @@ width="600" height="255"
 alt="Help-4x-Menus-Menu-Item-Tags-Items-Items-Compact-List-ListLayout-options-screenshot-en.png" />
 
 - **Item Image.** (Use Global/Hide/Show). Show the image for each item.
-
-<!-- -->
-
 - **Item Description.** (Use Global/Hide/Show). Show or hide the
   description for each item in the list. The length may be limited using
   the Maximum Character option.
-
-<!-- -->
-
 - **Maximum Characters.** The maximum number of characters to display
   from the description in each tag.
-
-<!-- -->
-
 - **Filter Field.** The Filter Field creates a text field where a user
   can enter a field to be used to filter the articles shown in the list.
   An example of how this looks in the front-end layout is shown below.
@@ -241,9 +166,6 @@ alt="Help30-article-category-list-filter-field-options-en.png" />
 - *Title:* Filter on article title.
 - *Author:* Filter on the author's name.
 - *Hits:* Filter on the number of article hits.
-
-<!-- -->
-
 - **Display Select.** (Use Global/Hide/Show) Whether to hide or show the
   Display \# control that allows the user to select the number of items
   to show in the list. An example of how it is shown in the Front End
@@ -263,9 +185,6 @@ headings, to limit which items display.
 
 - **\# Items to List.** (Use Global, 5, 10, 15...) Default number of
   tagged items to list on a page.
-
-<!-- -->
-
 - **Pagination.** Hide or Show Pagination support. Pagination provides
   page links at the bottom of the page that allow the User to navigate
   to additional pages. These are needed if the listed items will not fit
@@ -282,15 +201,9 @@ The following options are available.
 - *Show:* Pagination links shown if needed.
 - *Hide:* Pagination links not shown. Note: In this case, Users will not
   be able to navigate to additional pages.
-
-<!-- -->
-
 - **Pagination Results.** Hide or Show the current page number and total
   pages (e.g., "Page 1 of 2") at the bottom of each page. Use Global
   will use the default value from the component options.
-
-<!-- -->
-
 - **Show Date.** This option allows you to show a date in the list. The
   options are as follows.
 
@@ -306,9 +219,6 @@ alt="Help30-article-category-list-show-date-en.png" />
 - *Created:* Show the created date.
 - *Modified:* Show the date of the last modification.
 - *Created:* Show the start publishing date.
-
-<!-- -->
-
 - **Date Format.** Optional format string to control the format of the
   date (if shown). If left blank, the date will use the DATE_FORMAT_LC1
   format from the language file (for example, "D M Y" for "31 December
@@ -329,9 +239,6 @@ alt="Help-4x-Menus-Menu-Item-Tags-Items-Items-Compact-List-Item-Selection-option
 - **Match Type.** (Use Global (Any), All, Any) All will return items
   that have all of the tags. Any will return items that have at least
   one of the tags.
-
-<!-- -->
-
 - **Child Tags.** (Use Global (Exclude), Exclude, Include) Include or
   exclude child tags from the result list for a tag.
 
@@ -356,23 +263,11 @@ At the top of the page you will see the toolbar shown in the Screenshot
 above. The functions are:
 
 - **Save.** Saves the menu item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the menu item and closes the current screen.
-
-<!-- -->
-
 - **Save & New**. Saves the menu item and keeps the editing screen open
   and ready to create another menu item.
-
-<!-- -->
-
 - **Cancel**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Front End Screenshot

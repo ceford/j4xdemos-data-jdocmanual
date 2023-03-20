@@ -44,19 +44,10 @@ Para alterar as permissões para esta extensão, faça o seguinte.
 - Selecione o **Grupo** acionando o (clicando em) seu título localizado
   à esquerda.
 - Encontre a **ação** desejada. As ações possíveis são:
-
-<!-- -->
-
   - **Configurar ACL e opções**. Os usuários podem editar as opções e
     permissões desta extensão.
-
-<!-- -->
-
   - **Configurar apenas as opções**. Os usuários podem editar as opções,
     exceto as permissões desta extensão.
-
-<!-- -->
-
   - **Acessar a interface da administração**. Os usuários podem acessar
     a interface da administração para usuário desta extensão.
   - **Criar:** Os usuários podem criar conteúdo desta extensão.
@@ -87,19 +78,10 @@ No topo da página você verá a barra de ferramentas mostrada na [captura
 de tela](#Captura_de_tela) acima. As funções são:
 
 - **Salvar**: Salva o item e permanece na tela atual.
-
-<!-- -->
-
 - **Salvar fechar**: Salva o item e fecha a tela atual.
-
-<!-- -->
-
 - **Fechar**: Fecha a tela atual e retorna à tela anterior sem salvar
   nenhuma modificação que tenha feito. Este ícone da barra de
   ferramentas não é exibido se você estiver criando um novo item.
-
-<!-- -->
-
 - **Ajuda**: Abre a tela de ajuda.
 
 ## Dicas rápidas

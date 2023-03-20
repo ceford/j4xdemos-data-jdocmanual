@@ -721,9 +721,6 @@ The steps involved:
 - Select **Create Overrides **→** mod_custom **→** default.php**.
 - On the line following defined('\_JEXEC') or die; add the following
   code:
-
-<!-- -->
-
     $module_class = $params->get('moduleclass_sfx');
     if (!empty($module_class))
     {
@@ -794,9 +791,6 @@ is needed. For example, it makes sense to use the **.btn** class and the
   - In the Position field type in **demomodal** for use in an article;
   - Module Content: Toggle Editor for plain text entry.
   - Paste in the following code from the Bootstrap documentation:
-
-<!-- -->
-
     Modal
 
      Launch demo modal 
@@ -845,9 +839,6 @@ width="1440" height="742" alt="Bootstrap Modal in an Article" />
 - Position: demomodalcarousel
 - **Advance tab **→** Module Class**: bs-modal bs-carousel
 - Module Custom content in plain text:
-
-<!-- -->
-
     Modal with Carousel
 
          

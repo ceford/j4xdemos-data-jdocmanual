@@ -65,27 +65,15 @@ Próximo do topo da página irá ver a barra de filtro mostrada na «Captura
 de Ecrã» acima. As funções são:
 
 - **Guardar**. Guarda o item e fica no ecrã atual.
-
-<!-- -->
-
 - 
 
 **Save & Close**. Saves the item and closes the current screen.
 
 - **Guardar e Novo**. Guarda o item e mantém o ecrã de edição aberto e
   pronto para criar outro item.
-
-<!-- -->
-
 - **Cancelar**. Fecha o ecrã atual e volta para o ecrã anterior sem
   guardar quaisquer modificações que tenham sido efetuadas. Ou
-
-<!-- -->
-
 - **Fechar**. Fecha o ecrã atual e volta ao ecrã anterior sem guardar
   quaisquer modificações que tenham sido efetuadas. This toolbar icon is
   not shown if you are creating a new item.
-
-<!-- -->
-
 - **Ajuda**. Abre este ecrã de ajuda.
