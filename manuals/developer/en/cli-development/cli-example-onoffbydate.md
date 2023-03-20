@@ -1,7 +1,5 @@
 <!-- Filename: J4.x:CLI_example_-_Onoffbydate / Display title: CLI example - Onoffbydate -->
 
-Joomla!  4.x
-
 ## Introduction
 
 There are occasions when a site needs to display or hide a module
@@ -40,27 +38,31 @@ new cli type in due course. The files:
 
 This is the installation file - a standard item for any extension.
 
-
-        plg_system_onoffbydate
-        Clifford E Ford
-        October 2021
-        (C) Clifford E Ford
-        GNU General Public License version 3 or later
-        cliff@ford.myzen.co.uk
-        0.2.0
-        PLG_SYSTEM_ONOFFBYDATE_DESCRIPTION
-        Joomla\Plugin\System\Onoffbydate
-        
-            onoffbydate.php
-            services
-            src
-        
-        
-            language/en-GB/plg_system_onoffbydate.ini
-            language/en-GB/plg_system_onoffbydate.sys.ini
-        
-        
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>plg_system_onoffbydate</name>
+	<author>Clifford E Ford</author>
+	<creationDate>October 2021</creationDate>
+	<copyright>(C) Clifford E Ford</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>cliff@ford.myzen.co.uk</authorEmail>
+	<version>0.2.0</version>
+	<description>PLG_SYSTEM_ONOFFBYDATE_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\System\Onoffbydate</namespace>
+	<files>
+		<filename plugin="onoffbydate">onoffbydate.php</filename>
+		<folder>services</folder>
+		<folder>src</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/plg_system_onoffbydate.ini</language>
+		<language tag="en-GB">language/en-GB/plg_system_onoffbydate.sys.ini</language>
+	</languages>
+	<config>
+	</config>
+</extension>
+```        
 
 Note in particular the **namespace** line. It tells Joomla where to find
 the namespaced code for this plugin.
@@ -71,33 +73,92 @@ This is the standard entry point for a Legacy plugin but it is not used
 at all for a Joola 4 plugin. However it needs to be present for the
 Joomla Installer. Without it the install will fail.
 
+```php
+<?php
+/**
+ * @package     Joomla.Plugin
+ * @subpackage  System.onoffbydate
+ *
+ * @copyright   (C) 2021 Clifford E Ford.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-    services/provider.php
+defined('_JEXEC') or die;
 
-    This is the entry point for the plugin code.
+use Joomla\CMS\Plugin\CMSPlugin;
 
-    set(
-                    PluginInterface::class,
+/**
+ * This class is not used by the plugin but needs to be present to satisfy the
+ * installer. Without it the plugin will not install.
+ */
 
-                    function (Container $container) {
-                        $subject = $container->get(DispatcherInterface::class);
-                        $config  = (array) PluginHelper::getPlugin('system', 'onoffbydate');
+class Plgsystemonoffbydate extends CMSPlugin
+{
 
-                        return new Onoffbydate($subject, $config);
-                    }
-                    );
-
-        }
-    };
+}
+```
 
 Notice the call to create a **new Onoffbydate** class. That is located
 in the src/Extension folder - the standard location to boot a Joomla 4
 extension.
 
+## services/provider.php
+
+This is the entry point for the plugin code.
+
+```php
+<?php
+/**
+ * @package     Joomla.Plugin
+ * @subpackage  System.onoffbydate
+ *
+ * @copyright   (C) 2021 Clifford E Ford.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') || die;
+
+use Joomla\CMS\Extension\PluginInterface;
+use Joomla\CMS\Plugin\PluginHelper;
+use Joomla\DI\Container;
+use Joomla\DI\ServiceProviderInterface;
+use Joomla\Event\DispatcherInterface;
+use Joomla\Plugin\System\Onoffbydate\Extension\Onoffbydate;
+
+return new class implements ServiceProviderInterface {
+	/**
+	 * Registers the service provider with a DI container.
+	 *
+	 * @param   Container  $container  The DI container.
+	 *
+	 * @return  void
+	 *
+	 * @since   4.0.0
+	 */
+	public function register(Container $container)
+	{
+		$container->set(
+				PluginInterface::class,
+
+				function (Container $container) {
+					$subject = $container->get(DispatcherInterface::class);
+					$config  = (array) PluginHelper::getPlugin('system', 'onoffbydate');
+
+					return new Onoffbydate($subject, $config);
+				}
+				);
+
+	}
+};
+```
+
+Notice the call to create a new Onoffbydate class. That is located in the src/Extension folder - the standard location to boot a Joomla 4 extension. 
+
 ### src/Extension/Onoffbydate.php
 
 This is the place where the plugin initialisation code is located.
 
+```php
     app->isClient('cli'))
             {
                 return;
@@ -122,6 +183,7 @@ This is the place where the plugin initialisation code is located.
             $this->app->addCommand($commandObject);
         }
     }
+```
 
 Notice the call to create a **new OnoffbydateCommand** class. That is
 located in the src/Console folder. Console is a personal choice - the
@@ -142,125 +204,198 @@ That seems to be the case with most of the Joomla core cli commands.
 
 ### The Command File: src/Console/OnoffbydateCommand.php
 
-    cliInput = $input;
-            $this->ioStyle = new SymfonyStyle($input, $output);
-        }
+```php
+<?php
+/**
+ * @package     Joomla.Console
+ * @subpackage  Onoffbydate
+ *
+ * @copyright   Copyright (C) 2005 - 2021 Clifford E Ford. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-        /**
-         * Initialise the command.
-         *
-         * @return  void
-         *
-         * @since   4.0.0
-         */
-        protected function configure(): void
-        {
-            $this->addArgument('action',
-                    InputArgument::REQUIRED,
-                    'name of action');
+namespace Joomla\Plugin\System\Onoffbydate\Console;
 
-            $this->addArgument('module_id',
-                    InputArgument::REQUIRED,
-                    'module id');
+\defined('JPATH_PLATFORM') or die;
 
-            $help = "%command.name% Toggles module Enabled/Disabled state
-                \nUsage: php %command.full_name% action_id module_id
-                \nwhere action_id is one of winter or weekend";
+use Joomla\CMS\Factory;
+use Joomla\Console\Command\AbstractCommand;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidOptionException;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Question\ChoiceQuestion;
+use Symfony\Component\Console\Style\SymfonyStyle;
 
-            $this->setDescription('Called by cron to set the enabled state of a module.');
-            $this->setHelp($help);
+class OnoffbydateCommand extends AbstractCommand
+{
+	/**
+	 * The default command name
+	 *
+	 * @var    string
+	 *
+	 * @since  4.0.0
+	 */
+	protected static $defaultName = 'onoffbydate:action';
 
-        }
+	/**
+	 * @var InputInterface
+	 * @since version
+	 */
+	private $cliInput;
 
-        /**
-         * Internal function to execute the command.
-         *
-         * @param   InputInterface   $input   The input to inject into the command.
-         * @param   OutputInterface  $output  The output to inject into the command.
-         *
-         * @return  integer  The command exit code
-         *
-         * @since   4.0.0
-         */
-        protected function doExecute(InputInterface $input, OutputInterface $output): int
-        {
-            $this->configureIO($input, $output);
+	/**
+	 * SymfonyStyle Object
+	 * @var SymfonyStyle
+	 * @since 4.0.0
+	 */
+	private $ioStyle;
 
-            $action = $this->cliInput->getArgument('action');
-            $module_id = $this->cliInput->getArgument('module_id');
+	/**
+	 * Instantiate the command.
+	 *
+	 * @since   4.0.0
+	 */
+	public function __construct()
+	{
+		parent::__construct();
+	}
 
-            switch ($action) {
-                case 'winter' :
-                    $result = $this->winter($module_id);
-                    break;
-                case 'weekend' :
-                    $result = $this->weekend($module_id);
-                    break;
-                default:
-                    $this->ioStyle->error("Unknwon action: {$action}");
-                    return 0;
-            }
+	/**
+	 * Configures the IO
+	 *
+	 * @param   InputInterface   $input   Console Input
+	 * @param   OutputInterface  $output  Console Output
+	 *
+	 * @return void
+	 *
+	 * @since 4.0.0
+	 *
+	 */
+	private function configureIO(InputInterface $input, OutputInterface $output)
+	{
+		$this->cliInput = $input;
+		$this->ioStyle = new SymfonyStyle($input, $output);
+	}
 
-            return 1;
-        }
+	/**
+	 * Initialise the command.
+	 *
+	 * @return  void
+	 *
+	 * @since   4.0.0
+	 */
+	protected function configure(): void
+	{
+		$this->addArgument('action',
+				InputArgument::REQUIRED,
+				'name of action');
 
-        protected function weekend($module_id)
-        {
-            // get the day of the week
-            $day = date('w');
-            if (in_array($day, array(0,6)))
-            {
-                $msg = "Today is a weekend.";
-                $published = 1;
-            }
-            else
-            {
-                $msg = "Today is not a weekend.";
-                $published = 0;
-            }
+		$this->addArgument('module_id',
+				InputArgument::REQUIRED,
+				'module id');
 
-            $this->publish($module_id, $published);
+		$help = "<info>%command.name%</info> Toggles module Enabled/Disabled state
+			\nUsage: <info>php %command.full_name% action_id module_id
+			\nwhere action_id is one of winter or weekend</info>";
 
-            $state = empty($published) ? 'Unpublished' : 'Published';
+		$this->setDescription('Called by cron to set the enabled state of a module.');
+		$this->setHelp($help);
 
-            $this->ioStyle->success("That seemed to work. {$msg} Module {$module_id} has been {$state}");
+	}
 
-        }
+	/**
+	 * Internal function to execute the command.
+	 *
+	 * @param   InputInterface   $input   The input to inject into the command.
+	 * @param   OutputInterface  $output  The output to inject into the command.
+	 *
+	 * @return  integer  The command exit code
+	 *
+	 * @since   4.0.0
+	 */
+	protected function doExecute(InputInterface $input, OutputInterface $output): int
+	{
+		$this->configureIO($input, $output);
 
-        protected function winter($module_id)
-        {
-            // get the month of the month
-            $month = date('n');
-            if (in_array($month, array(1,2,11,12)))
-            {
-                $msg = "Today is in winter.";
-                $published = 0;
-            }
-            else
-            {
-                $msg = "Today is not in winter.";
-                $published = 1;
-            }
+		$action = $this->cliInput->getArgument('action');
+		$module_id = $this->cliInput->getArgument('module_id');
 
-            $this->publish($module_id, $published);
+		switch ($action) {
+			case 'winter' :
+				$result = $this->winter($module_id);
+				break;
+			case 'weekend' :
+				$result = $this->weekend($module_id);
+				break;
+			default:
+				$this->ioStyle->error("Unknwon action: {$action}");
+				return 0;
+		}
 
-            $state = empty($published) ? 'Unpublished' : 'Published';
+		return 1;
+	}
 
-            $this->ioStyle->success("That seemed to work. {$msg} Module {$module_id} has been {$state}");
+	protected function weekend($module_id)
+	{
+		// get the day of the week
+		$day = date('w');
+		if (in_array($day, array(0,6)))
+		{
+			$msg = "Today is a weekend.";
+			$published = 1;
+		}
+		else
+		{
+			$msg = "Today is not a weekend.";
+			$published = 0;
+		}
 
-        }
+		$this->publish($module_id, $published);
 
-        protected function publish ($module_id, $published)
-        {
-            $db = Factory::getDbo();
-            $query = $db->getQuery(true);
-            $query->update('#__modules')
-            ->set('published = ' . $published)
-            ->where('id = ' . $module_id);
-            $db->setQuery($query);
-            $db->execute();
-        }
-    }
+		$state = empty($published) ? 'Unpublished' : 'Published';
+
+		$this->ioStyle->success("That seemed to work. {$msg} Module {$module_id} has been {$state}");
+
+	}
+
+	protected function winter($module_id)
+	{
+		// get the month of the month
+		$month = date('n');
+		if (in_array($month, array(1,2,11,12)))
+		{
+			$msg = "Today is in winter.";
+			$published = 0;
+		}
+		else
+		{
+			$msg = "Today is not in winter.";
+			$published = 1;
+		}
+
+		$this->publish($module_id, $published);
+
+		$state = empty($published) ? 'Unpublished' : 'Published';
+
+		$this->ioStyle->success("That seemed to work. {$msg} Module {$module_id} has been {$state}");
+
+	}
+
+	protected function publish ($module_id, $published)
+	{
+		$db = Factory::getDbo();
+		$query = $db->getQuery(true);
+		$query->update('#__modules')
+		->set('published = ' . $published)
+		->where('id = ' . $module_id);
+		$db->setQuery($query);
+		$db->execute();
+	}
+}
+```
 
 The **configure** function establishes that two command line arguments
 are required:
@@ -293,13 +428,16 @@ width="800" height="328" alt="The Site Module List" />
 If the code works you will see onoffbydate among the list of available
 commands. Open a terminal window and enter:
 
+```bash
     php cli/joomla.php list
+```
 
 If something goes wrong at this stage check that the php version invoked
 is the command line version and not that used by the web server. If you
 see onoffbydate among the list of commands you can invoke help to see
 how it should be used:
 
+```bash
     php cli/joomla.php onoffbydate:action --help     
     Usage:
       onoffbydate:action  
@@ -323,14 +461,15 @@ how it should be used:
       Usage: php cli/joomla.php onoffbydate:action action_id module_id
                     
       where action_id is one of winter or weekend
+```
 
 And then just try it out:
 
+```bash
     php cli/joomla.php onoffbydate:action winter 130
-
-                                                                                                                            
+          
      [OK] That seemed to work. Today is not in winter. Module 130 has been Published                                        
-                                                                                                                            
+```
 
 ## The cron
 
@@ -344,7 +483,9 @@ same code works for all.
 On a hosting service you need to give the full paths to the php
 executable and the joomla cli command. Example:
 
+```bash
     /usr/local/bin/php /home/username/public_html/pathtojoomla/cli/joomla.php onoffbydate:action winter 130
+```
 
 Depending on how you have set up your cron and your system you may get a
 comforting email containing exactly the same information you see in the

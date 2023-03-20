@@ -1,26 +1,24 @@
 <!-- Filename: J4.x:CLI_Database_Exporter_Importer / Display title: CLI Database Exporter Importer -->
 
-Joomla!  4.0
+## CLI Database Commands
 
-## About
-
-Before updating Joomla! or [installing a third party
-extension](https://docs.joomla.org/J4.x:CLI_Update "Special:MyLanguage/J4.x:CLI Update"),
-it is strongly recommended that you back up your site.  
 The Joomla! 4.x Console provides commands for exporting (backing up) and
 importing (restoring) your Joomla! database. Note that it doesn't backup
 your filesystem which should be done separately
 
+Before updating Joomla! or installing a third party extension,
+it is strongly recommended that you back up your site.  
+
 ## Requirements
 
-To use these commands, you need a secured shell access (SSH) to your
-host on which the PHP CLI (Command Line Interface) is installed.
-Consider to have basic knowledge of using shell commands.
+To use these commands, you need secure shell access (SSH) to the
+host on which a PHP CLI (Command Line Interface) is installed.
+You need basic knowledge of shell commands.
 
 ## Instructions
 
 Log into your host and go to the root folder of your site.  
-I recommend to use the Joomla 'tmp' folder in your to have read/write
+Use the Joomla 'tmp' folder in your site to have read/write
 permissions.
 
 - List all available commands of the Joomla Console:  

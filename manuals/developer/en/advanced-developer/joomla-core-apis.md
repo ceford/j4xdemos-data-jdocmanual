@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Joomla_Core_APIs / Display title: Joomla Core APIs -->
 
-Joomla!  4.0
+## Joomla!  4.0 Endpoints
 
 This page lists the endpoints available in Joomla by example of curl
 commands.
@@ -68,6 +68,7 @@ curl -X DELETE /api/index.php/v1/banners/{banner_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/banners -d
 
+```json
     {
         "catid": 3,
         "clicks": 0,
@@ -82,18 +83,21 @@ curl -X POST -H "Content-Type: application/json"
             "width": ""
         }
     }
+```
 
 #### Update Banner
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/banners/{banner_id} -d
 
+```json
     {
         "alias": "name",
         "catid": 3,
         "description": "New Text",
         "name": "New Name"
     }
+```
 
 ### Clients
 
@@ -114,6 +118,7 @@ curl -X DELETE /api/index.php/v1/banners/clients/{client_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/banners/clients -d
 
+```json
     {
         "contact": "Name",
         "email": "email@mail.com",
@@ -122,17 +127,20 @@ curl -X POST -H "Content-Type: application/json"
         "name": "Clients",
         "state": 1
     }
+```
 
 #### Update Client
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/banners/clients/{client_id} -d
 
-    {
+ ```json
+   {
         "contact": "new Name",
         "email": "newemail@mail.com",
         "name": "Clients"
     }
+```
 
 ### Categories
 
@@ -153,6 +161,7 @@ curl -X DELETE /api/index.php/v1/banners/categories/{category_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/banners/categories -d
 
+```json
     {
         "access": 1,
         "alias": "cat",
@@ -163,18 +172,21 @@ curl -X POST -H "Content-Type: application/json"
         "published": 1,
         "title": "Title"
     }
+```
 
 #### Update Category
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/banners/categories/{category_id} -d
 
+```json
     {
         "alias": "cat",
         "note": "Some Text",
         "parent_id": 1,
         "title": "New Title"
     }
+```
 
 ### Content History
 
@@ -205,10 +217,12 @@ curl -X GET /api/index.php/v1/config/application
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/config/application -d
 
+```json
     {
         "debug": true,
         "sitename": "123"
     }
+```
 
 ### Component
 
@@ -223,9 +237,11 @@ Example “component_name” is “com_content”.
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/config/application -d
 
+```json
     {
         "link_titles": 1
     }
+```
 
 ## Contact
 
@@ -248,35 +264,41 @@ curl -X DELETE /api/index.php/v1/contact/{contact_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/contact -d
 
+```json
     {
         "alias": "contact",
         "catid": 4,
         "language": "*",
         "name": "Contact"
     }
+```
 
 #### Update Contact
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/contact/{contact_id} -d
 
+```json
     {
         "alias": "contact",
         "catid": 4,
         "name": "New Contact"
     }
+```
 
 #### Submit Contact Form
 
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/contact/form/{contact_id} -d
 
+```json
     {
         "contact_email": "email@mail.com",
         "contact_message": "some text",
         "contact_name": "name",
         "contact_subject": "subject"
     }
+```
 
 ### Categories
 
@@ -303,7 +325,8 @@ curl -X DELETE /api/index.php/v1/fields/contact/contact/{field_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/fields/contact/contact -d
 
-    {
+ ```json
+   {
         "access": 1,
         "context": "com_contact.contact",
         "default_value": "",
@@ -332,12 +355,14 @@ curl -X POST -H "Content-Type: application/json"
         "title": "contact field",
         "type": "text"
     }
+```
 
 #### Update Field Contact
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/fields/contact/contact/{field_id} -d
 
+```json
     {
         "title": "new contact field",
         "name": "contact-field",
@@ -347,6 +372,7 @@ curl -X PATCH -H "Content-Type: application/json"
         "note": "",
         "description": "Some New Text"
     }
+```
 
 ### Fields Contact Mail
 
@@ -380,6 +406,7 @@ curl -X DELETE
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/fields/groups/contact/contact -d
 
+```json
     {
         "access": 1,
         "context": "com_contact.contact",
@@ -409,17 +436,20 @@ curl -X POST -H "Content-Type: application/json"
         "title": "contact field",
         "type": "text"
     }
+```
 
 #### Update Group Fields Contact
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/fields/groups/contact/contact/{group_id} -d
 
+```json
     {
         "title": "new contact group",
         "note": "",
         "description": "new description"
     }
+```
 
 ### Group Fields Contact Mail
 
@@ -461,6 +491,7 @@ curl -X DELETE /api/index.php/v1/content/articles/{article_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/content/articles -d
 
+```json
     {
         "alias": "my-article",
         "articletext": "My text",
@@ -470,6 +501,7 @@ curl -X POST -H "Content-Type: application/json"
         "metakey": "",
         "title": "Here's an article"
     }
+```
 
 Currently the options mentioned here are required properties. However
 the intention is currently to make AT LEAST metakey and metadesc
@@ -480,10 +512,12 @@ optional in the API.
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/content/articles/{article_id} -d
 
+```json
     {
         "catid": 64,
         "title": "Updated article"
     }
+```
 
 ### Categories
 
@@ -531,9 +565,11 @@ curl -X GET /api/index.php/v1/languages
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/languages -d
 
+```json
     {
         "package": "pkg_fr-FR"
     }
+```
 
 ### Content Languages
 
@@ -554,6 +590,7 @@ curl -X DELETE /api/index.php/v1/languages/content/{language_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/languages/content -d
 
+```json
     {
         "access": 1,
         "description": "",
@@ -568,12 +605,14 @@ curl -X POST -H "Content-Type: application/json"
         "title": "French (FR)",
         "title_native": "Français (France)"
     }
+```
 
 #### Update Content Language
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/languages/content/{language_id} -d
 
+```json
     {
         "description": "",
         "lang_code": "en-GB",
@@ -583,6 +622,7 @@ curl -X PATCH -H "Content-Type: application/json"
         "title": "English (en-GB)",
         "title_native": "English (United Kingdom)"
     }
+```
 
 ### Overrides Languages
 
@@ -605,20 +645,24 @@ curl -X DELETE
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/languages/overrides/{app}/{lang_code} -d
 
+```json
     {
         "key":"new_key",
         "override": "text"
     }
+```
 
 #### Update Content Language
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/languages/overrides/{app}/{lang_code}/{constant_id} -d
 
+```json
     {
         "key":"new_key",
         "override": "new text"
     }
+```
 
 var app - enum {"site", "administrator"}
 
@@ -630,10 +674,12 @@ from v1/languages/content
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/languages/overrides/search -d
 
+```json
     {
         "searchstring": "JLIB_APPLICATION_ERROR_SAVE_FAILED",
         "searchtype": "constant"
     }
+```
 
 var searchtype - enum {“constant”, “value”}. “constant” search by
 constant name, “value” - search by constant value
@@ -664,22 +710,26 @@ curl -X DELETE /api/index.php/v1/menus/{app}/{menu_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/menus/{app} -d
 
+```json
     {
         "client_id": 0,
         "description": "The menu for the site",
         "menutype": "menu",
         "title": "Menu"
     }
+```
 
 #### Update Menu
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/menus/{app}/{menu_id} -d
 
+```json
     {
         "menutype": "menu",
         "title": "New Menu"
     }
+```
 
 ### Menus Items
 
@@ -704,6 +754,7 @@ curl -X DELETE /api/index.php/v1/menus/{app}/items/{menu_item_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/menus/{app}/items -d
 
+```json
     {
         "access": "1",
         "alias": "",
@@ -748,6 +799,7 @@ curl -X POST -H "Content-Type: application/json"
         "toggle_modules_published": "1",
         "type": "component"
     }
+```
 
 Example for "Create Article Page"
 
@@ -756,6 +808,7 @@ Example for "Create Article Page"
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/menus/{app}/items/{menu_item_id} -d
 
+```json
     {
         "component_id": "20",
         "language": "*",
@@ -765,6 +818,7 @@ curl -X PATCH -H "Content-Type: application/json"
         "title": "new title",
         "type": "component"
     }
+```
 
 Example for "Create Article Page"
 
@@ -789,6 +843,7 @@ curl -X DELETE /api/index.php/v1/messages/{message_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/messages -d
 
+```json
     {
         "message": "text",
         "state": 0,
@@ -796,18 +851,21 @@ curl -X POST -H "Content-Type: application/json"
         "user_id_from": 773,
         "user_id_to": 772
     }
+```
 
 #### Update Message
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/messages/{message_id} -d
 
+```json
     {
         "message": "new text",
         "subject": "new text",
         "user_id_from": 773,
         "user_id_to": 772
     }
+```
 
 ## Modules
 
@@ -834,6 +892,7 @@ curl -X DELETE /api/index.php/v1/modules/{app}/{module_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/modules/{app} -d
 
+```json
     {
         "access": "1",
         "assigned": [
@@ -866,6 +925,7 @@ curl -X POST -H "Content-Type: application/json"
         "showtitle": "1",
         "title": "Title"
     }
+```
 
 Example for "Articles - Archived"
 
@@ -874,6 +934,7 @@ Example for "Articles - Archived"
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/modules/{app}/{module_id} -d
 
+```json
     {
         "access": "1",
         "client_id": "0",
@@ -883,6 +944,7 @@ curl -X PATCH -H "Content-Type: application/json"
         "ordering": "1",
         "title": "New Title"
     }
+```
 
 Example for "Articles - Archived"
 
@@ -907,6 +969,7 @@ curl -X DELETE /api/index.php/v1/newsfeeds/feeds/{feed_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/newsfeeds/feeds -d
 
+```json
     {
         "access": 1,
         "alias": "alias",
@@ -947,12 +1010,14 @@ curl -X POST -H "Content-Type: application/json"
         },
         "published": 1
     }
+```
 
 #### Update Feed
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/newsfeeds/feeds/{feed_id} -d
 
+```json
     {
         "access": 1,
         "alias": "test2",
@@ -963,6 +1028,7 @@ curl -X PATCH -H "Content-Type: application/json"
         "metakey": "",
         "name": "Test"
     }
+```
 
 ### Categories
 
@@ -990,10 +1056,12 @@ curl -X GET /api/index.php/v1/privacy/request/export/{request_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/privacy/request -d
 
+```json
     {
         "email":"somenewemail@com.ua",
         "request_type":"export"
     }
+```
 
 ### Consent
 
@@ -1030,6 +1098,7 @@ curl -X DELETE /api/index.php/v1/redirect/{redirect_id}
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/redirect -d
 
+```json
     {
         "comment": "",
         "header": 301,
@@ -1039,16 +1108,19 @@ curl -X POST -H "Content-Type: application/json"
         "published": 1,
         "referer": ""
     }
+```
 
 #### Update Redirect
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/redirect/{redirect_id} -d
 
+```json
     {
         "new_url": "/content/art/4",
         "old_url": "/content/art/132"
     }
+```
 
 ## Tags
 
@@ -1071,6 +1143,7 @@ curl -X DELETE /api/index.php/v1/tags/{tag_id}
 curl -X POST -H "Content-Type: application/json" /api/index.php/v1/tags
 -d
 
+```json
     {
         "access": 1,
         "access_title": "Public",
@@ -1083,16 +1156,19 @@ curl -X POST -H "Content-Type: application/json" /api/index.php/v1/tags
         "published": 1,
         "title": "test"
     }
+```
 
 #### Update Tag
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/tags/{tag_id} -d
 
+```json
     {
         "alias": "test",
         "title": "new title"
     }
+```
 
 ## Templates
 
@@ -1116,6 +1192,7 @@ curl -X DELETE
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/templates/styles/{app} -d
 
+```json
     {
         "home": "0",
         "params": {
@@ -1127,16 +1204,19 @@ curl -X POST -H "Content-Type: application/json"
         "template": "cassiopeia",
         "title": "cassiopeia - Some Text"
     }
+```
 
 #### Update Template Style
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/templates/styles/{app}/{template_style_id} -d
 
+```json
     {
         "template": "cassiopeia",
         "title": "new cassiopeia - Default"
     }
+```
 
 ## Users
 
@@ -1159,6 +1239,7 @@ curl -X DELETE /api/index.php/v1/users/{user_id}
 curl -X POST -H "Content-Type: application/json" /api/index.php/v1/users
 -d
 
+```json
     {
         "block": "0",
         "email": "test@mail.com",
@@ -1185,12 +1266,14 @@ curl -X POST -H "Content-Type: application/json" /api/index.php/v1/users
         "sendEmail": "0",
         "username": "ad"
     }
+```
 
 #### Update User
 
 curl -X PATCH -H "Content-Type: application/json"
 /api/index.php/v1/users/{user_id} -d
 
+```json
     {
         "email": "new@mail.com",
         "groups": [
@@ -1199,6 +1282,7 @@ curl -X PATCH -H "Content-Type: application/json"
         "name": "name",
         "username": "username"
     }
+```
 
 ### Fields Users
 

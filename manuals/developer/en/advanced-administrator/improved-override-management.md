@@ -169,7 +169,7 @@ This plugin works on 6 events:
 - onJoomlaAfterUpdate
 
 Which collect all overrides core file `md5_file()` hash before update
-and after update then compairs both values. Then, find the correct
+and after update then compares both values. Then, find the correct
 changed or updated file. And, store information in
 `#__templates_overrides` table.
 
@@ -195,6 +195,10 @@ Update, Extension Update or Extension Install).
 
 These information are only history so if you checked the updated
 override changes then, you can delete the history, as not needed
-anymore.
+any more.
 
 **Watch the video tutorial to learn how to use this feature.**
+
+<div class="video-container">
+<p><iframe src="//www.youtube.com/embed/l0_jFjswObI" allowfullscreen="" width="425" height="355" frameborder="0"></iframe>
+</p></div>

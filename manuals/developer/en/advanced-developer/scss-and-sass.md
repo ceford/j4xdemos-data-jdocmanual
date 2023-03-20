@@ -47,10 +47,12 @@ Open a command line and navigate to the root directory of Joomla 4.x.
 
 Execute command `npm install`
 
+```bash
     $ npm install
     ...
     added 1354 packages in 193.687s
     $
+```
 
 This will install all the dependencies to the `/node_modules` directory.
 If a `/node_modules` folder does not exist, a folder will be
@@ -70,6 +72,7 @@ application</a>.
 You can compile all Joomlaǃ core css files with the command
 `npm run build:css`. For exampleː
 
+```bash
     $ npm run build:css
     Prefixing for:  last 1 version
     Without `from` option PostCSS could generate wrong source map and will not find Browserslist config. Set it to CSS file path or to `undefined` to prevent this warning.
@@ -85,6 +88,7 @@ You can compile all Joomlaǃ core css files with the command
     Prefixing for:  last 1 version
     template.css was updated.
     $
+```
 
 ### All files in one directory
 
@@ -92,10 +96,12 @@ You can compile all files in one directory with the command
 `node build --compile-css path-to-directory`. For exampleː
 `node build --compile-css templates/cassiopeia/scss`.
 
+```bash
     $ node build --compile-css templates/cassiopeia/scss
     Prefixing for:  last 1 version
     Without `from` option PostCSS could generate wrong source map and will not find Browserslist config. Set it to CSS file path or to `undefined` to prevent this warning.
     template.css was updated.
+```
 
 ### One special file
 
@@ -103,10 +109,12 @@ You can compile one file with the command
 `node build --compile-css pathtofile`. For exampleː
 `node build --compile-css templates/cassiopeia/scss/template.scss`.
 
+```bash
     $ node build --compile-css templates/cassiopeia/scss/template.scss
     Prefixing for:  last 1 version
     Without `from` option PostCSS could generate wrong source map and will not find Browserslist config. Set it to CSS file path or to `undefined` to prevent this warning.
     template.css was updated.
+```
 
 Noteː
 
@@ -147,6 +155,7 @@ the use of variables.
 
 With CSS we write code like below in full lengthː
 
+```css
         #header {
           margin: 0;
           border: 1px solid blue;
@@ -158,6 +167,7 @@ With CSS we write code like below in full lengthː
         #header a {
           text-decoration: none;
         }
+```
 
 ### Sass
 
@@ -172,6 +182,7 @@ There are two syntaxes available for Sassː `SCSS` and `Sass`.
 `SCSS` is used in Joomlaǃ core. `SCSS` is an extension of the syntax of
 CSS.
 
+```css
         $color:    blue;
         #header {
           margin: 0;
@@ -186,11 +197,13 @@ CSS.
             text-decoration: none;
           }
         }
+```
 
 #### Sass
 
 The older `Sass` syntax provides a more concise way of writing CSS.
 
+```css
         $color:    blue
         #header
           margin: 0
@@ -201,6 +214,7 @@ The older `Sass` syntax provides a more concise way of writing CSS.
               size: 14px
           a
             text-decoration: none
+```
 
 You can find more information in the <a
 href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax"
@@ -245,6 +259,7 @@ open `/templates/cassiopeia/scss/template.scss` and at the bottom of the
 file your `_mystyles.scss` file so that it overrides existing
 declarations:
 
+```css
     // Bootstrap functions
     @import "../../../media/vendor/bootstrap/scss/functions";
 
@@ -303,6 +318,7 @@ declarations:
     @import "vendor/tinymce";
 
     @import "mystyles";
+```
 
 If you now compile your main template.scss file you end up with one main
 template.css optimized and minified. You also reduced your http requests

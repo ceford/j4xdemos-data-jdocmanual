@@ -222,6 +222,7 @@ alt="Core install file.png" />
 
 An example of the contents of `config.json` can be:  
 
+```json
     {
       "language":"en-GB",
       "site_name":"Joomla",
@@ -237,9 +238,11 @@ An example of the contents of `config.json` can be:
       "db_old":"remove",
       "helpurl":"https://joomla.org"
     }
+```
 
 OR as sample `config.ini`
 
+```ini
     site_name="gsoc"
     admin_email="user@example.com"
     admin_user="user"
@@ -250,6 +253,7 @@ OR as sample `config.ini`
     db_pass=""
     db_name="joomla"
     db_prefix="prefix_"
+```
 
 The options defined are loaded and validated after which the
 installation will run.
@@ -375,6 +379,7 @@ Should in case a command you want to write for the CLI Update is going
 to be require that you call an existing command internally, this is how
 that can be achieved from within another command class:
 
+```php
     getApplication()->getCommand('say:hello');
             $code = $command->execute();
 
@@ -385,6 +390,7 @@ that can be achieved from within another command class:
 
         ...
     }
+```
 
 Here, we're attempting to call the `say:hello` command created in the
 Video above.
@@ -395,9 +401,5 @@ Video above.
   <a href="https://symfony.com/doc/current/console/style.html"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">How to Style a Console Command</a>
--   
--   
--   
--   
 - Write a CLI Application with Joomla 4 [J4.x:Writing A CLI
   Application](https://docs.joomla.org/J4.x:Writing_A_CLI_Application "J4.x:Writing A CLI Application")
