@@ -40,9 +40,6 @@ what they mean and what is displayed in that column.
 - **Subject**. The subject of the user note.
 - **User**. The name of the user.
 - **Review date**. The date when the user note was created.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -70,30 +67,18 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new user note.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
 - **Publish.** Makes the selected user notes available to administrators
   of your website.
 - **Unpublish.** Makes the selected user notes not available to
   administrators of your website.
-
-<!-- -->
-
 - **Archive**. Changes the status of the selected user notes to indicate
   that they are archived. Archived user notes can be moved back to the
   published or unpublished state by selecting 'Archived' in the 'Select
   Status' filter and changing the status of the user notes.
-
-<!-- -->
-
 - **Check-In**. Checks-in the selected user notes. Works with one or
   multiple user notes selected.
-
-<!-- -->
-
 - **Trash**. Changes the status of the selected user notes to indicate
   that they are trashed.Trashed user notes can still be recovered by
   selecting 'Trashed' in the 'Select Status' filter and changing the
@@ -101,13 +86,7 @@ At the top of the page you will see the toolbar shown in the
   permanently delete trashed user notes, select 'Trashed' in the 'Select
   Status' filter, select the user notes to be permanently deleted, then
   click the 'Empty Trash' toolbar icon.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
 

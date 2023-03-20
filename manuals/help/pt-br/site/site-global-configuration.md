@@ -12,7 +12,13 @@ whole site.
 
 ## Screenshot
 
-\[\[File:Help-4x-global-configuration-screen-en.png\|none\|750px\]\]
+
+<img
+src="https://docs.joomla.org/images/thumb/4/40/Help-4x-global-configuration-screen-en.png/750px-Help-4x-global-configuration-screen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/4/40/Help-4x-global-configuration-screen-en.png/1125px-Help-4x-global-configuration-screen-en.png 1.5x, https://docs.joomla.org/images/thumb/4/40/Help-4x-global-configuration-screen-en.png/1500px-Help-4x-global-configuration-screen-en.png 2x"
+data-file-width="2720" data-file-height="1700" width="750" height="469"
+alt="Help-4x-global-configuration-screen-en.png" />
 
 ## Form Fields
 

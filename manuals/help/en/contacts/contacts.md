@@ -36,45 +36,21 @@ Click on the column heading to sort the list by that column's value.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering:** (default). The column in which to sort displayed items
   in the table. The values are the same as the column heading names.
-
-<!-- -->
-
 - **Featured.** Whether or not the item will be displayed in featured
   view.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Title**. The name of the item. For a Menu Item, the Title will
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Linked User.** The username this contact is linked to (if
   applicable).
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -103,37 +79,16 @@ shown in the [Screenshot](#screenshot) above.
   from the dropdown list to change the number displayed.The default for
   a site is '20' but this may be changed in the [Global
   Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#defaultlistlimit "Help4.x:Site Global Configuration/en").
-
-<!-- -->
-
 - **Select Featured**. Select from Unfeatured Articles / Featured
   Articles.
-
-<!-- -->
-
 - **Select Status**. Select from Trashed / Unpublished / Published /
   Archived / All.
-
-<!-- -->
-
 - **Select Category**. Select from the list of available categories.
-
-<!-- -->
-
 - **Select Access**. Select from the list of available viewing access
   levels.
-
-<!-- -->
-
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
-
-<!-- -->
-
 - **Select Tag**. Select from the list of available tags.
-
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 
 **Page Controls**. When the number of items is more than one page, you
@@ -153,37 +108,24 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new contact.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - - **Publish**. Makes the selected contact available to visitors to
     your website.
-
 - - **Unpublish.** Makes the selected contact unavailable to visitors to
     your website.
-
 - - **Feature.** Marks selected contact as featured. Works with one or
     multiple contact selected.
-
 - - **Unfeature.** Changes the status of featured articles to
     unfeatured. Works with one or multiple articles selected.
-
 - - **Archive**. Changes the status of the selected contact to indicate
     that they are archived. Archived contact can be moved back to the
     published or unpublished state by selecting 'Archived' in the
     'Select Status' filter and changing the status of the contact.
-
 - - **Check-In**. Checks-in the selected contact. Works with one or
     multiple contact selected.
-
 - - **Batch**. Batch processes the selected contact. Works with one or
     multiple items selected.
-
 - - **Trash**. Changes the status of the selected contact to indicate
     that they are trashed.Trashed contact can still be recovered by
     selecting 'Trashed' in the 'Select Status' filter and changing the
@@ -191,14 +133,8 @@ At the top of the page you will see the toolbar shown in the
     permanently delete trashed contact, select 'Trashed' in the 'Select
     Status' filter, select the contact to be permanently deleted, then
     click the 'Empty Trash' toolbar icon.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

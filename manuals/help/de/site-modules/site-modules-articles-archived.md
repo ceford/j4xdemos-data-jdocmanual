@@ -41,9 +41,6 @@ alt="Help-4x-modules-site-module-manager-module-archived-articles-de.png" />
 - **Titel anzeigen** (*Anzeigen*/*Verbergen*). Zeigt den Titel des
   Moduls an oder unterdrückt die Anzeige im Frontend. Der angezeigte
   Titel entspricht dem Titel im Formularfeld oben.
-
-<!-- -->
-
 - **Position**. Die
   [Modul-Position](https://docs.joomla.org/Module_Position/de "Module Position/de")
   wählen, auf der dieses Modul angezeigt werden soll. Eine
@@ -51,44 +48,23 @@ alt="Help-4x-modules-site-module-manager-module-archived-articles-de.png" />
   [Load-Position-Plugin](https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F/de "How do you put a module inside an article?/de")
   eingegeben werden. Alternativ kann die Positionstaste gedrückt werden,
   um eine Modulposition aus dem Template auszuwählen.
-
-<!-- -->
-
 - **Status**. Der Veröffentlichungs-Status des Eintrags.
-
-<!-- -->
-
 - **Veröffentlichung starten**. Datum und Uhrzeit, um die
   Veröffentlichung zu starten. Dieses Feld verwenden, um Inhalt vor der
   Zeit zu erstellen und ihn später automatisch zu veröffentlichen.
-
-<!-- -->
-
 - **Veröffentlichung beenden**. Datum und Uhrzeit, um die
   Veröffentlichung zu beenden. Dieses Feld verwenden, um dem Inhalt
   automatisch den Status „Versteckt“ zuzuweisen (zum Beispiel, wenn der
   Inhalt nicht mehr aktuell ist).
-
-<!-- -->
-
 - **Zugriffsebene**. Die [Zugriffsebene für die
   Anzeige](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/de "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/de")
   des Eintrags.
-
-<!-- -->
-
 - **Module Reihenfolge** Zeigt eine DropDown-Liste aller Module an der
   Position, an der sich das aktuelle Modul befindet. In dieser
   Reihenfolge werden die Module angezeigt, sowohl im Frontend als auch
   auf der
   [Module](https://docs.joomla.org/Help4.x:Modules/de "Help4.x:Modules/de")-Seite.
-
-<!-- -->
-
 - **Sprache**. Die Sprachzuordnung des Eintrags.
-
-<!-- -->
-
 - **Notiz**. Die Notiz wird meist vom Site-Administrator verwendet, um
   beispielsweise Informationen über den Eintrag zu notieren. Die Notiz
   wird nicht im Frontend der Seite angezeigt.
@@ -105,9 +81,6 @@ alt="Help-4x-modules-manager-site-module-menu-assignment-tab-de.png" />
 - **Menüzuweisung**. Eine der Optionen **Auf allen Seiten**, **Auf
   keiner Seite**, **Nur auf den gewählten Seiten** oder **Auf allen,
   außer den gewählten Seiten** aus der Liste wählen.
-
-<!-- -->
-
 - **Menüauswahl**. Wenn eine der beiden letztgenannten Optionen
   ausgewählt wird, erscheint eine Liste mit allen Menüeinträgen. Auf
   diese Weise kann man bestimmten Seiten Module zuweisen. Durch Auswahl
@@ -188,32 +161,17 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 - **Speichern**. Speichert den Eintrag und bleibt auf der aktuellen
   Seite.
-
-<!-- -->
-
 - **Speichern & Schließen**. Speichert den Eintrag und schließt die
   aktuelle Seite.
-
-<!-- -->
-
 - **Speichern & Neu**. Speichert den Eintrag und hält die Seite offen,
   damit ein neuer Eintrag erstellt werden kann.
-
-<!-- -->
-
 - **Als Kopie speichern**. Speichert Änderungen in einer Kopie des
   aktuellen Eintrags. Der aktuelle Eintrag wird davon nicht beeinflusst.
   Dieses Symbol wird nicht angezeigt, wenn ein neuer Eintrag erstellt
   wird.
-
-<!-- -->
-
 - **Schließen**. Schließt die aktuelle Seite und kehrt zur vorherigen
   Seite ohne Speichern der Änderungen zurück. Dieses Symbol wird nicht
   angezeigt, wenn ein neuer Eintrag erstellt wird.
-
-<!-- -->
-
 - **Hilfe**. Öffnet die Hilfeseite.
 
 ## Frontend Screenshot
@@ -225,11 +183,11 @@ dem installierten benutzerdefinierten Template und dem Stil des
 Templates für diese Ansichten auf einer Joomla! Website abhängen.*
 Angezeigt wird das Modul "Archivierte Beiträge":
 
-\[\[Image:Help-4x-module-manager-archived-articles-frontend-screenshot-
-
-en
-
-.png\]\]
+<img
+src="https://docs.joomla.org/images/b/b9/Help-4x-module-manager-archived-articles-frontend-screenshot-en.png"
+decoding="async" data-file-width="270" data-file-height="117"
+width="270" height="117"
+alt="Help-4x-module-manager-archived-articles-frontend-screenshot-en.png" />
 
 Der Name des Modultyps für dieses Modul ist „mod_articles_archive“. Es
 ist mit der Inhaltskomponente verknüpft.

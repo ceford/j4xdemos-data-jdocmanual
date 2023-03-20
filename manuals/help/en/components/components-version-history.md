@@ -83,22 +83,30 @@ At the top of the page you will see the toolbar shown in the
 - **Preview**. To preview a version, either click on the Date column of
   the desired version or check the check box and click on the Preview
   button. A separate browser window will load showing the selected
-  version of the item, similar to the screenshot below. <img
+  version of the item, similar to the screenshot below. 
+  
+  <img
   src="https://docs.joomla.org/images/thumb/c/cc/Help-4x-Version-History-Help-preview-en.png/600px-Help-4x-Version-History-Help-preview-en.png"
   decoding="async"
   srcset="https://docs.joomla.org/images/thumb/c/cc/Help-4x-Version-History-Help-preview-en.png/900px-Help-4x-Version-History-Help-preview-en.png 1.5x, https://docs.joomla.org/images/thumb/c/cc/Help-4x-Version-History-Help-preview-en.png/1200px-Help-4x-Version-History-Help-preview-en.png 2x"
   data-file-width="1602" data-file-height="1204" width="600" height="451"
-  alt="Help-4x-Version-History-Help-preview-en.png" /> When you are done
+  alt="Help-4x-Version-History-Help-preview-en.png" /> 
+  
+  When you are done
   viewing the version, close the browser window.
 - **Compare**. To compare two versions to see what was changed, click
   the check boxes for each of the versions and click on the Compare
   button. A new browser window will open, as shown in the screenshot
-  below. <img
+  below. 
+  
+  <img
   src="https://docs.joomla.org/images/thumb/d/d9/Help-4x-Version-History-Help-compare-en.png/600px-Help-4x-Version-History-Help-compare-en.png"
   decoding="async"
   srcset="https://docs.joomla.org/images/thumb/d/d9/Help-4x-Version-History-Help-compare-en.png/900px-Help-4x-Version-History-Help-compare-en.png 1.5x, https://docs.joomla.org/images/thumb/d/d9/Help-4x-Version-History-Help-compare-en.png/1200px-Help-4x-Version-History-Help-compare-en.png 2x"
   data-file-width="2002" data-file-height="1204" width="600" height="361"
-  alt="Help-4x-Version-History-Help-compare-en.png" /> The first column
+  alt="Help-4x-Version-History-Help-compare-en.png" /> 
+  
+  The first column
   is the field name, the second is the older version, the third is the
   newer version, and the last column highlights the differences between
   the two versions.

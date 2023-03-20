@@ -31,7 +31,12 @@ the Article itself or in the Article via it’s Menu Item.
 Once logged into Joomla go to the Article Manager via the Home Dashboard
 or Sidebar Menu.
 
-\[\[Image:j4.x_navigate_to_article_manager-en.png\|border\|500px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/e/e8/J4.x_navigate_to_article_manager-en.png/500px-J4.x_navigate_to_article_manager-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/e/e8/J4.x_navigate_to_article_manager-en.png/750px-J4.x_navigate_to_article_manager-en.png 1.5x, https://docs.joomla.org/images/e/e8/J4.x_navigate_to_article_manager-en.png 2x"
+data-file-width="1000" data-file-height="452" width="500" height="226"
+alt="J4.x navigate to article manager-en.png" />
 
 From the Article Manager click the checkbox for the article you want to
 archive. Note that you can archive several articles at once.
@@ -41,7 +46,12 @@ list.
 
 From the **Actions** dropdown list choose **Archive**.
 
-\[\[Image:j4.x_archive_from_article_manager-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/0/06/J4.x_archive_from_article_manager-en.png/800px-J4.x_archive_from_article_manager-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/0/06/J4.x_archive_from_article_manager-en.png 1.5x"
+data-file-width="1000" data-file-height="539" width="800" height="431"
+alt="J4.x archive from article manager-en.png" />
 
 The article/s will no longer appear in the *default* Article Manager
 List view.
@@ -55,7 +65,12 @@ Click the **Status** dropdown icon.
 
 Select **Archived**. **Save & Close** the article.
 
-\[\[Image:j4.x_set_article_status_to_archived-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/9/98/J4.x_set_article_status_to_archived-en.png/800px-J4.x_set_article_status_to_archived-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/9/98/J4.x_set_article_status_to_archived-en.png 1.5x"
+data-file-width="1000" data-file-height="127" width="800" height="102"
+alt="J4.x set article status to archived-en.png" />
 
 ### From Within a Menu Item
 
@@ -87,7 +102,12 @@ archived.
 Return to the default article list view by clicking the **Clear**
 button.
 
-\[\[Image:j4.x_filter_article_list-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/4/4c/J4.x_filter_article_list-en.png/800px-J4.x_filter_article_list-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/4/4c/J4.x_filter_article_list-en.png 1.5x"
+data-file-width="1000" data-file-height="283" width="800" height="226"
+alt="J4.x filter article list-en.png" />
 
 ### To view from the frontend via a menu
 

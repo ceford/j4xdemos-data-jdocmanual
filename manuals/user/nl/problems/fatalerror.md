@@ -74,7 +74,9 @@ phpMyAdmin to find the Extension in the *\#\_\_extensions* database
 table and set its *enabled* value to *0*. You should not need to disable
 any core Joomla Extensions.
 
-== Forum Post Assistant == To help resolve problems you should download
+## Forum Post Assistant
+
+To help resolve problems you should download
 the <a href="https://forumpostassistant.github.io/docs/"
 class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Forum Post Assistant</a> (FPA) and

@@ -33,10 +33,6 @@ sites and like numerous tasks in Joomla, Tags can be added in several
 places giving you flexibility to work the way that suits you best. This
 tutorial therefore covers several approaches.
 
-- Log in to the Administrator Home Dashboard. To learn how to do this
-  read: [Logging in or out of the Administrator
-  Dashboard](https://docs.joomla.org/J4.x:Logging_in_to_Joomla "Special:MyLanguage/J4.x:Logging in to Joomla").
-
 ## Considerations
 
 Before starting, consider the purpose of tags on the website, especially

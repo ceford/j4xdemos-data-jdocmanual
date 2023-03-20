@@ -83,24 +83,12 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new item.
-
-<!-- -->
-
 - **Delete:** Deletes the selected items. Works with one or multiple
   items selected.
-
-<!-- -->
-
 - **Clear Cache.** Clear the available extension update information
   displayed in the listing.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

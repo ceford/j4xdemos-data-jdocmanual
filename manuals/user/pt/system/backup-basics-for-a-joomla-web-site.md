@@ -114,7 +114,7 @@ likely not in need of this documentation.
 It is recommended that you back up the database at least twice per week
 or even everyday (and more) if you have an active site.
 
-== Cópia de Segurança do Sistema de Ficheiros - Parte 2 de 2 ==
+## Cópia de Segurança do Sistema de Ficheiros - Parte 2 de 2
 
 Continue with your site offline, see above. Your Joomla folder and files
 can be backed up by downloading them with an FTP utility or using the

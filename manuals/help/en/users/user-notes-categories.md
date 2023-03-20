@@ -29,9 +29,6 @@ you will see different columns.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -50,30 +47,15 @@ you will see different columns.
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Title**. The name of the item. For a Menu Item, the Title will
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -105,28 +87,13 @@ shown in the [Screenshot](#screenshot) above.
   from the dropdown list to change the number displayed.The default for
   a site is '20' but this may be changed in the [Global
   Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#defaultlistlimit "Help4.x:Site Global Configuration/en").
-
-<!-- -->
-
 - **Select Status**. Select from Trashed / Unpublished / Published /
   Archived / All.
-
-<!-- -->
-
 - **Select Access**. Select from the list of available viewing access
   levels.
-
-<!-- -->
-
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
-
-<!-- -->
-
 - **Select Tag**. Select from the list of available tags.
-
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 
 **Page Controls**. When the number of items is more than one page, you
@@ -150,22 +117,13 @@ above. The functions are:
   administrators of your website.
 - **Unpublish.** Makes the selected user notes category not available to
   administrators of your website.
-
-<!-- -->
-
 - **Archive.** Changes the status of the selected category to indicate
   that they are archived. Archived category can be moved back to the
   published or unpublished state by selecting "Archived" in the Select
   Status filter and changing the status of the category to Published or
   Unpublished as preferred.
-
-<!-- -->
-
 - **Check-In**. Checks-in the selected category. Works with one or
   multiple category selected.
-
-<!-- -->
-
 - **Trash**. Changes the status of the selected category to indicate
   that they are trashed. Trashed category can still be recovered by
   selecting "Trashed" in the Select Status filter and changing the
@@ -173,18 +131,9 @@ above. The functions are:
   permanently delete trashed category, select "Trashed" in the Select
   Status filter, select the category to be permanently deleted, then
   click the Empty Trash toolbar icon.
-
-<!-- -->
-
 - **Batch**. Batch processes the selected category. Works with one or
   multiple items selected.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
 

@@ -10,11 +10,12 @@ bouton **Aide** de la barre d'outils pour obtenir des informations
 supplémentaires sur la page. Il est situé à droite de la barre d'outils,
 juste en dessous de la barre de titre. Exemple :
 
-\[\[Image:Help-4x-Start-Here-Help-toolbar-
-
-en
-
-.png\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/c/c7/Help-4x-Start-Here-Help-toolbar-en.png/800px-Help-4x-Start-Here-Help-toolbar-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/c/c7/Help-4x-Start-Here-Help-toolbar-en.png 1.5x"
+data-file-width="864" data-file-height="268" width="800" height="248"
+alt="Help-4x-Start-Here-Help-toolbar-en.png" />
 
 Une boîte de dialogue modale s'affiche au milieu de l'écran et contient
 des informations d'aide spécifiques à cette page.
@@ -40,29 +41,14 @@ laissez ce guide vous soulager d'une partie de cette peine.
 
 - [Premiers pas avec Joomla!
   4](https://docs.joomla.org/J4.x:Getting_Started_with_Joomla!/fr "J4.x:Getting Started with Joomla!/fr")
-
-<!-- -->
-
 - [Premiers pas : Templates de site et
   d'administration](https://docs.joomla.org/J4.x:Getting_Started:_Site_and_Administrator_templates/fr "J4.x:Getting Started: Site and Administrator templates/fr")
-
-<!-- -->
-
 - [Premiers pas : Ajouter un
   article](https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article/fr "J4.x:Getting Started: Adding an Article/fr")
-
-<!-- -->
-
 - [Premiers pas : Ajout d'un élément de
   menu](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item/fr "J4.x:Getting Started: Adding a Menu Item/fr")
-
-<!-- -->
-
 - [Premiers pas : Ajouter une
   catégorie](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Category/fr "J4.x:Getting Started: Adding a Category/fr")
-
-<!-- -->
-
 - [Premiers pas : Ajout d'un
   module](https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Module/fr "J4.x:Getting Started: Adding a Module/fr")
 

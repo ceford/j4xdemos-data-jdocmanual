@@ -98,42 +98,21 @@ alt="Help-4x-Extensions-Template-Manager-Templates-Edit-upload-file-dialog-en.pn
   - Mark Checked
   - Mark Unchecked
   - Remove Record
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ### File selected
 
 - **Save**. Saves the item and stays in the current screen.
-
-<!-- -->
-
 - **Save & Close**. Saves the item and closes the current screen.
-
-<!-- -->
-
 - **Rename File.** Select a file to edit. Select the Rename button to
   prompt for a new name.
-
-<!-- -->
-
 - **Delete File.** You will be prompted to Confirm or Cancel.
 - **Check Overrides.** Activated when an Override is selected in the
   **Overrides** tab.
-
-<!-- -->
-
 - **Close File.** Closes the open file and returns to the Editor Tab.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

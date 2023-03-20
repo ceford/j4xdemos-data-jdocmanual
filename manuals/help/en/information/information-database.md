@@ -35,9 +35,6 @@ alt="Help-4x-extension manager-database-screen-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Name.** The name of the extension.
 - **Location.** Specifies if this is a site or administrator extension.
 - **Type.** The extension type - module, plug-in, template, language.
@@ -113,14 +110,8 @@ At the top of the page you will see the toolbar shown in the
   during the version update. It then re-checks whether or not the
   database is up to date. If it is successful, the message "Database
   table structure is up to date" will show.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

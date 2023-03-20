@@ -120,7 +120,7 @@ Se recomienda hacer una copia de seguridad de la base de datos al menos
 dos veces por semana o incluso a diario (y más) si tienes un sitio
 activo.
 
-== Copia de seguridad, Parte 2 de 2: Archivos del sistema ==
+## Copia de seguridad, Parte 2 de 2: Archivos del sistema
 
 Continua con su sitio fuera de línea, mira arriba. Tu carpeta Joomla! y
 los archivos pueden ser respaldados con la descarga de ellos con una

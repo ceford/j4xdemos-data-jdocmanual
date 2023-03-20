@@ -18,7 +18,12 @@ User Options set globally for all users include
 
 ## Captura de Ecrã
 
-\[\[File:Help-4x-Users-Options-screen-en.png\|800px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/9/9d/Help-4x-Users-Options-screen-en.png/800px-Help-4x-Users-Options-screen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/9/9d/Help-4x-Users-Options-screen-en.png/1200px-Help-4x-Users-Options-screen-en.png 1.5x, https://docs.joomla.org/images/thumb/9/9d/Help-4x-Users-Options-screen-en.png/1600px-Help-4x-Users-Options-screen-en.png 2x"
+data-file-width="2400" data-file-height="1500" width="800" height="500"
+alt="Help-4x-Users-Options-screen-en.png" />
 
 ## Dos Campos
 
@@ -75,7 +80,12 @@ User Options set globally for all users include
 
 ### Opções de domínio do email
 
-\[\[File:Help-4x-Users-Options-email-domain-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/5/58/Help-4x-Users-Options-email-domain-subscreen-en.png/600px-Help-4x-Users-Options-email-domain-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/5/58/Help-4x-Users-Options-email-domain-subscreen-en.png/900px-Help-4x-Users-Options-email-domain-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/5/58/Help-4x-Users-Options-email-domain-subscreen-en.png/1200px-Help-4x-Users-Options-email-domain-subscreen-en.png 2x"
+data-file-width="2002" data-file-height="1074" width="600" height="322"
+alt="Help-4x-Users-Options-email-domain-subscreen-en.png" />
 
 - **Nome de domínio**. Adicione uma lista de domínios de endereços de
   email permitidos e não permitidos. Por padrão, todos os domínios são
@@ -88,7 +98,12 @@ User Options set globally for all users include
 
 ### Opções de senha
 
-\[\[File:Help-4x-Users-Options-password-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/1/17/Help-4x-Users-Options-password-subscreen-en.png/600px-Help-4x-Users-Options-password-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/1/17/Help-4x-Users-Options-password-subscreen-en.png/900px-Help-4x-Users-Options-password-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/1/17/Help-4x-Users-Options-password-subscreen-en.png/1200px-Help-4x-Users-Options-password-subscreen-en.png 2x"
+data-file-width="2001" data-file-height="1231" width="600" height="369"
+alt="Help-4x-Users-Options-password-subscreen-en.png" />
 
 - **Máximo de reposições**. The maximum number of password resets
   allowed within the time period. Zero indicates no limit.
@@ -106,7 +121,12 @@ User Options set globally for all users include
 
 ### Multi-factor Authentication
 
-\[\[File:Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/4/4f/Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png/600px-Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/4/4f/Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png/900px-Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/4/4f/Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png/1200px-Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png 2x"
+data-file-width="2003" data-file-height="1518" width="600" height="455"
+alt="Help-4x-Users-Options-multi-factor-authentication-subscreen-en.png" />
 
 - **Allowed frontend module positions**. When displaying the frontend
   Multi-factor Authentication page all modules will be hidden except
@@ -149,7 +169,12 @@ User Options set globally for all users include
 
 ### Notas de utilizador - Histórico
 
-\[\[File:Help-4x-Users-Options-user-notes-history-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/7/70/Help-4x-Users-Options-user-notes-history-subscreen-en.png/600px-Help-4x-Users-Options-user-notes-history-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/7/70/Help-4x-Users-Options-user-notes-history-subscreen-en.png/900px-Help-4x-Users-Options-user-notes-history-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/7/70/Help-4x-Users-Options-user-notes-history-subscreen-en.png/1200px-Help-4x-Users-Options-user-notes-history-subscreen-en.png 2x"
+data-file-width="2002" data-file-height="564" width="600" height="169"
+alt="Help-4x-Users-Options-user-notes-history-subscreen-en.png" />
 
 - **Ativar versões**. Save version history for User Notes.
 - **Número máximo de versões**. The maximum number of versions to store
@@ -160,7 +185,12 @@ User Options set globally for all users include
 
 ### Email em massa a utilizadores
 
-\[\[File:Help-4x-Users-Options-mass-mail-users-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/5/5f/Help-4x-Users-Options-mass-mail-users-subscreen-en.png/600px-Help-4x-Users-Options-mass-mail-users-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/5/5f/Help-4x-Users-Options-mass-mail-users-subscreen-en.png/900px-Help-4x-Users-Options-mass-mail-users-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/5/5f/Help-4x-Users-Options-mass-mail-users-subscreen-en.png/1200px-Help-4x-Users-Options-mass-mail-users-subscreen-en.png 2x"
+data-file-width="2002" data-file-height="878" width="600" height="263"
+alt="Help-4x-Users-Options-mass-mail-users-subscreen-en.png" />
 
 - **Prefixo de assunto**. Enter optional text to be inserted
   automatically before the subject of the mass email.
@@ -169,7 +199,12 @@ User Options set globally for all users include
 
 ### Integração
 
-\[\[File:Help-4x-Users-Options-integration-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/f/f9/Help-4x-Users-Options-integration-subscreen-en.png/600px-Help-4x-Users-Options-integration-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/f/f9/Help-4x-Users-Options-integration-subscreen-en.png/900px-Help-4x-Users-Options-integration-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/f/f9/Help-4x-Users-Options-integration-subscreen-en.png/1200px-Help-4x-Users-Options-integration-subscreen-en.png 2x"
+data-file-width="2002" data-file-height="593" width="600" height="178"
+alt="Help-4x-Users-Options-integration-subscreen-en.png" />
 
 - **Editar campos personalizados**. Enable the creation of custom
   fields.
@@ -180,7 +215,12 @@ This section lets you set up the default [Access Control
 List](https://docs.joomla.org/Access_Control_List/pt "Special:MyLanguage/Access Control List/pt")
 permissions for all users.
 
-\[\[File:Help-4x-Users-Options-permissions-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/f/f8/Help-4x-Users-Options-permissions-subscreen-en.png/600px-Help-4x-Users-Options-permissions-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/f/f8/Help-4x-Users-Options-permissions-subscreen-en.png/900px-Help-4x-Users-Options-permissions-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/f/f8/Help-4x-Users-Options-permissions-subscreen-en.png/1200px-Help-4x-Users-Options-permissions-subscreen-en.png 2x"
+data-file-width="2002" data-file-height="1496" width="600" height="448"
+alt="Help-4x-Users-Options-permissions-subscreen-en.png" />
 
 To change the permissions for users, do the following.
 

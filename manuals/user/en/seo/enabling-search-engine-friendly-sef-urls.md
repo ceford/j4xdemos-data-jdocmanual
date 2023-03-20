@@ -140,7 +140,9 @@ This functionality depends on the presence of the *IIS URL Rewrite
 Module*, which does not come with Windows. It is a free download and a
 Microsoft product.
 
-===GUI=== If the IIS URL Rewrite module is installed, your website
+### GUI
+
+If the IIS URL Rewrite module is installed, your website
 manager will have a tool for *URL Rewrite*, visible in the IIS Manager's
 view of your site's configurable IIS modules. The interface is largely
 self-explanatory. Regular expressions, wildcards or exact matches are
@@ -157,7 +159,9 @@ Action type: *Rewrite*
 
 Rewrite URL: *index.php/*
 
-=== *web.config* === This has been tested on Joomla 1.5 with IIS 7 on
+### web.config
+
+This has been tested on Joomla 1.5 with IIS 7 on
 Windows Server 2008 with no problems so far. For more information on
 converting *.htaccess* to *web.config*, see <a
 href="https://learn.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig"

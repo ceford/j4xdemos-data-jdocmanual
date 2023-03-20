@@ -33,10 +33,6 @@ sites and like numerous tasks in Joomla, Tags can be added in several
 places giving you flexibility to work the way that suits you best. This
 tutorial therefore covers several approaches.
 
-- Log in to the Administrator Home Dashboard. To learn how to do this
-  read:
-  Logging in or out of the Administrator Dashboard.
-
 ## Considerations
 
 Before starting, consider the purpose of tags on the website, especially
@@ -62,18 +58,33 @@ for specific use cases.
 
 ### Via the Tags Component
 
-\[\[Image:j4.x_access_tag_manager-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/3/37/J4.x_access_tag_manager-en.png/800px-J4.x_access_tag_manager-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/3/37/J4.x_access_tag_manager-en.png/1200px-J4.x_access_tag_manager-en.png 1.5x, https://docs.joomla.org/images/3/37/J4.x_access_tag_manager-en.png 2x"
+data-file-width="1343" data-file-height="547" width="800" height="326"
+alt="J4.x access tag manager-en.png" />
 
 In the Administrator Sidebar Menu click the **Components** dropdown and
 then click **Tags**.
 
 You will be taken to the **Tags List**.
 
-\[\[Image:j4.x_create_new_tag-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/3/34/J4.x_create_new_tag-en.png/800px-J4.x_create_new_tag-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/3/34/J4.x_create_new_tag-en.png/1200px-J4.x_create_new_tag-en.png 1.5x, https://docs.joomla.org/images/3/34/J4.x_create_new_tag-en.png 2x"
+data-file-width="1353" data-file-height="131" width="800" height="77"
+alt="J4.x create new tag-en.png" />
 
 Click **New** in the Tags Toolbar.
 
-\[\[Image:j4.x_name_and_save_tag-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/4/4b/J4.x_name_and_save_tag-en.png/800px-J4.x_name_and_save_tag-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/4/4b/J4.x_name_and_save_tag-en.png/1200px-J4.x_name_and_save_tag-en.png 1.5x, https://docs.joomla.org/images/4/4b/J4.x_name_and_save_tag-en.png 2x"
+data-file-width="1345" data-file-height="513" width="800" height="305"
+alt="J4.x name and save tag-en.png" />
 
 The only required information is in the **Title** field. Whatever you
 add in the Title field will become the Alias when the new tag is saved.
@@ -81,7 +92,12 @@ add in the Title field will become the Alias when the new tag is saved.
 If you wish you can add a description in the Editor. Before saving the
 tag, there are a few settings you can amend:
 
-\[\[Image:j4.x_tag_properties-en.png\|border\|left\|300px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/6/6d/J4.x_tag_properties-en.png/300px-J4.x_tag_properties-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/6/6d/J4.x_tag_properties-en.png 1.5x"
+data-file-width="324" data-file-height="472" width="300" height="437"
+alt="J4.x tag properties-en.png" />
 
 \- **Parent:** Like Categories, you can use a Tag as a **Parent**.
 Choose a parent tag from the list. Use the Parent field to do this.
@@ -98,7 +114,12 @@ You can now click **Save & Close** and the new tag will appear in the
 Tags List. If you are creating multiple tags you can choose to click
 **Save & New** instead to carry on and create another.
 
-\[\[Image:j4.x_tag_saved-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/7/73/J4.x_tag_saved-en.png/800px-J4.x_tag_saved-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/7/73/J4.x_tag_saved-en.png/1200px-J4.x_tag_saved-en.png 1.5x, https://docs.joomla.org/images/7/73/J4.x_tag_saved-en.png 2x"
+data-file-width="1344" data-file-height="205" width="800" height="122"
+alt="J4.x tag saved-en.png" />
 
 Once saved the tag will be available for use across the various content
 types that use them.
@@ -109,9 +130,8 @@ It is possible to add new tags whilst creating or editing an article. In
 the article settings **Tags Field** enter the name of the new tag and
 press **Enter** to save and assign the tag to the article.
 
-For more information about tagging articles read
-
-Article Settings..
+For more information about tagging articles read [Article
+Settings.](https://docs.joomla.org/J4.x:Adding_a_New_Article "Special:MyLanguage/J4.x:Adding a New Article").
 
 ### From within a Category
 
@@ -119,9 +139,8 @@ Tags can be added when creating a new category. On the **Category** Tab
 enter the tag name in the **Tags Field** and press **Enter** to create
 and assign the new tag.
 
-For more information about categories read
-
-Adding and Managing Article Categories.
+For more information about categories read [Adding and Managing Article
+Categories](https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories "Special:MyLanguage/J4.x:Create and Manage Article Categories").
 
 ### From within a Contact
 
@@ -156,13 +175,23 @@ toolbar.
 
 ### Tags List Toolbar
 
-\[\[Image:j4.x_tag_filter_options-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/f/fa/J4.x_tag_filter_options-en.png/800px-J4.x_tag_filter_options-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/f/fa/J4.x_tag_filter_options-en.png 1.5x"
+data-file-width="992" data-file-height="198" width="800" height="160"
+alt="J4.x tag filter options-en.png" />
 
 You can manipulate the list in a number of ways. You can search for a
 tag, you can reorder the list, you can publish or unpublish tags or
 change settings in the **Options**.
 
-\[\[Image:j4.x_tag_actions-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/9/98/J4.x_tag_actions-en.png/800px-J4.x_tag_actions-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/9/98/J4.x_tag_actions-en.png 1.5x"
+data-file-width="998" data-file-height="255" width="800" height="204"
+alt="J4.x tag actions-en.png" />
 
 The **Actions** button will be activated only when one or more tags are
 selected with the checkboxes on the left.
@@ -200,12 +229,22 @@ only on content but also by some useful modules; **Popular Tags** and
 **Similar Tags**. The following examples show how these look on a
 standard installation using the default **Cassiopeia** Template.
 
-\[\[Image:j4.x_using_tags_examples-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/7/7d/J4.x_using_tags_examples-en.png/800px-J4.x_using_tags_examples-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/7/7d/J4.x_using_tags_examples-en.png 1.5x"
+data-file-width="1000" data-file-height="933" width="800" height="746"
+alt="J4.x using tags examples-en.png" />
 
 When you click on one of the tags you will be taken to a page that lists
 all items assigned to that particular tag:
 
-\[\[Image:j4.x_tagged_item_list-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/1/1c/J4.x_tagged_item_list-en.png/800px-J4.x_tagged_item_list-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/1/1c/J4.x_tagged_item_list-en.png 1.5x"
+data-file-width="1000" data-file-height="345" width="800" height="276"
+alt="J4.x tagged item list-en.png" />
 
 Clicking a tag will take you to a page that outputs a list of all items
 assigned with that particular tag - in effect it is a filtered list of
@@ -219,9 +258,8 @@ Configuration is outside the scope of this tutorial but **global
 configuration** is accessed from the sidebar menu, **Components \>
 Tags**. Click the **Options** button in the upper toolbar.
 
-For more information read:
-
-Tags: Options.
+For more information read: [Tags:
+Options](https://docs.joomla.org/Help4.x:Tags:_Options "Special:MyLanguage/Help4.x:Tags: Options").
 
 Global configuration can be overridden at menu item level.
 

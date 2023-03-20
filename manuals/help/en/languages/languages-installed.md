@@ -37,9 +37,6 @@ Click on the column heading to sort the list by that column's value.
 - **Author.** The name of the language translator is displayed in this
   column.
 - **Author Email.** The email address of the translator.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -106,25 +103,13 @@ At the top of the page you will see the toolbar shown in the
   language radio button and then this button. The Administrator language
   will change and there will be a message such as *Message La langue de
   l'administration a Ã©tÃ© changÃ©e en "French (France)"*.
-
-<!-- -->
-
 - **Install Languages.** Links to the [Install Languages
   Screen](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Languages/en "Help4.x:Extensions Extension Manager Languages/en").
-
-<!-- -->
-
 - **Close**. Closes the current screen and returns to the previous
   screen without saving any modifications you may have made. This
   toolbar icon is not shown if you are creating a new item.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips
@@ -140,14 +125,8 @@ At the top of the page you will see the toolbar shown in the
   with prompts in Spanish.
 - This User's choice is not affected by the Default Language set for the
   Frontend.
-
-<!-- -->
-
 - Changing a User's Language or the Default Language does not affect the
   website's Articles and other content.
-
-<!-- -->
-
 - **Important**: Do not delete the default language files (for example,
   with FTP). This will create errors on both the Frontend and Backend.
 - Additional Languages can be added using the [Install Languages

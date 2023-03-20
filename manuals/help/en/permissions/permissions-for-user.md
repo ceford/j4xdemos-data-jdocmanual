@@ -54,9 +54,6 @@ displayed in that column.
 - **LFT.** The left and right values in the hierarchy. See [Using nested
   sets](https://docs.joomla.org/Using_nested_sets "Using nested sets")
   in English.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -93,9 +90,6 @@ At the top of the page you will see the toolbar shown in the
 
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Legend

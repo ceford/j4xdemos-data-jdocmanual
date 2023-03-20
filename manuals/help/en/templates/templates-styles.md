@@ -30,9 +30,6 @@ alt="Help-4x-Extensions-Template-Manager-Styles-screen-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -63,9 +60,6 @@ alt="Help-4x-Extensions-Template-Manager-Styles-screen-en.png" />
 - **Template.** The name of the template. Select a link to edit the
   templates files. Do not edit Joomla default templates - your changes
   may be lost if there is an update.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -113,24 +107,12 @@ At the top of the page you will see the toolbar shown in the
   decoding="async" data-file-width="30" data-file-height="20" width="30"
   height="20" alt="Icon-16-default.png" />) will show in the Default
   column, indicating that this is now the default item.
-
-<!-- -->
-
 - **Duplicate:** Makes a copy of the selected item. The copy is created
   immediately and is given the same name as the original but prefixed
   with "Copy of" and/or suffixed with a number (eg. "(2)") so that it
   can be distinguished from the original and any other copies.
-
-<!-- -->
-
 - **Delete:** Deletes the selected items. Works with one or multiple
   items selected.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

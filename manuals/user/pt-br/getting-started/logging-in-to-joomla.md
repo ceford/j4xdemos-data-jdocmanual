@@ -40,7 +40,12 @@ meu-website-joomla.com/administrator
 
 Isso levará você ao início de sessão do administrador no Joomla:
 
-\[\[Image:j4x\_\_administrator_login_en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/2/2a/J4x_administrator_login_en.png/800px-J4x_administrator_login_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/2/2a/J4x_administrator_login_en.png 1.5x"
+data-file-width="1000" data-file-height="562" width="800" height="450"
+alt="J4x administrator login en.png" />
 
 1.  Adicione seu **nome de usuário**;
 2.  adicione sua **senha**.
@@ -61,7 +66,12 @@ inicial do Joomla!.
 Para terminar a sessão clique no **menu do usuário** e depois em
 **término de sessão**.
 
-\[\[Image:j4x\_\_administrator_logout_en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/8/89/J4x_administrator_logout_en.png/800px-J4x_administrator_logout_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/8/89/J4x_administrator_logout_en.png 1.5x"
+data-file-width="1000" data-file-height="159" width="800" height="127"
+alt="J4x administrator logout en.png" />
 
 ## Entrar e sair no frontend do site
 
@@ -78,8 +88,12 @@ início de sessão.
 Neste exemplo, usamos um formulário de início de sessão no site que está
 localizado na barra lateral.
 
-\[\[Image:j4x\_\_front_end_login_en.png\|border\|800px\]\]
-
+<img
+src="https://docs.joomla.org/images/thumb/a/ae/J4x_front_end_login_en.png/800px-J4x_front_end_login_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/a/ae/J4x_front_end_login_en.png 1.5x"
+data-file-width="1000" data-file-height="548" width="800" height="438"
+alt="J4x front end login en.png" />
   
 No **formulário de início de sessão**:
 
@@ -95,7 +109,12 @@ sessão**.
 
 ### Terminando sessão
 
-\[\[Image:j4x\_\_front_end_logout_en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/a/a9/J4x_front_end_logout_en.png/800px-J4x_front_end_logout_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/a/a9/J4x_front_end_logout_en.png 1.5x"
+data-file-width="1000" data-file-height="233" width="800" height="186"
+alt="J4x front end logout en.png" />
 
 Para terminar a sessão, vá para a posição em que você se conectou e
 clique no botão para **terminar sessão**.

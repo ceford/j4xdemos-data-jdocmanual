@@ -14,17 +14,17 @@ Articles and other content.
 
 TinyMCE can be configured with 3 different sets of toolbar buttons
 
-\***Set 2** is assigned to 'Public'. \***Set 1** is assigned to the
-'Manager' and 'Registered'.
-
+- **Set 2** is assigned to 'Public'.
+- **Set 1** is assigned to the 'Manager' and 'Registered'.
 - **Set 0** is the most extended toolbar and is by default assigned to
   the 'Administrator', 'Editor' and 'Super Users'.
 
-\[\[Image:Help30-editor-tinymce-advanced-
-
-en
-
-.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/f/fb/Help30-editor-tinymce-advanced-en.png/600px-Help30-editor-tinymce-advanced-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/f/fb/Help30-editor-tinymce-advanced-en.png 1.5x"
+data-file-width="669" data-file-height="114" width="600" height="102"
+alt="Help30-editor-tinymce-advanced-en.png" />
 
 Learn about Toolbars, Editor Buttons and Accessibility of
 [TinyMCE](https://docs.joomla.org/Chunk30:TinyMCE "Special:MyLanguage/Chunk30:TinyMCE").
@@ -48,12 +48,11 @@ makes it somewhat easier to work with raw HTML code.
 To set options: [CodeMirror Editor
 Plugin](https://docs.joomla.org/Help310:Extensions_Plugin_Manager_Edit#Editor_-_CodeMirror "Special:MyLanguage/Help310:Extensions Plugin Manager Edit")
 
-## Sem editor
+## No editor
 
-Se não for selecionado 'Nenhum editor' por um «Utilizador», então é
-exibido um editor de texto simples. Isto permite-lhe inserir na linha,
-HTML não formatado. Pode utilizar o botão 'Pré-visualizar' na barra de
-ferramentas para pré-visualizar a exibição de HTML.
+If 'No editor' is selected for a User, then a simple text editor
+displays. This allows you to enter in raw, unformatted HTML. You can use
+the toolbar 'Preview' button to preview how the HTML will display.
 
 Note that the 'No Editor' option can be useful if you are entering in
 'boilerplate' or custom HTML, for example to create a PayPal link.

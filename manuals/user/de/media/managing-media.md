@@ -32,7 +32,7 @@ screen. In the last it appears in a modal dialog.
 The following image shows the Media page just after Joomla installation
 but with the cassiopeia/sampledata folder selected:
 
-\[\[File:J4.x-media-cassiopeia-sampledata-en.jpg\|800px\]\]
+<img alt="J4.x-media-cassiopeia-sampledata-en.jpg" src="/images/0/0a/J4.x-media-cassiopeia-sampledata-en.jpg" decoding="async" data-file-width="800" data-file-height="406" width="800" height="406">
 
 ## Managing Folders
 
@@ -96,7 +96,7 @@ folder!***
 
 The folder selected for deletion is illustrated below:
 
-\[\[File:J4.x-media-delete-folder-en.jpg\|800px\]\]
+<img alt="J4.x-media-delete-folder-en.jpg" src="/images/4/40/J4.x-media-delete-folder-en.jpg" decoding="async" data-file-width="800" data-file-height="201" width="800" height="201">
 
 ## Media Area Toolbar
 

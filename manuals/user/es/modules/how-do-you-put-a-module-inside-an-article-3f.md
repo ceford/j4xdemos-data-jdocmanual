@@ -77,7 +77,9 @@ If the editor-xtd plugin "Button - Module" is activated you can use the
 editor button "Module" to insert above described tags more easily into
 the editor text. Since Joomla! 3.9 also the `loadmouleid` variant.
 
-===Módulos dentro de Módulos=== En Joomla! 2.5+ y Joomla! 3.x+ es
+### Módulos dentro de Módulos
+
+En Joomla! 2.5+ y Joomla! 3.x+ es
 posible incluir un módulo dentro de un módulo "HTML Personalizado". Que
 son procesados por los plugins de contenido de la misma manera que los
 artículos.

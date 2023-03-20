@@ -12,13 +12,7 @@ methods.
 
 - Select **System **→** Update Panel **→** Extensions** from the
   Administrator menu. Then to perform an update...
-
-<!-- -->
-
 - - Select the checkbox of one or more items to update.
-
-<!-- -->
-
 - - Select the **Update** button in the Toolbar.
 
 ## Captura de Ecrã
@@ -38,43 +32,27 @@ srcset="https://docs.joomla.org/images/1/1d/Help-4x-Extensions-Manage-Update-col
 data-file-width="871" data-file-height="29" width="680" height="23"
 alt="Help-4x-Extensions-Manage-Update-columns-en.png" />
 
-{{:Chunk4x:Help screen column header Checkbox/en}}
-
+- **Checkbox**. Check this box to select one or more items. To select
+  all items, check the box in the column heading. After one or more
+  boxes are checked, click a toolbar button to take an action on the
+  selected item or items. Many toolbar actions, such as Publish and
+  Unpublish, can work with multiple items. Others, such as Edit, only
+  work on one item at a time. If multiple items are checked and you
+  press Edit, the first item will be opened for editing.
 - **Name.** The name of the extension.
-
-<!-- -->
-
 - **Location.** Specifies if this is a site or administrator extension.
-
-<!-- -->
-
 - **Type.** The extension type. Examples of extension types are module,
   plug-in, template, component, language or package.
-
-<!-- -->
-
 - **Installed.** The version number of the currently installed
   extension.
-
-<!-- -->
-
 - **Available.** The version number of the available update.
-
-<!-- -->
-
 - **Changelog.** The changelog.
-
-<!-- -->
-
 - **Folder.** If the extension is a plug-in, the subdirectory of your
   Joomla! installation's /plugins directory where the extension is
   located. By default Joomla! has the following subdirectories in the
   plugins directory which each represent the different types of plug-ins
   that are defined: authentication, content, editors, editors-xtd,
   extension, search, system, user.
-
-<!-- -->
-
 - **Install Type.** The type of installation that will be performed by
   the update. Usually this will be type ***Update*** which will perform
   an in-place update of the extension.
@@ -106,14 +84,8 @@ shown in the [Screenshot](#screenshot) above.
 
 - **-Select Location-.** Select Site, Administrator or API from the
   drop-down list of available locations.
-
-<!-- -->
-
 - **-Select Type-.** Select the extension type from the drop-down list
   box of available types.
-
-<!-- -->
-
 - **-Select Folder-.** Select a plug-in folder from the drop-down list
   box of available folders. There is a separate folder for each type of
   plug-in defined in your Joomla installation.
@@ -131,30 +103,15 @@ has a dark colour background.
 
 ## Barra de Ferramentas
 
-At the top of the page you will see the toolbar shown in the
-[Screenshot](#Screenshot) above. The functions are:
-
 - **Update.** Perform update of selected options. This will fetch an
   update file from the update server and may take several seconds.
   Please be patient!
-
-<!-- -->
-
 - **Find Updates.** Query update servers for the latest versions of
   installed extensions. Again, this may take a while.
-
-<!-- -->
-
 - **Clear Cache.** Clear the available extension update information
   displayed in the listing.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Dicas Rápidas
@@ -163,15 +120,9 @@ At the top of the page you will see the toolbar shown in the
   in this screen. If you use extensions which do not support the new
   update system or you are not sure, consult the extension developer's
   website.
-
-<!-- -->
-
 - It is critical to keep your extensions up-to-date. Failure to do so
   may expose a vulnerability in your Joomla! installation which can be
   exploited by hackers.
-
-<!-- -->
-
 - It is recommended to backup your Joomla! installation files and
   database before attempting to update extensions or the Joomla!
   installation itself. This will ensure that you can restore your
@@ -182,44 +133,20 @@ At the top of the page you will see the toolbar shown in the
 
 - **Instalar.** Interliga ao [Ecrã de
   Instalação](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Install "Special:MyLanguage/Help4.x:Extensions Extension Manager Install").
-
-<!-- -->
-
 - **Install.** Links to the [Install
   Screen](https://docs.joomla.org/Help4.x:Extensions:_Install/en "Help4.x:Extensions: Install/en").
-
-<!-- -->
-
 - **Atualizar.** Interliga ao [Ecrã de
   Atualização](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Update "Special:MyLanguage/Help4.x:Extensions Extension Manager Update").
-
-<!-- -->
-
 - **Manage.** Links to the [Manage
   Screen](https://docs.joomla.org/Help4.x:Extensions:_Manage/en "Help4.x:Extensions: Manage/en").
-
-<!-- -->
-
 - **Discover.** Links to the [Discover
   Screen](https://docs.joomla.org/Help4.x:Extensions:_Discover/en "Help4.x:Extensions: Discover/en").
-
-<!-- -->
-
 - **Database.** Links to the [Database
   Screen](https://docs.joomla.org/Help4.x:Information:_Database/en "Help4.x:Information: Database/en").
-
-<!-- -->
-
 - **Warnings.** Links to the [Warnings
   Screen](https://docs.joomla.org/Help4.x:Information:_Warnings/en "Help4.x:Information: Warnings/en").
-
-<!-- -->
-
 - **Install Languages.** Links to the [Install Languages
   Screen](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Languages/en "Help4.x:Extensions Extension Manager Languages/en").
-
-<!-- -->
-
 - **Update Sites.** Links to the <a
   href="https://docs.joomla.org/index.php?title=Help4.x:Extensions_Extension_Manager_Update_Sites/en&amp;action=edit&amp;redlink=1"
   class="new"

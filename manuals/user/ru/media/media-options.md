@@ -26,7 +26,11 @@ your newly created file folder to the list of places you can keep media.
 Just click on the + button and select files from the list of available
 folders.
 
-\[\[File:J4.x-media-filesystem-local-plugin-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/9/9e/J4.x-media-filesystem-local-plugin-en.png"
+class="thumbborder" decoding="async" data-file-width="800"
+data-file-height="406" width="800" height="406"
+alt="J4.x-media-filesystem-local-plugin-en.png" />
 
 Make sure the plugin is enabled. Save & Close.
 
@@ -36,14 +40,21 @@ In the Options form enter the folder name in the **Path to Files
 Folder** field. Make sure you do not use the name of an existing core
 Joomla folder.
 
-\[\[File:J4.x-media-options-en.png\|border\|800px\]\]
+<img src="https://docs.joomla.org/images/9/98/J4.x-media-options-en.png"
+class="thumbborder" decoding="async" data-file-width="800"
+data-file-height="406" width="800" height="406"
+alt="J4.x-media-options-en.png" />
 
 ## Screenshot
 
 When set up, you will be able to choose between the images and files
 folders in the Local part of the Media view.
 
-\[\[File:J4.x-media-images-files-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/0/08/J4.x-media-images-files-en.png"
+class="thumbborder" decoding="async" data-file-width="800"
+data-file-height="406" width="800" height="406"
+alt="J4.x-media-images-files-en.png" />
 
 ## Further Information
 

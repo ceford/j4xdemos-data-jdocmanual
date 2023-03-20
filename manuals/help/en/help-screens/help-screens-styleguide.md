@@ -69,7 +69,7 @@ Articles</a> in the left, upper sidebar.</li>
 </tbody>
 </table>
 
-\*Note:
+**Notes:**
 
 - If the way to reach the screen is from another screen then the name of
   that screen should be a link to its help screen.
@@ -85,7 +85,7 @@ Articles</a> in the left, upper sidebar.</li>
 
 Screenshot showing the overall look of the screen.
 
-\*Notes:
+**Notes:**
 
 - Screenshot images can be any width, but larger images should have the
   \|800px added in the source.

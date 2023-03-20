@@ -32,44 +32,20 @@ alt="Help-4x-menus-menu-manager-menu-items-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Title**. The name of the item. For a Menu Item, the Title will
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Menu**. Shows which menu the link will appear in.
-
-<!-- -->
-
 - **Home**. The yellow star icon designates which menu item is the
   current Home Page. Clicking on an empty Star icon will designate that
   menu item as the new Home Page.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Association:** Shows which menu item this item is associated.
-
-<!-- -->
-
 - **Language**. Item language.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -86,9 +62,6 @@ Screenshot above. The functions are:
 - **Search**. Enter part of the menu's name and press the Search to find
   matching names. Press **x** or Clear to clear the search field and
   restore the list of menus.
-
-<!-- -->
-
 - **Ordering:** (default). The column in which to sort displayed items
   in the table. The values are the same as the column heading names.
 
@@ -96,19 +69,10 @@ Screenshot above. The functions are:
 
 - **Select Status**. Select from Trashed / Unpublished / Published /
   Archived / All.
-
-<!-- -->
-
 - **Select Access**. Select from the list of available viewing access
   levels.
-
-<!-- -->
-
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
-
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 - **Select Component.** Select from the list of components used by the
   menu items
@@ -124,29 +88,14 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new menu item.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Publish**. Makes the selected menu items available to visitors to
   your website.
-
-<!-- -->
-
 - **Unpublish.** Makes the selected menu items unavailable to visitors
   to your website.
-
-<!-- -->
-
 - **Check-In**. Checks-in the selected menu items. Works with one or
   multiple menu items selected.
-
-<!-- -->
-
 - **Trash**. Changes the status of the selected menu items to indicate
   that they are trashed.Trashed menu items can still be recovered by
   selecting 'Trashed' in the 'Select Status' filter and changing the
@@ -154,25 +103,13 @@ At the top of the page you will see the toolbar shown in the
   permanently delete trashed menu items, select 'Trashed' in the 'Select
   Status' filter, select the menu items to be permanently deleted, then
   click the 'Empty Trash' toolbar icon.
-
-<!-- -->
-
 - **Batch**. Batch processes the selected menu items. Works with one or
   multiple items selected.
-
-<!-- -->
-
 - **Rebuild.** Reconstructs and refreshes the relevant table. Normally,
   you do *not* need to rebuild this table. This function is provided in
   case the data in the table becomes corrupted.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Batch Process

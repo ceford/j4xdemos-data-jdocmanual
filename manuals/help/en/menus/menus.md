@@ -56,9 +56,6 @@ ascending order.
 - **Linked Modules**. Lists any menu modules associated with the menu.
   The column shows the module's name, access level, and position on
   template.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -71,37 +68,22 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new menu.
-
-<!-- -->
-
 - **Edit**. Opens the editing screen for the selected menu. If more than
   one menu is selected (where applicable), only the first menu will be
   opened. The editing screen can also be opened by clicking on the Name
   of the menu.
-
-<!-- -->
-
 - **Delete:** Deletes the selected menus. Works with one or multiple
   menus selected. Deleting a menu also deletes all the menu items it
   contains and any associated menu modules. On clicking Delete you will
   be asked to confirm that you want to delete the selected menus.
   Clicking OK button will delete the menus. Click Cancel to abort the
   deletion.
-
-<!-- -->
-
 - **Rebuild.** Reconstructs and refreshes the menu table. Normally, you
   do *not* need to rebuild this table. This function is provided in case
   the data in the table becomes corrupted.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited. See [Menus
   Configuration](https://docs.joomla.org/Help4.x:Components_Menus_Configuration "Special:MyLanguage/Help4.x:Components Menus Configuration").
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

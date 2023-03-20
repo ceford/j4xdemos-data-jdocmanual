@@ -30,17 +30,11 @@ displayed in that column.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering:** (default). The column in which to sort displayed items
   in the table. The values are the same as the column heading names.
 - **Level Name**. The name of the access level.
 - **User Groups Having Viewing Access**. The groups that have viewing
   access.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -62,29 +56,17 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new access level.
-
-<!-- -->
-
 - **Edit**. Opens the editing screen for the selected access level. If
   more than one access level is selected (where applicable), only the
   first access level will be opened. The editing screen can also be
   opened by clicking on the Name of the access level.
-
-<!-- -->
-
 - **Delete:** Deletes the selected access levels. Works with one or
   multiple access levels selected. Note that you cannot delete an access
   level that is currently being used. If you try to delete an access
   level that is assigned, a message showing where it is assigned will be
   displayed.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

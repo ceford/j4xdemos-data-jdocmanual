@@ -70,7 +70,13 @@ Options include "Use Global". If this is selected, the setting from the
 Options](https://docs.joomla.org/Help4.x:Articles:_Options/en "Help4.x:Articles: Options/en")
 will be used.
 
-\[\[File:Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png\|600px\|none\]\]
+
+<img
+src="https://docs.joomla.org/images/thumb/b/ba/Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png/600px-Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/b/ba/Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png/900px-Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/b/ba/Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png/1200px-Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png 2x"
+data-file-width="2880" data-file-height="1092" width="600" height="228"
+alt="Help-4x-Menus-Item-Articles-Article-Archived-archive-subscreen-en.png" />
 
 - **Article Order**.
   - Oldest First: Articles are displayed starting with the oldest and
@@ -110,7 +116,12 @@ will be used.
 The Options determine how the article will show on the Frontend Site
 layout.
 
-\[\[File:Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/a/a4/Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png/600px-Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/a/a4/Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png/900px-Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/a/a4/Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png/1200px-Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png 2x"
+data-file-width="2880" data-file-height="1340" width="600" height="279"
+alt="Help-4x-Menus-Item-Articles-Article-Archived-options-subscreen-en.png" />
 
 **Layout**
 
@@ -187,4 +198,6 @@ layout.
 
 ## Related Information
 
-{{safesubst:Chunk4x:Help screen related Articles/en}}
+- This
+  [Portal](https://docs.joomla.org/Portal:Joomla_4/en "Portal:Joomla 4/en")
+  brings together information related specifically to Joomla 4.

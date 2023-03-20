@@ -31,13 +31,7 @@ alt="Help-4x-system-maintenance-global-check-in-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Database Table**. The name of the table checked.
-
-<!-- -->
-
 - **Items to check-in**. Items that need to be checked-in.
 
 ## List Filters
@@ -74,14 +68,8 @@ At the top of the page you will see the toolbar shown in the
 
 - **Check-In**. Checks-in the selected items. Works with one or multiple
   items selected.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

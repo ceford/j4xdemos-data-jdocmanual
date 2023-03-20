@@ -20,7 +20,9 @@ alt="Help-4x-Components-Tags-Manager-screen-en.png" />
 
 In the table containing Tags, these are the different columns shown
 below. Click on the column heading on the Tags manager screen to sort
-the list by that column's value. <img
+the list by that column's value. 
+
+<img
 src="https://docs.joomla.org/images/2/2c/Help31-Tags-Manager-columns-en.png"
 decoding="async" data-file-width="1363" data-file-height="34"
 width="1363" height="34" alt="Help31-Tags-Manager-columns-en.png" />
@@ -32,9 +34,6 @@ width="1363" height="34" alt="Help31-Tags-Manager-columns-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering.** You can change the order of an item within a list as
   follows:
   - If the list Filter Options include a Position filter select the
@@ -53,32 +52,17 @@ width="1363" height="34" alt="Help31-Tags-Manager-columns-en.png" />
     height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
     drag it up or down to change the position of that row in the list.
     The items will display in the new order within the Position.
-
-<!-- -->
-
 - **Status**. The published status of the item.
-
-<!-- -->
-
 - **Title**. The name of the item. For a Menu Item, the Title will
   display in the Menu. For an Article or Category, the Title may
   optionally be displayed on the web page. This entry is required. You
   can open the item for editing by clicking on the Title.
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
-
-<!-- -->
-
 - **Language**. Item language.
 - **Tagged Items.** The number of items with this tag. Click the number
   to go to a list of items.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -113,23 +97,19 @@ shown in the [Screenshot](#screenshot) above.
 - **Select Status**. Select from Trashed / Unpublished / Published /
   Archived / All.
 
-<!-- -->
-
 - **Select Access**. Select from the list of available viewing access
   levels.
-
-<!-- -->
 
 - **Select Language**. Select from the list of available languages, if
   the site manages more than 1 language.
 
-<!-- -->
-
 - **Select Max Levels**. Select from the list of available levels.
 
-**Filter by Tag Type.** Select the Tag Type from the drop-down list box
+- **Filter by Tag Type.** Select the Tag Type from the drop-down list box
 of available Tag Types. Available tags are components in which tags are
-defined. <img
+defined. 
+
+<img
 src="https://docs.joomla.org/images/8/89/Help30-colheader-select-tag-type-en.png"
 decoding="async" data-file-width="228" data-file-height="115"
 width="228" height="115"
@@ -152,45 +132,23 @@ has a dark colour background.
 
 At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
-
 - **New**. Opens the editing screen to create a new tag.
-
-<!-- -->
-
 - **Edit**. Opens the editing screen for the selected tag. If more than
   one tag is selected (where applicable), only the first tag will be
   opened. The editing screen can also be opened by clicking on the Name
   of the tag.
-
-<!-- -->
-
 - **Publish**. Makes the selected tag available to visitors to your
   website.
-
-<!-- -->
-
 - **Unpublish.** Makes the selected tag unavailable to visitors to your
   website.
-
-<!-- -->
-
 - **Archive**. Changes the status of the selected tag to indicate that
   they are archived. Archived tag can be moved back to the published or
   unpublished state by selecting 'Archived' in the 'Select Status'
   filter and changing the status of the tag.
-
-<!-- -->
-
 - **Check-In**. Checks-in the selected tag. Works with one or multiple
   tag selected.
-
-<!-- -->
-
 - **Batch**. Batch processes the selected tag. Works with one or
   multiple items selected.
-
-<!-- -->
-
 - **Trash**. Changes the status of the selected tag to indicate that
   they are trashed.Trashed tag can still be recovered by selecting
   'Trashed' in the 'Select Status' filter and changing the status of the
@@ -198,12 +156,6 @@ At the top of the page you will see the toolbar shown in the
   delete trashed tag, select 'Trashed' in the 'Select Status' filter,
   select the tag to be permanently deleted, then click the 'Empty Trash'
   toolbar icon.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.

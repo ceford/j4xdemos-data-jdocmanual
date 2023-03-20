@@ -280,7 +280,7 @@ Vous pouvez voir une section avec des paramètres PHP recommandés.
   installé. Vous pouvez vous référer aux instructions ci-dessus sur la
   façon dont ils peuvent être modifiés s'il y a un besoin de le faire.
 
-=== Installation de langues supplémentaires ===
+### Installation de langues supplémentaires
 
 Dans le cadre du processus d'installation de Joomla, vous avez la
 possibilité d'installer des langues supplémentaires avant de terminer

@@ -113,14 +113,8 @@ At the top of the page you will see the toolbar shown in the
   installed extensions. Again, this may take a while.
 - **Clear Cache.** Clear the available extension update information
   displayed in the listing.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

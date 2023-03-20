@@ -42,7 +42,12 @@ mon-siteweb-joomla.com/administrator.
 
 Vous accédez alors à la connexion de l'administrateur de Joomla :
 
-\[\[Image:j4x\_\_administrator_login_en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/2/2a/J4x_administrator_login_en.png/800px-J4x_administrator_login_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/2/2a/J4x_administrator_login_en.png 1.5x"
+data-file-width="1000" data-file-height="562" width="800" height="450"
+alt="J4x administrator login en.png" />
 
 1.  Ajouter votre **Nom d'utilisateur**.
 2.  Ajouter votre **Mot de passe**.
@@ -64,7 +69,12 @@ bord principal de Joomla !
 Pour vous déconnecter, cliquez sur le **Menu utilisateur** puis sur
 **Déconnexion**.
 
-\[\[Image:j4x\_\_administrator_logout_en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/8/89/J4x_administrator_logout_en.png/800px-J4x_administrator_logout_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/8/89/J4x_administrator_logout_en.png 1.5x"
+data-file-width="1000" data-file-height="159" width="800" height="127"
+alt="J4x administrator logout en.png" />
 
 ## Connexion et déconnexion à partir du front du site web
 
@@ -82,8 +92,12 @@ connexion.
 Dans cet exemple, nous utilisons un formulaire de connexion sur le site
 Web qui se trouve dans la barre latérale.
 
-\[\[Image:j4x\_\_front_end_login_en.png\|border\|800px\]\]
-
+<img
+src="https://docs.joomla.org/images/thumb/a/ae/J4x_front_end_login_en.png/800px-J4x_front_end_login_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/a/ae/J4x_front_end_login_en.png 1.5x"
+data-file-width="1000" data-file-height="548" width="800" height="438"
+alt="J4x front end login en.png" />
   
 Dans le **Formulaire de connexion** :
 
@@ -99,7 +113,12 @@ un bouton *Déconnexion*.
 
 ### Déconnexion
 
-\[\[Image:j4x\_\_front_end_logout_en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/a/a9/J4x_front_end_logout_en.png/800px-J4x_front_end_logout_en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/a/a9/J4x_front_end_logout_en.png 1.5x"
+data-file-width="1000" data-file-height="233" width="800" height="186"
+alt="J4x front end logout en.png" />
 
 Pour vous déconnecter, allez à l'endroit où vous vous êtes connecté et
 cliquez sur le bouton **Déconnexion**.

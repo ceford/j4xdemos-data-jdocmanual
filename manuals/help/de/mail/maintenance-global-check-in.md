@@ -30,26 +30,31 @@ title="File:Help-4x-system-maintenance-global-check-in-de.png">800px</a>
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<a
-href="https://docs.joomla.org/index.php?title=Chunk4x:Help_screen_column_header_Database_Table/de&amp;action=edit&amp;redlink=1"
-class="new"
-title="Chunk4x:Help screen column header Database Table/de (page does not exist)">Chunk4x:Help
-screen column header Database Table/de</a>
-
-{{:Chunk4x:Help screen column header ItemsToCheckin/
-
-en
-
-}}
+- **Database Table**. The name of the table checked.
+- **Items to check-in**. Items that need to be checked-in.
 
 ## List Filters
 
-{{safesubst:Chunk4x:Help_screen_filters_Search_Bar_Filter/
+**Search bar**. Near the top of the page you will see the search bar
+shown in the [Screenshot](#screenshot) above.
 
-en
-
-}}
+- **Search by Text**. Enter part of the search term and click the Search
+  icon. *Hover* to see a *Tooltip* indicating which fields will be
+  searched.To 'Search by ID' enter "id:x", where "x" is the ID number
+  (for example, "id:19").
+- **Filter Options**. Click to display the additional filters.
+- **Clear**. Click to clear the Filter field and restore the list to its
+  unfiltered state.
+- **Ordering**. Shows the current list ordering field. 2 ways to change
+  the order:
+  - Select from the dropdown list. Ordering may be in ascending or
+    descending order.
+  - Click a column heading. The column heading toggles between ascending
+    and descending order.
+- **Number to Display**. Shows the number of items in a list. Select
+  from the dropdown list to change the number displayed.The default for
+  a site is '20' but this may be changed in the [Global
+  Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#defaultlistlimit "Special:MyLanguage/Help4.x:Site Global Configuration/en").
 
 **Filter Options**
 
@@ -57,23 +62,14 @@ en
 
 ## Toolbar
 
-{{safesubst:Chunk4x:Help_screen_toolbar_top_descriptor/
+At the top of the page you will see the toolbar shown in the
+[Screenshot](#Screenshot) above. The functions are:
 
-en
-
-}} {{safesubst:Chunk4x:Help_screen_toolbar_icon_Checkin/
-
-en
-
-}} {{safesubst:Chunk4x:Help_screen_toolbar_icon_Options/
-
-en
-
-}} {{safesubst:Chunk4x:Help_screen_toolbar_icon_Help/
-
-en
-
-}}
+- **Check-In**. Checks-in the selected items. Works with one or multiple
+  items selected.
+- **Options.** Opens the Options window where settings such as default
+  parameters can be edited.
+- **Help**. Opens this help screen.
 
 ## Quick Tips
 

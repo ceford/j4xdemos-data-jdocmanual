@@ -255,7 +255,7 @@ actualización
   un caso especial para mariadb, por lo que ahora puede establecer una
   versión mínima específica para esto.
 
-== Contribuyentes ==
+## Contribuyentes
 
 - **sha256**, **sha384**, **sha512** – Optional. Since Joomla 3.9.0 you
   can add file checksums in these hash formats. Be aware that in Joomla

@@ -18,7 +18,12 @@ To edit a User:
 
 ## Screenshot
 
-\[\[File:Help-4x-Users-screen-en.png\|800px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/0/06/Help-4x-Users-screen-en.png/800px-Help-4x-Users-screen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/0/06/Help-4x-Users-screen-en.png/1200px-Help-4x-Users-screen-en.png 1.5x, https://docs.joomla.org/images/thumb/0/06/Help-4x-Users-screen-en.png/1600px-Help-4x-Users-screen-en.png 2x"
+data-file-width="2556" data-file-height="1500" width="800" height="469"
+alt="Help-4x-Users-screen-en.png" />
 
 ## Column Headers
 
@@ -115,7 +120,12 @@ At the top of the page you will see the toolbar shown in the
 The Batch Process allows a change in settings for a group of selected
 users.
 
-\[\[File:Help-4x-Users-batch-subscreen-en.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/2/21/Help-4x-Users-batch-subscreen-en.png/600px-Help-4x-Users-batch-subscreen-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/thumb/2/21/Help-4x-Users-batch-subscreen-en.png/900px-Help-4x-Users-batch-subscreen-en.png 1.5x, https://docs.joomla.org/images/thumb/2/21/Help-4x-Users-batch-subscreen-en.png/1200px-Help-4x-Users-batch-subscreen-en.png 2x"
+data-file-width="1598" data-file-height="717" width="600" height="269"
+alt="Help-4x-Users-batch-subscreen-en.png" />
 
 **How to Batch Process** a group of users:
 
@@ -149,4 +159,3 @@ users.
 - [Home
   Dashboard](https://docs.joomla.org/Help4.x:Home_Dashboard/pt-br "Special:MyLanguage/Help4.x:Home Dashboard/pt-br"):
   Access to many default Joomla
-  functions.{{:Chunk4x:Help_screen_related_Users/en}}

@@ -15,22 +15,22 @@ TinyMCE puede ser configurado con tres grupos distintos de botones en la
 barra de herramientas: avanzado, simple y extendido. Para modificar este
 parámetro, lo encuentras en el plugín 'Editor - TinyMCE', en el
 [Administratos de
-plugins](https://docs.joomla.org/Help30:Extensions_Plugin_Manager "Special:MyLanguage/Help30:Extensions Plugin Manager")
-.
+plugins](https://docs.joomla.org/Help30:Extensions_Plugin_Manager "Special:MyLanguage/Help30:Extensions Plugin Manager").
 
 TinyMCE can be configured with 3 different sets of toolbar buttons
 
-\***Set 2** is assigned to 'Public'. \***Set 1** is assigned to the
+- **Set 2** is assigned to 'Public'.
+- **Set 1** is assigned to the
 'Manager' and 'Registered'.
-
 - **Set 0** is the most extended toolbar and is by default assigned to
   the 'Administrator', 'Editor' and 'Super Users'.
 
-\[\[Image:Help30-editor-tinymce-advanced-
-
-en
-
-.png\|600px\|none\]\]
+<img
+src="https://docs.joomla.org/images/thumb/f/fb/Help30-editor-tinymce-advanced-en.png/600px-Help30-editor-tinymce-advanced-en.png"
+decoding="async"
+srcset="https://docs.joomla.org/images/f/fb/Help30-editor-tinymce-advanced-en.png 1.5x"
+data-file-width="669" data-file-height="114" width="600" height="102"
+alt="Help30-editor-tinymce-advanced-en.png" />
 
 Learn about Toolbars, Editor Buttons and Accessibility of
 [TinyMCE](https://docs.joomla.org/Chunk30:TinyMCE "Special:MyLanguage/Chunk30:TinyMCE").

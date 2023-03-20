@@ -32,9 +32,6 @@ alt="Help-4x-System-Clear-Cache-screen-en.png" />
 
 - **\#**. An indexing number automatically assigned by Joomla! for ease
   of reference.
-
-<!-- -->
-
 - **Checkbox**. Check this box to select one or more items. To select
   all items, check the box in the column heading. After one or more
   boxes are checked, click a toolbar button to take an action on the
@@ -42,21 +39,12 @@ alt="Help-4x-System-Clear-Cache-screen-en.png" />
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Cache Group**. The type of item being cached in this file. This is
   also the name of the subdirectory where this type of cache file is
   stored. The cache files are stored in the directory
   "\<path-to-Joomla!\>/cache/\<Cache Group Name\>".
-
-<!-- -->
-
 - **Number of Files**. The number of files currently in this cache
   group.
-
-<!-- -->
-
 - **Size**. The total size, in KB, of the cache files in this group.
 
 ## List Filters
@@ -104,24 +92,12 @@ At the top of the page you will see the toolbar shown in the
 
 - **Delete:** Deletes the selected items. Works with one or multiple
   items selected.
-
-<!-- -->
-
 - **Delete All:** Deletes all the items. Works with all items.
-
-<!-- -->
-
 - **Clear Expired Cache**. Deletes all expired cache files. Cache files
   that are still current will not be deleted. WARNING: This operation
   can be resource intensive on sites with a large number of items.
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips

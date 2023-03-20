@@ -31,14 +31,8 @@ Click on the column heading to sort the list by that column's value.
   Unpublish, can work with multiple items. Others, such as Edit, only
   work on one item at a time. If multiple items are checked and you
   press Edit, the first item will be opened for editing.
-
-<!-- -->
-
 - **Ordering:** (default). The column in which to sort displayed items
   in the table. The values are the same as the column heading names.
-
-<!-- -->
-
 - **Status**. The published status of the item.
 - **Title.** The names of the installed Languages on this web site.
 - **Native Title.** Language title in the native language.
@@ -51,17 +45,11 @@ Click on the column heading to sort the list by that column's value.
   "Use Image Flags" Language Switcher basic option. Example: If 'en' is
   chosen, then the image shall be en.gif. Images and CSS for this module
   are in media/mod_languages/
-
-<!-- -->
-
 - **Access**. The [viewing Access
   Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
   for this item.
 - **Home.** Whether there is a default page set for this language or
   not.
-
-<!-- -->
-
 - **ID**. This is a unique identification number for this item assigned
   automatically by Joomla. It is used to identify the item internally,
   and you cannot change this number. When creating a new item, this
@@ -118,24 +106,12 @@ At the top of the page you will see the toolbar shown in the
 [Screenshot](#Screenshot) above. The functions are:
 
 - **New**. Opens the editing screen to create a new item.
-
-<!-- -->
-
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-
-<!-- -->
-
 - **Publish**. Makes the selected items available to visitors to your
   website.
-
-<!-- -->
-
 - **Unpublish.** Makes the selected items unavailable to visitors to
   your website.
-
-<!-- -->
-
 - **Trash**. Changes the status of the selected items to indicate that
   they are trashed.Trashed items can still be recovered by selecting
   'Trashed' in the 'Select Status' filter and changing the status of the
@@ -143,19 +119,10 @@ At the top of the page you will see the toolbar shown in the
   delete trashed items, select 'Trashed' in the 'Select Status' filter,
   select the items to be permanently deleted, then click the 'Empty
   Trash' toolbar icon.
-
-<!-- -->
-
 - **Install Languages.** Links to the [Install Languages
   Screen](https://docs.joomla.org/Help4.x:Extensions_Extension_Manager_Languages/en "Help4.x:Extensions Extension Manager Languages/en").
-
-<!-- -->
-
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.
-
-<!-- -->
-
 - **Help**. Opens this help screen.
 
 ## Quick Tips
@@ -171,14 +138,8 @@ At the top of the page you will see the toolbar shown in the
   with prompts in Spanish.
 - This User's choice is not affected by the Default Language set for the
   Front-end.
-
-<!-- -->
-
 - Changing a User's Language or the Default Language does not affect the
   web site's Articles and other content.
-
-<!-- -->
-
 - **Important**: Do not delete the default language files (for example,
   with FTP). This will create errors on both the Front-end and Back-end.
 - Additional Languages can be added using the [Install Languages

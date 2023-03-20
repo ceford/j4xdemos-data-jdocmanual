@@ -118,23 +118,22 @@ compatible, debe revisarse muy detenidamente antes de presionar el botón
 de la actualización. Se recomienda **encarecidamente** deshabilitar los
 plugins en cuestión y consultar con el desarrollador original.
 
-\[\[File:Pre_upgrade_checker_popup-<img
+<img
 src="https://docs.joomla.org/images/thumb/1/1e/Pre_upgrade_checker_popup-en.png/200px-Pre_upgrade_checker_popup-en.png"
 decoding="async"
 srcset="https://docs.joomla.org/images/thumb/1/1e/Pre_upgrade_checker_popup-en.png/300px-Pre_upgrade_checker_popup-en.png 1.5x, https://docs.joomla.org/images/thumb/1/1e/Pre_upgrade_checker_popup-en.png/400px-Pre_upgrade_checker_popup-en.png 2x"
 data-file-width="492" data-file-height="446" width="200" height="181"
-alt="Advertencia emergente de posibles plugins que rompen la actualización" />.png\|200px\|The
-popup warning for potencial upgrade issue\]\]
+alt="The popup warning for potencial upgrade issue" />
 
 En la pestaña *Actualización en vivo*, se ofrece nuevamente la lista
 completa de extensiones de potencial ruptura.
 
-\[\[File:Live_upgrade_tab_errors-<img
-src="https://docs.joomla.org/images/4/41/Live_upgrade_tab_errors-es.png"
-decoding="async" data-file-width="800" data-file-height="222"
-width="800" height="222"
-alt="El mensaje de Actualización en vivo sobre extensiones de potencial ruptura" />.png\|border\|800px\|The
-Live Update message on potential breaking extensions\]\]
+<img
+src="https://docs.joomla.org/images/thumb/b/b1/Live_upgrade_tab_errors-en.png/800px-Live_upgrade_tab_errors-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/b/b1/Live_upgrade_tab_errors-en.png/1200px-Live_upgrade_tab_errors-en.png 1.5x, https://docs.joomla.org/images/thumb/b/b1/Live_upgrade_tab_errors-en.png/1600px-Live_upgrade_tab_errors-en.png 2x"
+data-file-width="2042" data-file-height="787" width="800" height="308"
+alt="The Live Update message on potential breaking extensions" />
 
 Se recomienda **encarecidamente** deshabilitar todas las extensiones,
 incluidos los plugins enumerados aquí, antes de ejecutar la

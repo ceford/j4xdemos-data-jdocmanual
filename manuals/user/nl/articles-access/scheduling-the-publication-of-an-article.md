@@ -30,7 +30,7 @@ about a type of dog that is available via the dogs link in your menu and
 set the article as featured to appear on your home page for a set period
 of time.
 
-==How Scheduling Works==
+## How Scheduling Works
 
 By default articles are set at **Published** as soon as they are saved.
 The initial saving of the article creates the **Created Date** and
@@ -48,7 +48,7 @@ date and **Expired** after the date and time an article has been set to
 finish. Despite the article itself being set to published, Joomla uses
 the start and finish settings to override the default published state.
 
-==Scheduling the Publishing of an Article==
+## Scheduling the Publishing of an Article
 
 If you are scheduling an existing article:
 
@@ -66,7 +66,12 @@ create it.
 
 Click on the article's **Publishing** tab.
 
-\[\[File:j4x_article_scheduling_tab-en.png\|border\|left\|300px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/2/24/J4x_article_scheduling_tab-en.png/300px-J4x_article_scheduling_tab-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/2/24/J4x_article_scheduling_tab-en.png/450px-J4x_article_scheduling_tab-en.png 1.5x, https://docs.joomla.org/images/2/24/J4x_article_scheduling_tab-en.png 2x"
+data-file-width="500" data-file-height="520" width="300" height="312"
+alt="J4x article scheduling tab-en.png" />
 
 To schedule the article there are four options:
 
@@ -91,7 +96,12 @@ and time is reached.
 In the following screenshot we set a future publishing date for the
 article:
 
-\[\[File:j4x_article_scheduling_start-en.png\|border\|left\|300px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/4/4f/J4x_article_scheduling_start-en.png/300px-J4x_article_scheduling_start-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/4/4f/J4x_article_scheduling_start-en.png/450px-J4x_article_scheduling_start-en.png 1.5x, https://docs.joomla.org/images/4/4f/J4x_article_scheduling_start-en.png 2x"
+data-file-width="500" data-file-height="445" width="300" height="267"
+alt="J4x article scheduling start-en.png" />
 
 At the end of the *Start Publishing* field click the calendar icon.
 
@@ -118,7 +128,12 @@ the article, the dates you entered will be cleared.
 Once you have scheduled the article as required click **Save&Close** via
 the top toolbar.
 
-\[\[File:j4x_article_scheduled-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/b/be/J4x_article_scheduled-en.png/800px-J4x_article_scheduled-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/b/be/J4x_article_scheduled-en.png 1.5x"
+data-file-width="1000" data-file-height="386" width="800" height="309"
+alt="J4x article scheduled-en.png" />
 
 In the Article List you will see that the article you have scheduled
 shows an exclamation mark (!) in the **Status** column. If you hover
@@ -131,12 +146,17 @@ If an article has been scheduled to finish, when it does the
 **Published** and **Current** the tick will be replaced with the
 **Expired** icon as below.
 
-\[\[File:j4x_article_expired-en.png\|border\|800px\]\]
+<img
+src="https://docs.joomla.org/images/thumb/5/57/J4x_article_expired-en.png/800px-J4x_article_expired-en.png"
+class="thumbborder" decoding="async"
+srcset="https://docs.joomla.org/images/5/57/J4x_article_expired-en.png 1.5x"
+data-file-width="1000" data-file-height="261" width="800" height="209"
+alt="J4x article expired-en.png" />
 
 Featured articles will show as pending or expired in the Featured
 column.
 
-==Quick Tips==
+## Quick Tips
 
 \*You can schedule the publishing of articles from the front end too.
 \*It is also possible to schedule via the menu item for the article.
