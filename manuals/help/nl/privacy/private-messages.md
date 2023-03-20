@@ -9,7 +9,7 @@ instellingen en groep-opties beheren.
 
 ## Hoe toegang te krijgen
 
-- - Selecteer **Gebruikers **→** Berichten **→** Privéberichten** vanuit
+  - Selecteer **Gebruikers **→** Berichten **→** Privéberichten** vanuit
     het beheermenu.
 
 ## Schermafbeelding

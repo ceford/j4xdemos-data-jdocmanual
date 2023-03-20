@@ -138,7 +138,7 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-nl.png" />
 
 <!-- -->
 
-- - Naar beneden: Om de artikelen qua volgorde eerst te tonen in de
+  - Naar beneden: Om de artikelen qua volgorde eerst te tonen in de
     eerste kolom totdat deze vol is, en vervolgens in de volgende kolom,
     bijvoorbeeld:
 
@@ -146,7 +146,7 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-nl.png" />
 
 <!-- -->
 
-- - Links naar rechts: Om de artikelen van links naar rechts te tonen
+  - Links naar rechts: Om de artikelen van links naar rechts te tonen
     over de kolommen heen tot de laatste kolom is bereikt, en vervolgens
     weer terug naar de eerste kolom, bijvoorbeeld:
 

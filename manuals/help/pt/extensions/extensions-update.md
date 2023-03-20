@@ -12,8 +12,8 @@ methods.
 
 - Select **System **→** Update Panel **→** Extensions** from the
   Administrator menu. Then to perform an update...
-- - Select the checkbox of one or more items to update.
-- - Select the **Update** button in the Toolbar.
+  - Select the checkbox of one or more items to update.
+  - Select the **Update** button in the Toolbar.
 
 ## Captura de Ecrã
 

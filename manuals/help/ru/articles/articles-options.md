@@ -307,14 +307,14 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-ru.p
 
 <!-- -->
 
-- - Вниз: Order articles going down the first column and then over to
+  - Вниз: Order articles going down the first column and then over to
     the next column, for example:
 
 - 
 
 <!-- -->
 
-- - Поперек: Order articles going across the columns and then back to
+  - Поперек: Order articles going across the columns and then back to
     the first column, for example:
 
 - 

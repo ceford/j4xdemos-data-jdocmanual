@@ -192,21 +192,21 @@ At the top of the page you will see the toolbar shown in the
 
 <!-- -->
 
-- - **Publish**. Makes the selected bannière available to visitors to
+  - **Publish**. Makes the selected bannière available to visitors to
     your website.
 
-- - **Unpublish.** Makes the selected bannière unavailable to visitors
+  - **Unpublish.** Makes the selected bannière unavailable to visitors
     to your website.
 
-- - **Archive**. Changes the status of the selected bannière to indicate
+  - **Archive**. Changes the status of the selected bannière to indicate
     that they are archived. Archived bannière can be moved back to the
     published or unpublished state by selecting 'Archived' in the
     'Select Status' filter and changing the status of the bannière.
 
-- - **Check-In**. Checks-in the selected bannière. Works with one or
+  - **Check-In**. Checks-in the selected bannière. Works with one or
     multiple bannière selected.
 
-- - **Trash**. Changes the status of the selected bannière to indicate
+  - **Trash**. Changes the status of the selected bannière to indicate
     that they are trashed.Trashed bannière can still be recovered by
     selecting 'Trashed' in the 'Select Status' filter and changing the
     status of the articles to Published or Unpublished as preferred.To
@@ -214,7 +214,7 @@ At the top of the page you will see the toolbar shown in the
     Status' filter, select the bannière to be permanently deleted, then
     click the 'Empty Trash' toolbar icon.
 
-- - **Batch**. Batch processes the selected bannière. Works with one or
+  - **Batch**. Batch processes the selected bannière. Works with one or
     multiple items selected.
 
 <!-- -->

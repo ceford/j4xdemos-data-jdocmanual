@@ -155,21 +155,21 @@ At the top of the page you will see the toolbar shown in the
 
 <!-- -->
 
-- - **Publish**. Makes the selected client available to visitors to your
+  - **Publish**. Makes the selected client available to visitors to your
     website.
 
-- - **Unpublish.** Makes the selected client unavailable to visitors to
+  - **Unpublish.** Makes the selected client unavailable to visitors to
     your website.
 
-- - **Archive**. Changes the status of the selected client to indicate
+  - **Archive**. Changes the status of the selected client to indicate
     that they are archived. Archived client can be moved back to the
     published or unpublished state by selecting 'Archived' in the
     'Select Status' filter and changing the status of the client.
 
-- - **Check-In**. Checks-in the selected client. Works with one or
+  - **Check-In**. Checks-in the selected client. Works with one or
     multiple client selected.
 
-- - **Trash**. Changes the status of the selected client to indicate
+  - **Trash**. Changes the status of the selected client to indicate
     that they are trashed.Trashed client can still be recovered by
     selecting 'Trashed' in the 'Select Status' filter and changing the
     status of the articles to Published or Unpublished as preferred.To

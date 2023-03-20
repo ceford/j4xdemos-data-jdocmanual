@@ -140,14 +140,14 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-es.png" />
 
 <!-- -->
 
-- - Abajo: Orden de los artículos van hacia abajo en la primera columna
+  - Abajo: Orden de los artículos van hacia abajo en la primera columna
     y, a continuación, a la siguiente columna, por ejemplo:
 
 - 
 
 <!-- -->
 
-- - Cruzado: El orden de los artículos va a través de las columnas y, a
+  - Cruzado: El orden de los artículos va a través de las columnas y, a
     continuación, vuelve a la primera columna, por ejemplo:
 
 - 

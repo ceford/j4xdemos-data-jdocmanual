@@ -194,22 +194,22 @@ de tela](#Captura_de_tela) acima. As funções são:
 
 <!-- -->
 
-- - **Publicar**: Disponibiliza os banner selecionados para os
+  - **Publicar**: Disponibiliza os banner selecionados para os
     visitantes do seu site.
 
-- - **Cancelar publicação**: Torna os banner selecionados indisponíveis
+  - **Cancelar publicação**: Torna os banner selecionados indisponíveis
     para os visitantes do seu site.
 
-- - **Arquivo**: Altera o estado dos banner selecionados para indicar
+  - **Arquivo**: Altera o estado dos banner selecionados para indicar
     que eles estão arquivados. Os banner arquivados podem ser movidos de
     volta para o estado publicado ou não publicado selecionando
     "Arquivado" no filtro "Selecionar estado" e alterando o estado dos
     banner.
 
-- - **Check-in**: Faz o check-in dos banner selecionados. Funciona com
+  - **Check-in**: Faz o check-in dos banner selecionados. Funciona com
     um ou vários banner selecionados.
 
-- - **Lixeira**: Altera o estado dos banner selecionados para indicar
+  - **Lixeira**: Altera o estado dos banner selecionados para indicar
     que eles estão na lixeira.banner na lixeira ainda podem ser
     recuperados selecionando "Lixeira" no filtro "Selecionar estado" e
     alterando o estado dos artigos para "Publicado" ou "Não publicado"
@@ -218,7 +218,7 @@ de tela](#Captura_de_tela) acima. As funções são:
     selecione os banner a serem excluídos permanentemente e clique no
     ícone "Esvaziar lixeira" na barra de ferramentas.
 
-- - **Lote**: Processa em lote os banner selecionados. Funciona com um
+  - **Lote**: Processa em lote os banner selecionados. Funciona com um
     ou vários itens selecionados.
 
 <!-- -->

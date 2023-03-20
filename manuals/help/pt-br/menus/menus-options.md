@@ -47,17 +47,17 @@ Para alterar as permissões para esta extensão, faça o seguinte.
 
 <!-- -->
 
-- - **Configurar ACL e opções**. Os usuários podem editar as opções e
+  - **Configurar ACL e opções**. Os usuários podem editar as opções e
     permissões desta extensão.
 
 <!-- -->
 
-- - **Configurar apenas as opções**. Os usuários podem editar as opções,
+  - **Configurar apenas as opções**. Os usuários podem editar as opções,
     exceto as permissões desta extensão.
 
 <!-- -->
 
-- - **Acessar a interface da administração**. Os usuários podem acessar
+  - **Acessar a interface da administração**. Os usuários podem acessar
     a interface da administração para usuário desta extensão.
   - **Criar:** Os usuários podem criar conteúdo desta extensão.
   - **Excluir:** Os usuários podem excluir o conteúdo desta extensão.

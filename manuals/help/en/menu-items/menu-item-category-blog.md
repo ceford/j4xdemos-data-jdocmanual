@@ -132,14 +132,14 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-en.png" />
 
 <!-- -->
 
-- - Down: Order articles going down the first column and then over to
+  - Down: Order articles going down the first column and then over to
     the next column, for example:
 
 - 
 
 <!-- -->
 
-- - Across: Order articles going across the columns and then back to the
+  - Across: Order articles going across the columns and then back to the
     first column, for example:
 
 - 

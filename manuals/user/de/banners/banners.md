@@ -66,7 +66,7 @@ list by that column's value.
 - **Pinned**. *(Yes or No)* Whether or not the Banner is "pinned". If
   one or more Banners in a Category are designated "sticky," they will
   take priority over Banners that are not sticky.
-- - *For example, if two Banners in a Category are pinned and a third Banner
+  - *For example, if two Banners in a Category are pinned and a third Banner
 is not pinned, the third Banner will not display if the Banner display
 module setting is "Pinned, Randomise" or "Pinned, Ordering." Only the
 two pinned Banners will display. If the pinned banners have a fixed
@@ -145,24 +145,24 @@ At the top of the page you will see the toolbar shown in the
 - **New**. Opens the editing screen to create a new banner.
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-- - **Publish**. Makes the selected banner available to visitors to your
+  - **Publish**. Makes the selected banner available to visitors to your
     website.
-- - **Unpublish.** Makes the selected banner unavailable to visitors to
+  - **Unpublish.** Makes the selected banner unavailable to visitors to
     your website.
-- - **Archive**. Changes the status of the selected banner to indicate
+  - **Archive**. Changes the status of the selected banner to indicate
     that they are archived. Archived banner can be moved back to the
     published or unpublished state by selecting 'Archived' in the
     'Select Status' filter and changing the status of the banner.
-- - **Check-In**. Checks-in the selected banner. Works with one or
+  - **Check-In**. Checks-in the selected banner. Works with one or
     multiple banner selected.
-- - **Trash**. Changes the status of the selected banner to indicate
+  - **Trash**. Changes the status of the selected banner to indicate
     that they are trashed.Trashed banner can still be recovered by
     selecting 'Trashed' in the 'Select Status' filter and changing the
     status of the articles to Published or Unpublished as preferred.To
     permanently delete trashed banner, select 'Trashed' in the 'Select
     Status' filter, select the banner to be permanently deleted, then
     click the 'Empty Trash' toolbar icon.
-- - **Batch**. Batch processes the selected banner. Works with one or
+  - **Batch**. Batch processes the selected banner. Works with one or
     multiple items selected.
 - **Options.** Opens the Options window where settings such as default
   parameters can be edited.

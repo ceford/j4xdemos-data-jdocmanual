@@ -344,14 +344,14 @@ title="File:Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscre
 
 <!-- -->
 
-- - Verticalmente: Classifica os artigos descendo a primeira coluna e
+  - Verticalmente: Classifica os artigos descendo a primeira coluna e
     depois para a próxima coluna, por exemplo:
 
 - 
 
 <!-- -->
 
-- - Horizontalmente: Classifica os artigos horizontalmente pelas colunas
+  - Horizontalmente: Classifica os artigos horizontalmente pelas colunas
     e depois volta para a primeira coluna, por exemplo:
 
 - 

@@ -11,7 +11,7 @@ Aus dem Administration-Menü **System **→** Verwalten **→** Sprachen**
 wählen. **Achtung:** Sprachen werden auch im Fenster Installieren
 angezeigt, dann...
 
-- - die Schaltfläche *Optionen* in der Toolbar **anklicken**.
+  - die Schaltfläche *Optionen* in der Toolbar **anklicken**.
 
 ## Bildschirmfoto
 

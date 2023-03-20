@@ -50,17 +50,17 @@ handelingen uitvoeren.
 
 <!-- -->
 
-- - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
+  - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
     van deze extensie bewerken.
 
 <!-- -->
 
-- - **Alleen instellingenopties**. Gebruikers kunnen van deze extensie
+  - **Alleen instellingenopties**. Gebruikers kunnen van deze extensie
     de opties bewerken, behalve de rechten.
 
 <!-- -->
 
-- - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
+  - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
     de beheerdersinterface van deze extensie.
   - **Maken:** Gebruikers mogen inhoud voor deze extensie aanmaken.
   - **Verwijderen:** Gebruikers mogen inhoud in deze extensie

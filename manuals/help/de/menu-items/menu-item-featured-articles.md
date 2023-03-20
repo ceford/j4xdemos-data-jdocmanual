@@ -98,14 +98,14 @@ alt="Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-de.png"
 
 <!-- -->
 
-- - Down: Abwärts: Beiträge werden innerhalb der ersten Spalte abwärts
+  - Down: Abwärts: Beiträge werden innerhalb der ersten Spalte abwärts
     sortiert, dann in der nächsten Spalte. Zum Beispiel:
 
 - 
 
 <!-- -->
 
-- - Across: Seitlich: Beiträge werden quer durch die Spalten sortiert,
+  - Across: Seitlich: Beiträge werden quer durch die Spalten sortiert,
     dann zurück in die erste Spalte. Zum Beispiel:
 
 - 

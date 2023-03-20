@@ -193,23 +193,23 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 <!-- -->
 
-- - **Publiceren**. Maakt de geselecteerde advertentie beschikbaar voor
+  - **Publiceren**. Maakt de geselecteerde advertentie beschikbaar voor
     de bezoekers van uw website.
 
-- - **Depubliceren.** Maakt de geselecteerde advertentie niet
+  - **Depubliceren.** Maakt de geselecteerde advertentie niet
     beschikbaar voor de bezoekers van uw website
 
-- - **Archiveren**. Verandert de status van één van de geselecteerde
+  - **Archiveren**. Verandert de status van één van de geselecteerde
     advertentie om aan te geven dat ze worden gearchiveerd.
     Gearchiveerde advertentie kunnen terug naar de gepubliceerde of
     gedepubliceerde status gebracht worden door *Gearchiveerd* te
     selecteren in het Selecteer status filter en de status van de
     advertentie te wijzigen naar Gepubliceerd of Gedepubliceerd.
 
-- - **Inchecken**. Checkt de geselecteerde advertentie in. Werkt bij één
+  - **Inchecken**. Checkt de geselecteerde advertentie in. Werkt bij één
     of meer advertentie geselecteerd.
 
-- - **Prullenbak**. Verandert de status van de selecteerde advertentie
+  - **Prullenbak**. Verandert de status van de selecteerde advertentie
     om aan te geven dat ze in de prullenbak zitten. advertentie in de
     prullenbak kunnen hersteld worden door "Verplaatst naar prullenbak"
     te kiezen in het 'Selecteer status' zoekmiddel filter en de status
@@ -220,7 +220,7 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
     verwijderd moeten worden en klik daarna op het 'Prullenbak
     leegmaken' werkbalk icoon.
 
-- - **Batch**. Batch verwerkt de geselecteerde advertentie. Werkt bij
+  - **Batch**. Batch verwerkt de geselecteerde advertentie. Werkt bij
     één of meer geselecteerde items.
 
 <!-- -->

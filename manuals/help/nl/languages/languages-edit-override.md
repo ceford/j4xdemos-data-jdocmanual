@@ -24,7 +24,7 @@ functie gebruiken om het origineel te vervangen.
     Dan...
 - Selecteer de **Nieuw** knop in de werkbalk om een nieuwe override aan
   te maken. Of...
-  - - Selecteer de constante link in de **Constante** kolom om een
+    - Selecteer de constante link in de **Constante** kolom om een
       bestaande override te bewerken.
 
 ## Schermafbeelding

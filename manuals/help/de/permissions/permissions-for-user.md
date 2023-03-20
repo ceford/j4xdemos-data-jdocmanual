@@ -9,7 +9,7 @@ Erweiterungen der Joomla! Installation hinweg.
 ## Wie darauf zugreifen
 
 - Select **Users **→** Manage** from the Administrator menu. Then...
-- - Select the icon in the **Permissions** column for a specific user.
+  - Select the icon in the **Permissions** column for a specific user.
 
 ## Screenshot
 

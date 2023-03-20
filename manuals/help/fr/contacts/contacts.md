@@ -111,23 +111,23 @@ At the top of the page you will see the toolbar shown in the
 - **New**. Opens the editing screen to create a new contact.
 - **Actions:** Reveals a list of actions for selected Items. Check one
   or more Item checkboxes to activate the list.
-- - **Publish**. Makes the selected contact available to visitors to
+  - **Publish**. Makes the selected contact available to visitors to
     your website.
-- - **Unpublish.** Makes the selected contact unavailable to visitors to
+  - **Unpublish.** Makes the selected contact unavailable to visitors to
     your website.
-- - **Feature.** Marks selected contact as featured. Works with one or
+  - **Feature.** Marks selected contact as featured. Works with one or
     multiple contact selected.
-- - **Unfeature.** Changes the status of featured articles to
+  - **Unfeature.** Changes the status of featured articles to
     unfeatured. Works with one or multiple articles selected.
-- - **Archive**. Changes the status of the selected contact to indicate
+  - **Archive**. Changes the status of the selected contact to indicate
     that they are archived. Archived contact can be moved back to the
     published or unpublished state by selecting 'Archived' in the
     'Select Status' filter and changing the status of the contact.
-- - **Check-In**. Checks-in the selected contact. Works with one or
+  - **Check-In**. Checks-in the selected contact. Works with one or
     multiple contact selected.
-- - **Batch**. Batch processes the selected contact. Works with one or
+  - **Batch**. Batch processes the selected contact. Works with one or
     multiple items selected.
-- - **Trash**. Changes the status of the selected contact to indicate
+  - **Trash**. Changes the status of the selected contact to indicate
     that they are trashed.Trashed contact can still be recovered by
     selecting 'Trashed' in the 'Select Status' filter and changing the
     status of the articles to Published or Unpublished as preferred.To

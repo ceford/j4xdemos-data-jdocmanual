@@ -170,31 +170,31 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- - **Veröffentlichen**: Macht die gewählten Kontakte auf der Webseite
+  - **Veröffentlichen**: Macht die gewählten Kontakte auf der Webseite
     für Besucher verfügbar.
 
-- - **Versteckt**: Macht die gewählten Kontakte für die Besucher der
+  - **Versteckt**: Macht die gewählten Kontakte für die Besucher der
     Webseite unsichtbar.
 
-- - **Haupteintrag**: Markiert die gewählten Kontakte als Haupteintrag.
+  - **Haupteintrag**: Markiert die gewählten Kontakte als Haupteintrag.
     Funktioniert mit einem oder mehreren gewählten Kontakten.
 
-- - **Kein Haupteintrag.** Markiert die gewählten Kontakte als „Kein
+  - **Kein Haupteintrag.** Markiert die gewählten Kontakte als „Kein
     Haupteintrag“. Funktioniert mit einem oder mehreren gewählten
     Kontakten.
 
-- - **Archivieren**. Ändert den Status gewählter Kontakte auf
+  - **Archivieren**. Ändert den Status gewählter Kontakte auf
     archiviert. Kontakte können wieder hergestellt werden. Den
     Suchfilter 'Archiviert' wählen und den Status gewählter Kontakte auf
     'Veröffentlicht' oder 'Versteckt' ändern.
 
-- - **Freigeben**. Gibt die ausgewählten Kontakte wieder frei.
+  - **Freigeben**. Gibt die ausgewählten Kontakte wieder frei.
     Funktioniert mit einem oder mehreren ausgewählten Kontakte.
 
-- - **Stapelverarbeitung**: Gewählte Kontakte in der Stapelverarbeitung
+  - **Stapelverarbeitung**: Gewählte Kontakte in der Stapelverarbeitung
     nutzen. Funktioniert mit einem oder mehreren gewählten Kontakten.
 
-- - **Papierkorb**. Ändert den Status gewählter Kontakte auf
+  - **Papierkorb**. Ändert den Status gewählter Kontakte auf
     „Papierkorb“.Kontakte können wieder hergestellt werden. Den
     Suchfilter „Papierkorb“ wählen und den Status gewählter Kontakte auf
     *Veröffentlicht* oder *Versteckt* ändern.Um Kontakte im Papierkorb

@@ -11,7 +11,7 @@ template's master files and stylesheets from this screen.
   Administrator menu. Or...
 - Select **System **→** Templates Panel **→** Administrator Templates**
   from the Administrator menu. Then...
-- - Select a template name from the **Templates** column.
+  - Select a template name from the **Templates** column.
 
 ## Capture d'écran
 

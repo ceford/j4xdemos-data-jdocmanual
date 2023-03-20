@@ -245,13 +245,13 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 <!-- -->
 
-- - In het [Nieuwsfeeds
+  - In het [Nieuwsfeeds
     opties](https://docs.joomla.org/Help4.x:News_Feed:_Options/nl "Help4.x:News Feed: Options/nl")
     scherm kunt u de standaardwaarde voor alle categorieën instellen.
 
 <!-- -->
 
-- - In <a
+  - In <a
     href="https://docs.joomla.org/index.php?title=Help4.x:News_Feeds:_New_or_Edit_Category/nl&amp;action=edit&amp;redlink=1"
     class="new"
     title="Help4.x:News Feeds: New or Edit Category/nl (page does not exist)">Nieuwsfeed:

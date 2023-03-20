@@ -124,9 +124,6 @@ actualización
 - **folder** - Específico para plugins, esta etiqueta describe el tipo
   de plugin que se actualiza (contenido, sistema, etc.) (obligatorio
   para los plugins)
-
-<!-- -->
-
 - **client** - Requerido para módulos y plantillas de 3.2.0. - El ID de
   cliente de la extensión, que se puede encontrar buscando en el
   interior de la tabla \#\_\_extensions. Hasta la fecha, utiliza 0 para
@@ -138,15 +135,9 @@ actualización
   coincide con ninguna extensión. Los componentes se instalan
   automáticamente con un cliente 1, que actualmente es el valor
   predeterminado.
-
-<!-- -->
-
-- - *Advertencia*: el nombre de La etiqueta es \<**client**\> para
+  - *Advertencia*: el nombre de La etiqueta es \<**client**\> para
     Joomla! 2.5 y \<**client_id**\> para 1.6 y 1.7. Si utilizas (en
     lugar de ) en un sitio 2.5, será ignorado.
-
-<!-- -->
-
 - **version** - La versión de la publicación (requerido)
 - **infourl** - Una dirección URL para que apunten los usuarios que
   contiene información acerca de la actualización (opcional) (En CMS
@@ -166,16 +157,10 @@ actualización
   - **NOTA** - no debe haber ningún salto de línea antes o después de la
     URL; tiene que ser en una línea o se obtendrá un Error al conectar
     con el servidor: formato incorrecto al ejecutar la actualización
-
-<!-- -->
-
 - **tags** - Una lista de etiquetas pertinentes para esta versión.
   Joomla! 3.4 y siguientes lo utiliza para determinar el nivel de
   estabilidad de la actualización. Las etiquetas válidas son:
-
-<!-- -->
-
-- - *dev*: versión de Desarrollo, muy inestable y pre-alfa (por ej.ː
+  - *dev*: versión de Desarrollo, muy inestable y pre-alfa (por ej.ː
     compilaciones nocturnas automáticas)
   - *alfa*: Software de calidad Alfa (características no implementadas,
     fallos por problemas de seguridad)
@@ -191,18 +176,13 @@ actualización
     mencionadas sólo la ÚLTIMA etiqueta será tomada en cuenta. Si no
     proporcionas las etiquetas, Joomla! supone que es una versión
     estable.
-
 - **maintainer** - El nombre del mantenedor de la extensión (similar a
   la etiqueta en un manifiesto) (opcional)
-
 - **maintainerurl** - El sitio web del mantenedor de la extensión
   (similar a la etiqueta en un manifiesto) (opcional)
-
 - **section** - Opcional (de uso desconocido)
-
 - **targetplatform** - Una etiqueta para definir los requisitos de la
   plataforma, requiere de los siguientes elementosː
-
 - **targetplatform** - Una etiqueta para definir los requisitos de la
   plataforma (de
   <img src="https://docs.joomla.org/images/5/55/Compat_icon_3_10.png"

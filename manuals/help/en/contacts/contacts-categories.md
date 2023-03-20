@@ -238,21 +238,21 @@ At the top of the page you will see the toolbar shown in the
 
 <!-- -->
 
-- - **Publish**. Makes the selected category available to visitors to
+  - **Publish**. Makes the selected category available to visitors to
     your website.
 
-- - **Unpublish.** Makes the selected category unavailable to visitors
+  - **Unpublish.** Makes the selected category unavailable to visitors
     to your website.
 
-- - **Archive**. Changes the status of the selected category to indicate
+  - **Archive**. Changes the status of the selected category to indicate
     that they are archived. Archived category can be moved back to the
     published or unpublished state by selecting 'Archived' in the
     'Select Status' filter and changing the status of the category.
 
-- - **Check-In**. Checks-in the selected category. Works with one or
+  - **Check-In**. Checks-in the selected category. Works with one or
     multiple category selected.
 
-- - **Trash**. Changes the status of the selected category to indicate
+  - **Trash**. Changes the status of the selected category to indicate
     that they are trashed.Trashed category can still be recovered by
     selecting 'Trashed' in the 'Select Status' filter and changing the
     status of the articles to Published or Unpublished as preferred.To
@@ -260,7 +260,7 @@ At the top of the page you will see the toolbar shown in the
     Status' filter, select the category to be permanently deleted, then
     click the 'Empty Trash' toolbar icon.
 
-- - **Batch**. Batch processes the selected category. Works with one or
+  - **Batch**. Batch processes the selected category. Works with one or
     multiple items selected.
 
 <!-- -->

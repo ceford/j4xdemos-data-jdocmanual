@@ -192,7 +192,7 @@ alt="Help-4x-Menus-Menu-Item-Contact-CategoriesOptions-screen-nl.png" />
 
 <!-- -->
 
-- - *Alle* Alle subcategorieën onder de hoofdcategorie.
+  - *Alle* Alle subcategorieën onder de hoofdcategorie.
   - *\<#\>* Selecteer een aantal, 1 tot 5, om de diepte van de
     subcategorieën in te stellen.
 

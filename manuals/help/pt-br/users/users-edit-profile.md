@@ -17,7 +17,7 @@ Para editar um usuário existente:
 Para criar um novo usuário: Selecione **Usuários **→** Gerenciar** no
 menu administrativo. Então ...
 
-- - Selecione o botão **Novo** na barra das ferramentas.
+  - Selecione o botão **Novo** na barra das ferramentas.
 
 - Ou ... Selecione **Usuários **→** Gerenciar **→** Ícone mais** no menu
   administrativo.

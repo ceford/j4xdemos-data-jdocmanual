@@ -141,13 +141,13 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-fr.png" />
 
 <!-- -->
 
-- - Colonne: Les articles se suivent à la verticale. Par exemple :
+  - Colonne: Les articles se suivent à la verticale. Par exemple :
 
 - 
 
 <!-- -->
 
-- - Ligne: Les articles se suivent à l'horizontal. Par exemple :
+  - Ligne: Les articles se suivent à l'horizontal. Par exemple :
 
 - 
 

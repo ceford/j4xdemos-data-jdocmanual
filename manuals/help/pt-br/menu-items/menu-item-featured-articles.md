@@ -105,14 +105,14 @@ title="File:Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-
 
 <!-- -->
 
-- - Down: Para baixo (verticalmente): Classifica os artigos descendo a
+  - Down: Para baixo (verticalmente): Classifica os artigos descendo a
     primeira coluna e depois para a próxima coluna, por exemplo:
 
 - 
 
 <!-- -->
 
-- - Across: Através (horizontalmente): Classifica os artigos através
+  - Across: Através (horizontalmente): Classifica os artigos através
     (horizontalmente) das colunas e depois volta para a primeira coluna,
     por exemplo:
 

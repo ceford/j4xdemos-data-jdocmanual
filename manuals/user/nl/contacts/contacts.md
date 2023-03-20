@@ -168,32 +168,32 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 <!-- -->
 
-- - **Publiceren**. Maakt de geselecteerde contactpersoon beschikbaar
+  - **Publiceren**. Maakt de geselecteerde contactpersoon beschikbaar
     voor de bezoekers van uw website.
 
-- - **Depubliceren.** Maakt de geselecteerde contactpersoon niet
+  - **Depubliceren.** Maakt de geselecteerde contactpersoon niet
     beschikbaar voor de bezoekers van uw website
 
-- - **Speciaal maken.** Markeert de geselecteerde contactpersoon als
+  - **Speciaal maken.** Markeert de geselecteerde contactpersoon als
     speciaal. Werkt bij één of meer contactpersoon geselecteerd.
 
-- - **Speciaal ongedaan maken.** Verandert de status van een speciaal
+  - **Speciaal ongedaan maken.** Verandert de status van een speciaal
     artikel naar normaal. Werkt met één of meer geselecteerde artikelen.
 
-- - **Archiveren**. Verandert de status van één van de geselecteerde
+  - **Archiveren**. Verandert de status van één van de geselecteerde
     contactpersoon om aan te geven dat ze worden gearchiveerd.
     Gearchiveerde contactpersoon kunnen terug naar de gepubliceerde of
     gedepubliceerde status gebracht worden door *Gearchiveerd* te
     selecteren in het Selecteer status filter en de status van de
     contactpersoon te wijzigen naar Gepubliceerd of Gedepubliceerd.
 
-- - **Inchecken**. Checkt de geselecteerde contactpersoon in. Werkt bij
+  - **Inchecken**. Checkt de geselecteerde contactpersoon in. Werkt bij
     één of meer contactpersoon geselecteerd.
 
-- - **Batch**. Batch verwerkt de geselecteerde contactpersoon. Werkt bij
+  - **Batch**. Batch verwerkt de geselecteerde contactpersoon. Werkt bij
     één of meer geselecteerde items.
 
-- - **Prullenbak**. Verandert de status van de selecteerde
+  - **Prullenbak**. Verandert de status van de selecteerde
     contactpersoon om aan te geven dat ze in de prullenbak zitten.
     contactpersoon in de prullenbak kunnen hersteld worden door
     "Verplaatst naar prullenbak" te kiezen in het 'Selecteer status'

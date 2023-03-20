@@ -108,14 +108,14 @@ alt="Help-4x-Menus-Item-Articles-Featured-Articles-blog-layout-subscreen-fr.png"
 
 <!-- -->
 
-- - Down: Colonne : les articles se suivent à la verticale. Par
+  - Down: Colonne : les articles se suivent à la verticale. Par
     exemple :
 
 - 
 
 <!-- -->
 
-- - Across: Ligne : les articles se suivent à l'horizontal. Par
+  - Across: Ligne : les articles se suivent à l'horizontal. Par
     exemple :
 
 - 

@@ -255,21 +255,21 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
 
 <!-- -->
 
-- - **Veröffentlichen**: Macht die gewählten Kategorie auf der Webseite
+  - **Veröffentlichen**: Macht die gewählten Kategorie auf der Webseite
     für Besucher verfügbar.
 
-- - **Versteckt**: Macht die gewählten Kategorie für die Besucher der
+  - **Versteckt**: Macht die gewählten Kategorie für die Besucher der
     Webseite unsichtbar.
 
-- - **Archivieren**. Ändert den Status gewählter Kategorie auf
+  - **Archivieren**. Ändert den Status gewählter Kategorie auf
     archiviert. Kategorie können wieder hergestellt werden. Den
     Suchfilter 'Archiviert' wählen und den Status gewählter Kategorie
     auf 'Veröffentlicht' oder 'Versteckt' ändern.
 
-- - **Freigeben**. Gibt die ausgewählten Kategorie wieder frei.
+  - **Freigeben**. Gibt die ausgewählten Kategorie wieder frei.
     Funktioniert mit einem oder mehreren ausgewählten Kategorie.
 
-- - **Papierkorb**. Ändert den Status gewählter Kategorien auf
+  - **Papierkorb**. Ändert den Status gewählter Kategorien auf
     „Papierkorb“.Kategorien können wieder hergestellt werden. Den
     Suchfilter „Papierkorb“ wählen und den Status gewählter Kategorien
     auf *Veröffentlicht* oder *Versteckt* ändern.Um Kategorien im
@@ -277,7 +277,7 @@ Werkzeugleiste im oberen Bereich. Die Funktionen sind:
     gewählte Kategorien durch Klick auf *Papierkorb leeren* in der
     Werkzeugleiste löschen.
 
-- - **Stapelverarbeitung**: Gewählte Kategorien in der
+  - **Stapelverarbeitung**: Gewählte Kategorien in der
     Stapelverarbeitung nutzen. Funktioniert mit einem oder mehreren
     gewählten Kategorienn.
 

@@ -247,23 +247,23 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 <!-- -->
 
-- - **Publiceren**. Maakt de geselecteerde categorie beschikbaar voor de
+  - **Publiceren**. Maakt de geselecteerde categorie beschikbaar voor de
     bezoekers van uw website.
 
-- - **Depubliceren.** Maakt de geselecteerde categorie niet beschikbaar
+  - **Depubliceren.** Maakt de geselecteerde categorie niet beschikbaar
     voor de bezoekers van uw website
 
-- - **Archiveren**. Verandert de status van één van de geselecteerde
+  - **Archiveren**. Verandert de status van één van de geselecteerde
     categorie om aan te geven dat ze worden gearchiveerd. Gearchiveerde
     categorie kunnen terug naar de gepubliceerde of gedepubliceerde
     status gebracht worden door *Gearchiveerd* te selecteren in het
     Selecteer status filter en de status van de categorie te wijzigen
     naar Gepubliceerd of Gedepubliceerd.
 
-- - **Inchecken**. Checkt de geselecteerde categorie in. Werkt bij één
+  - **Inchecken**. Checkt de geselecteerde categorie in. Werkt bij één
     of meer categorie geselecteerd.
 
-- - **Prullenbak**. Verandert de status van de selecteerde categorie om
+  - **Prullenbak**. Verandert de status van de selecteerde categorie om
     aan te geven dat ze in de prullenbak zitten. categorie in de
     prullenbak kunnen hersteld worden door "Verplaatst naar prullenbak"
     te kiezen in het 'Selecteer status' zoekmiddel filter en de status
@@ -274,7 +274,7 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
     moeten worden en klik daarna op het 'Prullenbak leegmaken' werkbalk
     icoon.
 
-- - **Batch**. Batch verwerkt de geselecteerde categorie. Werkt bij één
+  - **Batch**. Batch verwerkt de geselecteerde categorie. Werkt bij één
     of meer geselecteerde items.
 
 <!-- -->

@@ -59,12 +59,12 @@ handelingen uitvoeren.
 
 <!-- -->
 
-- - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
+  - **Instellen ACL & Opties**. Gebruikers kunnen de opties en rechten
     van deze extensie bewerken.
 
 <!-- -->
 
-- - **Configure Options Only.** Users can edit the options except the
+  - **Configure Options Only.** Users can edit the options except the
     permissions of this extension.
   - **Toegang tot beheerdersinterface**. Gebruikers hebben toegang tot
     de beheerdersinterface van deze extensie.

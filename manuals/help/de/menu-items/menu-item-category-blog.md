@@ -128,14 +128,14 @@ alt="Help-4x-Menus-Item-Articles-Category-Blog-blog-layout-subscreen-de.png" />
 
 <!-- -->
 
-- - Abwärts: Beiträge werden innerhalb der ersten Spalte abwärts
+  - Abwärts: Beiträge werden innerhalb der ersten Spalte abwärts
     sortiert, dann in der nächsten Spalte. Zum Beispiel:
 
 - 
 
 <!-- -->
 
-- - Seitlich: Beiträge werden quer durch die Spalten sortiert, dann
+  - Seitlich: Beiträge werden quer durch die Spalten sortiert, dann
     zurück in die erste Spalte. Zum Beispiel:
 
 - 

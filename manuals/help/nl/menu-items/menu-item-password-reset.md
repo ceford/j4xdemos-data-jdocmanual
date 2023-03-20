@@ -16,7 +16,7 @@ Aanmaken van een nieuw 'Wachtwoord herinstellen' menu-itemː
 
 <!-- -->
 
-- - Selecteer de **Nieuw** knop in de werkbalk. Dan...
+  - Selecteer de **Nieuw** knop in de werkbalk. Dan...
   - Klik op de Menu-itemtype selectie knop. <img
     src="https://docs.joomla.org/images/thumb/8/8f/Help-4x-Menu-Item-Type-Select-Button-nl.png/81px-Help-4x-Menu-Item-Type-Select-Button-nl.png"
     decoding="async"
@@ -26,7 +26,7 @@ Aanmaken van een nieuw 'Wachtwoord herinstellen' menu-itemː
 
 <!-- -->
 
-- - Selecteer in de modale dialoog het 'Gebruikers' item om een lijst te
+  - Selecteer in de modale dialoog het 'Gebruikers' item om een lijst te
     openen en selecteer daarna het **Wachtwoord herinstellen** item.
 
 Om een bestaand "Wachtwoord herinstellenl" menu-item te bewerken:

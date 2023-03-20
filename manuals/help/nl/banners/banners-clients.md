@@ -163,23 +163,23 @@ Bovenaan de pagina ziet u de werkbalk zoals in de
 
 <!-- -->
 
-- - **Publiceren**. Maakt de geselecteerde adverteerder beschikbaar voor
+  - **Publiceren**. Maakt de geselecteerde adverteerder beschikbaar voor
     de bezoekers van uw website.
 
-- - **Depubliceren.** Maakt de geselecteerde adverteerder niet
+  - **Depubliceren.** Maakt de geselecteerde adverteerder niet
     beschikbaar voor de bezoekers van uw website
 
-- - **Archiveren**. Verandert de status van één van de geselecteerde
+  - **Archiveren**. Verandert de status van één van de geselecteerde
     adverteerder om aan te geven dat ze worden gearchiveerd.
     Gearchiveerde adverteerder kunnen terug naar de gepubliceerde of
     gedepubliceerde status gebracht worden door *Gearchiveerd* te
     selecteren in het Selecteer status filter en de status van de
     adverteerder te wijzigen naar Gepubliceerd of Gedepubliceerd.
 
-- - **Inchecken**. Checkt de geselecteerde adverteerder in. Werkt bij
+  - **Inchecken**. Checkt de geselecteerde adverteerder in. Werkt bij
     één of meer adverteerder geselecteerd.
 
-- - **Prullenbak**. Verandert de status van de selecteerde adverteerder
+  - **Prullenbak**. Verandert de status van de selecteerde adverteerder
     om aan te geven dat ze in de prullenbak zitten. adverteerder in de
     prullenbak kunnen hersteld worden door "Verplaatst naar prullenbak"
     te kiezen in het 'Selecteer status' zoekmiddel filter en de status

@@ -323,7 +323,7 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-nl.p
 
 <!-- -->
 
-- - Naar beneden: Om de artikelen qua volgorde eerst te tonen in de
+  - Naar beneden: Om de artikelen qua volgorde eerst te tonen in de
     eerste kolom totdat deze vol is, en vervolgens in de volgende kolom,
     bijvoorbeeld:
 
@@ -331,7 +331,7 @@ alt="Help-4x-Content-Article-Manager-Options-blog-featured-layout-subscreen-nl.p
 
 <!-- -->
 
-- - Links naar rechts: Om de artikelen van links naar rechts te tonen
+  - Links naar rechts: Om de artikelen van links naar rechts te tonen
     over de kolommen heen tot de laatste kolom is bereikt, en vervolgens
     weer terug naar de eerste kolom, bijvoorbeeld:
 

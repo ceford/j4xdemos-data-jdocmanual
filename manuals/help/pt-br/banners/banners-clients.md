@@ -162,22 +162,22 @@ de tela](#Captura_de_tela) acima. As funções são:
 
 <!-- -->
 
-- - **Publicar**: Disponibiliza os cliente selecionados para os
+  - **Publicar**: Disponibiliza os cliente selecionados para os
     visitantes do seu site.
 
-- - **Cancelar publicação**: Torna os cliente selecionados indisponíveis
+  - **Cancelar publicação**: Torna os cliente selecionados indisponíveis
     para os visitantes do seu site.
 
-- - **Arquivo**: Altera o estado dos cliente selecionados para indicar
+  - **Arquivo**: Altera o estado dos cliente selecionados para indicar
     que eles estão arquivados. Os cliente arquivados podem ser movidos
     de volta para o estado publicado ou não publicado selecionando
     "Arquivado" no filtro "Selecionar estado" e alterando o estado dos
     cliente.
 
-- - **Check-in**: Faz o check-in dos cliente selecionados. Funciona com
+  - **Check-in**: Faz o check-in dos cliente selecionados. Funciona com
     um ou vários cliente selecionados.
 
-- - **Lixeira**: Altera o estado dos cliente selecionados para indicar
+  - **Lixeira**: Altera o estado dos cliente selecionados para indicar
     que eles estão na lixeira.cliente na lixeira ainda podem ser
     recuperados selecionando "Lixeira" no filtro "Selecionar estado" e
     alterando o estado dos artigos para "Publicado" ou "Não publicado"

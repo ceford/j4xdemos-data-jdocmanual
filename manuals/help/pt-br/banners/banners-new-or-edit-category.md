@@ -199,12 +199,12 @@ Para alterar as permissões para esta extensão, faça o seguinte.
 
 <!-- -->
 
-- - **Configurar ACL e opções**: Os usuários podem editar as opções e as
+  - **Configurar ACL e opções**: Os usuários podem editar as opções e as
     permissões desta extensão.
 
 <!-- -->
 
-- - **Configurar apenas opções**: Os usuários podem editar as opções,
+  - **Configurar apenas opções**: Os usuários podem editar as opções,
     exceto as permissões desta extensão.
   - **Interface de administração de acesso**: Os usuários podem acessar
     a interface de administração do usuário desta extensão.

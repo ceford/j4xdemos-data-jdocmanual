@@ -53,17 +53,17 @@ Um Berechtigungen dieser Erweiterung zu ändern:
 
 <!-- -->
 
-- - **ACL & Optionen konfigurieren**. Ermöglicht Benutzern das
+  - **ACL & Optionen konfigurieren**. Ermöglicht Benutzern das
     Bearbeiten der Optionen und Berechtigungen (ACL) dieser Erweiterung.
 
 <!-- -->
 
-- - **Nur Optionen konfigurieren**. Ermöglicht Benutzern die Optionen,
+  - **Nur Optionen konfigurieren**. Ermöglicht Benutzern die Optionen,
     außer den Berechtigungen (ACL), dieser Erweiterung zu bearbeiten.
 
 <!-- -->
 
-- - **Administrationszugriff**. Ermöglicht Benutzern den Zugriff auf
+  - **Administrationszugriff**. Ermöglicht Benutzern den Zugriff auf
     diese Erweiterung.
   - **Erstellen**. Benutzer können Inhalte für diese Erweiterung
     erstellen.
