@@ -124,10 +124,12 @@ language.
 
 ### Front-end files
 
-       
-            example.php
-            examples
-        
+```xml
+	<files folder="from-folder">
+		<filename>example.php</filename>
+		<folder>examples</folder>
+	</files>
+```  
 
 Files to copy to the front-end directory should be placed in the
 element. You can use the optional `folder` attribute to specify a
@@ -142,11 +144,13 @@ plugin's class. For example, in the case of a system plugin called
 
 ### Media files
 
-       
-            com_example_logo.png
-            css
-            js
-        
+```xml
+	<media folder="media" destination="com_example">
+		<filename>com_example_logo.png</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+```
 
 This example will copy the file(s) (`/media/com_example_logo.png`) and
 folders ( `/media/css/` and `/media/js/` ) listed to
@@ -175,9 +179,11 @@ Ref:
 
 ### Administration section
 
-       
-            
-        
+```xml
+	<administration>
+		<!-- various elements -->
+	</administration>
+```
 
 The administration section is defined in the element. Since only
 [components](https://docs.joomla.org/Component "Special:MyLanguage/Component")
@@ -194,31 +200,29 @@ for further rules.
 
 #### Menu Links and Submenus
 
-**Version Note:** Prior to Joomla 3.4, not having a
+**Version Note:** Prior to Joomla 3.4, not having a tag in your manifest 
+XML file still led to a menu item being created.
+This bug was fixed in Joomla 3.4, so if there is no tag in your manifest 
+file, then no admin menu item is created for the component.
 
-tag in your manifest XML file still led to a menu item being created.
-This bug was fixed in Joomla 3.4, so if there is no
+```xml
+	<menu>COM_EXAMPLE</menu>
+	<submenu>
+		<!--
+			Note that all & must be escaped to &amp; for the file to be valid
+			XML and be parsed by the installer
+		-->
+		<menu link="anoption=avalue&amp;anoption1=avalue1">COM_EXAMPLE_SUBMENU_ANOPTION</menu>
+		<menu view="viewname">COM_EXAMPLE_SUBMENU_VIEWNAME</menu>
+	</submenu>
+```
 
-tag in your manifest file, then no admin menu item is created for the
-component.
+The text for the main menu item for the component is defined in the `<menu>`
+item, a child of `<administration>`. A `<submenu>` element may also be 
+present (also a child of `<administration>`), which may contain more 
+menu items defined by `<menu>`.
 
-       COM_EXAMPLE
-        
-            
-            COM_EXAMPLE_SUBMENU_ANOPTION
-            COM_EXAMPLE_SUBMENU_VIEWNAME
-        
-
-The text for the main menu item for the component is defined in the
-
-item, a child of . A element may also be present (also a child of ),
-which may contain more menu items defined by
-
-.
-
-Additionally, each
-
-item can define the following attributes:
+Additionally, each `<menu>` item can define the following attributes:
 
 <table class="wikitable">
 
@@ -269,9 +273,11 @@ when the component is being installed.
 
 The contents of that file should be:
 
+```ini
     COM_EXAMPLE="Example Component"
     COM_EXAMPLE_SUBMENU_ANOPTION="Another Option"
     COM_EXAMPLE_SUBMENU_VIEWNAME="Another View"
+```
 
 Please note that the language string must be enclosed in double quotes,
 as per Joomla!'s translation standards.
@@ -295,9 +301,12 @@ the Administrator area for the site.
   the cpanel-example administrator module position
 - The title and icon defined in the XML file will be used as the header
   and icon at the top of the component's dashboard page.
-       
-            example
-        
+
+```xml
+  <dashboards>
+		<dashboard title="COM_EXAMPLE_DASHBOARD_TITLE" icon="icon-lock">example</dashboard>
+	</dashboards>  
+```
 
 ### Configuration
 
@@ -314,12 +323,12 @@ configuration options for multiple levels using the config.xml file. For
 how to add this to your component read the [Developing an MVC Component
 tutorial](https://docs.joomla.org/J3.x:Developing_an_MVC_Component/Adding_configuration "Special:MyLanguage/J3.x:Developing an MVC Component/Adding configuration").
 
-The element, a child of the root, describes the configuration options
+The `<config>` element, a child of the root, describes the configuration options
 for the extension. If applicable, the options will be shown by the
 appropriate Manager (Plugin Manager, Module Manager or Template
 Manager). **Configuration options for Components are defined in a
-separate file named `config.xml`. Its root element should be , plugins
-and modules use the section in the extension manifest file.**
+separate file named `config.xml`. Its root element should be `<config>`, plugins
+and modules use the `<config>` section in the extension manifest file.**
 
 Each fieldset must contain one or more elements, each representing a
 single [form
@@ -339,16 +348,18 @@ directory.
 
 ### SQL
 
-        
-            
-                sql/example.install.sql
-            
-        
-        
-            
-                sql/example.uninstall.sql
-            
-        
+```sql
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/example.install.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/example.uninstall.sql</file>
+        </sql>
+    </uninstall>
+```
 
 In the above example, we put the SQL files in the `admin/sql` folder of
 the installation package. You have to include the `sql` folder in the
@@ -365,20 +376,23 @@ the `driver` attribute, their character sets by the `charset` attribute.
 Since 1.6, there is also an tag, which allows you to provide a series of
 SQL files to update the current schema.
 
-       
-            
-                sql/updates/mysql
-                sql/updates/sqlsrv
-            
-        
+```sql
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+			<schemapath type="sqlsrv">sql/updates/sqlsrv</schemapath>
+		</schemas>
+	</update>
+```  
 
 For example, in order to go from version `1.0.0` to version `1.0.1` in a
 **MySQL** database, a `1.0.1.sql` file must be created inside the
 `sql/updates/mysql` folder and the tag of the manifest must be updated
 to
 
-    1.0.1
-
+```sql
+<version>1.0.1</version>
+```
   
 The final structure of the sql folder will look like this (assuming a
 **MySQL** database)
@@ -398,8 +412,12 @@ Since Joomla! 1.5, extension developers had to put extension language
 files in the Joomla! main language folder using the ... tag as shown
 below. **This method can still be used all Joomla! versions**.
 
-
-        en-GB.com_example.ini
+```xml
+<!-- Joomla! language tag -->
+<languages folder="langfiles">
+	<language tag="en-GB">en-GB.com_example.ini</language>
+</languages>
+```
 
 However since Joomla! 1.6 it is recommended that you place your
 extension's language files in your extension folder. Joomla! will then
@@ -422,19 +440,27 @@ section. The sub-directories for each language will automatically be
 copied. Inside the group, add a element alongside the items in the group
 as shown in this example:
 
-        alpha.php
-        sql
-        language
+```xml
+<files>
+	<filename plugin="alpha">alpha.php</filename>
+	<folder>sql</folder>
+	<folder>language</folder>
+</files>
+```
 
 Note that both ways can work together. Here is an example from core:
 
-        languagecode.php
-        index.html
-        language
-
-
-        language/en-GB/en-GB.plg_system_languagecode.ini
-        language/en-GB/en-GB.plg_system_languagecode.sys.ini
+```xml
+<files>
+	<filename plugin="languagecode">languagecode.php</filename>
+	<filename>index.html</filename>
+	<folder>language</folder>
+</files>
+<languages>
+	<language tag="en-GB">language/en-GB/en-GB.plg_system_languagecode.ini</language>
+	<language tag="en-GB">language/en-GB/en-GB.plg_system_languagecode.sys.ini</language>
+</languages>
+```
 
 The advantages of this solution are the following:
 
@@ -466,7 +492,9 @@ when not in debug mode to prevent displaying Constants.
 
 ### Script file
 
-        example.script.php
+```xml
+    <scriptfile>example.script.php</scriptfile>
+```
 
 An optional **script file** (PHP code that is run before, during and/or
 after installation, uninstallation and upgrading) can be defined using a
@@ -481,6 +509,86 @@ decoding="async" data-file-width="40" data-file-height="17" width="40"
 height="17" alt="Joomla 4.0" /> and later the structure of the class is
 as follows:
 
+```php
+<?php
+
+use Joomla\CMS\Installer\InstallerAdapter;
+
+class com_componentnameInstallerScript
+{
+	/**
+	 * Constructor
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 */
+	public function __construct(InstallerAdapter $adapter)
+	{
+	}
+	
+	/**
+	 * Called before any type of action
+	 *
+	 * @param   string  $route  Which action is happening (install|uninstall|discover_install|update)
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function preflight($route, InstallerAdapter $adapter)
+	{
+		return true;
+	}
+	
+	/**
+	 * Called after any type of action
+	 *
+	 * @param   string  $route  Which action is happening (install|uninstall|discover_install|update)
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function postflight($route, $adapter)
+	{
+		return true;
+	}
+	
+	/**
+	 * Called on installation
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function install(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+	
+	/**
+	 * Called on update
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function update(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+	
+	/**
+	 * Called on uninstallation
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 */
+	public function uninstall(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+}
+
+?>
+```
+
 Note that since Joomla 3.6 Joomla has shipped a basic script that you
 can use instead of shipping your own from scratch **JInstallerScript**
 which contains various helper methods commonly used through the
@@ -490,14 +598,18 @@ community.
 
 A simple library manifest might look like this:
 
-
-        My Test library.
-        mytest
-        
-            Classes
-            language
-            mytest.php
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="4.0">
+    <name>My Test library.</name>
+    <libraryname>mytest</libraryname>
+    <files>
+        <folder>Classes</folder>
+        <folder>language</folder>
+        <filename>mytest.php</filename>
+    </files>
+</extension>
+```
 
 This will install the library into the `JPATH_SITE/libraries/mytest`
 folder.
@@ -508,9 +620,13 @@ together under folder `JPATH_SITE/libraries/mycompany`?
 Simple - include your company name in the `libraryname` property of each
 library like this:
 
-        mycompany/mylibrary1
+```xml
+    <libraryname>mycompany/mylibrary1</libraryname>
+```
 
-        mycompany/mylibrary2
+```xml
+    <libraryname>mycompany/mylibrary2</libraryname>
+```
 
 These libraries will then be installed in the
 `JPATH_SITE/libraries/mycompany/mylibrary1` and
@@ -522,16 +638,22 @@ your site.
 When using `script files` with such company libraries the installer
 class name should look like this:
 
+```php
     class mycompanymylibrary1InstallerScript
+```
 
+```php
     class mycompanymylibrary2InstallerScript
+```
 
 ### Update Servers
 
-        
-            http://example.com/extension.xml
-            http://example.com/collection.xml
-        
+```xml
+    <updateservers>
+        <server type="extension" priority="1" name="Extension Update Site">http://example.com/extension.xml</server>
+        <server type="collection" priority="2" name="Collection Update Site">http://example.com/collection.xml</server>
+    </updateservers>
+```
 
 Update servers can be defined in the element, a child of the root. This
 element may contain one or more element, each describing the location
@@ -563,7 +685,7 @@ attributes:
 <td>The name of the update server</td>
 </tr>
 </tbody>
-</table>
+</table>  
 
 More info:
 
@@ -587,6 +709,10 @@ file. The `dlid` tag takes 2 arguments:
 - suffix
 
 The `dlid` tag will look like this in your manifest file:
+
+```xml
+<dlid prefix="dlid=" suffix="&amp;dummy=my.zip"/>
+```
 
 The prefix will be added before the download key and the suffix after
 the download key. Using the example above the full query added to the

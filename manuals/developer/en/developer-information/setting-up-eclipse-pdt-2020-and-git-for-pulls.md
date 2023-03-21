@@ -189,7 +189,6 @@ web site.
     ~/.bash_profile to effect immediately):
     alias jclean="rm -rf administrator/templates/atum/css; rm -rf templates/cassiopeia/css; rm -rf media/; rm -rf node_modules/; rm -rf libraries/vendor/;rm -f administrator/cache/autoload_psr4.php;rm -rf installation/template/css"
     alias jinstall="jclean; composer install --ignore-platform-reqs; npm ci"
-
 - composer is not in my path so I substituted php
   ~/composer/composer.phar
 - jinstall
@@ -345,40 +344,44 @@ laptop. Note that I only want to make changes to PHP code and not to
 Javascript or CSS. To do that I created a separate file named
 build-local.xml in the root of the project:
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="joomla-cms" basedir="." default="main">
+    <property file=".project" />
 
-        
+	<property name="joomladir" value="/Users/username/public_html/joomla-cms"  override="true" />
+    
+	<property name="srcdir" value="${project.basedir}" override="true" />
 
-        
-        
-        
+    <!-- Fileset for all files -->
+    <fileset dir="${srcdir}" id="allfiles">
+        <include name="administrator/**" />
+        <include name="api/**" />
+        <include name="cli/**" />
+        <include name="components/**" />
+        <include name="images/**" />
+        <include name="includes/**" />
+        <include name="language/**" />
+        <include name="layouts/**" />
+        <include name="libraries/**" />
+        <include name="modules/**" />
+        <include name="plugins/**" />
+        <include name="templates/**" />
+        <include name="index.php" />
 
-        
-        
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+        <exclude name="**/.*" />
+    </fileset>
 
-            
-        
-
-        
-        
-        
-        
-            
-                
-            
-        
+    <!-- ============================================  -->
+    <!-- (DEFAULT) Target: main                        -->
+    <!-- ============================================  -->
+    <target name="main" description="main target">
+        <copy todir="${joomladir}">
+        	<fileset refid="allfiles" />
+        </copy>
+    </target>
+</project>
+```     
 
 ### Add a build tool
 
@@ -394,6 +397,8 @@ build-local.xml in the root of the project:
 - In Builders: Apply and Close
 - Project / Build Project
 - See what happens:
+
+```bash
     Buildfile: /Users/username/git/joomla-cms/build-local.xml
      [property] Loading /Users/username/git/joomla-cms/.project
 
@@ -403,3 +408,4 @@ build-local.xml in the root of the project:
     BUILD FINISHED
 
     Total time: 0.2121 seconds
+```

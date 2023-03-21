@@ -84,6 +84,7 @@ continue to function.
 If this file were for a PostgreSQL database, it would be called
 `install.postgresql.utf8.sql`.
 
+```sql
     DROP TABLE IF EXISTS `#__helloworld_greetings`;
 
     CREATE TABLE `#__helloworld_greetings` ( 
@@ -96,7 +97,7 @@ If this file were for a PostgreSQL database, it would be called
     INSERT INTO `#__helloworld_greetings` (`greeting`) VALUES
         ('Hello World!'),
         ('Good bye World!');
-
+```
   
 **admin/sql/uninstall.mysql.utf8.sql**
 
@@ -107,8 +108,9 @@ simple - if the greeting table exists, remove it.
 If this file were for a PostgreSQL database, it would be called
 `uninstall.postgresql.utf8.sql`.
 
+```sql
     DROP TABLE IF EXISTS `#__helloworld_greetings`;
-
+```
   
 **admin/sql/updates/mysql/0.0.7.sql**
 
@@ -127,6 +129,7 @@ version, this file is identical to the install file.
 If this file were for a PostgreSQL database, it would be named the same,
 but would be placed in `admin/sql/postgresql`.
 
+```sql
     DROP TABLE IF EXISTS `#__helloworld_greetings`;
 
     CREATE TABLE `#__helloworld_greetings` ( 
@@ -139,7 +142,7 @@ but would be placed in `admin/sql/postgresql`.
     INSERT INTO `#__helloworld_greetings` (`greeting`) VALUES
         ('Hello World!'),
         ('Good bye World!');
-
+```
   
 **helloworld.xml**
 
@@ -154,69 +157,84 @@ action (the element), a database type (mysql/postgresql) and a file
 path. When you add PostgreSQL support to your component, you'll add an
 extra line in each element to direct Joomla! to the correct files.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
 
+    <name>Hello World</name>
+    <!-- The following elements are optional and free of formatting constraints -->
+    <creationDate>December 2020</creationDate>
+    <!-- Dummy author, feel free to replace anywhere you see it-->
+    <author>John Smith</author>
+    <authorUrl>https://smith.ca</authorUrl>
+    <copyright>John Smith</copyright>
+    <license>GPL v3</license>
+    <!--  The version string is recorded in the components table -->
+    <version>0.0.7</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>
+        A hello world component!
+    </description>
 
-        Hello World
-        
-        December 2020
-        
-        John Smith
-        https://smith.ca
-        John Smith
-        GPL v3
-        
-        0.0.7
-        
-        
-            A hello world component!
-        
+    <!-- This is the PHP namespace under which the extension's
+    code is organised. It should follow this format:
+    
+    Vendor\Component\ComponentName
 
-        
-        JohnSmith\Component\HelloWorld
+    "Vendor" can be your company or your own name
+    
+    The "ComponentName" section MUST match the name used 
+    everywhere else for your component. Whatever the name of 
+    this XML file is, the namespace must match (ignoring CamelCase). 
+    -->
+    <namespace path="src/">JohnSmith\Component\HelloWorld</namespace>
 
-        
-            language
-            src
-            tmpl
-        
+    <files folder="site/">
+        <folder>language</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
 
-        
-            site/language/en-GB/en-GB.com_helloworld.ini
-        
+    <languages>
+        <language tag="en-GB">site/language/en-GB/en-GB.com_helloworld.ini</language>
+    </languages>
 
-        
-            
-            Hello World
-            
-            
-                language
-                services
-                sql
-                src
-                tmpl
-            
+    <administration>
+        <!-- The link that will appear in the Admin panel's "Components" menu -->
+        <menu link="index.php?option=com_helloworld">Hello World</menu>
+        <!-- List of files and folders to copy, and where to copy them -->
+        <files folder="admin/">
+            <folder>language</folder>
+            <folder>services</folder>
+            <folder>sql</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
 
-            
-                admin/language/en-GB/en-GB.com_helloworld.ini
-                admin/language/en-GB/en-GB.com_helloworld.sys.ini
-            
-        
+        <languages>
+            <language tag="en-GB">admin/language/en-GB/en-GB.com_helloworld.ini</language>
+            <language tag="en-GB">admin/language/en-GB/en-GB.com_helloworld.sys.ini</language>
+        </languages>
+    </administration>
 
-        
-            
-                sql/install.mysql.utf8.sql
-            
-        
-        
-            
-                sql/uninstall.mysql.utf8.sql
-            
-        
-        
-            
-                sql/updates/mysql
-            
-        
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+
+</extension>
+```
 
 ## Testing the Database Installation
 

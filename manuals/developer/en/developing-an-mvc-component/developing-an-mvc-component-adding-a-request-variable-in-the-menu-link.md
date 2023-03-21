@@ -71,18 +71,26 @@ to the URL (such as `&greetingType=1`). The language string name inside
 the element represents the label that will be shown in the configuration
 form.
 
-
-        
-            COM_HELLOWORLD_MENU_HELLO_WORLD_DESC
-        
-        
-            
-                
-                    COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_VALUE_HELLO
-                    COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_VALUE_GOODBYE
-                
-            
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_HELLOWORLD_MENU_HELLO_WORLD_TITLE">
+        <message><![CDATA[COM_HELLOWORLD_MENU_HELLO_WORLD_DESC]]></message>
+    </layout>
+    <fields name="request">
+        <fieldset name="request">
+            <field  name="greetingType"
+                    type="list"
+                    label="COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_LABEL"
+                    description="COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_DESC"
+                    default="1">
+                <option value="1"><![CDATA[COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_VALUE_HELLO]]></option>
+                <option value="2"><![CDATA[COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_VALUE_GOODBYE]]></option>
+            </field>
+        </fieldset>
+    </fields>
+</metadata>
+```
 
 **site/src/Model/MessageModel.php**
 
@@ -109,26 +117,58 @@ handled and sanitised.
 With the request variable read, we simply choose which of our two
 possible greetings to return to the template.
 
-    getInput();
-            $greetingType = $input->getInt('greetingType', 1);
+```php
+<?php
 
-            $item = new \stdClass();
-            
-            switch($greetingType) {
-                case 2:
-                    $item->message = Text::_('COM_HELLOWORLD_MSG_GREETING_GOODBYE');
-                    break;
-                case 1:
-                default:
-                    $item->message = Text::_('COM_HELLOWORLD_MSG_GREETING_HELLO');
-                    break;
-            }
-            
-            return $item;
+namespace JohnSmith\Component\HelloWorld\Site\Model;
+
+defined('_JEXEC') or die;
+
+use Joomla\CMS\Factory;
+use Joomla\CMS\MVC\Model\ItemModel;
+use Joomla\CMS\Language\Text;
+
+/**
+ * @package     Joomla.Site
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+/**
+ * Hello World Message Model
+ * @since 0.0.5
+ */
+class MessageModel extends ItemModel {
+
+    /**
+     * Returns a message for display
+     * @param integer $pk Primary key of the "message item", currently unused
+     * @return object Message object
+     */
+    public function getItem($pk= null): object {
+        // This gives us a Joomla\Input\Input object
+        $input = Factory::getApplication()->getInput();
+        $greetingType = $input->getInt('greetingType', 1);
+
+        $item = new \stdClass();
+        
+        switch($greetingType) {
+            case 2:
+                $item->message = Text::_('COM_HELLOWORLD_MSG_GREETING_GOODBYE');
+                break;
+            case 1:
+            default:
+                $item->message = Text::_('COM_HELLOWORLD_MSG_GREETING_HELLO');
+                break;
         }
-            
+        
+        return $item;
     }
-
+        
+}
+```
 **admin/language/en-GB/en-GB.com_helloworld.sys.ini**
 
 Here we define the language strings that will be used in the
@@ -136,6 +176,7 @@ configuration form for our menu link. Remember, even though the menu
 link is defined in the site part of the component, the strings are
 defined here because it is used in the Joomla control panel.
 
+```ini
     ; Hello World Sys.ini
     ; Copyright (C) 2020 John Smith. All rights reserved.
 
@@ -145,6 +186,7 @@ defined here because it is used in the Joomla control panel.
     COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_DESC="Select which type of greeting to show"
     COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_VALUE_HELLO="Say Hello"
     COM_HELLOWORLD_MENU_HELLO_WORLD_PARAM_VALUE_GOODBYE="Say Goodbye"
+```
 
 **site/language/en-GB/en-GB.com_helloworld.ini**
 
@@ -152,12 +194,14 @@ Here we switch out our existing greeting for two different greetings,
 which the model will choose between based on the value of the
 `greetingType` request variable.
 
+```ini
     ; Hello World Public Site Strings
     ; Copyright (C) 2020 John Smith. All rights reserved.
 
     COM_HELLOWORLD_MSG_HELLO_WORLD="Hello World!"
     COM_HELLOWORLD_MSG_GREETING_GOODBYE="Goodbye from the item model!"
     COM_HELLOWORLD_MSG_GREETING_HELLO="Hello from the item model!"
+```
 
 **helloworld.xml**
 
@@ -165,52 +209,67 @@ As before, our last job is to bump the component's version number. None
 of the changes made here require the version number to be bumped before
 re-importing it, but we'll do it for consistency.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
 
+    <name>Hello World</name>
+    <!-- The following elements are optional and free of formatting constraints -->
+    <creationDate>December 2020</creationDate>
+    <!-- Dummy author, feel free to replace anywhere you see it-->
+    <author>John Smith</author>
+    <authorUrl>https://smith.ca</authorUrl>
+    <copyright>John Smith</copyright>
+    <license>GPL v3</license>
+    <!--  The version string is recorded in the components table -->
+    <version>0.0.6</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>
+        A hello world component!
+    </description>
 
-        Hello World
-        
-        December 2020
-        
-        John Smith
-        https://smith.ca
-        John Smith
-        GPL v3
-        
-        0.0.6
-        
-        
-            A hello world component!
-        
+    <!-- This is the PHP namespace under which the extension's
+    code is organised. It should follow this format:
+    
+    Vendor\Component\ComponentName
 
-        
-        JohnSmith\Component\HelloWorld
+    "Vendor" can be your company or your own name
+    
+    The "ComponentName" section MUST match the name used 
+    everywhere else for your component. Whatever the name of 
+    this XML file is, the namespace must match (ignoring CamelCase). 
+    -->
+    <namespace path="src/">JohnSmith\Component\HelloWorld</namespace>
 
-        
-            language
-            src
-            tmpl
-        
+    <files folder="site/">
+        <folder>language</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
 
-        
-            site/language/en-GB/en-GB.com_helloworld.ini
-        
+    <languages>
+        <language tag="en-GB">site/language/en-GB/en-GB.com_helloworld.ini</language>
+    </languages>
 
-        
-            
-            Hello World
-            
-            
-                language
-                services
-                src
-                tmpl
-            
+    <administration>
+        <!-- The link that will appear in the Admin panel's "Components" menu -->
+        <menu link="index.php?option=com_helloworld">Hello World</menu>
+        <!-- List of files and folders to copy, and where to copy them -->
+        <files folder="admin/">
+            <folder>language</folder>
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
 
-            
-                admin/language/en-GB/en-GB.com_helloworld.ini
-                admin/language/en-GB/en-GB.com_helloworld.sys.ini
-            
-        
+        <languages>
+            <language tag="en-GB">admin/language/en-GB/en-GB.com_helloworld.ini</language>
+            <language tag="en-GB">admin/language/en-GB/en-GB.com_helloworld.sys.ini</language>
+        </languages>
+    </administration>
+
+</extension>
+```       
 
 ## Testing the Extension
 

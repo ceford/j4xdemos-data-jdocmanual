@@ -44,51 +44,70 @@ template:
 
 **site/tmpl/hello/default.xml**
 
-
-        
-            My first Joomla! page
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Hello World!">
+        <message><![CDATA[My first Joomla! page]]></message>
+    </layout>
+</metadata>
+```
 
 **helloworld.xml**
 
 And as always, we update our extension's manifest file with the new
 version number.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
 
+    <name>Hello World</name>
+    <!-- The following elements are optional and free of formatting constraints -->
+    <creationDate>December 2020</creationDate>
+    <!-- Dummy author, feel free to replace anywhere you see it-->
+    <author>John Smith</author>
+    <authorUrl>https://smith.ca</authorUrl>
+    <copyright>John Smith</copyright>
+    <license>GPL v3</license>
+    <!--  The version string is recorded in the components table -->
+    <version>0.0.3</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>
+        A hello world component!
+    </description>
 
-        Hello World
-        
-        December 2020
-        
-        John Smith
-        https://smith.ca
-        John Smith
-        GPL v3
-        
-        0.0.3
-        
-        
-            A hello world component!
-        
+    <!-- This is the PHP namespace under which the extension's
+    code is organised. It should follow this format:
+    
+    Vendor\Component\ComponentName
 
-        
-        JohnSmith\Component\HelloWorld
+    "Vendor" can be your company or your own name
+    
+    The "ComponentName" section MUST match the name used 
+    everywhere else for your component. Whatever the name of 
+    this XML file is, the namespace must match (ignoring CamelCase). 
+    -->
+    <namespace path="src/">JohnSmith\Component\HelloWorld</namespace>
 
-        
-            src
-            tmpl
-        
+    <files folder="site/">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
 
-        
-            
-            Hello World
-            
-            
-                services
-                src
-                tmpl
-            
-        
+    <administration>
+        <!-- The link that will appear in the Admin panel's "Components" menu -->
+        <menu link="index.php?option=com_helloworld">Hello World</menu>
+        <!-- List of files and folders to copy, and where to copy them -->
+        <files folder="admin/">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
+
+</extension>
+```       
 
 ## Testing the Menu Item
 

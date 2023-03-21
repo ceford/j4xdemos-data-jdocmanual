@@ -68,56 +68,90 @@ configuration to Joomla! It is utilised during installation to copy the
 component's files into the correct locations, trigger database
 installation, configure the component's PHP namespace, and so on.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+<!-- 'version' attribute for extension tag is no longer used -->
 
+    <name>Hello World</name>
+    <!-- The following elements are optional and free of formatting constraints -->
+    <creationDate>December 2020</creationDate>
+    <!-- Dummy author, feel free to replace anywhere you see it-->
+    <author>John Smith</author>
+    <authorUrl>https://smith.ca</authorUrl>
+    <copyright>John Smith</copyright>
+    <license>GPL v3</license>
+    <!--  The version string is recorded in the components table -->
+    <version>0.0.1</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>
+        A hello world component!
+    </description>
 
+    <!-- This is the PHP namespace under which the extension's
+    code is organised. It should follow this format:
+    
+    Vendor\Component\ComponentName
 
-        Hello World
-        
-        December 2020
-        
-        John Smith
-        https://smith.ca
-        John Smith
-        GPL v3
-        
-        0.0.1
-        
-        
-            A hello world component!
-        
+    "Vendor" can be your company or your own name
+    
+    The "ComponentName" section MUST match the name used 
+    everywhere else for your component. Whatever the name of 
+    this XML file is, the namespace must match (ignoring CamelCase). 
+    -->
+    <namespace path="src/">JohnSmith\Component\HelloWorld</namespace>
+            
+    <administration>
+        <!-- The link that will appear in the Admin panel's "Components" menu -->
+        <menu link="index.php?option=com_helloworld">Hello World</menu>
+        <!-- List of files and folders to copy. Note the 'folder' attribute.
+             This is the name of the folder in your component package to copy FROM -->
+        <files folder="admin/">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
 
-        
-        JohnSmith\Component\HelloWorld
-                
-        
-            
-            Hello World
-            
-            
-                services
-                src
-                tmpl
-            
-        
+</extension>
+```       
 
 **admin/services/provider.php**
 
 This is a special file that tells Joomla! how to initialise the
 component - which services it requires and how they should be provided.
 
-    registerServiceProvider(new MVCFactory('\\JohnSmith\\Component\\HelloWorld'));
-            $container->registerServiceProvider(new ComponentDispatcherFactory('\\JohnSmith\\Component\\HelloWorld'));
-            $container->set(
-                ComponentInterface::class,
-                function (Container $container) {
-                    $component = new MVCComponent($container->get(ComponentDispatcherFactoryInterface::class));
-                    $component->setMVCFactory($container->get(MVCFactoryInterface::class));
+```php
+<?php
 
-                    return $component;
-                }
-            );
-        }
-    };
+defined('_JEXEC') or die;
+
+use Joomla\CMS\Dispatcher\ComponentDispatcherFactoryInterface;
+use Joomla\CMS\Extension\ComponentInterface;
+use Joomla\CMS\Extension\MVCComponent;
+use Joomla\CMS\Extension\Service\Provider\ComponentDispatcherFactory;
+use Joomla\CMS\Extension\Service\Provider\MVCFactory;
+use Joomla\CMS\MVC\Factory\MVCFactoryInterface;
+use Joomla\DI\Container;
+use Joomla\DI\ServiceProviderInterface;
+
+return new class implements ServiceProviderInterface {
+    
+    public function register(Container $container): void {
+        $container->registerServiceProvider(new MVCFactory('\\JohnSmith\\Component\\HelloWorld'));
+        $container->registerServiceProvider(new ComponentDispatcherFactory('\\JohnSmith\\Component\\HelloWorld'));
+        $container->set(
+            ComponentInterface::class,
+            function (Container $container) {
+                $component = new MVCComponent($container->get(ComponentDispatcherFactoryInterface::class));
+                $component->setMVCFactory($container->get(MVCFactoryInterface::class));
+
+                return $component;
+            }
+        );
+    }
+};
+```
 
 **admin/src/Controller/DisplayController.php**
 
@@ -126,19 +160,105 @@ in complexity, a page's controller will handle model fetching, form
 submissions, and so on. Here, it simply sets its default view and leaves
 the rest to its parent.
 
-    admin/src/View/Hello/HtmlView.php
+```php
+<?php
 
-    This is the MVC view object for our first page. The job of a view object is to handle the setup work for a view template - selecting a layout, fetching JavaScript, generating toolbars, etc. To simply get our "hello world" page to load, we will delegate the work of initialising the view to Joomla!
+namespace JohnSmith\Component\HelloWorld\Administrator\Controller;
 
+defined('_JEXEC') or die;
 
-    admin/tmpl/hello/default.php
+use Joomla\CMS\MVC\Controller\BaseController;
 
-    This file holds the template for the page. It is used to render the page utilising the setup done by the view object.
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
 
-    When no specific layout is requested for a view, Joomla! will load the template in the default.php file, which is why we're using that filename.
+/**
+ * Default Controller of HelloWorld component
+ *
+ * @package     Joomla.Administrator
+ * @subpackage  com_helloworld
+ */
+class DisplayController extends BaseController {
+    /**
+     * The default view for the display method.
+     *
+     * @var string
+     */
+    protected $default_view = 'hello';
+    
+    public function display($cachable = false, $urlparams = array()) {
+        return parent::display($cachable, $urlparams);
+    }
+    
+}
+```
 
+**admin/src/View/Hello/HtmlView.php**
 
-    Hello world!
+This is the MVC view object for our first page. The job of a view object is to handle the setup work for a view template - selecting a layout, fetching JavaScript, generating toolbars, etc. To simply get our "hello world" page to load, we will delegate the work of initialising the view to Joomla!
+
+```php
+<?php
+
+namespace JohnSmith\Component\HelloWorld\Administrator\View\Hello;
+
+defined('_JEXEC') or die;
+
+use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
+
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+/**
+ * Main "Hello World" Admin View
+ */
+class HtmlView extends BaseHtmlView {
+    
+    /**
+     * Display the main "Hello World" view
+     *
+     * @param   string  $tpl  The name of the template file to parse; automatically searches through the template paths.
+     * @return  void
+     */
+    function display($tpl = null) {
+        parent::display($tpl);
+    }
+
+}
+```
+
+**admin/tmpl/hello/default.php**
+
+This file holds the template for the page. It is used to render the page utilising the setup done by the view object.
+
+When no specific layout is requested for a view, Joomla! will load the template in the default.php file, which is why we're using that filename.
+
+```php
+<?php
+
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+ // No direct access to this file
+defined('_JEXEC') or die('Restricted Access');
+?>
+<h2>Hello world!</h2>
+```
 
 ## Installing the Component
 

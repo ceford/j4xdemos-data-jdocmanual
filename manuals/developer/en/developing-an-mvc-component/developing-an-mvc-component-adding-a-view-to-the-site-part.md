@@ -53,16 +53,43 @@ here to fetch and render a view, but as before we're mostly delegating
 to the parent Joomla! class. As this is a PHP class, it lives under your
 PHP namespace root `src/`, in the `Controller` namespace.
 
-    input->getCmd('view', 'login');
-            $viewFormat = $document->getType();
-            
-            $view = $this->getView($viewName, $viewFormat);
-            
-            $view->document = $document;
-            $view->display();
-        }
+```php
+<?php
+
+namespace JohnSmith\Component\HelloWorld\Site\Controller;
+
+defined('_JEXEC') or die;
+
+use Joomla\CMS\MVC\Controller\BaseController;
+use Joomla\CMS\Factory;
+
+/**
+ * @package     Joomla.Site
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+/**
+ * HelloWorld Component Controller
+ * @since  0.0.2
+ */
+class DisplayController extends BaseController {
+    
+    public function display($cachable = false, $urlparams = array()) {        
+        $document = Factory::getDocument();
+        $viewName = $this->input->getCmd('view', 'login');
+        $viewFormat = $document->getType();
         
+        $view = $this->getView($viewName, $viewFormat);
+        
+        $view->document = $document;
+        $view->display();
     }
+    
+}
+```
 
 **site/src/View/Hello/HtmlView.php**
 
@@ -71,12 +98,63 @@ delegates to the parent object to get us started. As this is a PHP
 class, it lives under `src/`, in the `View/Hello` namespace that matches
 the view's name.
 
-    site/tmpl/hello/default.php
+```php
+<?php
 
-    The page template for our "Hello World" page in the site part. This is identical to the template we used in the admin part, to get us started. As a template, it lives under tmpl in a folder that matches the view's name.
+namespace JohnSmith\Component\HelloWorld\Site\View\Hello;
 
+defined('_JEXEC') or die;
 
-    Hello world!
+use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
+
+/**
+ * @package     Joomla.Site
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+/**
+ * View for the user identity validation form
+ */
+class HtmlView extends BaseHtmlView {
+    
+
+    /**
+     * Display the view
+     *
+     * @param   string  $template  The name of the layout file to parse.
+     * @return  void
+     */
+    public function display($template = null) {
+        // Call the parent display to display the layout file
+        parent::display($template);
+    }
+
+}
+```
+
+**site/tmpl/hello/default.php**
+
+The page template for our "Hello World" page in the site part. This is identical to the template we used in the admin part, to get us started. As a template, it lives under tmpl in a folder that matches the view's name.
+
+```php
+<?php
+
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+ // No direct access to this file
+defined('_JEXEC') or die('Restricted Access');
+?>
+<h2>Hello world!</h2>
+```
 
 **helloworld.xml**
 
@@ -87,41 +165,56 @@ manifest - right now, this has no real effect, but in the future
 changing the version number will have more significance so it's a good
 habit to get into.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
 
+    <name>Hello World</name>
+    <!-- The following elements are optional and free of formatting constraints -->
+    <creationDate>December 2020</creationDate>
+    <!-- Dummy author, feel free to replace anywhere you see it-->
+    <author>John Smith</author>
+    <authorUrl>https://smith.ca</authorUrl>
+    <copyright>John Smith</copyright>
+    <license>GPL v3</license>
+    <!--  The version string is recorded in the components table -->
+    <version>0.0.2</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>
+        A hello world component!
+    </description>
 
-        Hello World
-        
-        December 2020
-        
-        John Smith
-        https://smith.ca
-        John Smith
-        GPL v3
-        
-        0.0.2
-        
-        
-            A hello world component!
-        
+    <!-- This is the PHP namespace under which the extension's
+    code is organised. It should follow this format:
+    
+    Vendor\Component\ComponentName
 
-        
-        JohnSmith\Component\HelloWorld
+    "Vendor" can be your company or your own name
+    
+    The "ComponentName" section MUST match the name used 
+    everywhere else for your component. Whatever the name of 
+    this XML file is, the namespace must match (ignoring CamelCase). 
+    -->
+    <namespace path="src/">JohnSmith\Component\HelloWorld</namespace>
 
-        
-            src
-            tmpl
-        
+    <files folder="site/">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
 
-        
-            
-            Hello World
-            
-            
-                services
-                src
-                tmpl
-            
-        
+    <administration>
+        <!-- The link that will appear in the Admin panel's "Components" menu -->
+        <menu link="index.php?option=com_helloworld">Hello World</menu>
+        <!-- List of files and folders to copy, and where to copy them -->
+        <files folder="admin/">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
+
+</extension>
+```
 
 ## Updating the Extension
 

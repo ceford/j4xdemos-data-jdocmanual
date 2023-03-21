@@ -33,10 +33,14 @@ component. You may have noticed in the last article in this tutorial
 series that when we added a menu link to the component, we hard-coded
 English words into the link:
 
-
-        
-            My first Joomla! page
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Hello World!">
+        <message><![CDATA[My first Joomla! page]]></message>
+    </layout>
+</metadata>
+```
 
 This works as an initial test, but hard-coding a single language into
 the system is a bad idea. Before we get too far into building pages and
@@ -68,10 +72,12 @@ them:
 This file contains the language strings used on the component's pages
 inside the admin panel of Joomla!
 
+```ini
     ; Hello World Admin Strings
     ; Copyright (C) 2020 John Smith. All rights reserved.
 
     COM_HELLOWORLD_MSG_HELLO_WORLD="Hello World!"
+```
 
 **admin/language/en-GB/en-GB.com_helloworld.sys.ini**
 
@@ -80,11 +86,13 @@ the component's own pages. For example, our menu item's strings belong
 to this component, but are used by the Joomla! menu system rather than
 on our own pages, so they belong in this file.
 
+```ini
     ; Hello World Sys.ini
     ; Copyright (C) 2020 John Smith. All rights reserved.
 
     COM_HELLOWORLD_MENU_HELLO_WORLD_TITLE="Hello World!"
     COM_HELLOWORLD_MENU_HELLO_WORLD_DESC="My first Joomla! page"
+```
 
 **site/language/en-GB/en-GB.com_helloworld.ini**
 
@@ -100,10 +108,12 @@ contain the locale code for these strings, "en-GB". For each locale you
 wish to support, you will need a new set of files with the appropriate
 strings .
 
+```ini
     ; Hello World Public Site Strings
     ; Copyright (C) 2020 John Smith. All rights reserved.
 
     COM_HELLOWORLD_MSG_HELLO_WORLD="Hello World!"
+```
 
 **helloworld.xml**
 
@@ -113,52 +123,67 @@ tell Joomla! that we have language files, where to find them and what
 locales they support. This is done with the addition of two XML blocks,
 one for each part of the component.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
 
+    <name>Hello World</name>
+    <!-- The following elements are optional and free of formatting constraints -->
+    <creationDate>December 2020</creationDate>
+    <!-- Dummy author, feel free to replace anywhere you see it-->
+    <author>John Smith</author>
+    <authorUrl>https://smith.ca</authorUrl>
+    <copyright>John Smith</copyright>
+    <license>GPL v3</license>
+    <!--  The version string is recorded in the components table -->
+    <version>0.0.4</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>
+        A hello world component!
+    </description>
 
-        Hello World
-        
-        December 2020
-        
-        John Smith
-        https://smith.ca
-        John Smith
-        GPL v3
-        
-        0.0.4
-        
-        
-            A hello world component!
-        
+    <!-- This is the PHP namespace under which the extension's
+    code is organised. It should follow this format:
+    
+    Vendor\Component\ComponentName
 
-        
-        JohnSmith\Component\HelloWorld
+    "Vendor" can be your company or your own name
+    
+    The "ComponentName" section MUST match the name used 
+    everywhere else for your component. Whatever the name of 
+    this XML file is, the namespace must match (ignoring CamelCase). 
+    -->
+    <namespace path="src/">JohnSmith\Component\HelloWorld</namespace>
 
-        
-            language
-            src
-            tmpl
-        
+    <files folder="site/">
+        <folder>language</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
 
-        
-            site/language/en-GB/en-GB.com_helloworld.ini
-        
+    <languages>
+        <language tag="en-GB">site/language/en-GB/en-GB.com_helloworld.ini</language>
+    </languages>
 
-        
-            
-            Hello World
-            
-            
-                language
-                services
-                src
-                tmpl
-            
+    <administration>
+        <!-- The link that will appear in the Admin panel's "Components" menu -->
+        <menu link="index.php?option=com_helloworld">Hello World</menu>
+        <!-- List of files and folders to copy, and where to copy them -->
+        <files folder="admin/">
+            <folder>language</folder>
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
 
-            
-                admin/language/en-GB/en-GB.com_helloworld.ini
-                admin/language/en-GB/en-GB.com_helloworld.sys.ini
-            
-        
+        <languages>
+            <language tag="en-GB">admin/language/en-GB/en-GB.com_helloworld.ini</language>
+            <language tag="en-GB">admin/language/en-GB/en-GB.com_helloworld.sys.ini</language>
+        </languages>
+    </administration>
+
+</extension>
+```
 
 **admin/tmpl/hello/default.php**
 
@@ -168,7 +193,24 @@ strings into the page. If the end user uses another language that is
 supported in our component, this class will automatically fetch the
 correct strings for that language and output those instead.
 
-    <?= Text::_('COM_HELLOWORLD_MSG_HELLO_WORLD') ?>
+```php
+<?php
+
+use Joomla\CMS\Language\Text;
+
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+ // No direct access to this file
+defined('_JEXEC') or die('Restricted Access');
+?>
+<h2><?= Text::_('COM_HELLOWORLD_MSG_HELLO_WORLD') ?></h2>
+```
 
 **site/tmpl/hello/default.php**
 
@@ -176,7 +218,24 @@ Our page templates are currently identical, so the replacements required
 are also identical. Remove the hard-coded English and replace it with
 the correct language property.
 
-    <?= Text::_('COM_HELLOWORLD_MSG_HELLO_WORLD') ?>
+```php
+<?php
+
+use Joomla\CMS\Language\Text;
+
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_helloworld
+ *
+ * @copyright   Copyright (C) 2020 John Smith. All rights reserved.
+ * @license     GNU General Public License version 3; see LICENSE
+ */
+
+ // No direct access to this file
+defined('_JEXEC') or die('Restricted Access');
+?>
+<h2><?= Text::_('COM_HELLOWORLD_MSG_HELLO_WORLD') ?></h2>
+```
 
 **site/tmpl/hello/default.xml**
 
@@ -191,10 +250,14 @@ Remember: because these strings are used by Joomla! in its own systems
 [`admin/language/en-GB/en-GB.com_helloworld.sys.ini`](#admin.2Flanguage.2Fen-GB.2Fen-GB.com_helloworld.sys.ini)
 file.
 
-
-        
-            COM_HELLOWORLD_MENU_HELLO_WORLD_DESC
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_HELLOWORLD_MENU_HELLO_WORLD_TITLE">
+        <message><![CDATA[COM_HELLOWORLD_MENU_HELLO_WORLD_DESC]]></message>
+    </layout>
+</metadata>
+```
 
 ## Testing the Component
 

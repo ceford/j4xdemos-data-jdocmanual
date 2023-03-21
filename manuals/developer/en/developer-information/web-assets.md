@@ -20,6 +20,7 @@ are comprised of a list of js files and css files related to the assets
 and any dependencies. The dependencies section is just a list of asset
 names that are required for the asset to function. Example:
 
+```json
     {
       "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
       "name": "com_example",
@@ -60,6 +61,7 @@ names that are required for the asset to function. Example:
         }
       ]
     }
+```
 
 The `$schema` attribute is a schema definition file that allows you to
 validate your file using JSON Schema. Read
@@ -68,20 +70,20 @@ class="external text" target="_blank"
 rel="nofollow noreferrer noopener">the official website</a> for more
 information on json schema validation works.
 
-**Note:** Having joomla.asset.json for your extension or template are
-recommend but not required to WebAssset to work (see next section).
+**Note:** Having a joomla.asset.json file for your extension or template is
+recommended but not required for WebAssset to work (see next section).
 
-**Note:** It is not recommended to add an inline asset to a json file,
-prefer to use a file.
+**Note:**  Adding an inline asset is not recommended. It is
+better to use a json file.
 
 ## Explaining asset stages
 
 Each asset has 2 stages: registered and used.
 
-**Registered** is where an asset is loaded into **WebAssetRegistry**.
-That means **WebAssetManager** knows about the existence of these
-assets, but will not attach them to a document while rendering. All
-assets loaded from joomla.asset.json is at **registered** stage.
+**Registered** is where an asset is loaded into the **WebAssetRegistry**.
+That means **WebAssetManager** knows about the existence of an
+asset, but will not attach it to a document while rendering. All
+assets loaded from joomla.asset.json are at the **registered** stage.
 
 **Used** is where an asset is enabled via "\$wa-\>useAsset()"
 (-\>useScript(), -\>useStyle(), -\>registerAndUseX() etc). That means
@@ -93,12 +95,12 @@ an unknown asset exception.
 
 ## Register an asset
 
-All known assets loaded and then stored in **WebAssetRegistry** (to
+All known assets are loaded and then stored in **WebAssetRegistry** (to
 enable/disable an asset item you have to use **WebAssetManager**, see
 next section).
 
-Joomla! will look for next assets definition automatically at runtime
-(in following order):
+Joomla! will look for asset definitions automatically at runtime
+(in the following order):
 
     media/vendor/joomla.asset.json (on first access to WebAssetRegistry)
     media/system/joomla.asset.json
@@ -106,47 +108,55 @@ Joomla! will look for next assets definition automatically at runtime
     media/{com_active_component}/joomla.asset.json (on dispatch the application)
     templates/{active_template}/joomla.asset.json
 
-And load them to registry of known assets.
+And load them into the registry of known assets.
 
-**Note:** Each following assets definition will override asset items
-from previous assets definition, by item name.
+**Note:** Each of the following asset definitions will override asset items
+from previous assets definitions, by item name.
 
-  
 You can register your own assets definition via **WebAssetRegistry**:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
     $wr = $wa->getRegistry();
     $wr->addRegistryFile('relative/path/to/your/joomla.asset.json');
+```
 
 To add a custom asset item at runtime:
 
+```php
     $wr->add('script', new Joomla\CMS\WebAsset\WebAssetItem('foobar', 'com_foobar/file.js', ['type' => 'script']));
+```
 
 Or more simply, using **WebAssetManager**:
 
+```php
     $wa->registerScript('foobar', 'com_foobar/file.js');
+```
 
 The new asset item **foobar** will be added to the registry of know
 assets, but will not be attached to a document until your code (a
-layout, template etc) will request it.
+layout, template etc) requests it.
 
 To check whether an asset exists:
 
+```php
     if ($wa->assetExists('script', 'foobar'))
     {
         var_dump('Script "foobar" exists!');
     }
+```
 
 ## Enabling an asset
 
-All asset management in the current Document handled by
+All asset management in the current Document is handled by
 **WebAssetManager**, which is accessible with
-**\$doc-\>getWebAssetManager();** By using AssetManager you can enable
-or disable needed asset easily in Joomla! through a standard methods.
+**\$doc-\>getWebAssetManager();**. By using AssetManager you can enable
+or disable needed assets easily in Joomla! with standard methods.
 
 To enable an asset in the page use the useAsset function, for example:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
     $wa->useScript('keepalive');
@@ -159,24 +169,28 @@ To enable an asset in the page use the useAsset function, for example:
 
     // Add new asset item with dependency and use it
     $wa->registerAndUseScript('bar', 'com_foobar/bar.js', [], [], ['core', 'foobar']);
+```
 
-**WebAssetManager** will look to **WebAssetRegistry** whether the
-requested asset exists, and will enable it for current Document
+**WebAssetManager** will look in **WebAssetRegistry** to see whether the
+requested asset exists, and will enable it for the current Document
 instance. Otherwise it will throw an UnknownAssetException.
 
 To disable an asset in the page use the disableAsset function. The
 example below will disable the jquery-noconflict asset from being
 loaded.
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
     $wa->disableScript('jquery-noconflict');
+```
 
 **Note:** If there are any dependencies to the disabled asset, then this
 asset will be re-enabled automatically, no matter what.
 
-To check whether asset enabled, and the asset state:
+To check whether an asset is enabled, and the asset state:
 
+```php
     // Checking whether an asset are active (enabled manually or automatically as dependency)
     if ($wa->isAssetActive('script', 'foobar'))
     {
@@ -194,21 +208,23 @@ To check whether asset enabled, and the asset state:
         default:
             var_dump('not active!');
     }
+```
 
 ## Overriding an asset
 
-Overriding may be useful when you need to redefine the URI of asset item
-or its dependencies. As already was noted, each of the following assets
-definition from joomla.asset.json will override asset items from
-previous assets definitions, by item name. That means if you provide
-joomla.asset.json which contain already loaded asset items, they will be
+Overriding may be useful when you need to redefine the URI of an asset item
+or its dependencies. As already noted, each of the following asset
+definitions from joomla.asset.json will override asset items from
+previous asset definitions, by item name. That means if you provide
+joomla.asset.json which contains already loaded asset items, they will be
 replaced with your items. Another way to override in the code is to
-register an item with the same name. Example, we have "foobar" script,
-that load com_example/foobar.js library, and we want to use CDN for this
+register an item with the same name. Example, we have a "foobar" script,
+that loads com_example/foobar.js library, and we want to use CDN for this
 exact library:
 
-How it defined in the system initially:
+How it is defined in the system initially:
 
+```json
     ...
     {
       "name": "foobar",
@@ -217,10 +233,12 @@ How it defined in the system initially:
       "dependencies": ["core"]
     }
     ...
+```
 
 To override the URI we define the asset item with "foobar" name in our
 joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -229,18 +247,22 @@ joomla.asset.json:
       "dependencies": ["core"]
     }
     ...
+```
 
-Or, register new asset item with AssetManager:
+Or, register a new asset item with AssetManager:
 
+```php
     $wa->registerScript('foobar', 'http://fobar.cdn.blabla/foobar.js', [], [], ['core']);
+```
 
 ## Working with styles
 
-AssetManager allow to manage Stylesheet files. Stylesheet asset item
+AssetManager allows you to manage Stylesheet files. Stylesheet asset items
 have a type "style".
 
-Example json definition of item in joomla.asset.json:
+Example json definition of an item in joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -248,11 +270,13 @@ Example json definition of item in joomla.asset.json:
       "uri": "com_example/foobar.css"
     }
     ...
+```
 
 ### Methods to work with styles
 
 AssetManager offers the following methods to work with style files:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -269,11 +293,12 @@ AssetManager offers the following methods to work with style files:
 
     // Register and attach a custom item in one run
     $wa->registerAndUseStyle('bar', 'com_example/bar.css', [], ['data-foo' => 'some attribute'], ['some.dependency']);
+```
 
 ### Add inline style
 
-Additionaly to style files, WebAssetManager allows you to add an inline
-style, and maintain their relation to the file asset. Inline styles may
+In addition to style files, WebAssetManager allows you to add an inline
+styles, and maintain their relation to the file asset. Inline styles may
 be placed directly before the dependency, after the dependency, or as
 usual after all styles.
 
@@ -282,6 +307,7 @@ the name can be used to retrieve the asset item from a registry, or as a
 dependency to another inline asset. If the name is not specified then a
 generated name based on a content hash will be used.
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -296,8 +322,9 @@ generated name based on a content hash will be used.
 
     // Named inline asset
     $wa->addInlineStyle('content of inline4', ['name' => 'my.inline.asset']);
+```
 
-**Note:** "foobar" asset should exist in the asset registry, otherwise
+**Note:** the "foobar" asset should exist in the asset registry, otherwise
 you will get an unsatisfied dependency exception.
 
 Example above will produce:
@@ -312,31 +339,33 @@ Example above will produce:
     content of inline4
     ...
 
-If inline asset has multiple dependencies, then will be used last one
+If an inline asset has multiple dependencies, the last one will be used 
 for positioning. Example:
 
+```php
     $wa->addInlineStyle('content of inline1', ['position' => 'before'], [], ['foo', 'bar']);
     $wa->addInlineStyle('content of inline2', ['position' => 'after'], [], ['foo', 'bar']);
+```
 
 Will produce:
 
     ...
-
     content of inline1
 
     content of inline2
     ...
 
-**Note:** Named inline assets may be a dependency to another inline
-asset, however it is not recommended to use an inline asset as
-dependency to non-inline asset. This will work, but this behavior may
-change in the future. Prefer to use "position" instead.
+**Note:** Named inline assets may be dependent on other inline
+assets. However it is not recommended to use an inline asset as a
+dependency to a non-inline asset. It will work, but this behaviour may
+change in the future. It is better to use "position" instead.
 
 ## Working with scripts
 
-AssetManager allow to manage Script files. Script asset item have a type
+AssetManager allow you to manage Script files. Script asset items have a type
 "script". Example json definition of item in joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -345,9 +374,11 @@ AssetManager allow to manage Script files. Script asset item have a type
       "dependencies": ["core"]
     }
     ...
+```
 
 Example json definition of ES6 module script, with fallback to legacy:
 
+```json
     ...
     {
       "name": "foobar-legacy",
@@ -372,11 +403,13 @@ Example json definition of ES6 module script, with fallback to legacy:
       ]
     }
     ...
+```
 
 ### Methods to work with scripts
 
-AssetManager offer next methods to work with script files:
+AssetManager offers the following methods to work with script files:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -393,19 +426,21 @@ AssetManager offer next methods to work with script files:
 
     // Register and attach a custom item in one run
     $wa->registerAndUseScript('bar','com_example/bar.js', [], ['defer' => true], ['core']);
+```
 
 ### Add inline script
 
-Addittionaly to script files WebAssetManager allow to add an inline
-script, and maintain their relation to the file asset. Inline script may
+In addittion to script files, WebAssetManager allows you to add inline
+scripts, and maintain their relations to the file asset. Inline scripts may
 be placed directly before the dependency, after the dependency, or as
 usual after all scripts.
 
-Inline asset may have a name as well as other assets (but not required),
-the name can be used to retrive the asset item form a registry, or as
-dependecy to another inline asset. If name not specified then will be
-used generated name based on a content hash.
+Inline assets may have a name as well as other assets (but not required).
+The name can be used to retrieve the asset item form a registry, or as a
+dependency to another inline asset. If a name is not specified then a
+generated name based on a content hash will be used.
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -423,8 +458,9 @@ used generated name based on a content hash.
 
     // Specify script type
     $wa->addInlineScript('content of inline5', [], ['type' => 'module']);
+```
 
-**Note:** "foobar" asset should exist in the asset registry, otherwise
+**Note:** the "foobar" asset should exist in the asset registry, otherwise
 you will get an unsatisfied dependency exception.
 
 Example above will produce:
@@ -440,11 +476,13 @@ Example above will produce:
     content of inline5
     ...
 
-If inline asset have a multiple dependencies, then will be used last one
+If an inline asset has multiple dependencies, the last one will be used
 for positioning. Example:
 
+```php
     $wa->addInlineScript('content of inline1', ['position' => 'before'], [], ['foo', 'bar']);
     $wa->addInlineScript('content of inline2', ['position' => 'after'], [], ['foo', 'bar']);
+```
 
 Will produce:
 
@@ -455,10 +493,10 @@ Will produce:
     content of inline2
     ...
 
-**Note:** Named inline asset may be as dependency to another inline
-asset, hovewer it is not recomended to use an inline asset as dependency
-to non-inline asset. This will work, but this behavior may changes in
-future. Prefer to use "position" instead.
+**Note:** A named inline asset may be a dependency for another inline
+asset. However, it is not recommended to use an inline asset as a dependency
+for a non-inline asset. It will work, but this behaviour may changes in the
+future. Better to use "position" instead.
 
 ## Working with a web component
 
@@ -466,8 +504,8 @@ Joomla! allows you to use
 <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components"
 class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Web Components</a> for your needs. In
-Joomla! web components are not loaded as regular script, but loaded via
-Web Component loader so that they are loaded asynchronously. Therefore,
+Joomla! web components are not loaded as regular scripts, but are loaded via
+a Web Component loader so that they are loaded asynchronously. Therefore,
 a web component asset item must have a flag "webcomponent" set to the
 boolean "true". In all other aspects, working with web components in
 AssetManager is the same as working with a "script" asset item.
@@ -475,6 +513,7 @@ AssetManager is the same as working with a "script" asset item.
 Example json definition of some web components in joomla.asset.json (as
 ES6 module):
 
+```json
     ...
     {
       "name": "webcomponent.foobar",
@@ -490,11 +529,13 @@ ES6 module):
       },
     }
     ...
+```
 
-Example with fallback, for browsers that does not support ES6 "module"
+Example with fallback, for browsers that do not support the ES6 "module"
 feature. Note that the legacy script should have "wcpolyfill"
-dependency, and module script should have dependency from legacy script:
+dependency, and the module script should have a dependency on legacy script:
 
+```json
     ...
     {
       "name": "webcomponent.foobar",
@@ -525,19 +566,24 @@ dependency, and module script should have dependency from legacy script:
       ]
     }
     ...
+```
 
 Alternatively you can register them in PHP (as ES6 module):
 
+```php
     $wa->registerStyle('webcomponent.foobar', 'com_example/foobar-custom-element.css')
         ->registerScript('webcomponent.foobar', 'com_example/foobar-custom-element.js', ['type' => 'module']);
+```
 
 Attach to document:
 
+```php
     $wa->useStyle('webcomponent.foobar')
         ->useScript('webcomponent.foobar');
+```
 
 **Note:** It is preferred to prefix the asset name with "webcomponent."
-to make it easily to spot, and distinct it from regular scripts in a
+to make it easy to spot, and distinct from regular scripts in a
 layout.
 
 ### Methods to work with web component
@@ -547,14 +593,15 @@ with script asset item.
 
 ## Working with a presets
 
-"Preset" is a special kind of asset item that hold a list of items that
-has to be enabled, in same way as direct call of useAsset() to each of
-item in the list. Preset can hold mixed types of assets (script, style,
-another preset, etc), the type should be provided after \# symbol and
+"Preset" is a special kind of asset item that holds a list of items that
+have to be enabled, in the same way as a direct call of useAsset() to each of
+items in the list. Presets can hold mixed types of assets (script, style,
+another preset, etc). the type should be provided after \# symbol and
 follows after an asset name, example: foo#style, bar#script.
 
 Example json definition of item in joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -567,11 +614,13 @@ Example json definition of item in joomla.asset.json:
       ]
     }
     ...
+```
 
 ### Methods to work with preset
 
-AssetManager offer next methods to work with preset items:
+AssetManager offers the following methods to work with preset items:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -589,6 +638,7 @@ AssetManager offer next methods to work with preset items:
 
     // Register and attach a custom item in one run
     $wa->registerAndUsePreset('bar','', [], [], ['core#script', 'bar#script']);
+```
 
 ## Advanced: Custom WebAssetItem class
 
@@ -599,9 +649,10 @@ You are also allowed to use a custom class, which must implement
 **Joomla\CMS\WebAsset\WebAssetItemInterface** or extend
 **Joomla\CMS\WebAsset\WebAssetItem**.
 
-A custom class can allow you to do advanced actions, for example,
+A custom class can allow you to do advanced actions. For example,
 including a script file depending on an active language:
 
+```php
     class MyComExampleAssetItem extends WebAssetItem
     {
         public function getUri($resolvePath = true): string
@@ -619,12 +670,14 @@ including a script file depending on an active language:
             return $path;
         }
     }
+```
 
 Additionally, implementing
 **Joomla\CMS\WebAsset\WebAssetAttachBehaviorInterface** allows you to
-add a script options (which may depend on the environment) when your
+add script options (which may depend on the environment) when your
 asset is enabled and attached to the Document.
 
+```php
     class MyFancyFoobarAssetItem extends WebAssetItem implements WebAssetAttachBehaviorInterface
     {
         public function onAttachCallback(Document $doc): void
@@ -633,6 +686,7 @@ asset is enabled and attached to the Document.
             $doc->addScriptOptions('com_example.fancyfoobar', ['userName' => $user->username]);
         }
     }
+```
 
 **Important note:** An asset item that implements
 **WebAssetAttachBehaviorInterface** should be enabled before <a
@@ -643,12 +697,13 @@ rel="noreferrer noopener">onBeforeCompileHead</a> event, otherwise
 
 ### Defining a custom WebAssetItem class in joomla.asset.json
 
-In joomla.asset.json you can define which Class should be used with
+In joomla.asset.json you can define which Class should be used with a
 specific AssetItem. For this you can use 2 properties **namespace** and
 **class**. **namespace** can be defined at Root level (then it will be
-used as default namespace for all Asset items in joomla.asset.json) or
+used as the default namespace for all Asset items in joomla.asset.json) or
 in the Item level. For example:
 
+```json
     {
       "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
       "name": "com_example",
@@ -670,6 +725,7 @@ in the Item level. For example:
         }
       ]
     }
+```
 
 Here the asset **foo** will be associated with class
 **Joomla\Component\Example\WebAsset\FooAssetItem**, and **bar** with
@@ -679,6 +735,7 @@ class **MyFooBar\Library\Example\WebAsset\BarAssetItem**.
 **Joomla\CMS\WebAsset**. When **namespace** is defined but empty, then
 no namespace will be used, only **class**. Example:
 
+```json
     {
       "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
       "name": "com_example",
@@ -698,6 +755,7 @@ no namespace will be used, only **class**. Example:
         }
       ]
     }
+```
 
 Here the asset **foo** will be associated with class
 **Joomla\CMS\WebAsset\FooAssetItem**, and **bar** with class
