@@ -1,7 +1,7 @@
 <!-- Filename: J4.x:Cloud_File_Systems_for_Media_Manager / Display title: Cloud Bestands Systems voor Media Beheer -->
 
-<span id="main-portal-heading">GSoC 2017  
-Cloud Bestands Systems voor Media Beheer  
+<span id="main-portal-heading">GSoC 2017
+Cloud Bestands Systems voor Media Beheer
 Documentatie</span> [<img
 src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
 decoding="async"
@@ -37,28 +37,38 @@ deze met Media Manager kan werken.
 Zorg ervoor dat je plugin bevat`group="filesystem"`. Dus in
 je`[plugin-name].xml`, moet staan:
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="filesystem" method="upgrade">
+	<name>plg_filesystem_myplugin</name>
+	<author>Joomla! Project</author>
+	<creationDate>April 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>__DEPLOY_VERSION__</version>
+	<description>Description</description>
+	<files>
+		<filename plugin="myplugin">myplugin.php</filename>
+		<folder>SomeFolder</folder>
+	</files>
 
-        plg_filesystem_myplugin
-        Joomla! Project
-        April 2017
-        Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.
-        GNU General Public License version 2 or later; see LICENSE.txt
-        admin@joomla.org
-        www.joomla.org
-        __DEPLOY_VERSION__
-        Description
-        
-            myplugin.php
-            SomeFolder
-        
-        
-        
-            
-                
-                    
-                
-            
-        
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="display_name"
+					type="text"
+					label="YOUR_LABEL"
+					description="YOUR_DESCRIPTION"
+					default="DEFAULT_VALUE"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+```
 
 De **display_name** parameter helpt Media Beheer de naam te tonen van je
 **File System** als basis in je bestands browser. Elke adapter die bij
@@ -92,6 +102,7 @@ om te controleren op `$context` in een typisch scenario.
 
 Een voorbeeld van het gebruik van deze gebeurtenis ziet eruit als:
 
+```php
     public function onFileSystemOAuthCallback(\Joomla\Component\Media\Administrator\Event\OAuthCallbackEvent $event)
     {
         // Your context
@@ -101,15 +112,16 @@ Een voorbeeld van het gebruik van deze gebeurtenis ziet eruit als:
         $data = $event->getInput();
 
         // Your code goes here
-        
+
         // Set result to be returned
         $result = [
             "action" => "control-panel"
         ];
-        
+
         // Pass back the result to event
         $event->setArgument('result', $result);
     }
+```
 
 **OAuthCallbackEvent** bevat de invoer doorgestuurd naar de Media
 Manager OAuthCallback URI. `$event->getInput()` geeft een invoerobject
@@ -139,11 +151,13 @@ Nadat u alles hebt ingesteld, stelt u de`$result` argument van de
 
 Een voorbeeld om een ​​bericht aan de gebruiker weer te geven zou zijn:
 
+```php
     $result = [
         "action" => "media-manager",
         "message" => "Some message",
         "message-type" => "notice"
     ];
+```
 
 Hiermee wordt u omgeleid naar Media Manager en wordt een melding
 weergegeven met de tekst **message**.

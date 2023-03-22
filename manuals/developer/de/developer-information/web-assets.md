@@ -23,6 +23,7 @@ die Assets und deren Abhängigkeiten beziehen. Der Abschnitt
 Abhängigkeiten ist nur eine Liste von Asset-Namen, die für die Funktion
 der Anlage erforderlich sind. Beispiel:Beispiel:
 
+```json
     {
       "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
       "name": "com_example",
@@ -63,6 +64,7 @@ der Anlage erforderlich sind. Beispiel:Beispiel:
         }
       ]
     }
+```
 
 Das Attribut `$schema` dient zur Schemadefinition, mit der eine eigene
 Datei mittels JSON-Schema überprüft werden kann. Weitere Informationen
@@ -120,22 +122,28 @@ Und lädt sie in die Liste der verfügbaren Assets.
 Asset-Elemente der vorherigen Asset-Definition durch einen Element-Namen
 überschrieben.
 
-  
+
 Eigene Asset-Definitionen können über die **WebAssetRegistry**
 registriert werden:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
     $wr = $wa->getRegistry();
     $wr->addRegistryFile('relative/path/to/your/joomla.asset.json');
+```
 
 Ein benutzerdefiniertes Asset-Element während der Ausführung hinzufügen:
 
+```php
     $wr->add('script', new Joomla\CMS\WebAsset\WebAssetItem('foobar', 'com_foobar/file.js', ['type' => 'script']));
+```
 
 Als Alternative kann auch der **WebAssetManager** verwendet werden:
 
+```php
     $wa->registerScript('foobar', 'com_foobar/file.js');
+```
 
 Das neue Asset-Element **foobar** wird der Registry der bekannten Assets
 hinzugefügt, wird aber erst dann an ein Dokument angehängt, wenn es vom
@@ -143,10 +151,12 @@ Code (einem Layout, Template etc.) angefordert wird.
 
 Zum Überprüfen, ob ein Asset verfügbar ist:
 
+```php
     if ($wa->assetExists('script', 'foobar'))
     {
         var_dump('Script "foobar" exists!');
     }
+```
 
 ## Ein Asset aktivieren
 
@@ -159,6 +169,7 @@ werden.
 Man aktiviert ein Asset auf einer Seite mit der „useAsset“ Funktion. Zum
 Beispiel:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
     $wa->useScript('keepalive');
@@ -171,6 +182,7 @@ Beispiel:
 
     // Add new asset item with dependency and use it
     $wa->registerAndUseScript('bar', 'com_foobar/bar.js', [], [], ['core', 'foobar']);
+```
 
 Der **WebAssetManager** prüft bei der **WebAssetRegistry**, ob das
 angeforderte Asset vorhanden ist, und aktiviert es für die aktuelle
@@ -181,15 +193,18 @@ Man deaktiviert ein Asset auf einer Seite mit der „disableAsset“
 Funktion. Im folgenden Beispiel wird das Laden des Assets
 „jquery-noconflict“ deaktiviert.
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
     $wa->disableScript('jquery-noconflict');
+```
 
 **Hinweis:** Gibt es Abhängigkeiten zu dem deaktivierten Asset wird
 dieses Asset automatisch wieder aktiviert, egal was auch immer passiert.
 
 Überprüfen, ob das Asset aktiviert ist und wie der Asset-Status ist:
 
+```php
     // Checking whether an asset are active (enabled manually or automatically as dependency)
     if ($wa->isAssetActive('script', 'foobar'))
     {
@@ -207,6 +222,7 @@ dieses Asset automatisch wieder aktiviert, egal was auch immer passiert.
         default:
             var_dump('not active!');
     }
+```
 
 ## Überschreiben eines Assets
 
@@ -223,6 +239,7 @@ lädt, und wir möchten CDN für genau diese Bibliothek verwenden:
 
 So war es zunächst im System definiert:
 
+```json
     ...
     {
       "name": "foobar",
@@ -231,10 +248,12 @@ So war es zunächst im System definiert:
       "dependencies": ["core"]
     }
     ...
+```
 
 Um die URI zu überschreiben, definieren wir das Asset-Element mit dem
 Namen „foobar“ in unserem joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -243,10 +262,13 @@ Namen „foobar“ in unserem joomla.asset.json:
       "dependencies": ["core"]
     }
     ...
+```
 
 Oder, registrieren ein neues Asset-Element mit dem AssetManager:
 
+```php
     $wa->registerScript('foobar', 'http://fobar.cdn.blabla/foobar.js', [], [], ['core']);
+```
 
 ## Mit Styles arbeiten
 
@@ -255,6 +277,7 @@ Stylesheet-Asset-Elemente haben den Typ „style“.
 
 Zum Beispiel die json-Definition eines Elements in joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -262,11 +285,13 @@ Zum Beispiel die json-Definition eines Elements in joomla.asset.json:
       "uri": "com_example/foobar.css"
     }
     ...
+```
 
 ### Die Methoden zum Arbeiten mit Styles
 
 AssetManager bietet die folgenden Methoden zum Arbeiten mit Stildateien:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -283,6 +308,7 @@ AssetManager bietet die folgenden Methoden zum Arbeiten mit Stildateien:
 
     // Register and attach a custom item in one run
     $wa->registerAndUseStyle('bar', 'com_example/bar.css', [], ['data-foo' => 'some attribute'], ['some.dependency']);
+```
 
 ### Inline-Stil einfügen
 
@@ -298,6 +324,7 @@ Abhängigkeit zu einem anderen Inline-Asset herzustellen. Wenn der Name
 nicht angegeben wird, wird ein generierter Name basierend auf einem
 Inhalts-Hash verwendet.
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -312,6 +339,7 @@ Inhalts-Hash verwendet.
 
     // Named inline asset
     $wa->addInlineStyle('content of inline4', ['name' => 'my.inline.asset']);
+```
 
 **Hinweis:** Das Asset „foobar“ sollte in der Asset-Registrierung
 vorhanden sein, andernfalls kommt es zu einer Ausnahme wegen nicht
@@ -332,8 +360,10 @@ Das vorstehende Beispiel ergibt:
 Wenn das Inline-Asset mehrere Abhängigkeiten hat, wird die letzte für
 die Positionierung verwendet. Beispiel:
 
+```php
     $wa->addInlineStyle('content of inline1', ['position' => 'before'], [], ['foo', 'bar']);
     $wa->addInlineStyle('content of inline2', ['position' => 'after'], [], ['foo', 'bar']);
+```
 
 Wird erzeugen:
 
@@ -357,6 +387,7 @@ AssetManager ermöglicht die Verwaltung von Skript-Dateien. Skript-Assets
 haben den Typ „script“. Zum Beispiel die json-Definition eines Elements
 in joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -365,10 +396,12 @@ in joomla.asset.json:
       "dependencies": ["core"]
     }
     ...
+```
 
 Beispiel json-Definition eines ES6-Modulskripts, mit Fallback auf die
 Legacy-Version:
 
+```json
     ...
     {
       "name": "foobar-legacy",
@@ -388,17 +421,19 @@ Legacy-Version:
         "type": "module"
       },
       "dependencies": [
-        "core", 
+        "core",
         "foobar-legacy"
       ]
     }
     ...
+```
 
 ### Die Methoden zum Arbeiten mit Skripts
 
 Der AssetManager bietet folgende Methoden für die Arbeit mit
 Skriptdateien:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -415,6 +450,7 @@ Skriptdateien:
 
     // Register and attach a custom item in one run
     $wa->registerAndUseScript('bar','com_example/bar.js', [], ['defer' => true], ['core']);
+```
 
 ### Inline-Skript einfügen
 
@@ -430,6 +466,7 @@ Abhängigkeit zu einem anderen Inline-Asset herzustellen. Wenn der Name
 nicht angegeben wird, wird ein generierter Name basierend auf einem
 Inhalts-Hash verwendet.
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -447,6 +484,7 @@ Inhalts-Hash verwendet.
 
     // Specify script type
     $wa->addInlineScript('content of inline5', [], ['type' => 'module']);
+```
 
 **Hinweis:** Das Asset „foobar“ sollte in der Asset-Registrierung
 vorhanden sein, andernfalls kommt es zu einer Ausnahme wegen nicht
@@ -468,8 +506,10 @@ Das vorstehende Beispiel ergibt:
 Wenn das Inline-Asset mehrere Abhängigkeiten hat, wird die letzte für
 die Positionierung verwendet. Beispiel:
 
+```php
     $wa->addInlineScript('content of inline1', ['position' => 'before'], [], ['foo', 'bar']);
     $wa->addInlineScript('content of inline2', ['position' => 'after'], [], ['foo', 'bar']);
+```
 
 Wird erzeugen:
 
@@ -503,6 +543,7 @@ AssetManager dasselbe wie das Arbeiten mit einem „script“-Asset-Element.
 Beispiel json-Definition einiger Webkomponenten in joomla.asset.json
 (als ES6-Modul):
 
+```json
     ...
     {
       "name": "webcomponent.foobar",
@@ -518,12 +559,14 @@ Beispiel json-Definition einiger Webkomponenten in joomla.asset.json
       },
     }
     ...
+```
 
 Beispiel mit Fallback, für Browser, welche die ES6-Funktion *module*
 nicht unterstützen. Hinweis: Das Legacy-Skript sollte eine
 „wcpolyfill“-Abhängigkeit haben, und das Modul-Skript sollte eine
 Abhängigkeit vom Legacy-Skript haben:
 
+```json
     ...
     {
       "name": "webcomponent.foobar",
@@ -554,16 +597,21 @@ Abhängigkeit vom Legacy-Skript haben:
       ]
     }
     ...
+```
 
 Alternativ kann auch die Registrierung in PHP (als ES6-Modul) erfolgen:
 
+```php
     $wa->registerStyle('webcomponent.foobar', 'com_example/foobar-custom-element.css')
         ->registerScript('webcomponent.foobar', 'com_example/foobar-custom-element.js', ['type' => 'module']);
+```
 
 In das Dokument einfügen:
 
+```php
     $wa->useStyle('webcomponent.foobar')
         ->useScript('webcomponent.foobar');
+```
 
 **Hinweis:** Es wird empfohlen, dem Asset-Namen das Präfix
 „webcomponent.“ voranzustellen, um es leicht zu erkennen und von
@@ -585,6 +633,7 @@ folgt nach einem Asset-Namen, Beispiel: foo#style, bar#script.
 
 Zum Beispiel die json-Definition eines Elements in joomla.asset.json:
 
+```json
     ...
     {
       "name": "foobar",
@@ -597,12 +646,14 @@ Zum Beispiel die json-Definition eines Elements in joomla.asset.json:
       ]
     }
     ...
+```
 
 ### Die Methoden zum Arbeiten mit Presets
 
 Der AssetManager bietet folgende Methoden für die Arbeit mit
 Preset-Elementen:
 
+```php
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
     $wa = Factory::getApplication()->getDocument()->getWebAssetManager();
 
@@ -620,6 +671,7 @@ Preset-Elementen:
 
     // Register and attach a custom item in one run
     $wa->registerAndUsePreset('bar','', [], [], ['core#script', 'bar#script']);
+```
 
 ## Fortgeschritten: benutzerdefinierte WebAssetItem Klasse
 
@@ -634,6 +686,7 @@ Eine benutzerdefinierte Klasse kann es ermöglichen, erweiterte Aktionen
 durchzuführen, z. B. eine Skriptdatei einfügen, in Abhängigkeit von
 einer aktiven Sprache:
 
+```php
     class MyComExampleAssetItem extends WebAssetItem
     {
         public function getUri($resolvePath = true): string
@@ -651,12 +704,14 @@ einer aktiven Sprache:
             return $path;
         }
     }
+```
 
 Zusätzlich ermöglicht die Implementierung von
 **Joomla\CMS\WebAsset\WebAssetAttachBehaviorInterface** das Hinzufügen
 einer Skript-Option (die vom Environment abhängen kann), wenn das Asset
 aktiviert und an das Dokument angehängt ist.
 
+```php
     class MyFancyFoobarAssetItem extends WebAssetItem implements WebAssetAttachBehaviorInterface
     {
         public function onAttachCallback(Document $doc): void
@@ -665,6 +720,7 @@ aktiviert und an das Dokument angehängt ist.
             $doc->addScriptOptions('com_example.fancyfoobar', ['userName' => $user->username]);
         }
     }
+```
 
 **Wichtiger Hinweis:** Ein Asset-Element, das
 **WebAssetAttachBehaviorInterface** implementiert, sollte vor dem
@@ -683,6 +739,7 @@ Eigenschaften **namespace** und **class** verwendet werden.
 Standard-Namespace für alle Asset-Elemente in joomla.asset.json benutzt)
 oder auf der Elementebene definiert werden. Zum Beispiel:
 
+```json
     {
       "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
       "name": "com_example",
@@ -704,6 +761,7 @@ oder auf der Elementebene definiert werden. Zum Beispiel:
         }
       ]
     }
+```
 
 Hier wird das Asset **foo** der Klasse
 **Joomla\Component\Example\WebAsset\FooAssetItem** und **bar** der
@@ -714,6 +772,7 @@ Joomla\CMS\WebAsset **verwendet. Wenn** namespace **definiert, aber leer
 ist, wird kein Namespace verwendet, sondern nur** class**. Zum
 Beispiel:**
 
+```json
     {
       "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
       "name": "com_example",
@@ -733,6 +792,7 @@ Beispiel:**
         }
       ]
     }
+```
 
 Hier wird das Asset **foo** der Klasse
 **Joomla\CMS\WebAsset\FooAssetItem** und **bar** der Klasse

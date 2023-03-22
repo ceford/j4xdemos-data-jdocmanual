@@ -109,7 +109,7 @@ Die folgenden Elemente können zum Einfügen von Metadaten verwendet
 werden. Keines dieser Elemente ist erforderlich. Wenn sie vorhanden
 sind, müssen sie ein untergeordnetes Element des Root-Elements sein.
 
-     – raw component name (e.g. com_banners). 
+     – raw component name (e.g. com_banners).
      – author's name (e.g. Joomla! Project)
      – date of creation or release (e.g. April 2006)
      – a copyright statement (e.g. (C) 2005 - 2011 Open Source Matters. All rights reserved.)
@@ -126,10 +126,12 @@ Muttersprache angezeigt werden können.
 
 ### Front-End Dateien
 
-       
-            example.php
-            examples
-        
+```xml
+	<files folder="from-folder">
+		<filename>example.php</filename>
+		<folder>examples</folder>
+	</files>
+```
 
 Dateien, die in das Front-End-Verzeichnis kopiert werden sollen, sollten
 im -Element abgelegt werden. Sie können das optionale `folder`-Attribut
@@ -146,11 +148,13 @@ Name `plg_system_example`) erstellt haben, dann verwenden Sie
 
 ### Medien Dateien
 
-       
-            com_example_logo.png
-            css
-            js
-        
+```xml
+	<media folder="media" destination="com_example">
+		<filename>com_example_logo.png</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+```
 
 In diesem Beispiel werden die aufgelistete(n) Datei(en)
 (`/media/com_example_logo.png`) und die Ordner (`/media/css/` und
@@ -163,7 +167,7 @@ Erweiterungen sollten Assets in `media` speichern, die sie benötigen um
 über das Web erreichbar zu sein (JS, CSS, Bilder usw.). Unter anderem
 wurde diese Funktion hinzugefügt, um den Multi-Site-Support und die
 eventuelle Verlagerung von Code-Dateien (PHP) aus den im Web
-zugänglichen Bereichen des Servers zu beschleunigen.  
+zugänglichen Bereichen des Servers zu beschleunigen.
 Hinweis: Der media-Abschnitt wird nicht nach Erweiterungen vom Typ
 „package“ analysiert.
 
@@ -182,9 +186,11 @@ Ref:
 
 ### Der Administrations-Abschnitt
 
-       
-            
-        
+```xml
+	<administration>
+		<!-- various elements -->
+	</administration>
+```
 
 Der Administrationsbereich ist im -Element definiert. Da nur
 [Komponenten](https://docs.joomla.org/Component "Special:MyLanguage/Component")
@@ -210,12 +216,17 @@ Manifestdatei also kein
 
 -Tag enthält, wird für die Komponente kein Admin-Menüelement erstellt.
 
-       COM_EXAMPLE
-        
-            
-            COM_EXAMPLE_SUBMENU_ANOPTION
-            COM_EXAMPLE_SUBMENU_VIEWNAME
-        
+```xml
+	<menu>COM_EXAMPLE</menu>
+	<submenu>
+		<!--
+			Note that all & must be escaped to &amp; for the file to be valid
+			XML and be parsed by the installer
+		-->
+		<menu link="anoption=avalue&amp;anoption1=avalue1">COM_EXAMPLE_SUBMENU_ANOPTION</menu>
+		<menu view="viewname">COM_EXAMPLE_SUBMENU_VIEWNAME</menu>
+	</submenu>
+```
 
 Der Text für das Hauptmenü-Element der Komponente wird im
 
@@ -281,9 +292,11 @@ mitkopiert.
 
 Der Inhalt dieser Datei sollte sein:
 
+```ini
     COM_EXAMPLE="Example Component"
     COM_EXAMPLE_SUBMENU_ANOPTION="Another Option"
     COM_EXAMPLE_SUBMENU_VIEWNAME="Another View"
+```
 
 Bitte beachten, dass der Sprachstring in doppelte Anführungszeichen
 eingeschlossen werden muss, wie es die Übersetzungsstandards von Joomla!
@@ -314,7 +327,7 @@ Komponente im Administratorbereich der Website.
 ```xml
 	<dashboards>
 		<dashboard title="COM_EXAMPLE_DASHBOARD_TITLE" icon="icon-lock">example</dashboard>
-	</dashboards>        
+	</dashboards>
 ```
 
 ### Konfiguration
@@ -359,16 +372,18 @@ Unterpfad im Stammverzeichnis der Erweiterung anzugeben.
 
 ### SQL
 
-        
-            
-                sql/example.install.sql
-            
-        
-        
-            
-                sql/example.uninstall.sql
-            
-        
+```sql
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/example.install.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/example.uninstall.sql</file>
+        </sql>
+    </uninstall>
+```
 
 Im obigen Beispiel haben wir die SQL-Dateien im Ordner `admin/sql` des
 Installationspakets abgelegt. Sie müssen den `sql`-Ordner in die
@@ -387,21 +402,24 @@ definieren. Ihre Datenbank-Treibertypen werden durch das Attribut
 Seit 1.6 gibt es auch ein -Tag, mit dem Sie eine Reihe von SQL-Dateien
 zum Aktualisieren des aktuellen Schemas bereitstellen können.
 
-       
-            
-                sql/updates/mysql
-                sql/updates/sqlsrv
-            
-        
+```sql
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+			<schemapath type="sqlsrv">sql/updates/sqlsrv</schemapath>
+		</schemas>
+	</update>
+```
 
 Um beispielsweise bei einer **MySQL**-Datenbank von Version `1.0.0` auf
 Version `1.0.1` zu wechseln, muss eine `1.0.1.sql`-Datei im Ordner
 `sql/updates/mysql` erstellt und das -Tag des Manifests aktualisiert
 werden auf
 
-    1.0.1
+```sql
+<version>1.0.1</version>
+```
 
-  
 Die grundlegende Struktur des SQL-Ordners sieht folgendermaßen aus
 (angenommen, dass eine **MySQL-Datenbank** genutzt wird)
 
@@ -421,8 +439,12 @@ im Joomla! Haupt-Sprachen-Ordner mit dem Tag ... ablegen (siehe unten).
 **Diese Methode kann immer noch in allen Joomla!** Versionen verwendet
 werden**.**
 
-
-        en-GB.com_example.ini
+```xml
+<!-- Joomla! language tag -->
+<languages folder="langfiles">
+	<language tag="en-GB">en-GB.com_example.ini</language>
+</languages>
+```
 
 Dennoch wird seit Joomla! 1.6 empfohlen, dass die Sprachdateien der
 Erweiterung in dessen Erweiterungsordner abgelegt werden sollen. Joomla!
@@ -446,20 +468,28 @@ Sprache werden automatisch kopiert. Innerhalb der Gruppe muss das
 Element neben den Elementen in der Gruppe hinzugefügt werden, siehe
 dieses Beispiel:
 
-        alpha.php
-        sql
-        language
+```xml
+<files>
+	<filename plugin="alpha">alpha.php</filename>
+	<folder>sql</folder>
+	<folder>language</folder>
+</files>
+```
 
 **Hinweis:** Beide Wege können nebeneinander funktionieren. Hier ist ein
 Beispiel aus dem Kern:
 
-        languagecode.php
-        index.html
-        language
-
-
-        language/en-GB/en-GB.plg_system_languagecode.ini
-        language/en-GB/en-GB.plg_system_languagecode.sys.ini
+```xml
+<files>
+	<filename plugin="languagecode">languagecode.php</filename>
+	<filename>index.html</filename>
+	<folder>language</folder>
+</files>
+<languages>
+	<language tag="en-GB">language/en-GB/en-GB.plg_system_languagecode.ini</language>
+	<language tag="en-GB">language/en-GB/en-GB.plg_system_languagecode.sys.ini</language>
+</languages>
+```
 
 Folgende Vorteile ergeben sich aus dieser Lösung:
 
@@ -494,7 +524,9 @@ geladen wird, um die Anzeige von Konstanten zu verhindern.
 
 ### Script Datei
 
-        example.script.php
+```xml
+    <scriptfile>example.script.php</scriptfile>
+```
 
 Ein optionale **Script-Datei** (PHP-Code, der vor, während und/oder nach
 der Installation, Deinstallation und Aktualisierung ausgeführt wird)
@@ -510,6 +542,86 @@ decoding="async" data-file-width="40" data-file-height="17" width="40"
 height="17" alt="Joomla 4.0" /> und neuer ist die Klassenstruktur wie
 folgt:
 
+```php
+<?php
+
+use Joomla\CMS\Installer\InstallerAdapter;
+
+class com_componentnameInstallerScript
+{
+	/**
+	 * Constructor
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 */
+	public function __construct(InstallerAdapter $adapter)
+	{
+	}
+
+	/**
+	 * Called before any type of action
+	 *
+	 * @param   string  $route  Which action is happening (install|uninstall|discover_install|update)
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function preflight($route, InstallerAdapter $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called after any type of action
+	 *
+	 * @param   string  $route  Which action is happening (install|uninstall|discover_install|update)
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function postflight($route, $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called on installation
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function install(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called on update
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function update(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called on uninstallation
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 */
+	public function uninstall(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+}
+
+?>
+```
+
 Seit Joomla 3.6 gibt es ein einfaches Skript, das man verwenden kann,
 anstatt ein eigenes Skript zu entwickeln: **JInstallerScript** enthält
 verschiedene hilfreiche Methoden, die in der Community häufig verwendet
@@ -519,14 +631,18 @@ werden.
 
 Eine einfache Manifestdatei einer Bibliothek könnte wie folgt aussehen:
 
-
-        My Test library.
-        mytest
-        
-            Classes
-            language
-            mytest.php
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="4.0">
+    <name>My Test library.</name>
+    <libraryname>mytest</libraryname>
+    <files>
+        <folder>Classes</folder>
+        <folder>language</folder>
+        <filename>mytest.php</filename>
+    </files>
+</extension>
+```
 
 Damit wird die Bibliothek in den Ordner `JPATH_SITE/libraries/mytest`
 installiert.
@@ -538,9 +654,13 @@ sollen?
 Ganz einfach: Der Name des Unternehmens wird in die
 `libraryname`-Eigenschaft der einzelnen Bibliotheken eingefügt, etwa so:
 
-        mycompany/mylibrary1
+```xml
+    <libraryname>mycompany/mylibrary1</libraryname>
+```
 
-        mycompany/mylibrary2
+```xml
+    <libraryname>mycompany/mylibrary2</libraryname>
+```
 
 Diese Bibliotheken werden dann in den Ordnern
 `JPATH_SITE/libraries/mycompany/mylibrary1` und
@@ -552,16 +672,22 @@ der Website installiert.
 Wenn `script files` mit solchen Firmenbibliotheken verwendet wird,
 sollte der Klassenname des Installationsprogramms wie folgt aussehen:
 
+```php
     class mycompanymylibrary1InstallerScript
+```
 
+```php
     class mycompanymylibrary2InstallerScript
+```
 
 ### Update Server
 
-        
-            http://example.com/extension.xml
-            http://example.com/collection.xml
-        
+```xml
+    <updateservers>
+        <server type="extension" priority="1" name="Extension Update Site">http://example.com/extension.xml</server>
+        <server type="collection" priority="2" name="Collection Update Site">http://example.com/collection.xml</server>
+    </updateservers>
+```
 
 Update-Server können im Element definiert werden, einem untergeordneten
 Element von Root. Dieses Element kann ein oder mehrere -Elemente
@@ -620,6 +746,10 @@ Argumente:
 - suffix
 
 Das Tag `dlid` wird in der Manifest-Datei wie hier dargestellt aussehen:
+
+```xml
+<dlid prefix="dlid=" suffix="&amp;dummy=my.zip"/>
+```
 
 Das Präfix wird vor dem Download-Schlüssel und das Suffix nach dem
 Download-Schlüssel eingefügt. Im Beispiel oben lautet die vollständige

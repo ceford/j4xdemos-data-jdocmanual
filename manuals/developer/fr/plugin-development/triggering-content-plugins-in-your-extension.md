@@ -9,10 +9,13 @@ voulez utiliser des plugins qui fonctionnent habituellement sur un
 contenu depuis une extension personnalisée. Pour le déclenchement de la
 préparation du contenu vous pouvez simplement appeler :
 
+```php
     $text = \Joomla\CMS\HTML\HTMLHelper::_('content.prepare', $text);
+```
 
 Pour tout autre déclenchement de contenu, vous devez appeler :
 
+```php
     // Ces trois instructions doivent être placées en haut de votre fichier, juste en dessous de l'instruction JEXEC.
     utiliser Joomla\CMS\CMSObject;
     utiliser Joomla\CMS\Factory;
@@ -28,6 +31,7 @@ Pour tout autre déclenchement de contenu, vous devez appeler :
     PluginHelper::importPlugin('content');
     $app = Factory::getApplication();
     $app->triggerEvent('onContentPrepare', array('some.context', &$article, &$params, 0));
+```
 
 Vous souhaiterez peut-être consulter les composants du noyau (par
 exemple com_content) pour avoir un exemple. Lisez la [page des

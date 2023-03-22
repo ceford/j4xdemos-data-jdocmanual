@@ -1,7 +1,7 @@
 <!-- Filename: J4.x:Page_Builder / Display title: Constructeur de page -->
 
-<span id="main-portal-heading">GSoC 2019  
-Constructeur de page de Joomlaǃ 4  
+<span id="main-portal-heading">GSoC 2019
+Constructeur de page de Joomlaǃ 4
 Documentation</span> [<img
 src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
 decoding="async"
@@ -29,17 +29,32 @@ Pour utiliser le Constructeur de pages, le template actif du site public
 doit avoir un champ *pagebuilder* dans le fichier `templateDetails.xml`
 tel que dans Apodis :
 
-       
+```xml
+<fieldset name="pagebuilder" label="TPL_APODIS_PAGEBUILDER">
+   <field
+		name="grid"
+		type="pagebuilder"
+		hidden="true"
+		label="TPL_APODIS_PAGEBUILDER"
+   />
+</fieldset>
+```
 
 Le template lui-même doit charger le RenderHelper, qui affiche le
 paramètre, complété par l'éditeur. Ceci est réalisé dans le fichier
 `index.php` du template.
 
+```php
     use Joomla\Component\Templates\Administrator\Helper\RenderHelper;
 
     $grid = $this->params->get('grid');
+```
 
 Ensuite, la sortie est placée dans le corps HTML :
+
+```php
+<?php echo RenderHelper::renderElements($grid); ?>
+```
 
 ## Editeur
 

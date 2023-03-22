@@ -2,16 +2,12 @@
 
 Joomla!  4.0
 
-Diese Seite soll dokumentieren, wie sich die in
-<img src="https://docs.joomla.org/images/f/f4/Compat_icon_4_0.png"
-decoding="async" data-file-width="40" data-file-height="17" width="40"
-height="17" alt="Joomla 4.0" /> eingeführte Webservices-Schicht in
+Diese Seite soll dokumentieren, wie sich die in Joomla 4.0
+eingeführte Webservices-Schicht in
 bestehende Joomla-Komponenten integrieren können. Dies setzt voraus,
 dass die Standard-Joomla-MVC-Schicht verwendet wird.
 
-  
-**Ein Beispiel der Webservices-Integration zur Erweiterung von
-Weblinks**
+*** Ein Beispiel der Webservices-Integration zur Erweiterung von Weblinks ***
 
 Repository der Erweiterung:
 <a href="https://github.com/joomla-extensions/weblinks"
@@ -23,26 +19,89 @@ Pull request:
 class="external free" target="_blank"
 rel="nofollow noreferrer noopener">https://github.com/joomla-extensions/weblinks/pull/407</a>
 
-## Erster Schritt
+## Plugin Code
 
-1\. Verzeichnis erstellen: ***src/api***
+The point of entry to your component from an API call is a plugin.
+
+The plugin re-routes the API call into the API code that services the request.
+
+In this example an API call to the weblinks component might be
+
+```
+(yourSite)/api/index.php/v1/weblinks
+```
+
+This means your installation file is best represented as a package, pkg_weblinks in this case, so that it can contain not only your original component, but also the required plugin.
+
+1. Create the plugin folder ***plugins/webservices/weblinks***.
+
+Your plugin code goes in a subdirectory of the webservices directory under the plugins directory, in this example ***plugins/webservices/weblinks***.
+
+<img alt="" src="/images/0/0f/Struct2.png.png" decoding="async" class="thumbimage" data-file-width="328" data-file-height="339" width="328" height="339">
+
+2. In ***weblinks.php***, create the class  ***PlgWebservicesWeblinks***.
+
+```php
+use Joomla\\CMS\\Plugin\\CMSPlugin;
+use Joomla\\CMS\\Router\\ApiRouter;
+
+class PlgWebservicesWeblinks extends CMSPlugin
+{
+    public function onBeforeApiRoute(&$router)
+    {
+        $router->createCRUDRoutes('v1/weblinks', 'weblinks', ['component' => 'com_weblinks']);
+    }
+}
+```
+
+In the ***onBeforeApiRoute*** method, register all the routes needed for the webservice.
+
+When Joomla receives an API call it loads the API router which then collects a list of endpoints it should be aware of by running the ''onBeforeApiRoute'' method in all enabled plugin classes that contain it. Then it can locate the API component relevant to the API endpoint that has been called.
+
+The createCRUDRoutes method creates five routes; two GET routes for list and item data, and one POST, one PATCH, and one DELETE route. If you don't require this, simply create the routes directly here.
+
+## The API code
+
+The router specifies the path for the relevant API code.
+
+This API code is in a folder named ''api'' off the site root. It is exactly analogous to the ''administrator'' and ''site'' sections.
+
+In your installation package this code should be included in your component installer because the Joomla installation process automatically creates a section for each installed component there, whether it has any API code or not.
+
+The structure of this section has the same directory pattern as the other extension sections (i.e. components, modules, plugins).
+
+1\. Verzeichnis erstellen: ***/api***
 
 <img src="https://docs.joomla.org/images/e/ec/Struct1.png"
 class="thumbimage" decoding="async" data-file-width="414"
 data-file-height="262" width="414" height="262" />
-<a href="https://docs.joomla.org/File:Struct1.png" class="internal"
-title="Enlarge"></a>File system structure
 
 2\. Anlegen der Klasse: ***WeblinksController***
 
-    use Joomla\CMS\MVC\Controller\ApiController;
+The controller is named in the second parameter of the ''createCRUDRoutes'' method in the plugin.
 
-    class WeblinksController extends ApiController 
+You can expose more than one output structure by registering more than one route, specifying a different controller for each structure.
+
+```php
+use Joomla\\CMS\\Plugin\\CMSPlugin;
+use Joomla\\CMS\\Router\\ApiRouter;
+
+class PlgWebservicesWeblinks extends CMSPlugin
+{
+    public function onBeforeApiRoute(&$router)
     {
-        protected $contentType = 'weblinks';
-
-        protected $default_view = 'weblinks';
+        $router->createCRUDRoutes('v1/weblinks', 'weblinks', ['component' => 'com_weblinks']);
     }
+}
+```
+
+In the ***onBeforeApiRoute*** method, register all the routes needed for the webservice.
+
+When Joomla receives an API call it loads the API router which then collects a list of endpoints it should be aware of by running the ''onBeforeApiRoute'' method in all enabled plugin classes that contain it. Then it can locate the API component relevant to the API endpoint that has been called.
+
+The createCRUDRoutes method creates five routes; two GET routes for list and item data, and one POST, one PATCH, and one DELETE route. If you don't require this, simply create the routes directly here.
+
+## The API code
 
 Die folgenden Felder übersteuern (override):
 
@@ -116,12 +175,12 @@ für den Webservice benötigen.
         www.joomla.org
         4.0.0
         PLG_WEBSERVICES_WEBLINKS_XML_DESCRIPTION
-        
+
              ##FILES##
-        
-        
+
+
              ##LANGUAGE_FILES##
-        
+
 
 4\. Erstellen der Dateien
 ***en-GB/en-GB.plg_webservices_weblinks.ini***,

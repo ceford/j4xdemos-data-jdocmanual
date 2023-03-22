@@ -41,6 +41,7 @@ available for extensions to use.
 The most rudimentary command just prints a title and some text into the
 terminal.
 
+```php
        /**
          * The default command name
          *
@@ -88,6 +89,7 @@ terminal.
     EOF
             );
         }
+```
 
 Let's cover the 3 parts of this code:
 
@@ -109,6 +111,7 @@ Inside your plugin you're going to register to the event
 *getSubscribedEvents*. The following Example required a command
 *RunHelloCommand* and registers it.
 
+```php
     class PlgsystemMyConsole extends CMSPlugin implements SubscriberInterface
     {
 
@@ -136,6 +139,7 @@ Inside your plugin you're going to register to the event
         }
 
     }
+```
 
 This method *registerCommands* adds your command into the Dependency
 Injection Container then registers that command against the name of the
@@ -148,4 +152,6 @@ as the *defaultName* property inside your Command Class.
 To call the command you just created you need to run it through the
 Joomla CLI Command:
 
+```php
     php cli/joomla.php my:command
+```

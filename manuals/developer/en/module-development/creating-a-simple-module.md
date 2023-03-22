@@ -1317,8 +1317,7 @@ could find the physical source of your modules zip file. If you don't do
 like this, you can find a solution in this PRː
 <a href="https://github.com/joomla/joomla-cms/pull/15185"
 class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/pull/15185</a>
-.
+rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/pull/15185</a>.
 
 ### Conclusion
 

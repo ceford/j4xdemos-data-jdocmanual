@@ -1,7 +1,7 @@
 <!-- Filename: J4.x:Cloud_File_Systems_for_Media_Manager / Display title: Cloud-Dateisysteme für den Medien-Manager -->
 
-<span id="main-portal-heading">GSoC 2017  
-Cloud-Dateisysteme für den Medien-Manager  
+<span id="main-portal-heading">GSoC 2017
+Cloud-Dateisysteme für den Medien-Manager
 Dokumentation</span> [<img
 src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
 decoding="async"
@@ -38,28 +38,38 @@ enthalten, damit es mit dem Medien-Manager zusammenarbeiten kann.
 Das Plugin muss die Option `group="filesystem"` enthalten. In der Datei
 `[plugin-name].xml` sollte daher Folgendes enthalten sein:
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="filesystem" method="upgrade">
+	<name>plg_filesystem_myplugin</name>
+	<author>Joomla! Project</author>
+	<creationDate>April 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>__DEPLOY_VERSION__</version>
+	<description>Description</description>
+	<files>
+		<filename plugin="myplugin">myplugin.php</filename>
+		<folder>SomeFolder</folder>
+	</files>
 
-        plg_filesystem_myplugin
-        Joomla! Project
-        April 2017
-        Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.
-        GNU General Public License version 2 or later; see LICENSE.txt
-        admin@joomla.org
-        www.joomla.org
-        __DEPLOY_VERSION__
-        Description
-        
-            myplugin.php
-            SomeFolder
-        
-        
-        
-            
-                
-                    
-                
-            
-        
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="display_name"
+					type="text"
+					label="YOUR_LABEL"
+					description="YOUR_DESCRIPTION"
+					default="DEFAULT_VALUE"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+```
 
 Der Parameter **display_name** hilft dem Medien-Manager, den Namen des
 **Dateisystems** als Root-Knoten im Datei-Browser anzuzeigen. Alle
@@ -94,6 +104,7 @@ einem typischen Szenario also nicht nötig, nach `$context` zu suchen.
 
 Ein Anwendungsbeispiel für das Event sieht so aus:
 
+```php
     public function onFileSystemOAuthCallback(\Joomla\Component\Media\Administrator\Event\OAuthCallbackEvent $event)
     {
         // Your context
@@ -103,15 +114,16 @@ Ein Anwendungsbeispiel für das Event sieht so aus:
         $data = $event->getInput();
 
         // Your code goes here
-        
+
         // Set result to be returned
         $result = [
             "action" => "control-panel"
         ];
-        
+
         // Pass back the result to event
         $event->setArgument('result', $result);
     }
+```
 
 **OAuthCallbackEvent** enthält die an den Medien-Manager
 OAuthCallback-URI weitergeleitete Eingabe. `$event->getInput()` gibt ein
@@ -142,11 +154,13 @@ verwenden, um es an den Aufrufenden zurückzugeben.
 Eine Nachricht an den Benutzer könnte beispielsweise folgendermaßen
 aussehen:
 
+```php
     $result = [
         "action" => "media-manager",
         "message" => "Some message",
         "message-type" => "notice"
     ];
+```
 
 Diese leitet auf den Medien-Manager um und gibt eine Meldung mit dem
 Text in **message** aus.

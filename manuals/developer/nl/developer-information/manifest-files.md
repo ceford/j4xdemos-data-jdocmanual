@@ -106,7 +106,7 @@ De volgende elementen kunnen gebruikt worden om metadata in te voegen.
 Geen van deze elementen zijn verplicht; indien ze aanwezig zijn, moeten
 ze afstammen van het root element.
 
-     – raw component name (e.g. com_banners). 
+     – raw component name (e.g. com_banners).
      – author's name (e.g. Joomla! Project)
      – date of creation or release (e.g. April 2006)
      – a copyright statement (e.g. (C) 2005 - 2011 Open Source Matters. All rights reserved.)
@@ -123,10 +123,12 @@ eigen taal.
 
 ### Website bestanden
 
-       
-            example.php
-            examples
-        
+```xml
+	<files folder="from-folder">
+		<filename>example.php</filename>
+		<folder>examples</folder>
+	</files>
+```
 
 Bestanden die gekopieerd moeten worden naar de website map moeten
 geplaatst worden binnen het element. U kunt het optionele `folder`
@@ -143,11 +145,13 @@ plugin genaamd "voorbeeld" (volledige naam `plg_system_voorbeeld`),
 
 ### Mediabestanden
 
-       
-            com_example_logo.png
-            css
-            js
-        
+```xml
+	<media folder="media" destination="com_example">
+		<filename>com_example_logo.png</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+```
 
 Dit voorbeeld kopieert de bestand(en) (`/media/com_example_logo.png`) en
 de opgenomen mappen ( `/media/css/` en `/media/js/` ) naar
@@ -160,7 +164,7 @@ Extensies zouden middelen die ze nodig hebben om web-toegankelijk te
 zijn (JS, CSS, images etc) moeten opslaan in `media`. Deze functie was
 onder andere toegevoegd als stap in de ontwikkeling naar multi-site
 ondersteuning en de eventuele stap van code bestanden (PHP) buiten de
-vanuit het web toegankelijke gebieden van de server  
+vanuit het web toegankelijke gebieden van de server
 Merk op: de media sectie wordt niet geparsed voor 'package' type
 extensions.
 
@@ -179,9 +183,11 @@ Ref:
 
 ### Administratie sectie
 
-       
-            
-        
+```xml
+	<administration>
+		<!-- various elements -->
+	</administration>
+```
 
 De administratie sectie wordt gedefinieerd in het element. Aangezien
 alleen
@@ -208,24 +214,24 @@ aangemaakt. Deze bug is gerepareerd in Joomla 3.4, dus, als er geen
 tag in uw manifest file zit, dan wordt er geen beheer menu-item
 aangemaakt voor de component.
 
-       COM_EXAMPLE
-        
-            
-            COM_EXAMPLE_SUBMENU_ANOPTION
-            COM_EXAMPLE_SUBMENU_VIEWNAME
-        
+```xml
+	<menu>COM_EXAMPLE</menu>
+	<submenu>
+		<!--
+			Note that all & must be escaped to &amp; for the file to be valid
+			XML and be parsed by the installer
+		-->
+		<menu link="anoption=avalue&amp;anoption1=avalue1">COM_EXAMPLE_SUBMENU_ANOPTION</menu>
+		<menu view="viewname">COM_EXAMPLE_SUBMENU_VIEWNAME</menu>
+	</submenu>
+```
 
 De tekst voor het hoofd menu-item voor de component is gedefinieerd in
-het
+het `<menu>` item, een onderdeel van `<administration>`. Een `<submenu>`
+element kan ook aanwezig zijn (ook onderdeel van ), welke meer menu-items
+kan bevatten, gedefinieerd door `<menu>`.
 
-item, een onderdeel van . Een element kan ook aanwezig zijn (ook
-onderdeel van ), welke meer menu-items kan bevatten, gedefinieerd door
-
-.
-
-Bovendien kan elk
-
-item de volgende attributen definiëren:
+Bovendien kan elk `<menu>` item de volgende attributen definiëren:
 
 <table class="wikitable">
 
@@ -276,9 +282,11 @@ component wordt geïnstalleerd.
 
 De inhoud van dat bestand moet zijn:
 
+```ini
     COM_EXAMPLE="Example Component"
     COM_EXAMPLE_SUBMENU_ANOPTION="Another Option"
     COM_EXAMPLE_SUBMENU_VIEWNAME="Another View"
+```
 
 Please note that the language string must be enclosed in double quotes,
 as per Joomla!'s translation standards.
@@ -302,9 +310,12 @@ the Administrator area for the site.
   the cpanel-example administrator module position
 - The title and icon defined in the XML file will be used as the header
   and icon at the top of the component's dashboard page.
-       
-            example
-        
+
+```xml
+  <dashboards>
+		<dashboard title="COM_EXAMPLE_DASHBOARD_TITLE" icon="icon-lock">example</dashboard>
+	</dashboards>
+```
 
 ### Configuratie
 
@@ -340,16 +351,18 @@ directory.
 
 ### SQL
 
-        
-            
-                sql/example.install.sql
-            
-        
-        
-            
-                sql/example.uninstall.sql
-            
-        
+```sql
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/example.install.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/example.uninstall.sql</file>
+        </sql>
+    </uninstall>
+```
 
 In bovenstaande voorbeeld, stoppen we de SQL bestanden in de `admin/sql`
 map van het installatie pakket. U moet de `sql` map opnemen in de
@@ -367,21 +380,24 @@ het `charset` attribuut.
 Sinds 1.6, is er ook een tag, die u de mogelijkheid geeft een reeks SQL
 bestanden te leveren om het huidige schema bij te werken.
 
-       
-            
-                sql/updates/mysql
-                sql/updates/sqlsrv
-            
-        
+```sql
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+			<schemapath type="sqlsrv">sql/updates/sqlsrv</schemapath>
+		</schemas>
+	</update>
+```
 
 Bijvoorbeeld om van versie `1.0.0` naar versie `1.0.1` te gaan in een
 **MySQL** database, een `1.0.1.sql -` bestand moet in de
 `sql/updates/mysql` map worden gemaakt en de tag van het manifest moet
 worden bijgewerkt naar
 
-    1.0.1
+```sql
+<version>1.0.1</version>
+```
 
-  
 De definitieve structuur van de sql-map zal er als volgt uit zien
 (uitgaande van een **MySQL** database)
 
@@ -403,8 +419,12 @@ getoond. **Deze methode kan nog steeds gebruikt worden in Joomla!**
 decoding="async" data-file-width="40" data-file-height="17" width="40"
 height="17" alt="Joomla 3.x" />.
 
-
-        en-GB.com_example.ini
+```xml
+<!-- Joomla! language tag -->
+<languages folder="langfiles">
+	<language tag="en-GB">en-GB.com_example.ini</language>
+</languages>
+```
 
 Sinds Joomla! 1.6 wordt aanbevolen uw extensie taalbestanden in uw
 extensie mappen te plaatsen. Joomla! zal dan automatisch uw extensie
@@ -427,20 +447,28 @@ files sectie op. De sub-mappen voor iedere taal worden dan automatisch
 gekopieerd. Voeg, binnen de groep, eenvoudig een element toe naast de
 items in de groep zoals in dit voorbeeld getoond wordt:
 
-        alpha.php
-        sql
-        language
+```xml
+<files>
+	<filename plugin="alpha">alpha.php</filename>
+	<folder>sql</folder>
+	<folder>language</folder>
+</files>
+```
 
 Merk op dat beide manieren kunnen samenwerken. Hier is een voorbeeld uit
 de core:
 
-        languagecode.php
-        index.html
-        language
-
-
-        language/en-GB/en-GB.plg_system_languagecode.ini
-        language/en-GB/en-GB.plg_system_languagecode.sys.ini
+```xml
+<files>
+	<filename plugin="languagecode">languagecode.php</filename>
+	<filename>index.html</filename>
+	<folder>language</folder>
+</files>
+<languages>
+	<language tag="en-GB">language/en-GB/en-GB.plg_system_languagecode.ini</language>
+	<language tag="en-GB">language/en-GB/en-GB.plg_system_languagecode.sys.ini</language>
+</languages>
+```
 
 Deze oplossing heeft de volgende voordelen:
 
@@ -474,25 +502,103 @@ voorkomen dat constanten getoond worden.
 
 ### Script bestand
 
-        example.script.php
+```xml
+    <scriptfile>example.script.php</scriptfile>
+```
 
 Een optioneel **scriptbestand** (PHP code die voor, tijdens en/of na
 installatie, deïnstallatie en upgrade uitgevoerd wordt) kan gedefinieerd
-worden door middel van een element. Dit bestand moet een class genaamd
+worden door middel van een element.
+
+Dit bestand moet een class genaamd
 "InstallerScript" bevatten waarbij de naam van uw extensie is
 (bijvoorbeeld com_componentnaam, mod_modulenaam, etc.). Plugins vereisen
 dat de groep wordt opgegeven (bijvoorbeeld plgsystempluginnaam).
-Library-pakketten ondersteunen geen scriptbestanden. De structuur van de
-class is als volgt:
-
-This file should contain a class named "InstallerScript" where is the
-name of your extension (e.g. com_componentname, mod_modulename, etc.).
-Plugins must state the group (e.g. plgsystempluginname).
 
 In <img src="https://docs.joomla.org/images/f/f4/Compat_icon_4_0.png"
 decoding="async" data-file-width="40" data-file-height="17" width="40"
 height="17" alt="Joomla 4.0" /> and later the structure of the class is
 as follows:
+
+```php
+<?php
+
+use Joomla\CMS\Installer\InstallerAdapter;
+
+class com_componentnameInstallerScript
+{
+	/**
+	 * Constructor
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 */
+	public function __construct(InstallerAdapter $adapter)
+	{
+	}
+
+	/**
+	 * Called before any type of action
+	 *
+	 * @param   string  $route  Which action is happening (install|uninstall|discover_install|update)
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function preflight($route, InstallerAdapter $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called after any type of action
+	 *
+	 * @param   string  $route  Which action is happening (install|uninstall|discover_install|update)
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function postflight($route, $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called on installation
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function install(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called on update
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 *
+	 * @return  boolean  True on success
+	 */
+	public function update(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+
+	/**
+	 * Called on uninstallation
+	 *
+	 * @param   InstallerAdapter  $adapter  The object responsible for running this script
+	 */
+	public function uninstall(InstallerAdapter $adapter)
+	{
+		return true;
+	}
+}
+
+?>
+```
 
 Note that since Joomla 3.6 Joomla has shipped a basic script that you
 can use instead of shipping your own from scratch **JInstallerScript**
@@ -503,14 +609,18 @@ community.
 
 A simple library manifest might look like this:
 
-
-        My Test library.
-        mytest
-        
-            Classes
-            language
-            mytest.php
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="4.0">
+    <name>My Test library.</name>
+    <libraryname>mytest</libraryname>
+    <files>
+        <folder>Classes</folder>
+        <folder>language</folder>
+        <filename>mytest.php</filename>
+    </files>
+</extension>
+```
 
 This will install the library into the `JPATH_SITE/libraries/mytest`
 folder.
@@ -521,9 +631,13 @@ together under folder `JPATH_SITE/libraries/mycompany`?
 Simple - include your company name in the `libraryname` property of each
 library like this:
 
-        mycompany/mylibrary1
+```xml
+    <libraryname>mycompany/mylibrary1</libraryname>
+```
 
-        mycompany/mylibrary2
+```xml
+    <libraryname>mycompany/mylibrary2</libraryname>
+```
 
 These libraries will then be installed in the
 `JPATH_SITE/libraries/mycompany/mylibrary1` and
@@ -535,16 +649,22 @@ your site.
 When using `script files` with such company libraries the installer
 class name should look like this:
 
+```php
     class mycompanymylibrary1InstallerScript
+```
 
+```php
     class mycompanymylibrary2InstallerScript
+```
 
 ### Update-servers
 
-        
-            http://example.com/extension.xml
-            http://example.com/collection.xml
-        
+```xml
+    <updateservers>
+        <server type="extension" priority="1" name="Extension Update Site">http://example.com/extension.xml</server>
+        <server type="collection" priority="2" name="Collection Update Site">http://example.com/collection.xml</server>
+    </updateservers>
+```
 
 Update-servers kunnen worden gedefinieerd in het element, onder de root.
 Dit element kan een of meer element bevatten, welke ieder de locatie
@@ -601,6 +721,10 @@ manifest bestand opnemen. De `dlid` tag heeft 2 argumenten:
 - suffix
 
 De `dlid` tag ziet er in uw manifest bestand zo uit:
+
+```xml
+<dlid prefix="dlid=" suffix="&amp;dummy=my.zip"/>
+```
 
 De prefix zal voor de download sleutel toegevoegd worden en de suffix na
 de download sleutel. Met het voorbeeld hierboven zal de volledige query

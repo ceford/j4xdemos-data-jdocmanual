@@ -10,10 +10,13 @@ Inhalten aus einer benutzerdefinierten Erweiterung arbeiten. Für den
 Trigger *content prepare* kann beispielsweise folgender Code verwendet
 werden:
 
+```php
     $text = \Joomla\CMS\HTML\HTMLHelper::_('content.prepare', $text);
+```
 
 Für alle anderen Content-Trigger kann folgendes verwendet werden:
 
+```php
     // Diese 3 Zeilen stehen am Anfang der Datei direkt unter der JEXEC-Anweisung
     use Joomla\CMS\CMSObject;
     use Joomla\CMS\Factory;
@@ -29,6 +32,7 @@ Für alle anderen Content-Trigger kann folgendes verwendet werden:
     PluginHelper::importPlugin('content');
     $app = Factory::getApplication();
     $app->triggerEvent('onContentPrepare', array('some.context', &$article, &$params, 0));
+```
 
 Beispiele können in Kernkomponenten (z. B. com_content) gefunden werden.
 Siehe die Seite

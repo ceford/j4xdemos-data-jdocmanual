@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Creating_a_Plugin_for_Joomla / Display title: Создание Плагина для Joomla -->
 
-Руководство  
+Руководство
 Как создать Плагин для Joomla 4 Joomla!  4.x series
 
 Структура плагина в Joomla! 1.5, 2.5 и 3.x была очень гибкой и мощной.
@@ -20,46 +20,67 @@
 
 Так же как и все расширения Joomla, плагины могут быть легко установлены
 как .zip (поддерживается и .tar.gz), но при этом в архив должен быть
-включён корректно отформатированный XML файл.  
+включён корректно отформатированный XML файл.
 В качестве примера приведём установочный XML файл для поискового плагина
 категорий:
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="search" method="upgrade">
+	<name>plg_search_categories</name>
+	<author>Joomla! Project</author>
+	<creationDate>November 2005</creationDate>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_SEARCH_CATEGORIES_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="categories">categories.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_search_categories.ini</language>
+		<language tag="en-GB">en-GB.plg_search_categories.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
 
-        plg_search_categories
-        Joomla! Project
-        November 2005
-        Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.
-        GNU General Public License version 2 or later; see LICENSE.txt
-        admin@joomla.org
-        www.joomla.org
-        3.0.0
-        PLG_SEARCH_CATEGORIES_XML_DESCRIPTION
-        
-            categories.php
-        
-        
-            en-GB.plg_search_categories.ini
-            en-GB.plg_search_categories.sys.ini
-        
-        
-            
+			<fieldset name="basic">
+				<field
+					name="search_limit"
+					type="number"
+					label="JFIELD_PLG_SEARCH_SEARCHLIMIT_LABEL"
+					default="50"
+				/>
 
-                
-                    
+				<field
+					name="search_content"
+					type="radio"
+					label="JFIELD_PLG_SEARCH_ALL_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
 
-                    
-                        JYES
-                        JNO
-                    
+				<field
+					name="search_archived"
+					type="radio"
+					label="JFIELD_PLG_SEARCH_ARCHIVED_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
 
-                    
-                        JYES
-                        JNO
-                    
-                
-
-            
-        
+		</fields>
+	</config>
+</extension>
+```
 
 Как вы можете видеть, система схожа с другими установочными XML файлами
 Joomla. Вы только должны обратить внимание на запись `group="xxx"`, тег
@@ -134,42 +155,52 @@ rel="noreferrer noopener">SubscriberInterface</a>, что является са�
 совместимости, позволяющий работать плагинам, которые используют старую
 стратегию именования и не реализуют SubscriberInterface.
 
-     extends CMSPlugin implements SubscriberInterface
-    {
-        /**
-         * Load the language file on instantiation
-         *
-         * @var    boolean
-         * @since  3.1
-         */
-        protected $autoloadLanguage = true;
+```php
+<?php
+// no direct access
+defined( '_JEXEC' ) or die;
 
-        /**
-         * Returns an array of events this subscriber will listen to.
-         *
-         * @return  array
-         */
-        public static function getSubscribedEvents(): array
-        {
-            return [
-                '' => 'myFunctionName',
-            ];
-        }
+use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\Event\Event;
+use Joomla\Event\SubscriberInterface;
 
-        /**
-         * Plugin method is the array value in the getSubscribedEvents method
-         * The plugin then modifies the Event object (if it's not immutable)
-         */
-         public function myFunctionName(Event $event)
-         {
-            /*
-             * Plugin code goes here.
-             * You can access parameters via $this->params
-             */
-            return true;
-        }
-    }
-    ?>
+class Plg<PluginGroup><PluginName> extends CMSPlugin implements SubscriberInterface
+{
+	/**
+	 * Load the language file on instantiation
+	 *
+	 * @var    boolean
+	 * @since  3.1
+	 */
+	protected $autoloadLanguage = true;
+
+	/**
+	 * Returns an array of events this subscriber will listen to.
+	 *
+	 * @return  array
+	 */
+	public static function getSubscribedEvents(): array
+	{
+		return [
+			'<EventName>' => 'myFunctionName',
+		];
+	}
+
+	/**
+	 * Plugin method is the array value in the getSubscribedEvents method
+	 * The plugin then modifies the Event object (if it's not immutable)
+	 */
+	 public function myFunctionName(Event $event)
+	 {
+		/*
+		 * Plugin code goes here.
+		 * You can access parameters via $this->params
+		 */
+		return true;
+	}
+}
+?>
+```
 
 ### Использование плагинов в вашем коде
 
@@ -188,12 +219,13 @@ rel="noreferrer noopener">SubscriberInterface</a>, что является са�
 Новый подход в Joomla 4 - получить диспетчер и отправить именованное
 событие.
 
+```php
     use Joomla\CMS\Event\AbstractEvent;
     use Joomla\CMS\Factory;
 
     $dispatcher = Factory::getApplication()->getDispatcher();
 
-    // Here we create an event however as long as you implement EventInterface you can create your own 
+    // Here we create an event however as long as you implement EventInterface you can create your own
     // custom classes
     $event = AbstractEvent::create(
         '',
@@ -203,11 +235,13 @@ rel="noreferrer noopener">SubscriberInterface</a>, что является са�
     );
 
     $eventResult = $dispatcher->dispatch('', $event);
+```
 
 Если вы хотите позволить пользователю изменять значения, вы можете
 использовать результат события и getResults для его получения. Взгляните
 на
 
+```php
     defined('_JEXEC') or die;
 
     use BadMethodCallException;
@@ -256,6 +290,7 @@ rel="noreferrer noopener">SubscriberInterface</a>, что является са�
             return $value;
         }
     }
+```
 
 Почему мы ввели класс вместо параметров? Это даёт возможность вводить
 собственные сеттеры и геттеры для свойств - на данный момент плагин
@@ -270,7 +305,9 @@ rel="noreferrer noopener">SubscriberInterface</a>, что является са�
 Если вы хотите вызвать событие по аналогии с удалённым J3.x
 JEventDispatcher, то ваш код должен выглядеть вот так:
 
+```php
     $results = \Joomla\CMS\Factory::getApplication()->triggerEvent( '',  );
+```
 
 Важно отметить, что параметры должны быть массивом. Функция плагина сама
 по себе получает параметры как объект Event, если он реализует

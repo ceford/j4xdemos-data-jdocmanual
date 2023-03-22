@@ -1,7 +1,7 @@
 <!-- Filename: J4.x:Joomla_Entities / Display title: Joomla Entities -->
 
-<span id="main-portal-heading">GSoC 2018  
-Joomla Entities  
+<span id="main-portal-heading">GSoC 2018
+Joomla Entities
 Documentation</span> [<img
 src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
 decoding="async"
@@ -59,6 +59,7 @@ features that will be needed in the future.
 The entities project can be easily integrated into any php project by
 adding the following dependency to your composer file:
 
+```json
     "config": {
         "preferred-install": {
             "joomla/event": "dist"
@@ -67,6 +68,7 @@ adding the following dependency to your composer file:
             "joomla/entities": "dev-master"
         }
     }
+```
 
 ## Usage
 
@@ -76,28 +78,36 @@ adding the following dependency to your composer file:
   also sets a default table name in case none is specified by the
   developer. The default value is the pluralised and underscore
   separated Class name.
+
+```php
        /**
-         * Die mit dem Model verbundene Tabelle.
+         * The table associated with the model.
          *
          * @var string
          */
         protected $table = '#__content';
+```
 
 - Timestamps - specify is the current entity uses timestamps or not. If
   it does, special column aliases need to be specified for the
   'createdAt' and 'updatedAt' columns. These two columns are handled
   automatically by the project when creating or updating the entity.
+
+```php
        /**
          * Indicates if the model should be timestamped.
          *
          * @var boolean
          */
         public $timestamps = false;
+```
 
 - Column Aliases - having the same functionality as in the current
   Joomla implementation, they provide a way to be able to refer at
   different column names across different components with one name in
   case they fulfil the same functionality.
+
+```php
        /**
          * Array with alias for "special" columns such as ordering, hits etc etc
          *
@@ -108,11 +118,14 @@ adding the following dependency to your composer file:
             'updatedAt' => 'modified',
             'published' => 'state'
         ];
+```
 
 - Casts - Used to cast database raw strings into usable types in PHP.
   Two most common use cases are 'int' and 'array'. The latter is
   specifically useful as it transforms json columns into key indexed
   arrays.
+
+```php
        /**
          * The attributes that should be cast to native types.
          *
@@ -121,8 +134,11 @@ adding the following dependency to your composer file:
         protected $casts = [
             'params' => 'array'
         ];
+```
 
 - Dates - used to cast dates to Carbon instances
+
+```php
        /**
          * The attributes that should be mutated to dates. Already aliased!
          *
@@ -133,9 +149,12 @@ adding the following dependency to your composer file:
             'lastvisitDate',
             'lastResetTime'
         ];
+```
 
 - Hidden - used to hide certain columns from serialisation. E.g.
   passwords.
+
+```php
        /**
          * The attributes that should be hidden for serialization.
          *
@@ -144,20 +163,24 @@ adding the following dependency to your composer file:
         protected $hidden = [
             'password'
         ];
+```
 
 - With - eager load relations into the entity. If not specified, the
   relations are lazy loaded. The primary key and foreign key are
   mandatory if the relation is loaded with constraints(selecting only
   some of the columns for efficiency purposes)
+
+```php
        /**
          * The relations to eager load on every query.
          *
          * @var array
-         * @todo add to docs: 
+         * @todo add to docs:
          */
         protected $with = array(
             'sentMessages:message_id,subject,user_id_from'
         );
+```
 
 ### Defining Entities Relations
 
@@ -165,6 +188,7 @@ adding the following dependency to your composer file:
 
 Signature:
 
+```php
        /**
          * Define a one-to-one relation.
          *
@@ -174,9 +198,11 @@ Signature:
          * @return \Joomla\Entity\Relations\HasOne
          */
         public function hasOne($related, $foreignKey = null, $localKey = null)
+```
 
 Example:
 
+```php
        /**
          * Get the profile for the current user.
          * @return Relation
@@ -185,11 +211,13 @@ Example:
         {
             return $this->hasOne('Joomla\Entity\Tests\Models\UserProfile');
         }
+```
 
 - HasMany - One to Many relation.
 
 Signature:
 
+```php
        /**
          * Define a one-to-many relation.
          *
@@ -199,9 +227,11 @@ Signature:
          * @return \Joomla\Entity\Relations\HasMany
          */
         public function hasMany($related, $foreignKey = null, $localKey = null)
+```
 
 Example:
 
+```php
        /**
          * Get the sent messages for the current user.
          * @return Relation
@@ -210,11 +240,13 @@ Example:
         {
             return $this->hasMany('Joomla\Entity\Tests\Models\Message', 'user_id_from');
         }
+```
 
 - BelongsTo - Reverse relation for One to One or One to Many.
 
 Signature:
 
+```php
        /**
          * Define an inverse one-to-one or many relation.
          *
@@ -225,9 +257,11 @@ Signature:
          * @return \Joomla\Entity\Relations\BelongsTo
          */
         public function belongsTo($related, $relation, $foreignKey = null, $ownerKey = null)
+```
 
 Example:
 
+```php
        /**
          * Get the author for the current article.
          *
@@ -237,6 +271,7 @@ Example:
         {
             return $this->belongsTo('Joomla\CMS\Entity\User', 'author', 'created_by');
         }
+```
 
 ### Queries Using The Entity
 
@@ -248,6 +283,7 @@ The following default functionalities are available for the entities:
 
 Signature:
 
+```php
        /**
          * Find a model by its primary key.
          *
@@ -257,6 +293,7 @@ Signature:
          * @return Model|boolean
          */
         public function find($id, $columns = ['*'])
+```
 
 - Insert - This is the way to insert a new row in a table. First we
   create a new entity using the desired attribute, next we persist it to
@@ -264,6 +301,7 @@ Signature:
 
 Example:
 
+```php
            $attributes = [
                 'email' => "test@test.com",
                 'params' => ['test' => 'val']
@@ -272,6 +310,7 @@ Example:
             $user = new User(self::$driver, $attributes);
 
             $user->persist();
+```
 
 - Update - This is the way to update an existing entity. Entities
   attributes can be accessed as normal class properties using magic
@@ -279,24 +318,28 @@ Example:
 
 Example:
 
+```php
            $model = new User(self::$driver);
 
             $user = $model->find(100);
             $user->resetCount = 10;
 
             $user->update();
+```
 
 - Delete - This is a way to delete a row from the table using it's
   primary key.
 
 Example:
 
+```php
            $model = new User(self::$driver);
 
             $user = $model->find(100);
             $user->resetCount = 10;
 
             $user->update();
+```
 
 - Get - The get method returns all the models that are in the table,
   respectively, all the filters that have been applied to the entity so
@@ -305,6 +348,7 @@ Example:
 
 Signature:
 
+```php
        /**
          * Finds all the Models with eager relations loaded
          *
@@ -312,6 +356,7 @@ Signature:
          * @return Collection
          */
         public function get($columns = ['*'])
+```
 
 - Count - The count method counts the all the rows from the table,
   respectively all the rows that satisfy filters that have been applied
@@ -319,8 +364,10 @@ Signature:
 
 Example:
 
+```php
            $model = new User(self::$driver);
             $count = $model->count();
+```
 
 #### Filtering
 
@@ -335,6 +382,7 @@ Example:
 
 - filter - applies a custom filter on a relation. This is the Entities
   way of making joins.
+```php
      /* @method filter()     filter(string $relation, Closure $callback) */
 
         // The following query only counts users which sent a message with subject "sentMessages".
@@ -346,3 +394,4 @@ Example:
         }
         );
         $count = $model->count();
+```

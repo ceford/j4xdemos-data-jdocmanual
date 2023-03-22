@@ -9,12 +9,12 @@ Joomla versie 4.x
 
 Joomla! 4 biedt vijf type extensies:
 
-- **[Componenten](https://docs.joomla.org/Component "Special:MyLanguage/Component")**  
+- **[Componenten](https://docs.joomla.org/Component "Special:MyLanguage/Component")**
   Een component is een van de hoofdgedeeltes van de site. Een component
   verwerkt zowel gegevensmanipulatie als invoer en opslag in de
   database. Op de meeste sites is een component het belangrijkste
   onderdeel van een pagina. Daar ligt de focus op.
-- **[Modules](https://docs.joomla.org/Module "Special:MyLanguage/Module")**  
+- **[Modules](https://docs.joomla.org/Module "Special:MyLanguage/Module")**
   Modules zijn lichtgewicht en flexibele extensies. Ze worden gebruikt
   voor kleine stukjes van de pagina en zijn over het algemeen niet heel
   complex en zichtbaar voor verschillende componenten. Een module is een
@@ -23,18 +23,18 @@ Joomla! 4 biedt vijf type extensies:
   niet gezien als de primaire focus op die pagina. Het kan op
   verschillende posities getoond worden en u kunt zelf kiezen op welk
   actieve menu-items de module wordt weergegeven.
-- **[Plug-ins](https://docs.joomla.org/Plugin "Special:MyLanguage/Plugin")**  
+- **[Plug-ins](https://docs.joomla.org/Plugin "Special:MyLanguage/Plugin")**
   Een plug-in manipuleert output die al gegenereerd is door het systeem.
   Over het algemeen werkt het niet als apart onderdeel van de website.
   Het gebruikt data vanuit een andere bron (bijvoorbeeld de content) en
   manipuleert deze data voordat het wordt getoond. Een plug-in werkt
   normaal gesproken achter de schermen.
-- **[Talen](https://docs.joomla.org/Languages "Special:MyLanguage/Languages")**  
+- **[Talen](https://docs.joomla.org/Languages "Special:MyLanguage/Languages")**
   Waarschijnlijk zijn talen de meest standaard uitbreidingen. In wezen
   bestaan de taalpakket bestanden uit sleutel/waarde paren, die de
   vertaling van statische teststrings verzorgen, toegewezen binnen de
   Joomla! broncode.
-- **[Templates](https://docs.joomla.org/Templates "Special:MyLanguage/Templates")**  
+- **[Templates](https://docs.joomla.org/Templates "Special:MyLanguage/Templates")**
   Een template is het ontwerp van de Joomla! website.
 
 Joomla! 4 is opgebouwd uit vijf verschillende toepassingen:
@@ -119,27 +119,38 @@ Het `mod_foo.php` bestand zal de volgende taken uitvoeren:
 De helper class is geïmporteerd in het huidige bereik aan het begin van
 het bestand.
 
+```php
     use Joomla\CMS\Helper\ModuleHelper;
+```
 
 Tot slot nemen we de template op om de output weer te geven via
 
+```php
     require ModuleHelper::getLayoutPath('mod_foo', $params->get('layout', 'default'));
+```
 
 #### Het volledige mod_foo.php file
 
 Het volledige `mod_foo.php` bestand ziet er als volgt uit:
 
-     * @copyright  [COPYRIGHT]
-     * @license    GNU General Public License version 2 or later; see LICENSE.txt
-     * @link       [AUTHOR_URL]
-     */
+```php
+<?php
+/**
+ * @package    [PACKAGE_NAME]
+ *
+ * @author     [AUTHOR] <[AUTHOR_EMAIL]>
+ * @copyright  [COPYRIGHT]
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       [AUTHOR_URL]
+ */
 
-    // No direct access to this file
-    defined('_JEXEC') or die;
+// No direct access to this file
+defined('_JEXEC') or die;
 
-    use Joomla\CMS\Helper\ModuleHelper;
+use Joomla\CMS\Helper\ModuleHelper;
 
-    require ModuleHelper::getLayoutPath('mod_foo', $params->get('layout', 'default'));
+require ModuleHelper::getLayoutPath('mod_foo', $params->get('layout', 'default'));
+```
 
 *Kanttekening*: In Joomla 3.x gebruikte u vaak een regel als
 `$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));`.
@@ -162,15 +173,22 @@ weergeeft.
 
 De code voor het tmpl/default.php bestand is als volgt:
 
-     * @copyright  [COPYRIGHT]
-     * @license    GNU General Public License version 2 or later; see LICENSE.txt
-     * @link       [AUTHOR_URL]
-     */
+```php
+<?php
+/**
+ * @package    [PACKAGE_NAME]
+ *
+ * @author     [AUTHOR] <[AUTHOR_EMAIL]>
+ * @copyright  [COPYRIGHT]
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       [AUTHOR_URL]
+ */
 
-    // No direct access to this file
-    defined('_JEXEC') or die;
+// No direct access to this file
+defined('_JEXEC') or die;
 
-    echo '[PROJECT_NAME]';
+echo '[PROJECT_NAME]';
+```
 
 Een belangrijk punt om op te letten is dat het template bestand dezelfde
 scope (reikwijdte) heeft als het `mod_foo.php bestand`. Dat betekend dat
@@ -187,22 +205,26 @@ spreken voor zichzelf.
 
 De code voor het `mod_foo.xml` bestand ziet er als volgt uit:
 
-
-        MOD_FOO
-        [DATE]
-        [AUTHOR]
-        [AUTHOR_EMAIL]
-        [AUTHOR_URL]
-        [COPYRIGHT]
-        GNU General Public License version 2 or later; see LICENSE.txt
-        1.0
-        MOD_FOO_XML_DESCRIPTION
-        
-            mod_foo.php
-            tmpl
-            language
-            mod_foo.xml
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>MOD_FOO</name>
+    <creationDate>[DATE]</creationDate>
+    <author>[AUTHOR]</author>
+    <authorEmail>[AUTHOR_EMAIL]</authorEmail>
+    <authorUrl>[AUTHOR_URL]</authorUrl>
+    <copyright>[COPYRIGHT]</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>MOD_FOO_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_foo">mod_foo.php</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+        <filename>mod_foo.xml</filename>
+    </files>
+</extension>
+```
 
 ### De taalbestanden maken
 
@@ -213,13 +235,17 @@ vertalen op de voorkant van de site en in het beheergedeelte.
 De code voor `language/en-GB/en-GB.mod_foo.sys.ini` ziet er als volgt
 uit:
 
+```ini
     MOD_FOO="[PROJECT_NAME]"
     MOD_FOO_XML_DESCRIPTION="Foo Module"
+```
 
 De code voor `language/en-GB/en-GB.mod_foo.ini` ziet er als volgt uit:
 
+```ini
     MOD_FOO="[PROJECT_NAME]"
     MOD_FOO_XML_DESCRIPTION="Foo Module"
+```
 
 Het `.sys.ini` bestand wordt gebruikt om de omschrijving van de extensie
 bij installatie te vertalen. Het `.ini` bestand wordt gebruikt om de
@@ -235,7 +261,7 @@ vinden.
 ## Test uw module
 
 Nu kunt u alle bestanden archiveren in een zip bestand en deze
-installeren via de Joomla Extensie manager  
+installeren via de Joomla Extensie manager
 Vervolgens kunt u uw module kiezen in de Module manager wanneer u een
 nieuwe site module maakt.
 
@@ -321,7 +347,9 @@ Onze nieuwe helper class moet bij een namespace horen. We bereiken dit
 met de volgende code. Het is belangrijk dat deze regel aan het begin van
 het bestand staat.
 
+```php
     namespace Joomla\Module\Foo\Site\Helper;
+```
 
 Vervolgens maken we een eenvoudige class met een eenvoudige methode.
 Natuurlijk kunt u hier veel meer doen. Bekijk de core methode van
@@ -332,35 +360,83 @@ welke opties u heeft.
 
 Het complete `FooHelper.php` bestand ziet er als volgt uit:
 
+```php
+<?php
+/**
+ * @package     Joomla.Site
+ * @subpackage  mod_foo
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-    Aanpassen mod_foo.php
-    Onze nieuwe helper class is geïmporteerd in onze huidige scope aan het begin van het bestand.
+namespace Joomla\Module\Foo\Site\Helper;
 
+// No direct access to this file
+defined('_JEXEC') or die;
+
+/**
+ * Helper for mod_foo
+ *
+ * @since  4.0
+ */
+class FooHelper
+{
+	/**
+	 * Retrieve foo test
+	 *
+	 * @param   Registry        $params  The module parameters
+	 * @param   CMSApplication  $app     The application
+	 *
+	 * @return  array
+	 */
+	public static function getText()
+	{
+		return 'FooHelpertest';
+	}
+}
+```
+
+### Editing mod_foo.php
+
+Our new helper class is imported to our current scope at the beginning of the file.
+
+```php
     use Joomla\Module\Foo\Site\Helper\FooHelper;
+```
 
 Gebruik als laatste het helper bestand om te testen of het correct is
 geladenː
 
+```php
     $test  = FooHelper::getText($params, $app);
+```
 
 #### Het volledige mod_foo.php bestand
 
 Het volledige `mod_foo.php` bestand ziet er als volgt uit:
 
-     * @copyright  [COPYRIGHT]
-     * @license    GNU General Public License version 2 or later; see LICENSE.txt
-     * @link       [AUTHOR_URL]
-     */
+```php
+<?php
+/**
+ * @package    [PACKAGE_NAME]
+ *
+ * @author     [AUTHOR] <[AUTHOR_EMAIL]>
+ * @copyright  [COPYRIGHT]
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       [AUTHOR_URL]
+ */
 
-    // No direct access to this file
-    defined('_JEXEC') or die;
+// No direct access to this file
+defined('_JEXEC') or die;
 
-    use Joomla\CMS\Helper\ModuleHelper;
-    use Joomla\Module\Foo\Site\Helper\FooHelper;
+use Joomla\CMS\Helper\ModuleHelper;
+use Joomla\Module\Foo\Site\Helper\FooHelper;
 
-    $test  = FooHelper::getText();
+$test  = FooHelper::getText();
 
-    require ModuleHelper::getLayoutPath('mod_foo', $params->get('layout', 'default'));
+require ModuleHelper::getLayoutPath('mod_foo', $params->get('layout', 'default'));
+```
 
 ### Aanpassen van tmpl/default.php
 
@@ -368,21 +444,30 @@ In dit bestand maken we een kleine aanpassing om aan te tonen dat het
 helper bestand correct werkt. U hoeft alleen de waarde van de variabele
 aan het eind van de huidige output toe te voegen
 
+```php
     echo '[PROJECT_NAME]' . $test;
+```
 
 #### Het volledige tmpl/default.php bestand
 
 Het volledige `tmpl/default.php` bestand ziet er als volgt uit:
 
-     * @copyright  [COPYRIGHT]
-     * @license    GNU General Public License version 2 or later; see LICENSE.txt
-     * @link       [AUTHOR_URL]
-     */
+```php
+<?php
+/**
+ * @package    [PACKAGE_NAME]
+ *
+ * @author     [AUTHOR] <[AUTHOR_EMAIL]>
+ * @copyright  [COPYRIGHT]
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       [AUTHOR_URL]
+ */
 
-    // No direct access to this file
-    defined('_JEXEC') or die;
+// No direct access to this file
+defined('_JEXEC') or die;
 
-    echo '[PROJECT_NAME]' . $test;
+echo '[PROJECT_NAME]' . $test;
+```
 
 ### Aanpassen mod_foo.xml
 
@@ -395,41 +480,49 @@ verwijderen. Dan zal het automatisch gerecreëerd worden. Na het invoegen
 en installeren is de namespace bekend bij de loader
 `JPATH_LIBRARIES . '/autoload_psr4.php'`.
 
-    Joomla\Module\Foo
+```xml
+<namespace>Joomla\Module\Foo</namespace>
+```
 
 Joomla! moet uw helper bestand kopiëren bij het installeren van de
 module. Dus Joomla! moet uw helper bestand kennen. Hiervoor moet u de
 volgende regel toevoegen aan uw XML-bestand.
 
-    Helper
+```xml
+<folder>Helper</folder>
+```
 
 #### Het volledige mod_foo.xml bestand
 
 Het volledige `mod_foo.xml` bestand ziet er als volgt uit:
 
-
-        MOD_FOO
-        [DATE]
-        [AUTHOR]
-        [AUTHOR_EMAIL]
-        [AUTHOR_URL]
-        [COPYRIGHT]
-        GNU General Public License version 2 or later; see LICENSE.txt
-        1.0
-        MOD_FOO_XML_DESCRIPTION
-        Joomla\Module\Foo
-        
-            mod_foo.php
-            tmpl
-            Helper
-            language
-            mod_foo.xml
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>MOD_FOO</name>
+    <creationDate>[DATE]</creationDate>
+    <author>[AUTHOR]</author>
+    <authorEmail>[AUTHOR_EMAIL]</authorEmail>
+    <authorUrl>[AUTHOR_URL]</authorUrl>
+    <copyright>[COPYRIGHT]</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>MOD_FOO_XML_DESCRIPTION</description>
+    <namespace>Joomla\Module\Foo</namespace>
+    <files>
+        <filename module="mod_foo">mod_foo.php</filename>
+        <folder>tmpl</folder>
+        <folder>Helper</folder>
+        <folder>language</folder>
+        <filename>mod_foo.xml</filename>
+    </files>
+</extension>
+```
 
 ## Test uw module
 
 Nu kunt u alle bestanden archiveren in een zip bestand en deze
-installeren via de Joomla Extensie manager  
+installeren via de Joomla Extensie manager
 Vervolgens kunt u uw module kiezen in de Module manager wanneer u een
 nieuwe site module maakt.
 
@@ -504,63 +597,133 @@ We zullen de volgende bestanden aanpassen:
 
 Eerst stellen we een custom parameter in.
 
+```xml
+<field
+    name="domain"
+    type="url"
+    label="MOD_FOO_FIELD_URL_LABEL"
+    filter="url"
+/>
+```
+
 Vervolgens voegen we Joomla default velden in, zodat we cache,
 moduleclass-achtervoegsel en layouts kunnen gebruiken
 
+```xml
+<field
+    name="layout"
+    type="modulelayout"
+    label="JFIELD_ALT_LAYOUT_LABEL"
+    class="custom-select"
+/>
 
+<field
+    name="moduleclass_sfx"
+    type="textarea"
+    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+    rows="3"
+/>
 
+<field
+    name="cache"
+    type="list"
+    label="COM_MODULES_FIELD_CACHING_LABEL"
+    default="0"
+>
+    <option value="1">JGLOBAL_USE_GLOBAL</option>
+    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+</field>
 
+<field
+    name="cache_time"
+    type="number"
+    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+    default="0"
+/>
 
-        JGLOBAL_USE_GLOBAL
-        COM_MODULES_FIELD_VALUE_NOCACHING
-
-
-
-
-
-        
+<field
+    name="cachemode"
+    type="hidden"
+    default="itemid"
+>
+    <option value="itemid"></option>
+</field>
+```
 
 #### Het volledige mod_foo.xml bestand
 
 Het volledige `mod_foo.xml` bestand ziet er als volgt uit:
 
-
-        MOD_FOO
-        [DATE]
-        [AUTHOR]
-        [AUTHOR_EMAIL]
-        [AUTHOR_URL]
-        [COPYRIGHT]
-        GNU General Public License version 2 or later; see LICENSE.txt
-        1.0
-        MOD_FOO_XML_DESCRIPTION
-        Joomla\Module\Foo
-        
-            mod_foo.php
-            tmpl
-            Helper
-            language
-            mod_foo.xml
-        
-        
-            
-                
-                    
-                
-                
-                    
-                    
-                    
-                        JGLOBAL_USE_GLOBAL
-                        COM_MODULES_FIELD_VALUE_NOCACHING
-                    
-                    
-                    
-                        
-                    
-                
-            
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>MOD_FOO</name>
+    <creationDate>[DATE]</creationDate>
+    <author>[AUTHOR]</author>
+    <authorEmail>[AUTHOR_EMAIL]</authorEmail>
+    <authorUrl>[AUTHOR_URL]</authorUrl>
+    <copyright>[COPYRIGHT]</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>MOD_FOO_XML_DESCRIPTION</description>
+    <namespace>Joomla\Module\Foo</namespace>
+    <files>
+        <filename module="mod_foo">mod_foo.php</filename>
+        <folder>tmpl</folder>
+        <folder>Helper</folder>
+        <folder>language</folder>
+        <filename>mod_foo.xml</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="domain"
+                    type="url"
+                    label="MOD_FOO_FIELD_URL_LABEL"
+                    filter="url"
+                />
+            </fieldset>
+            <fieldset name="advanced">
+                <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    class="custom-select"
+                />
+                <field
+                    name="moduleclass_sfx"
+                    type="textarea"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    rows="3"
+                />
+                <field
+                    name="cache"
+                    type="list"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    default="0"
+                >
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="number"
+                    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                    default="0"
+                />
+                <field
+                    name="cachemode"
+                    type="hidden"
+                    default="itemid"
+                >
+                    <option value="itemid"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
+```
 
 ### Aanpassen van tmpl/default.php
 
@@ -568,50 +731,68 @@ We kunnen de waarden van de parameter voor het maken van een link op de
 website gebruiken. We krijgen toegang tot de waarde via de variabele
 \$params.
 
+```php
     $domain = $params->get('domain', 'https://www.joomla.org');
+```
 
 Later stellen we deze waarde in voor het maken van de hyperlink.
 
-        
+```php
+<a href="<?php echo $domain; ?>">
+	<?php echo '[PROJECT_NAME]' . $test; ?>
+</a>
+```
 
 #### Het volledige tmpl/default.php bestand
 
 Het volledige `tmpl/default.php` bestand ziet er als volgt uit:
 
-     * @copyright  [COPYRIGHT]
-     * @license    GNU General Public License version 2 or later; see LICENSE.txt
-     * @link       [AUTHOR_URL]
-     */
+```php
+<?php
+/**
+ * @package    [PACKAGE_NAME]
+ *
+ * @author     [AUTHOR] <[AUTHOR_EMAIL]>
+ * @copyright  [COPYRIGHT]
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       [AUTHOR_URL]
+ */
 
-    // No direct access to this file
-    defined('_JEXEC') or die;
+// No direct access to this file
+defined('_JEXEC') or die;
 
-    $domain = $params->get('domain', 'https://www.joomla.org');
-    ?>
+$domain = $params->get('domain', 'https://www.joomla.org');
+?>
 
-
-        
+<a href="<?php echo $domain; ?>">
+	<?php echo '[PROJECT_NAME]' . $test; ?>
+</a>
+```
 
 ### Aanpassen language/en-GB/en-GB.mod_foo.ini
 
 Hier kunnen we de tekst voor de Engelse versie van het label van het
 veld specificeren.
 
+```ini
     MOD_FOO_FIELD_URL_LABEL="Url"
+```
 
 #### Het volledige language/en-GB/en-GB.mod_foo.ini bestand
 
 Het volledige `language/en-GB/en-GB.mod_foo.ini` bestand ziet er als
 volgt uit:
 
+```ini
     MOD_FOO="[PROJECT_NAME]"
     MOD_FOO_XML_DESCRIPTION="Foo Module"
     MOD_FOO_FIELD_URL_LABEL="Url"
+```
 
 ## Test uw module
 
 Nu kunt u alle bestanden archiveren in een zip bestand en deze
-installeren via de Joomla Extensie manager  
+installeren via de Joomla Extensie manager
 Vervolgens kunt u uw module kiezen in de Module manager wanneer u een
 nieuwe site module maakt.
 
@@ -734,114 +915,121 @@ module instellingen na een succesvolle installatie.
 
 Het volledige `script.php` bestand ziet er als volgt uit:
 
-     * @copyright  [COPYRIGHT]
-     * @license    GNU General Public License version 2 or later; see LICENSE.txt
-     * @link       [AUTHOR_URL]
-     */
+```php
+<?php
+/**
+ * @package    [PACKAGE_NAME]
+ *
+ * @author     [AUTHOR] <[AUTHOR_EMAIL]>
+ * @copyright  [COPYRIGHT]
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       [AUTHOR_URL]
+ */
 
-    // No direct access to this file
-    defined('_JEXEC') or die;
+// No direct access to this file
+defined('_JEXEC') or die;
 
-    use Joomla\CMS\Language\Text;
-    use Joomla\CMS\Log\Log;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Log\Log;
+
+/**
+ * Script file of Foo module
+ */
+class mod_fooInstallerScript {
 
     /**
-     * Script file of Foo module
+     * Extension script constructor.
+     *
+     * @return  void
      */
-    class mod_fooInstallerScript {
-
-        /**
-         * Extension script constructor.
-         *
-         * @return  void
-         */
-        public function __construct() {
-            $this->minimumJoomla = '4.0';
-            $this->minimumPhp = JOOMLA_MINIMUM_PHP;
-        }
-
-        /**
-         * Method to install the extension
-         *
-         * @param   InstallerAdapter  $parent  The class calling this method
-         *
-         * @return  boolean  True on success
-         */
-        function install($parent) {
-            echo Text::_('MOD_FOO_INSTALLERSCRIPT_INSTALL');
-
-            return true;
-        }
-
-        /**
-         * Method to uninstall the extension
-         *
-         * @param   InstallerAdapter  $parent  The class calling this method
-         *
-         * @return  boolean  True on success
-         */
-        function uninstall($parent) {
-            echo Text::_('MOD_FOO_INSTALLERSCRIPT_UNINSTALL');
-
-            return true;
-        }
-
-        /**
-         * Method to update the extension
-         *
-         * @param   InstallerAdapter  $parent  The class calling this method
-         *
-         * @return  boolean  True on success
-         */
-        function update($parent) {
-            echo Text::_('MOD_FOO_INSTALLERSCRIPT_UPDATE');
-
-            return true;
-        }
-
-        /**
-         * Function called before extension installation/update/removal procedure commences
-         *
-         * @param   string            $type    The type of change (install, update or discover_install, not uninstall)
-         * @param   InstallerAdapter  $parent  The class calling this method
-         *
-         * @return  boolean  True on success
-         */
-        function preflight($type, $parent) {
-            // Check for the minimum PHP version before continuing
-            if (!empty($this->minimumPhp) && version_compare(PHP_VERSION, $this->minimumPhp, '<')) {
-                Log::add(Text::sprintf('JLIB_INSTALLER_MINIMUM_PHP', $this->minimumPhp), Log::WARNING, 'jerror');
-
-                return false;
-            }
-
-            // Check for the minimum Joomla version before continuing
-            if (!empty($this->minimumJoomla) && version_compare(JVERSION, $this->minimumJoomla, '<')) {
-                Log::add(Text::sprintf('JLIB_INSTALLER_MINIMUM_JOOMLA', $this->minimumJoomla), Log::WARNING, 'jerror');
-
-                return false;
-            }
-            
-            echo Text::_('MOD_FOO_INSTALLERSCRIPT_PREFLIGHT');
-            echo $this->minimumJoomla . ' ' . $this->minimumPhp;
-
-            return true;
-        }
-
-        /**
-         * Function called after extension installation/update/removal procedure commences
-         *
-         * @param   string            $type    The type of change (install, update or discover_install, not uninstall)
-         * @param   InstallerAdapter  $parent  The class calling this method
-         *
-         * @return  boolean  True on success
-         */
-        function postflight($type, $parent) {
-            echo Text::_('MOD_FOO_INSTALLERSCRIPT_POSTFLIGHT');
-
-            return true;
-        }
+    public function __construct() {
+        $this->minimumJoomla = '4.0';
+        $this->minimumPhp = JOOMLA_MINIMUM_PHP;
     }
+
+    /**
+     * Method to install the extension
+     *
+     * @param   InstallerAdapter  $parent  The class calling this method
+     *
+     * @return  boolean  True on success
+     */
+    function install($parent) {
+        echo Text::_('MOD_FOO_INSTALLERSCRIPT_INSTALL');
+
+        return true;
+    }
+
+    /**
+     * Method to uninstall the extension
+     *
+     * @param   InstallerAdapter  $parent  The class calling this method
+     *
+     * @return  boolean  True on success
+     */
+    function uninstall($parent) {
+        echo Text::_('MOD_FOO_INSTALLERSCRIPT_UNINSTALL');
+
+        return true;
+    }
+
+    /**
+     * Method to update the extension
+     *
+     * @param   InstallerAdapter  $parent  The class calling this method
+     *
+     * @return  boolean  True on success
+     */
+    function update($parent) {
+        echo Text::_('MOD_FOO_INSTALLERSCRIPT_UPDATE');
+
+        return true;
+    }
+
+    /**
+     * Function called before extension installation/update/removal procedure commences
+     *
+     * @param   string            $type    The type of change (install, update or discover_install, not uninstall)
+     * @param   InstallerAdapter  $parent  The class calling this method
+     *
+     * @return  boolean  True on success
+     */
+    function preflight($type, $parent) {
+        // Check for the minimum PHP version before continuing
+        if (!empty($this->minimumPhp) && version_compare(PHP_VERSION, $this->minimumPhp, '<')) {
+            Log::add(Text::sprintf('JLIB_INSTALLER_MINIMUM_PHP', $this->minimumPhp), Log::WARNING, 'jerror');
+
+            return false;
+        }
+
+        // Check for the minimum Joomla version before continuing
+        if (!empty($this->minimumJoomla) && version_compare(JVERSION, $this->minimumJoomla, '<')) {
+            Log::add(Text::sprintf('JLIB_INSTALLER_MINIMUM_JOOMLA', $this->minimumJoomla), Log::WARNING, 'jerror');
+
+            return false;
+        }
+
+        echo Text::_('MOD_FOO_INSTALLERSCRIPT_PREFLIGHT');
+        echo $this->minimumJoomla . ' ' . $this->minimumPhp;
+
+        return true;
+    }
+
+    /**
+     * Function called after extension installation/update/removal procedure commences
+     *
+     * @param   string            $type    The type of change (install, update or discover_install, not uninstall)
+     * @param   InstallerAdapter  $parent  The class calling this method
+     *
+     * @return  boolean  True on success
+     */
+    function postflight($type, $parent) {
+        echo Text::_('MOD_FOO_INSTALLERSCRIPT_POSTFLIGHT');
+
+        return true;
+    }
+}
+```
 
 ### Aanpassen language/en-GB/en-GB.mod_foo.ini
 
@@ -853,6 +1041,7 @@ in dit bestand.
 Het volledige `language/en-GB/en-GB.mod_foo.ini` bestand ziet er als
 volgt uit:
 
+```ini
     MOD_FOO="[PROJECT_NAME]"
     MOD_FOO_XML_DESCRIPTION="Foo Module"
     MOD_FOO_INSTALLERSCRIPT_PREFLIGHT="Anything here happens before the installation/update/uninstallation of the module"
@@ -860,56 +1049,92 @@ volgt uit:
     MOD_FOO_INSTALLERSCRIPT_UNINSTALL="The module has been uninstalled"
     MOD_FOO_INSTALLERSCRIPT_INSTALL="The module has been installed"
     MOD_FOO_INSTALLERSCRIPT_POSTFLIGHT="Anything here happens after the installation/update/uninstallation of the module"
+```
 
 ### Aanpassen mod_foo.xml
 
 Er moet een regel worden toegevoegd, zodat het script automatisch wordt
 aangeroepen in Joomla.
 
-    script.php
+```xml
+<scriptfile>script.php</scriptfile>
+```
 
 #### Het volledige mod_foo.xml bestand
 
 Het volledige `mod_foo.xml` bestand ziet er als volgt uit:
 
-
-        MOD_FOO
-        [DATE]
-        [AUTHOR]
-        [AUTHOR_EMAIL]
-        [AUTHOR_URL]
-        [COPYRIGHT]
-        GNU General Public License version 2 or later; see LICENSE.txt
-        1.0
-        MOD_FOO_XML_DESCRIPTION
-        Joomla\Module\Foo
-        script.php
-        
-            mod_foo.php
-            tmpl
-            Helper
-            language
-            mod_foo.xml
-        
-        
-            
-                
-                    
-                
-                
-                    
-                    
-                    
-                        JGLOBAL_USE_GLOBAL
-                        COM_MODULES_FIELD_VALUE_NOCACHING
-                    
-                    
-                    
-                        
-                    
-                
-            
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>MOD_FOO</name>
+    <creationDate>[DATE]</creationDate>
+    <author>[AUTHOR]</author>
+    <authorEmail>[AUTHOR_EMAIL]</authorEmail>
+    <authorUrl>[AUTHOR_URL]</authorUrl>
+    <copyright>[COPYRIGHT]</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>MOD_FOO_XML_DESCRIPTION</description>
+    <namespace>Joomla\Module\Foo</namespace>
+    <scriptfile>script.php</scriptfile>
+    <files>
+        <filename module="mod_foo">mod_foo.php</filename>
+        <folder>tmpl</folder>
+        <folder>Helper</folder>
+        <folder>language</folder>
+        <filename>mod_foo.xml</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="domain"
+                    type="url"
+                    label="MOD_FOO_FIELD_URL_LABEL"
+                    filter="url"
+                />
+            </fieldset>
+            <fieldset name="advanced">
+                <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    class="custom-select"
+                />
+                <field
+                    name="moduleclass_sfx"
+                    type="textarea"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    rows="3"
+                />
+                <field
+                    name="cache"
+                    type="list"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    default="0"
+                >
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="number"
+                    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                    default="0"
+                />
+                <field
+                    name="cachemode"
+                    type="hidden"
+                    default="itemid"
+                >
+                    <option value="itemid"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
+```
 
 ## Test uw module
 
@@ -977,52 +1202,89 @@ We zullen de volgende bestanden maken of aanpassen:
 Om onze update server toe te voegen moeten we de volgende regels in ons
 xml-bestand plaatsen:
 
-        https://www.example.com/mod_foo.xml
+```xml
+<updateservers>
+    <server type="extension" priority="1" name="[PROJECT_NAME]">https://www.example.com/mod_foo.xml</server>
+</updateservers>
+```
 
 #### Het volledige mod_foo.xml bestand
 
 Het volledige `mod_foo.xml` bestand ziet er als volgt uit:
 
-
-        MOD_FOO
-        [DATE]
-        [AUTHOR]
-        [AUTHOR_EMAIL]
-        [AUTHOR_URL]
-        [COPYRIGHT]
-        GNU General Public License version 2 or later; see LICENSE.txt
-        1.0
-        MOD_FOO_XML_DESCRIPTION
-        Joomla\Module\Foo
-        
-            mod_foo.php
-            tmpl
-            Helper
-            language
-            mod_foo.xml
-        
-        
-            https://www.example.com/mod_foo.xml
-        
-        
-            
-                
-                    
-                
-                
-                    
-                    
-                    
-                        JGLOBAL_USE_GLOBAL
-                        COM_MODULES_FIELD_VALUE_NOCACHING
-                    
-                    
-                    
-                        
-                    
-                
-            
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>MOD_FOO</name>
+    <creationDate>[DATE]</creationDate>
+    <author>[AUTHOR]</author>
+    <authorEmail>[AUTHOR_EMAIL]</authorEmail>
+    <authorUrl>[AUTHOR_URL]</authorUrl>
+    <copyright>[COPYRIGHT]</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>MOD_FOO_XML_DESCRIPTION</description>
+    <namespace>Joomla\Module\Foo</namespace>
+    <files>
+        <filename module="mod_foo">mod_foo.php</filename>
+        <folder>tmpl</folder>
+        <folder>Helper</folder>
+        <folder>language</folder>
+        <filename>mod_foo.xml</filename>
+    </files>
+    <updateservers>
+        <server type="extension" priority="1" name="[PROJECT_NAME]">https://www.example.com/mod_foo.xml</server>
+    </updateservers>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="domain"
+                    type="url"
+                    label="MOD_FOO_FIELD_URL_LABEL"
+                    filter="url"
+                />
+            </fieldset>
+            <fieldset name="advanced">
+                <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    class="custom-select"
+                />
+                <field
+                    name="moduleclass_sfx"
+                    type="textarea"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    rows="3"
+                />
+                <field
+                    name="cache"
+                    type="list"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    default="0"
+                >
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="number"
+                    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                    default="0"
+                />
+                <field
+                    name="cachemode"
+                    type="hidden"
+                    default="itemid"
+                >
+                    <option value="itemid"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
+```
 
 Nu Joomla op zoek is naar updates van onze extensie gaan we een update
 creëren om het proces te testen. Eerst moeten we het bestand
@@ -1041,21 +1303,25 @@ een update is.
 
 Het volledige `foo_update.xml` bestand ziet er als volgt uit:
 
-
-        
-            Foo
-            This is mod_foo 1.0.1
-            mod_foo
-            module
-            1.0.1
-            
-                http://www.example.com/mod_foo_101.zip
-            
-            Joomla
-            http://www.example.com
-            
-            site
-        
+```xml
+<?xml version="1.0" ?>
+<updates>
+    <update>
+        <name>Foo</name>
+        <description>This is mod_foo 1.0.1</description>
+        <element>mod_foo</element>
+        <type>module</type>
+        <version>1.0.1</version>
+        <downloads>
+            <downloadurl type="full" format="zip">http://www.example.com/mod_foo_101.zip</downloadurl>
+        </downloads>
+        <maintainer>Joomla</maintainer>
+        <maintainerurl>http://www.example.com</maintainerurl>
+        <targetplatform name="joomla" version="4.0"/>
+        <client>site</client>
+    </update>
+</updates>
+```
 
 Nadat het bestand is geüpload naar `https://www.example.com/mod_foo.xml`
 zal de update weergegeven worden in het beheergedeelte van Joomla.

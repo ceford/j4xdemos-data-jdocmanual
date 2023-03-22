@@ -1,7 +1,7 @@
 <!-- Filename: J4.x:Page_Builder / Display title: Page Builder -->
 
-<span id="main-portal-heading">GSoC 2019  
-Joomla 4 Page Builder  
+<span id="main-portal-heading">GSoC 2019
+Joomla 4 Page Builder
 Documentatie</span> [<img
 src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
 decoding="async"
@@ -28,17 +28,32 @@ Om de Page builder te gebruiken moet in de actieve frontend template het
 pagebuilder veld in de `templateDetails.xml` zijn opgenomen, zoals hier
 in Apodis:
 
-       
+```xml
+<fieldset name="pagebuilder" label="TPL_APODIS_PAGEBUILDER">
+   <field
+		name="grid"
+		type="pagebuilder"
+		hidden="true"
+		label="TPL_APODIS_PAGEBUILDER"
+   />
+</fieldset>
+```
 
 De template zelf moet de RenderHelper laden, die de parameters, gevuld
 door de editor, weergeeft. Dit gebeurt in de `index.php` van de
 template.
 
+```php
     use Joomla\Component\Templates\Administrator\Helper\RenderHelper;
 
     $grid = $this->params->get('grid');
+```
 
 Hierna moet de output in de HTML body geplaatst worden:
+
+```php
+<?php echo RenderHelper::renderElements($grid); ?>
+```
 
 ## Tekstverwerker
 

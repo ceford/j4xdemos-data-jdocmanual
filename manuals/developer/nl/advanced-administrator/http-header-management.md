@@ -1,9 +1,9 @@
 <!-- Filename: J4.x:Http_Header_Management / Display title: Http header beheer -->
 
-Joomla!  4.0 Handleiding  
+Joomla!  4.0 Handleiding
 Hoe het nieuwe HTTP header beheer gebruiken in Joomla 4.0
 
-  
+
 Vanaf Joomla 4.0, heeft Joomla een HTTP Header beheersysteem ingevoerd.
 Dit systeem is ontworpen om eigenaren van websites te helpen de HTTP
 Security Headers vanuit het beheergedeelte in te stellen.
@@ -168,6 +168,7 @@ JavaScript and CSS, please check the examples below.
 
 ### Adding JavaScript using the Joomla API
 
+```php
     use Joomla\CMS\Factory;
 
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
@@ -182,9 +183,11 @@ JavaScript and CSS, please check the examples below.
             alert("An inline JavaScript Declaration");
         });
     ');
+```
 
 ### Adding CSS using the Joomla API
 
+```php
     use Joomla\CMS\Factory;
 
     /** @var Joomla\CMS\WebAsset\WebAssetManager $wa */
@@ -200,6 +203,7 @@ JavaScript and CSS, please check the examples below.
             color: rgb(0,0,255);
         }
     ');
+```
 
 More details can be found here:[Adding JavaScript and CSS to the
 page](https://docs.joomla.org/J3.x:Adding_JavaScript_and_CSS_to_the_page "Special:MyLanguage/J3.x:Adding JavaScript and CSS to the page")

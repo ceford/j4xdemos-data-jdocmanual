@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Creating_a_Plugin_for_Joomla / Display title: Criando um plugin para o Joomla -->
 
-<span id="main-portal-heading">Tutorial  
+<span id="main-portal-heading">Tutorial
 Como criar um plugin para o Joomla 4</span> Joomla!  4.x series
 
 A estrutura de plugins para o Joomla! 1.5, 2.5 e 3.x era muito flexível
@@ -22,46 +22,67 @@ processado pelo instalador do Joomla.
 
 Tal como acontece com todas as extensões no Joomla, os plugins são
 facilmente instalados como um arquivo .zip (.tar.gz também é suportado),
-mas um arquivo XML formatado corretamente deve ser incluído.  
+mas um arquivo XML formatado corretamente deve ser incluído.
 Como exemplo, aqui está o arquivo de instalação XML para o plugin de
 pesquisa de categorias:
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="search" method="upgrade">
+	<name>plg_search_categories</name>
+	<author>Joomla! Project</author>
+	<creationDate>November 2005</creationDate>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_SEARCH_CATEGORIES_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="categories">categories.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_search_categories.ini</language>
+		<language tag="en-GB">en-GB.plg_search_categories.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
 
-        plg_search_categories
-        Joomla! Project
-        November 2005
-        Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.
-        GNU General Public License version 2 or later; see LICENSE.txt
-        admin@joomla.org
-        www.joomla.org
-        3.0.0
-        PLG_SEARCH_CATEGORIES_XML_DESCRIPTION
-        
-            categories.php
-        
-        
-            en-GB.plg_search_categories.ini
-            en-GB.plg_search_categories.sys.ini
-        
-        
-            
+			<fieldset name="basic">
+				<field
+					name="search_limit"
+					type="number"
+					label="JFIELD_PLG_SEARCH_SEARCHLIMIT_LABEL"
+					default="50"
+				/>
 
-                
-                    
+				<field
+					name="search_content"
+					type="radio"
+					label="JFIELD_PLG_SEARCH_ALL_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
 
-                    
-                        JYES
-                        JNO
-                    
+				<field
+					name="search_archived"
+					type="radio"
+					label="JFIELD_PLG_SEARCH_ARCHIVED_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="0"
+					>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
 
-                    
-                        JYES
-                        JNO
-                    
-                
-
-            
-        
+		</fields>
+	</config>
+</extension>
+```
 
 Como você pode ver, o sistema é semelhante a outros arquivos de
 instalação XML do Joomla. Você só precisa procurar a entrada
@@ -141,42 +162,52 @@ plugins usando a antiga estratégia de nomenclatura de nomes de plugins
 sendo os mesmos que o nome do evento quando a SubscriberInterface não é
 implementada.
 
-     extends CMSPlugin implements SubscriberInterface
-    {
-        /**
-         * Load the language file on instantiation
-         *
-         * @var    boolean
-         * @since  3.1
-         */
-        protected $autoloadLanguage = true;
+```php
+<?php
+// no direct access
+defined( '_JEXEC' ) or die;
 
-        /**
-         * Returns an array of events this subscriber will listen to.
-         *
-         * @return  array
-         */
-        public static function getSubscribedEvents(): array
-        {
-            return [
-                '' => 'myFunctionName',
-            ];
-        }
+use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\Event\Event;
+use Joomla\Event\SubscriberInterface;
 
-        /**
-         * Plugin method is the array value in the getSubscribedEvents method
-         * The plugin then modifies the Event object (if it's not immutable)
-         */
-         public function myFunctionName(Event $event)
-         {
-            /*
-             * Plugin code goes here.
-             * You can access parameters via $this->params
-             */
-            return true;
-        }
-    }
-    ?>
+class Plg<PluginGroup><PluginName> extends CMSPlugin implements SubscriberInterface
+{
+	/**
+	 * Load the language file on instantiation
+	 *
+	 * @var    boolean
+	 * @since  3.1
+	 */
+	protected $autoloadLanguage = true;
+
+	/**
+	 * Returns an array of events this subscriber will listen to.
+	 *
+	 * @return  array
+	 */
+	public static function getSubscribedEvents(): array
+	{
+		return [
+			'<EventName>' => 'myFunctionName',
+		];
+	}
+
+	/**
+	 * Plugin method is the array value in the getSubscribedEvents method
+	 * The plugin then modifies the Event object (if it's not immutable)
+	 */
+	 public function myFunctionName(Event $event)
+	 {
+		/*
+		 * Plugin code goes here.
+		 * You can access parameters via $this->params
+		 */
+		return true;
+	}
+}
+?>
+```
 
 ### Usando plugins em seu código
 
@@ -195,12 +226,13 @@ nesse caso você pode ignorar esta seção).
 A nova maneira de fazer isso no Joomla 4 é obter o dispatcher e enviar
 um evento nomeado.
 
+```php
     use Joomla\CMS\Event\AbstractEvent;
     use Joomla\CMS\Factory;
 
     $dispatcher = Factory::getApplication()->getDispatcher();
 
-    // Here we create an event however as long as you implement EventInterface you can create your own 
+    // Here we create an event however as long as you implement EventInterface you can create your own
     // custom classes
     $event = AbstractEvent::create(
         '',
@@ -210,11 +242,13 @@ um evento nomeado.
     );
 
     $eventResult = $dispatcher->dispatch('', $event);
+```
 
 Se você deseja permitir que o usuário modifique valores, você pode usar
 o resultado do evento e obter resultados (getResults) de volta. Você
 pode olhar
 
+```php
     defined('_JEXEC') or die;
 
     use BadMethodCallException;
@@ -263,6 +297,7 @@ pode olhar
             return $value;
         }
     }
+```
 
 Por que introduzimos essa classe de nome sobre parâmetros? Bem, facilita
 a introdução de setters e getters personalizados para propriedades -
@@ -278,7 +313,9 @@ sendo o segundo argumento de sua função).
 Se você deseja acionar um evento de maneira semelhante ao
 JEventDispatcher do J3.x removido, use um código como este:
 
+```php
     $results = \Joomla\CMS\Factory::getApplication()->triggerEvent( '',  );
+```
 
 É importante notar que os parâmetros devem estar em um arranjo. A
 própria função do plug-in obterá os parâmetros como um objeto de Evento

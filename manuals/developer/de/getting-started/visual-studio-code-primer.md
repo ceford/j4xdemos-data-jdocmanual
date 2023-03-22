@@ -105,22 +105,27 @@ Es ist möglicherweise am besten, mit Git-Befehlen von der Befehlszeile
 aus loszulegen. Erstellen Sie zuerst einen Ordner für Ihren Code und
 klonen Sie dann das Remote-Repository:
 
+```bash
     mkdir ~/git
     cd ~/git
     git clone https://github.com/ceford/j4xdemos-mod-debugme
+```
 
 Die Antwort sollte nur wenige Sekunden dauern:
 
+```bash
     Cloning into 'j4xdemos-mod-debugme'...
     remote: Enumerating objects: 23, done.
     remote: Counting objects: 100% (23/23), done.
     remote: Compressing objects: 100% (16/16), done.
     remote: Total 23 (delta 3), reused 23 (delta 3), pack-reused 0
     Unpacking objects: 100% (23/23), done.
+```
 
 Sie sollten sich einen Moment Zeit nehmen, um sich den Inhalt des
 Ordners anzusehen:
 
+```bash
     cd j4xdemos-mod-debugme
     ls -al
     total 16
@@ -130,6 +135,7 @@ Ordners anzusehen:
     -rw-r--r--   1 ceford  staff  1402  2 Sep 17:48 README.md
     -rw-r--r--   1 ceford  staff   927  2 Sep 17:48 build.xml
     drwxr-xr-x   8 ceford  staff   256  2 Sep 17:48 mod_debugme
+```
 
 Der Ordner „.git“ enthält Informationen über das Repo. Die Datei
 „README.md“ ist ein Markdown-Dokument, das dieses Repo beschreibt. Die
@@ -140,7 +146,9 @@ wird. Der Ordner „mod_debugme“ enthält den Code der Erweiterung.
 Komprimieren Sie den Erweiterungsordner, um eine installierbare
 ZIP-Datei zu erstellen:
 
+```bash
     zip -r mod_debugme.zip mod_debugme
+```
 
 Sie können die ZIP-Datei jetzt auf der Joomla-Site installieren, die Sie
 zum Testen verwenden. Nach der Installation müssen Sie ein Standortmodul
@@ -219,20 +227,24 @@ diesem Beispiel ist es *~/bin/phing-latest.phar*. Sie können es von der
 Befehlszeile aus ausprobieren, nachdem Sie in den Ordner mit Ihrem
 Erweiterungscode gewechselt sind:
 
+```bash
     cd ~/git/j4xdemos-mod-debugme
     php ~/bin/phing-latest.phar
+```
 
 Antwort:
 
+```bash
     Buildfile: /Users/ceford/git/j4xdemos-mod-debugme/build.xml
-     
+
     mod_debugme > main:
           ... Any copied files will be mentioned here
           [zip] Building zip: /Users/ceford/zips/mod_debugme.zip
-     
+
     BUILD FINISHED
-     
+
     Total time: 0.0863 seconds
+```
 
 ## VS-Code-Aufgaben
 
@@ -242,6 +254,7 @@ Um Phing innerhalb von VS Code auszuführen, müssen Sie eine
 erstellen Sie es zuerst. Erstellen Sie dann die Datei „tasks.json“ und
 geben Sie den folgenden Code ein:
 
+```json
     {
         // See https://go.microsoft.com/fwlink/?LinkId=733558
         // for the documentation about the tasks.json format
@@ -262,13 +275,15 @@ geben Sie den folgenden Code ein:
           }
         ]
     }
+```
 
 Windows-Benutzer müssen den Windows-spezifischen Befehl korrigieren. Sie
 können nun die Erweiterung über das Menü „Terminal / Run Build Task“
 erstellen. Das Ergebnis des Befehls sollte im Terminalbereich unter dem
 Bearbeitungsbereich erscheinen.
 
-      *  Executing task: php ~/bin/phing-latest.phar 
+```bash
+      *  Executing task: php ~/bin/phing-latest.phar
 
     Buildfile: /Users/ceford/git/gitdemo/j4xdemos-mod-debugme/build.xml
 
@@ -281,6 +296,7 @@ Bearbeitungsbereich erscheinen.
     Total time: 0.1031 seconds
 
      *  Terminal will be reused by tasks, press any key to close it.
+```
 
 Es kann zu unverständlichen Fehlermeldungen kommen. Die
 wahrscheinlichste Ursache sind ungültige Pfade zu Ordnern in der Datei
@@ -300,10 +316,12 @@ beispielsweise wenn Sie Argumente an Bibliotheksfunktionen übergeben.
 Um das Debugging mit Xdebug einzurichten, müssen Sie einige Einträge
 oben in Ihrer *php.ini*-Datei vornehmen.
 
+```ini
     zend_extension="xdebug.so"
     xdebug.mode="debug"
     xdebug.client_port=9003
     xdebug.start_with_request = yes
+```
 
 Nachdem Sie alle Änderungen gespeichert haben, starten Sie Ihren
 Apache-Server neu.
@@ -335,6 +353,7 @@ einen Ordner mit dem Namen „.vscode“ (beachten Sie die führende
 Haltestelle), der eine Datei mit dem Namen „launch.json“ mit folgendem
 Inhalt enthält:
 
+```json
     {
         "configurations": [
             {
@@ -350,6 +369,7 @@ Inhalt enthält:
             }
         ]
     }
+```
 
 Denken Sie daran, das pathMappings-Element in diesem Beispiel durch die
 tatsächlichen pathMappings auf Ihrer eigenen Website zu ersetzen. Das
