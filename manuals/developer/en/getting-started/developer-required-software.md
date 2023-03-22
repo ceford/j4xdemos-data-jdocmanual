@@ -62,14 +62,18 @@ file space. That could be /home/username/public_html on Linux or
 This is an example Mac virtual host entry in file
 /etc/apache2/vhosts/localhost.conf:
 
-            DocumentRoot "/Users/username/Sites"
-            ServerName localhost
-            ErrorLog "/private/var/log/apache2/localhost-error_log"
-            CustomLog "/private/var/log/apache2/localhost-access_log" common
-            
-                AllowOverride All
-                Require all granted
-            
+```xml
+<VirtualHost *:80>
+        DocumentRoot "/Users/username/Sites"
+        ServerName localhost
+        ErrorLog "/private/var/log/apache2/localhost-error_log"
+        CustomLog "/private/var/log/apache2/localhost-access_log" common
+        <Directory "/Users/username/Sites">
+            AllowOverride All
+            Require all granted
+        </Directory>
+</VirtualHost>
+```
 
 Alternatively, you may be able to create a symbolic link from the
 default document root to the public_html folder of your personal file

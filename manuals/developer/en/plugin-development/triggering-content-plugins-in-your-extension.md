@@ -8,10 +8,13 @@ is to run the **content plugins** on some text. This is useful if you
 want to support plugins that usually work on Content from a custom
 extension. For the content prepare trigger you can simply call:
 
+```php
     $text = \Joomla\CMS\HTML\HTMLHelper::_('content.prepare', $text);
+```
 
 For any other content triggers you must call:
 
+```php
     // These 3 statements go at the top of your file directly below the JEXEC statement
     use Joomla\CMS\CMSObject;
     use Joomla\CMS\Factory;
@@ -27,6 +30,7 @@ For any other content triggers you must call:
     PluginHelper::importPlugin('content');
     $app = Factory::getApplication();
     $app->triggerEvent('onContentPrepare', array('some.context', &$article, &$params, 0));
+```
 
 You might want to look at core components (for example com_content) for
 an example. See the [triggers

@@ -9,6 +9,7 @@ you open each file being mentioned, have a look at the overall content
 and then find the parts being explained. The alphabet order of the file
 structure is as follows:
 
+```bash
     Site
      |- forms
         |- filter_countries.xml
@@ -29,26 +30,77 @@ structure is as follows:
         |- countries
            |- default.php
            |- default.xml
+```
 
 ## DisplayContoller.php
 
 The complete file in a scrollable div:
 
+```php
+<?php
+/**
+ * @package     Countrybase.Site
+ * @subpackage  com_countrybase
+ *
+ * @copyright   (C) 2022 Clifford E Ford
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-    Parts of this file are explained as follows:
+namespace J4xdemos\Component\Countrybase\Site\Controller;
 
-    Copyright Notice
-    Every php file should start with a copyright notice like the following:
+defined('_JEXEC') or die;
 
+use Joomla\CMS\MVC\Controller\BaseController;
+use Joomla\CMS\Router\Route;
+use Joomla\CMS\Session\Session;
 
-    If you frequently create new files and copy/paste this section remember to update the component name and copyright notice.
+/**
+ * Countrybase Component Controller
+ *
+ * @since  4.0.0
+ */
+class DisplayController extends BaseController
+{
+	/**
+	 * The default view.
+	 *
+	 * @var    string
+	 * @since  1.6
+	 */
+	protected $default_view = 'countries';
 
-    Namespace and defined check
-    Following the copyright notice every php file must have a line containing defined('_JEXEC') or die; except that namespaced files must declare the namespace before any other php code, so before the defined check. Namespaced php files are those containing component php classes in the src folder or its sub-folders.
+	protected $app;
+}
+```
 
+Parts of this file are explained as follows:
+
+### Copyright Notice
+
+Every php file should start with a copyright notice like the following:
+
+```php
+<?php
+/**
+ * @package     Countrybase.Site
+ * @subpackage  com_countrybase
+ *
+ * @copyright   (C) 2022 Clifford E Ford
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+```
+
+If you frequently create new files and copy/paste this section remember to update the component name and copyright notice.
+
+### Namespace and defined check
+
+Following the copyright notice every php file must have a line containing defined('_JEXEC') or die; except that namespaced files must declare the namespace before any other php code, so before the defined check. Namespaced php files are those containing component php classes in the src folder or its sub-folders.
+
+```php
     namespace J4xdemos\Component\Countrybase\Site\Controller;
 
     defined('_JEXEC') or die;
+```
 
 The defined check prevents a php file from being executed by calling it
 directly via its url. The \_JEXEC constant is defined when the
@@ -68,9 +120,11 @@ classes used by this php file. Sometimes, use statements are there by
 mistake, being declared but not used. That does no harm but ought to be
 corrected. There are two unused statements here:
 
+```php
     use Joomla\CMS\MVC\Controller\BaseController;
     use Joomla\CMS\Router\Route;
     use Joomla\CMS\Session\Session;
+```
 
 ### Controller Class
 
@@ -80,6 +134,7 @@ view, in this case **countries**. That will cause the default component
 view to use the Countries/HtmlView.php and tmpl/countries/default.php
 files to display the countries data.
 
+```php
     /**
      * Countrybase Component Controller
      *
@@ -97,6 +152,7 @@ files to display the countries data.
 
         protected $app;
     }
+```
 
 The code layout is a Joomla standard layout for php (<a
 href="https://developer.joomla.org/coding-standards/basic-guidelines.html"
@@ -118,6 +174,7 @@ requiring some explanation.
 
 ### Class variables
 
+```php
     class HtmlView extends BaseHtmlView
     {
         /**
@@ -134,6 +191,7 @@ requiring some explanation.
         public $filterForm;
         ...
         public $activeFilters;
+```
 
 The class variables are used to store information about the page to be
 displayed:
@@ -151,6 +209,7 @@ displayed:
 This is fairly standard for a site view, apart from the filterForm and
 activeFilters parts:
 
+```php
        public function display($tpl = null)
         {
             $this->state      = $this->get('State');
@@ -170,6 +229,7 @@ activeFilters parts:
 
             parent::display($tpl);
         }
+```
 
 The statements of the form \$this-\>get('Xxxx') cause Joomla to look in
 CountriesModel.php for a function named getXxxx() and return any data
@@ -195,6 +255,7 @@ later. Each field is given as its field name and with a table name
 alias, usually a, b, c and so on, but can be anything you choose that is
 consistent with code elsewhere.
 
+```php
        public function __construct($config = array())
         {
             if (empty($config['filter_fields']))
@@ -215,6 +276,7 @@ consistent with code elsewhere.
 
             parent::__construct($config);
         }
+```
 
 ### populateState
 
@@ -224,16 +286,19 @@ need to do anything here. For example, if the search field is **title**
 that is handled by the parent, as are the **state** and pagination
 **start** and **limit** fields.
 
+```php
        protected function populateState($ordering = 'title', $direction = 'ASC')
         {
             // List state information.
             parent::populateState($ordering, $direction);
         }
+```
 
 ### getStoreId
 
 This function creates a hash to store a query for use elsewhere.
 
+```php
        protected function getStoreId($id = '')
         {
             // Compile the store id.
@@ -242,12 +307,14 @@ This function creates a hash to store a query for use elsewhere.
 
             return parent::getStoreId($id);
         }
+```
 
 ### getListQuery
 
 This is where the query is created to extract data from the database. it
 requires some understanding of how queries are constructed.
 
+```php
        protected function getListQuery()
         {
             // Create a new query object.
@@ -306,6 +373,7 @@ requires some understanding of how queries are constructed.
             $query->order($db->escape($orderCol) . ' ' . $db->escape($orderDirn));
             return $query;
         }
+```
 
 Explanation
 
@@ -326,52 +394,80 @@ Explanation
 ## tmpl/countries/default.php
 
 This is the part of the code where the html content is created. At the
-very least it may just contain
-
-# Hello World
-
-. For the list of countries a table is needed with a heading row and one
+very least it may just contain `<h1>Hello World</h1>`. For the list of 
+countries a table is needed with a heading row and one
 row for data on each country. As there are 250 countries a pagination
 mechanism is needed to display a subset of countries a few at a time.
 That requires a form. And in this case a standard Joomla searchtools bar
 is useful. This is it:
 
-    escape($this->state->get('list.ordering'));
-    $listDirn  = $this->escape($this->state->get('list.direction'));
+```php
+<?php
+/**
+ * @package     Countrybase.Site
+ * @subpackage  com_countrybase
+ *
+ * @copyright   (C) 2022 Clifford E Ford
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-    ?>
+\defined('_JEXEC') or die;
 
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Layout\LayoutHelper;
+use Joomla\CMS\Router\Route;
 
+$listOrder = $this->escape($this->state->get('list.ordering'));
+$listDirn  = $this->escape($this->state->get('list.direction'));
 
+?>
+<h1><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES'); ?></h1>
 
-     $this)); ?>
+<form action="<?php echo Route::_('index.php?option=com_countrybase'); ?>" method="post" name="adminForm" id="adminForm">
 
+<?php echo LayoutHelper::render('joomla.searchtools.default', array('view' => $this)); ?>
 
-        
-        
-        
-        
-            
-                
-            
+<div class="table-responsive">
+	<table class="table table-striped">
+	<caption><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES_TABLE_CAPTION'); ?></caption>
+	<thead>
+	<tr>
+		<th scope="col">
+			<?php echo HTMLHelper::_('searchtools.sort', 'COM_COUNTRYBASE_COUNTRIES_COUNTRY', 'a.title', $listDirn, $listOrder); ?>
+		</th>
+		<th scope="col"><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES_ISO_2'); ?></th>
+		<th scope="col"><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES_ISO_3'); ?></th>
+		<th scope="col"><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES_CURRENCY_TITLE'); ?></th>
+		<th scope="col"><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES_CURRENCY_SYMBOL'); ?></th>
+		<th scope="col"><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES_CURRENCY_CODE'); ?></th>
+		<th scope="col"><?php echo Text::_('COM_COUNTRYBASE_COUNTRIES_XRATE'); ?></th>
+	</tr>
+	</thead>
+	<tbody>
+	<?php foreach ($this->items as $id => $item) : ?>
+	<tr>
+		<td><?php echo $item->title; ?></td>
+		<td><?php echo $item->iso_2; ?></td>
+		<td><?php echo $item->iso_3; ?></td>
+		<td><?php echo $item->currency_title; ?></td>
+		<td><?php echo $item->symbol; ?></td>
+		<td><?php echo $item->currency_code; ?></td>
+		<td><?php echo $item->dollar_exchange_rate; ?></td>
+	</tr>
+	<?php endforeach; ?>
+	</tbody>
+	</table>
+</div>
 
-items as \$id =\> \$item) : ?\>
+<?php echo $this->pagination->getListFooter(); ?>
 
-title; ?\>
+<input type="hidden" name="task" value="">
+<input type="hidden" name="boxchecked" value="0">
+<?php echo HTMLHelper::_('form.token'); ?>
 
-iso_2; ?\>
-
-iso_3; ?\>
-
-currency_title; ?\>
-
-symbol; ?\>
-
-currency_code; ?\>
-
-dollar_exchange_rate; ?\>
-
-pagination-\>getListFooter(); ?\>
+</form>
+```
 
 Points to note:
 
@@ -396,22 +492,29 @@ Points to note:
 This file is used to create a menu item. It has the same name as the php
 file, so default.xml in this case.
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="COM_COUNTRYBASE_VIEW_DEFAULT_MENU_LABEL" 
+		option="COM_COUNTRYBASE_VIEW_DEFAULT_OPTION">
+		<help
+			url="components/com_countrybase/help/en-GB/countrybase.html"
+		/>
+		<message>
+			<![CDATA[COM_COUNTRYBASE_VIEW_DEFAULT_MENU_DESC]]>
+		</message>
+	</layout>
 
-        
-            
-            
-                COM_COUNTRYBASE_VIEW_DEFAULT_MENU_DESC
-            
-        
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
 
-        
-        
+		<!-- Options -->
+		<fieldset name="options">
+		</fieldset>
 
-            
-            
-            
-
-        
+	</fields>
+</metadata>
+```
 
 Notes:
 
@@ -432,17 +535,31 @@ fatal error. The file name must be exactly as shown: the view name
 preceded by filter\_. The content is simple, just definitions for the
 search field and any other filters you may wish to use.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<form>
 
+	<fields name="filter">
 
-        
+		<field
+			name="search"
+			type="text"
+			label="COM_COUNTRYBASE_COUNTRIES_FILTER_SEARCH_LABEL"
+			description="COM_COUNTRYBASE_COUNTRIES_FILTER_SEARCH_DESC"
+			hint="JSEARCH_FILTER"
+		/>
 
-            
+		<field
+			name="published"
+			type="status"
+			label="JOPTION_SELECT_PUBLISHED"
+			onchange="this.form.submit();"
+			>
+			<option value="">JOPTION_SELECT_PUBLISHED</option>
+		</field>
 
-            
-                JOPTION_SELECT_PUBLISHED
-            
-
-        
+	</fields>
+```
 
 Note that any string keys starting with J are Joomla defined and you
 should not include them in your language files.
@@ -460,6 +577,7 @@ the other language.
 Note that it is common practice to list the strings in key alphabet
 order:
 
+```ini
     ; Joomla! Project
     ; (C) 2005 Open Source Matters, Inc. https://www.joomla.org
     ; License GNU General Public License version 2 or later; see LICENSE.txt
@@ -480,6 +598,7 @@ order:
     COM_COUNTRYBASE_COUNTRIES_TABLE_CAPTION="Table of Country Currencies"
     COM_COUNTRYBASE_COUNTRIES_XRATE="Exchange Rate"
     COM_COUNTRYBASE_COUNTRIES="Countries"
+```
 
 ## src/Service/Router.php
 
@@ -487,6 +606,7 @@ The Router is required for SEO urls. Without it a menu link may appear
 as option=com_countrybase&view=countries. With it a link will appear as
 country-base.html or whatever name you choose for the link title alias.
 
+```php
        public function __construct(SiteApplication $app, AbstractMenu $menu,
                 CategoryFactoryInterface $categoryFactory, DatabaseInterface $db)
         {
@@ -501,6 +621,7 @@ country-base.html or whatever name you choose for the link title alias.
             $this->attachRule(new StandardRules($this));
             $this->attachRule(new NomenuRules($this));
         }
+```
 
 If there are more views, for example a table of currencies, you would
 define each view here before the parent::\_\_construct() statement.

@@ -36,28 +36,38 @@ that it can work with the Media Manager.
 Make sure your plugin contains `group="filesystem"`. So in your
 `[plugin-name].xml`, you should have:
 
-
-        plg_filesystem_myplugin
-        Joomla! Project
-        April 2017
-        Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.
-        GNU General Public License version 2 or later; see LICENSE.txt
-        admin@joomla.org
-        www.joomla.org
-        __DEPLOY_VERSION__
-        Description
-        
-            myplugin.php
-            SomeFolder
-        
-        
-        
-            
-                
-                    
-                
-            
-        
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="filesystem" method="upgrade">
+	<name>plg_filesystem_myplugin</name>
+	<author>Joomla! Project</author>
+	<creationDate>April 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>__DEPLOY_VERSION__</version>
+	<description>Description</description>
+	<files>
+		<filename plugin="myplugin">myplugin.php</filename>
+		<folder>SomeFolder</folder>
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="display_name"
+					type="text"
+					label="YOUR_LABEL"
+					description="YOUR_DESCRIPTION"
+					default="DEFAULT_VALUE"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+```
 
 The **display_name** parameter helps the Media Manager to display the
 name of your **File System** as a root node in the File Browser. Any
@@ -92,6 +102,7 @@ typical scenario.
 
 An example of use of the event looks like:
 
+```php
     public function onFileSystemOAuthCallback(\Joomla\Component\Media\Administrator\Event\OAuthCallbackEvent $event)
     {
         // Your context
@@ -110,6 +121,7 @@ An example of use of the event looks like:
         // Pass back the result to event
         $event->setArgument('result', $result);
     }
+```
 
 **OAuthCallbackEvent** contains the input forwarded to the Media Manager
 OAuthCallback URI. `$event->getInput()` returns an Input Object.
@@ -138,11 +150,13 @@ pass it back to the caller.
 
 An example to display a message to user would be:
 
+```php
     $result = [
         "action" => "media-manager",
         "message" => "Some message",
         "message-type" => "notice"
     ];
+```
 
 This will redirect to the Media Manager and raise a notice with the text
 in **message**.

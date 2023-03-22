@@ -20,6 +20,7 @@ This is an expected behavior as of Joomla 4.0
 The following options has been changed comparing the current 3.10-dev
 vs. 4.0-dev (as of 09.09.2020):
 
+```
     com_config/config/default:
       Fields added in J4:
         request/request/controller
@@ -93,6 +94,7 @@ vs. 4.0-dev (as of 09.09.2020):
       Fields added in J4:
         params/basic/show_taxonomy
         params/basic/show_date
+```
 
 ## How to fix
 

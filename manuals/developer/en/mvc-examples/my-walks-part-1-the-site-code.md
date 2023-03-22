@@ -54,6 +54,7 @@ the tables successfully disappear.
 
 The sql files in the working example zip file include the sample data.
 
+```sql
         CREATE TABLE IF NOT EXISTS `#__mywalks` (
       `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
       `title` varchar(64) NOT NULL,
@@ -69,9 +70,11 @@ The sql files in the working example zip file include the sample data.
       `alt` varchar(64) DEFAULT NULL,
       `state` TINYINT NOT NULL DEFAULT '1'
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE utf8mb4_unicode_ci;
+```
 
 ### The mywalks_dates table
 
+```sql
         CREATE TABLE IF NOT EXISTS `#__mywalk_dates` (
       `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
       `walk_id` int(11) NOT NULL,
@@ -80,6 +83,7 @@ The sql files in the working example zip file include the sample data.
       `state` TINYINT NOT NULL DEFAULT '1',
       KEY `idx_walk` (`walk_id`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE utf8mb4_unicode_ci;
+```
 
 If this were a real component it would be obvious that the schema design
 has a long way to go! Look at the WalkHighlands site to see how far.
@@ -91,10 +95,12 @@ The component zip file used for installation should contain the manifest
 file named mywalks.xml (notice no com\_) along with admin and site
 folders, like so:
 
+```bash
     com_mywalks.zip
          admin
          site
          mywalks.xml
+```
 
 On installation the manifest file is copied to the
 site_root/administrator/components/com_mywalks folder where it is needed
@@ -110,60 +116,66 @@ sql statements will not be executed a second time. If the install sql
 statements are not executed for any reason, try executing them manually
 by copying them from the source code into phpMyAdmin.
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" method="upgrade">
+	<name>com_mywalks</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>August 2019</creationDate>
+	<author>Clifford E Ford</author>
+	<authorEmail>cliff@ford.myzen.co.uk</authorEmail>
+	<authorUrl>http://www.fford.me.uk/</authorUrl>
+	<copyright>Copyright (C) 2019 Clifford E Ford, All rights reserved.</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.2.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>COM_MYWALKS_XML_DESCRIPTION</description>
+	<namespace path="src">J4xdemos\Component\Mywalks</namespace>
 
-        com_mywalks
-        
-        August 2019
-        Clifford E Ford
-        cliff@ford.myzen.co.uk
-        http://www.fford.me.uk/
-        Copyright (C) 2019 Clifford E Ford, All rights reserved.
-        GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
-        
-        0.2.0
-        
-        COM_MYWALKS_XML_DESCRIPTION
-        J4xdemos\Component\Mywalks
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
 
-         
-            
-                sql/install.mysql.sql
-            
-        
-         
-            
-                sql/uninstall.mysql.sql
-            
-        
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+		to copy FROM in the package to install therefore files copied
+		in this section are copied from /site/ in the package -->
 
-        
-        
-
-        
-            src
-            tmpl
-        
-        
-        
-            language/en-GB/com_mywalks.ini
-        
-        
-        
-            
-                access.xml
-                config.xml
-                forms
-                services
-                sql
-                src
-                tmpl
-            
-            
-                language/en-GB/com_mywalks.ini
-                language/en-GB/com_mywalks.sys.ini
-            
-            com_mywalks
-        
+	<files folder="site">
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB/com_mywalks.ini</language>
+	</languages>
+	
+	<administration>
+		<files folder="admin">
+			<file>access.xml</file>
+			<file>config.xml</file>
+			<folder>forms</folder>
+			<folder>services</folder>
+			<folder>sql</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/com_mywalks.ini</language>
+			<language tag="en-GB">language/en-GB/com_mywalks.sys.ini</language>
+		</languages>
+		<menu img="class:default" link="option=com_mywalks">com_mywalks</menu>
+	</administration>
+</extension>
+```       
 
 ### The Namespace
 
@@ -187,13 +199,16 @@ language folder contains one file: en-GB.com_mywalks.ini, which contains
 the translated values of fixed strings, used to allow translation from
 English into other languages. The folder structure is simple:
 
+```
     site                               - the folder containing the site files       
          language                      - the folder containing the site language translation file
               en-GB                    - the folder containing English translations
                    com_mywalks.ini     - the file of translated keys
+```
 
 And the com_mywalks.ini contains this:
 
+```ini
     COM_MYWALKS_LIST_DESCRIPTION="Description"
     COM_MYWALKS_LIST_DISTANCE="Distance in Km"
     COM_MYWALKS_LIST_LAST_VISIT="Last Visit"
@@ -206,6 +221,7 @@ And the com_mywalks.ini contains this:
     COM_MYWALKS_WALK_DATE="Visit date"
     COM_MYWALKS_WALK_REPORTS="Walk Reports"
     COM_MYWALKS_WALK_WEATHER="Weather Report"
+```
 
 For each line, the first part is a **key** and the second part is its
 **value**, the English translation. Any fixed text in the component site
@@ -233,6 +249,7 @@ The tmpl files contain the code that displays the page views. They ought
 to be the easiest to explain and to understand. The tmpl file structure
 in the source code looks like this:
 
+```
     site
          tmpl
               mywalk
@@ -241,29 +258,54 @@ in the source code looks like this:
                   default-items.php
                   default.php
                   default.xml
+```
 
 #### The single walk view - tmpl/mywalk/default.php:
 
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-        item->title; ?>
+defined('_JEXEC') or die;
 
+//use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
 
-    item->description; ?>!
+?>
+<div class="page-header">
+    <h1><?php echo $this->item->title; ?></h1>
+</div>
 
+<p><?php echo $this->item->description; ?>!</p>
 
+<h2><?php echo Text::_('COM_MYWALKS_WALK_REPORTS'); ?></h2>
 
-
-      
-      
-      
-        
-            
-
-reports as \$id =\> \$report) : ?\>
-
-date; ?\>
-
-weather; ?\>
+<div class="table-responsive">
+  <table class="table table-striped">
+  <caption><?php echo Text::_('COM_MYWALKS_WALK_REPORTS'); ?></caption>
+  <thead>
+    <tr>
+        <th scope="col"><?php echo Text::_('COM_MYWALKS_WALK_DATE'); ?></th>
+        <th scope="col"><?php echo Text::_('COM_MYWALKS_WALK_WEATHER'); ?></th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($this->reports as $id => $report) : ?>
+    <tr>
+        <td><?php echo $report->date; ?></td>
+        <td><?php echo $report->weather; ?></td>
+    </tr>
+    <?php endforeach; ?><?php //endif; ?>
+    </tbody>
+  </table>
+</div>
+```
 
 For newcomers to Joomla: each php file starts with a DocBlock used in
 automated documentation; in namespaced files the next statement is the
@@ -282,10 +324,32 @@ site_root/libraries/src/HTML/HTMLHelper.php.
 
 #### The walks list view - tmpl/mywalks/default.php
 
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
+defined('_JEXEC') or die;
 
-        loadTemplate('items');
-        ?>
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+//use Joomla\CMS\Layout\LayoutHelper;
+
+HTMLHelper::_('behavior.core');
+
+?>
+<h1><?php echo Text::_('COM_MYWALKS_LIST_PAGE_HEADING'); ?></h1>
+<div class="com-contact-categories categories-list">
+    <?php
+        echo $this->loadTemplate('items');
+    ?>
+</div>
+```
 
 Note that the use statements are defining the locations of additional
 php files using their namespaces. Joomla\CMS\HTML\HTMLHelper is for
@@ -307,25 +371,54 @@ default_items.php file in the same directory in which it was called.
 Notice the creation of a slug by converting the title to lower case
 alpha-numeric only with spaces replaced by minus signs.
 
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-      
-      
-      
-        
-            
+defined('_JEXEC') or die;
 
-items as \$id =\> \$item) : \$slug = preg_replace('/\[^a-z\d\]/i', '-',
-\$item-\>title); \$slug = strtolower(str_replace(' ', '-', \$slug)); ?\>
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Router\Route;
+use J4xdemos\Component\Mywalks\Site\Helper\RouteHelper as MywalksHelperRoute;
 
-title; ?\>
-
-description; ?\>
-
-distance; ?\>
-
-last_visit //\$item-\>lastvisit; ?\>
-
-nvisits; ?\>
+?>
+<div class="table-responsive">
+  <table class="table table-striped">
+  <caption><?php echo Text::_('COM_MYWALKS_LIST_TABLE_CAPTION'); ?></caption>
+  <thead>
+    <tr>
+        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_TITLE'); ?></th>
+        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_DESCRIPTION'); ?></th>
+        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_DISTANCE'); ?></th>
+        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_LAST_VISIT'); ?></th>
+        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_NVISITS'); ?></th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($this->items as $id => $item) :
+        $slug = preg_replace('/[^a-z\d]/i', '-', $item->title);
+        $slug = strtolower(str_replace(' ', '-', $slug));
+    ?>
+    <tr>
+        <td><a href="<?php echo Route::_(MywalksHelperRoute::getWalkRoute($item->id, $slug)); ?>">
+        <?php echo $item->title; ?></a></td>
+        <td><?php echo $item->description; ?></td>
+        <td><?php echo $item->distance; ?></td>
+        <td><?php echo $item->last_visit //$item->lastvisit; ?></td>
+        <td><?php echo $item->nvisits; ?></td>
+    </tr>
+    <?php endforeach; ?><?php //endif; ?>
+    </tbody>
+  </table>
+</div>
+```
 
 Also notice the static call to Route which is used to create a url for a
 link to an individual walk description. And notice its associated use
@@ -334,6 +427,7 @@ function. More on routing later.
 
 This is an extract from the getWalkRoute function:
 
+```php
         public static function getWalkRoute($id, $slug, $language = 0, $layout = null)
         {
             // Create the link
@@ -351,6 +445,7 @@ This is an extract from the getWalkRoute function:
 
             return $link;
         }
+```
 
 ### Getting the data - The HtmlView files
 
@@ -361,23 +456,76 @@ in the \$this object.
 
 #### The HtmlView.php file for the single walk view
 
-    get('State');
-            $item       = $this->get('Item');
-            $reports    = $this->get('Reports');
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-            $this->state       = &$state;
-            $this->item        = &$item;
-            $this->reports     = &$reports;
+namespace J4xdemos\Component\Mywalks\Site\View\Mywalk;
 
-            // Check for errors.
-            if (count($errors = $this->get('Errors')))
-            {
-                throw new GenericDataException(implode("\n", $errors), 500);
-            }
+defined('_JEXEC') or die;
 
-            return parent::display($tpl);
+//use Joomla\CMS\HTML\HTMLHelper;
+//use Joomla\CMS\Language\Text;
+use Joomla\CMS\MVC\View\GenericDataException;
+use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
+
+/**
+ * HTML Mywalk View class for the Mywalks component
+ *
+ * @since  1.5
+ */
+class HtmlView extends BaseHtmlView
+{
+    /**
+     * The item model state
+     *
+     * @var    \Joomla\Registry\Registry
+     * @since  1.6
+     */
+    protected $state;
+
+    /**
+     * The item object details
+     *
+     * @var    \JObject
+     * @since  1.6
+     */
+    protected $item;
+    protected $reports;
+
+    /**
+     * Execute and display a template script.
+     *
+     * @param   string  $tpl  The name of the template file to parse; automatically searches through the template paths.
+     *
+     * @return  mixed  A string if successful, otherwise an Error object.
+     */
+    public function display($tpl = null)
+    {
+        $state      = $this->get('State');
+        $item       = $this->get('Item');
+        $reports    = $this->get('Reports');
+
+        $this->state       = &$state;
+        $this->item        = &$item;
+        $this->reports     = &$reports;
+
+        // Check for errors.
+        if (count($errors = $this->get('Errors')))
+        {
+            throw new GenericDataException(implode("\n", $errors), 500);
         }
+
+        return parent::display($tpl);
     }
+}
+```
 
 The display function is very simple. It fetches state, single walk and
 walk report data for that walk from the model. If any of the data
@@ -389,30 +537,103 @@ article HtmlView for for an example.
 
 #### The HtmlView file for the list of walks
 
-    getParams();
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-            // Get some data from the models
-            $state      = $this->get('State');
-            $items      = $this->get('Items');
-            $pagination = $this->get('Pagination');
+namespace J4xdemos\Component\Mywalks\Site\View\Mywalks;
 
-            // Flag indicates to not add limitstart=0 to URL
-            $pagination->hideEmptyLimitstart = true;
+defined('_JEXEC') or die;
 
-            // Check for errors.
-            if (count($errors = $this->get('Errors')))
-            {
-                throw new GenericDataException(implode("\n", $errors), 500);
-            }
+use Joomla\CMS\Factory;
+//use Joomla\CMS\HTML\HTMLHelper;
+//use Joomla\CMS\Language\Text;
+use Joomla\CMS\MVC\View\GenericDataException;
+use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
+//use Joomla\CMS\Router\Route;
 
-            $this->state      = &$state;
-            $this->items      = &$items;
-            $this->params     = &$params;
-            $this->pagination = &$pagination;
+/**
+ * Walks List View class
+ *
+ * @since  1.6
+ */
+class HtmlView extends BaseHtmlView
+{
+    /**
+     * The item model state
+     *
+     * @var    \Joomla\Registry\Registry
+     * @since  1.6.0
+     */
+    protected $state;
 
-            return parent::display($tpl);
+    /**
+     * The item details
+     *
+     * @var    \JObject
+     * @since  1.6.0
+     */
+    protected $items;
+
+    /**
+     * The pagination object
+     *
+     * @var    \JPagination
+     * @since  1.6.0
+     */
+    protected $pagination;
+
+    /**
+     * The page parameters
+     *
+     * @var    \Joomla\Registry\Registry|null
+     * @since  4.0.0
+     */
+    protected $params = null;
+
+    /**
+     * Method to display the view.
+     *
+     * @param   string  $tpl  The name of the template file to parse; automatically searches through the template paths.
+     *
+     * @return  mixed  \Exception on failure, void on success.
+     *
+     * @since   1.6
+     */
+    public function display($tpl = null)
+    {
+        $app    = Factory::getApplication();
+        $params = $app->getParams();
+
+        // Get some data from the models
+        $state      = $this->get('State');
+        $items      = $this->get('Items');
+        $pagination = $this->get('Pagination');
+
+        // Flag indicates to not add limitstart=0 to URL
+        $pagination->hideEmptyLimitstart = true;
+
+        // Check for errors.
+        if (count($errors = $this->get('Errors')))
+        {
+            throw new GenericDataException(implode("\n", $errors), 500);
         }
+
+        $this->state      = &$state;
+        $this->items      = &$items;
+        $this->params     = &$params;
+        $this->pagination = &$pagination;
+
+        return parent::display($tpl);
     }
+}
+```
 
 Ready for the models?
 
@@ -426,90 +647,94 @@ tutorial.
 
 #### Model file: MywalkModel
 
-    input->getInt('id');
-            $this->setState('mywalk.id', $pk);
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-            $offset = $app->input->getUInt('limitstart');
-            $this->setState('list.offset', $offset);
+namespace J4xdemos\Component\Mywalks\Site\Model;
 
-            // Load the parameters.
-            $params = $app->getParams();
-            $this->setState('params', $params);
-        }
+defined('_JEXEC') or die;
 
-        /**
-         * Method to get walk data.
-         *
-         * @param   integer  $pk  The id of the walk.
-         *
-         * @return  object|boolean  Menu item data object on success, boolean false
-         */
-        public function getItem($pk = null)
-        {
-            $pk = (!empty($pk)) ? $pk : (int) $this->getState('mywalk.id');
+use Joomla\CMS\Factory;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\MVC\Model\ItemModel;
 
-                try
-                {
-                    $db = $this->getDbo();
-                    $query = $db->getQuery(true)
-                        ->select(
-                            $this->getState(
-                                'item.select', 'a.*'
-                            )
-                        );
-                    $query->from('#__mywalks AS a')
-                        ->where('a.id = ' . (int) $pk);
+/**
+ * Mywalk Component Mywalk Model
+ *
+ * @since  1.5
+ */
+class MywalkModel extends ItemModel
+{
+    /**
+     * Model context string.
+     *
+     * @var        string
+     */
+    protected $_context = 'com_mywalks.mywalk';
 
-                    $db->setQuery($query);
+    /**
+     * Method to auto-populate the model state.
+     *
+     * Note. Calling getState in this method will result in recursion.
+     *
+     * @since   1.6
+     *
+     * @return void
+     */
+    protected function populateState()
+    {
+        $app = Factory::getApplication();
 
-                    $data = $db->loadObject();
+        // Load state from the request.
+        $pk = $app->input->getInt('id');
+        $this->setState('mywalk.id', $pk);
 
-                    if (empty($data))
-                    {
-                        throw new \Exception(Text::_('COM_MYWALKS_ERROR_WALK_NOT_FOUND'), 404);
-                    }
-                }
-                catch (\Exception $e)
-                {
-                    if ($e->getCode() == 404)
-                    {
-                        // Need to go through the error handler to allow Redirect to work.
-                        throw new \Exception($e->getMessage(), 404);
-                    }
-                    else
-                    {
-                        $this->setError($e);
-                        $this->_item[$pk] = false;
-                    }
-                }
+        $offset = $app->input->getUInt('limitstart');
+        $this->setState('list.offset', $offset);
 
-            return $data;
-        }
-        /**
-         * Method to get walk visit data.
-         *
-         * @param   integer  $pk  The id of the walk.
-         *
-         * @return  object|boolean  Menu item data object on success, boolean false
-         */
-        public function getReports($pk = null)
-        {
-            $pk = (!empty($pk)) ? $pk : (int) $this->getState('mywalk.id');
+        // Load the parameters.
+        $params = $app->getParams();
+        $this->setState('params', $params);
+    }
+
+    /**
+     * Method to get walk data.
+     *
+     * @param   integer  $pk  The id of the walk.
+     *
+     * @return  object|boolean  Menu item data object on success, boolean false
+     */
+    public function getItem($pk = null)
+    {
+        $pk = (!empty($pk)) ? $pk : (int) $this->getState('mywalk.id');
 
             try
             {
                 $db = $this->getDbo();
                 $query = $db->getQuery(true)
-                ->select('b.*');
-                $query->from('#__mywalk_dates AS b')
-                ->where('b.walk_id = ' . (int) $pk);
-                $query->order('`date` DESC');
+                    ->select(
+                        $this->getState(
+                            'item.select', 'a.*'
+                        )
+                    );
+                $query->from('#__mywalks AS a')
+                    ->where('a.id = ' . (int) $pk);
 
                 $db->setQuery($query);
 
-                $data = $db->loadObjectList();
+                $data = $db->loadObject();
 
-                // It is OK to have a walk without visit data - handle it the view.
+                if (empty($data))
+                {
+                    throw new \Exception(Text::_('COM_MYWALKS_ERROR_WALK_NOT_FOUND'), 404);
+                }
             }
             catch (\Exception $e)
             {
@@ -525,124 +750,234 @@ tutorial.
                 }
             }
 
-            return $data;
-        }
+        return $data;
     }
+    /**
+     * Method to get walk visit data.
+     *
+     * @param   integer  $pk  The id of the walk.
+     *
+     * @return  object|boolean  Menu item data object on success, boolean false
+     */
+    public function getReports($pk = null)
+    {
+        $pk = (!empty($pk)) ? $pk : (int) $this->getState('mywalk.id');
+
+        try
+        {
+            $db = $this->getDbo();
+            $query = $db->getQuery(true)
+            ->select('b.*');
+            $query->from('#__mywalk_dates AS b')
+            ->where('b.walk_id = ' . (int) $pk);
+            $query->order('`date` DESC');
+
+            $db->setQuery($query);
+
+            $data = $db->loadObjectList();
+
+            // It is OK to have a walk without visit data - handle it the view.
+        }
+        catch (\Exception $e)
+        {
+            if ($e->getCode() == 404)
+            {
+                // Need to go through the error handler to allow Redirect to work.
+                throw new \Exception($e->getMessage(), 404);
+            }
+            else
+            {
+                $this->setError($e);
+                $this->_item[$pk] = false;
+            }
+        }
+
+        return $data;
+    }
+}
+```
 
 #### Model file: MywalksModel
 
-     input->get('limit', $app->get('list_limit', 0), 'uint');
-            $this->setState('list.limit', $value);
+```php
+ <?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-            $value = $app->input->get('limitstart', 0, 'uint');
-            $this->setState('list.start', $value);
+namespace J4xdemos\Component\Mywalks\Site\Model;
 
-            $orderCol = $app->input->get('filter_order', 'a.id');
+defined('_JEXEC') or die;
 
-            if (!in_array($orderCol, $this->filter_fields))
-            {
-                $orderCol = 'a.id';
-            }
+use Joomla\CMS\Factory;
+use Joomla\CMS\MVC\Model\ListModel;
 
-            $this->setState('list.ordering', $orderCol);
-
-            $listOrder = $app->input->get('filter_order_Dir', 'ASC');
-
-            if (!in_array(strtoupper($listOrder), array('ASC', 'DESC', '')))
-            {
-                $listOrder = 'ASC';
-            }
-
-            $this->setState('list.direction', $listOrder);
-
-            $params = $app->getParams();
-            $this->setState('params', $params);
-
-            //$this->setState('layout', $app->input->getString('layout'));
-        }
-
-        /**
-         * Method to get a store id based on model configuration state.
-         *
-         * This is necessary because the model is used by the component and
-         * different modules that might need different sets of data or different
-         * ordering requirements.
-         *
-         * @param   string  $id  A prefix for the store id.
-         *
-         * @return  string  A store id.
-         *
-         * @since   1.6
-         */
-        protected function getStoreId($id = '')
+/**
+ * This models supports retrieving lists of articles.
+ *
+ * @since  1.6
+ */
+class MywalksModel extends ListModel
+{
+    /**
+     * Constructor.
+     *
+     * @param   array  $config  An optional associative array of configuration settings.
+     *
+     * @see     \JController
+     * @since   1.6
+     */
+    public function __construct($config = array())
+    {
+        if (empty($config['filter_fields']))
         {
-            // Compile the store id.
-
-            return parent::getStoreId($id);
-        }
-
-        /**
-         * Get the master query for retrieving a list of walks subject to the model state.
-         *
-         * @return  \JDatabaseQuery
-         *
-         * @since   1.6
-         */
-        protected function getListQuery()
-        {
-            // Get the current user for authorisation checks
-            $user = Factory::getUser();
-
-            // Create a new query object.
-            $db    = $this->getDbo();
-            $query = $db->getQuery(true);
-
-            // Select the required fields from the table.
-            $query->select(
-                $this->getState(
-                    'list.select',
-                    'a.*,
-                    (SELECT MAX(`date`) from #__mywalk_dates WHERE walk_id = a.id) AS last_visit,
-                    (SELECT count(`date`) from #__mywalk_dates WHERE walk_id = a.id) AS nvisits
-                    ')
+            $config['filter_fields'] = array(
+                'id', 'a.id',
+                'title', 'a.title',
             );
-            $query->from('#__mywalks AS a');
-
-            $params      = $this->getState('params');
-
-            // Add the list ordering clause.
-            $query->order($this->getState('list.ordering', 'a.id') . ' ' . $this->getState('list.direction', 'ASC'));
-
-            return $query;
         }
 
-        /**
-         * Method to get a list of walks.
-         *
-         * Overridden to inject convert the attribs field into a \JParameter object.
-         *
-         * @return  mixed  An array of objects on success, false on failure.
-         *
-         * @since   1.6
-         */
-        public function getItems()
-        {
-            $items  = parent::getItems();
-            return $items;
-        }
-
-        /**
-         * Method to get the starting number of items for the data set.
-         *
-         * @return  integer  The starting number of items available in the data set.
-         *
-         * @since   3.0.1
-         */
-        public function getStart()
-        {
-            return $this->getState('list.start');
-        }
+        parent::__construct($config);
     }
+
+    /**
+     * Method to auto-populate the model state.
+     *
+     * This method should only be called once per instantiation and is designed
+     * to be called on the first call to the getState() method unless the model
+     * configuration flag to ignore the request is set.
+     *
+     * Note. Calling getState in this method will result in recursion.
+     *
+     * @param   string  $ordering   An optional ordering field.
+     * @param   string  $direction  An optional direction (asc|desc).
+     *
+     * @return  void
+     *
+     * @since   3.0.1
+     */
+    protected function populateState($ordering = 'ordering', $direction = 'ASC')
+    {
+        $app = Factory::getApplication();
+
+        // List state information
+        $value = $app->input->get('limit', $app->get('list_limit', 0), 'uint');
+        $this->setState('list.limit', $value);
+
+        $value = $app->input->get('limitstart', 0, 'uint');
+        $this->setState('list.start', $value);
+
+        $orderCol = $app->input->get('filter_order', 'a.id');
+
+        if (!in_array($orderCol, $this->filter_fields))
+        {
+            $orderCol = 'a.id';
+        }
+
+        $this->setState('list.ordering', $orderCol);
+
+        $listOrder = $app->input->get('filter_order_Dir', 'ASC');
+
+        if (!in_array(strtoupper($listOrder), array('ASC', 'DESC', '')))
+        {
+            $listOrder = 'ASC';
+        }
+
+        $this->setState('list.direction', $listOrder);
+
+        $params = $app->getParams();
+        $this->setState('params', $params);
+
+        //$this->setState('layout', $app->input->getString('layout'));
+    }
+
+    /**
+     * Method to get a store id based on model configuration state.
+     *
+     * This is necessary because the model is used by the component and
+     * different modules that might need different sets of data or different
+     * ordering requirements.
+     *
+     * @param   string  $id  A prefix for the store id.
+     *
+     * @return  string  A store id.
+     *
+     * @since   1.6
+     */
+    protected function getStoreId($id = '')
+    {
+        // Compile the store id.
+
+        return parent::getStoreId($id);
+    }
+
+    /**
+     * Get the master query for retrieving a list of walks subject to the model state.
+     *
+     * @return  \JDatabaseQuery
+     *
+     * @since   1.6
+     */
+    protected function getListQuery()
+    {
+        // Get the current user for authorisation checks
+        $user = Factory::getUser();
+
+        // Create a new query object.
+        $db    = $this->getDbo();
+        $query = $db->getQuery(true);
+
+        // Select the required fields from the table.
+        $query->select(
+            $this->getState(
+                'list.select',
+                'a.*,
+                (SELECT MAX(`date`) from #__mywalk_dates WHERE walk_id = a.id) AS last_visit,
+                (SELECT count(`date`) from #__mywalk_dates WHERE walk_id = a.id) AS nvisits
+                ')
+        );
+        $query->from('#__mywalks AS a');
+
+        $params      = $this->getState('params');
+
+        // Add the list ordering clause.
+        $query->order($this->getState('list.ordering', 'a.id') . ' ' . $this->getState('list.direction', 'ASC'));
+
+        return $query;
+    }
+
+    /**
+     * Method to get a list of walks.
+     *
+     * Overridden to inject convert the attribs field into a \JParameter object.
+     *
+     * @return  mixed  An array of objects on success, false on failure.
+     *
+     * @since   1.6
+     */
+    public function getItems()
+    {
+        $items  = parent::getItems();
+        return $items;
+    }
+
+    /**
+     * Method to get the starting number of items for the data set.
+     *
+     * @return  integer  The starting number of items available in the data set.
+     *
+     * @since   3.0.1
+     */
+    public function getStart()
+    {
+        return $this->getState('list.start');
+    }
+}
+```
 
 ## Control Flow
 
@@ -665,40 +1000,176 @@ invalid.
 
 #### DisplayController
 
-    Essential Administrator Files
-    Although we are still developing the code for the Site display, some Administrator code is needed. The services/provider.php file is used to boot the component, either to display its own site views or for use by the menu module to create menu items.
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
+namespace J4xdemos\Component\Mywalks\Site\Controller;
 
-    The services provider file: administrator/components/com_mywalks/services/provider.php
+defined('_JEXEC') or die;
 
-    Pay special notice to the lines starting $container->registerServiceProvider as this is where your code gets registered in a container for use later.
+use Joomla\CMS\MVC\Controller\BaseController;
 
-    registerServiceProvider(new CategoryFactory('\\J4xdemos\\Component\\Mywalks'));
-            $container->registerServiceProvider(new MVCFactory('\\J4xdemos\\Component\\Mywalks'));
-            $container->registerServiceProvider(new ComponentDispatcherFactory('\\J4xdemos\\Component\\Mywalks'));
-            $container->registerServiceProvider(new RouterFactory('\\J4xdemos\\Component\\Mywalks'));
-            $container->set(
-                    ComponentInterface::class,
-                    function (Container $container)
-                    {
-                        $component = new MywalksComponent($container->get(ComponentDispatcherFactoryInterface::class));
+/**
+ * Mywalks Component Controller
+ *
+ * @since  1.5
+ */
+class DisplayController extends BaseController
+{
+    /**
+     * Method to display a view.
+     *
+     * @param   boolean  $cachable   If true, the view output will be cached
+     * @param   array    $urlparams  An array of safe URL parameters and their variable types, for valid values see {@link \JFilterInput::clean()}.
+     *
+     * @return  static  This object to support chaining.
+     *
+     * @since   1.5
+     */
+    public function display($cachable = false, $urlparams = array())
+    {
+        return parent::display();
+    }
+}
+```
 
-                        $component->setRegistry($container->get(Registry::class));
-                        $component->setMVCFactory($container->get(MVCFactoryInterface::class));
-    //                  $component->setCategoryFactory($container->get(CategoryFactoryInterface::class));
-                        $component->setRouterFactory($container->get(RouterFactoryInterface::class));
+### Essential Administrator Files
 
-                        return $component;
-            }
-            );
+Although we are still developing the code for the Site display, some Administrator code is needed. The services/provider.php file is used to boot the component, either to display its own site views or for use by the menu module to create menu items.
+
+#### The services provider file: administrator/components/com_mywalks/services/provider.php
+
+Pay special notice to the lines starting $container->registerServiceProvider as this is where your code gets registered in a container for use later.
+
+```php
+<?php
+/**
+ * @package     Mywalks.Administrator
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') or die;
+
+//use Joomla\CMS\Categories\CategoryFactoryInterface;
+use Joomla\CMS\Component\Router\RouterFactoryInterface;
+use Joomla\CMS\Dispatcher\ComponentDispatcherFactoryInterface;
+use Joomla\CMS\Extension\ComponentInterface;
+//use Joomla\CMS\Extension\MVCComponent;
+use Joomla\CMS\Extension\Service\Provider\CategoryFactory;
+use Joomla\CMS\Extension\Service\Provider\ComponentDispatcherFactory;
+use Joomla\CMS\Extension\Service\Provider\MVCFactory;
+use Joomla\CMS\Extension\Service\Provider\RouterFactory;
+use Joomla\CMS\HTML\Registry;
+use Joomla\CMS\MVC\Factory\MVCFactoryInterface;
+use J4xdemos\Component\Mywalks\Administrator\Extension\MywalksComponent;
+use Joomla\DI\Container;
+use Joomla\DI\ServiceProviderInterface;
+
+/**
+ * The mywalks service provider.
+ *
+ * @since  4.0.0
+ */
+return new class implements ServiceProviderInterface
+{
+    /**
+     * Registers the service provider with a DI container.
+     *
+     * @param   Container  $container  The DI container.
+     *
+     * @return  void
+     *
+     * @since   4.0.0
+     */
+    public function register(Container $container)
+    {
+        $container->registerServiceProvider(new CategoryFactory('\\J4xdemos\\Component\\Mywalks'));
+        $container->registerServiceProvider(new MVCFactory('\\J4xdemos\\Component\\Mywalks'));
+        $container->registerServiceProvider(new ComponentDispatcherFactory('\\J4xdemos\\Component\\Mywalks'));
+        $container->registerServiceProvider(new RouterFactory('\\J4xdemos\\Component\\Mywalks'));
+        $container->set(
+                ComponentInterface::class,
+                function (Container $container)
+                {
+                    $component = new MywalksComponent($container->get(ComponentDispatcherFactoryInterface::class));
+
+                    $component->setRegistry($container->get(Registry::class));
+                    $component->setMVCFactory($container->get(MVCFactoryInterface::class));
+//                  $component->setCategoryFactory($container->get(CategoryFactoryInterface::class));
+                    $component->setRouterFactory($container->get(RouterFactoryInterface::class));
+
+                    return $component;
         }
-    };
+        );
+    }
+};
+```
 
 #### The component boot file: administrator/components/com_mywalks/src/Extension/MywalksComponent.php
 
-    getRegistry()->register('mywalksadministrator', new AdministratorService);
-        }
+```php
+<?php
+/**
+ * @package     Joomla.Administrator
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+namespace J4xdemos\Component\Mywalks\Administrator\Extension;
+
+defined('JPATH_PLATFORM') or die;
+
+use Joomla\CMS\Application\SiteApplication;
+use Joomla\CMS\Component\Router\RouterServiceInterface;
+use Joomla\CMS\Component\Router\RouterServiceTrait;
+use Joomla\CMS\Extension\BootableExtensionInterface;
+use Joomla\CMS\Extension\MVCComponent;
+use Joomla\CMS\Factory;
+use Joomla\CMS\HTML\HTMLRegistryAwareTrait;
+use Psr\Container\ContainerInterface;
+
+/**
+ * Component class for com_mywalks
+ *
+ * @since  4.0.0
+ */
+class MywalksComponent extends MVCComponent implements
+BootableExtensionInterface, RouterServiceInterface
+{
+    use RouterServiceTrait;
+    use HTMLRegistryAwareTrait;
+
+    /**
+     * Booting the extension. This is the function to set up the environment of the extension like
+     * registering new class loaders, etc.
+     *
+     * If required, some initial set up can be done from services of the container, eg.
+     * registering HTML services.
+     *
+     * @param   ContainerInterface  $container  The container
+     *
+     * @return  void
+     *
+     * @since   4.0.0
+     */
+    public function boot(ContainerInterface $container)
+    {
+        //$this->getRegistry()->register('mywalksadministrator', new AdministratorService);
     }
+}
+```
 
 For the moment the call to register the Administrator Service is
 commented out. That results in a run-time error when invoking the
@@ -711,7 +1182,9 @@ At this stage the com_mywalks component works. One menu item is needed
 to link to the list of walks. There is snag: in the list of walks the
 links to individual walks like like this:
 
+```
     /site-root/my-walks.html?view=mywalk&id=1
+```
 
 (where the site-root my or may not be a subfolder tree). Time for a
 custom SEF router? And take a break to read <a
@@ -725,7 +1198,9 @@ Non-standard! Yes, but that is what the organisation asked for.
 
 For the mywalks component I want to use individual walk urls like this:
 
+```
     /site-root/mywalks/walk-n/walk-title.html
+```
 
 Where n is the individual walk id and the walk-title is automatically
 generated from the actual title. Neither walk-title nor .html are
@@ -738,33 +1213,100 @@ consisting of two files: Router.php and MywalksNomenuRules.php.
 
 #### The Router File: component/com_mywalks/src/Service/Router.php
 
-    categoryFactory = $categoryFactory;
-            $this->db              = $db;
+```php
+<?php
+/**
+ * @package     Mywalks.Site
+ * @subpackage  com_mywalks
+ *
+ * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-            $params = ComponentHelper::getParams('com_mywalks');
-            $this->noIDs = (bool) $params->get('sef_ids');
+namespace J4xdemos\Component\Mywalks\Site\Service;
 
-            $mywalks = new RouterViewConfiguration('mywalks');
-            $mywalks->setKey('id');
-            $this->registerView($mywalks);
+defined('_JEXEC') or die;
 
-            $mywalk = new RouterViewConfiguration('mywalk');
-            $mywalk->setKey('id');
-            $this->registerView($mywalk);
+use Joomla\CMS\Application\SiteApplication;
+use Joomla\CMS\Categories\CategoryFactoryInterface;
+use Joomla\CMS\Component\ComponentHelper;
+use Joomla\CMS\Component\Router\RouterView;
+use Joomla\CMS\Component\Router\RouterViewConfiguration;
+use Joomla\CMS\Component\Router\Rules\MenuRules;
+//use Joomla\CMS\Component\Router\Rules\NomenuRules;
+use J4xdemos\Component\Mywalks\Site\Service\MywalksNomenuRules as NomenuRules;
+use Joomla\CMS\Component\Router\Rules\StandardRules;
+use Joomla\CMS\Menu\AbstractMenu;
+use Joomla\Database\DatabaseInterface;
 
-            parent::__construct($app, $menu);
+/**
+ * Routing class of com_mywalks
+ *
+ * @since  3.3
+ */
+class Router extends RouterView
+{
+    protected $noIDs = false;
 
-            $this->attachRule(new MenuRules($this));
-            $this->attachRule(new StandardRules($this));
-            $this->attachRule(new NomenuRules($this));
-        }
+    /**
+     * The category factory
+     *
+     * @var CategoryFactoryInterface
+     *
+     * @since  4.0.0
+     */
+    private $categoryFactory;
+
+    /**
+     * The db
+     *
+     * @var DatabaseInterface
+     *
+     * @since  4.0.0
+     */
+    private $db;
+
+    /**
+     * Mywalks Component router constructor
+     *
+     * @param   SiteApplication           $app              The application object
+     * @param   AbstractMenu              $menu             The menu object to work with
+     * @param   CategoryFactoryInterface  $categoryFactory  The category object
+     * @param   DatabaseInterface         $db               The database object
+     */
+    public function __construct(SiteApplication $app, AbstractMenu $menu,
+            CategoryFactoryInterface $categoryFactory, DatabaseInterface $db)
+    {
+        $this->categoryFactory = $categoryFactory;
+        $this->db              = $db;
+
+        $params = ComponentHelper::getParams('com_mywalks');
+        $this->noIDs = (bool) $params->get('sef_ids');
+
+        $mywalks = new RouterViewConfiguration('mywalks');
+        $mywalks->setKey('id');
+        $this->registerView($mywalks);
+
+        $mywalk = new RouterViewConfiguration('mywalk');
+        $mywalk->setKey('id');
+        $this->registerView($mywalk);
+
+        parent::__construct($app, $menu);
+
+        $this->attachRule(new MenuRules($this));
+        $this->attachRule(new StandardRules($this));
+        $this->attachRule(new NomenuRules($this));
     }
+}
+```
 
 Notice the lines that define and use custom rules:
 
+```php
         use Joomla\Component\Mywalks\Site\Service\MywalksNomenuRules as NomenuRules;
         ...
                 $this->attachRule(new NomenuRules($this));
+```
 
 The rules include a *build* function to create the links to individual
 walks, and a *parse* function to translate an incoming SEF url to an
@@ -773,82 +1315,123 @@ menu item as it is take care of by the MenuRules rules.
 
 #### The Router Rules file: components/my_walks/src/Service/MywalksNomenuRules.php
 
-    router = $router;
-        }
+```php
+<?php
+/**
+ * Joomla! Content Management System
+ *
+ * @copyright  Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-        /**
-         * Dummymethod to fullfill the interface requirements
-         *
-         * @param   array  &$query  The query array to process
-         *
-         * @return  void
-         *
-         * @since   3.4
-         * @codeCoverageIgnore
-         */
-        public function preprocess(&$query)
+namespace J4xdemos\Component\Mywalks\Site\Service;
+
+defined('JPATH_PLATFORM') or die;
+
+use Joomla\CMS\Component\Router\RouterView;
+use Joomla\CMS\Component\Router\Rules\RulesInterface;
+
+/**
+ * Rule to process URLs without a menu item
+ *
+ * @since  3.4
+ */
+class MywalksNomenuRules implements RulesInterface
+{
+    /**
+     * Router this rule belongs to
+     *
+     * @var RouterView
+     * @since 3.4
+     */
+    protected $router;
+
+    /**
+     * Class constructor.
+     *
+     * @param   RouterView  $router  Router this rule belongs to
+     *
+     * @since   3.4
+     */
+    public function __construct(RouterView $router)
+    {
+        $this->router = $router;
+    }
+
+    /**
+     * Dummymethod to fullfill the interface requirements
+     *
+     * @param   array  &$query  The query array to process
+     *
+     * @return  void
+     *
+     * @since   3.4
+     * @codeCoverageIgnore
+     */
+    public function preprocess(&$query)
+    {
+        $test = 'Test';
+    }
+
+    /**
+     * Parse a menu-less URL
+     *
+     * @param   array  &$segments  The URL segments to parse
+     * @param   array  &$vars      The vars that result from the segments
+     *
+     * @return  void
+     *
+     * @since   3.4
+     */
+    public function parse(&$segments, &$vars)
+    {
+        //with this url: http://localhost/j4x/my-walks/mywalk-n/walk-title.html
+        // segments: [[0] => mywalk-n, [1] => walk-title]
+        // vars: [[option] => com_mywalks, [view] => mywalks, [id] => 0]
+
+        $vars['view'] = 'mywalk';
+        $vars['id'] = substr($segments[0], strpos($segments[0], '-') + 1);
+        array_shift($segments);
+        array_shift($segments);
+        return;
+    }
+
+    /**
+     * Build a menu-less URL
+     *
+     * @param   array  &$query     The vars that should be converted
+     * @param   array  &$segments  The URL segments to create
+     *
+     * @return  void
+     *
+     * @since   3.4
+     */
+    public function build(&$query, &$segments)
+    {
+        // content of $query ($segments is empty or [[0] => mywalk-3])
+        // when called by the menu: [[option] => com_mywalks, [Itemid] => 126]
+        // when called by the component: [[option] => com_mywalks, [view] => mywalk, [id] => 1, [Itemid] => 126]
+        // when called from a module: [[option] => com_mywalks, [view] => mywalks, [format] => html, [Itemid] => 126]
+        // when called from breadcrumbs: [[option] => com_mywalks, [view] => mywalks, [Itemid] => 126]
+
+        // the url should look like this: /site-root/mywalks/walk-n/walk-title.html
+
+        // if the view is not mywalk - the single walk view
+        if (!isset($query['view']) || (isset($query['view']) && $query['view'] !== 'mywalk') || isset($query['format']))
         {
-            $test = 'Test';
-        }
-
-        /**
-         * Parse a menu-less URL
-         *
-         * @param   array  &$segments  The URL segments to parse
-         * @param   array  &$vars      The vars that result from the segments
-         *
-         * @return  void
-         *
-         * @since   3.4
-         */
-        public function parse(&$segments, &$vars)
-        {
-            //with this url: http://localhost/j4x/my-walks/mywalk-n/walk-title.html
-            // segments: [[0] => mywalk-n, [1] => walk-title]
-            // vars: [[option] => com_mywalks, [view] => mywalks, [id] => 0]
-
-            $vars['view'] = 'mywalk';
-            $vars['id'] = substr($segments[0], strpos($segments[0], '-') + 1);
-            array_shift($segments);
-            array_shift($segments);
             return;
         }
-
-        /**
-         * Build a menu-less URL
-         *
-         * @param   array  &$query     The vars that should be converted
-         * @param   array  &$segments  The URL segments to create
-         *
-         * @return  void
-         *
-         * @since   3.4
-         */
-        public function build(&$query, &$segments)
-        {
-            // content of $query ($segments is empty or [[0] => mywalk-3])
-            // when called by the menu: [[option] => com_mywalks, [Itemid] => 126]
-            // when called by the component: [[option] => com_mywalks, [view] => mywalk, [id] => 1, [Itemid] => 126]
-            // when called from a module: [[option] => com_mywalks, [view] => mywalks, [format] => html, [Itemid] => 126]
-            // when called from breadcrumbs: [[option] => com_mywalks, [view] => mywalks, [Itemid] => 126]
-
-            // the url should look like this: /site-root/mywalks/walk-n/walk-title.html
-
-            // if the view is not mywalk - the single walk view
-            if (!isset($query['view']) || (isset($query['view']) && $query['view'] !== 'mywalk') || isset($query['format']))
-            {
-                return;
-            }
-            $segments[] = $query['view'] . '-' . $query['id'];
-            // the last part of the url may be missing
-            if (isset($query['slug'])) {
-                $segments[] = $query['slug'];
-                unset($query['slug']);
-            }
-            unset($query['view']);
-            unset($query['id']);
+        $segments[] = $query['view'] . '-' . $query['id'];
+        // the last part of the url may be missing
+        if (isset($query['slug'])) {
+            $segments[] = $query['slug'];
+            unset($query['slug']);
         }
+        unset($query['view']);
+        unset($query['id']);
     }
+}
+```
 
 When there is a menu item for a mywalks list page the MywalksNomenuRules
 build function will be called for every internal link in a page: in

@@ -94,21 +94,26 @@ It may be best to get going by using git commands from the command line.
 First create a folder for your code and then clone the remote
 repository:
 
+```bash
     mkdir ~/git
     cd ~/git
     git clone https://github.com/ceford/j4xdemos-mod-debugme
+```
 
 The response should take just a few seconds:
 
+```bash
     Cloning into 'j4xdemos-mod-debugme'...
     remote: Enumerating objects: 23, done.
     remote: Counting objects: 100% (23/23), done.
     remote: Compressing objects: 100% (16/16), done.
     remote: Total 23 (delta 3), reused 23 (delta 3), pack-reused 0
     Unpacking objects: 100% (23/23), done.
+```
 
 You should take a moment to look at the contents of the folder:
 
+```bash
     cd j4xdemos-mod-debugme
     ls -al
     total 16
@@ -118,6 +123,7 @@ You should take a moment to look at the contents of the folder:
     -rw-r--r--   1 ceford  staff  1402  2 Sep 17:48 README.md
     -rw-r--r--   1 ceford  staff   927  2 Sep 17:48 build.xml
     drwxr-xr-x   8 ceford  staff   256  2 Sep 17:48 mod_debugme
+```
 
 The *.git* folder contains information about the repo. The *README.md*
 file is a markdown document that describes this repo. The *build.xml*
@@ -129,7 +135,9 @@ the extension.
 
 Compress the extension folder to create an installable zip file:
 
+```bash
     zip -r mod_debugme.zip mod_debugme
+```
 
 You can now install the zip file in the Joomla site you use for testing.
 After installation you need to create a Site module and assign it to a
@@ -203,11 +211,14 @@ example it is *~/bin/phing-latest.phar*. You can try it out from the
 command line after changing into the folder containing your extension
 code:
 
+```bash
     cd ~/git/j4xdemos-mod-debugme
     php ~/bin/phing-latest.phar
+```
 
 Response:
 
+```bash
     Buildfile: /Users/ceford/git/j4xdemos-mod-debugme/build.xml
      
     mod_debugme > main:
@@ -217,6 +228,7 @@ Response:
     BUILD FINISHED
      
     Total time: 0.0863 seconds
+```
 
 ## VS Code Tasks
 
@@ -225,6 +237,7 @@ in the *.vscode* folder in the root of the *j4xdemos-mod-debugme*
 folder. If the latter does not exist, first create it. Then create the
 *tasks.json* file and enter the following code:
 
+```json
     {
         // See https://go.microsoft.com/fwlink/?LinkId=733558
         // for the documentation about the tasks.json format
@@ -245,12 +258,14 @@ folder. If the latter does not exist, first create it. Then create the
           }
         ]
     }
+```
 
 Windows users need to fix the Windows-specific command. You can now
 build the extension using the menu *Terminal / Run Build Task*. The
 result of the command should appear in the Terminal Panel beneath the
 Edit area.
 
+```bash
       *  Executing task: php ~/bin/phing-latest.phar 
 
     Buildfile: /Users/ceford/git/gitdemo/j4xdemos-mod-debugme/build.xml
@@ -264,6 +279,7 @@ Edit area.
     Total time: 0.1031 seconds
 
      *  Terminal will be reused by tasks, press any key to close it.
+```
 
 There may be incomprehensible error messages. The most likely cause is
 in having invalid paths to folders in the *build.xml* file or a folder
@@ -281,10 +297,12 @@ you expect, for example when passing arguments to library functions.
 To set up debugging with Xdebug you need to make some entries at the top
 of your *php.ini* file.
 
+```ini
     zend_extension="xdebug.so"
     xdebug.mode="debug"
     xdebug.client_port=9003
     xdebug.start_with_request = yes
+```
 
 After saving any changes, restart your Apache server.
 
@@ -312,6 +330,7 @@ In the root of your website create a folder named *.vscode* (note the
 leading stop) containing a file named *launch.json* with the following
 content:
 
+```json
     {
         "configurations": [
             {
@@ -327,6 +346,7 @@ content:
             }
         ]
     }
+```
 
 Remember to replace the pathMappings item in this example with the
 actual pathMappings on your own site. The stopOnEntry item will pause

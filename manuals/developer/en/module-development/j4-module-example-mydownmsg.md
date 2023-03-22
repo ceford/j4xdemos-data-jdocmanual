@@ -36,6 +36,7 @@ displays My Site going down message.
 It is usually helpful to know the zip file structure to check that the
 parts are in the expected places when unpacked;
 
+```bash
     mod_mydownmsg.zip
          mod_mydownmsg
               language
@@ -50,6 +51,7 @@ parts are in the expected places when unpacked;
                    default.php
               mod_mydownmsg.php
               mod_mydownmsg.xml
+```
 
 Note that all of our administrators are obliged to use English so the
 non-English translation files only need to translate the strings that
@@ -78,51 +80,89 @@ should have defaults because they are set on installation. Any change to
 the parameters needs the module to be re-installed from the revised zip
 file. (Check!)
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="4.0" method="upgrade" client="site">
+	<name>mod_mydownmsg</name>
+	<creationDate>August 2019</creationDate>
+	<author>Clifford E Ford</author>
+	<authorEmail>cliff@ford.myzen.co.uk</authorEmail>
+	<authorUrl>http://www.fford.me.uk/</authorUrl>
+	<copyright>Copyright (C) 2019 Clifford E Ford, All rights reserved.</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>MOD_MYDOWNMSG_XML_DESCRIPTION</description>
+	<namespace>J4xdemos\Module\Mydownmsg</namespace>
 
-        mod_mydownmsg
-        August 2019
-        Clifford E Ford
-        cliff@ford.myzen.co.uk
-        http://www.fford.me.uk/
-        Copyright (C) 2019 Clifford E Ford, All rights reserved.
-        GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
-        
-        1.0
-        
-        MOD_MYDOWNMSG_XML_DESCRIPTION
-        J4xdemos\Module\Mydownmsg
+	<files>
+		<filename module="mod_mydownmsg">mod_mydownmsg.php</filename>
+        	<filename>mod_mydownmsg.xml</filename>
+        	<folder>tmpl</folder>
+	</files>
 
-        
-            mod_mydownmsg.php
-                mod_mydownmsg.xml
-                tmpl
-        
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_mydownmsg.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_mydownmsg.sys.ini</language>
+		<language tag="de-DE">de-DE/de-DE.mod_mydownmsg.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_mydownmsg.ini</language>
+	</languages>
 
-        
-            en-GB/en-GB.mod_mydownmsg.ini
-            en-GB/en-GB.mod_mydownmsg.sys.ini
-            de-DE/de-DE.mod_mydownmsg.ini
-            fr-FR/fr-FR.mod_mydownmsg.ini
-        
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
 
-        
-            
-                
+				<field 
+					name="msg_id"
+					type="list"
+					label="MOD_MYDOWNMSG_PARAMS_MSG_ID_LABEL"
+					description="MOD_MYDOWNMSG_PARAMS_MSG_ID_DESC"
+					default="v1"
+					required="true"
+				>
+					<option value="v1">MOD_MYDOWNMSG_PARAMS_MSG_ID_OPTION_V1</option>
+					<option value="v2">MOD_MYDOWNMSG_PARAMS_MSG_ID_OPTION_V2</option>
+				</field>
 
-                    
-                        MOD_MYDOWNMSG_PARAMS_MSG_ID_OPTION_V1
-                        MOD_MYDOWNMSG_PARAMS_MSG_ID_OPTION_V2
-                    
+				<field
+					name="hour"
+					type="number"
+					label="MOD_MYDOWNMSG_PARAMS_HOUR_LABEL"
+					description="MOD_MYDOWNMSG_PARAMS_HOUR_DESC"
+					default="12"
+					min="0"
+					max="23"
+					required="true"
+					></field>
 
-                    
+				<field
+					name="minute"
+					type="number"
+					label="MOD_MYDOWNMSG_PARAMS_MINUTE_LABEL"
+					description="MOD_MYDOWNMSG_PARAMS_MINUTE_DESC"
+					default="00"
+					min="00"
+					max="59"
+					required="true"
+					></field>
 
-                    
+				<field
+					name="tz"
+					type="number"
+					label="MOD_MYDOWNMSG_PARAMS_TZ_LABEL"
+					description="MOD_MYDOWNMSG_PARAMS_TZ_DESC"
+					default="0"
+					min="-11"
+					max="11"
+					required="true"
+					></field>
 
-                    
-
-                
-            
-        
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+```
 
 ## The Language Files
 
@@ -147,6 +187,7 @@ single words!
 
 ### en-GB/en-GB.mod_mydownmsg.ini
 
+```ini
     MOD_MYDOWNMSG="My System Maintainence Message"
     MOD_MYDOWNMSG_XML_DESCRIPTION="Show a message about imminent system down time."
 
@@ -167,16 +208,21 @@ single words!
 
     MOD_MYDOWNMSG_PARAMS_TZ_LABEL="Time Zone"
     MOD_MYDOWNMSG_PARAMS_TZ_DESC="Set your time zone offset from GMT"
+```
 
 ### fr-FR/fr-FR.mod_mydownmsg.ini
 
+```ini
     MOD_MYDOWNMSG_MSG_V1="Ce site sera fermé pour une courte période à %s"
     MOD_MYDOWNMSG_MSG_V2="Veuillez vous déconnecter. Ce site sera fermé pendant une heure ou plus à %s"
+```
 
 ### de-DE/de-DE.mod_mydownmsg.ini
 
+```ini
     MOD_MYDOWNMSG_MSG_V1="Diese Seite wird für kurze Zeit um %s geschlossen"
     MOD_MYDOWNMSG_MSG_V2="Bitte melden Sie sich ab. Diese Seite wird für eine Stunde oder länger um %s geschlossen"
+```
 
 ## The Module Code
 
@@ -190,36 +236,70 @@ This module is so simple that it does not need anything else!
 
 ### mod_mydownmsg.php
 
-    get('layout', 'default'));
+```php
+<?php
+/**
+ * @package     J4xdemos.Module
+ * @subpackage  mod_mydownmsg
+ *
+ * @copyright   Copyright (C) 2019 Clifford E Ford. All rights reserved.
+ * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+defined('_JEXEC') or die;
+
+use Joomla\CMS\Helper\ModuleHelper;
+
+// get the message option
+
+require ModuleHelper::getLayoutPath('mod_mydownmsg', $params->get('layout', 'default'));
+```
 
 ### tmpl/default.php
 
 The default template fetches the module parameters and assembles a
 string for output using the string fetched from the translation file.
 
-    get('msg_id')));
+```php
+<?php
+/**
+ * @package     J4xdemos.Module
+ * @subpackage  mod_mydownmsg
+ *
+ * @copyright   Copyright (C) 2019 Clifford E Ford. All rights reserved.
+ * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ */
 
-    $tod = $params->get('hour') . ':' . $params->get('minute');
-    $tz = $params->get('tz');
+defined('_JEXEC') or die;
 
-    if ($tz > 0 )
-    {
-        $tz = '(+' . $tz . ')';
-    }
-    else if ($tz < 0)
-    {
-        $tz = '(-' . $tz . ')';
-    }
-    else {
-        $tz = '';
-    }
+use Joomla\CMS\Language\Text;
 
-    $tod .= ' GMT ' . $tz;
+// the $msg string contains a %s placeholder to be replaced in a sprintf statement
+$msg = Text::_('MOD_MYDOWNMSG_MSG_' . strtoupper($params->get('msg_id')));
 
-    ?>
+$tod = $params->get('hour') . ':' . $params->get('minute');
+$tz = $params->get('tz');
 
+if ($tz > 0 )
+{
+	$tz = '(+' . $tz . ')';
+}
+else if ($tz < 0)
+{
+	$tz = '(-' . $tz . ')';
+}
+else {
+	$tz = '';
+}
 
-        
+$tod .= ' GMT ' . $tz;
+
+?>
+
+<div class="alert alert-warning" role="alert">
+	<?php echo sprintf ($msg, $tod); ?>
+</div>
+```
 
 ## Installation
 

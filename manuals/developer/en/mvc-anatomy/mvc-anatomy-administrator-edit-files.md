@@ -15,9 +15,11 @@ country.
 This is immensely simple! Apart from the class declaration it is devoid
 of content. Everything is taken care of by the parent class.
 
+```php
     class CountryController extends FormController
     {
     }
+```
 
 ## src/View/Country/HtmlView.php
 
@@ -33,6 +35,7 @@ table record number. For a new record invoked via the list New button
 the id is absent. If it is present, the model fills out the data entry
 form with the existing record data.
 
+```php
        public function display($tpl = null)
         {
             $this->form  = $this->get('Form');
@@ -48,6 +51,7 @@ form with the existing record data.
 
             return parent::display($tpl);
         }
+```
 
 ### The Toolbar
 
@@ -56,6 +60,7 @@ add appropriate buttons for the access permissions of the person using
 the form. Notice the use of the \$isNew variable based on the record id
 to slightly modify the output.
 
+```php
        protected function addToolbar()
         {
             Factory::getApplication()->input->set('hidemainmenu', true);
@@ -86,6 +91,7 @@ to slightly modify the output.
 
             ToolbarHelper::inlinehelp();
         }
+```
 
 **Notes:**
 
@@ -136,6 +142,7 @@ column names used in the database tables.
 The functions in this file are fairly standard. However, the getTable()
 function requires some explanation.
 
+```php
        public function getTable($name = '', $prefix = '', $options = array())
         {
             $name = 'Countries';
@@ -148,6 +155,7 @@ function requires some explanation.
 
             throw new \Exception(Text::sprintf('JLIB_APPLICATION_ERROR_TABLE_NAME_NOT_SUPPORTED', $name), 0);
         }
+```
 
 This function does not refer to the table itself! It refers to the
 constructor of src/Table/CountriesTable.php. This can be a little
@@ -157,6 +165,7 @@ confusing because it is being called from the CountryModel class.
 
 So this is where the table name for the countries list is defined.
 
+```php
     class CountriesTable extends Table
     {
         /**
@@ -173,6 +182,7 @@ So this is where the table name for the countries list is defined.
             $this->setColumnAlias('published', 'state');
         }
     }
+```
 
 Notice declaration of the column alias. This is used because the form
 uses a data entry field named **published** but the field used for

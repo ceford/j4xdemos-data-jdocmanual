@@ -19,6 +19,7 @@ This file used when the Joomla application calls the ComponentHelper to
 render the component. It is the very first component code executed for
 both Sie and Administrator. Its role is to register the component:
 
+```php
        public function register(Container $container)
         {
             $container->registerServiceProvider(new CategoryFactory('\\J4xdemos\\Component\\Countrybase'));
@@ -40,6 +41,7 @@ both Sie and Administrator. Its role is to register the component:
                 }
             );
         }
+```
 
 A Registry and Categories are not used in Countrybase so some lines have
 been commented out.
@@ -51,25 +53,31 @@ CountrybaseComponent(...); statement in services/provider.php. Its
 purpose is to boot the component in both Site and Administrator
 interfaces. Once again, something not being used has been commented out.
 
+```php
        public function boot(ContainerInterface $container)
         {
             //$this->getRegistry()->register('countrybaseadministrator', new AdministratorService);
         }
+```
 
 ## access.xml
 
 This file sets the access controls used in this component. The items
 listed here appear in the component Options Permissions tab
 
-
-        
-            
-            
-            
-            
-            
-            
-        
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_countrybase">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" />
+		<action name="core.options" title="JACTION_OPTIONS" />
+		<action name="core.manage" title="JACTION_MANAGE" />
+		<action name="core.create" title="JACTION_CREATE" />
+		<action name="core.delete" title="JACTION_DELETE" />
+		<action name="core.edit" title="JACTION_EDIT" />
+	</section>
+</access>
+```
 
 ## config.xml
 
@@ -80,12 +88,28 @@ be possible to add options here on, for example, whether to show or hide
 a particular column in the output display. That would go in a separate
 fieldset named Options.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<config>
 
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+		>
 
-        
-
-            
-        
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			filter="rules"
+			validate="rules"
+			component="com_countrybase"
+			section="component"
+		 />
+	</fieldset>
+</config>
+```
 
 ## Related Tutorials
 

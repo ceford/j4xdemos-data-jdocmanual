@@ -27,17 +27,32 @@ To use the Page-builder, the activated frontend template needs to have
 the pagebuilder field in the `templateDetails.xml` like here from
 Apodis:
 
-       
+```xml
+<fieldset name="pagebuilder" label="TPL_APODIS_PAGEBUILDER">
+   <field
+		name="grid"
+		type="pagebuilder"
+		hidden="true"
+		label="TPL_APODIS_PAGEBUILDER"
+   />
+</fieldset>
+```
 
 The template itself needs to load the RenderHelper, which renders the
 parameter, filled by the editor. This happens in the templates
 `index.php`.
 
+```php
     use Joomla\Component\Templates\Administrator\Helper\RenderHelper;
 
     $grid = $this->params->get('grid');
+```
 
 After that the output is placed inside the HTML body:
+
+```php
+<?php echo RenderHelper::renderElements($grid); ?>
+```
 
 ## Editor
 

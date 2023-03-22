@@ -38,14 +38,18 @@ This can lead to language files that are messy and hard to maintain. The
 lib_joomla.ini file contains over 800 lines. So it pays to think about
 the structure in advance. Here is my suggestion:
 
+```ini
     [COM_COMPONENT]_[VIEW]_[USAGE]_[DESCRIPTIVE_TEXT]="The translation"
+```
 
 For example:
 
+```ini
     COM_MYWALKS_MYWALKS_PAGE_TITLE="Mywalks - list of Walks"
     COM_MYWALKS_MYWALKS_TABLE_CAPTION="List of Walks"
     COM_MYWALKS_MYWALKS_LABEL_DESCRIPTION="Description"
     COM_MYWALKS_MYWALKS_LABEL_DISTANCE="Distance"
+```
 
 And sort into alphabet order. You can look at the Joomla core language
 files to see for alternatives. The choice is yours. Just think about it!
@@ -65,22 +69,24 @@ regret it!
 Just a reminder of the Admin folder structure from the manifest
 mywalks.xml file:
 
-        
-            
-                access.xml
-                config.xml
-                forms
-                services
-                sql
-                src
-                tmpl
-            
-            
-                language/en-GB/com_mywalks.ini
-                language/en-GB/com_mywalks.sys.ini
-            
-            Mywalks
-        
+```xml
+    <administration>
+        <files folder="admin">
+            <file>access.xml</file>
+            <file>config.xml</file>
+            <folder>forms</folder>
+            <folder>services</folder>
+            <folder>sql</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/com_mywalks.ini</language>
+            <language tag="en-GB">language/en-GB/com_mywalks.sys.ini</language>
+        </languages>
+        <menu img="class:default" link="option=com_mywalks">Mywalks</menu>
+    </administration>
+```       
 
 Note that the **src** folder contains all of the namespaced code in
 separate sub-folders.
@@ -117,6 +123,7 @@ To explain fragments of the file piece by piece
 
 #### The namespace and use statements
 
+```php
         namespace J4xdemos\Component\Mywalks\Administrator\View\Mywalks;
         
         defined('_JEXEC') or die;
@@ -127,6 +134,7 @@ To explain fragments of the file piece by piece
         use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
         use Joomla\CMS\Toolbar\Toolbar;
         use Joomla\CMS\Toolbar\ToolbarHelper;
+```
 
 The namespace statement must come before any executable statements, so
 before the check that this script has been loaded by Joomla and not
@@ -137,6 +145,7 @@ might be missing ones you do.
 
 #### The class statements
 
+```php
         class HtmlView extends BaseHtmlView
         {
             protected $items;
@@ -145,12 +154,14 @@ might be missing ones you do.
             public $filterForm;
             public $activeFilters;
             protected $sidebar;
+```
 
 When the tmpl file uses \$this it is referring to this class. So
 \$this-\>items needs to be populated with walk data in this file.
 
 #### The display function
 
+```php
         public function display($tpl = null)
         {
             $this->items         = $this->get('Items');
@@ -169,6 +180,7 @@ When the tmpl file uses \$this it is referring to this class. So
 
             return parent::display($tpl);
         }
+```
 
 It is not obvious, but calls of the form \$this-\>get('Items') refer to
 the getItems() public function in the model or its parent model. So look
@@ -178,6 +190,7 @@ whatever it returns.
 
 #### The addToolbar function
 
+```php
        protected function addToolbar()
         {
             // Get the toolbar object instance
@@ -191,6 +204,7 @@ whatever it returns.
             {
                 $toolbar->addNew('mywalk.add');
             }
+```
 
 The ToolbarHelper::Title call puts the Title at the top of the page. In
 this case translated as *Mywalks - list of Walks*.
@@ -211,6 +225,7 @@ explained here.
 
 #### Setting some variables
 
+```php
         $listOrder = $this->escape($this->state->get('list.ordering'));
         $listDirn  = $this->escape($this->state->get('list.direction'));
         $states = array (
@@ -220,6 +235,7 @@ explained here.
                 '-2' => Text::_('JTRASHED')
         );
         $editIcon = '';
+```
 
 It is sometimes helpful to create pieces of text within the top php
 section for use later. It makes the code more readable and in some cases
@@ -228,11 +244,14 @@ a function many times.
 
 #### The Form tag
 
-        
-            
-                
-                    
-                         $this)); ?>
+```php
+    <form action="<?php echo Route::_('index.php?option=com_mywalks'); ?>" 
+        method="post" name="adminForm" id="adminForm">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="j-main-container" class="j-main-container">
+                    <?php echo LayoutHelper::render('joomla.searchtools.default', array('view' => $this)); ?>
+```
 
 When submitted the form calls itself. The actions it can take involve
 changing the sort order or changing the state of one or more walks.
@@ -245,13 +264,15 @@ Bootstrap 4 markup is not covered in this tutorial!
 
 #### The No Data Alert
 
-        items)) : ?>
-            
-                
-                
-                
-            
-        
+```php
+    <?php if (empty($this->items)) : ?>
+        <div class="alert alert-info">
+            <span class="fa fa-info-circle" aria-hidden="true"></span>
+            <span class="sr-only"><?php echo Text::_('INFO'); ?></span>
+            <?php echo Text::_('JGLOBAL_NO_MATCHING_RESULTS'); ?>
+        </div>
+    <?php else : ?>
+```
 
 If there are no data returned, for example if the Trashed state filter
 has been selected and there are no trashed walks, a simple message is
@@ -260,37 +281,50 @@ displayed.
 
 #### The Data Table
 
-        
-            
-                , 
-                
-            
-            
-                
-                    
-                        
-                    
+```php
+    <table class="table" id="mywalksList">
+        <caption id="captionTable">
+            <?php echo Text::_('COM_MYWALKS_MYWALKS_TABLE_CAPTION'); ?>, 
+            <?php echo Text::_('JGLOBAL_SORTED_BY'); ?>
+        </caption>
+        <thead>
+            <tr>
+                <td style="width:1%" class="text-center">
+                    <?php echo HTMLHelper::_('grid.checkall'); ?>
+                </td>
+                <th scope="col" style="width:1%; min-width:85px" class="text-center">
+                    <?php echo HTMLHelper::_('searchtools.sort', 'JSTATUS', 'a.state', $listDirn, $listOrder); ?>
+                </th>
+```
 
 The HTMLHelper here creates the check all checkbox and the column
 sorting feature in the table header.
 
 #### The Table Rows
 
-        
-        
-        items);
-        foreach ($this->items as $i => $item) :
-        ?>
-            
-                
-                    id); ?>
-                
-
-state\]; ?\>
-
-escape(\$item-\>title); ?\>
-
-description; ?\>
+```php
+    </thead>
+    <tbody>
+    <?php
+    $n = count($this->items);
+    foreach ($this->items as $i => $item) :
+    ?>
+        <tr class="row<?php echo $i % 2; ?>">
+            <td class="text-center">
+                <?php echo HTMLHelper::_('grid.id', $i, $item->id); ?>
+            </td>
+            <td class="class="article-status"">
+                <?php echo $states[$item->state]; ?>
+            </td>
+            <th scope="row" class="has-context">
+                <a class="hasTooltip" href="<?php echo Route::_('index.php?option=com_mywalks&task=mywalk.edit&id=' . $item->id); ?>">
+                <?php echo $editIcon; ?><?php echo $this->escape($item->title); ?>
+                </a>
+            </th>
+            <td class="">
+                <?php echo $item->description; ?>
+            </td>
+```
 
 To create the table of results the code cycles through each of the
 \$items, creating one row for each \$item. The item results are accessed
@@ -299,12 +333,14 @@ and so on.
 
 #### Pagination
 
-            
-        
+```php
+        <?php endforeach; ?>
+    </tbody>
+</table>
 
-
-
-    pagination->getListFooter(); ?>
+<?php // load the pagination. ?>
+<?php echo $this->pagination->getListFooter(); ?>
+```
 
 If there are more results than is set in the filters (the default is
 typically 20 or 25 and is set globally) the pagination function returns
@@ -312,9 +348,11 @@ the html code to render a page selector. Otherwise it returns nothing.
 
 #### The Hidden Variables
 
-        
-        
-        
+```php
+    <input type="hidden" name="task" value="">
+    <input type="hidden" name="boxchecked" value="0">
+    <?php echo HTMLHelper::_('form.token'); ?>
+```
 
 These variables are important! The task variable initially has no value.
 It is given a value when an action button is clicked. For example the
@@ -332,30 +370,55 @@ Notice the file naming convention. Stick to it or the filter will not
 appear. There are typically two parts to the xml content: the filter and
 the list.
 
-        
-        
-            
-                
-        
-                
-                    JOPTION_SELECT_PUBLISHED
-                
-            
-        
-            
-                
-                    JGLOBAL_SORT_BY
-                    JSTATUS_ASC
-                    JSTATUS_DESC
-                    JGLOBAL_TITLE_ASC
-                    JGLOBAL_TITLE_DESC
-                    JGRID_HEADING_ID_ASC
-                    JGRID_HEADING_ID_DESC
-                
-        
-                
-            
-        
+```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <form>
+        <fields name="filter">
+            <field
+                name="search"
+                type="text"
+                label="COM_MYWALKS_FILTER_SEARCH_LABEL"
+                description="COM_MYWALKS_FILTER_SEARCH_DESC"
+                hint="JSEARCH_FILTER"
+            />
+    
+            <field
+                name="published"
+                type="status"
+                label="JOPTION_SELECT_PUBLISHED"
+                onchange="this.form.submit();"
+                >
+                <option value="">JOPTION_SELECT_PUBLISHED</option>
+            </field>
+        </fields>
+    
+        <fields name="list">
+            <field
+                name="fullordering"
+                type="list"
+                label="JGLOBAL_SORT_BY"
+                default="a.name ASC"
+                onchange="this.form.submit();"
+                >
+                <option value="">JGLOBAL_SORT_BY</option>
+                <option value="a.published ASC">JSTATUS_ASC</option>
+                <option value="a.published DESC">JSTATUS_DESC</option>
+                <option value="a.title ASC">JGLOBAL_TITLE_ASC</option>
+                <option value="a.title DESC">JGLOBAL_TITLE_DESC</option>
+                <option value="a.id ASC">JGRID_HEADING_ID_ASC</option>
+                <option value="a.id DESC">JGRID_HEADING_ID_DESC</option>
+            </field>
+    
+            <field
+                name="limit"
+                type="limitbox"
+                label="JGLOBAL_LIST_LIMIT"
+                default="25"
+                onchange="this.form.submit();"
+            />
+        </fields>
+    </form>
+```
 
 In this case the filter tools bar will contain a text search form field
 and a status form fiel. You could add more fields - for example a
@@ -369,6 +432,7 @@ See your downloaded code for the full file with its Joomla doc blocks.
 
 #### The class constructor
 
+```php
         class MywalksModel extends ListModel
         {
             public function __construct($config = array())
@@ -384,6 +448,7 @@ See your downloaded code for the full file with its Joomla doc blocks.
         
                 parent::__construct($config);
             }
+```
 
 This is where the filter fields added to the mywalks_filter.xml must be
 declared to make them appear in the output. The parent ListModel has a
@@ -393,6 +458,7 @@ its parent too.
 
 #### The populateState method
 
+```php
         protected function populateState($ordering = 'a.id', $direction = 'asc')
         {
             $search = $this->getUserStateFromRequest($this->context . '.filter.search', 'filter_search');
@@ -404,6 +470,7 @@ its parent too.
             // List state information.
             parent::populateState($ordering, $direction);
         }
+```
 
 When a page is first loaded no filters are set. When a filter is set the
 next page load has the new filter setting in the form submission. We
@@ -413,6 +480,7 @@ ordering and direction if none are passed to this function.
 
 #### The getStoreId method
 
+```php
         protected function getStoreId($id = '')
         {
             // Compile the store id.
@@ -421,6 +489,7 @@ ordering and direction if none are passed to this function.
 
             return parent::getStoreId($id);
         }
+```
 
 Tricky to explain! This function puts together a string from which a
 hash is calculated that is used to cache part of an SQL query to avoid
@@ -429,6 +498,7 @@ in the same page load.
 
 #### The getListQuery function
 
+```php
         protected function getListQuery()
         {
             // Create a new query object.
@@ -474,6 +544,7 @@ in the same page load.
 
             return $query;
         }
+```
 
 This where you need to know about sql! You need to be able to write
 queries and debug them. To start we need a database object in the \$db
@@ -510,12 +581,14 @@ stage.
 
 #### The getItems function
 
+```php
         public function getItems()
         {
             $items = parent::getItems();
 
             return $items;
         }
+```
 
 You only need this if you want to add access code or as a step in
 debugging. If the function is left out the parent getIems function will
@@ -526,6 +599,7 @@ be callsed.
 Note: this is the controller file with th doc blocks removed. Put them
 in or leave them in on any component you create.
 
+```php
         namespace J4xdemos\Component\Mywalks\Administrator\Controller;
         
         defined('_JEXEC') or die;
@@ -541,6 +615,7 @@ in or leave them in on any component you create.
                 return parent::display();
             }
         }
+```
 
 The only job the controller has to do is define the default component
 view.
@@ -571,14 +646,17 @@ and a different set of buttons. See the downloaded code.
 
 #### The form tab top code
 
-        
-        
-            
-        
-            
-                 'details')); ?>
-        
-                
+```php
+    <form action="<?php echo Route::_('index.php?option=com_mywalks&view=mywalk&layout=edit&id=' . (int) $this->item->id); ?>"
+        method="post" name="adminForm" id="mywalks-form" class="form-validate">
+    
+        <?php echo LayoutHelper::render('joomla.edit.title_alias', $this); ?>
+    
+        <div>
+            <?php echo HTMLHelper::_('uitab.startTabSet', 'myTab', array('active' => 'details')); ?>
+    
+            <?php echo HTMLHelper::_('uitab.addTab', 'myTab', 'details', Text::_('COM_MYWALKS_MYWALK_TAB_DETAILS')); ?>
+```
 
 Notice tha the form action refers to itself. In this case the id is
 different in case we need to implement a custom form validator. The
@@ -593,26 +671,28 @@ implemented here.
 
 #### The details tab and its form fields
 
-            
-            
-                
-                    
-                        
-                            form->renderField('description'); ?>
-                            form->renderField('distance'); ?>
-                            form->renderField('id'); ?>
-                        
-                    
-                
-                
-                    
-                        
-                            
-                        
-                    
-                
-            
-            
+```php
+        <?php echo HTMLHelper::_('uitab.addTab', 'myTab', 'details', Text::_('COM_MYWALKS_MYWALK_TAB_DETAILS')); ?>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <?php echo $this->form->renderField('description'); ?>
+                        <?php echo $this->form->renderField('distance'); ?>
+                        <?php echo $this->form->renderField('id'); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-light">
+                    <div class="card-body">
+                        <?php echo LayoutHelper::render('joomla.edit.global', $this); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php echo HTMLHelper::_('uitab.endTab'); ?>
+```
 
 In this layout the first three form fields appear occupying 9/12 of the
 parent div width. The status field appears to the right, occupying 3/12
@@ -620,33 +700,38 @@ of the parent div width.
 
 #### The options tab and its form fields
 
-            
-            
-                
-                    form->renderField('toilets'); ?>
-                    form->renderField('cafe'); ?>
-                    form->renderField('bogs'); ?>
-                
-            
-            
+```php
+        <?php echo HTMLHelper::_('uitab.addTab', 'myTab', 'options', Text::_('COM_MYWALKS_MYWALK_TAB_OPTIONS')); ?>
+        <div class="row">
+            <div class="col-md-12">
+                <?php echo $this->form->renderField('toilets'); ?>
+                <?php echo $this->form->renderField('cafe'); ?>
+                <?php echo $this->form->renderField('bogs'); ?>
+            </div>
+        </div>
+        <?php echo HTMLHelper::_('uitab.endTab'); ?>
+```
 
 #### The picture tab and its form fields
 
-            
-            
-                
-                    form->renderField('picture'); ?>
-                    form->renderField('width'); ?>
-                    form->renderField('height'); ?>
-                    form->renderField('alt'); ?>
-                
-            
-            
+```php
+        <?php echo HTMLHelper::_('uitab.addTab', 'myTab', 'picture', Text::_('COM_MYWALKS_MYWALK_TAB_PICTURE')); ?>
+        <div class="row">
+            <div class="col-md-12">
+                <?php echo $this->form->renderField('picture'); ?>
+                <?php echo $this->form->renderField('width'); ?>
+                <?php echo $this->form->renderField('height'); ?>
+                <?php echo $this->form->renderField('alt'); ?>
+            </div>
+        </div>
+        <?php echo HTMLHelper::_('uitab.endTab'); ?>
 
-            
-        
-        
-        
+        <?php echo HTMLHelper::_('uitab.endTabSet'); ?>
+    </div>
+    <input type="hidden" name="task" value="">
+    <?php echo HTMLHelper::_('form.token'); ?>
+</form>
+```
 
 The appearance of each of the form fields is defined in the form xml
 file
@@ -658,27 +743,62 @@ will appear in the order given here.
 
 #### The details fields
 
-        
-        
-        
-            
-        
-                
-        
-                
-        
-                
-        
-                
-        
-                
-                    JPUBLISHED
-                    JUNPUBLISHED
-                    JARCHIVED
-                    JTRASHED
-                
-        
-            
+```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <form>
+    
+        <fieldset name="details" label="COM_MYWALKS_MYWALK_TAB_DETAILS">
+    
+            <field
+                name="id"
+                type="number"
+                label="JGLOBAL_FIELD_ID_LABEL"
+                default="0"
+                class="readonly"
+                readonly="true"
+            />
+    
+            <field
+                name="title"
+                type="text"
+                label="COM_MYWALKS_MYWALK_LABEL_TITLE"
+                size="40"
+                required="true"
+             />
+    
+            <field
+                name="description"
+                type="textarea"
+                label="COM_MYWALKS_MYWALK_LABEL_DESCRIPTION"
+                rows="5"
+                cols="40"
+                required="true"
+             />
+    
+            <field
+                name="distance"
+                type="decimel"
+                label="COM_MYWALKS_MYWALK_LABEL_DISTANCE"
+                required="true"
+             />
+    
+            <field
+                name="published"
+                type="list"
+                label="JSTATUS"
+                default="1"
+                id="published"
+                class="custom-select-color-state"
+                size="1"
+                >
+                <option value="1">JPUBLISHED</option>
+                <option value="0">JUNPUBLISHED</option>
+                <option value="2">JARCHIVED</option>
+                <option value="-2">JTRASHED</option>
+            </field>
+    
+        </fieldset>
+```
 
 The id field is set to read only because the id is allocated on saving
 and must not be changed. Notice the different field types: number, text,
@@ -687,38 +807,76 @@ class, readonly, size and so on.
 
 #### The options fields
 
-        
-            
-                JNO
-                JYES
-            
+```xml
+    <fieldset name="options" label="COM_MYWALKS_MYWALK_TAB_OPTIONS">
+        <field name="toilets"
+            type="list"
+            label="COM_MYWALKS_MYWALK_LABEL_TOILETS"
+        >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
 
-            
-                JNO
-                JYES
-            
+        <field name="cafe"
+            type="list"
+            label="COM_MYWALKS_MYWALK_LABEL_CAFE"
+            default="0"
+            size="1"
+            >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
 
-            
-                JNO
-                JYES
-            
-        
+        <field name="bogs"
+            type="list"
+            label="COM_MYWALKS_MYWALK_LABEL_BOGS"
+            default="0"
+            size="1"
+            >
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+    </fieldset>
+```
 
 The fields here return Yes/No boolean values. In some cases a number may
 be preferable, for example a bog facto on a scale of 1 to 5.
 
 #### The picture fields
 
-        
+```xml
+    <fieldset name="picture" label="COM_MYWALKS_MYWALK_TAB_PICTURE">
 
-            
+        <field
+            name="picture"
+            type="media"
+            label="COM_MYWALKS_MYWALK_LABEL_PICTURE_URL"
+        />
 
-            
+        <field
+            name="width"
+            type="number"
+            label="COM_MYWALKS_MYWALK_LABEL_PICTURE_WIDTH"
+            default="0"
+         />
 
-            
+        <field
+            name="height"
+            type="number"
+            label="COM_MYWALKS_MYWALK_LABEL_PICTURE_HEIGHT"
+            default="0"
+         />
 
-            
-        
+        <field
+            name="alt"
+            type="text"
+            label="COM_MYWALKS_MYWALK_LABEL_PICTURE_ALT"
+            size="40"
+         />
+    </fieldset>
+
+</form>
+```
 
 The media field allows selection of a photograph from the site images
 folder. And the selector form that appears also allows uploads. ToDo:
@@ -731,6 +889,7 @@ does not need much comment.
 
 #### The getTable function
 
+```php
         public function getTable($name = '', $prefix = '', $options = array())
         {
             $name = 'mywalks';
@@ -743,6 +902,7 @@ does not need much comment.
 
             throw new \Exception(Text::sprintf('JLIB_APPLICATION_ERROR_TABLE_NAME_NOT_SUPPORTED', $name), 0);
         }
+```
 
 This is worthy of mention because it is where the name of the database
 table containing the list of walks is defined. ToDo: find out what this
@@ -750,6 +910,7 @@ file does that the Table file does not.
 
 ### The Table file - Table/MywalksTable.php
 
+```php
         namespace J4xdemos\Component\Mywalks\Administrator\Table;
         
         defined('JPATH_PLATFORM') or die;
@@ -764,9 +925,11 @@ file does that the Table file does not.
                 parent::__construct('#__mywalks', 'id', $db);
             }
         }
+```
 
 ### The Controller file - Controller/MywalkController
 
+```php
         namespace J4xdemos\Component\Mywalks\Administrator\Controller;
         
         defined('_JEXEC') or die;
@@ -776,6 +939,7 @@ file does that the Table file does not.
         class MywalkController extends FormController
         {
         }
+```
 
 This file does nothing! All of the required actions are executed by the
 parent Class.
@@ -801,6 +965,7 @@ walk id in the populateState function or from a session state variable.
 
 Extract from Mywalk_datesModel.php
 
+```php
         protected function populateState($ordering = 'a.id', $direction = 'asc')
         {
             $app = Factory::getApplication();
@@ -812,6 +977,7 @@ Extract from Mywalk_datesModel.php
             $this->setState('walk_id', $walk_id);
             // keep the walk_id for adding new visits
             $app->setUserState('com_mywalks.walk_id', $walk_id);
+```
 
 We get the Walk title and walk id in the tmpl/Mywalk_dates/default.php
 file and display the title, in case we have forgotten which walk we are
@@ -819,17 +985,21 @@ dealing with. And we put the walk id into a hidden form variable.
 
 Extract from tmpl/mywalk_dates/default.php
 
-        $editIcon = '';
-        $title = MywalksHelper::getWalkTitle($this->state->get('walk_id'))->title;
-        $walk_id = $this->state->get('walk_id')
-        ?>
-        
-        
-                        
-                        
-                        
-        ...
-        
+```php
+    $editIcon = '<span class="fa fa-pen-square mr-2" aria-hidden="true"></span>';
+    $title = MywalksHelper::getWalkTitle($this->state->get('walk_id'))->title;
+    $walk_id = $this->state->get('walk_id')
+    ?>
+    <h3><?php echo Text::_('COM_MYWALKS_MYWALK_DATES_PAGE_TOP') . ' ' . $walk_id . ': ' . $title; ?></h3>
+    <form action="<?php echo Route::_('index.php?option=com_mywalks&view=mywalk_dates'); ?>" method="post" name="adminForm" id="adminForm>
+    ...
+                    <input type="hidden" name="task" value="">
+                    <input type="hidden" name="boxchecked" value="0">
+                    <input type="hidden" name="walk_id" value="<?php echo $walk_id; ?>">
+                    <?php echo HTMLHelper::_('form.token'); ?>
+    ...
+    </form>
+```
 
 The walk dates list has a link to existing visits so we don't need the
 walk id to edit existing visits. The '***New'*** button does not help
@@ -838,6 +1008,7 @@ committed to the database, when it takes the next available value. We
 pick up the walk id in tmp/mywalk_date/edit.php and set the value of the
 walk id in the form field:
 
+```php
         $app = Factory::getApplication();
         $walk_id = $app->getUserState('com_mywalks.walk_id');
         
@@ -850,6 +1021,7 @@ walk id in the form field:
                                 form->renderField('id'); ?>
                                 form->setValue('walk_id', null, $walk_id); ?>
                                 form->renderField('walk_id'); ?>
+```
 
 The walk_id field is read only to prevent the user from changing it. And
 here is one of those instances where a fixed string was typed in English

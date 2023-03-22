@@ -23,18 +23,22 @@ DOM events. All Joomla! events should start from \`joomla:\`.
 
 Example telling that User added something to the shopping cart:
 
+```javascript
     // Shop extension:
     window.dispatchEvent(new CustomEvent('myshop:add-to-cart', {
       detail: {sku:'productSku', amount:10, name: 'Foo Bar'}
       bubbles: true,
       cancelable: true
     });
+```
 
 Then 3rd script can listen to it:
 
+```javascript
     window.addEventListener('myshop:add-to-cart', function(event) {
       console.log(event.detail)
     });
+```
 
 ## List of events
 
@@ -46,6 +50,7 @@ its scripts accordingly to new content (example in a subform field).
 
 Example content update with AJAX:
 
+```javascript
     var $someContainer = document.querySelector('.my-dinamic-container');
     fetch('/foobar/page')
         .then(function(res) {
@@ -58,11 +63,14 @@ Example content update with AJAX:
               cancelable: true
             })
         });
+```
 
 The extensions can listen to it also, example to do initialisation for
 modified part of the page:
 
+```javascript
     document.addEventListener('joomla:updated', function(event){
         var $elements = event.target.querySelectorAll('.foo-bar');
         // ... do something with $elements
     });
+```

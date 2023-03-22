@@ -30,6 +30,7 @@ structure and the en-GB folder does not exist here, then the destination
 en-GB folder must be set in the manifest file. The ToC installation zip
 file is structured like this:
 
+```
     plg_j4xdemost.zip
          plg_j4xdemos_toc
               language
@@ -38,6 +39,7 @@ file is structured like this:
                         en-GB.plg_content_j4xdemostc.sys.ini
               j4xdemostoc.php
               j4xdemostoc.xml
+```
 
 ## The manifest file
 
@@ -51,59 +53,86 @@ translation key is in lower case. All other translation keys are upper
 case and include the group after the type code, in this case
 PLG_CONTENT_J4XDEMOSTOC_usage.
 
+```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <extension type="plugin" version="4.0" method="upgrade" group="content">
+        <name>plg_content_j4xdemostoc</name>
+        <creationDate>August 2019</creationDate>
+        <author>Clifford E Ford</author>
+        <authorEmail>cliff@ford.myzen.co.uk</authorEmail>
+        <authorUrl>http://www.fford.me.uk/</authorUrl>
+        <copyright>Copyright (C) 2019 Clifford E Ford, All rights reserved.</copyright>
+        <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+        <!--  The version string is recorded in the components table -->
+        <version>0.1.0</version>
+        <!-- The description is optional and defaults to the name -->
+        <description>PLG_CONTENT_J4XDEMOSTOC_XML_DESCRIPTION</description>
+    
+        <files>
+            <filename plugin="j4xdemostoc">j4xdemostoc.php</filename>
+        </files>
         
-        
-            plg_content_j4xdemostoc
-            August 2019
-            Clifford E Ford
-            cliff@ford.myzen.co.uk
-            http://www.fford.me.uk/
-            Copyright (C) 2019 Clifford E Ford, All rights reserved.
-            GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
-            
-            0.1.0
-            
-            PLG_CONTENT_J4XDEMOSTOC_XML_DESCRIPTION
-        
-            
-                j4xdemostoc.php
-            
-            
-            
-                language/en-GB/en-GB.plg_content_j4xdemostoc.ini
-                language/en-GB/en-GB.plg_content_j4xdemostoc.sys.ini
-            
-        
-            
-                
-                    
-                        
-        
-                        
-                            PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_LIGHT
-                            PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_INFO
-                            PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_PRIMARY
-                            PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_SECONDARY
-                            PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_SUCCESS
-                            PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_DANGER
-                            PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_WARNING
-                        
-        
-                        
-                            center
-                            left
-                        
-        
-                        
-                            1rem
-                            2rem
-                            3rem
-                        
-        
-                    
-                
-            
-        
+        <languages folder="administrator/language">
+            <language tag="en-GB">language/en-GB/en-GB.plg_content_j4xdemostoc.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.plg_content_j4xdemostoc.sys.ini</language>
+        </languages>
+    
+        <config>
+            <fields name="params">
+                <fieldset name="basic">
+                    <field
+                        name="help"
+                        type="text"
+                        label="PLG_CONTENT_J4XDEMOSTOC_PARAMS_APPLIES_LABEL"
+                        description="PLG_CONTENT_J4XDEMOSTOC_PARAMS_APPLIES_DESC"
+                        default="PLG_CONTENT_J4XDEMOSTOC_PARAMS_APPLIES_DEFAULT"
+                        readonly="readonly"
+                    />
+    
+                    <field 
+                        name="toc_class"
+                        type="list"
+                        label="PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_LABEL"
+                        description="PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_DESC"
+                        default="light"
+                    >
+                        <option value="light">PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_LIGHT</option>
+                        <option value="info">PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_INFO</option>
+                        <option value="primary">PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_PRIMARY</option>
+                        <option value="secondary">PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_SECONDARY</option>
+                        <option value="success">PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_SUCCESS</option>
+                        <option value="danger">PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_DANGER</option>
+                        <option value="warning">PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_CLASS_OPTION_WARNING</option>
+                    </field>
+    
+                    <field 
+                        name="toc_head_class"
+                        type="list"
+                        label="PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_HEAD_CLASS_LABEL"
+                        description="PLG_CONTENT_J4XDEMOSTOC_PARAMS_CARD_HEAD_CLASS_DESC"
+                        default="center"
+                    >
+                        <option value="center">center</option>
+                        <option value="left">left</option>
+                    </field>
+    
+                    <field 
+                        name="list_indent"
+                        type="list"
+                        label="PLG_CONTENT_J4XDEMOSTOC_PARAMS_CONTENTS_INDENT_LABEL"
+                        description="PLG_CONTENT_J4XDEMOSTOC_PARAMS_CONTENTS_INDENT_DESC"
+                        default="1"
+                    >
+                        <option value="1">1rem</option>
+                        <option value="2">2rem</option>
+                        <option value="3">3rem</option>
+                    </field>
+    
+                </fieldset>
+            </fields>
+        </config>
+    </extension>
+```
 
 ## The language Files
 
@@ -117,11 +146,14 @@ but would then be untranslatable.
 
 The en-GB.plg_content_j4xdemostoc.sys.ini file:
 
+```ini
     PLG_CONTENT_J4XDEMOSTOC="Content J4xdemos ToC"
     PLG_CONTENT_J4XDEMOSTOC_XML_DESCRIPTION="Render Article Table of Contents."
+```
 
 The en-GB.plg_content_j4xdemostoc.ini file:
 
+```ini
     PLG_CONTENT_J4XDEMOSTOC_CONTENTS="Contents"
 
     PLG_CONTENT_J4XDEMOSTOC_PARAMS_APPLIES_LABEL="Applies to"
@@ -144,6 +176,7 @@ The en-GB.plg_content_j4xdemostoc.ini file:
 
     PLG_CONTENT_J4XDEMOSTOC_PARAMS_CONTENTS_INDENT_LABEL="List item indent"
     PLG_CONTENT_J4XDEMOSTOC_PARAMS_CONTENTS_INDENT_DESC="The distance to indent the content list links in rem units."
+```
 
 ## The Plugin Administration Form
 
@@ -178,6 +211,7 @@ the significant lines from j4demostoc.php:
 
 ### The class statement
 
+```php
         defined('_JEXEC') or die;
         
         use Joomla\CMS\Plugin\CMSPlugin;
@@ -192,6 +226,7 @@ the significant lines from j4demostoc.php:
          */
         class PlgContentJ4xdemostoc extends CMSPlugin
         {
+```
 
 Do not forget to start the code with the check for loading by Joomla or
 die!
@@ -210,6 +245,7 @@ documentation tools.
 
 ### The entry point
 
+```php
         /**
          * Look for {ToC} or {toc} and replace with Contents Panel.
          *
@@ -219,6 +255,7 @@ documentation tools.
          */
         public function onContentPrepare($context, &$article, &$params, $page = 0)
         {
+```
 
 **Important:** To invoke the entry point function a named event must
 have been triggered. The onContentPrepare event is generated during
@@ -238,6 +275,7 @@ The \$params variable contains the article parameters.
 
 ### Testing what action to take
 
+```php
             // featured article with readmore separator needs {ToC} removed
             if ($context === 'com_content.featured')
             {
@@ -260,6 +298,7 @@ The \$params variable contains the article parameters.
 
             // Load plugin language file only when needed
             $this->loadLanguage();
+```
 
 All of this is explained in the in-code comments so no further
 explanation is needed here. The rest of the plugin code is text
