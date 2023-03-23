@@ -405,16 +405,21 @@ intern aufgerufen werden muss, so kann dies innerhalb einer anderen
 Befehlsklasse aus geschehen:
 
 ```php
-    getApplication()->getCommand('say:hello');
-            $code = $command->execute();
+<?php
+class RunHelloCommand extends AbstractCommand {
+    ...
 
-            if($code === 0) {
-                // command ran successfully, do something
-            }
+    public function execute(): int {
+        $command = $this->getApplication()->getCommand('say:hello');
+        $code = $command->execute();
+
+        if($code === 0) {
+            // command ran successfully, do something
         }
-
-        ...
     }
+
+    ...
+}
 ```
 
 Hier versuchen wir, dass `say:hello` Kommando aufzurufen, dass in obigem

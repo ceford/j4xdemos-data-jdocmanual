@@ -49,7 +49,9 @@ rel="nofollow noreferrer noopener">Bootstrap Documentation</a>
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.alert', '.selector');
+```
 
 - The **.selector** refers to the CSS selector for the alert. You can
   call this function multiple times with different CSS selectors
@@ -60,7 +62,9 @@ need to include the interactivity (the JavaScript part):
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.button', '.selector');
+```
 
 - The **.selector** refers to the CSS selector for the button. You can
   call this function multiple times with different CSS selectors
@@ -71,7 +75,9 @@ need to include the interactivity (the JavaScript part):
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.carousel', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the carousel. You can
   call this function multiple times with different CSS selectors
@@ -96,7 +102,9 @@ Options for the carousel can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.collapse', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the collapse. You can
   call this function multiple times with different CSS selectors
@@ -115,7 +123,9 @@ Options for the collapse can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.dropdown', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the dropdown. You can
   call this function multiple times with different CSS selectors
@@ -137,7 +147,9 @@ Options for the collapse can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.modal', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the modal. You can
   call this function multiple times with different CSS selectors
@@ -158,7 +170,9 @@ Options for the modal can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.offcanvas', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the offcanvas. You
   can call this function multiple times with different CSS selectors
@@ -178,7 +192,9 @@ Options for the offcanvas can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.popover', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the popover. You can
   call this function multiple times with different CSS selectors
@@ -216,7 +232,9 @@ Options for the popover can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.scrollspy', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the scrollspy. You
   can call this function multiple times with different CSS selectors
@@ -234,7 +252,9 @@ Options for the Scrollspy can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.tab', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the tab. You can call
   this function multiple times with different CSS selectors
@@ -247,7 +267,9 @@ Options for the Tab can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.tooltip', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the tooltip. You can
   call this function multiple times with different CSS selectors
@@ -282,7 +304,9 @@ Options for the tooltip can be:
 Assuming you have the HTML part already in your Layout, you will also
 need to include the interactivity (the JavaScript part):
 
+```php
     \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.toast', '.selector', []);
+```
 
 - The **.selector** refers to the CSS selector for the toast. You can
   call this function multiple times with different CSS selectors
@@ -369,8 +393,12 @@ and may change:
 Alerts may be used in html code without JavaScript support. This is only
 needed for the dismiss capability. HTML code example:
 
-      Holy guacamole! You should check in on some of those fields below.
-      
+```html
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>      
+```
 
 Example result of including a module in an article:
 
@@ -389,19 +417,25 @@ Buttons may be used in HTML code without JavaScript support. This is
 only needed for the sometimes subtle change of style applied to buttons
 with a change of state, styled active. Bootstrap example code:
 
-    Toggle button
-    Active toggle button
-    Disabled toggle button
+```html
+<p><button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Toggle button</button>
+<button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Active toggle button</button>
+<button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Disabled toggle button</button></p>
+```
 
-    Toggle link
-    Active toggle link
-    Disabled toggle link
+```html
+<p><a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+<a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+<a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle link</a></p>
+```
 
 With this style in the template user.css:
 
+```css
     .btn.btn-primary.active {
         background-color: green;
     }
+```
 
 <img
 src="https://docs.joomla.org/images/e/e9/Using-bootstrap-components-in-joomla-4-button-demo.png"
@@ -416,37 +450,41 @@ The Carousel offers a slide show cycling through a series of images or
 text panes. The following example used images from the Joomla 4 Sample.
 Bootstrap code:
 
-        
-             
-             
-            
-        
-        
-            
-                
-                    First slide label
-                    Some representative placeholder content for the first slide.
-                
-            
-            
-                
-                    Second slide label
-                    Some representative placeholder content for the second slide.
-                
-            
-            
-                
-                    Third slide label
-                    Some representative placeholder content for the third slide.
-                
-            
-        
-         
-            Previous 
-         
-         
-            Next 
-        
+```html
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+	<div class="carousel-indicators">
+		<button class="active" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button> 
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner">
+		<div class="carousel-item active"><img class="d-block w-100" src="images/sampledata/cassiopeia/nasa1-1200.jpg" alt="..." />
+			<div class="carousel-caption d-none d-md-block">
+				<h5>First slide label</h5>
+				<p>Some representative placeholder content for the first slide.</p>
+			</div>
+		</div>
+		<div class="carousel-item"><img class="d-block w-100" src="images/sampledata/cassiopeia/nasa2-1200.jpg" alt="..." />
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Second slide label</h5>
+				<p>Some representative placeholder content for the second slide.</p>
+			</div>
+		</div>
+		<div class="carousel-item"><img class="d-block w-100" src="images/sampledata/cassiopeia/nasa3-1200.jpg" alt="..." />
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Third slide label</h5>
+				<p>Some representative placeholder content for the third slide.</p>
+			</div>
+		</div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"> 
+		<span class="visually-hidden">Previous</span> 
+	</button> 
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"> 
+		<span class="visually-hidden">Next</span> 
+	</button>
+</div>
+```
 
 Result:
 
@@ -461,15 +499,19 @@ Collapse is widely used in Joomla and you may not need to use a module
 or plugin to trigger action. The click opens a pane with extra
 information. Example Bootstrap code:
 
-         Link with href  
-         
-            Button with data-bs-target 
-        
-
-
-        
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        
+```html
+<p>
+	<a class="btn btn-primary" role="button" href="#collapseExample" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample"> Link with href </a> 
+	<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> 
+		Button with data-bs-target 
+	</button>
+</p>
+<div id="collapseExample" class="collapse">
+	<div class="card card-body">
+		Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+	</div>
+</div>
+```
 
 Result:
 
@@ -483,14 +525,18 @@ data-file-height="261" width="1011" height="261" alt="Collapse Demo" />
 Dropdowns are toggleable, contextual overlays for displaying lists of
 links and more. Example Bootstrap code:
 
-         Action 
-        
-            Action
-            Another action
-            Something else here
-            
-            Separated link
-        
+```html
+<div class="btn-group">
+	<button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Action </button>
+	<ul class="dropdown-menu">
+		<li><a class="dropdown-item" href="#">Action</a></li>
+		<li><a class="dropdown-item" href="#">Another action</a></li>
+		<li><a class="dropdown-item" href="#">Something else here</a></li>
+		<li><hr class="dropdown-divider" /></li>
+		<li><a class="dropdown-item" href="#">Separated link</a></li>
+	</ul>
+</div>
+```
 
 Result:
 
@@ -506,23 +552,26 @@ There are quite a few options to control the size and content of the
 modal. See the Bootstrap documentation for more details. Example
 Bootstrap code:
 
-     Launch demo modal 
-
-        
-            
-                
-                    Modal title
-                    
-                
-                
-                    ...
-                
-                
-                    Close 
-                    Save changes
-                
-            
-        
+```html
+<p><button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Launch demo modal </button></p>
+<div id="exampleModal" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 id="exampleModalLabel" class="modal-title">Modal title</h5>
+				<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				...
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button> 
+				<button class="btn btn-primary" type="button">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+```
 
 Result:
 
@@ -542,7 +591,9 @@ Popovers are like Tooltips but with a Title. They have some
 accessibility and performance issues so should be used with caution.
 Example Bootstrap code:
 
-    Click to toggle popover
+```html
+<p><button class="btn btn-lg btn-danger" title="Popover title" type="button" data-bs-toggle="popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button></p>
+```
 
 Result:
 
@@ -555,40 +606,44 @@ data-file-height="180" width="1000" height="180" alt="Popover Demo" />
 
 Example code:
 
-        
-            
-                Navbar
-                Item 1
-                
-                    Item 1-1 
-                    Item 1-2
-                
-                Item 2 
-                Item 3
-                
-                    Item 3-1 
-                    Item 3-2
-                
-            
-        
-        
-            
-                Item 1
-                Placeholder content for the scrollspy example. This one relates to item 1. Takes you miles high, so high, 'cause she’s got that one international smile. There's a stranger in my bed, there's a pounding in my head. Oh, no. In another life I would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my crowning battle. Used to steal your parents' liquor and climb to the roof. Tone, tan fit and ready, turn it up cause its gettin' heavy. Her love is like a drug. I guess that I forgot I had a choice.
-                Item 1-1
-                Placeholder content for the scrollspy example. This one relates to the item 1-1. You got the finest architecture. Passport stamps, she's cosmopolitan. Fine, fresh, fierce, we got it on lock. Never planned that one day I'd be losing you. She eats your heart out. Your kiss is cosmic, every move is magic. I mean the ones, I mean like she's the one. Greetings loved ones let's take a journey. Just own the night like the 4th of July! But you'd rather get wasted.
-                Item 1-2
-                Placeholder content for the scrollspy example. This one relates to the item 1-2. Her love is like a drug. All my girls vintage Chanel baby. Got a motel and built a fort out of sheets. 'Cause she's the muse and the artist. (This is how we do) So you wanna play with magic. So just be sure before you give it all to me. I'm walking, I'm walking on air (tonight). Skip the talk, heard it all, time to walk the walk. Catch her if you can. Stinging like a bee I earned my stripes.
-                Item 2
-                Placeholder content for the scrollspy example. This one relates to item 2. Don't need apologies. There is no fear now, let go and just be free, I will love you unconditionally. Last Friday night. Don't be a shy kinda guy I'll bet it's beautiful. Summer after high school when we first met. 'Cause she's the muse and the artist. What? Wait. No, no, no, no. Thought that I was the exception.
-                Item 3
-                Placeholder content for the scrollspy example. This one relates to item 3. Word on the street, you got somethin' to show me, me. All this money can't buy me a time machine. Make it like your birthday everyday. So we hit the boulevard. You make me feel like I'm livin' a teenage dream, the way you turn me on Skip the talk, heard it all, time to walk the walk. Word on the street, you got somethin' to show me, me. It's no big deal, it's no big deal, it's no big deal.
-                Item 3-1
-                Placeholder content for the scrollspy example. This one relates to item 3-1. Baby do you dare to do this? This is no big deal. Yeah, you're lucky if you're on her plane. Just own the night like the 4th of July! Standing on the frontline when the bombs start to fall. So just be sure before you give it all to me.
-                Item 3-2
-                Placeholder content for the scrollspy example. This one relates to item 3-2. You're original, cannot be replaced. All night they're playing, your song. California girls we're undeniable. Like a bird without a cage. There is no fear now, let go and just be free, I will love you unconditionally. I can see the writing on the wall. You could travel the world but nothing comes close to the golden coast.
-            
-        
+```html
+<div class="row">
+	<div class="col-4">
+		<nav id="navbar-example3" class="navbar navbar-light bg-light flex-column">
+			<a class="navbar-brand" href="#">Navbar</a><nav class="nav nav-pills flex-column">
+			<a class="nav-link active" href="#item-1">Item 1</a>
+			<nav class="nav nav-pills flex-column">
+				<a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a> 
+				<a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+			</nav>
+			<a class="nav-link" href="#item-2">Item 2</a> 
+			<a class="nav-link" href="#item-3">Item 3</a>
+			<nav class="nav nav-pills flex-column">
+				<a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a> 
+				<a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+			</nav>
+		</nav>
+	</div>
+	<div class="col-8">
+		<div class="scrollspy-example" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0">
+			<h4 id="item-1">Item 1</h4>
+			<p>Placeholder content for the scrollspy example. This one relates to item 1. Takes you miles high, so high, 'cause she’s got that one international smile. There's a stranger in my bed, there's a pounding in my head. Oh, no. In another life I would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my crowning battle. Used to steal your parents' liquor and climb to the roof. Tone, tan fit and ready, turn it up cause its gettin' heavy. Her love is like a drug. I guess that I forgot I had a choice.</p>
+			<h5 id="item-1-1">Item 1-1</h5>
+			<p>Placeholder content for the scrollspy example. This one relates to the item 1-1. You got the finest architecture. Passport stamps, she's cosmopolitan. Fine, fresh, fierce, we got it on lock. Never planned that one day I'd be losing you. She eats your heart out. Your kiss is cosmic, every move is magic. I mean the ones, I mean like she's the one. Greetings loved ones let's take a journey. Just own the night like the 4th of July! But you'd rather get wasted.</p>
+			<h5 id="item-1-2">Item 1-2</h5>
+			<p>Placeholder content for the scrollspy example. This one relates to the item 1-2. Her love is like a drug. All my girls vintage Chanel baby. Got a motel and built a fort out of sheets. 'Cause she's the muse and the artist. (This is how we do) So you wanna play with magic. So just be sure before you give it all to me. I'm walking, I'm walking on air (tonight). Skip the talk, heard it all, time to walk the walk. Catch her if you can. Stinging like a bee I earned my stripes.</p>
+			<h4 id="item-2">Item 2</h4>
+			<p>Placeholder content for the scrollspy example. This one relates to item 2. Don't need apologies. There is no fear now, let go and just be free, I will love you unconditionally. Last Friday night. Don't be a shy kinda guy I'll bet it's beautiful. Summer after high school when we first met. 'Cause she's the muse and the artist. What? Wait. No, no, no, no. Thought that I was the exception.</p>
+			<h4 id="item-3">Item 3</h4>
+			<p>Placeholder content for the scrollspy example. This one relates to item 3. Word on the street, you got somethin' to show me, me. All this money can't buy me a time machine. Make it like your birthday everyday. So we hit the boulevard. You make me feel like I'm livin' a teenage dream, the way you turn me on Skip the talk, heard it all, time to walk the walk. Word on the street, you got somethin' to show me, me. It's no big deal, it's no big deal, it's no big deal.</p>
+			<h5 id="item-3-1">Item 3-1</h5>
+			<p>Placeholder content for the scrollspy example. This one relates to item 3-1. Baby do you dare to do this? This is no big deal. Yeah, you're lucky if you're on her plane. Just own the night like the 4th of July! Standing on the frontline when the bombs start to fall. So just be sure before you give it all to me.</p>
+			<h5 id="item-3-2">Item 3-2</h5>
+			<p>Placeholder content for the scrollspy example. This one relates to item 3-2. You're original, cannot be replaced. All night they're playing, your song. California girls we're undeniable. Like a bird without a cage. There is no fear now, let go and just be free, I will love you unconditionally. I can see the writing on the wall. You could travel the world but nothing comes close to the golden coast.</p>
+		</div>
+	</div>
+</div>
+```
 
 Result:
 
@@ -599,10 +654,12 @@ data-file-height="482" width="1000" height="482" alt="Scrollspy Demo" />
 
 Also, some styling is needed in user.css:
 
+```css
     .scrollspy-example {
         height: 350px;
         overflow-y: scroll;
     }
+```
 
 Snag: the menu does not coordinate well with the content in this
 example!
@@ -612,18 +669,22 @@ example!
 Tabs are often used as navigation elements combined with dropdowns.
 Bootstrap example code:
 
-        Active
-        Dropdown
-            
-                Action
-                Another action
-                Something else here
-                
-                Separated link
-            
-        
-        Link
-        Disabled
+```html
+<ul class="nav nav-tabs">
+	<li class="nav-item"><a class="nav-link active" href="#" aria-current="page">Active</a></li>
+	<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+		<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="#">Action</a></li>
+			<li><a class="dropdown-item" href="#">Another action</a></li>
+			<li><a class="dropdown-item" href="#">Something else here</a></li>
+			<li><hr class="dropdown-divider" /></li>
+			<li><a class="dropdown-item" href="#">Separated link</a></li>
+		</ul>
+	</li>
+	<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+	<li class="nav-item"><a class="nav-link disabled" tabindex="-1" href="#" aria-disabled="true">Disabled</a></li>
+</ul>
+```
 
 Result:
 
@@ -642,12 +703,16 @@ notifications that have been popularized by mobile and desktop operating
 systems. They’re built with flexbox, so they’re easy to align and
 position. Example Bootstrap code:
 
-        
-             
-            Bootstrap 11 mins ago 
-            
-        
-        Hello, world! This is a toast message.
+```html
+<div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+	<div class="toast-header">
+		<img class="rounded me-2" src="..." alt="..." /> 
+		<strong class="me-auto">Bootstrap</strong> <small>11 mins ago</small> 
+		<button class="btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+	</div>
+	<div class="toast-body">Hello, world! This is a toast message.</div>
+</div>
+```
 
 Result:
 
@@ -669,13 +734,15 @@ specified the default position is top. The tooltip will switch to
 another position if there is insufficient room in the specified
 position. Example Bootstrap code:
 
-     Tooltip on left  
-     Tooltip  
-     Tooltip on top  
-     Tooltip on right  
-     Tooltip on bottom  
-     Tooltip with HTML 
-    Tooltip triggered by class: Alert!
+```html
+<p><button class="btn btn-secondary" title="Tooltip on left" type="button" data-bs-toggle="tooltip" data-bs-placement="left"> Tooltip on left </button> 
+<button class="btn btn-secondary" title="Tooltip" type="button" data-bs-toggle="tooltip"> Tooltip </button> 
+<button class="btn btn-secondary" title="Tooltip on top" type="button" data-bs-toggle="tooltip" data-bs-placement="top"> Tooltip on top </button> 
+<button class="btn btn-secondary" title="Tooltip on right" type="button" data-bs-toggle="tooltip" data-bs-placement="right"> Tooltip on right </button> 
+<button class="btn btn-secondary" title="Tooltip on bottom" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom"> Tooltip on bottom </button> 
+<button class="btn btn-secondary" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>" type="button" data-bs-toggle="tooltip" data-bs-html="true"> Tooltip with HTML </button></p>
+<p>Tooltip triggered by class: <button class="btn btn-warning" title="Tooltip Message">Alert!</button></p>
+```
 
 Result:
 
@@ -721,6 +788,8 @@ The steps involved:
 - Select **Create Overrides **→** mod_custom **→** default.php**.
 - On the line following defined('\_JEXEC') or die; add the following
   code:
+
+```php
     $module_class = $params->get('moduleclass_sfx');
     if (!empty($module_class))
     {
@@ -773,6 +842,7 @@ The steps involved:
             }
         }
     }
+```
 
 This code searches for class names set in mod_custom and makes the
 HTMLHelper call to set up the JavaScript support. Note that the last
@@ -791,26 +861,30 @@ is needed. For example, it makes sense to use the **.btn** class and the
   - In the Position field type in **demomodal** for use in an article;
   - Module Content: Toggle Editor for plain text entry.
   - Paste in the following code from the Bootstrap documentation:
-    Modal
 
-     Launch demo modal 
-
-
-        
-            
-                
-                    Modal title
-                    
-                
-                
-                    ...
-                
-                
-                    Close 
-                    Save changes
-                
-            
-        
+```html
+<h2>Modal</h2>
+<!-- Button trigger modal -->
+<p><button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Launch demo modal </button></p>
+<!-- Modal -->
+<div id="exampleModal" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 id="exampleModalLabel" class="modal-title">Modal title</h5>
+				<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				...
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button> 
+				<button class="btn btn-primary" type="button">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+```
 
 - Select the Advanced tab and in the Module Class field enter
   **bs-modal**
@@ -823,7 +897,9 @@ is needed. For example, it makes sense to use the **.btn** class and the
 - Create a new article, Demo Modal, and in plain text entry mode set the
   content to
 
-      {loadposition demomodal}
+```html
+<div>{loadposition demomodal}</div>
+```
 
 - Create a Single Article menu item.
 
@@ -839,59 +915,63 @@ width="1440" height="742" alt="Bootstrap Modal in an Article" />
 - Position: demomodalcarousel
 - **Advance tab **→** Module Class**: bs-modal bs-carousel
 - Module Custom content in plain text:
-    Modal with Carousel
 
-         
-         Launch demo modal 
-
-
-        
-            
-                
-                     
-                        × 
-                    
-                
-                
-                    
-                        
-                             
-                             
-                            
-                        
-                        
-                            
-                                
-                                
-                                    First slide label
-                                    Some representative placeholder content for the first slide.
-                                
-                            
-                            
-                                
-                                
-                                    Second slide label
-                                    Some representative placeholder content for the second slide.
-                                
-                            
-                            
-                                
-                                
-                                    Third slide label
-                                    Some representative placeholder content for the third slide.
-                                
-                            
-                        
-                         
-                            Previous 
-                         
-                         
-                            Next 
-                        
-                    
-                
-            
-        
+```html
+<h2>Modal with Carousel</h2>
+<div class="mod-custom custom">
+	<!-- Button trigger modal --> 
+	<button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Launch demo modal </button>
+</div>
+<div id="exampleModal" class="modal fade" style="display: none;" tabindex="-1" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" type="button" data-bs-dismiss="modal" aria-label="Close"> 
+					<span aria-hidden="true">×</span> 
+				</button>
+			</div>
+			<div class="modal-body">
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button class="active" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button> 
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="images/sampledata/cassiopeia/nasa1-1200.jpg" alt="..." />
+							<div class="carousel-caption d-none d-md-block">
+								<h5>First slide label</h5>
+								<p>Some representative placeholder content for the first slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="images/sampledata/cassiopeia/nasa2-1200.jpg" alt="..." />
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Second slide label</h5>
+								<p>Some representative placeholder content for the second slide.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="images/sampledata/cassiopeia/nasa3-1200.jpg" alt="..." />
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Third slide label</h5>
+								<p>Some representative placeholder content for the third slide.</p>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"> 
+						<span class="visually-hidden">Previous</span> 
+					</button> 
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"> 
+						<span class="visually-hidden">Next</span> 
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+```
 
 - Create a new Article with {loadposition demomodalcarousel} in the
   content.

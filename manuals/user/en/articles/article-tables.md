@@ -74,39 +74,36 @@ Bootstrap styles instead.
 
 Before removing the inline styles the table looks like this:
 
-
-
-    Day
-
-Morning
-
-Afternoon
-
-Evening
-
-Tuesday
-
-Welcome
-
-Presentations
-
-BBQ
-
-Wendneday
-
-Posters
-
-Presentations
-
-Banquet
-
-Thursday
-
-Plenary
-
-Presentations
-
-Cocktails
+```html
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 24.6568%;">Day</td>
+<td style="width: 24.6568%;">Morning</td>
+<td style="width: 24.6568%;">Afternoon</td>
+<td style="width: 24.6568%;">Evening</td>
+</tr>
+<tr>
+<td style="width: 24.6568%;">Tuesday</td>
+<td style="width: 24.6568%;">Welcome</td>
+<td style="width: 24.6568%;">Presentations</td>
+<td style="width: 24.6568%;">BBQ</td>
+</tr>
+<tr>
+<td style="width: 24.6568%;">Wendneday</td>
+<td style="width: 24.6568%;">Posters</td>
+<td style="width: 24.6568%;">Presentations</td>
+<td style="width: 24.6568%;">Banquet</td>
+</tr>
+<tr>
+<td style="width: 24.6568%;">Thursday</td>
+<td style="width: 24.6568%;">Plenary</td>
+<td style="width: 24.6568%;">Presentations</td>
+<td style="width: 24.6568%;">Cocktails</td>
+</tr>
+</tbody>
+</table>
+```
 
 To add Bootstrap styles:
 
@@ -121,39 +118,38 @@ To add Bootstrap styles:
 
 It should now look like this:
 
-
-
-    Day
-
-Morning
-
-Afternoon
-
-Evening
-
-Tuesday
-
-Welcome
-
-Presentations
-
-BBQ
-
-Wednesday
-
-Posters
-
-Presentations
-
-Banquet
-
-Thursday
-
-Plenary
-
-Presentations
-
-Cocktails
+```html
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Day</th>
+<th scope="col">Morning</th>
+<th scope="col">Afternoon</th>
+<th scope="col">Evening</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tuesday</td>
+<td>Welcome</td>
+<td>Presentations</td>
+<td>BBQ</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>Posters</td>
+<td>Presentations</td>
+<td>Banquet</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>Plenary</td>
+<td>Presentations</td>
+<td>Cocktails</td>
+</tr>
+</tbody>
+</table>
+```
 
 Select OK to save the changes and then Save the article. The table has
 no styling in the edit form so have a look at it in the Site page. It

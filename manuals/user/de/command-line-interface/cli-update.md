@@ -1,7 +1,7 @@
 <!-- Filename: J4.x:CLI_Update / Display title: CLI Update -->
 
-<span id="main-portal-heading">GSoC 2018  
-CLI Update  
+<span id="main-portal-heading">GSoC 2018
+CLI Update
 Dokumentation</span> [<img
 src="https://docs.joomla.org/images/thumb/7/7d/Gsoc2016.png/75px-Gsoc2016.png"
 decoding="async"
@@ -73,8 +73,8 @@ Das CLI Update bietet ein Kommando, um gezielt nach Updates für Joomla!
 zu suchen, dabei funktioniert das genau so, wie die Internetversion von
 `com_joomlaupdate`, es ruft Updates ab und meldet, ob ein Update
 vorhanden ist oder nicht. Um die Updateprüfung auszuführen, werden wir
-den Befehl wie gesagt aus dem Wurzelverzeichnis heraus erteilen.  
-`php cli/joomla.php core:check-updates`  
+den Befehl wie gesagt aus dem Wurzelverzeichnis heraus erteilen.
+`php cli/joomla.php core:check-updates`
 Das Kommando wird ausgeführt und die Ausgabe zeigt eine verfügbare
 Updateversion an, falls vorhanden, oder sagt andernfalls, dass die
 derzeitige Installation auf dem neusten Stand ist.
@@ -167,7 +167,7 @@ Das letzte Kommando in dieser Kategorie ist das `extension:remove`
 Kommando. Es wird benutzt um Erweiterungen aus dem Joomla! CMS zu
 entfernen. Dieses Kommando verwendet die `extension_id` als Argument,
 man kann auch immer `extension:list` verwenden, um die Erweiterungs ID
-zu erfahren. Hier wird eine Erweiterung mit der ID `803` entfernt.  
+zu erfahren. Hier wird eine Erweiterung mit der ID `803` entfernt.
 `php cli/joomla.php extension:remove 803`
 
 <img
@@ -182,8 +182,8 @@ alt="Extension Remove.png" />
 Ebenso sehr wie das CLI Update einen Befehl bietet um nach Updates zu
 suchen, bietet es darüber hinaus ein Kommando, ein Update durchzuführen
 falls vorhanden. Um ein Update auszuführen führen wir nur folgendes
-aus:  
-`php cli/joomla.php core:update`  
+aus:
+`php cli/joomla.php core:update`
 Dieses Kommando führt ein Update des Joomla! Kerns durch und bringt es
 auf die neuste verfügbare Version.
 
@@ -205,7 +205,7 @@ Modus.
 
 Um eine frische Joomla! Installation mit Hilfe des interaktiven Modus zu
 erhalten werden wir einfach das `extension:install` Kommando so
-ausführen:  
+ausführen:
 `php cli/joomla.php extension:install`
 
 Der standardmäßige Installationsmodus wird gestartet und wird danach
@@ -227,7 +227,7 @@ In diesem Modus wirst du nicht danach gefragt werden, alle
 Auswahlmöglichkeiten einzugeben. Stattdessen werden alle
 Installationsoptionen aus einer Datei gelesen. Das Kommando wird um eine
 Option ergänzt, die den Pfad zu der Datei angibt, aus der die
-Installationsoptionen ausgelesen werden, das sieht folgendermaßen aus:  
+Installationsoptionen ausgelesen werden, das sieht folgendermaßen aus:
 `php cli/joomla.php core:install --file=/path/to/config.json`
 
 <img
@@ -237,8 +237,9 @@ srcset="https://docs.joomla.org/images/thumb/d/dd/Core_install_file.png/1200px-C
 data-file-width="1980" data-file-height="760" width="800" height="307"
 alt="Core install file.png" />
 
-Ein Beispiel für den Inhalt der `config.json` kann sein:  
+Ein Beispiel für den Inhalt der `config.json` kann sein:
 
+```json
     {
       "language":"en-GB",
       "site_name":"Joomla",
@@ -254,9 +255,11 @@ Ein Beispiel für den Inhalt der `config.json` kann sein:
       "db_old":"remove",
       "helpurl":"https://joomla.org"
     }
+```
 
 ODER als Muster einer `config.ini`
 
+```ini
     site_name="gsoc"
     admin_email="user@example.com"
     admin_user="user"
@@ -267,6 +270,7 @@ ODER als Muster einer `config.ini`
     db_pass=""
     db_name="joomla"
     db_prefix="prefix_"
+```
 
 Die definierten Optionen werden geladen und valdiert, anschließend wird
 die Installation ausgeführt.
@@ -283,7 +287,7 @@ Das CLI Update bietet einen Befehl, der den Wert einer bestehenden
 Option in der Konfiguration ändert. Unter Verwendung des `config:get`
 Kommandos kann man jede beliebige Konfigurationsoption, die sich
 innerhalb der `configuration.php` befindet, ändern. So wird dieses
-Kommando verwendet:  
+Kommando verwendet:
 `php cli/joomla.php config:set mailer=mail`
 
 <img
@@ -294,7 +298,7 @@ data-file-width="1980" data-file-height="648" width="800" height="262"
 alt="Config set single.png" />
 
 Es ist sogar mögliche, viele Paare von Optionswerten wie diese
-hinzuzufügen:  
+hinzuzufügen:
 `php cli/joomla.php config:set mailer=mail fromname=Joomla! sitename="Joomla Site"`
 Auf diese Weise werden Optionen auf einmal geändert.
 
@@ -311,7 +315,7 @@ Als nächsten Befehl in dieser Kategorie sei das `config:get` Kommando
 genannt, wie der Name schon vermuten lässt liefert es den Wert einer
 Option der sich innerhalb der `configuration.php` befindet, ohne
 zusätzliches Argument zeigt es alle verfügbaren Optionen in
-tabellarischer Form an. Jetzt zu diesem Befehl:  
+tabellarischer Form an. Jetzt zu diesem Befehl:
 `php cli/joomla.php config:get sitename`
 
 Hier wird der Wert der Option `sitename` ausgegeben.
@@ -361,7 +365,7 @@ Update unterstüzt derzeit die Gruppenwerte: mail, db und Sitzung
 
 Wie der Name schon suggeriert, erlauben es diese Kommandos eine von
 Joomla! betriebene Website flugs in den offline- oder online-Modus zu
-versetzen, so wird dieser Befehl verwendet:  
+versetzen, so wird dieser Befehl verwendet:
 `php cli/joomla.php site:up`
 
 <img
@@ -400,16 +404,23 @@ Update schreiben will, es erfordert, dass ein bestehendes Kommando
 intern aufgerufen werden muss, so kann dies innerhalb einer anderen
 Befehlsklasse aus geschehen:
 
-    getApplication()->getCommand('say:hello');
-            $code = $command->execute();
+```php
+<?php
+class RunHelloCommand extends AbstractCommand {
+    ...
 
-            if($code === 0) {
-                // command ran successfully, do something
-            }
+    public function execute(): int {
+        $command = $this->getApplication()->getCommand('say:hello');
+        $code = $command->execute();
+
+        if($code === 0) {
+            // command ran successfully, do something
         }
-
-        ...
     }
+
+    ...
+}
+```
 
 Hier versuchen wir, dass `say:hello` Kommando aufzurufen, dass in obigem
 Video erschaffen wurde.
@@ -420,9 +431,9 @@ Video erschaffen wurde.
   <a href="https://symfony.com/doc/current/console/style.html"
   class="external text" target="_blank"
   rel="nofollow noreferrer noopener">How to Style a Console Command</a>
--   
--   
--   
--   
+-
+-
+-
+-
 - Eine CLI Anwendung mit Joomla 4 entwickeln [J4.x:Writing A CLI
   Application](https://docs.joomla.org/J4.x:Writing_A_CLI_Application "J4.x:Writing A CLI Application")

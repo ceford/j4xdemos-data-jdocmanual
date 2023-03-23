@@ -93,7 +93,7 @@ can run in two different ways which are:
 - *General Listing*: Lists all the extensions installed, by extensions
   it means components, languages, plugins, modules will be listed
   together when you run this command. This is how you call the
-  command:`php cli/joomla.php extension:list` <img
+  command: `php cli/joomla.php extension:list` <img
   src="https://docs.joomla.org/images/thumb/7/71/Extension_list.png/800px-Extension_list.png"
   decoding="async"
   srcset="https://docs.joomla.org/images/thumb/7/71/Extension_list.png/1200px-Extension_list.png 1.5x, https://docs.joomla.org/images/thumb/7/71/Extension_list.png/1600px-Extension_list.png 2x"
@@ -123,7 +123,7 @@ can use them is described below.
 - *Installing from URL*: To install an extension from URL we will run
   the command like this and provide an argument and option for the
   `extension:install`
-  command.`php cli/joomla.php extension:install --url=`<a
+  command. `php cli/joomla.php extension:install --url=`<a
   href="https://github.com/joomla-extensions/patchtester/releases/download/3.0.0-beta3/com_patchtester.zip"
   class="external free" target="_blank"
   rel="nofollow noreferrer noopener"><code>https://github.com/joomla-extensions/patchtester/releases/download/3.0.0-beta3/com_patchtester.zip</code></a>This
@@ -139,7 +139,7 @@ alt="Extension install url.png" />
 - *Installing from a PATH*:To install an extension from a PATH we will
   run the same `extension:install` command and specify arguments for
   paths like
-  this:`php cli/joomla.php extension:install --path=/Users/bosunski/docs/com_pathtester.zip`
+  this: `php cli/joomla.php extension:install --path=/Users/bosunski/docs/com_pathtester.zip`
   <img
   src="https://docs.joomla.org/images/thumb/e/eb/Extension_install_path.png/800px-Extension_install_path.png"
   decoding="async"
@@ -222,6 +222,7 @@ alt="Core install file.png" />
 
 An example of the contents of `config.json` can be:  
 
+```json
     {
       "language":"en-GB",
       "site_name":"Joomla",
@@ -237,9 +238,11 @@ An example of the contents of `config.json` can be:
       "db_old":"remove",
       "helpurl":"https://joomla.org"
     }
+```
 
 OR as sample `config.ini`
 
+```ini
     site_name="gsoc"
     admin_email="user@example.com"
     admin_user="user"
@@ -250,6 +253,7 @@ OR as sample `config.ini`
     db_pass=""
     db_name="joomla"
     db_prefix="prefix_"
+```
 
 The options defined are loaded and validated after which the
 installation will run.
@@ -375,16 +379,23 @@ Should in case a command you want to write for the CLI Update is going
 to be require that you call an existing command internally, this is how
 that can be achieved from within another command class:
 
-    getApplication()->getCommand('say:hello');
-            $code = $command->execute();
+```php
+<?php
+class RunHelloCommand extends AbstractCommand {
+    ...
 
-            if($code === 0) {
-                // command ran successfully, do something
-            }
+    public function execute(): int {
+        $command = $this->getApplication()->getCommand('say:hello');
+        $code = $command->execute();
+
+        if($code === 0) {
+            // command ran successfully, do something
         }
-
-        ...
     }
+
+    ...
+}
+```
 
 Here, we're attempting to call the `say:hello` command created in the
 Video above.
