@@ -37,7 +37,7 @@ This means your installation file is best represented as a package, pkg_weblinks
 
 Your plugin code goes in a subdirectory of the webservices directory under the plugins directory, in this example ***plugins/webservices/weblinks***.
 
-<img alt="" src="/images/0/0f/Struct2.png.png" decoding="async" class="thumbimage" data-file-width="328" data-file-height="339" width="328" height="339">
+<img alt="" src="https://docs.joomla.org/images/0/0f/Struct2.png.png" decoding="async" class="thumbimage" data-file-width="328" data-file-height="339" width="328" height="339">
 
 2. In ***weblinks.php***, create the class  ***PlgWebservicesWeblinks***.
 
@@ -95,21 +95,16 @@ class PlgWebservicesWeblinks extends CMSPlugin
 }
 ```
 
-In the ***onBeforeApiRoute*** method, register all the routes needed for the webservice.
+Override the following fields:
 
-When Joomla receives an API call it loads the API router which then collects a list of endpoints it should be aware of by running the ''onBeforeApiRoute'' method in all enabled plugin classes that contain it. Then it can locate the API component relevant to the API endpoint that has been called.
-
-The createCRUDRoutes method creates five routes; two GET routes for list and item data, and one POST, one PATCH, and one DELETE route. If you don't require this, simply create the routes directly here.
-
-## The API code
-
-Die folgenden Felder übersteuern (override):
-
+```
     $contentType - wird als Standard für $modelName verwendet, wenn die Antwort als Typ-Objekt ausgegeben wird
     $default_view - wird als Standard für $viewName verwendet
+```
 
 3\. Anlegen der Klasse: ***JsonApiView.php***
 
+```php
     use Joomla\CMS\MVC\View\JsonApiView as BaseApiView;
 
     class JsonApiView extends BaseApiView
@@ -130,63 +125,46 @@ Die folgenden Felder übersteuern (override):
             'alias',
         ];
     }
+```
 
 Die folgenden Felder übersteuern (override):
 
+```
     $fieldsToRenderItem - Array aus Feldern zur Anzeige eines einzelnen Objekts
     $fieldsToRenderList - Array aus Feldern um Objekte aufzulisten
+```
 
-## Zweiter Schritt
-
-1\. Verzeichnis erstellen: ***plugins/webservices/weblinks***
-
-<img src="https://docs.joomla.org/images/0/0f/Struct2.png.png"
-class="thumbimage" decoding="async" data-file-width="328"
-data-file-height="339" width="328" height="339" />
-<a href="https://docs.joomla.org/File:Struct2.png.png" class="internal"
-title="Enlarge"></a>File system structure
-
-2\. In der Datei ***weblinks.php***, erstellen der Klasse:
-***PlgWebservicesWeblinks***
-
-    use Joomla\CMS\Plugin\CMSPlugin;
-    use Joomla\CMS\Router\ApiRouter;
-
-    class PlgWebservicesWeblinks extends CMSPlugin
-    {
-        public function onBeforeApiRoute(&$router)
-        {
-            $router->createCRUDRoutes('v1/weblinks', 'weblinks', ['component' => 'com_weblinks']);
-        }
-    }
-
-In der Methode ***onBeforeApiRoute***, alle Routen registrieren, die wir
-für den Webservice benötigen.
+Notice that this indicates a significant difference between JSON API views and HTML views. With HTML views you are used to having separate files and directories for displaying a list of items and displaying individual items. There isn't the same "display" difference for JSON, so one JsonapiView handles both types. That's why both fields lists are both shown in this one view file.
 
 3\. Erstellen von: ***weblinks.xml***
 
-
-        plg_webservices_weblinks
-        Joomla! Project
-        August 2017
-        (C) 2005 - 2019 Open Source Matters. All rights reserved.
-        GNU General Public License version 2 or later; see LICENSE.txt
-        admin@joomla.org
-        www.joomla.org
-        4.0.0
-        PLG_WEBSERVICES_WEBLINKS_XML_DESCRIPTION
-
-             ##FILES##
-
-
-             ##LANGUAGE_FILES##
-
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="webservices" method="upgrade">
+    <name>PLG_WEBSERVICES_WEBLINKS</name>
+    <author>Joomla! Project</author>
+    <creationDate>August 2017</creationDate>
+    <copyright>(C) 2005 - 2019 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>admin@joomla.org</authorEmail>
+    <authorUrl>www.joomla.org</authorUrl>
+    <version>4.0.0</version>
+    <description>PLG_WEBSERVICES_WEBLINKS_XML_DESCRIPTION</description>
+    <files>
+         ##FILES##
+    </files>
+    <languages folder="administrator/language">
+         ##LANGUAGE_FILES##
+    </languages>
+</extension>
+```
 
 4\. Erstellen der Dateien
 ***en-GB/en-GB.plg_webservices_weblinks.ini***,
 ***en-GB/en-GB.plg_webservices_weblinks.sys.ini*** mit dem folgenden
 Inhalt:
 
+```ini
     ; Joomla! Project
     ; Copyright (C) 2005 - 2019 Open Source Matters. All rights reserved.
     ; License GNU General Public License version 2 or later; see LICENSE.txt, see LICENSE.php
@@ -194,17 +172,53 @@ Inhalt:
 
     PLG_WEBSERVICES_WEBLINKS="Web Services - Weblinks"
     PLG_WEBSERVICES_WEBLINKS_XML_DESCRIPTION="Used to add weblinks routes to the Web Services API for your website."
+```
 
-## Dritter Schritt
+## Packaging
 
-Wenn dieses Plugin mit einem anderen Element (z. B. einer Komponente)
-verknüpft ist, dann muss das Ganze als Paket zusammengestellt werden. In
-diesem Fall in der Datei
-***src/administrator/manifests/packages/pkg_weblinks.xml*** eine
-Beschreibung für das Webservice-Plugin hinzufügen.
+There are two considerations for packaging, the code in the API section and the plugin.
 
-        ...
-        plg_webservices_weblinks.zip
+### Component Packaging
+
+As mentioned elsewhere, the API code is packaged with the component code. To include the code in the package, add the following section to your component manifest:
+
+```xml
+<api>
+    <files folder="api">
+        <folder>src</folder>
+    </files>
+</api>
+```
+
+This will create a section for your API code in the correctly named (for your component) folder under the **api** folder.
+
+### Plugin Packaging
+
+The manifest file for the plugin itself is shown above. Since the plugin is an integral part of the component now, it is best to package the two together. Similar to a single extension installation file, a package installation file contains each extension in the package, already compressed, and a package manifest file. In the case of this example, the manifest file would look something like this (some fields omitted):
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!--~
+  ~ @package Weblinks
+    ....
+  -->
+
+<extension version="4.0.0" type="package" method="upgrade">
+    <name>Weblinks</name>
+    <packagename>weblinks</packagename>
+    <version>x.y.z</version>
+    <!-- etc etc -->
+
+    <!-- List of extensions to install -->
+    <files>
+        <!-- Component -->
+        <file type="component" id="com_weblinks">com_weblinks.zip</file>
+
+        <!-- Plugins: web services -->
+        <file type="plugin" id="weblinks" group="webservices">plg_webservices_weblinks.zip</file>
+    </files>
+</extension>
+```
 
 ## Kategorien
 
@@ -212,6 +226,7 @@ Beschreibung für das Webservice-Plugin hinzufügen.
 Bearbeiten der Datei
 ***src/plugins/webservices/weblinks/weblinks.php***.
 
+```php
     class PlgWebservicesWeblinks extends CMSPlugin
     {
         public function onBeforeApiRoute(&$router)
@@ -224,6 +239,7 @@ Bearbeiten der Datei
             );
         }
     }
+```
 
 Wir verwenden die vorgefertigte Komponente ***com_categories*** und
 müssen nur noch den Parameter 'extension' =\> 'com_weblinks'
@@ -234,6 +250,7 @@ müssen nur noch den Parameter 'extension' =\> 'com_weblinks'
 „Weblinks“. Bearbeiten der Datei
 ***src/plugins/webservices/weblinks/weblinks.php***
 
+```php
     class PlgWebservicesWeblinks extends CMSPlugin
     {
         public function onBeforeApiRoute(&$router)
@@ -252,9 +269,11 @@ müssen nur noch den Parameter 'extension' =\> 'com_weblinks'
             );
         }
     }
+```
 
 2\. Überschreiben der Funktion ***save*** in ***WeblinksController***
 
+```php
     class WeblinksController extends ApiController
     {
         ...
@@ -281,10 +300,12 @@ müssen nur noch den Parameter 'extension' =\> 'com_weblinks'
 
         ...
     }
+```
 
 3\. Überschreiben der Funktionen ***displayList, displayItem,
 prepareItem*** in ***Weblinks\JsonApiView***
 
+```php
     class JsonApiView extends BaseApiView
     {
         ...
@@ -321,16 +342,18 @@ prepareItem*** in ***Weblinks\JsonApiView***
 
         ...
     }
+```
 
-In der Funktion *prepareItem* muss geachtet werden auf:
-
-    $field->apivalue
-
+In der Funktion *prepareItem* muss geachtet werden auf: `$field->apivalue`.
 Falls der Typ des Feldes komplex ist, wird hoffentlich ein Wert für die
 Ausgabe in der Web Services API-Komponente zurückgegeben, andernfalls
-greifen wir zurück auf:
+greifen wir zurück auf: `$field->rawvalue`.
 
-    $field->rawvalue
+## Data
+
+The core functionality renders the data that you would expect from a simple component in the normal web interface. For this, the API defaults to administration data models. However, providing a **Model** section in your API code gives you back the flexibility to construct whatever data shape you want just for your API output. Provide a model for each view with the usual naming conventions.
+
+The system JsonApiView class formats the JSON output as three data sets; links, items, and metadata. To change that, override the display class in your own JsonapiView and **don't** call the parent class.
 
 ## Beispiel für eine integrierte Arbeit
 
@@ -353,10 +376,10 @@ curl -X DELETE /api/index.php/v1/weblinks/{weblink_id}
 
 #### Weblink erstellen
 
+```bash
 curl -X POST -H "Content-Type: application/json"
 /api/index.php/v1/weblinks -d
-
-    {
+'   {
         "access": "1",
         "alias": "",
         "catid": "8",
@@ -388,20 +411,22 @@ curl -X POST -H "Content-Type: application/json"
         "title": "weblink title",
         "url": "http://somelink.com/",
         "xreference": "xreference"
-    }
+    }'
+```
 
 #### Weblink aktualisieren
 
+```bash
 curl -X PUT -H "Content-Type: application/json"
 /api/index.php/v1/weblinks/{weblink_id} -d
-
-    {
+`   {
         "catid": "8",
         "description": "some new text",
         "language": "*",
         "title": "new title",
         "url": "http://newsomelink.com/"
-    }
+    }'
+```
 
 ### Kategorien
 
