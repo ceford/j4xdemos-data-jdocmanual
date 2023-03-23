@@ -22,13 +22,15 @@ will be explained in detail shortly. This code should be added to the
 extension manifest file, within the root *extension* element. The update
 server is defined as follows for each type:
 
-     
-     <...>
-     
-        https://example.com/list.xml
-        http://example.com/extension.xml
-     
-     
+```xml
+<extension>
+<...>
+<updateservers>
+  <server type="collection">https://example.com/list.xml</server>
+  <server type="extension" priority="2" name="My Extension's Updates">http://example.com/extension.xml</server>
+</updateservers>
+</extension>
+ ```
 
 Multiple servers can be defined within the tag. If you have more than
 one update server, you can set a different priority for each. In that
@@ -47,9 +49,11 @@ updated at the same time (such as a package extension type). The below
 example is the `"collection"` definition used by the updater when
 processing core Joomla! updates:
 
-     
-        
-     
+```xml
+<extensionset name="Joomla Core" description="Joomla! Core">
+    <extension name="Joomla" element="joomla" type="file" version="1.7.0" detailsurl="https://update.joomla.org/core/extension.xml"/>
+</extensionset>
+```
 
 All definitions must be defined between tags in your collection
 manifest. The tag has two optional parameters; name and description. For
@@ -72,29 +76,34 @@ collection manifests eventually point to this XML file. All updates in
 this file must be defined after an tag at the beginning of the file. The
 below example is the update definition for the Joomla! 3.9.6 release:
 
-        
-            Joomla! 3.9
-            Joomla! 3.9 CMS
-            joomla
-            file
-            3.9.6
-            https://www.joomla.org/announcements/release-news/5765-joomla-3-9-6-release.html
-            
-                https://downloads.joomla.org/cms/joomla3/3-9-6/Joomla_3.9.6-Stable-Update_Package.zip
-                https://github.com/joomla/joomla-cms/releases/download/3.9.6/Joomla_3.9.6-Stable-Update_Package.zip
-                https://update.joomla.org/releases/3.9.6/Joomla_3.9.6-Stable-Update_Package.zip
-            
-            
-                stable
-            
-            05157273aadd3045564ee44373ea3643b437fa5321d17993a3119b38b04578e2
-            ebd9b0666fbe84e20a420a4bcd6c10d306fc4dee4edbbe8e2133c85f0fb84e59be5a50aa97cb38c068b77f77f6bbc091
-            a4c47644ceeaeec28944e0c74160203cf12037e0ea1439022e95055dfb6716de172667ce6d9164f12bb519d9cfcf1fdc728abea00f853b41debc7d2740f2b711
-            Joomla! Production Department
-            https://www.joomla.org
-            STS
-            
-            5.3.10
+```xml
+<updates>
+	<update>
+		<name>Joomla! 3.9</name>
+		<description>Joomla! 3.9 CMS</description>
+		<element>joomla</element>
+		<type>file</type>
+		<version>3.9.6</version>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5765-joomla-3-9-6-release.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-6/Joomla_3.9.6-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.6/Joomla_3.9.6-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.9.6/Joomla_3.9.6-Stable-Update_Package.zip</downloadsource>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<sha256>05157273aadd3045564ee44373ea3643b437fa5321d17993a3119b38b04578e2</sha256>
+		<sha384>ebd9b0666fbe84e20a420a4bcd6c10d306fc4dee4edbbe8e2133c85f0fb84e59be5a50aa97cb38c068b77f77f6bbc091</sha384>
+		<sha512>a4c47644ceeaeec28944e0c74160203cf12037e0ea1439022e95055dfb6716de172667ce6d9164f12bb519d9cfcf1fdc728abea00f853b41debc7d2740f2b711</sha512>
+		<maintainer>Joomla! Production Department</maintainer>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
+		<section>STS</section>
+		<targetplatform name="joomla" version="3.[789]" />
+		<php_minimum>5.3.10</php_minimum>
+</update>
+</updates>
+```
 
 The following section describes the elements of a single update entity.
 
