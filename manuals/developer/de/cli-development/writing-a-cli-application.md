@@ -95,9 +95,9 @@ Let's cover the 3 parts of this code:
 
 - *configure* function: Configures information about the command setting
   up information in the class which is shown when a user lists help
-  information for the command\* *doExecute* function: This method does
+  information for the command *doExecute* function: This method does
   the work of the command - you'd normally go and execute a Joomla
-  Component here (i.e. Dispatch a components dispatcher)\* *defaultName*
+  Component here (i.e. Dispatch a components dispatcher) *defaultName*
   property: This is the command name that is run when executed (remember
   this we'll come back to it in a second!)If you need more help there's
   an excellent Video produced as part of our [GSOC

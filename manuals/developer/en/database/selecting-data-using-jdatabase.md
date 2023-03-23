@@ -271,7 +271,7 @@ you can manipulate the query in a loop.
 In the loop we set the previously bound \$username variable with the
 \$name variable from the loop, then we have to set the query again
 (because Joomla reset the database driver after query execution which is
-only true for load\* functions). The result of this will be multiple
+only true for load functions). The result of this will be multiple
 queries with different username values. We can use arrays to add
 multiple variables at once.
 
