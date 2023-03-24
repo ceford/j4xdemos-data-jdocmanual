@@ -28,7 +28,11 @@ version number, it alerts for an updated available.
 Language pack XML file needs to include (*zz-ZZ* stands for your
 language code):
 
-      https://update.zzZZ.com/translationlist.xml
+```xml
+<updateservers>
+  <server type="collection" priority="1" name="zz-ZZ Language Updates">https://update.zzZZ.com/translationlist.xml</server>
+</updateservers>
+```
 
 See full example here: [Creating language packs for extensions in Joomla
 2.5](https://docs.joomla.org/Creating_language_packs_for_extensions_in_Joomla_2.5 "Creating language packs for extensions in Joomla 2.5")
@@ -55,11 +59,15 @@ different components (using the names Jupiter and Pluto as component
 names) for the zz-ZZ language, the *translationlist.xml* contents would
 be:
 
-
-      
-      
-      
-      
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<extensionset name="zz-ZZ Language Updates" description="zz-ZZ Joomla core and extensions languages updates">
+  <extension name="zz-ZZ language for Joomla" element="pkg_zz-ZZ" type="package" version="2.5.4.2" detailsurl="https://update.zzZZ.com/details/zz-ZZ_details.xml"/>
+  <extension name="zz-ZZ language for TinyMCE" element="file_tinymce_zz-ZZ" type="file" version="3.4.7.1" detailsurl="https://update.zzZZ.com/details/zz-ZZ_details_tinymce.xml"/>
+  <extension name="zz-ZZ language for Jupiter" element="file_jupiter_zz-ZZ" type="file" version="2.0.2.1" detailsurl="https://update.zzZZ.com/details/zz-ZZ_details_jupiter.xml"/>
+  <extension name="zz-ZZ language for Pluto" element="file_pluto_zz-ZZ" type="file" version="3.0.3.1" detailsurl="https://update.zzZZ.com/details/pt-PT_details_pluto.xml"/>
+</extensionset>
+```
 
 - element info = same as the XML file name on the language pack
   *file_jupiter_pt-PT.xml*. This name will never change.
@@ -79,18 +87,22 @@ available to update. Each pack URL and version is stated in an single
 include the details for that language pack as in:
 *\details\zz-ZZ_details_jupiter.xml*
 
-
-      
-        zz-ZZ language for Jupiter
-        zz-ZZ language for Jupiter 2.0.2
-        file_jupiter_zz-ZZ
-        file
-        2.0.2.1
-        
-          https://joomlacode.org/gf/download/frsrelease/3238/72703/jupiter_202_lang_zz-ZZ_v2021.zip
-        
-        
-      
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>zz-ZZ language for Jupiter</name>
+    <description>zz-ZZ language for Jupiter 2.0.2</description>
+    <element>file_jupiter_zz-ZZ</element>
+    <type>file</type>
+    <version>2.0.2.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip">https://joomlacode.org/gf/download/frsrelease/3238/72703/jupiter_202_lang_zz-ZZ_v2021.zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="2.5"/>
+  </update>
+</updates>
+```
 
 This can have more than one language pack (inside *...* ) but you can
 only list one extension by file.

@@ -37,20 +37,20 @@ incorporés (inline))
 
 A titre d'exemple, disons que nous avons un article :
 
-    Utilisation des balises de titre
-    Ceci est un article sur l'importance des titres.
+    <h1>Utilisation des balises de titre</h1>
+    <p>Ceci est un article sur l'importance des titres.</p>
 
-    Pourquoi utiliser des balises de titre ?
-    Il est important d'utiliser des balises de titre afin d'indiquer aux robots des moteurs de recherche quelles sont les parties importantes de votre article.
+    <h2>Pourquoi utiliser des balises de titre ?</h2>
+    <p>Il est important d'utiliser des balises de titre afin d'indiquer aux robots des moteurs de recherche quelles sont les parties importantes de votre article.</p>
 
-    Types de balise de titre
-    Vous pouvez utiliser un ensemble de balises de titre, mais elles doivent être ordonnées et structurées au sein de votre page. H1 doit correspondre au titre de votre page et H2 doit être utilisé pour les sous-titres de la page. Tous les titres contenus à l'intérieur de vos sous-titres doivent être ordonnancés avec H3, H4 et H5.
+    <h3>Types de balise de titre</h3>
+    <p>Vous pouvez utiliser un ensemble de balises de titre, mais elles doivent être ordonnées et structurées au sein de votre page. H1 doit correspondre au titre de votre page et H2 doit être utilisé pour les sous-titres de la page. Tous les titres contenus à l'intérieur de vos sous-titres doivent être ordonnancés avec H3, H4 et H5.</p>
 
-    Est-il difficile d'implémenter les balises de titre ?
-    Rien de plus simple, il vous suffit d'utiliser le code HTML adéquat.
+    <h2>Est-il difficile d'implémenter les balises de titre ?</h2>
+    <p>Rien de plus simple, il vous suffit d'utiliser le code HTML adéquat.</p>
 
-    Utilisation des balises de titre sur des pages dynamiques
-    Sur des pages dynamiques, il suffit d'envelopper votre titre principal dans une balise H1 (par exemple, le titre d'une page de liste de catégories devrait être en H1) puis d'envelopper tous les titres suivants dans des balises H2.
+    <h3>Utilisation des balises de titre sur des pages dynamiques</h3>
+    <p>Sur des pages dynamiques, il suffit d'envelopper votre titre principal dans une balise H1 (par exemple, le titre d'une page de liste de catégories devrait être en H1) puis d'envelopper tous les titres suivants dans des balises H2.</p>
 
 Ici, un 'robot' de moteur de recherche pourrait voir clairement la
 structure - h1, h2, h3 - mais si nous avions simplement mis ces titres

@@ -66,6 +66,7 @@ en cours sont accessibles via une nouvelle propriété dans la variable
 tableau qui contient les données suivantes par champ, un champ
 ressemblant à cet exemple:
 
+```php
     Array
     (
         [4] => stdClass Object
@@ -75,7 +76,7 @@ ressemblant à cet exemple:
                 [name] => article-editor
                 [checked_out] => 0
                 [checked_out_time] => 0000-00-00 00:00:00
-                [note] => 
+                [note] =>
                 [state] => 1
                 [access] => 1
                 [created_time] => 2017-04-07 12:08:59
@@ -86,10 +87,10 @@ ressemblant à cet exemple:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [buttons] => 
-                                [width] => 
-                                [height] => 
-                                [filter] => 
+                                [buttons] =>
+                                [width] =>
+                                [height] =>
+                                [filter] =>
                             )
 
                         [initialized:protected] => 1
@@ -100,13 +101,13 @@ ressemblant à cet exemple:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [hint] => 
-                                [render_class] => 
-                                [class] => 
+                                [hint] =>
+                                [render_class] =>
+                                [class] =>
                                 [showlabel] => 1
                                 [disabled] => 0
                                 [readonly] => 0
-                                [show_on] => 
+                                [show_on] =>
                                 [display] => 2
                             )
 
@@ -115,31 +116,33 @@ ressemblant à cet exemple:
                     )
 
                 [type] => editor
-                [default_value] => 
+                [default_value] =>
                 [context] => com_content.article
                 [group_id] => 0
                 [label] => article-editor
-                [description] => 
+                [description] =>
                 [required] => 0
-                [language_title] => 
-                [language_image] => 
-                [editor] => 
+                [language_title] =>
+                [language_image] =>
+                [editor] =>
                 [access_level] => Public
                 [author_name] => Super User
-                [group_title] => 
-                [group_access] => 
-                [group_state] => 
+                [group_title] =>
+                [group_access] =>
+                [group_state] =>
                 [value] => Bar
                 [rawvalue] => Bar
             )
 
     )
+```
 
 ### Rendre le champ à l'aide de FieldsHelper
 
 Pour rendre le champ, vous pouvez utiliser `FieldsHelper::render()` en
 transmettant les valeurs nécessaires.
 
+```php
     /**
      * Renders the layout file and data on the context and does a fall back to
      * Fields afterwards.
@@ -153,23 +156,30 @@ transmettant les valeurs nécessaires.
      * @since  3.7.0
      */
     public static function render($context, $layoutFile, $displayData)
+```
 
 #### Exemple de code pour la substitution à l'aide de FieldsHelper
 
-    // Load the FieldsHelper
+```php
+// Load the FieldsHelper
+<?php JLoader::register('FieldsHelper', JPATH_ADMINISTRATOR . '/components/com_fields/helpers/fields.php'); ?>
 
-
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        context, 'field.render', array('field' => $field)); ?>
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?>
+<?php endforeach ?>
+```
 
 #### Exemple de code pour un remplacement brut
 
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        label . ':' . $field->value; ?>
+```php
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo $field->label . ':' . $field->value; ?>
+<?php endforeach ?>
+```
 
-### jcfields_ne_contient_pas_les_champs_dont_j'ai_besoin"\>`$item->jcfields` ne contient pas les champs dont j'ai besoin
+### `$item->jcfields` ne contient pas les champs dont j'ai besoin
 
 La propriété `jcfields` est générée à l'aide de l'événement du plug-in
 `onContentPrepare` en passant le contexte des champs. Le plugin champs
@@ -195,11 +205,13 @@ d'une substitution, placez le code ci-dessous au début de votre fichier.
 Vous devriez le faire pour chaque fichier PHP de substitution sur lequel
 vous souhaitez placer des champs personnalisés individuels.
 
-    jcfields as $jcfield)
-         {
-              $item->jcFields[$jcfield->name] = $jcfield;
-         }
-    ?>
+```php
+<?php foreach($item->jcfields as $jcfield)
+     {
+          $item->jcFields[$jcfield->name] = $jcfield;
+     }
+?>
+```
 
 Enfin, vous devez ajouter le code d’emplacement du champ à l’endroit où
 vous souhaitez afficher l’étiquette ou la valeur du champ.
@@ -207,7 +219,9 @@ vous souhaitez afficher l’étiquette ou la valeur du champ.
 Pour ajouter le **label** du champ à votre substitution, insérez le code
 ci-dessous, en remplaçant `name-of-field` par le nom du champ.
 
-    jcFields['name-of-field']->label; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->label; ?>
+```
 
 Pour ajouter la valeur **value** du champ à votre substitution, insérez
 le code ci-dessous, en remplaçant `name-of-field` par le nom du champ.
@@ -216,7 +230,9 @@ Attention: dans la série 3.x, **value** est en fait la **rawvalue**
 class="external free" target="_blank"
 rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/issues/20216</a>
 
-    jcFields['name-of-field']->rawvalue; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->rawvalue; ?>
+```
 
 Vous pouvez ajouter ce code dans n’importe quelle partie de votre
 substitution. Exemples: Le contenu d'un div, le src dans une balise

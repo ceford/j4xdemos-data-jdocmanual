@@ -40,11 +40,15 @@ virtual host configuration file or in the main (`httpd.conf`)
 configuration file you must have something similar to the example below
 enabling overrides:
 
-      AllowOverride All
+```bash
+<Directory "/home/user/public_html">
+  AllowOverride All
+</Directory>
 
-
-
-      AllowOverride All Options=[an option],[an option],...
+<Directory "/path/to/htdocs">
+  AllowOverride All Options=[an option],[an option],...
+</Directory>
+```
 
 There are other ways to test if `.htaccess` is enabled if you do not
 have access to your site's configuration files. Please refer to the
@@ -169,58 +173,67 @@ class="external text" target="_blank"
 rel="nofollow noreferrer noopener">Translate <em>.htaccess</em> Content
 to IIS <em>web.config</em></a>
 
-
-        
-            
-                
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                            
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                        
-                        
-                    
-                    
-                        
-                        
-                            
-                            
-                            
-                        
-                        
-                    
-                
-            
-            
-                
-                    
-                
-            
-        
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <clear />
+                <rule name="Common Exploit Blocking" stopProcessing="true">
+                    <match url="^(.*)$" />
+                    <conditions logicalGrouping="MatchAny">
+                        <add input="{QUERY_STRING}" pattern="mosConfig_[a-zA-Z_]{1,21}(=|\%3D)" />
+                        <add input="{QUERY_STRING}" pattern="base64_encode.*\(.*\)" />
+                        <add input="{QUERY_STRING}" pattern="(\&lt;|%3C).*script.*(\>|%3E)" />
+                        <add input="{QUERY_STRING}" pattern="GLOBALS(=|\[|\%[0-9A-Z]{0,2})" />
+                        <add input="{QUERY_STRING}" pattern="_REQUEST(=|\[|\%[0-9A-Z]{0,2})" />
+                    </conditions>
+                    <action type="Redirect" url="index.php" appendQueryString="false" redirectType="SeeOther" />
+                </rule>
+                <rule name="Joomla Search Rule" stopProcessing="true">
+                    <match url="(.*)" ignoreCase="true" />
+                    <conditions logicalGrouping="MatchAll">
+                        <add input="{URL}" pattern="^/search.php" ignoreCase="true" />
+                    </conditions>
+                    <action type="Rewrite" url="/index.php?option=com_content&amp;view=article&amp;id=4" />
+                </rule>
+                <rule name="Joomla Main Rewrite Rule" stopProcessing="true">
+                    <match url="(.*)" ignoreCase="true" />
+                    <conditions logicalGrouping="MatchAll">
+                        <add input="{URL}" pattern="(/[^.]*|\.(php|html?|feed|pdf|raw))$" />
+                        <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+                        <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+                    </conditions>
+                    <action type="Rewrite" url="index.php/" />
+                </rule>
+            </rules>
+        </rewrite>
+        <caching>
+            <profiles>
+                <add extension=".php" policy="DisableCache" kernelCachePolicy="DisableCache" />
+            </profiles>
+        </caching>
+    </system.webServer>
+</configuration>
+```
 
 ## Nginx
 
 - Please add this code to your server (vhost) configuration in the
   *nginx.conf* file:
+
+```
        # Support Clean (aka Search Engine Friendly) URLs
        location / {
           try_files $uri $uri/ /index.php?$args;
        }
+```
 
 - If the above does not work, add this code to your server configuration
   in the *nginx.conf* file: (This worked with *nginx 1.4.6* on Ubuntu.)
+
+```
     server {
       ....
       location / {
@@ -231,6 +244,7 @@ to IIS <em>web.config</em></a>
       }
       ....
     }
+```
 
 - Log on to your Backend and open the Global Configuration.
 - Enable the *Search Engine Friendly URLs* option and *Save*. This

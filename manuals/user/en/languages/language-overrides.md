@@ -74,14 +74,20 @@ a case where some text has been added to the logout layout of the login
 module, described in the article on Template Layouts. The alternative
 layout has this code:
 
-    Your session will expire at 
-      
+```html
+<p class="text-center">
+Your session will expire at <br><?php echo $endTime; ?>  
+</p>
+```
 
 For a multilingual site using English, French and German the code needs
 to change:
 
-
-      
+```html
+<p class="text-center">
+<?php echo Text::_('TPL_CASSIOPEIA_MOD_LOGIN_SESSION_EXPIRES_AT')?><br><?php echo $endTime; ?>  
+</p>
+```
 
 Note: if you have followed the Template Layout tutorial you may already
 have a key TPL_CASSIOPEIA_MOD_LOGIN_LAYOUT_EXPIRES that translates as

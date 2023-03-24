@@ -34,20 +34,22 @@ Style Sheets (CSS) or in-line styling)
 
 For example, lets say we have an article:
 
-    Using headings
-    This is an article about the importance of headings
+```html
+  <h1>Using headings</h1>
+  <p>This is an article about the importance of headings.</p>
 
-    Why use headings?
-    It is important to use headings so that search engine bots can tell what is an important part of your article
+  <h2>Why use headings?</h2>
+  <p>It is important to use headings so that search engine bots can tell what is an <strong>important</strong> part of your article.</p>
 
-    Types of headings
-    You can use set types of headings, but they should be ordered, and structured, within your page.  H1 should be your page title, with H2 being used for sub-headings of the page.  Any headings within your sub-headings should cascade using H3, H4, and H5 as appropriate.
+  <h3>Types of headings</h3>
+  <p>You can use set types of headings, but they should be ordered, and structured, within your page.  H1 should be your page title, with H2 being used for sub-headings of the page.  Any headings within your sub-headings should cascade using H3, H4, and H5 as appropriate.</p>
 
-    Is it hard to implement headings?
-    It is really easy to implement headings, you just use the appropriate HTML code
+  <h2>Is it hard to implement headings?</h2>
+  <p>It is really easy to implement headings, you just use the appropriate HTML code.</p>
 
-    Using headings on dynamic pages
-    On dynamic pages, simply wrap your main heading within a H1 (for example, the title of a category listing page would be H1) then wrap all subsequent headings in H2.
+  <h3>Using headings on dynamic pages</h3>
+  <p>On dynamic pages, simply wrap your main heading within a H1 (for example, the title of a category listing page would be H1) then wrap all subsequent headings in H2.</p>
+```
 
 Here, a search engine 'bot' could clearly see the structure - h1, h2,
 h3 - but if we were to simply make these titles bold, underlined and

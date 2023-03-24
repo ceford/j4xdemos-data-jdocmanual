@@ -33,21 +33,23 @@ module linked to quickicon plugins.
 
 Atum template positions by name
 
-       
-            
-            bottom
-            debug
-            menu
-            sidebar
-            status
-            title
-            top
-            toolbar
-            cpanel
-            icon
-            login
-            customtop
-        
+```xml
+	<positions>
+		<!-- used directly in the template -->
+		<position>bottom</position>
+		<position>debug</position>
+		<position>menu</position>
+		<position>sidebar</position>
+		<position>status</position>
+		<position>title</position>
+		<position>top</position>
+		<position>toolbar</position>
+		<position>cpanel</position>
+		<position>icon</position>
+		<position>login</position>
+		<position>customtop</position>
+	</positions>
+```
 
 ## Add a Custom Module
 

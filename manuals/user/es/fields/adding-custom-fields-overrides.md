@@ -65,6 +65,7 @@ variable denominada `jcfields`. La propiedad `$item->jcfields` es un
 array que contiene los datos de cada campo, donde un campo puede ser
 como el siguiente ejemplo:
 
+```php
     Array
     (
         [4] => stdClass Object
@@ -74,7 +75,7 @@ como el siguiente ejemplo:
                 [name] => article-editor
                 [checked_out] => 0
                 [checked_out_time] => 0000-00-00 00:00:00
-                [note] => 
+                [note] =>
                 [state] => 1
                 [access] => 1
                 [created_time] => 2017-04-07 12:08:59
@@ -85,10 +86,10 @@ como el siguiente ejemplo:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [buttons] => 
-                                [width] => 
-                                [height] => 
-                                [filter] => 
+                                [buttons] =>
+                                [width] =>
+                                [height] =>
+                                [filter] =>
                             )
 
                         [initialized:protected] => 1
@@ -99,13 +100,13 @@ como el siguiente ejemplo:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [hint] => 
-                                [render_class] => 
-                                [class] => 
+                                [hint] =>
+                                [render_class] =>
+                                [class] =>
                                 [showlabel] => 1
                                 [disabled] => 0
                                 [readonly] => 0
-                                [show_on] => 
+                                [show_on] =>
                                 [display] => 2
                             )
 
@@ -114,31 +115,33 @@ como el siguiente ejemplo:
                     )
 
                 [type] => editor
-                [default_value] => 
+                [default_value] =>
                 [context] => com_content.article
                 [group_id] => 0
                 [label] => article-editor
-                [description] => 
+                [description] =>
                 [required] => 0
-                [language_title] => 
-                [language_image] => 
-                [editor] => 
+                [language_title] =>
+                [language_image] =>
+                [editor] =>
                 [access_level] => Public
                 [author_name] => Super User
-                [group_title] => 
-                [group_access] => 
-                [group_state] => 
+                [group_title] =>
+                [group_access] =>
+                [group_state] =>
                 [value] => Bar
                 [rawvalue] => Bar
             )
 
     )
+```
 
 ### Mostrando un campo usando FieldsHelper
 
 Para mostrar un campo puedes usar `FieldsHelper::render()` pasando los
 valores necesarios.
 
+```php
     /**
      * Renders the layout file and data on the context and does a fall back to
      * Fields afterwards.
@@ -152,21 +155,28 @@ valores necesarios.
      * @since  3.7.0
      */
     public static function render($context, $layoutFile, $displayData)
+```
 
 #### Ejemplo de código para la sobrescritura usando FieldsHelper
 
-    // Load the FieldsHelper
+```php
+// Load the FieldsHelper
+<?php JLoader::register('FieldsHelper', JPATH_ADMINISTRATOR . '/components/com_fields/helpers/fields.php'); ?>
 
-
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        context, 'field.render', array('field' => $field)); ?>
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?>
+<?php endforeach ?>
+```
 
 #### Ejemplo de código para una sobrescritura en bruto
 
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        label . ':' . $field->value; ?>
+```php
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo $field->label . ':' . $field->value; ?>
+<?php endforeach ?>
+```
 
 ### jcfields_no_contiene_el_campo_que_necesito"\>`$item->jcfields` no contiene el campo que necesito
 
@@ -193,11 +203,13 @@ personalizados en una sobrescritura, sitúa el siguiente código al
 principio de tu fichero. Debes hacer esto en cada archivo PHP de
 sobrescritura en el que quieras ubicar campos personalizados en él.
 
-    jcfields as $jcfield)
-         {
-              $item->jcFields[$jcfield->name] = $jcfield;
-         }
-    ?>
+```php
+<?php foreach($item->jcfields as $jcfield)
+     {
+          $item->jcFields[$jcfield->name] = $jcfield;
+     }
+?>
+```
 
 Y por último, debes añadir el código al lugar en el que desees mostrar
 la etiqueta o el valor del campo.
@@ -206,7 +218,9 @@ Para añadir la **etiqueta** del campo a tu sobrescritura, inserta el
 siguiente código, reemplazando `name-of-field` por el nombre de tu
 campo.
 
-    jcFields['name-of-field']->label; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->label; ?>
+```
 
 Para añadir el **valor** del campo a tu sobrescritura, inserta el código
 siguiente, reemplazando `name-of-field` por el nombre del campo.
@@ -215,7 +229,9 @@ Cuidado: en las versiones 3.x el **valor** es de hecho el **rawvalue**
 class="external free" target="_blank"
 rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/issues/20216</a>
 
-    jcFields['name-of-field']->rawvalue; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->rawvalue; ?>
+```
 
 Puedes añadir este código a cualquier parte de tu sobrescritura.
 Ejemplos: En el contenido de un `div`, en el src de una etiqueta `img`,

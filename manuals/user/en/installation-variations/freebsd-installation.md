@@ -15,7 +15,6 @@ NOTE: Intended as a quick-start installation guide, this article does
 not address optimal [security
 settings](https://docs.joomla.org/Security_Checklist "Special:MyLanguage/Security Checklist"),
 performance tuning, etc.  
-  
 
 ## Preparations
 
@@ -43,7 +42,6 @@ Add the following lines to `/etc/rc.conf`:
 
 Start the apache server.  
 `service apache24 start`  
-  
 
 ## Installing PHP
 
@@ -58,10 +56,14 @@ Also install Apache PHP module mod_php80.
 As instructed by the post-install message, add the following lines to
 `/usr/local/etc/apache24/httpd.conf`:  
 
-        SetHandler application/x-httpd-php
-
-
-        SetHandler application/x-httpd-php-source
+```php
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch "\.phps$">
+    SetHandler application/x-httpd-php-source
+</FilesMatch>
+```
 
 Also modify the following line:  
 

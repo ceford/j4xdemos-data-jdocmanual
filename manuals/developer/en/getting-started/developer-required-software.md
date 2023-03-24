@@ -62,7 +62,7 @@ file space. That could be /home/username/public_html on Linux or
 This is an example Mac virtual host entry in file
 /etc/apache2/vhosts/localhost.conf:
 
-```xml
+```bash
 <VirtualHost *:80>
         DocumentRoot "/Users/username/Sites"
         ServerName localhost

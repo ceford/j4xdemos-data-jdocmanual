@@ -341,9 +341,7 @@ security issues to be aware of:
     possible that an as yet unknown vulnerability exists in the Joomla!
     core, a third-party extension, or the browser itself.
 
-### How do I turn off RG_EMULATION? <img src="https://docs.joomla.org/images/4/43/Compat_icon_1_0.png"
-decoding="async" data-file-width="40" data-file-height="17" width="40"
-height="17" alt="Joomla 1.0" />
+### How do I turn off RG_EMULATION? (Joomla 1.0)
 
 PHP's *register_globals* option was a terrible idea from a security
 point of view. It encouraged lazy programming and exposed many scripts
@@ -865,9 +863,7 @@ may be highly inconvenient, but it's not usually a security breach.
     method for protecting files on a file by file and directory by
     directory basis.
 
-### How do I adjust Joomla 1.5 defines <img src="https://docs.joomla.org/images/c/c8/Compat_icon_1_5.png"
-decoding="async" data-file-width="40" data-file-height="17" width="40"
-height="17" alt="Joomla 1.5" />
+### How do I adjust Joomla 1.5 defines
 
 There are two defines files that will generally need to be edited. The
 */includes/defines.php* file is for the Frontend and
@@ -927,9 +923,7 @@ bash on Apple OS X, must have a path specified in the find command.
 1.  Test all third party extensions after changing permissions.
 2.  You may need to reset write permissions to install more extensions.
 
-### How can I set the administrator directory to use an SSL server? <img src="https://docs.joomla.org/images/4/43/Compat_icon_1_0.png"
-decoding="async" data-file-width="40" data-file-height="17" width="40"
-height="17" alt="Joomla 1.0" />
+### How can I set the administrator directory to use an SSL server? (Joomla 1.0)
 
 Use Joomla version 1.5 or newer
 
@@ -2171,9 +2165,7 @@ at the top that the site is down for maintenance.
 ### How do I reset an administrator password?
 
 **Note:** This method is for Joomla versions up to and including
-1.0.12<img src="https://docs.joomla.org/images/4/43/Compat_icon_1_0.png"
-decoding="async" data-file-width="40" data-file-height="17" width="40"
-height="17" alt="Joomla 1.0" />. For later versions of Joomla and Joomla
+1.0.12. For later versions of Joomla and Joomla
 1.5.xx versions please use this **(<a
 href="https://docs.joomla.org/How_do_you_recover_your_admin_password%3F"
 class="mw-redirect"

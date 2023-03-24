@@ -58,6 +58,17 @@ as a wrapper around it. Now, if your file only contains some classes or
 functions, but does not execute any code, there is nothing wrong about
 that:
 
+```php
+<?php
+ class myClass {
+     [SomeFunctionsHere]
+ }
+ function myFunction() {
+     [SomeCodeHere]
+ }
+ ?>
+ ```
+
 The cracker would just see an empty page when accessing your file
 directly. But if that PHP file actually executes anything, he would
 probably see a bunch of error messages, revealing important details of
@@ -226,7 +237,11 @@ need to be even more careful, just stripping out html will not be
 enough, for example consider this which might be included in an html
 template:
 
-      var colour = <?php echo $jinput->get('colour','blue','alnum'); ?>;
+```javascript
+<script type="text/javascript">
+  var colour = <?php echo $jinput->get('colour','blue','alnum'); ?>;
+</script>
+```
 
 In this case we have used the 'alnum' filter, which removes all except
 characters a to z and 0 to 9. You need a very restrictive filter such as
@@ -240,8 +255,12 @@ attacker inlcudes in the query string:
 If you use a filter that removes only html tags, this results in the
 javascript statements:
 
-      var colour = blue;
-      window.alert(document.cookie);
+```javascript
+<script type="text/javascript">
+  var colour = blue;
+  window.alert(document.cookie);
+</script>
+```
 
 ## Secure your extension against cross-site request forgery
 
@@ -259,6 +278,10 @@ a Joomla site on a page that has stood idle for some time: it will fail
 with an 'invalid token' message. This is an essential security feature.
 To use this feature in your extension (which you should always do), you
 need to include the token in any form that your extension uses.
+
+```php
+<?php echo JHTML::_( 'form.token' ); ?>
+```
 
 Then before your extension does anything dangerous such as deleting, you
 check for a valid token:

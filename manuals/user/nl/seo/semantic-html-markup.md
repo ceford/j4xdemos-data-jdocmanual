@@ -37,20 +37,20 @@ opmaak).
 
 Laten we zeggen dat we als voorbeeld dit artikel nemen:
 
-    Gebruik van kopjes
-    Dit is een artikel over het belang van kopjes
+    <h1>Gebruik van kopjes</h1>
+    <p>Dit is een artikel over het belang van kopjes</p>
 
-    Waarom gebruik je kopjes?
-    Het is belangrijk kopjes te gebruiken zodat zoekmachien bots kunnen zien wat een  belangrijk onderdeel van je artikel is.
+    <h2>Waarom gebruik je kopjes?</h2>
+    <p>Het is belangrijk kopjes te gebruiken zodat zoekmachien bots kunnen zien wat een  belangrijk onderdeel van je artikel is.</p>
 
-    Type kopjes
-    U kunt bepaalde type kopjes gebruiken, maar deze moeten geordend en gestructureerd worden binnen de pagina. Een H1 is de pagina titel en H2 wordt gebruikt voor sub-kopjes in de pagina. Kopjes binnen de sub-kopjes zoals H3, H4 en H5 moeten hiërarchisch gebruikt worden.
+    <h3>Type kopjes</h3>
+    <p>U kunt bepaalde type kopjes gebruiken, maar deze moeten geordend en gestructureerd worden binnen de pagina. Een H1 is de pagina titel en H2 wordt gebruikt voor sub-kopjes in de pagina. Kopjes binnen de sub-kopjes zoals H3, H4 en H5 moeten hiërarchisch gebruikt worden.</p>
 
-    Is het moeilijk om kopjes te gebruiken?
-    Het is heel makkelijk om kopjes te gebruiken, kies gewoon de juiste HTML code.
+    <h2>Is het moeilijk om kopjes te gebruiken?</h2>
+    <p>Het is heel makkelijk om kopjes te gebruiken, kies gewoon de juiste HTML code.</p>
 
-    Het gebruik van kopjes op dynamische pagina's
-    Op een dynamische pagina sluit je je belangrijkste kop gewoon in een H1 (bijvoorbeeld de titel van een Categorie lijst pagina is een H1) en plaats alle overige kopjes in een H2.
+    <h3>Het gebruik van kopjes op dynamische pagina's</h3>
+    <p>Op een dynamische pagina sluit je je belangrijkste kop gewoon in een H1 (bijvoorbeeld de titel van een Categorie lijst pagina is een H1) en plaats alle overige kopjes in een H2.<p>
 
 Hier ziet een zoekmachine 'bot' duidelijk de structuur - h1, h2, h3 -
 maar als we deze titels alleen vet zouden maken en het lettertype zouden

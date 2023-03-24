@@ -134,11 +134,7 @@ See [Enabling Search Engine Friendly (SEF) URLs on
 IIS](https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_IIS "Enabling Search Engine Friendly (SEF) URLs on IIS")
 for instructions.
 
-## <a
-href="https://docs.joomla.org/index.php?title=Restricting_access_to_the_backend_by_IP_address&amp;action=edit&amp;redlink=1"
-class="new"
-title="Restricting access to the backend by IP address (page does not exist)">Restricting
-access to the backend by IP address</a>
+## Restricting access to the backend by IP address
 
 You can utilise server based IP protection. If you're running IIS 7.5 on
 Windows Server 2008, you can use the IP and Domain Security option. Go

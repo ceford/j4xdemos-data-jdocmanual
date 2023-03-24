@@ -62,6 +62,7 @@ item accessible via a new property in your `$item` variable called
 `jcfields`. The `$item->jcfields` property is an array that holds the
 following data per field, where one field looks like this example:
 
+```php
     Array
     (
         [4] => stdClass Object
@@ -130,12 +131,14 @@ following data per field, where one field looks like this example:
             )
 
     )
+```
 
 ### Render the field using the FieldsHelper
 
 To render the field you can use `FieldsHelper::render()` by passing the
 needed values.
 
+```php
     /**
      * Renders the layout file and data on the context and does a fall back to
      * Fields afterwards.
@@ -149,23 +152,30 @@ needed values.
      * @since  3.7.0
      */
     public static function render($context, $layoutFile, $displayData)
+```
 
 #### Example code for the override using the FieldsHelper
 
-    // Load the FieldsHelper
+```php
+// Load the FieldsHelper
+<?php JLoader::register('FieldsHelper', JPATH_ADMINISTRATOR . '/components/com_fields/helpers/fields.php'); ?>
 
-
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        context, 'field.render', array('field' => $field)); ?>
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?>
+<?php endforeach ?>
+```
 
 #### Example code for a raw override
 
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        label . ':' . $field->value; ?>
+```php
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo $field->label . ':' . $field->value; ?>
+<?php endforeach ?>
+```
 
-### jcfields_does_not_contain_the_fields_I_need"\>`$item->jcfields` does not contain the fields I need
+### `$item->jcfields` does not contain the fields I need
 
 The `jcfields` property is generated using the plugin event
 `onContentPrepare` by passing the context of the fields. The fields
@@ -190,11 +200,13 @@ place the code below at the beginning of your file. You should do this
 to every override PHP file that you want to place individual custom
 fields on.
 
-    jcfields as $jcfield)
-         {
-              $item->jcFields[$jcfield->name] = $jcfield;
-         }
-    ?>
+```php
+<?php foreach($item->jcfields as $jcfield)
+     {
+          $item->jcFields[$jcfield->name] = $jcfield;
+     }
+?>
+```
 
 And lastly, you should add the field placement code at the spot you want
 the field label or value to be shown.
@@ -202,7 +214,9 @@ the field label or value to be shown.
 To add the **label** of the field to your override, insert the code
 below, replacing `name-of-field` with the name of the field.
 
-    jcFields['name-of-field']->label; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->label; ?>
+```
 
 To add the **value** of the field to your override, insert the code
 below, replacing `name-of-field` with the name of the field. Beware: in
@@ -211,7 +225,9 @@ the 3.x series the **value** is in fact the **rawvalue**
 class="external free" target="_blank"
 rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/issues/20216</a>
 
-    jcFields['name-of-field']->rawvalue; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->rawvalue; ?>
+```
 
 You can add this code to any part of your override. Examples: The
 content of a div, the src in an `img` tag, within a CSS class attribute,

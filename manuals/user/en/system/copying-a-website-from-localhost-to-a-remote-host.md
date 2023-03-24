@@ -59,16 +59,16 @@ Select all files from the directory localhost. (With XAMPP, the
 directory will be */xampp/www/directory*.) Upload to the remote host
 HTML directory for a domain or to the remote host HTML subdirectory.
 
-|                                                                     |                                                                       |                                                                          |
+|                                                                     
+|                                                                       
+|                                                                          |
 |---------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------|
-| Dir LocalHost                                                       | Upload to Html Root                                                   | Or Upload Sub. Html Root                                                 |
-| <img src="https://docs.joomla.org/images/0/0c/Filezilladircopy.png" 
- decoding="async" data-file-width="120" data-file-height="284"        
- width="120" height="284" alt="Select Dir." />                        | <img src="https://docs.joomla.org/images/6/6f/Filezilladirectory.png" 
-                                                                       decoding="async" data-file-width="185" data-file-height="140"          
-                                                                       width="185" height="140" alt="Dir Filezilla." />                       | <img src="https://docs.joomla.org/images/9/9c/Filezillasubdirectory.png" 
-                                                                                                                                               decoding="async" data-file-width="185" data-file-height="140"             
-                                                                                                                                               width="185" height="140" alt="Subdir Filezilla." />                       |
+| Dir LocalHost                                                       
+| Upload to Html Root                                                   
+| Or Upload Sub. Html Root                                                 |
+| <img src="https://docs.joomla.org/images/0/0c/Filezilladircopy.png"  decoding="async" data-file-width="120" data-file-height="284" width="120" height="284" alt="Select Dir." />
+| <img src="https://docs.joomla.org/images/6/6f/Filezilladirectory.png"  decoding="async" data-file-width="185" data-file-height="140" width="185" height="140" alt="Dir Filezilla." />                       
+| <img src="https://docs.joomla.org/images/9/9c/Filezillasubdirectory.png" decoding="async" data-file-width="185" data-file-height="140" width="185" height="140" alt="Subdir Filezilla." />                       |
 
 Select Dir Host and Upload to remote host or subdirectory remote host
 

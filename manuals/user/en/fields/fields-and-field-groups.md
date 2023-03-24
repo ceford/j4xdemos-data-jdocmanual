@@ -161,35 +161,40 @@ and set some Display Options. You will need to know some CSS and add
 code to user.css in your site template. In this example some dummy
 values have been added to the options:
 
-
-        Common Name: 
-        my-prefix
-        Saxifrage
-        my-suffix
-
-
-        Latin Name: 
-        Saxifraga - Peter Pan
-
-
-        Flowering Season: 
-        Autumn, Winter
-
-
-        Colour: 
-        #fa9bab
-
-
-        Height: 
-        10
-
-
-        Spread: 
-        30
-
-
-        Hardiness: 
-        5
+```html
+<ul class="fields-container">
+<li class="field-entry common-name my-label">
+	<span class="field-label my-output">Common Name: </span>
+	<span class="field-prefix">my-prefix</span>
+	<span class="field-value my-value">Saxifrage</span>
+	<span class="field-suffix">my-suffix</span>
+</li>
+<li class="field-entry latin-name ">
+	<span class="field-label ">Latin Name: </span>
+	<span class="field-value ">Saxifraga - Peter Pan</span>
+</li>
+<li class="field-entry flowering-season ">
+	<span class="field-label ">Flowering Season: </span>
+	<span class="field-value ">Autumn, Winter</span>
+</li>
+<li class="field-entry colour ">
+	<span class="field-label ">Colour: </span>
+	<span class="field-value ">#fa9bab</span>
+</li>
+<li class="field-entry height ">
+	<span class="field-label ">Height: </span>
+	<span class="field-value ">10</span>
+</li>
+<li class="field-entry spread ">
+	<span class="field-label ">Spread: </span>
+	<span class="field-value ">30</span>
+</li>
+<li class="field-entry hardiness ">
+	<span class="field-label ">Hardiness: </span>
+	<span class="field-value ">5</span>
+</li>
+</ul>
+```
 
 ## Custom User Fields
 
@@ -208,6 +213,8 @@ Login module after login, here are the steps required:
   the Editor tab / html / mod_login.
 - Open default_logout.php and add the following lines after the last use
   statament (line 17):
+
+```php
     // custom code to access custom field 'user-photo'
     use Joomla\CMS\Factory;
     use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
@@ -226,5 +233,6 @@ Login module after login, here are the steps required:
     {
         echo $photo;
     }
+```
 
 More in another tutorial?

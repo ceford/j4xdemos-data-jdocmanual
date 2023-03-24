@@ -58,6 +58,17 @@ as a wrapper around it. Now, if your file only contains some classes or
 functions, but does not execute any code, there is nothing wrong about
 that:
 
+```php
+<?php
+ class myClass {
+     [SomeFunctionsHere]
+ }
+ function myFunction() {
+     [SomeCodeHere]
+ }
+ ?>
+ ```
+
 The cracker would just see an empty page when accessing your file
 directly. But if that PHP file actually executes anything, he would
 probably see a bunch of error messages, revealing important details of
@@ -180,7 +191,7 @@ to all strings that will be used in SQL queries, and apply
 
     $value = intval( $value );
 
-  
+
 to all integer numbers you use in SQL queries. It is a good idea to do
 this even if you think that the values will never be obtained from user
 input. You don't know how your code may be used in future. Again, for
@@ -226,7 +237,11 @@ need to be even more careful, just stripping out html will not be
 enough, for example consider this which might be included in an html
 template:
 
-      var colour = <?php echo $jinput->get('colour','blue','alnum'); ?>;
+```javascript
+<script type="text/javascript">
+  var colour = <?php echo $jinput->get('colour','blue','alnum'); ?>;
+</script>
+```
 
 In this case we have used the 'alnum' filter, which removes all except
 characters a to z and 0 to 9. You need a very restrictive filter such as
@@ -240,8 +255,12 @@ attacker inlcudes in the query string:
 If you use a filter that removes only html tags, this results in the
 javascript statements:
 
-      var colour = blue;
-      window.alert(document.cookie);
+```javascript
+<script type="text/javascript">
+  var colour = blue;
+  window.alert(document.cookie);
+</script>
+```
 
 ## Secure your extension against cross-site request forgery
 
@@ -259,6 +278,10 @@ a Joomla site on a page that has stood idle for some time: it will fail
 with an 'invalid token' message. This is an essential security feature.
 To use this feature in your extension (which you should always do), you
 need to include the token in any form that your extension uses.
+
+```php
+<?php echo JHTML::_( 'form.token' ); ?>
+```
 
 Then before your extension does anything dangerous such as deleting, you
 check for a valid token:
@@ -322,8 +345,9 @@ control access to, for example:
 		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
 		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
         </section>
-</access>        
+</access>
 ```
+
 **Stage 2:** Include a permissions fieldset in your component's config.xml
 file, this will allow the site's administrator to set the
 permissions for these actions:
@@ -355,7 +379,7 @@ if (!JFactory::getUser()->authorise('core.manage', 'com_example')) {
         return JError::raiseWarning(404, JText::_('JERROR_ALERTNOAUTHOR'));
 }
 ```
-  
+
 **Conclusion:** You can check these values to block access to certain
 parts of your component.
 

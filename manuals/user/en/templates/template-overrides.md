@@ -84,6 +84,7 @@ The Diff area shows added lines with a green background and deleted
 lines with a red background. There are no deleted lines in this case.
 The code is shown here should you wish to copy it to try this yourself.
 
+```php
     use Joomla\CMS\Factory;
 
     date_default_timezone_set('Europe/London');
@@ -91,12 +92,16 @@ The code is shown here should you wish to copy it to try this yourself.
     $lifetime = $config->get('lifetime', 0);
     $time = time() + $lifetime * 60;
     $endTime = date('H:i:s', $time); // time() returns a time in seconds already
+```
 
 Further down the override file, line 36, some more lines have been added
 to output the desired message:
 
-    Your session will expire at 
-      
+```html
+<p class="text-center">
+Your session will expire at <br><?php echo $endTime; ?>  
+</p>
+```      
 
 Save and reload the site page containing the logout form.
 
@@ -137,17 +142,23 @@ as various other relevant parts of the page. It does so by using a
 LayoutHelper call passing the layout to use as a parameter. This is an
 example, the call to insert the Article Title in the blog layout:
 
-    item); ?>
+```php
+<?php echo LayoutHelper::render('joomla.content.blog_style_default_item_title', $this->item); ?>
+```
 
 The location of the file for this particular element is found by
 replacing the dot symbols with slash symbols, prepending /layouts/ and
 appending .php:
 
+```php
     JOOMLAROOT/layouts/joomla/content/blog_style_default_item_title.php
+```
 
 When an override file is created it is found in:
 
+```php
     JOOMLAROOT/templates/cassiopeia/html/layouts/joomla/content/blog_style_default_item_title.php
+```
 
 ## Further Information
 

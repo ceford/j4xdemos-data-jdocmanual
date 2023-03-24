@@ -49,7 +49,7 @@ layouts.
 
 Creating an alternative layout for a module is similar to creating a
 template override for a module. In both cases, you create a folder
-called `templates//html/`. For example, the folder for a "mod_login"
+called `templates/.../html/`. For example, the folder for a "mod_login"
 template override or alternative layout for the cassiopeia template
 would be `templates/cassiopeia/html/mod_login/`.
 
@@ -94,8 +94,11 @@ following:
 And on line 36 immediately following the line containing an endif
 statement add this code:
 
-    Your session will expire at 
-      
+```html
+<p class="text-center">
+Your session will expire at <br><?php echo $endTime; ?>  
+</p>
+```
 
 Close the Cassiopeia files. Select **Content **→** Site Modules** and
 open the Login module. In the Advanced tab, Layout item you will find
@@ -320,13 +323,18 @@ the Language Overrides form described above.
 
 The catmenuitem.xml would start with:
 
-
-       
-          
-          
-             TPL_CASSIOPEIA_COM_CONTENT_CATEGORY_VIEW_CATMENUITEM_DESC
-          
-       
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+   <layout title="TPL_CASSIOPEIA_COM_CONTENT_CATEGORY_VIEW_CATMENUITEM_TITLE" option="TPL_CASSIOPEIA_COM_CONTENT_CATEGORY_VIEW_CATMENUITEM_OPTION">
+      <help
+         key = "JHELP_MENUS_MENU_ITEM_ARTICLE_SINGLE_ARTICLE"
+      />
+      <message>
+         <![CDATA[TPL_CASSIOPEIA_COM_CONTENT_CATEGORY_VIEW_CATMENUITEM_DESC]]>
+      </message>
+   </layout>
+```
 
 ## Controlling the Template for Alternative Menu Items
 
@@ -346,11 +354,21 @@ other cases, you may wish to limit that menu item's layout to one
 specific template. In this situation, you would just add the following
 parameter to the menu item's XML file:
 
-      
-      
-     
-
-This will override the core `template_style_id` parameter. Setting the
+```xml
+<fields>
+  <field
+    name="template_style_id"
+    type="templatestyle"
+    label="COM_MENUS_ITEM_FIELD_TEMPLATE_LABEL"
+    description="COM_MENUS_ITEM_FIELD_TEMPLATE_DESC"
+    filter="int"
+    template="cassiopeia"
+    class="inputbox">
+  </field>
+ </fields>
+ ```
+ 
+ This will override the core `template_style_id` parameter. Setting the
 template equal to "cassiopeia" in this case will limit the user to only
 selecting template styles for the "cassiopeia" template.
 

@@ -36,20 +36,20 @@ hace usando Hojas de Estilo en Cascada (CSS) o con en línea)
 
 Por ejemplo, digamos que tenemos el siguiente artículo:
 
-    Uso de títulos
-    Este es un artículo acerca de la importancia de los títulos
+    <h1>Uso de títulos</h1>
+    <p>Este es un artículo acerca de la importancia de los títulos</p>
 
-    ¿Por qué utilizar los títulos?
-    Es importante el uso de títulos para que los robots de los motores de búsqueda puedan decir que parte del artículo importante
+    <h2>¿Por qué utilizar los títulos?</h2>
+    <p>Es importante el uso de títulos para que los robots de los motores de búsqueda puedan decir que parte del artículo importante</p>
 
-    Tipos de títulos
-    Puedes utilizar varios tipos de títulos, pero debes ser ordenado y estructurado, dentro de tu página. H1 debe ser el título de la página, H2 debe ser utilizado para los sub-títulos de la página. Los títulos dentro de su sub-títulos en cascada utilizaran H3, H4 y H5, según corresponda.
+    <h3>Tipos de títulos</h3>
+    <p>Puedes utilizar varios tipos de títulos, pero debes ser ordenado y estructurado, dentro de tu página. H1 debe ser el título de la página, H2 debe ser utilizado para los sub-títulos de la página. Los títulos dentro de su sub-títulos en cascada utilizaran H3, H4 y H5, según corresponda.</p>
 
-    ¿Es difícil de poner en práctica los títulos?
-    Los encabezados son realmente fácil de implementar, sólo tienes que utilizar el código HTML correspondiente
+    <h2>¿Es difícil de poner en práctica los títulos?</h2>
+    <p>Los encabezados son realmente fácil de implementar, sólo tienes que utilizar el código HTML correspondiente</p>
 
-    El uso de títulos en páginas dinámicas
-    En las páginas dinámicas, simplemente envuelve tu títulos principal dentro de un H1 (por ejemplo, el título de una lista de categorías de la página sería H1), a continuación, envuelve todos los títulos posteriores en H2.
+    <h3>El uso de títulos en páginas dinámicas</h3>
+    <p>En las páginas dinámicas, simplemente envuelve tu títulos principal dentro de un H1 (por ejemplo, el título de una lista de categorías de la página sería H1), a continuación, envuelve todos los títulos posteriores en H2.</p>
 
 Aquí, un motor de búsqueda 'bot' puede ver claramente la estructura -
 h1, h2, h3 - pero si hiciéramos estos títulos en simplemente negrita,

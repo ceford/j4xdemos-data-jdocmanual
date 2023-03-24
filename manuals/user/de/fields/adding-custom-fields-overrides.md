@@ -61,6 +61,7 @@ Verfügung. Der Aufruf erfolgt über eine neue Eigenschaft der Variable
 ein Array, das die folgenden Daten pro Feld enthält, wobei das Feld wie
 in diesem Beispiel aussieht:
 
+```php
     Array
     (
         [4] => stdClass Object
@@ -70,7 +71,7 @@ in diesem Beispiel aussieht:
                 [name] => article-editor
                 [checked_out] => 0
                 [checked_out_time] => 0000-00-00 00:00:00
-                [note] => 
+                [note] =>
                 [state] => 1
                 [access] => 1
                 [created_time] => 2017-04-07 12:08:59
@@ -81,10 +82,10 @@ in diesem Beispiel aussieht:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [buttons] => 
-                                [width] => 
-                                [height] => 
-                                [filter] => 
+                                [buttons] =>
+                                [width] =>
+                                [height] =>
+                                [filter] =>
                             )
 
                         [initialized:protected] => 1
@@ -95,13 +96,13 @@ in diesem Beispiel aussieht:
                     (
                         [data:protected] => stdClass Object
                             (
-                                [hint] => 
-                                [render_class] => 
-                                [class] => 
+                                [hint] =>
+                                [render_class] =>
+                                [class] =>
                                 [showlabel] => 1
                                 [disabled] => 0
                                 [readonly] => 0
-                                [show_on] => 
+                                [show_on] =>
                                 [display] => 2
                             )
 
@@ -110,31 +111,33 @@ in diesem Beispiel aussieht:
                     )
 
                 [type] => editor
-                [default_value] => 
+                [default_value] =>
                 [context] => com_content.article
                 [group_id] => 0
                 [label] => article-editor
-                [description] => 
+                [description] =>
                 [required] => 0
-                [language_title] => 
-                [language_image] => 
-                [editor] => 
+                [language_title] =>
+                [language_image] =>
+                [editor] =>
                 [access_level] => Public
                 [author_name] => Super User
-                [group_title] => 
-                [group_access] => 
-                [group_state] => 
+                [group_title] =>
+                [group_access] =>
+                [group_state] =>
                 [value] => Bar
                 [rawvalue] => Bar
             )
 
     )
+```
 
 ### Das Feld rendern mit Einsatz des FieldsHelper
 
 Um das Feld zu rendern, kann `FieldsHelper::render()` eingesetzt werden,
 indem die benötigten Werte übergeben werden.
 
+```php
     /**
      * Renders the layout file and data on the context and does a fall back to
      * Fields afterwards.
@@ -148,21 +151,25 @@ indem die benötigten Werte übergeben werden.
      * @since  3.7.0
      */
     public static function render($context, $layoutFile, $displayData)
+```
 
 #### Beispiel Code für das Override mit Einsatz von FieldsHelper
 
-    // Load the FieldsHelper
-
-
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        context, 'field.render', array('field' => $field)); ?>
+```php
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo $field->label . ':' . $field->value; ?>
+<?php endforeach ?>
+```
 
 #### Beispiel Code für ein einfaches Override
 
-    item->jcfields as $field) : ?>
-        // Render the field using the fields render method
-        label . ':' . $field->value; ?>
+```php
+<?php foreach ($this->item->jcfields as $field) : ?>
+	// Render the field using the fields render method
+	<?php echo $field->label . ':' . $field->value; ?>
+<?php endforeach ?>
+```
 
 ### jcfields_enthält_nicht_die_benötigten_Felder"\>`$item->jcfields` enthält nicht die benötigten Felder
 
@@ -190,11 +197,13 @@ nach Namen auf Felder in den Overrides zu aktivieren. Dies sollte für
 jede überschriebene PHP-Datei erfolgen, in der einzelne Felder eingefügt
 werden sollen.
 
-    jcfields as $jcfield)
-         {
-              $item->jcFields[$jcfield->name] = $jcfield;
-         }
-    ?>
+```php
+<?php foreach($item->jcfields as $jcfield)
+     {
+          $item->jcFields[$jcfield->name] = $jcfield;
+     }
+?>
+```
 
 Und schließlich sollte der Platzierungscode des Feldes an der Stelle
 eingefügt werden, an der die Feldbezeichnung oder der Feld-Wert
@@ -204,7 +213,9 @@ Um das **Bezeichnung** des Feldes zum Override hinzuzufügen, gebe den
 unten stehenden Code ein und ersetze `name-of-field` durch den Namen des
 Feldes.
 
-    jcFields['name-of-field']->label; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->label; ?>
+```
 
 Um den **Wert** des Feldes zum Override hinzuzufügen, den unten
 stehenden Code eingeben und `name of-field` durch den Namen des Feldes
@@ -215,7 +226,9 @@ class="external free" target="_blank"
 rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/issues/20216</a>
 (en)
 
-    jcFields['name-of-field']->rawvalue; ?>
+```php
+<?php echo $item->jcFields['name-of-field']->rawvalue; ?>
+```
 
 Dieser Code kann zu jedem Teil des Overrides hinzugefügt werden.
 Beispiele: Der Inhalt eines div, der src-String in einem `img` tag,

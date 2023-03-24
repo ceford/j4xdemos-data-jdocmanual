@@ -31,24 +31,26 @@ width="786" height="980" alt="Template Positions" />
 
 And the following list shows the available module positions by name:
 
-       
-            topbar
-            below-top
-            menu
-            search
-            banner
-            top-a
-            top-b
-            main-top
-            main-bottom
-            breadcrumbs
-            sidebar-left
-            sidebar-right
-            bottom-a
-            bottom-b
-            footer
-            debug
-        
+```xml
+	<positions>
+		<position>topbar</position>
+		<position>below-top</position>
+		<position>menu</position>
+		<position>search</position>
+		<position>banner</position>
+		<position>top-a</position>
+		<position>top-b</position>
+		<position>main-top</position>
+		<position>main-bottom</position>
+		<position>breadcrumbs</position>
+		<position>sidebar-left</position>
+		<position>sidebar-right</position>
+		<position>bottom-a</position>
+		<position>bottom-b</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+```
 
 ## Add a Core Module
 

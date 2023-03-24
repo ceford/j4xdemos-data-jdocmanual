@@ -1,13 +1,5 @@
 <!-- Filename: Enabling_the_Login_Form_module / Display title: Publiceren van de Inloggen module -->
 
-Joomla!  3.x <img
-src="https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/300px-Login_module_j39.png"
-class="thumbimage" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/450px-Login_module_j39.png 1.5x, https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/600px-Login_module_j39.png 2x"
-data-file-width="900" data-file-height="520" width="300" height="173" />
-<a href="https://docs.joomla.org/File:Login_module_j39.png"
-class="internal" title="Enlarge"></a>Login Module in Module Manager
-
 Om de Login-functionaliteit op uw website in te schakelen, moet de
 module Login formulier worden gepubliceerd. De
 aanmeldingsformuliermodule publiceren:
@@ -19,6 +11,12 @@ aanmeldingsformuliermodule publiceren:
     status een rood kruis is, is deze momenteel uitgeschakeld. Klik op
     het rode kruis om in te schakelen.
 
+<img
+src="https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/300px-Login_module_j39.png"
+class="thumbimage" decoding="async"
+srcset="https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/450px-Login_module_j39.png 1.5x, https://docs.joomla.org/images/thumb/b/b5/Login_module_j39.png/600px-Login_module_j39.png 2x"
+data-file-width="900" data-file-height="520" width="900" height="520" />
+
 Wilt u meer leren? Zie [Wijzigen van de Inloggen module
 instellingen](https://docs.joomla.org/Changing_the_Login_Form_module_settings "Special:MyLanguage/Changing the Login Form module settings");
 
@@ -29,7 +27,7 @@ instellingen](https://docs.joomla.org/Changing_the_Login_Form_module_settings "S
 - [Setting user registration
   policy](https://docs.joomla.org/Setting_user_registration_policy "Special:MyLanguage/Setting user registration policy")
 
-  
+
 <a
 href="https://docs.joomla.org/index.php?title=Categorie:Handleidingen&amp;action=edit&amp;redlink=1"
 class="new"
