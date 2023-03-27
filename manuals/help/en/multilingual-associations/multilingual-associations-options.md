@@ -58,13 +58,6 @@ At the top of the page you will see the toolbar shown in the
 
 ## Related Information
 
-- This
-  [Portal](https://docs.joomla.org/Portal:Joomla_4/en "Portal:Joomla 4/en")
-  brings together information related specifically to Joomla 4.
-
-|                                                                                                                                                    |                                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| Related Help Screens                                                                                                                               | Description                                                                                |
-| <span class="mw-selflink selflink">Multilingual Associations: Options</span>                                                                       | Default permissions used for all content in the Multilingual Associations Component.       |
-| [Multilingual Associations](https://docs.joomla.org/Help4.x:Multilingual_Associations/en "Help4.x:Multilingual Associations/en")                   | This screen is used to set up an Association between an item and installed site languages. |
-| [Multilingual Associations: Edit](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/en "Help4.x:Multilingual Associations: Edit/en") | Used to add or edit associations between languages displayed on a multilingual website.    |
+- <span class="mw-selflink selflink">Multilingual Associations: Options</span> Default permissions used for all content in the Multilingual Associations Component.
+- [Multilingual Associations](https://docs.joomla.org/Help4.x:Multilingual_Associations/en "Help4.x:Multilingual Associations/en") This screen is used to set up an Association between an item and installed site languages.
+- [Multilingual Associations: Edit](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/en "Help4.x:Multilingual Associations: Edit/en") Used to add or edit associations between languages displayed on a multilingual website.

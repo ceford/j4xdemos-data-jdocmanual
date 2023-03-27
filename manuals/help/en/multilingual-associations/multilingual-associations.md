@@ -116,13 +116,6 @@ alt="Help-4x-Components-Associations-toolbar-subscreen-en.png" />
 
 ## Related Information
 
-- This
-  [Portal](https://docs.joomla.org/Portal:Joomla_4/en "Portal:Joomla 4/en")
-  brings together information related specifically to Joomla 4.
-
-|                                                                                                                                                             |                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| Related Help Screens                                                                                                                                        | Description                                                                                |
-| [Multilingual Associations: Options](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Options/en "Help4.x:Multilingual Associations: Options/en") | Default permissions used for all content in the Multilingual Associations Component.       |
-| <span class="mw-selflink selflink">Multilingual Associations</span>                                                                                         | This screen is used to set up an Association between an item and installed site languages. |
-| [Multilingual Associations: Edit](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/en "Help4.x:Multilingual Associations: Edit/en")          | Used to add or edit associations between languages displayed on a multilingual website.    |
+- [Multilingual Associations: Options](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Options/en "Help4.x:Multilingual Associations: Options/en") Default permissions used for all content in the Multilingual Associations Component.
+| <span class="mw-selflink selflink">Multilingual Associations</span> This screen is used to set up an Association between an item and installed site languages.
+- [Multilingual Associations: Edit](https://docs.joomla.org/Help4.x:Multilingual_Associations:_Edit/en "Help4.x:Multilingual Associations: Edit/en") Used to add or edit associations between languages displayed on a multilingual website.

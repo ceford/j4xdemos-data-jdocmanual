@@ -128,33 +128,31 @@ installation/joomla.php help install</span>
 
 ##### joomla.php Options
 
-|                                                                              |                                                                                                                                |
-|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| **Options**                                                                  | **Description**                                                                                                                |
-| <span class="kbd">--site-name=SITE_NAME</span>                               | Name of the website                                                                                                            |
-| <span class="kbd">--admin-user=ADMIN_USER</span>                             | Real name of the Super User account                                                                                            |
-| <span class="kbd">--admin-username=ADMIN_USERNAME</span>                     | Username of your Super User account                                                                                            |
-| <span class="kbd">--admin-password=ADMIN_PASSWORD</span>                     | Password of your Super User account                                                                                            |
-| <span class="kbd">--admin-email=ADMIN_EMAIL</span>                           | Email address of the website's Super User account                                                                              |
-| <span class="kbd">--db-type=DB_TYPE</span>                                   | Database type. Supported by Joomla: mysql (=MySQL (PDO)), mysqli (=MySQLi), pgsql (=PostgreSQL (PDO)) \[default: "mysqli"\]    |
-| <span class="kbd">--db-host=DB_HOST</span>                                   | Database host \[default: "localhost"\]                                                                                         |
-| <span class="kbd">--db-user=DB_USER</span>                                   | Database username                                                                                                              |
-| <span class="kbd">--db-pass=DB_PASS</span>                                   | Database password                                                                                                              |
-| <span class="kbd">--db-name=DB_NAME</span>                                   | Database name \[default: "joomla_db"\]                                                                                         |
-| <span class="kbd">--db-prefix=DB_PREFIX</span>                               | Prefix for the database tables \[default: "vlqhe\_"\]. The default value is randomly generated every time you call the script. |
-| <span class="kbd">--db-encryption=DB_ENCRYPTION</span>                       | Connection Encryption \[default: "0"\]                                                                                         |
-| <span class="kbd">--db-sslkey\[=DB_SSLKEY\]</span>                           | SSL key for the database connection. Requires encryption to be set to 2                                                        |
-| <span class="kbd">--db-sslcert\[=DB_SSLCERT\]</span>                         | Path to the SSL certificate for the database connection. Requires encryption to be set to 2                                    |
-| <span class="kbd">--db-sslverifyservercert\[=DB_SSLVERIFYSERVERCERT\]</span> | Verify SSL certificate for database connection. Values: 0=No, 1=Yes. Requires encryption to be set to 1 or 2 \[default: "0"\]  |
-| <span class="kbd">--db-sslca\[=DB_SSLCA\]</span>                             | Path to CA file to verify encryption against                                                                                   |
-| <span class="kbd">--db-sslcipher\[=DB_SSLCIPHER\]</span>                     | Supported Cipher Suite (optional)                                                                                              |
-| <span class="kbd">-h, --help</span>                                          | Display the help information                                                                                                   |
-| <span class="kbd">-q, --quiet</span>                                         | Flag indicating that all output should be silenced                                                                             |
-| <span class="kbd">-V, --version</span>                                       | Displays the application version                                                                                               |
-| <span class="kbd">--ansi</span>                                              | Force ANSI output                                                                                                              |
-| <span class="kbd">--no-ansi</span>                                           | Disable ANSI output                                                                                                            |
-| <span class="kbd">-n, --no-interaction</span>                                | Flag to disable interacting with the user                                                                                      |
-| <span class="kbd">-v,-vv,-vvv, --verbose</span>                              | Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug                             |
+- **Options** **Description**
+- <span class="kbd">--site-name=SITE_NAME</span> Name of the website
+- <span class="kbd">--admin-user=ADMIN_USER</span> Real name of the Super User account
+- <span class="kbd">--admin-username=ADMIN_USERNAME</span> Username of your Super User account
+- <span class="kbd">--admin-password=ADMIN_PASSWORD</span> Password of your Super User account
+- <span class="kbd">--admin-email=ADMIN_EMAIL</span> Email address of the website's Super User account
+- <span class="kbd">--db-type=DB_TYPE</span> Database type. Supported by Joomla: mysql (=MySQL (PDO)), mysqli (=MySQLi), pgsql (=PostgreSQL (PDO)) \[default: "mysqli"\]
+- <span class="kbd">--db-host=DB_HOST</span> Database host \[default: "localhost"\]
+- <span class="kbd">--db-user=DB_USER</span> Database username
+- <span class="kbd">--db-pass=DB_PASS</span> Database password
+- <span class="kbd">--db-name=DB_NAME</span> Database name \[default: "joomla_db"\]
+- <span class="kbd">--db-prefix=DB_PREFIX</span> Prefix for the database tables \[default: "vlqhe\_"\]. The default value is randomly generated every time you call the script.
+- <span class="kbd">--db-encryption=DB_ENCRYPTION</span> Connection Encryption \[default: "0"\]
+- <span class="kbd">--db-sslkey\[=DB_SSLKEY\]</span> SSL key for the database connection. Requires encryption to be set to 2
+- <span class="kbd">--db-sslcert\[=DB_SSLCERT\]</span> Path to the SSL certificate for the database connection. Requires encryption to be set to 2
+- <span class="kbd">--db-sslverifyservercert\[=DB_SSLVERIFYSERVERCERT\]</span> Verify SSL certificate for database connection. Values: 0=No, 1=Yes. Requires encryption to be set to 1 or 2 \[default: "0"\]
+- <span class="kbd">--db-sslca\[=DB_SSLCA\]</span> Path to CA file to verify encryption against
+- <span class="kbd">--db-sslcipher\[=DB_SSLCIPHER\]</span> Supported Cipher Suite (optional)
+- <span class="kbd">-h, --help</span> Display the help information
+- <span class="kbd">-q, --quiet</span> Flag indicating that all output should be silenced
+- <span class="kbd">-V, --version</span> Displays the application version
+- <span class="kbd">--ansi</span> Force ANSI output
+- <span class="kbd">--no-ansi</span> Disable ANSI output
+- <span class="kbd">-n, --no-interaction</span> Flag to disable interacting with the user
+- <span class="kbd">-v,-vv,-vvv, --verbose</span> Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 
 ## Related Information
 

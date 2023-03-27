@@ -230,14 +230,7 @@ Fields](https://docs.joomla.org/J3.x:Adding_custom_fields/en "J3.x:Adding custom
 
 ## Related Information
 
-- This
-  [Portal](https://docs.joomla.org/Portal:Joomla_4/en "Portal:Joomla 4/en")
-  brings together information related specifically to Joomla 4.
-
-|                                                                                                             |                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Related Help Screens                                                                                        | Description                                                                                                                                          |
-| [Fields](https://docs.joomla.org/Help4.x:Fields/en "Help4.x:Fields/en")                                     | Fields are used to display additional attributes of Articles, Contacts and Users. The data are entered in the Backend and displayed in the Frontend. |
-| <span class="mw-selflink selflink">Fields: Edit</span>                                                      | This is where you can add and edit Fields in Articles, Contacts, and Users.                                                                          |
-| [Field Groups](https://docs.joomla.org/Help4.x:Field_Groups/en "Help4.x:Field Groups/en")                   | The Field Groups screen is used to list, add and edit Field Groups.                                                                                  |
-| [Field Groups: Edit](https://docs.joomla.org/Help4.x:Field_Groups:_Edit/en "Help4.x:Field Groups: Edit/en") | Field Groups are used to collect related fields under a named Tab in a data entry form.                                                              |
+- [Fields](https://docs.joomla.org/Help4.x:Fields)                                     | Fields are used to display additional attributes of Articles, Contacts and Users. The data are entered in the Backend and displayed in the Frontend.
+- <span class="mw-selflink selflink">Fields: Edit</span> This is where you can add and edit Fields in Articles, Contacts, and Users.
+- [Field Groups](https://docs.joomla.org/Help4.x:Field_Groups) The Field Groups screen is used to list, add and edit Field Groups.
+- [Field Groups: Edit](https://docs.joomla.org/Help4.x:Field_Groups:_Edit) | Field Groups are used to collect related fields under a named Tab in a data entry form.

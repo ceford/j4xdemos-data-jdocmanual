@@ -282,9 +282,5 @@ width="569" height="421"
 alt="Help-4x-Menus-Menu-Tags-Compact-List-front-end-screenshot-en.png" />
 
 ## Related Information
-
-|                                                                                                                                          |                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Related Help Screens                                                                                                                     | Description                                                       |
-| [Menus Menu Item Tags Items List](https://docs.joomla.org/Help4.x:Menu_Item:_Tagged_Items/en "Help4.x:Menu Item: Tagged Items/en")       | Used to create a 'Tagged List of Items' page per tag(s) selected. |
-| [Menus Menu Item Tags Items List All](https://docs.joomla.org/Help4.x:Menu_Item:_List_All_Tags/en "Help4.x:Menu Item: List All Tags/en") | Used to create a 'List of All Tags' page per tag(s) selected.     |
+- [Menu Item: Tagged Items List](https://docs.joomla.org/Help4.x:Menu_Item:_Tagged_Items)       | Used to create a 'Tagged List of Items' page per tag(s) selected. |
+- [Menu Item: List All Tags](https://docs.joomla.org/Help4.x:Menu_Item:_List_All_Tags) | Used to create a 'List of All Tags' page per tag(s) selected.     |
