@@ -1,7 +1,5 @@
 <!-- Filename: Help4.x:Guided_Tours:_Steps / Display title: Guided Tours: Steps -->
 
-# Guided Tours Steps
-
 ## Description
 
 The guided tours give users the ability to complete walk-throughs (or tours) to better understand the interface they are learning to use. Steps are necessary in the building of a tour.

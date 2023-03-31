@@ -1,7 +1,5 @@
 <!-- Filename: Help4.x:Guided_Tours:_New_or_Edit_Tour / Display title: Guided Tours: New or Edit Tour -->
 
-# Tours: Edit
-
 ## Description
 
 This screen is used to add a new or edit an existing Tour, usually using a Wysiwyg editor. The default editor is TinyMCE but if other editors are installed the default editor may be set to something else for the site as a whole or for individual users.

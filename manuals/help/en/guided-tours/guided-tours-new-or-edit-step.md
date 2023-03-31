@@ -1,7 +1,5 @@
 <!-- Filename: Help4.x:Guided_Tours:_New_or_Edit_Step / Display title: Guided Tours: New or Edit Step -->
 
-# Steps: Edit
-
 ## Description
 
 This screen is used to add a new or edit an existing Step of a tour, usually using a Wysiwyg editor. The default editor is TinyMCE but if other editors are installed the default editor may be set to something else for the site as a whole or for individual users.

@@ -1,7 +1,5 @@
 <!-- Filename: Help4.x:Guided_Tours:_Options / Display title: Guided Tours: Options -->
 
-# Guided Tours: Options
-
 ## Description
 
 The guided tours give users the ability to complete walk-throughs (or tours) to better understand the interface they are learning to use.

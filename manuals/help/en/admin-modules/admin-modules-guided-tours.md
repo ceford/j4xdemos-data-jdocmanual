@@ -1,7 +1,5 @@
 <!-- Filename: Help4.x:Admin_Modules:_Tours_Menu / Display title: Admin Modules: Tours Menu -->
 
-# Administrator Modules: Guided Tours
-
 ## Description
 
 The **Guided Tours** module shows a list of available guided tours.
