@@ -12,12 +12,12 @@ tutorial may be a case of the blind leading the blind. It took me about
 10 days to get something to work by reading the code, stepping through
 with the debugger and reading the limited amount of J4 documentation
 available. The tutorial started with Joomla 4.x at the Alpha 10 stage
-and has been updated for the Beat 4 stage. Even so, it may be out of
-date all too soon.
+and was updated for the Beta 4 stage.
 
-The tutorial text was prepared as an article written with Joomla 4.0
-Alpha 10, converted to MediaWiki and then Github Markdown formats with
-Pandoc. And finally finished here.
+**Update:** with the release of Joomla 4.3.1 in May 2023 I have come
+back to update the Mywalks code, fix some bugs and add some new
+features. Keeping the tutorial in sync with the code is an ongoing
+problem. If in doubt, read the code!
 
 ## Component Purpose and Data Schema
 
@@ -36,53 +36,55 @@ com_mywalks and the tables \#\_\_mywalks and \#\_\_mywalks_dates.
 
 All of the code for this tutorial component can be obtained from here:
 
-- <a
-  href="https://github.com/ceford/j4xdemos-com-mywalks/blob/master/com_mywalks.zip"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">https://github.com/ceford/j4xdemos-com-mywalks/blob/master/com_mywalks.zip</a>
+- [<https://github.com/ceford/j4xdemos-com-mywalks/archive/refs/heads/master.zip>](https://github.com/ceford/j4xdemos-com-mywalks/archive/refs/heads/master.zip)
+
+If you go to <https://github.com/ceford/j4xdemos-com-mywalks>, Have a
+look at the README.md file. Select the green **Code** button and then
+the **Download ZIP** item at the foot of the drop-down menu.
 
 You might find it helpful to install the component or unpack it without
-installation and look at the working files.
+installation and look at the working files. On first installation the
+success messages says COM_MYWALKS_XML_DESCRIPTION. This is an installer
+problem and is nothing to worry about. Just select Mywalks item from the
+Administrator Components menu to see the sample data List of Walks.
 
 ### The mywalks table
 
-At the time of writing the install script in the admin/sql folder is not
-being called. So, if you are installing a working version of the code
-for this tutorial, run the following scripts manually **first**. Is this
-a bug in Joomla or the Tutorial code? The uninstall script is working -
-the tables successfully disappear.
+During installation, the following sql statements create the tables used
+by the Mywalks component:
 
-The sql files in the working example zip file include the sample data.
-
-```sql
-        CREATE TABLE IF NOT EXISTS `#__mywalks` (
-      `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-      `title` varchar(64) NOT NULL,
-      `description` text NOT NULL,
-      `distance` decimal(10,0) NOT NULL,
-      `toilets` tinyint(1) NOT NULL DEFAULT '0',
-      `cafe` tinyint(1) NOT NULL DEFAULT '0',
-      `hills` int(11) NOT NULL DEFAULT '0',
-      `bogs` int(11) NOT NULL DEFAULT '0',
-      `picture` varchar(128) DEFAULT NULL,
-      `width` int(11) DEFAULT NULL,
-      `height` int(11) DEFAULT NULL,
-      `alt` varchar(64) DEFAULT NULL,
-      `state` TINYINT NOT NULL DEFAULT '1'
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE utf8mb4_unicode_ci;
+``` sql
+CREATE TABLE IF NOT EXISTS `#__mywalks` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `title` varchar(64) NOT NULL,
+  `description` text NOT NULL,
+  `distance` decimal(10,0) NOT NULL,
+  `toilets` tinyint(1) NOT NULL DEFAULT '0',
+  `cafe` tinyint(1) NOT NULL DEFAULT '0',
+  `hills` int(11) NOT NULL DEFAULT '0',
+  `bogs` int(11) NOT NULL DEFAULT '0',
+  `picture` varchar(128) DEFAULT NULL,
+  `width` int(11) DEFAULT NULL,
+  `height` int(11) DEFAULT NULL,
+  `alt` varchar(64) DEFAULT NULL,
+  `state` TINYINT NOT NULL DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE utf8mb4_unicode_ci;
 ```
+
+The sql files in the working example zip file also include some sample
+data.
 
 ### The mywalks_dates table
 
-```sql
-        CREATE TABLE IF NOT EXISTS `#__mywalk_dates` (
-      `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-      `walk_id` int(11) NOT NULL,
-      `date` date NOT NULL,
-      `weather` varchar(256) DEFAULT NULL,
-      `state` TINYINT NOT NULL DEFAULT '1',
-      KEY `idx_walk` (`walk_id`)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE utf8mb4_unicode_ci;
+``` sql
+CREATE TABLE IF NOT EXISTS `#__mywalk_dates` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `walk_id` int(11) NOT NULL,
+  `date` date NOT NULL,
+  `weather` varchar(256) DEFAULT NULL,
+  `state` TINYINT NOT NULL DEFAULT '1',
+  KEY `idx_walk` (`walk_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE utf8mb4_unicode_ci;
 ```
 
 If this were a real component it would be obvious that the schema design
@@ -95,12 +97,10 @@ The component zip file used for installation should contain the manifest
 file named mywalks.xml (notice no com\_) along with admin and site
 folders, like so:
 
-```bash
     com_mywalks.zip
          admin
          site
          mywalks.xml
-```
 
 On installation the manifest file is copied to the
 site_root/administrator/components/com_mywalks folder where it is needed
@@ -116,66 +116,61 @@ sql statements will not be executed a second time. If the install sql
 statements are not executed for any reason, try executing them manually
 by copying them from the source code into phpMyAdmin.
 
-```xml
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="component" method="upgrade">
-	<name>com_mywalks</name>
-	<!-- The following elements are optional and free of formatting conttraints -->
-	<creationDate>August 2019</creationDate>
-	<author>Clifford E Ford</author>
-	<authorEmail>cliff@ford.myzen.co.uk</authorEmail>
-	<authorUrl>http://www.fford.me.uk/</authorUrl>
-	<copyright>Copyright (C) 2019 Clifford E Ford, All rights reserved.</copyright>
-	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
-	<!--  The version string is recorded in the components table -->
-	<version>0.2.0</version>
-	<!-- The description is optional and defaults to the name -->
-	<description>COM_MYWALKS_XML_DESCRIPTION</description>
-	<namespace path="src">J4xdemos\Component\Mywalks</namespace>
+    <name>com_mywalks</name>
+    <!-- The following elements are optional and free of formatting conttraints -->
+    <creationDate>August 2019</creationDate>
+    <author>Clifford E Ford</author>
+    <authorEmail>cliff@ford.myzen.co.uk</authorEmail>
+    <authorUrl>http://www.fford.me.uk/</authorUrl>
+    <copyright>Copyright (C) 2019-2023 Clifford E Ford, All rights reserved.</copyright>
+    <license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <!--  The version string is recorded in the components table -->
+    <version>0.3.0</version>
+    <!-- The description is optional and defaults to the name -->
+    <description>COM_MYWALKS_XML_DESCRIPTION</description>
+    <namespace path="src">J4xdemos\Component\Mywalks</namespace>
 
-	<install> <!-- Runs on install -->
-		<sql>
-			<file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
-		</sql>
-	</install>
-	<uninstall> <!-- Runs on uninstall -->
-		<sql>
-			<file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
-		</sql>
-	</uninstall>
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
+        </sql>
+    </uninstall>
 
-	<!-- Site Main File Copy Section -->
-	<!-- Note the folder attribute: This attribute describes the folder
-		to copy FROM in the package to install therefore files copied
-		in this section are copied from /site/ in the package -->
+    <!-- Site Main File Copy Section -->
+    <!-- Note the folder attribute: This attribute describes the folder
+        to copy FROM in the package to install therefore files copied
+        in this section are copied from /site/ in the package -->
 
-	<files folder="site">
-		<folder>src</folder>
-		<folder>tmpl</folder>
-	</files>
-	
-	<languages folder="site">
-		<language tag="en-GB">language/en-GB/com_mywalks.ini</language>
-	</languages>
-	
-	<administration>
-		<files folder="admin">
-			<file>access.xml</file>
-			<file>config.xml</file>
-			<folder>forms</folder>
-			<folder>services</folder>
-			<folder>sql</folder>
-			<folder>src</folder>
-			<folder>tmpl</folder>
-		</files>
-		<languages folder="admin">
-			<language tag="en-GB">language/en-GB/com_mywalks.ini</language>
-			<language tag="en-GB">language/en-GB/com_mywalks.sys.ini</language>
-		</languages>
-		<menu img="class:default" link="option=com_mywalks">com_mywalks</menu>
-	</administration>
+    <files folder="site">
+        <folder>forms</folder>
+        <folder>language</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
+    
+    <administration>
+        <files folder="admin">
+            <file>access.xml</file>
+            <file>config.xml</file>
+            <folder>forms</folder>
+            <folder>language</folder>
+            <folder>services</folder>
+            <folder>sql</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+        <menu img="class:default" link="option=com_mywalks">com_mywalks</menu>
+    </administration>
 </extension>
-```       
+```
 
 ### The Namespace
 
@@ -199,29 +194,26 @@ language folder contains one file: en-GB.com_mywalks.ini, which contains
 the translated values of fixed strings, used to allow translation from
 English into other languages. The folder structure is simple:
 
-```
     site                               - the folder containing the site files       
          language                      - the folder containing the site language translation file
               en-GB                    - the folder containing English translations
                    com_mywalks.ini     - the file of translated keys
-```
 
 And the com_mywalks.ini contains this:
 
-```ini
+    COM_MYWALKS_ERROR_WALK_NOT_FOUND="Walk not found!"
+    COM_MYWALKS_LIST_PAGE_HEADING="List of Walks"
+    COM_MYWALKS_LIST_TITLE="Title"
     COM_MYWALKS_LIST_DESCRIPTION="Description"
     COM_MYWALKS_LIST_DISTANCE="Distance in Km"
     COM_MYWALKS_LIST_LAST_VISIT="Last Visit"
     COM_MYWALKS_LIST_NVISITS="nVisits"
-    COM_MYWALKS_LIST_PAGE_HEADING="List of Walks"
     COM_MYWALKS_LIST_TABLE_CAPTION="List of Walks"
-    COM_MYWALKS_LIST_TITLE="Title"
-    COM_MYWALKS_ERROR_WALK_NOT_FOUND="Walk not found!"
-
-    COM_MYWALKS_WALK_DATE="Visit date"
+    COM_MYWALKS_MYWALKS_FILTER_SEARCH_TITLE_DESC="Search in Title"
+    COM_MYWALKS_WALK_BACK_TO_WALKS="Back to list of walks"
     COM_MYWALKS_WALK_REPORTS="Walk Reports"
+    COM_MYWALKS_WALK_DATE="Visit date"
     COM_MYWALKS_WALK_WEATHER="Weather Report"
-```
 
 For each line, the first part is a **key** and the second part is its
 **value**, the English translation. Any fixed text in the component site
@@ -231,7 +223,15 @@ also that the primary language of Joomla is British English. Other
 languages need separate translation files. By convention, the keys
 should be sorted into alphabet order!
 
-The admin language files: Todo!
+**Important:** Most Joomla language files are located in a common
+language folder, for example site_root/language/en_GB/com_example.ini or
+site_root/administrator/language/en_GB/com_example.ini. However, third
+party extensions should place their language folders within the
+component folder, for example
+site_root/components/com_example/language/en_GB/com_example.ini and
+similarly for the component administrator language files. This avoids
+inadvertent removal of a language folder supplied with a third part
+component should an administrator remove an installed language.
 
 ## The Site Files
 
@@ -249,20 +249,17 @@ The tmpl files contain the code that displays the page views. They ought
 to be the easiest to explain and to understand. The tmpl file structure
 in the source code looks like this:
 
-```
     site
          tmpl
               mywalk
                   default.php
               mywalks
-                  default-items.php
                   default.php
                   default.xml
-```
 
 #### The single walk view - tmpl/mywalk/default.php:
 
-```php
+``` php
 <?php
 /**
  * @package     Mywalks.Site
@@ -274,8 +271,8 @@ in the source code looks like this:
 
 defined('_JEXEC') or die;
 
-//use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Language\Text;
+use Joomla\CMS\Router\Route;
 
 ?>
 <div class="page-header">
@@ -288,7 +285,6 @@ use Joomla\CMS\Language\Text;
 
 <div class="table-responsive">
   <table class="table table-striped">
-  <caption><?php echo Text::_('COM_MYWALKS_WALK_REPORTS'); ?></caption>
   <thead>
     <tr>
         <th scope="col"><?php echo Text::_('COM_MYWALKS_WALK_DATE'); ?></th>
@@ -305,26 +301,30 @@ use Joomla\CMS\Language\Text;
     </tbody>
   </table>
 </div>
+
+<a href="<?php echo Route::_('index.php?option=com_mywalks'); ?>"><?php echo Text::_('COM_MYWALKS_WALK_BACK_TO_WALKS'); ?></a>
 ```
 
 For newcomers to Joomla: each php file starts with a DocBlock used in
 automated documentation; in namespaced files the next statement is the
 namspace, not used in tmpl files; the first executable statement is
-always defined('\_JEXEC') or die; which ensures the file has been loaded
-by Joomla and not called directly through a web url.
+always `defined('_JEXEC') or die;` which ensures the file has been
+loaded by Joomla and not called directly through a web url.
+
+The `use Joomla\CMS\Language\Text` statement defines the location of the
+class that converts string keys to string values. The class is loaded
+when it is first needed, in this case via the `Text::_()` function call.
+The `use` statements are almost always placed immediately below the
+`defined('_JEXEC')` statement.
 
 The remaining lines output the walk title, description and list of
-visits extracted from the database. The use Joomla\CMS\Language\Text
-statement defines the location of the class that converts string keys to
-string values. The class is loaded when it is first needed, in this case
-via the Text::\_() function call. The //use Joomla\CMS\HTML\HTMLHelper;
-statement is commented out because this file does not use any one of a
-number of HTML embelishments. Look at the file to see what:
-site_root/libraries/src/HTML/HTMLHelper.php.
+visits extracted from the database.
 
 #### The walks list view - tmpl/mywalks/default.php
 
-```php
+This file outputs a page heading and then the list of walks.
+
+``` php
 <?php
 /**
  * @package     Mywalks.Site
@@ -338,67 +338,38 @@ defined('_JEXEC') or die;
 
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Language\Text;
-//use Joomla\CMS\Layout\LayoutHelper;
-
-HTMLHelper::_('behavior.core');
-
-?>
-<h1><?php echo Text::_('COM_MYWALKS_LIST_PAGE_HEADING'); ?></h1>
-<div class="com-contact-categories categories-list">
-    <?php
-        echo $this->loadTemplate('items');
-    ?>
-</div>
-```
-
-Note that the use statements are defining the locations of additional
-php files using their namespaces. Joomla\CMS\HTML\HTMLHelper is for
-files used in page display, for example the Javascript files needed for
-table sorting. Joomla\CMS\Language\Text is for the file used to convert
-fixed string keys to their English values.
-Joomla\CMS\Layout\LayoutHelper was copied here when copy and paste from
-elsewhere was being used during development. It is left in but commented
-out to illustrate that there my be lots of instances of accidental code
-that does nothing but use server resources.
-
-This file outputs a page heading and then loads another file,
-default-items.php, which displays the list of walks.
-\$this-\>loadTemplate('items') uses library code to locate the
-default_items.php file in the same directory in which it was called.
-
-#### The list items - tmpl/mywalks/default_items.php
-
-Notice the creation of a slug by converting the title to lower case
-alpha-numeric only with spaces replaced by minus signs.
-
-```php
-<?php
-/**
- * @package     Mywalks.Site
- * @subpackage  com_mywalks
- *
- * @copyright   Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\HTML\HTMLHelper;
-use Joomla\CMS\Language\Text;
+use Joomla\CMS\Layout\LayoutHelper;
 use Joomla\CMS\Router\Route;
 use J4xdemos\Component\Mywalks\Site\Helper\RouteHelper as MywalksHelperRoute;
 
+$listOrder = $this->escape($this->state->get('list.ordering'));
+$listDirn  = $this->escape($this->state->get('list.direction'));
+
 ?>
+
+<h1><?php echo Text::_('COM_MYWALKS_LIST_PAGE_HEADING'); ?></h1>
+
+<form action="<?php echo Route::_('index.php?option=com_mywalks'); ?>" method="post" name="adminForm" id="adminForm">
+
+<?php echo LayoutHelper::render('joomla.searchtools.default', array('view' => $this)); ?>
+
 <div class="table-responsive">
   <table class="table table-striped">
-  <caption><?php echo Text::_('COM_MYWALKS_LIST_TABLE_CAPTION'); ?></caption>
   <thead>
     <tr>
-        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_TITLE'); ?></th>
+        <th scope="col">
+            <?php echo HTMLHelper::_('searchtools.sort', 'JGLOBAL_TITLE', 'a.title', $listDirn, $listOrder); ?>
+        </th>
         <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_DESCRIPTION'); ?></th>
-        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_DISTANCE'); ?></th>
-        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_LAST_VISIT'); ?></th>
-        <th scope="col"><?php echo Text::_('COM_MYWALKS_LIST_NVISITS'); ?></th>
+        <th scope="col">
+            <?php echo HTMLHelper::_('searchtools.sort', 'COM_MYWALKS_LIST_DISTANCE', 'a.distance', $listDirn, $listOrder); ?>
+        </th>
+        <th scope="col">
+            <?php echo Text::_('COM_MYWALKS_LIST_LAST_VISIT'); ?>
+        </th>
+        <th scope="col">
+            <?php echo Text::_('COM_MYWALKS_LIST_NVISITS'); ?>
+        </th>
     </tr>
     </thead>
     <tbody>
@@ -418,33 +389,52 @@ use J4xdemos\Component\Mywalks\Site\Helper\RouteHelper as MywalksHelperRoute;
     </tbody>
   </table>
 </div>
+
+<?php echo $this->pagination->getListFooter(); ?>
+
+<input type="hidden" name="task" value="">
+<input type="hidden" name="boxchecked" value="0">
+<?php echo HTMLHelper::_('form.token'); ?>
+
+</form>
 ```
 
-Also notice the static call to Route which is used to create a url for a
-link to an individual walk description. And notice its associated use
-call that tells the loader where to find the required class and
-function. More on routing later.
+**Notes**
+
+- The `use` statements define the locations of additional php files
+  using their namespaces.
+  - `Joomla\CMS\HTML\HTMLHelper` is for files used in page display, for
+    example the Javascript files needed for table sorting.
+  - `Joomla\CMS\Layout\LayoutHelper` is used to produce any one of a
+    number of Joomla widgets.
+- `$this->items` is an array containing the list of walks.
+- A slug is created by converting the title to lower case alpha-numeric
+  only with spaces replaced by minus signs. It is used to pass a
+  descriptive term in the url of the link to the walk visits list as an
+  aid to search engine optimisation.
+- The static call to Route is used to create a url for a link to an
+  individual walk description.
 
 This is an extract from the getWalkRoute function:
 
-```php
-        public static function getWalkRoute($id, $slug, $language = 0, $layout = null)
+``` php
+public static function getWalkRoute($id, $slug, $language = 0, $layout = null)
+    {
+        // Create the link
+        $link = 'index.php?option=com_mywalks&view=mywalk&id=' . $id . '&slug=' . $slug;
+
+        if ($language && $language !== '*' && Multilanguage::isEnabled())
         {
-            // Create the link
-            $link = 'index.php?option=com_mywalks&view=mywalk&id=' . $id . '&slug=' . $slug;
-
-            if ($language && $language !== '*' && Multilanguage::isEnabled())
-            {
-                $link .= '&lang=' . $language;
-            }
-
-            if ($layout)
-            {
-                $link .= '&layout=' . $layout;
-            }
-
-            return $link;
+            $link .= '&lang=' . $language;
         }
+
+        if ($layout)
+        {
+            $link .= '&layout=' . $layout;
+        }
+
+        return $link;
+    }
 ```
 
 ### Getting the data - The HtmlView files
@@ -452,11 +442,11 @@ This is an extract from the getWalkRoute function:
 The tmpl files are supposed to deal solely with the composition of html.
 Any data needed to create the html, such as the list of walks, should be
 stored in variables in the HtmlView files where they are made available
-in the \$this object.
+in the `$this` object.
 
 #### The HtmlView.php file for the single walk view
 
-```php
+``` php
 <?php
 /**
  * @package     Mywalks.Site
@@ -470,8 +460,6 @@ namespace J4xdemos\Component\Mywalks\Site\View\Mywalk;
 
 defined('_JEXEC') or die;
 
-//use Joomla\CMS\HTML\HTMLHelper;
-//use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\View\GenericDataException;
 use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
 
@@ -497,6 +485,13 @@ class HtmlView extends BaseHtmlView
      * @since  1.6
      */
     protected $item;
+
+    /**
+     * The list of visit reports/visit dates for this walk
+     *
+     * @var    \JObject
+     * @since  1.6
+     */
     protected $reports;
 
     /**
@@ -508,13 +503,9 @@ class HtmlView extends BaseHtmlView
      */
     public function display($tpl = null)
     {
-        $state      = $this->get('State');
-        $item       = $this->get('Item');
-        $reports    = $this->get('Reports');
-
-        $this->state       = &$state;
-        $this->item        = &$item;
-        $this->reports     = &$reports;
+        $this->state      = $this->get('State');
+        $this->item       = $this->get('Item');
+        $this->reports    = $this->get('Reports');
 
         // Check for errors.
         if (count($errors = $this->get('Errors')))
@@ -537,7 +528,7 @@ article HtmlView for for an example.
 
 #### The HtmlView file for the list of walks
 
-```php
+``` php
 <?php
 /**
  * @package     Mywalks.Site
@@ -552,11 +543,8 @@ namespace J4xdemos\Component\Mywalks\Site\View\Mywalks;
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Factory;
-//use Joomla\CMS\HTML\HTMLHelper;
-//use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\View\GenericDataException;
 use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
-//use Joomla\CMS\Router\Route;
 
 /**
  * Walks List View class
@@ -601,34 +589,27 @@ class HtmlView extends BaseHtmlView
      * Method to display the view.
      *
      * @param   string  $tpl  The name of the template file to parse; automatically searches through the template paths.
-     *
+
      * @return  mixed  \Exception on failure, void on success.
      *
      * @since   1.6
      */
     public function display($tpl = null)
     {
-        $app    = Factory::getApplication();
-        $params = $app->getParams();
-
-        // Get some data from the models
-        $state      = $this->get('State');
-        $items      = $this->get('Items');
-        $pagination = $this->get('Pagination');
-
+        // Get data from the model.
+        $this->state      = $this->get('State');
+        $this->items      = $this->get('Items');
+        $this->filterForm    = $this->get('FilterForm');
+        $this->activeFilters = $this->get('ActiveFilters');
+        $this->pagination = $this->get('Pagination');
         // Flag indicates to not add limitstart=0 to URL
-        $pagination->hideEmptyLimitstart = true;
+        $this->pagination->hideEmptyLimitstart = true;
 
         // Check for errors.
         if (count($errors = $this->get('Errors')))
         {
             throw new GenericDataException(implode("\n", $errors), 500);
         }
-
-        $this->state      = &$state;
-        $this->items      = &$items;
-        $this->params     = &$params;
-        $this->pagination = &$pagination;
 
         return parent::display($tpl);
     }
@@ -647,7 +628,7 @@ tutorial.
 
 #### Model file: MywalkModel
 
-```php
+``` php
 <?php
 /**
  * @package     Mywalks.Site
@@ -661,6 +642,7 @@ namespace J4xdemos\Component\Mywalks\Site\Model;
 
 defined('_JEXEC') or die;
 
+use Joomla\Database\ParameterType;
 use Joomla\CMS\Factory;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\MVC\Model\ItemModel;
@@ -695,13 +677,6 @@ class MywalkModel extends ItemModel
         // Load state from the request.
         $pk = $app->input->getInt('id');
         $this->setState('mywalk.id', $pk);
-
-        $offset = $app->input->getUInt('limitstart');
-        $this->setState('list.offset', $offset);
-
-        // Load the parameters.
-        $params = $app->getParams();
-        $this->setState('params', $params);
     }
 
     /**
@@ -717,15 +692,16 @@ class MywalkModel extends ItemModel
 
             try
             {
-                $db = $this->getDbo();
+                $db = $this->getDatabase();
                 $query = $db->getQuery(true)
                     ->select(
                         $this->getState(
                             'item.select', 'a.*'
                         )
                     );
-                $query->from('#__mywalks AS a')
-                    ->where('a.id = ' . (int) $pk);
+                $query->from($db->quoteName('#__mywalks') . ' AS a')
+                    ->where($db->quoteName('a.id') . ' = :id')
+                    ->bind(':id', $pk, ParameterType::INTEGER);
 
                 $db->setQuery($query);
 
@@ -765,12 +741,13 @@ class MywalkModel extends ItemModel
 
         try
         {
-            $db = $this->getDbo();
+            $db = $this->getDatabase();
             $query = $db->getQuery(true)
-            ->select('b.*');
-            $query->from('#__mywalk_dates AS b')
-            ->where('b.walk_id = ' . (int) $pk);
-            $query->order('`date` DESC');
+            ->select('b.*')
+            ->from($db->quoteName('#__mywalk_dates') . ' AS b')
+            ->where($db->quoteName('b.walk_id') . ' = :id')
+            ->bind(':id', $pk, ParameterType::INTEGER)
+            ->order($db->quoteName('date') . ' DESC');
 
             $db->setQuery($query);
 
@@ -799,8 +776,8 @@ class MywalkModel extends ItemModel
 
 #### Model file: MywalksModel
 
-```php
- <?php
+``` php
+<?php
 /**
  * @package     Mywalks.Site
  * @subpackage  com_mywalks
@@ -813,8 +790,8 @@ namespace J4xdemos\Component\Mywalks\Site\Model;
 
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Factory;
 use Joomla\CMS\MVC\Model\ListModel;
+use Joomla\Database\ParameterType;
 
 /**
  * This models supports retrieving lists of articles.
@@ -838,6 +815,7 @@ class MywalksModel extends ListModel
             $config['filter_fields'] = array(
                 'id', 'a.id',
                 'title', 'a.title',
+                'distance', 'a.distance',
             );
         }
 
@@ -860,39 +838,13 @@ class MywalksModel extends ListModel
      *
      * @since   3.0.1
      */
-    protected function populateState($ordering = 'ordering', $direction = 'ASC')
+    protected function populateState($ordering = 'a.id', $direction = 'ASC')
     {
-        $app = Factory::getApplication();
+        $search = $this->getUserStateFromRequest($this->context . '.filter.search', 'filter_search');
+        $this->setState('filter.search', $search);
 
-        // List state information
-        $value = $app->input->get('limit', $app->get('list_limit', 0), 'uint');
-        $this->setState('list.limit', $value);
-
-        $value = $app->input->get('limitstart', 0, 'uint');
-        $this->setState('list.start', $value);
-
-        $orderCol = $app->input->get('filter_order', 'a.id');
-
-        if (!in_array($orderCol, $this->filter_fields))
-        {
-            $orderCol = 'a.id';
-        }
-
-        $this->setState('list.ordering', $orderCol);
-
-        $listOrder = $app->input->get('filter_order_Dir', 'ASC');
-
-        if (!in_array(strtoupper($listOrder), array('ASC', 'DESC', '')))
-        {
-            $listOrder = 'ASC';
-        }
-
-        $this->setState('list.direction', $listOrder);
-
-        $params = $app->getParams();
-        $this->setState('params', $params);
-
-        //$this->setState('layout', $app->input->getString('layout'));
+        // List state information.
+        parent::populateState($ordering, $direction);
     }
 
     /**
@@ -911,6 +863,7 @@ class MywalksModel extends ListModel
     protected function getStoreId($id = '')
     {
         // Compile the store id.
+        $id .= ':' . $this->getState('filter.search');
 
         return parent::getStoreId($id);
     }
@@ -924,11 +877,9 @@ class MywalksModel extends ListModel
      */
     protected function getListQuery()
     {
-        // Get the current user for authorisation checks
-        $user = Factory::getUser();
 
         // Create a new query object.
-        $db    = $this->getDbo();
+        $db    = $this->getDatabase();
         $query = $db->getQuery(true);
 
         // Select the required fields from the table.
@@ -936,45 +887,40 @@ class MywalksModel extends ListModel
             $this->getState(
                 'list.select',
                 'a.*,
-                (SELECT MAX(`date`) from #__mywalk_dates WHERE walk_id = a.id) AS last_visit,
-                (SELECT count(`date`) from #__mywalk_dates WHERE walk_id = a.id) AS nvisits
-                ')
+                (SELECT MAX(' . $db->quoteName('date') 
+                . ') FROM ' . $db->quoteName('#__mywalk_dates') 
+                . ' WHERE ' . $db->quoteName('walk_id') . ' = ' . $db->quoteName('a.id') . ') AS last_visit,
+                (SELECT count(' . $db->quote('date') . ') FROM ' . $db->quoteName('#__mywalk_dates') 
+                . ' WHERE ' . $db->quoteName('walk_id') . ' = ' . $db->quoteName('a.id') . ') AS nvisits'
+                )
         );
-        $query->from('#__mywalks AS a');
+        $query->from($db->quoteName('#__mywalks') . ' AS a');
 
-        $params      = $this->getState('params');
+        // Filter by search in title.
+        $search = $this->getState('filter.search');
+
+        if (!empty($search))
+        {
+            $search = '%' . trim($search) . '%';
+            $query->where($db->quoteName('a.title') . ' LIKE :search')
+            ->bind(':search', $search, ParameterType::STRING);
+        }
 
         // Add the list ordering clause.
-        $query->order($this->getState('list.ordering', 'a.id') . ' ' . $this->getState('list.direction', 'ASC'));
+        $orderCol  = $this->state->get('list.ordering', 'a.id');
+        $orderDirn = $this->state->get('list.direction', 'ASC');
+
+        if ($orderCol === 'title') {
+            $ordering = [
+                $db->quoteName('a.title') . ' ' . $db->escape($orderDirn),
+            ];
+        } else {
+            $ordering = $db->escape($orderCol) . ' ' . $db->escape($orderDirn);
+        }
+
+        $query->order($ordering);
 
         return $query;
-    }
-
-    /**
-     * Method to get a list of walks.
-     *
-     * Overridden to inject convert the attribs field into a \JParameter object.
-     *
-     * @return  mixed  An array of objects on success, false on failure.
-     *
-     * @since   1.6
-     */
-    public function getItems()
-    {
-        $items  = parent::getItems();
-        return $items;
-    }
-
-    /**
-     * Method to get the starting number of items for the data set.
-     *
-     * @return  integer  The starting number of items available in the data set.
-     *
-     * @since   3.0.1
-     */
-    public function getStart()
-    {
-        return $this->getState('list.start');
     }
 }
 ```
@@ -1000,7 +946,7 @@ invalid.
 
 #### DisplayController
 
-```php
+``` php
 <?php
 /**
  * @package     Mywalks.Site
@@ -1042,13 +988,18 @@ class DisplayController extends BaseController
 
 ### Essential Administrator Files
 
-Although we are still developing the code for the Site display, some Administrator code is needed. The services/provider.php file is used to boot the component, either to display its own site views or for use by the menu module to create menu items.
+Although we are still developing the code for the Site display, some
+Administrator code is needed. The services/provider.php file is used to
+boot the component, either to display its own site views or for use by
+the menu module to create menu items.
 
 #### The services provider file: administrator/components/com_mywalks/services/provider.php
 
-Pay special notice to the lines starting $container->registerServiceProvider as this is where your code gets registered in a container for use later.
+Pay special notice to the lines starting
+\$container-\>registerServiceProvider as this is where your code gets
+registered in a container for use later.
 
-```php
+``` php
 <?php
 /**
  * @package     Mywalks.Administrator
@@ -1060,11 +1011,9 @@ Pay special notice to the lines starting $container->registerServiceProvider as 
 
 defined('_JEXEC') or die;
 
-//use Joomla\CMS\Categories\CategoryFactoryInterface;
 use Joomla\CMS\Component\Router\RouterFactoryInterface;
 use Joomla\CMS\Dispatcher\ComponentDispatcherFactoryInterface;
 use Joomla\CMS\Extension\ComponentInterface;
-//use Joomla\CMS\Extension\MVCComponent;
 use Joomla\CMS\Extension\Service\Provider\CategoryFactory;
 use Joomla\CMS\Extension\Service\Provider\ComponentDispatcherFactory;
 use Joomla\CMS\Extension\Service\Provider\MVCFactory;
@@ -1105,7 +1054,6 @@ return new class implements ServiceProviderInterface
 
                     $component->setRegistry($container->get(Registry::class));
                     $component->setMVCFactory($container->get(MVCFactoryInterface::class));
-//                  $component->setCategoryFactory($container->get(CategoryFactoryInterface::class));
                     $component->setRouterFactory($container->get(RouterFactoryInterface::class));
 
                     return $component;
@@ -1117,7 +1065,7 @@ return new class implements ServiceProviderInterface
 
 #### The component boot file: administrator/components/com_mywalks/src/Extension/MywalksComponent.php
 
-```php
+``` php
 <?php
 /**
  * @package     Joomla.Administrator
@@ -1182,25 +1130,15 @@ At this stage the com_mywalks component works. One menu item is needed
 to link to the list of walks. There is snag: in the list of walks the
 links to individual walks like like this:
 
-```
-    /site-root/my-walks.html?view=mywalk&id=1
-```
+`/site-root/my-walks.html?view=mywalk&id=1`
 
 (where the site-root my or may not be a subfolder tree). Time for a
-custom SEF router? And take a break to read <a
-href="https://docs.joomla.org/J3.x:Supporting_SEF_URLs_in_your_component"
-class="external text" target="_blank"
-rel="noreferrer noopener">Supporting SEF URLs in your component</a> . I
-have another Joomla package that uses SEF urls of the form
-\[domain\]/XXX/YY/page-title.html where XXX is an organisation branch
-code and YY is a language code. Some branches use multiple languages.
-Non-standard! Yes, but that is what the organisation asked for.
+custom SEF router? And take a break to read [Supporting SEF URLs in your
+component](https://docs.joomla.org/J3.x:Supporting_SEF_URLs_in_your_component).
 
 For the mywalks component I want to use individual walk urls like this:
 
-```
-    /site-root/mywalks/walk-n/walk-title.html
-```
+`/site-root/mywalks/walk-n/walk-title.html`
 
 Where n is the individual walk id and the walk-title is automatically
 generated from the actual title. Neither walk-title nor .html are
@@ -1209,11 +1147,12 @@ am old fashioned.
 
 There are no menu items for individual walks. They are not wanted and
 there is no way to generate them. A custom router is required,
-consisting of two files: Router.php and MywalksNomenuRules.php.
+consisting of two files: Router.php and MywalksNomenuRules.php. **These
+are in the site section of the component code!**
 
 #### The Router File: component/com_mywalks/src/Service/Router.php
 
-```php
+``` php
 <?php
 /**
  * @package     Mywalks.Site
@@ -1233,7 +1172,6 @@ use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\Component\Router\RouterView;
 use Joomla\CMS\Component\Router\RouterViewConfiguration;
 use Joomla\CMS\Component\Router\Rules\MenuRules;
-//use Joomla\CMS\Component\Router\Rules\NomenuRules;
 use J4xdemos\Component\Mywalks\Site\Service\MywalksNomenuRules as NomenuRules;
 use Joomla\CMS\Component\Router\Rules\StandardRules;
 use Joomla\CMS\Menu\AbstractMenu;
@@ -1302,20 +1240,20 @@ class Router extends RouterView
 
 Notice the lines that define and use custom rules:
 
-```php
-        use Joomla\Component\Mywalks\Site\Service\MywalksNomenuRules as NomenuRules;
-        ...
-                $this->attachRule(new NomenuRules($this));
+``` php
+    use Joomla\Component\Mywalks\Site\Service\MywalksNomenuRules as NomenuRules;
+    ...
+            $this->attachRule(new NomenuRules($this));
 ```
 
 The rules include a *build* function to create the links to individual
 walks, and a *parse* function to translate an incoming SEF url to an
 internal Joomla route. There is no need to worry about the link in the
-menu item as it is take care of by the MenuRules rules.
+menu item as it is taken care of by the MenuRules rules.
 
 #### The Router Rules file: components/my_walks/src/Service/MywalksNomenuRules.php
 
-```php
+``` php
 <?php
 /**
  * Joomla! Content Management System
@@ -1442,19 +1380,7 @@ error messages.
 
 That is it - a working component, but only working on the site side!
 
-<img
-src="https://docs.joomla.org/images/2/2a/Mywalks-site-walks-list.jpg"
-decoding="async" data-file-width="800" data-file-height="672"
-width="800" height="672" alt="The Mywalks site walks list" />
-
-## More Information
-
-[Manifest
-Files](https://docs.joomla.org/Manifest_files "Special:MyLanguage/Manifest files")
-
-## Todo:
-
-- Add code to sort the walks list on a selected column.
-- Add code for for walks list pagination.
-- Add some sort of *back* link in the single walk page, or modify the
-  breadcrumb module.
+<figure>
+<img alt="The Mywalks site walks list" src="https://docs.joomla.org//images/2/2a/Mywalks-site-walks-list.jpg" decoding="async" data-file-width="1000" data-file-height="423" width="1000" height="423">
+<figcaption>The Mywalks site walks list</figcaption>
+</figure>
