@@ -100,10 +100,7 @@ linking issues to be covered later.
 
 This is a screen shot of the working Administrator's Walks list:
 
-<figure>
 <img alt="The Administrator Walks List" src="https://docs.joomla.org/images/1/14/Mywalks-admin-walks-list.jpg" decoding="async" data-file-width="1000" data-file-height="508" width="1000" height="508">
-<figcaption>The Administrator Walks List</figcaption>
-</figure>
 
 The code to generate this list is explained here in reverse alphabet
 order: View, tmpl, Model and Controller. A Table is not required as the

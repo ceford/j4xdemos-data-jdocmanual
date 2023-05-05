@@ -1380,7 +1380,4 @@ error messages.
 
 That is it - a working component, but only working on the site side!
 
-<figure>
 <img alt="The Mywalks site walks list" src="https://docs.joomla.org//images/2/2a/Mywalks-site-walks-list.jpg" decoding="async" data-file-width="1000" data-file-height="423" width="1000" height="423">
-<figcaption>The Mywalks site walks list</figcaption>
-</figure>

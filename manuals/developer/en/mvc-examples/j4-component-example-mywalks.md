@@ -24,7 +24,4 @@ file.
 
 Site screenshot:
 
-<figure>
 <img alt="Mywalks site screenshot" src="https://docs.joomla.org/images/2/2a/Mywalks-site-walks-list.jpg" decoding="async" data-file-width="1000" data-file-height="423" width="1000" height="423">
-<figcaption>Mywalks site screenshot</figcaption>
-</figure>
