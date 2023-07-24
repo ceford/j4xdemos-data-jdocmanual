@@ -1,5 +1,3 @@
-<!-- Filename: Help4.x:Admin_Modules:_Action_Logs_-_Latest / Display title: Admin Modules: Action Logs - Latest -->
-
 ## Description
 
 The **Action Logs - Latest** module type shows a list of the most recent
