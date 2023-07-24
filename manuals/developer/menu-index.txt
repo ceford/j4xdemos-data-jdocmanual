@@ -1,6 +1,7 @@
 ; Source for menu build - heading and item order.
 ; heading=heading=English Heading
 ; manual=heading=filename
+; test=test=test
 
 heading=getting-started=Getting Started
 developer=getting-started=developer-required-software.md
