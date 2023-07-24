@@ -1,3 +1,5 @@
+<!-- Filename: Help4.x:Admin_Modules:_Administrator_Dashboard_Menu/ Display title: Admin Modules: Administrator Dashboard Menu -->
+
 ## Description
 
 The **Administrator Dashboard Menu** module type displays a collection
