@@ -1,6 +1,6 @@
 <!-- Filename: J4.x:Adding_an_API_to_a_Joomla_Component / Display title: Adding an API to a Joomla Component -->
 
-Joomla!  4.0
+Remove this line ... Joomla!  4.0
 
 This page is intended to document how to integrate the Web Services
 layer introduced in
