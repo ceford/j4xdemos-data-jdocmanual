@@ -14,4 +14,4 @@ data used to generate side menus in the Jdocmanual display.
 
 Data has been gathered for original documents in eight languages,
 although not all of the original English versions have been translated.
-More languages my be added later.
+More languages may be added later.

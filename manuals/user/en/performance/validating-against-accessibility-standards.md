@@ -6,3 +6,5 @@ standards. The easiest way to do this is to use one of the many online
 accessibility validators provided by accessibility support groups.
 Simply type accessibility validator at your preferred search engine to
 find one.
+
+Joomla 4 includes an Accessibility Checker plugin. See https://joomla-projects.github.io/joomla-a11y-checker/index.html for more information.
