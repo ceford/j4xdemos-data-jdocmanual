@@ -1,0 +1,8 @@
+; Source for menu build - heading and item order.
+; heading=heading=English Heading
+; manual=heading=filename
+
+heading=jdocmnanual=Introduction
+docs=jdocmanual=introduction-to-jdocmanual.md
+heading=guides=Guides
+docs=guides=words-to-watch-table.md
