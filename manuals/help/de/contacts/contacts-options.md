@@ -56,11 +56,8 @@ werden für einen bestimmten Menüpunkt oder Kontakt geändert
 - **Name.** Der Name des Kontakts.
 - **Position.** Anzeigen oder Verbergen der Position.
 - **E-Mail-Adresse.** Anzeigen oder Verbergen der E-Mail-Adresse.
-- **„<a href="mailto:%E2%80%9C-Link" class="external free" target="_blank"
-  rel="nofollow noreferrer noopener">mailto:“-Link</a> hinzufügen.**
-  Ergänzt einen
-  „<a href="mailto:%E2%80%9C-Link" class="external free" target="_blank"
-  rel="nofollow noreferrer noopener">mailto:“-Link</a> zur angezeigten
+- **mailto:-Link hinzufügen.**
+  Ergänzt einen mailto:-Link zur angezeigten
   E-Mail-Adresse.
 - **Adresse.** Anzeigen oder Verbergen der Adresse.
 - **Ort.** Anzeigen oder Verbergen des Ortes.

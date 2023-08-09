@@ -2,7 +2,31 @@
 ; heading=heading=English Heading
 ; manual=heading=filename
 
-heading=jdocmnanual=Introduction
+heading=jdocmnanual=JDOC Manual
 docs=jdocmanual=introduction-to-jdocmanual.md
+
 heading=guides=Guides
 docs=guides=words-to-watch-table.md
+
+heading=mediawiki-documentation=MediaWiki Documentation
+docs=mediawiki-documentation=jdoc-how-to-contribute-to-joomla-documentation.md
+docs=mediawiki-documentation=jdoc-policies-and-guidelines.md
+docs=mediawiki-documentation=jdoc-namespaces.md
+docs=mediawiki-documentation=jdoc-image-naming-guidelines.md
+docs=mediawiki-documentation=jdoc-local-wiki-templates.md
+docs=mediawiki-documentation=jdoc-hatnotes.md
+docs=mediawiki-documentation=jdoc-page-markup-for-translation.md
+docs=mediawiki-documentation=jdoc-remote-documentation.md
+docs=mediawiki-documentation=jdoc-how-to-create-a-glossary-entry.md
+docs=mediawiki-documentation=how-to-take-screenshots-for-joomla-documentation.md
+docs=mediawiki-documentation=taking-screenshots-how-to-enhance.md
+
+heading=mediawiki-help=MediaWiki Help Pages
+docs=mediawiki-help=help-screens-styleguide.md
+docs=mediawiki-help=jdoc-using-chunks-in-joomla-help-screens.md
+
+heading=mediawiki-translation=MediaWiki Translation
+docs=mediawiki-translation=jdoc-page-translation-quickstart-guide.md
+docs=mediawiki-translation=jdoc-page-translation-explained.md
+docs=mediawiki-translation=jdoc-translating-links.md
+docs=mediawiki-translation=crowdin.md
