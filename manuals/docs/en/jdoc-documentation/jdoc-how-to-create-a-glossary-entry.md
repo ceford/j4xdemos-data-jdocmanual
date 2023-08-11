@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:How_to_Create_a_Glossary_Entry / Display title: JDOC:How to Create a Glossary Entry -->
+<!-- Filename: JDOC:How_to_Create_a_Glossary_Entry / Display title: How to Create a Glossary Entry -->
 
 The
 [glossary](https://docs.joomla.org/glossary "Special:MyLanguage/glossary")
@@ -52,7 +52,9 @@ glossary term here.
 
 Then add these lines:
 
-    [[Category:Glossary definitions|{{PAGENAME}}]]
+```markdown
+<noinclude>[[Category:Glossary definitions|{{PAGENAME}}]]</noinclude>
+```
 
 This code adds the category to the chunk. If the chunk is not included
 in the category [Glossary

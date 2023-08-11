@@ -1,4 +1,4 @@
-<!-- Filename: JEDL / Display title: JEDL -->
+<!-- Filename: JEDL / Display title: JEDL Licence -->
 
 Below is a license granting you rights to use, modify and distribute
 documentation associated with the Joomla! project. It is designed to

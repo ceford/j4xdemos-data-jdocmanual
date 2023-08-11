@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Hatnotes / Display title: JDOC:Hatnotes -->
+<!-- Filename: JDOC:Hatnotes / Display title: Hatnotes -->
 
 Hatnotes look like this.
 
@@ -58,13 +58,7 @@ templates](https://docs.joomla.org/Category:Marker_templates "Category:Marker te
 
 In terms of document structure, it is awkward to have article content,
 then meta content, then article content again. Analogously, in HTML it
-would be bad form to put
-
-and
-
-tags within
-
-.
+would be bad form to put `<title>` and `<meta>` tags within `<body>`.
 
 In terms of accessibility, not everyone is using or has the CSS
 functionality that "floats" images and templates to the right or left,

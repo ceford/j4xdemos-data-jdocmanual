@@ -1,4 +1,4 @@
-<!-- Filename: Taking_Screenshots_%E2%80%93_How_To_Enhance / Display title: JDOC:Taking Screenshots - How to Enhance -->
+<!-- Filename: Taking_Screenshots_%E2%80%93_How_To_Enhance / Display title: Taking Screenshots - How to Enhance -->
 
 ## How to take screenshots
 

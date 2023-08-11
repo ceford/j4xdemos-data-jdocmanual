@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Remote_Documentation / Display title: JDOC:Remote Documentation -->
+<!-- Filename: JDOC:Remote_Documentation / Display title: Remote Documentation -->
 
 ## Introduction
 

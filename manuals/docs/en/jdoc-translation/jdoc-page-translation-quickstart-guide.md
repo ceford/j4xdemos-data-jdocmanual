@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Page_Translation_Quickstart_Guide / Display title: JDOC:Page Translation Quickstart Guide -->
+<!-- Filename: JDOC:Page_Translation_Quickstart_Guide / Display title: Page Translation Quickstart Guide -->
 
 This page should help get a translator quickly started with
 documentation translations. For the more detailed version of page
@@ -335,8 +335,9 @@ class="external free" target="_blank"
 rel="noreferrer noopener">https://docs.joomla.org/Chunk30:Help_screen_Show_Title</a>
 we can use it in a document with the following code:
 
-    {{Chunk30:Help_screen_Show_Title/en}}
-
+```markdown
+    {{Chunk30:Help_screen_Show_Title/<translate>en</translate>}}
+```
 If we use this in a document we see the following:
 
 - **Show Title**. (*Use Global*/*Use Article Settings*/*Show*/*Hide*)
@@ -354,8 +355,9 @@ sophisticated way of usage of chunks, with parameters. This way you can
 pass parameters to the chunk in your own language. We do this with the
 following code:
 
-    {{Chunk30:Help_screen_toolbar_icon_Save/en|menu item}}
-
+```markdown
+    {{Chunk30:Help_screen_toolbar_icon_Save/<translate>en</translate>|<translate>menu item</translate>}}
+```
 The source of this chunk is:
 
     *'''Save'''. Saves the {{{1|item}}} and stays in the current screen.

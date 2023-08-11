@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Translating_Links / Display title: JDOC:Translating Links -->
+<!-- Filename: JDOC:Translating_Links / Display title: Translating Links -->
 
 ## Introduction
 

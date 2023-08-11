@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Page_Translation_Explained / Display title: JDOC:Page Translation Explained -->
+<!-- Filename: JDOC:Page_Translation_Explained / Display title: Page Translation Explained -->
 
 More information on this topic is available at the <a
 href="https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_administration"
@@ -191,9 +191,9 @@ all together compose the translatable page in the broadest sense: their
 title is determined by the title of the translatable `Page`:
 
 - `Page` (the source page)
-- `Page/` (the translation pages, plus a copy of the source page without
+- `Page/<language code>` (the translation pages, plus a copy of the source page without
   markup)
-- `Translations:Page//` (all the translation unit pages)
+- `Translations:Page/<translation unit identifier>/<language code>` (all the translation unit pages)
 
 In addition to this, there are the translation page template and the
 sources of translation units, extracted from the source page and stored
@@ -237,13 +237,23 @@ output or not.
 **Parsing order.** Beware, the translate tags work differently from
 other tags, because they do not go through the parser. This should not
 cause problems usually, but may if you are trying something fancy. In
-more detail, they are parsed before any other tags like
+more detail, they are parsed before any other tags like `<pre>` or 
+`<source>`, with the exception of `<nowiki>` which is recognized by 
+the Translate extension in some circumstances (such as rendering a page) 
+but not in others (such as generating the list on Special:PageTranslation 
+of pages containing `<translate>`). If you want to have the literal 
+expression "`<translate>`" in the source text, you should escape it 
+like "`&lt;translate>`".
 
-     or , with the exception of  which is recognized by the Translate extension in some circumstances (such as rendering a page) but not in others (such as generating the list on Special:PageTranslation of pages containing ). If you want to have the literal expression "" in the source text, you should escape it like "<translate>".
+**Tag placing.** If possible, try to put the tags on their own lines, 
+with no empty lines between the content and the tags. Sometimes this 
+is not possible, for example if you want to translate some content 
+surrounded by the markup, but not the markup itself. This is fine too, 
+for example:
 
-    Tag placing. If possible, try to put the tags on their own lines, with no empty lines between the content and the tags. Sometimes this is not possible, for example if you want to translate some content surrounded by the markup, but not the markup itself. This is fine too, for example:
-
-    {{Template|Some localised parameter}}
+```markdown
+{{Template|<translate>Some localised parameter</translate>}}
+```
 
 To make this work, the extension has a simple whitespace handling:
 whitespace is preserved, except if an opening or closing translate tag
@@ -319,12 +329,14 @@ trying to edit a specific section of the source page. The markup also
 immediately gives translator a context: he/she is translating a
 header.</td>
 <td><p><strong>Wrong:</strong></p>
-<pre><code>== Culture ==</code></pre>
+<pre><code>== &lt;translate>Culture&lt;/translate> ==</code></pre>
 <p><strong>Correct:</strong></p>
-<pre><code>== Culture ==</code></pre>
+<pre><code>&lt;translate>== Culture ==&lt;/translate></code></pre>
 <p><strong>Suggested segmentation:</strong></p>
-<pre><code>== Culture ==
+<pre><code>&lt;translate>
+== Culture ==
 &#10;Lorem ipsum dolor.
+&lt;/translate>
 </code></pre></td>
 </tr>
 <tr class="odd">
@@ -333,10 +345,12 @@ header.</td>
 include the full image syntax in an unit. Other images can only tag the
 description with optional hint in message documentation of the page
 after it has been marked.</td>
-<td><pre><code>[[File:Europe.png/en|thumb|right|Map of Europe with capital cities]]
+<td><pre><code>&lt;translate>
+[[File:Europe.png/en|thumb|right|Map of Europe with capital cities]]
+&lt;/translate>
 &#10;or
-[[File:Europe.png/en|thumb|right|Map of Europe with capital cities]]</code></pre>
-<pre><code>[[File:Ball.png|50px|Ball icon]]</code></pre></td>
+[[File:Europe.png/&lt;translate>en&lt;/translate>|thumb|right|&lt;translate>Map of Europe with capital cities&lt;/translate>]]</code></pre>
+<pre><code>[[File:Ball.png|50px|&lt;translate>Ball icon&lt;/translate>]]</code></pre></td>
 </tr>
 <tr class="even">
 <td><strong>Links</strong></td>
@@ -348,19 +362,28 @@ generated id's for headers. You can add your own anchors. To have them
 outside of the translation template you need to break up the page into
 multiple translate tag pairs around each header you want to have an
 anchor to.</p></td>
-<td><p><strong>Internal links:</strong></p>
-<pre><code>Helsinki is capital of [[S:MyLanguage/Finland (country)|Finland]].
+<td>
+<p><strong>Internal links:</strong></p>
+<pre><code>&lt;translate>
+Helsinki is capital of [[S:MyLanguage/Finland (country)|Finland]].
+&lt;/translate>
 &#10;In the helpscreens documentation you are not allowed to use S:MyLanguage/in this case you must use:
+&lt;translate>
 &#10;Helsinki is capital of [[Finland (country)/en|Finland]].
+&lt;/translate>
 </code></pre>
 <p><strong>External links:</strong></p>
-<pre><code>PHP ([http://php.net website]) is a programming language.</code></pre>
+<pre><code>&lt;translate>
+PHP ([http://php.net website]) is a programming language.
+&lt;/translate></code></pre>
 <p><strong>Links within a page:</strong></p>
 <pre><code>
+&lt;translate>
 == Culture ==
 &#10;Lorem ipsum dolor.
 &#10;...
-&#10;For more about food, see [[#culture|section about culture]].</code></pre></td>
+&#10;For more about food, see [[#culture|section about culture]].
+&lt;/translate></code></pre></td>
 </tr>
 <tr class="odd">
 <td><strong>Lists</strong></td>
@@ -374,13 +397,18 @@ logically dependent parts which may affect each other. (With regard to
 punctuation or style of the list, for instance.) To split a list, use
 -tags. Do not insert new lines; this will break the HTML
 output.</p></td>
-<td><pre><code>* General principles
+<td><pre><code>&lt;translate>
+* General principles
 * Headings
 * Images
 * Tables
 * Categories
-&#10;* Links
+&lt;/translate>
+&#10;
+&lt;translate>
+* Links
 * Templates
+&lt;/translate>
 </code></pre></td>
 </tr>
 <tr class="even">
@@ -393,10 +421,13 @@ multiple benefits:
 <li>Translation memory can work better when the changing number is
 ignored.</li>
 </ul></td>
-<td><pre><code>Income this month {{FORMATNUM:3567800}}&lt;/&gt; EUR</code></pre>
+<td><pre><code>&lt;translate>
+Income this month &lt;tvar|income>{{FORMATNUM:3567800}}&lt;/&gt; EUR
+&lt;/translate></code></pre>
 <p>Note that this prevents the translators from localising the number by
-doing currency conversion. The <code>FORMATNUM</code> call makes sure
-the number is formatted correctly in the target language.</p></td>
+doing currency conversion. The `FORMATNUM` call makes sure
+the number is formatted correctly in the target language.</p>
+</td>
 </tr>
 <tr class="odd">
 <td><strong>Templates</strong></td>
@@ -444,11 +475,15 @@ line before the unit; or, if it starts with a header, after the first
 header on the same line. The different placement for headers is needed
 to keep section editing working as expected.
 
-    == Birds == 
-    Birds are animals which....
+```markdown
+<translate>
+== Birds == <!--T:1-->
+Birds are animals which....
 
-
-    Birds can fly and...
+<!--T:2-->
+Birds can fly and...
+</translate>
+```
 
 **Changing unit text.** Changing is the most common operation for
 translation units. You can fix spelling mistakes, correct grammar or do
@@ -486,13 +521,17 @@ re-marked for translation.
 <th>Removing the marker</th>
 </tr>
 &#10;<tr class="odd">
-<td><pre><code>Cat purrs. Dog barks.</code></pre></td>
-<td><pre><code>Cat purrs.
-&#10; (Added after remarking)
-Dog barks.</code></pre></td>
-<td><pre><code> (Added after remarking)
+<td><pre><code>&lt;!--T:1-->
+Cat purrs. Dog barks.</code></pre></td>
+<td><pre><code>&lt;!--T:1-->
 Cat purrs.
-&#10; (Added after remarking)
+&#10; 
+&lt;!--T:2--> (Added after remarking)
+Dog barks.</code></pre></td>
+<td><pre><code>&lt;!--T:2--> (Added after remarking)
+Cat purrs.
+&#10; 
+&lt;!--T:3--> (Added after remarking)
 Dog barks.</code></pre></td>
 </tr>
 <tr class="even">
@@ -521,16 +560,18 @@ unit. *(See table below)*
 <th>After moving units</th>
 </tr>
 &#10;<tr class="odd">
-<td><pre><code> (Two distinct units)
+<td><pre><code>&lt;!--T:1--> (Two distinct units)
 Cat purrs.
 &#10;
+&lt;!--T:2-->
 Dog barks.</code></pre></td>
-<td><pre><code> (Two units merged as one)
+<td><pre><code>&lt;!--T:1--> (Two units merged as one)
 Dog barks.
 &#10;Cat purrs.</code></pre></td>
-<td><pre><code> (A unit moved up)
+<td><pre><code>&lt;!--T:2--> (A unit moved up)
 Dog barks.
-&#10; (A unit moved down)
+&#10; 
+&lt;!--T:1--> (A unit moved down)
 Cat purrs.</code></pre></td>
 </tr>
 <tr class="even">

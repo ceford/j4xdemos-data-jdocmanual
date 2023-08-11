@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Policies_and_guidelines / Display title: JDOC:Policies and guidelines -->
+<!-- Filename: JDOC:Policies_and_guidelines / Display title: Policies and guidelines -->
 
 <table class="noprint infobox template-shortcut">
 

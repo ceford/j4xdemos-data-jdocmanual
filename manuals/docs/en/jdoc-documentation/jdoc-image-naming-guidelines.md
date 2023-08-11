@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Image_naming_guidelines / Display title: JDOC:Image naming guidelines -->
+<!-- Filename: JDOC:Image_naming_guidelines / Display title: Image naming guidelines -->
 
 The image naming guidelines are to give documentation contributors a set
 guidelines about naming an uploaded image file *not used* by Joomla
@@ -51,19 +51,25 @@ to it's version. This allows someone to instantly know what version of
 Joomla is connected to the image. Example: `j3x`. There is no need to
 insert the .(dot) in the version, please omit it.
 
-    --.
+```text
+<jver>-<admin>-<view>.<extension('png' | 'jpg' | 'jpeg' | 'gif')>
+``````
 
 #### Joomla Image Examples
 
 A screenshot of Joomla 3.x administrator's view of the article manager
 could be written as:
 
-    j3x_admin_content_article_manager_articles.png
+```text
+j3x_admin_content_article_manager_articles.png
+```
 
 A screenshot of Joomla 3.x site's (frontend) view of the log in module
 could be written as:
 
-    j3x_site_protostar_log_in_module.png
+```text
+j3x_site_protostar_log_in_module.png
+```
 
 ### Suggested Formats For non-Joomla Images
 
@@ -77,10 +83,12 @@ images of software or website's, please include them within reason.
 GitHub pull request, the Firefox Firebug tool, or these other examples
 could be written as:
 
+```text
     github-pull-request-how-to.png
     eclipse_indigo_interface_egit_browsing_veiw.png
     joomla-event-Nov-2013-John-Smith.png
     firefox_addon_firebug_colour_picker.png
+```
 
 They are short, descriptive and inform the viewer looking at the image
 call what the image is quickly.
@@ -100,13 +108,18 @@ Images](https://docs.joomla.org/JDOC:Localising_Images "Special:MyLanguage/JDOC:
 Translators will find detailed information about translating images.
 Here is the base examples:
 
-    ---.
-
+```text
+    <jver>-<admin>-<view>-<language code>.<extension('png' | 'jpg' | 'jpeg' | 'gif')>
+```
 Taking some of the examples from above:
 
+```text
     j3x_admin_content_article_manager_articles_es.png
+```
 
 A screenshot of Joomla 3.x site's (frontend) view of the log in module
 could be written as:
 
+```text
     j3x_site_protostar_log_in_module_fr.png
+```

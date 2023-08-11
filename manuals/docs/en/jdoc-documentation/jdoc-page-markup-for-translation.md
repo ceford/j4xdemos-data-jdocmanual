@@ -1,4 +1,4 @@
-<!-- Filename: JDOC:Page_Markup_for_Translation / Display title: JDOC:Page Markup for Translation -->
+<!-- Filename: JDOC:Page_Markup_for_Translation / Display title: Page Markup for Translation -->
 
 ## Introduction
 
@@ -111,10 +111,20 @@ and words2watch you may consider it ready for others to use. At that
 stage a person responsible for translation markup will add these lines
 at the top of the document, or you can do it yourself:
 
+```markdown
+<noinclude><languages /></noinclude>
+<translate>
+```
+
 And these lines at the bottom of the document:
 
+```markdown
+<noinclude>
     [[Category:Tutorials{{#translation:}}]]
     [[Category:xxx]]
+</noinclude>
+</translate>
+```
 
 Where xxx is a relevant Category for this document. There can be any
 number of categories but using more than one or two eventually becomes
@@ -205,7 +215,9 @@ button.
 When marked for translation, a robot places translation marker tags in
 the page source. They look like this:
 
-    == Introduction == 
+```markdown
+    == Introduction == <!--T:2-->
+```
 
 If you make changes later you should leave these tags alone. Changing or
 removing the tags will corrupt the translations. You do not add any
