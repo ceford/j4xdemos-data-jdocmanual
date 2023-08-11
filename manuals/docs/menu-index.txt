@@ -4,29 +4,33 @@
 
 heading=jdocmnanual=JDOC Manual
 docs=jdocmanual=introduction-to-jdocmanual.md
+docs=jdocmanual=source-data.md
+docs=jdocmanual=article-edit.md
+docs=jdocmanual=article-new.md
 
-heading=guides=Guides
-docs=guides=words-to-watch-table.md
+heading=jdoc-reference=JDOC Reference
+docs=jdoc-reference=jedl.md
+docs=jdoc-reference=words-to-watch-table.md
 
-heading=mediawiki-documentation=MediaWiki Documentation
-docs=mediawiki-documentation=jdoc-how-to-contribute-to-joomla-documentation.md
-docs=mediawiki-documentation=jdoc-policies-and-guidelines.md
-docs=mediawiki-documentation=jdoc-namespaces.md
-docs=mediawiki-documentation=jdoc-image-naming-guidelines.md
-docs=mediawiki-documentation=jdoc-local-wiki-templates.md
-docs=mediawiki-documentation=jdoc-hatnotes.md
-docs=mediawiki-documentation=jdoc-page-markup-for-translation.md
-docs=mediawiki-documentation=jdoc-remote-documentation.md
-docs=mediawiki-documentation=jdoc-how-to-create-a-glossary-entry.md
-docs=mediawiki-documentation=how-to-take-screenshots-for-joomla-documentation.md
-docs=mediawiki-documentation=taking-screenshots-how-to-enhance.md
+heading=jdoc-documentation=JDOC Documentation
+docs=jdoc-documentation=jdoc-how-to-contribute-to-joomla-documentation.md
+docs=jdoc-documentation=jdoc-policies-and-guidelines.md
+docs=jdoc-documentation=jdoc-namespaces.md
+docs=jdoc-documentation=jdoc-image-naming-guidelines.md
+docs=jdoc-documentation=jdoc-local-wiki-templates.md
+docs=jdoc-documentation=jdoc-hatnotes.md
+docs=jdoc-documentation=jdoc-page-markup-for-translation.md
+docs=jdoc-documentation=jdoc-remote-documentation.md
+docs=jdoc-documentation=jdoc-how-to-create-a-glossary-entry.md
+docs=jdoc-documentation=how-to-take-screenshots-for-joomla-documentation.md
+docs=jdoc-documentation=taking-screenshots-how-to-enhance.md
 
-heading=mediawiki-help=MediaWiki Help Pages
-docs=mediawiki-help=help-screens-styleguide.md
-docs=mediawiki-help=jdoc-using-chunks-in-joomla-help-screens.md
+heading=jdoc-help=JDOC Help Pages
+docs=jdoc-help=help-screens-styleguide.md
+docs=jdoc-help=jdoc-using-chunks-in-joomla-help-screens.md
 
-heading=mediawiki-translation=MediaWiki Translation
-docs=mediawiki-translation=jdoc-page-translation-quickstart-guide.md
-docs=mediawiki-translation=jdoc-page-translation-explained.md
-docs=mediawiki-translation=jdoc-translating-links.md
-docs=mediawiki-translation=crowdin.md
+heading=jdoc-translation=JDOC Translation
+docs=jdoc-translation=jdoc-page-translation-quickstart-guide.md
+docs=jdoc-translation=jdoc-page-translation-explained.md
+docs=jdoc-translation=jdoc-translating-links.md
+docs=jdoc-translation=crowdin.md
