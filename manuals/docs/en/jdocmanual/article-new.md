@@ -32,6 +32,7 @@ new data.
 - Stash text should be broken into lines of 80 characters or less.
 
 When the New Article is committed a new entry will be created for it in the jdm_articles
-database table. However, some work is still needed to create a menu item for it.
+database table. An entry is made also in articles-index.txt so that the article can be
+included when the database is built initially.
 
 The article will disappear from the New Articles list and appear in the Articles list.
