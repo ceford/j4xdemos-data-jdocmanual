@@ -8,6 +8,7 @@ docs=jdocmanual=source-data.md
 docs=jdocmanual=article-edit.md
 docs=jdocmanual=article-new.md
 docs=jdocmanual=menu-items.md
+docs=jdocmanual=proxy-server.md
 
 heading=jdoc-reference=JDOC Reference
 docs=jdoc-reference=jedl.md
