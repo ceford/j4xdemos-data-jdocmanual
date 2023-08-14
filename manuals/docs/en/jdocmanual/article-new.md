@@ -36,3 +36,9 @@ database table. An entry is made also in articles-index.txt so that the article 
 included when the database is built initially.
 
 The article will disappear from the New Articles list and appear in the Articles list.
+
+## Create a Menu Item
+
+After creating a new article you need to create a new menu item for it. Just follow the procedure
+described under menu Items. You will need to use the heading and filename used when
+creating the new article.
