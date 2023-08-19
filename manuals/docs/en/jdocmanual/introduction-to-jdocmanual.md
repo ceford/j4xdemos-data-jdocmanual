@@ -15,7 +15,7 @@ articles can be displayed in any language for which a translation is available.
 Jdocmanual has a default Manual view for the Administrator and a Site view 
 using the same code. This is the Administrator view:
 
-<img src="/jdocmanual2/images/manuals/docs/en/jdocmanual/jdocmanual.png" 
+<img src="./images/manuals/docs/en/jdocmanual/jdocmanual.png" 
 class="screenshot" alt="manual view" title="The Jdocmanual Manual View" 
 width=1440 height=728>
 
