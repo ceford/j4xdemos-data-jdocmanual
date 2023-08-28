@@ -97,8 +97,6 @@ heading=fields=Fields
 user=fields=fields-and-field-groups.md
 user=fields=adding-custom-fields-parameters-for-all-custom-fields.md
 user=fields=adding-custom-fields-what-components-are-supporting-custom-fields.md
-user=fields=adding-custom-fields-multilingual-sites.md
-user=fields=adding-custom-fields-overrides.md
 user=fields=adding-custom-fields-calendar-field.md
 user=fields=adding-custom-fields-checkboxes-field.md
 user=fields=adding-custom-fields-color-field.md
@@ -107,6 +105,8 @@ user=fields=adding-custom-fields-integer-field.md
 user=fields=adding-custom-fields-list-field.md
 user=fields=adding-custom-fields-list-of-images-field.md
 user=fields=adding-custom-fields-media-field.md
+user=fields=adding-custom-fields-multilingual-sites.md
+user=fields=adding-custom-fields-overrides.md
 user=fields=adding-custom-fields-radio-field.md
 user=fields=adding-custom-fields-sql-field.md
 user=fields=custom-fields-type-subfields.md
