@@ -172,11 +172,3 @@ src="https://docs.joomla.org/images/3/3d/Multilanguage-custom-field-site-de-en.j
 decoding="async" data-file-width="2410" data-file-height="1328"
 width="2410" height="1328"
 alt="Multilanguage-custom-field-site-de-en.jpg" />
-
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Usergroup_Field"
-id="content-button" class="button expand success">Prev: Usergroup
-Field</a> <a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/What_components_are_supporting_custom_fields"
-id="content-button" class="button expand">Next: Components supporting
-custom fields</a>
