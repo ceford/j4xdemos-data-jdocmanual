@@ -146,9 +146,3 @@ In the register **Options** you can use the options:
   Should the field be disabled in the edit form.
 - Read only  
   Should the field be read-only in the edit form.
-
-<a href="https://docs.joomla.org/J3.x:Adding_custom_fields"
-id="content-button" class="button expand success">Prev: Introduction</a>
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Calendar_Field"
-id="content-button" class="button expand">Next: Calendar Field</a>
