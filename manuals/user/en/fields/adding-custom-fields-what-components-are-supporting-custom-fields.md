@@ -1,6 +1,6 @@
 <!-- Filename: J3.x:Adding_custom_fields/What_components_are_supporting_custom_fields / Display title: Adding custom fields/What components are supporting custom fields -->
 
-## What components are supporting custom fields
+## Components supporting custom fields
 
 ### Content
 
@@ -33,7 +33,4 @@ alt="Custom fields usage contact-en.png" />
 Through some plugin events 3rd party extension developers are able to
 easily integrate the custom fields feature into their components. It
 will look as part of their extension, similar to categories, tags or
-history.  
-However, the exact usage in this extension depends on the integration.
-Navigate to the next article to see how to integrate the custom fields
-to your component.
+history.
