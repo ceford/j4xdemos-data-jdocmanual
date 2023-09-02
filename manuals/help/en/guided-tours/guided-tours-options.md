@@ -14,7 +14,7 @@ Click the Options toolbar button.
 
 ## Screenshot
 
-<img alt="Global configuration options" src="https://docs.joomla.org/images/b/b9/Guidedtours_options.png" decoding="async" data-file-width="1280" data-file-height="1227" width="1280" height="1227">
+<img alt="Global configuration options" src="https://docs.joomla.org/images/8/81/Guidedtours_options_en.png" decoding="async" width="1280" height="1227" data-file-width="1280" data-file-height="1227">
 
 ## Form Fields
 
