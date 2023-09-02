@@ -22,47 +22,36 @@ To edit a Tour:
 
 ## Screenshot
 
-<img alt="Guided Tours: Edit Tour" src="https://docs.joomla.org/images/c/cc/Guidedtours_tour_edit_en.png" decoding="async" data-file-width="1263" data-file-height="1084" width="1263" height="1084">
+<img alt="Guided Tours: Edit Tour" src="https://docs.joomla.org/images/b/b4/Guided_tours_tour_edit_en.png" decoding="async" width="1031" height="868" data-file-width="1031" data-file-height="868">
 
 ## Form Fields
 
 - **Title**. The Title for this tour. If the title is a language key, an aditional field is shown, representing the translation of that key for the user's locale.
+- **Identifier.** A unique identifier for the tour. On 'save', or 'copy', a value is provided by default. A suggested format would be ''authorname-tourname'', ''companyname-tourname'' or ''domain-tourname''. This identifier has multiple purposes: start a tour from anywhere (not only from the Guided Tours module), differentiate tours coming from different origins, and on multilingual sites, it dictates the language file names structure.
 
 ## Edit Tour
 
 **Left Panel**
 
-- **URL**. The mandatory relative path from where the tour starts. 
-  
-  For instance, to start a tour from the tour's page, enter *administrator/index.php?option=com_guidedtours&view=tours*.
-
+- **URL**. The mandatory relative path from where the tour starts.
+   For instance, to start a tour from the tour's page, enter *administrator/index.php?option=com_guidedtours&view=tours*.
 - **Description**. This is where you enter the description of the tour. Joomla includes 3
-   editors, the default **Editor - TinyMCE** is shown here. 
-  
-  The tour description can be a language key. When this is the case, a secondary field presents the translated description of that key for the user's locale.
-  
-  The CMS Content dropdown list provides access to **Media**.
-
-- **Toggle Editor**. A Toggle Editor button show below the edit window. This button allows you to toggle between **TinyMCE** and **Editor - None**.
+   editors, the default **Editor - TinyMCE** is shown here. The tour description can be a 
+   language key. When this is the case, a secondary field presents the translated description of that key for the user's locale.  
+   The CMS Content dropdown list provides access to **Media**.
+- **Toggle Editor**. A Toggle Editor button show below the edit window. This button allows you to 
+   toggle between **TinyMCE** and **Editor - None**.
 
 **Right Panel**
 
 - **Status**. The published status of this tour.
-  
   - **Published**: Tour is visible in the Take a tour dropdown.
-  
   - **Unpublished**: Tour is not visible in the Take a tour dropdown.
-  
   - **Archived**: Tour will no longer show.
-  
   - **Trashed**: Tour is deleted but still in the database.
-
 - **Access**. Select the viewing access level for this tour. The access levels depend on what has been set up in **Users: Access Levels**.
-
 - **Language**. Select the language for this tour. Keep the default of 'All' if you are not using the **multi-language feature**.
-
-- **Component Selector**. The tour will only be visible in pages of the selected extensions. Use 'All' to show the tour in all pages of the administration. This is a mandatory field.
-
+- **Component Selector**. The tour will be visible in priority in pages of the selected extensions. Use 'All' to show the tour in all pages. When set to 'All', the tour is placed last in the list of contextual tours in the module dropdown. This is a mandatory field.
 - **Note**. This is for the administrator's use (for example, to document information about this tour).
 
 ## Publishing
@@ -86,24 +75,15 @@ This is where you can enter permissions for this tour.
 To change the permissions for this tour, do the following.
 
 1. Select the **Group** by clicking its title located on the left.
-
-2. Find the desired **Action**.
-   
+2. Find the desired **Action**.   
    - **Delete**. Users can delete this tour.
-   
    - **Edit**. Users can edit this tour.
-   
    - **Edit State**. User can change the published state and related information for this tour.
-
-3. Select the desired permission for the action you wish to change.
-   
+3. Select the desired permission for the action you wish to change.   
    - **Inherited**. Inherited for users in this Group from the Global Configuration, Tours Options.
-   
    - **Allowed**. Allowed for users in this Group.  
      Note: If this action is Denied at one of the higher levels, the Allowed permission here will not take effect. A Denied setting cannot be overridden.
-   
    - **Denied**. Denied for users in this Group.
-
 4. Click **Save** in **Toolbar** at top. When the screen refreshes, the Calculated Setting column will show the effective permission for this Group and Action.
 
 ## Toolbar
@@ -121,16 +101,10 @@ At the top of the page you will see the toolbar shown in the [Screenshot](#scree
 ## Quick Tips
 
 - There are 2 methods to insert an image into the tour's description using the TinyMCE editor.
-  
   1. The **CMS Content** dropdown list provides access to the **Media** screen that lets you browse image files and upload images.
-  
   2. The 'Insert' dropdown list is a simple form for which you need to know the image url. It is used for external images.
-
 - There are 2 ways tours can be created for multilingual environments:
-  
   1. Create one tour for each supported language.
-  
-  2. 2. Create one tour only for all languages and use language keys for title and description.
-
+  2. Create one tour only for all languages and use language keys for title and description.
 - Use **GUIDEDTOUR** in language keys as a convention wherever language
-   keys are used (for title and description).
+  keys are used (for title and description).
