@@ -99,10 +99,7 @@ At the top of the page you will see the toolbar shown in the [Screenshot](#scree
 ## Quick Tips
 
 - There are 2 methods to insert an image into the step's description using the TinyMCE editor.
-  
   1. The **CMS Content** dropdown list provides access to the **Media** screen that lets you browse image files and upload images.
-  
   2. The 'Insert' dropdown list is a simple form for which you need to know the image url. It is used for external images.
-
 - Use **GUIDEDTOUR** in language keys as a convention wherever language
    keys are used (for title and description).
