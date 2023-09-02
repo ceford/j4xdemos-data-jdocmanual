@@ -19,7 +19,7 @@ Select **System** → **Manage** Panel → **Administrator Modules** from the Ad
 
 ## Screenshot
 
-<img alt="Guided Tours module" src="https://docs.joomla.org/images/b/b5/Admin_Module_Guided_Tours.png" decoding="async" data-file-width="1280" data-file-height="1132" width="1280" height="1132">
+<img alt="Guided Tours module" src="https://docs.joomla.org/images/4/4c/Admin_module_guided_tours_en.png" decoding="async" width="1031" height="913" data-file-width="1031" data-file-height="913">
 
 ## Form Fields
 
@@ -29,7 +29,18 @@ Select **System** → **Manage** Panel → **Administrator Modules** from the Ad
 
 **Left Panel**
 
-- **Tour Count:** The maximum number of tours presented in the dropdown. Those and the remaining tours show in a modal window for easy selection.
+- **Contextual Tour Count.** (in Joomla 5) The maximum number of tours presented in the dropdown related to a particular page.
+- **Tour Count.** The maximum number of tours presented in the dropdown.
+
+In the following screenshot for Joomla 5, the module is expanded, showing a 3-parts dropdown.
+
+- the first section shows tours that are related to a page (or in the context of a page),
+- the second section shows tours that are not in context (set tour count to 0 to hide this section),
+- the third section offers access to a modal containing all tours.
+
+<img alt="Admin module guided tours sample" src="https://docs.joomla.org/images/2/2b/Admin_module_guided_tours_sample_en.png" decoding="async" width="247" height="395" data-file-width="247" data-file-height="395">
+
+The initial ordering of the tours is dictated by the tour order in the administrator's tours view.
 
 **Right Panel**
 
@@ -45,19 +56,19 @@ Select **System** → **Manage** Panel → **Administrator Modules** from the Ad
 
 ## Advanced Tab
 
-<img alt="Advanced parameters tab" src="https://docs.joomla.org/images/0/0f/Module_guidedtours_advanced.png" decoding="async" data-file-width="1231" data-file-height="803" width="1231" height="803">
+<img alt="Advanced parameters tab" src="https://docs.joomla.org/images/c/ca/Module_guidedtours_advanced_en.png" decoding="async" width="1231" height="803" data-file-width="1231" data-file-height="803">
 
 - **Layout.** If you have defined one or more alternative layouts for a module either in the template or Joomla! Core, you can select the layout to use for this module.
 - **Module Class.** A suffix applied to the CSS class of the Module. This allows you to create customized CSS styles that will apply just to this module. You would then modify the "user.css" file of your template to apply styling to this new class. Enter this parameter with a leading space to create a new CSS class for this module. Enter the parameter without a leading space to change the CSS class name for this module.
 - **Module Tag.** The HTML tag for the module to be placed in. By default this is a div tag but other HTML5 elements can also be used.
 - **Bootstrap Size.** (Values 0 to 12) This allows you to choose the width of the module via the span element built into bootstrap.
-- **Header Tag.** The HTML tag to use for the modules header or title. This can be an h1, h2, h3, h4, h5, h6 or a p tag. Note that you must use a module style (chrome) of html5 or add your custom module styles in <mytemplate>/html/modules.php.
+- **Header Tag.** The HTML tag to use for the modules header or title. This can be an h1, h2, h3, h4, h5, h6 or a p tag. Note that you must use a module style (chrome) of html5 or add your custom module styles in ``<mytemplate/html/modules.php`.
 - **Header Class.** Here you can add optional CSS classes to add to the modules header or title element.
 - **Module Style.** You can use this option to override the templates style for its position.
 
 ### Permissions Tab
 
-<img alt="Permissions tab" src="https://docs.joomla.org/images/5/5d/Module_guidedtours_permissions.png" decoding="async" data-file-width="1230" data-file-height="719" width="1230" height="719">
+<img alt="Permissions tab" src="https://docs.joomla.org/images/1/1c/Module_guidedtours_permissions_en.png" decoding="async" width="1230" height="719" data-file-width="1230" data-file-height="719">
 
 To change the permissions, do the following.
 
