@@ -5,7 +5,7 @@ Joomla's Date class is a helper class, extended from PHP's DateTime class, which
 
 '''Regarding the "JDate" class name:''' This page has been updated to utilise namespaced class names. `JDate`, `JApplication` and other similarly named classes you will see throughout the Joomla documentation are actually class aliases, maintained for legacy reasons. It is recommended to use namespaced access to Joomla classes, which will improve your development experience by providing better code hints and checks in your editor, leading to fewer errors. 
 
-You can view the full list of aliased classes [https://github.com/joomla/joomla-cms/blob/staging/libraries/classmap.php in this file inside the Joomla codebase].
+You can view the full list of aliased classes [in this file inside the Joomla codebase](https://github.com/joomla/joomla-cms/blob/staging/libraries/classmap.php).
 
 ## Creating a Date Instance
 All of the date helper methods require an instance of the Date class. To begin, you must create one. A Date object may be created in two ways. One is the typical native method of simply creating a new instance:
@@ -112,8 +112,9 @@ echo $date->format(Text::_('DATE_FORMAT_FILTER_DATETIME'));
 ### Quickly Outputting the Current Time
 
 There are two easy ways of doing this.
-# The HtmlHelper's date() method, if no date value is provided, will default to the current time. 
-# Factory::getDate() gets the current date as a Date object, which we can then format.
+- The HtmlHelper's date() method, if no date value is provided, will default to the current time. 
+- Factory::getDate() gets the current date as a Date object, which we can then format.
+
 
 ```php
 use Joomla\CMS\Factory;
