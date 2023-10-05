@@ -75,6 +75,7 @@ developer=database=inserting-updating-and-removing-data-using-jdatabase.md
 heading=coding-examples=Coding Examples
 developer=coding-examples=tips-and-tricks-for-joomla-4-developers.md
 developer=coding-examples=using-bootstrap-components-in-joomla-4.md
+developer=coding-examples=how-to-use-the-date-class.md
 
 heading=advanced-developer=Advanced Developer
 developer=advanced-developer=automated-system-testing.md
