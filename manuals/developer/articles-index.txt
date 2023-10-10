@@ -62,4 +62,5 @@ unclassified=ClientSideEvents=clientsideevents.md
 unclassified=Joomla_Entities=joomla-entities.md
 unclassified=Page_Builder=page-builder.md
 unclassified=Response_Formats=response-formats.md
-coding-examples=How_to_use_the_Date_class=how-to-use-the-date-class.mddeveloper-information=Package=package.md
+coding-examples=How_to_use_the_Date_class=how-to-use-the-date-class.md
+developer-information=Package=package.md
