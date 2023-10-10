@@ -1,4 +1,4 @@
-<!-- Filenam: Packge / Display title: Package -->
+<!-- Filename: Packgea / Display title: Package -->
 
 ## Note on the Component Dependent Modules
 
