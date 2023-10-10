@@ -17,6 +17,7 @@ developer-information=Deploying_an_Update_Server=deploying-an-update-server.md
 developer-information=Joomla_CodeSniffer=joomla-codesniffer.md
 developer-information=Joomla_Core_APIs=joomla-core-apis.md
 developer-information=Manifest_files=manifest-files.md
+developer-information=Package=package.md
 developer-information=Namespace_Conventions_In_Joomla=namespace-conventions-in-joomla.md
 developer-information=Setting_up_Eclipse_PDT_2020_and_Git_for_Pulls=setting-up-eclipse-pdt-2020-and-git-for-pulls.md
 developer-information=Setting_Up_Your_Local_Environment=setting-up-your-local-environment.md
@@ -61,3 +62,4 @@ unclassified=ClientSideEvents=clientsideevents.md
 unclassified=Joomla_Entities=joomla-entities.md
 unclassified=Page_Builder=page-builder.md
 unclassified=Response_Formats=response-formats.md
+coding-examples=How_to_use_the_Date_class=how-to-use-the-date-class.mddeveloper-information=Package=package.md
