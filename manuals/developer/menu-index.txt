@@ -15,6 +15,7 @@ developer=developer-information=setting-up-your-local-environment.md
 developer=developer-information=working-with-git-and-github.md
 developer=developer-information=setting-up-eclipse-pdt-2020-and-git-for-pulls.md
 developer=developer-information=manifest-files.md
+developer=developer-information=package.md
 developer=developer-information=namespace-conventions-in-joomla.md
 developer=developer-information=web-assets.md
 developer=developer-information=dependency-injection-in-joomla-4.md
