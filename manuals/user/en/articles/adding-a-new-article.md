@@ -1,6 +1,4 @@
-<!-- Filename: J4.x:Adding_a_New_Article / Display title: Adding a New Article -->
-
-Joomla!  4.0 <span id="main-portal-heading">**Tutorial**  
+Joomla!  4.0 / 5.0 <span id="main-portal-heading">**Tutorial**  
 Adding a New Article</span>
 
 ## Introduction
