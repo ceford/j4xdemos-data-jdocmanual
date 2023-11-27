@@ -7,11 +7,17 @@ the preliminary steps, setting up a hosting environment and creating a
 database, Joomla’s built-in web installer will set up your new site in
 just a few minutes. The previous steps:
 
+Test links:
+
+* [Hosting Setup](index.php?option=com_jdocmanual&data-path=user/en/getting-started/hosting-setup.md 
+"J4.x:Hosting Setup") tutorial for details.
+
+
 ### Hosting Setup
 
 If you have not yet set up a hosting environment you need to do it now,
 either on a hosting service or your local computer. Read the [Hosting
-Setup](jdoc-manual.html?data-path=user/en/getting-started/hosting-setup.md 
+Setup](jdoc-manual?data-path=user/en/getting-started/hosting-setup.md 
 "J4.x:Hosting Setup") tutorial for details.
 
 Also, there are some PHP settings that need to be sufficient for Joomla
