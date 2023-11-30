@@ -11,7 +11,7 @@ just a few minutes. The previous steps:
 
 If you have not yet set up a hosting environment you need to do it now,
 either on a hosting service or your local computer. Read the 
-[Hosting Setup](index.php?option=com_jdocmanual&view=manual&data-path=user/en/getting-started/hosting-setup.md)
+[Hosting Setup](jdocmanual?manual=user&heading=getting-started&filenamehosting-setup.md)
 tutorial for details.
 
 Also, there are some PHP settings that need to be sufficient for Joomla
