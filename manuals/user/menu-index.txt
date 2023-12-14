@@ -203,7 +203,7 @@ user=modules=how-do-you-create-a-custom-module-3f.md
 user=modules=how-to-control-module-display-when-linking-to-an-article-with-no-menu-item.md
 user=modules=how-do-you-add-a-paypal-button-3f.md
 
-heading=news=News
+heading=news-feeds=News Feeds
 user=news-feeds=using-rss-feeds-to-share-content.md
 user=news-feeds=how-do-you-display-an-rss-feed-3f.md
 

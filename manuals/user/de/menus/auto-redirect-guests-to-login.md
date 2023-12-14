@@ -1,4 +1,4 @@
-<!-- Dateiname: Auto_redirect_guests_to_login / Anzeigetitel: Gäste automatisch zum Login umleiten -->
+<!-- Filename: Auto_redirect_guests_to_login / Display title: Gäste automatisch zum Login umleiten -->
 
 Added for testing
 

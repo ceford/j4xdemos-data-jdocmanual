@@ -1,5 +1,4 @@
-<!-- Filename: Backup_Basics_for_a_Joomla!_Web_Site / Display title: Elementar das Cópias de Segurança para o Joomla! - Site da 
-Web -->
+<!-- Filename: Backup_Basics_for_a_Joomla!_Web_Site / Display title: Elementar das Cópias de Segurança para o Joomla! - Site da Web -->
 
 Always keep a recent backup of your site. Accidents happen, but there
 are many other reasons to have your backup files handy before the need

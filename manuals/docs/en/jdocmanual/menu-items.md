@@ -1,7 +1,9 @@
+<!-- Filename: ... / Display title: Menu Items -->
+
 ## New Menu Item
 
-To create a new menu item for a new article you need to select the 
-`Menu Stashes` list and select the Manual you are working on. The stash is a 
+To create a new menu item for a new article you need to select the
+`Menu Stashes` list and select the Manual you are working on. The stash is a
 list of headings and articles. The list controls which articles appear and
 in which order. You just need to enter a code line for the new item. The
 code lines look like this:
