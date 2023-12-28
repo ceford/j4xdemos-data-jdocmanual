@@ -166,11 +166,10 @@ XAMPP is an easy-to-install package that bundles the Apache web server,
 PHP, XDEBUG, and the MySQL database. This allows you to create the
 environment you need to run Joomla! on your local machine. The latest
 version of XAMPP is available at
-<a href="http://www.apachefriends.org/en/index.html"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">the XAMPP web site</a>. Downloads are
-available for Linux, Windows, Mac OS X and Solaris. Download the package
-for your platform.
+<a href="https://www.apachefriends.org/" class="external text" target="_blank"
+rel="nofollow noreferrer noopener">the Apache Friends web site</a>. 
+Downloads are available for Linux, Windows, Mac OS X and Solaris. 
+Download the package for your platform.
 
 *Important Note Regarding XAMPP and Skype:* Apache and Skype both use
 port 80 as an alternative for incoming connections. If you use Skype, go
@@ -184,10 +183,10 @@ not see a problem. But, to be safe, disable the option in Skype.
 Installation for Windows is very simple. You can use the XAMPP installer
 executable (for example,
 "xampp-windows-x64-7.4.4-0-VC15-installer.exe"). Detailed installation
-instructions for Windows are available
+instructions for Windows are available from the
 <a href="https://www.apachefriends.org/download.html"
 class="external text" target="_blank"
-rel="nofollow noreferrer noopener">here</a>.
+rel="nofollow noreferrer noopener">Apache Friends</a> web site.
 
 If you are on Windows XP or 2003 they are not supported by the main
 package but there are compatible versions of XAMPP for these platforms
