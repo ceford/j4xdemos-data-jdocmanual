@@ -272,3 +272,4 @@ users=Why_can't_a_user_see_anything_on_the_backend?=why-cant-a-user-see-anything
 users=User_Actions_Log=user-actions-log.md
 workflows=Workflow=workflow.md
 workflows=Workflow/Scenarios=workflow-scenarios.md
+hosting=Local_Hosting_on_Linux=local-hosting-on-linux.md
