@@ -121,7 +121,7 @@ user=help=joomla-help-system.md
 user=help=what-are-help-screens-3f.md
 
 heading=hosting=Hosting
-user=hosting=how-to-build-your-free-joomla-website.md
+user=installation-variations=how-to-build-your-free-joomla-website.md
 user=hosting=local-hosting-on-linux.md
 user=hosting=optional-technical-requirements.md
 user=hosting=moving-the-site-among-directories-sub-directories.md
