@@ -11,9 +11,7 @@ If you are new to Joomla and would like to see it in action without downloading 
 
 ### Step 1: Enter a suitable subdomain name
 
-<p class="center">
 <img alt="Launch-Joomla-homepage-information.png" src="https://docs.joomla.org/images/thumb/f/f6/Launch-Joomla-homepage-information.png/800px-Launch-Joomla-homepage-information.png" decoding="async" width="800" height="384" srcset="https://docs.joomla.org/images/thumb/f/f6/Launch-Joomla-homepage-information.png/1200px-Launch-Joomla-homepage-information.png 1.5x, https://docs.joomla.org/images/f/f6/Launch-Joomla-homepage-information.png 2x" data-file-width="1440" data-file-height="691" class="border">
-</p>
 
 Alice and Bob are probably taken but you can choose any name that is easy to type and to remember.
 
@@ -21,17 +19,13 @@ Alice and Bob are probably taken but you can choose any name that is easy to typ
 
 As this is a new installation it is best to select the latest stable version.
 
-<p class="center">
 <img alt="Launch-Joomla-select-version.png" src="https://docs.joomla.org/images/7/73/Launch-Joomla-select-version.png" decoding="async" width="292" height="333" data-file-width="292" data-file-height="333" class="border">
-</p>
 
 ### Step 3: Create an account
 
 Fill in your personal details and select the Register button.
 
-<p class="center">
 <img alt="Launch-Joomla-personal-details.png" src="https://docs.joomla.org/images/3/32/Launch-Joomla-personal-details.png" decoding="async" width="292" height="491" data-file-width="292" data-file-height="491" class="border">
-</p>
 
 **Notes**
 
@@ -47,17 +41,13 @@ You will shortly receive a 6 digit token on the phone number that you entered.
 
 ### Step 5: Verify Account
 
-<p class="center">
 <img alt="Launch-Joomla-verify-account.png" src="https://docs.joomla.org/images/c/c8/Launch-Joomla-verify-account.png" decoding="async" width="300" height="267" data-file-width="300" data-file-height="267" class="border">
-</p>
 
 Use the token to complete the process - you will be logged in to the CloudAccess.net control panel (CCP).
 
 ### Step 6: CloudAccess.net Control Panel
 
-<p class="center">
 <img alt="Launch-Joomla-cloud-access-control-panel.png" src="https://docs.joomla.org/images/0/0f/Launch-Joomla-cloud-access-control-panel.png" decoding="async" width="720" height="346" data-file-width="720" data-file-height="346" class="border">
-</p>
 
 You will also receive an email with your free site login credentials. It may take a few minutes for your free Joomla site to become available. If you have any problems, open a New Ticket in the CPP and the support team will fix whatever needs fixing.
 
@@ -73,9 +63,7 @@ It is a simple as that and once your site is up and running, you can start creat
 
 Joomla is managed almost entirely from its Administrator pages. However, from time to time it is useful to have access to system tools for problem solving purposes. Select the Manage button in the CPP Your Products page for access to these tools.
 
-<p class="center">
 <img alt="Launch-Joomla-cpp-manage.png" src="https://docs.joomla.org/images/3/3a/Launch-Joomla-cpp-manage.png" decoding="async" width="720" height="346" data-file-width="720" data-file-height="346" class="border">
-</p>
 
 ### phpMyAdmin
 
