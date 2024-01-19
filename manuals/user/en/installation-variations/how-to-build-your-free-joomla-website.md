@@ -32,6 +32,7 @@ Fill in your personal details and select the Register button.
 - **Email Address:** Your email address is used to login to your Cloud Control Panel (CCP) and to send you messages to complete the set up of your account. It must be a valid account. It is also used for a Super User account in your free joomla.com site.
 - **Country:** This data is used to track where the signups come from.
 - **Terms of Service:** You are required to agree to the Terms of Service available from the link adjacent to the check box. If you agree to sign up for the Joomla marketing campaign you will be sent occasional Joomla marketing emails. This is not a requirement.
+- **Problems:** If the form does not accept your personal data please send an e-mail with your registration details, whether you want Joomla 4 or 5 and what .joomla.com subdomain you want to sales@cloudaccess.net - the account will then be created manually.
 
 ### Step 4: Unlock Premium Features
 
