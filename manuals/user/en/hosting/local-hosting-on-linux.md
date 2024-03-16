@@ -20,7 +20,7 @@ enter **apache** and select `Search`. Select the `apache2` checkbox and in
 the pop-up label select `Mark for Installation`. Another pop-box will show
 a list of additional packages required to support apache. Select `Mark`:
 
-<img src="images/manuals/user/en/hosting/synaptic-package-manager-gui.png" width="795" height="507" alt="Alt attribute = Synaptic Package Manager GUIImage caption = Synaptic Package Manager GUI" class="cover">
+<img src="images/manuals/user/en/hosting/synaptic-package-manager-gui.png" width="795" height="507" alt="Synaptic Package Manager GUI" caption="Synaptic Package Manager GUI" class="cover">
 
 Select the `Apply` button in the top Toolbar and the `Apply` button in the
 Summary dialog. Apache will be installed and configured, the process ending
@@ -30,17 +30,17 @@ You can confirm that Apache is installed and working by opening your
 browser, Firefox by default in a new Linux Mint install, and entering
 **localhost** in the URL bar. You should see the Ubuntu Apache2 Default Page:
 
-<img src="images/manuals/user/en/hosting/apache-default-page.png" width="1280" height="999" alt="Alt attribute = Apache Default PageImage caption = Apache Default Page" class="cover">
+<img src="images/manuals/user/en/hosting/apache-default-page.png" width="1280" height="999" alt="Apache Default Page" caption="Apache Default Page" class="cover">
 
 The page contains some useful information about file locations that may
-not be so readily available later so you might like to print this page to 
+not be so readily available later so you might like to print this page to
 paper or a pdf file.
 
 ## Install PHP with the CLI
 
 It is probably best to install PHP using the command line. One reason for this
-is that, at the time of writing, the Synaptic Package Manager only offers PHP8.1 
-although PHP8.2 has been available for some time and can be installed from a 
+is that, at the time of writing, the Synaptic Package Manager only offers PHP8.1
+although PHP8.2 has been available for some time and can be installed from a
 third party repository. There is a good description of the procedure in this
 [tutorial](https://php.watch/articles/install-php82-ubuntu-debian) with Quickstart
 and Detailed sections.
@@ -67,10 +67,10 @@ Both work with Joomla! 5 but it is not easy to change from one to the other.
 Tables have to be exported and imported. Joomla! 5 requires specific minimum
 versions which Linux Mint offers via the Synaptic Package Manager.
 
-Open the Synaptix Package Manager GUI and search for either mysql-server or
+Open the Synaptic Package Manager GUI and search for either mysql-server or
 mariadb-server. Select the checkbox for the item ending in -server. Select
 `Mark for Installation` and them `Apply` in the top Toolbar. You can open the
-Details panel to see what is happening during the installtion. Select `Close`
+Details panel to see what is happening during the installation. Select `Close`
 when done.
 
 You can test to see whether your database is working by entering `mysql` in
@@ -98,10 +98,10 @@ as root in the Terminal window:
 ```bash
 sudo nano /etc/phpmyadmin/config.inc.php
 ```
-Find the two lines containg // $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
+Find the two lines containing // $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
 and remove the leading slashes to uncomment them. Both of them!
 
-Then login to mysql from the command line and create a new user and grant 
+Then login to mysql from the command line and create a new user and grant
 that user all privileges:
 ```bash
 sudo mysql
@@ -122,9 +122,9 @@ index.php in that directory with the following content:
 ```php
 <?php echo phpinfo();
 ```
-Reload localhost. There is no change! Enter **localhost/index.php** in the 
-URL bar and you will see a page containing PHP Version information. This 
-behaviour is controlled by the default Apache configuration which it can be 
+Reload localhost. There is no change! Enter **localhost/index.php** in the
+URL bar and you will see a page containing PHP Version information. This
+behaviour is controlled by the default Apache configuration which it can be
 changed by enabling the Apache `dir` module and editing its configuration:
 
 ```bash
@@ -143,10 +143,10 @@ of the index.php file, a PHP Information page.
 
 ## Virtual Hosts
 
-In a default Linux installation the system files are in the root folder (/) 
-and user data files are in the home folder (/home/myusername). This is a 
-potential because the default Apache user, www-data, may not have appropriate 
-permissions to create files in user file space. The best solution is to create 
+In a default Linux installation the system files are in the root folder (/)
+and user data files are in the home folder (/home/myusername). This is a
+potential because the default Apache user, www-data, may not have appropriate
+permissions to create files in user file space. The best solution is to create
 Virtual Hosts.
 
 First, a module is needed that allows Apache to switch its user and group to
@@ -165,9 +165,9 @@ sudo cp 000-default.conf username.localhost.conf
 sudo nano username.localhost.conf
 ```
 
-The default site configuration file contains comments to explain its 
-content. They are left out in the illustration below. Uncomment the 
-ServerName line and change all instance of `username` to your own 
+The default site configuration file contains comments to explain its
+content. They are left out in the illustration below. Uncomment the
+ServerName line and change all instance of `username` to your own
 username.
 
 ```xml
@@ -228,7 +228,7 @@ different sites may be set up in different sub-directories. For example,
 Joomla 4 and Joomla 5 sites, Bulletin Boards, Wikis and so on. When you have
 a lot of test sites it is difficult to remember all of the subdirectory names!
 
-## Home Netwok Access
+## Home Network Access
 
 If you have another computer on your home network you would probably like to
 access your Linux site from there too. To make that work you need another
@@ -261,9 +261,9 @@ your browser.
 
 ## Partition Notes
 
-Softaware installed using the Synaptic Package Manager is usually in the Linux
+Software installed using the Synaptic Package Manager is usually in the Linux
 root directory (/). User data is located in the home directory (/home). In a
-simple  installation these directoriess are in the same physical disk
+simple  installation these directories are in the same physical disk
 partition.
 
 In a more complex installation, perhaps with the option to boot different
