@@ -1,5 +1,7 @@
 # GFM data for Jdocmanual
 
+Archived 2024-03-26 as the Latest Jdocmanual version uses separate repos for each manual.
+
 This repository contains files in GitHub Flavoured Markdown format converted
 from MediaWiki format. The files were personally selected as related
 to Joomla 4 or 5 and are organised into four manuals:
